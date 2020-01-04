@@ -1,8 +1,11 @@
 <script context="module">
+	import { _, locale, locales } from 'svelte-i18n';
+	import { stores } from "@sapper/app";
+
 	export async function preload({ params, query }) {
 		// the `slug` parameter is available because
 		// this file is called [slug].svelte
-		const res = await this.fetch(`blog/${params.slug}.json`);
+		const res = await this.fetch(`{$locales}/blog/${params.slug}.json`);
 		const data = await res.json();
 
 		if (res.status === 200) {
@@ -57,6 +60,7 @@
 	<title>{post.title}</title>
 </svelte:head>
 
+<p>{post.printDate} ~ {post.printReadingTime}</p>
 <h1>{post.title}</h1>
 
 <div class='content'>

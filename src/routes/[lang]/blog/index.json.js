@@ -3,7 +3,11 @@ import posts from './_posts.js';
 const contents = JSON.stringify(posts.map(post => {
 	return {
 		title: post.title,
-		slug: post.slug
+		slug: post.slug,
+		lang: post.lang,
+		readingTime: post.printReadingTime,
+		excerpt: post.excerpt,
+		printDate: post.printDate
 	};
 }));
 
