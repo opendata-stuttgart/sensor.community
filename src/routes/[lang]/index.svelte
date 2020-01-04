@@ -5,6 +5,7 @@
     * {
         -webkit-tab-highlight-color: transparent;
     }
+
     .grid--gray {
         background-image: radial-gradient(#ddd 3px, transparent 3px);
         background-size: 24px 24px;
@@ -32,12 +33,23 @@
     <title>{$_('index.metaTitle')}</title>
 </svelte:head>
 
+<section>
 <div class="bg-gray-200 md:overflow-hidden">
-    <div class="px-4 py-16">
+    <div class="px-4 py-10">
         <div class="relative md:max-w-2xl md:mx-auto text-center">
-            <h1 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">
-                {$_('index.h1')}
-            </h1>
+            <div class="p-2">
+                <div class="inline-flex items-center bg-white leading-none text-pink-600 rounded-full p-2 shadow text-sm">
+                    <span class="inline-flex bg-pink-600 text-white rounded-full h-6 px-3 justify-center items-center text-">Donate</span>
+                    <a href="https://www.betterplace.org/de/projects/38071-fur-das-projekt-luftdaten-info-feinstaub-sensor-spenden" target="_blank" rel="noopener, noreferrer, nofollow">
+                        <span class="inline-flex px-2">Help us keep the network alive by donating a small amount 👉 here. 💓</span>
+                    </a>
+                </div>
+            </div>
+
+            <!--            <h1 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">-->
+
+            <!--                {$_('index.h1')}-->
+            <!--            </h1>-->
             <!--			<div class="hidden md:block h-40 w-40 rounded-full bg-blue-800 absolute right-0 bottom-0 -mb-64 -mr-48"></div>-->
             <!--			<div class="hidden md:block h-5 w-5 rounded-full bg-yellow-500 absolute top-0 right-0 -mr-40 mt-32"></div>-->
         </div>
@@ -51,9 +63,8 @@
         ></path>
     </svg>
 </div>
-
 <div class="max-w-6xl mx-auto bg-white shadow-lg relative z-20 hidden md:block"
-     style="margin-top: -23rem; border-radius: 20px;">
+     style="margin-top: -20rem; border-radius: 20px;">
     <!--	<div class="h-20 w-20 rounded-full bg-yellow-500 absolute top-0 left-0 -ml-10 -mt-10"-->
     <!--			style="z-index: -1;">-->
     <!--	</div>-->
@@ -62,12 +73,19 @@
     <!--			style="z-index: -1;">-->
     <!--	</div>-->
 
-    <div class="h-10 bg-white rounded-t-lg border-b border-gray-100"></div>
     <div class="flex" style="height: 600px;">
-        <iframe src="https://maps.sensor.community/?selection=PM25" style="width: 100%; border: none; overflow: hidden;"
+        <iframe src="https://maps.sensor.community/?selection=PM25"
+                style="width: 96%; height: 95%; margin: auto; overflow: hidden;"
                 scrolling="no"></iframe>
     </div>
 </div>
+<div class="px-4 py-16">
+    <div class="relative md:max-w-2xl md:mx-auto text-center">
+        <h1 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">
+            {$_('index.h1')}</h1>
+    </div>
+</div>
+</section>
 
 <div class="px-4 md:hidden">
     <div class="-mt-10 max-w-4xl mx-auto bg-white shadow-lg relative z-20"
@@ -78,13 +96,23 @@
     </div>
 </div>
 
-<p class="text-center p-4 text-gray-600 mt-10">
-    Created by
-    <a class="border-b text-blue-500" href="https://twitter.com/mithicher" target="_blank">@mithicher</a>. Inspired by
-    dribble shot
-</p>
+<section class="bg-gray-200 py-8">
+    <div class="container mx-auto px-4 text-center">
+        <p class="text-xl md:text-2xl max-w-md mx-auto leading-normal mb-8">Created your own DIY particulate matter sensor or noise senor with our.</p>
+        <a href="" class="bg-white px-8 py-2 mx-2 font-semibold text-xl no-underline hover:bg-teal-600 hover:text-white">Build your sensor </a>
+    </div>
+</section>
 
-<div class="relative md:max-w-2xl md:mx-auto text-center">
+<!--<p class="text-center p-4 text-gray-600 mt-10">-->
+<!--    Created your own DIY particulate matter sensor or noise senor with our-->
+<!--    <a class="border-b text-blue-500" href="" target="_blank">guide</a>.<br>-->
+<!--    <a href="#" class="cursor-pointer bg-teal-600 hover:bg-teal-500 shadow-xl px-5 py-2 inline-block text-teal-100 hover:text-white rounded">Build</a>-->
+
+<!--</p>-->
+
+
+<section>
+<div class="relative md:max-w-2xl md:mx-auto text-center pt-12">
     <h2 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">
         {$_('index.section1')}
     </h2>
@@ -155,7 +183,8 @@
                 <div class="flex-shrink pl-1 pr-4"><i class="fas fa-inbox fa-2x fa-fw fa-inverse"></i></div>
                 <div class="flex-1 text-right">
                     <h5 class="text-white">Github Commits</h5>
-                    <h3 class="text-white text-3xl">1.343 <span class="text-pink-400"><i class="fas fa-caret-up"></i></span>
+                    <h3 class="text-white text-3xl">1.343 <span class="text-pink-400"><i
+                            class="fas fa-caret-up"></i></span>
                     </h3>
                 </div>
             </div>
@@ -169,18 +198,4 @@
             <span class="inline-flex px-2">Build your own sensor</span>
         </div>
     </div>
-
-    <div class="p-2">
-        <div class="inline-flex items-center bg-white leading-none text-pink-600 rounded-full p-2 shadow text-sm">
-            <span class="inline-flex bg-pink-600 text-white rounded-full h-6 px-3 justify-center items-center text-">Donate</span>
-            <span class="inline-flex px-2">Help us keep the network alive by donating a small amount.</span>
-        </div>
-    </div>
-
-    <div class="p-2">
-        <div class="inline-flex items-center bg-white leading-none text-purple-600 rounded-full p-2 shadow text-teal text-sm">
-            <span class="inline-flex bg-indigo-600 text-white rounded-full h-6 px-3 justify-center items-center">Indigo</span>
-            <span class="inline-flex px-2">Praesent ex nibh, laoreet id luctus vitae, porttitor at turpis. </span>
-        </div>
-    </div>
-</div>
+</section>
