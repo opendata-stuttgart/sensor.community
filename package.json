@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "sensor.community",
+  "description": "sparkles new shiny website for dust and noise measuring project sensor.community based on sapper and svelte",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev --ext '.svexy .svelte .svx'",
@@ -14,9 +14,11 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
+    "@rollup/plugin-json": "^4.0.1",
     "compression": "^1.7.1",
     "polka": "next",
-    "sirv": "^0.4.0"
+    "sirv": "^0.4.0",
+    "svelte-i18n": "^2.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

@@ -1,5 +1,24 @@
+<script context="module">
+
+	import { _, locale, locales,  isLoading, waitLocale } from 'svelte-i18n';
+
+	export async function preload() {
+		return waitLocale()
+	}
+</script>
+
 <script>
+	import { stores } from '@sapper/app';
+
 	export let segment;
+	const { page } = stores();
+	$: path = $page.path;
+	export let path;
+
+	$: pathWithoutLang = path
+			.split("/")
+			.slice(2)
+			.join("/");
 </script>
 
 <style>
@@ -50,12 +69,21 @@
 
 <nav>
 	<ul>
-		<li><a class:selected='{segment === undefined}' href='.'>home</a></li>
-		<li><a class:selected='{segment === "about"}' href='about'>about</a></li>
-		<li><a class:selected='{segment === "foobar"}' href='foobar'>foobar</a></li>
+		<li><a class:selected="{segment === `/${locale}` ? 'selected' : ''}" href='.'>{$_('nav.home')}</a></li>
+		<li><a class:selected="{segment === `/${locale}/about` ? 'selected' : ''}" href='{$locale}/about'>{$_('nav.docs')}</a></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch class:selected='{segment === "blog"}' href='blog'>blog</a></li>
+		<li><a rel=prefetch class:selected="{segment === `/${locale}/blog` ? 'selected' : ''}" href='{$locale}/blog'>blog</a></li>
+		{#each $locales as item}
+			<li>
+				<a class="a"
+				   class:selected={$locale.includes(item)}
+				   href={item}{`/${pathWithoutLang}`}
+				   on:click={() => ($locale = item)}>
+					{item}
+				</a>
+			</li>
+		{/each}
 	</ul>
 </nav>

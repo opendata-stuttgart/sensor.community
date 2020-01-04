@@ -6,6 +6,7 @@ import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
+import json from '@rollup/plugin-json'
 import * as path from "path";
 import { mdsvex } from 'mdsvex';
 
@@ -47,6 +48,10 @@ export default {
         dedupe
       }),
       commonjs(),
+      json({
+        namedExports: false,
+        compact: !dev,
+      }),
 
       legacy &&
         babel({
@@ -104,7 +109,11 @@ export default {
       resolve({
         dedupe
       }),
-      commonjs()
+      commonjs(),
+      json({
+        namedExports: false,
+        compact: !dev,
+      })
     ],
     external: Object.keys(pkg.dependencies).concat(
       require('module').builtinModules ||

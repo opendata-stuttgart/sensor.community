@@ -1,3 +1,7 @@
+<script>
+	import { _ } from 'svelte-i18n'
+
+</script>
 <style>
 	h1, figure, p {
 		text-align: center;
@@ -33,10 +37,10 @@
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>{$_('index.metaTitle')}</title>
 </svelte:head>
 
-<h1 class='text-gray-800'>Great success!</h1>
+<h1 class='text-gray-800'>{$_('index.tile1')}!</h1>
 
 <figure>
 	<img alt='Borat' src='great-success.png'>

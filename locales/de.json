@@ -1,0 +1,27 @@
+{
+  "index": {
+    "h1": "Sapper Vorlage!",
+    "tagline" : "Die nächste kleine Sache in der Webentwicklung",
+    "tile1" : "Sapper ist ein Application Framework basierend auf Svelte - größere Apps mit kleinerem Footprint bauen",
+    "metaDescription": "Sapper project template",
+    "metaTitle": "Sapper project template",
+    "success": "Klasse!",
+    "highFive": "High five",
+    "tryEditing": "Try editing this file (src/routes/about.svelte) to test live reloading."
+  },
+  "docs": {
+    "h1": "Dokumentation",
+    "metaDescription": "Sapper project template",
+    "metaTitle": "Dokumentation"
+  },
+  "blog": {
+    "h1": "Neuigkeiten",
+    "metaDescription": "Neugikeiten",
+    "metaTitle": "Neugikeiten"
+  },
+  "nav": {
+    "home": "Home",
+    "docs": "Dokumentation",
+    "blog": "Blog"
+  }
+}

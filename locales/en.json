@@ -1,0 +1,34 @@
+{
+  "index": {
+    "h1": "Sapper project template!",
+    "tagline": "The next small thing in web development",
+    "tile1": "Sapper is an application framework powered by Svelte — build bigger apps with a smaller footprint",
+    "metaDescription": "Sapper project template",
+    "metaTitle": "Sapper project template",
+    "success": "Great success!",
+    "highFive": "High five",
+    "tryEditing": "Try editing this file (src/routes/about.svelte) to test live reloading."
+  },
+  "docs": {
+    "h1": "Documentation",
+    "content": "Sapper Template!",
+    "metaDescription": "Sapper project template",
+    "metaTitle": "Documentation"
+  },
+  "blog": {
+    "h1": "News",
+    "metaDescription": "News",
+    "metaTitle": "News"
+  },
+  "nav": {
+    "home": "Home",
+    "docs": "Docs",
+    "blog": "Blog"
+  },
+  "error": {
+    "errorStatus" : "Encountered a {status} error.",
+    "reloadPage" : "Please try reloading the page.",
+    "offline" : "It looks like you're offline.",
+    "submitError" : "If the error persists, please drop by <a href=\"chat.sensor.community\">Discourse forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
+  }
+}
