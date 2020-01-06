@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import { extract_frontmatter, extract_metadata, langs, link_renderer } from './markdown.js';
-import { make_session_slug_processor } from './slug';
+import { extract_frontmatter, extract_metadata, langs, link_renderer } from '../../site-kit/utils/markdown';
+import { make_session_slug_processor } from '../../site-kit/utils/slug';
 import marked from 'marked';
 import hljs from 'highlight.js';
 

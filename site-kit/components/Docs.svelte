@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-	import GuideContents from './GuideContents.svelte'; // TODO rename
+	import GuideContents from './GuideContents.svelte';
 	import Icon from './Icon.svelte';
 	import { getFragment } from '../utils/navigation';
 
@@ -74,7 +74,7 @@
 <style>
 	aside {
 		position: fixed;
-		background-color: white;
+		margin-top: 1rem;
 		left: 0.8rem;
 		bottom: 0.8rem;
 		width: 2em;
@@ -94,8 +94,8 @@
 	}
 
 	aside.open {
-		width: calc(100vw - 3rem);
-		height: calc(100vh - var(--nav-h));
+		width: 100vw;
+		height: 100vh;
 	}
 
 	aside.open::before {
@@ -117,29 +117,30 @@
 		bottom: 1.9em;
 		width: calc(100% - 2rem);
 		height: 2em;
-		background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,1) 100%);
+		/*background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,1) 100%);*/
 		pointer-events: none;
 	}
 
 	.sidebar {
 		position: absolute;
-		font-family: var(--font);
 		overflow-y: auto;
 		width: 100%;
 		height: 100%;
 		padding: 4em 1.6rem 2em 3.2rem;
 		bottom: 2em;
+		color: white;
+		background-color: #1a202c;
 	}
 
 	.content {
 		width: 100%;
 		margin: 0;
-		padding: var(--top-offset) var(--side-nav);
+		padding: var(--side-nav);
 		tab-size: 2;
 		-moz-tab-size: 2;
 	}
 
-	@media (min-width: 832px) { /* can't use vars in @media :( */
+	@media (min-width: 832px) {
 		aside {
 			display: block;
 			width: var(--sidebar-w);
@@ -149,21 +150,19 @@
 			overflow: hidden;
 			box-shadow: none;
 			border: none;
-			overflow: hidden;
 			background-color: var(--second);
-			color: white;
 		}
 
 		aside.open::before {
 			display: none;
 		}
 
-		aside::after {
-			content: '';
-			bottom: 0;
-			height: var(--top-offset);
-			background: linear-gradient(to bottom, rgba(103,103,120,0) 0%, rgba(103,103,120,0.7) 50%, rgba(103,103,120,1) 100%);
-		}
+		/*aside::after {*/
+		/*	content: '';*/
+		/*	bottom: 0;*/
+		/*	height: var(--top-offset);*/
+		/*	background: linear-gradient(to bottom, rgba(103,103,120,0) 0%, rgba(103,103,120,0.7) 50%, rgba(103,103,120,1) 100%);*/
+		/*}*/
 
 		aside button {
 			display: none;
@@ -171,7 +170,6 @@
 
 		.sidebar {
 			padding: var(--top-offset) 0 6.4rem 3.2rem;
-			font-family: var(--font);
 			overflow-y: auto;
 			height: 100%;
 			bottom: auto;
@@ -194,10 +192,9 @@
 	}
 
 	.content h2 {
-		margin-top: 8rem;
-		padding: 2rem 1.6rem 4rem 0.2rem;
+		margin-top: 2rem;
+		padding: 1rem 1rem 2rem 0.2rem;
 		border-top: var(--border-w) solid #6767785b; /* based on --second */
-		color: var(--text);
 		line-height: 1;
 		font-size: var(--h3);
 		letter-spacing: .05em;
@@ -230,7 +227,8 @@
 		left: -1.3em;
 		opacity: 0;
 		transition: opacity 0.2s;
-		border: none !important; /* TODO get rid of linkify */
+		/* TODO get rid of linkify */
+		border: none !important;
 	}
 
 	@media (min-width: 768px) {
@@ -251,7 +249,8 @@
 	.content :global(h3),
 	.content :global(h3 > code) {
 		margin: 6.4rem 0 0 0;
-		padding: 2rem 1.6rem 5.6rem .2rem;
+		padding: 2rem 1.6rem 2.6rem .2rem;
+		font-size: 	var(--h4);
 		color: var(--text);
 		border-top: var(--border-w) solid #6767781f; /* based on --second */
 		background: transparent;
@@ -278,7 +277,7 @@
 		font-size: 2.4rem;
 		color: var(--second);
 		margin: 6.4rem 0 1.6rem 0;
-		padding-left: 0;
+		/*padding-left: 0;*/
 		background: transparent;
 		line-height: 1;
 		padding: 0;

@@ -43,7 +43,7 @@
 	.reference-toc li {
 		display: block;
 		line-height: 1.2;
-		margin: 0 0 4rem 0;
+		margin: 0 0 3rem 0;
 	}
 
 	a {
@@ -65,7 +65,8 @@
 
 	.subsection {
 		display: block;
-		font-size: 1.6rem;
+		font-size: 1rem;
+		color: white;
 		font-family: var(--font);
 		padding: 0 0 0.6em 0;
 	}

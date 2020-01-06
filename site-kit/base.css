@@ -1,6 +1,16 @@
+/*
+-----------------------------------------------
+	vars – css custom-properties
+
+	NOTE
+	- some vars change inside media-queries!
+	- under normal conditions, there's no need to touch these
+-----------------------------------------------
+*/
 :root {
-	--top-offset:  6rem;
-	--sidebar-w:  30rem;
+	--nav-h:       6rem;
+	--top-offset:  5rem;
+	--sidebar-w:  25rem;
 	--sidebar-mid-w: 36rem;
 	--sidebar-large-w: 48rem;
 	--main-width: 80rem;
@@ -14,11 +24,116 @@
 @media screen and (min-width: 768px) {
 	:root {
 		--side-page:  14vw;
-		--top-offset: 10rem;
+		--top-offset: 3rem;
 		--side-nav: 4.8rem;
 	}
 }
 
+/*	theme vars */
+.theme-default {
+	--back:       	#ffffff;
+	--back-light: 	#f6fafd;
+	--back-api: 		#eff8ff;
+	--prime:      	#ff3e00;
+	--second:     	#676778;
+	--flash:      	#40b3ff;
+	--heading:	var(--second);
+	--text:      		#444;
+	--sidebar-text: rgba(255, 255, 255, .75);
+	--border-w:  		.3rem; /* border-width  */
+	--border-r:  		.4rem; /* border-radius */
+}
+
+/*	typo vars */
+.typo-default {
+	--code-fs: 1.3rem;
+	--h6:      1.4rem;
+	--h5:      1.6rem;
+	--h4:      1.8rem; /* default font-size */
+	--h3:      2.6rem;
+	--h2:        3rem;
+	--h1:      3.2rem;
+	--linemax:   42em; /* max line-length */
+	--lh:  		 	  1.5; /* base line-height */
+}
+
+body {
+	--font: 'Overpass', sans-serif;
+	--font-mono: 'Fira Mono', monospace;
+}
+
+
+/*	fonts ---------------------------------- */
+/* overpass-300normal - latin */
+@font-face {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 300;
+	src:
+		local('Overpass Light '),
+		local('Overpass-Light'),
+		url('/fonts/overpass/overpass-latin-300.woff2') format('woff2');
+}
+
+/* overpass-600normal - latin */
+@font-face {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 600;
+	src:
+		local('Overpass Bold '),
+		local('Overpass-Bold'),
+		url('/fonts/overpass/overpass-latin-600.woff2') format('woff2');
+}
+
+/* fira-mono-400normal - latin */
+@font-face {
+	font-family: 'Fira Mono';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Fira Mono Regular '),
+		local('Fira Mono-Regular'),
+		url('/fonts/fira-mono/fira-mono-latin-400.woff2') format('woff2');
+}
+
+/*	base reset ----------------------------- */
+html {
+	font-size: 62.5%;
+	-webkit-text-size-adjust: 100%;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+
+html,
+body,
+#sapper {
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+/*	link reset ----------------------------- */
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+a:hover, a:active { color: var(--flash) }
+a:focus { outline: none }
+
+/*
+-----------------------------------------------
+	global styles
+-----------------------------------------------
+*/
 
 /*	typography ----------------------------- */
 body {
@@ -181,7 +296,31 @@ button > svg,
 	color: currentColor;
 }
 
+/*  links ------------------------------------- */
+a {
+	position: relative;
+	padding: 0 0 1px 0;
+	border-bottom: 1px solid currentColor;
+	user-select: none;
+	color: var(--prime);
+	transition: color .2s, border .2s, padding .2s;
+}
 
+a:hover  {
+	color: var(--flash);
+}
+
+a:hover {
+	padding: 0;
+	border-bottom: 2px solid currentColor;
+}
+
+a.no-underline {
+	border-bottom: none;
+	padding: 0;
+}
+
+/* a:hover:not(.disabled) > .icon { stroke: var(--flash) } */
 
 /*  lists ---------------------------------- */
 .listify ol,

@@ -51,7 +51,7 @@
 	}
 </style>
 
-<div class="border-teal-500 border-t-8 z-10">
+<div class="border-teal-500 border-t-8 z-50">
 <nav class="relative bg-white border-b-2 border-gray-300 text-gray-700 z-50">
 	<div class="container mx-auto flex justify-between">
 		<div class="relative block p-4 lg:p-4 text-xl text-teal-600">Logo</div>

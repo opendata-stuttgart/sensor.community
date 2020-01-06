@@ -24,7 +24,7 @@
 					</span>
 
 				</div>
-				<div class="w-full md:w-1/2 my-12"><img src="https://lottiefiles.com/images/avatars/team.png"></div>
+				<div class="w-full md:w-1/2 my-12"><img src="team.jpg"></div>
 			</div>
 
 			<h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">

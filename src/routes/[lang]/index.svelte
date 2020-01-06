@@ -10,38 +10,6 @@
         -webkit-tab-highlight-color: transparent;
     }
 
-    .grid--gray {
-        background-image: radial-gradient(#ddd 3px, transparent 3px);
-        background-size: 24px 24px;
-    }
-
-    .percentage {
-        background: repeating-linear-gradient(
-                to right,
-                #f4f4f4,
-                #f4f4f4 1px,
-                #fff 1px,
-                #fff 12%
-        );
-    }
-
-    .donut {
-        background: radial-gradient(white 40%, transparent 41%),
-        conic-gradient(#dd6b20 0% 35%, #4fd1c5 35% 60%, #3182ce 60% 100%);
-        border-radius: 50%;
-    }
-
-    /*#particles-js {*/
-    /*    position: absolute;*/
-    /*    width: 100%;*/
-    /*    height: 25%;*/
-    /*    z-index: 1;*/
-    /*}*/
-
-    /*canvas {*/
-    /*    display: block;*/
-    /*    vertical-align: bottom;*/
-    /*}*/
     #particles-js {
         position: absolute;
         width: 100%;

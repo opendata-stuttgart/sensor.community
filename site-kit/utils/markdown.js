@@ -1,4 +1,4 @@
-import * as fleece from 'golden-fleece';
+import * as fleece from "golden-fleece";
 
 export function extract_frontmatter(markdown) {
 	const match = /---\r?\n([\s\S]+?)\r?\n---/.exec(markdown);
