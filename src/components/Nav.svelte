@@ -8,7 +8,7 @@
 
 <script>
 	import { stores } from '@sapper/app';
-	import { _, locale, locales,  isLoading } from 'svelte-i18n';
+	import { _, locale, locales } from 'svelte-i18n';
 	export let segment;
 	const { page } = stores();
 	$: path = $page.path;
@@ -49,46 +49,9 @@
 	.hoverable:hover .mega-menu {
 		display: block;
 	}
-
-
-	/* #toggle Class Styles
-    –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-	.toggleable > label:after {
-		content: "\25BC";
-		font-size: 10px;
-		padding-left: 6px;
-		position: relative;
-		top: -1px;
-	}
-
-	.toggle-input {
-		display: none;
-	}
-	.toggle-input:not(checked) ~ .mega-menu {
-		display: none;
-	}
-
-	.toggle-input:checked ~ .mega-menu {
-		display: block;
-	}
-
-	.toggle-input:checked + label {
-		color: white;
-		background: #2c5282; /*@apply bg-teal-500 */
-	}
-
-	.toggle-input:checked ~ label:after {
-		content: "\25B2";
-		font-size: 10px;
-		padding-left: 6px;
-		position: relative;
-		top: -1px;
-	}
-
 </style>
 
-<div class="border-teal-500 border-t-8">
+<div class="border-teal-500 border-t-8 z-10">
 <nav class="relative bg-white border-b-2 border-gray-300 text-gray-700 z-50">
 	<div class="container mx-auto flex justify-between">
 		<div class="relative block p-4 lg:p-4 text-xl text-teal-600">Logo</div>
@@ -101,7 +64,7 @@
 
 			<!--Hoverable Link-->
 			<li class="hoverable hover:bg-teal-500 hover:text-white">
-				<a href='{$locale}/about' class:selected="{segment === `/${locale}/about` ? 'selected' : ''}" class="relative block py-6 px-4 lg:p-5 text-sm lg:text-base font-bold hover:bg-teal-500 hover:text-white">{$_('nav.docs')}</a>
+				<a href='{$locale}/docs' class:selected="{segment === `/${locale}/docs` ? 'selected' : ''}" class="relative block py-6 px-4 lg:p-5 text-sm lg:text-base font-bold hover:bg-teal-500 hover:text-white">{$_('nav.docs')}</a>
 				<div class="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-teal-500">
 					<div class="container mx-auto w-full flex flex-wrap justify-between mx-2">
 						<div class="w-full text-white mb-8">
@@ -192,26 +155,30 @@
 			</a>
 			</li>
 
-
-			<!--Toggleable Link-->
 			<li class="hoverable hover:bg-teal-500 hover:text-white">
-				<input type="checkbox" value="selected" id="toggle-one" class="toggle-input">
-				<label for="toggle-one" class="block cursor-pointer py-6 px-4 lg:p-5 text-sm lg:text-base font-bold uppercase">{$locale}</label>
-				<div role="toggle" class="p-6 mega-menu sm:mb-0 shadow-xl bg-teal-500">
-					<ul >
-						{#each $locales as item}
-							<li>
-								<a class="a block p-3 hover:bg-white-600 text-gray-300 hover:text-white"
-								   class:selected={$locale.includes(item)}
-								   href={item}{`/${pathWithoutLang}`}
-								   on:click={() => ($locale = item)}>
-									{item}
-								</a>
-							</li>
-						{/each}
-					</ul>
+				<a href='{$locale}/docs' class:selected="{segment === `/${locale}/docs` ? 'selected' : ''}" class="relative block py-6 px-4 lg:p-5 text-sm lg:text-base font-bold hover:bg-teal-500 hover:text-white">{$_('nav.docs')}</a>
+				<div class="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-teal-500">
+					<div class="container mx-auto w-full flex flex-wrap justify-between mx-2">
+						<div class="w-full text-white mb-8">
+							<h2 class="font-bold text-2xl"></h2>
+							<p></p>
+						</div>
+						<ul >
+							{#each $locales as item}
+								<li>
+									<a class="a block p-3 hover:bg-white-600 text-gray-300 hover:text-white"
+									   class:selected={$locale.includes(item)}
+									   href={item}{`/${pathWithoutLang}`}
+									   on:click={() => ($locale = item)}>
+										{item}
+									</a>
+								</li>
+							{/each}
+						</ul>
+					</div>
 				</div>
 			</li>
+
 			<li class="border-r"></li>
 			<li class="hoverable hover:bg-teal-500 hover:text-white">
 				<a href="https://github.com/opendata-stuttgart/" target="_blank" rel="noopener noreferrer nofollow" class="relative block py-6 px-4 lg:p-5 text-sm lg:text-base font-bold hover:bg-teal-500 hover:text-white">

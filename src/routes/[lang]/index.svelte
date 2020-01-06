@@ -92,8 +92,8 @@
         </svg>
 
     </div>
-    <div class="max-w-6xl mx-auto bg-white shadow-lg relative z-20 hidden md:block"
-         style="margin-top: -25rem; border-radius: 20px;">
+    <div class="w-3/4 mx-auto bg-white shadow-lg relative z-20 hidden md:block"
+         style="margin-top: -23rem; border-radius: 15px;">
         <!--	<div class="h-20 w-20 rounded-full bg-yellow-500 absolute top-0 left-0 -ml-10 -mt-10"-->
         <!--			style="z-index: -1;">-->
         <!--	</div>-->
