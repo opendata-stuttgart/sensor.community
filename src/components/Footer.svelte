@@ -1,59 +1,71 @@
-<section class="bg-gray-100 py-8 w-full">
-    <div class="container mx-auto px-8">
-        <div class="table w-full">
-            <div class="block sm:table-cell">
-                <p class="uppercase text-grey text-sm sm:mb-6">Links</p>
-                <ul class="list-reset text-xs mb-6">
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">FAQ</a>
-                    </li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Help</a>
-                    </li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Support</a>
-                    </li>
-                </ul>
+<script>
+    import { _, locale, locales} from 'svelte-i18n';
+</script>
+<footer class="bg-gray-100">
+    <div class="container bg-gray-100 px-8 md:px-4 mx-auto mt-12 border-grey-lighter py-10 flex flex-col">
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
+                <h4 class="text-base pb-4">Important Links</h4>
+                <a href="/" class="text-sm text-grey-darker py-1">Discourse</a>
+                <a href="/" class="text-sm text-grey-darker py-1">Community</a>
+                <a href="/" class="text-sm text-grey-darker py-1">Discussions</a>
+                <a href="/" class="text-sm text-grey-darker py-1">FAQ</a>
             </div>
-            <div class="block sm:table-cell">
-                <p class="uppercase text-grey text-sm sm:mb-6">Legal</p>
-                <ul class="list-reset text-xs mb-6">
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Terms</a>
-                    </li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Privacy</a>
-                    </li>
-                </ul>
+            <div class="md:w-1/4 flex flex-col mb-12 md:mb-0"><h4 class="text-base pb-4">About</h4>
+                <a href="{$locale}/mission" class="text-sm text-grey-darker py-1">Project</a>
+                <a href="{$locale}/team" class="text-sm text-grey-darker py-1">Team</a>
+                <a href="{$locale}/code-of-conduct" class="text-sm text-grey-darker py-1">Code of Conduct</a>
+                <a href="{$locale}/privacy-policy" class="text-sm text-grey-darker py-1">Privacy Policy</a>
+                <a href="{$locale}/blog" class="text-sm text-grey-darker py-1">Blog</a>
             </div>
-            <div class="block sm:table-cell">
-                <p class="uppercase text-grey text-sm sm:mb-6">Social</p>
-                <ul class="list-reset text-xs mb-6">
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Facebook</a>
-                    </li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Linkedin</a>
-                    </li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Twitter</a>
-                    </li>
-                </ul>
+            <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
+                <h4 class="text-base pb-4">License</h4>
+                <a href="{$locale}/mission" class="text-sm text-grey-darker py-1">Project</a>
+                <a href="{$locale}/team" class="text-sm text-grey-darker py-1">Team</a>
+                <a href="{$locale}/code-of-conduct" class="text-sm text-grey-darker py-1">Code of Conduct</a>
+                <a href="{$locale}/blog" class="text-sm text-grey-darker py-1">Blog</a>
             </div>
-            <div class="block sm:table-cell">
-                <p class="uppercase text-grey text-sm sm:mb-6">Company</p>
-                <ul class="list-reset text-xs mb-6">
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Official Blog</a>
-                    </li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">About Us</a>
-                    </li>
-                    <li class="mt-2 inline-block mr-2 sm:block sm:mr-0">
-                        <a href="#" class="text-grey hover:text-grey-dark">Contact</a>
-                    </li>
-                </ul>
+            <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
+                <h4 class="text-base pb-4">Connect</h4>
+                <a href="https://fosstodon.org/@SensorCommunity" target="_blank"
+                   class="md:px-3 pb-2 text-sm flex items-center text-grey-darkest">
+                    <img src="icons/mastodon.svg" alt="mastodon logo" class="w-5 mr-2">
+                    @SensorCommunity</a>
+                <a href="https://twitter.com/sensorcommunity" target="_blank"
+                   class="md:px-3 pb-2 text-sm flex items-center text-grey-darkest">
+                    <img src="icons/twitter.svg" alt="twitter logo" class="w-5 mr-2">
+                    @SensorCommunity</a>
+                <a href="" target="_blank"
+                   class="md:px-3 pb-2 text-sm flex items-center text-grey-darkest">
+                    <img src="icons/discourse.svg" alt="twitter logo" class="w-5 mr-2">
+                    Discourse Forum</a>
+                <a href="mailto:support@sensor.community" target="_blank"
+                   class="md:px-3 pb-3 text-sm flex items-center text-grey-darkest">✉️ support@sensor.community</a>
             </div>
         </div>
+        <div class="flex md:flex-row items-start flex-col-reverse mt-8">
+            <div class="">
+                <div>
+                    <h4 class="text-base pb-4">License</h4>
+
+                    <p class="text-sm text-grey-dark mt-2">
+                        <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" class="text-sm text-grey-darker py-1">Airrohr Firmware GPL v3</a>
+                    </p>
+                    <p class="text-sm text-grey-dark mt-1">
+                        <a href="https://opendatacommons.org/licenses/dbcl/1.0/" class="text-sm text-grey-darker py-1">Database Contents DbCL v1</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+            <div class="flex md:flex-row items-start flex-col-reverse mt-8">
+                <div class="">
+                <div class="mt-8 text-lf-regular">
+                    <div class="text-grey-dark">
+                        Made with 💕 from Stuttgart, Germany
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-</section>
+</footer>

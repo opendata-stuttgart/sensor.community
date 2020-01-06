@@ -16,6 +16,7 @@
   "dependencies": {
     "@rollup/plugin-json": "^4.0.1",
     "compression": "^1.7.1",
+    "particles.js": "^2.0.0",
     "polka": "next",
     "prismjs": "^1.17.1",
     "sirv": "^0.4.0",
