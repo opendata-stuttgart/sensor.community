@@ -17,14 +17,12 @@
 					</div>
 					<p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
 						Meet the team who is working behind the scenes to harness the power of Sensor.Community.<br>
-
 					</p>
 					<span class="text-center text-gray-600 mt-10">
 						📮Please use the contact options at the bottom of the page.
 					</span>
-
 				</div>
-				<div class="w-full md:w-1/2 my-12"><img src="team.jpg"></div>
+				<div class="w-full md:w-1/2 my-12"><img src="team.jpg" alt="sensor community team"></div>
 			</div>
 
 			<h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">
@@ -33,9 +31,8 @@
 				<div class="w-full md:w-1/3 p-8">
 					<div class="bg-white rounded-lg shadow-lg overflow-hidden">
 						<div class="flex justify-center items-center"
-							 style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;"
-							 background="transparent">
-							<div id="7nlny" class="spinner" style="display: none;"></div>
+							 style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
+							<div class="spinner" style="display: none;"></div>
 							<img src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg" alt="">
 						</div>
 						<div class="flex items-center p-6">
@@ -56,10 +53,8 @@
 				</div>
 				<div class="w-full md:w-1/3 p-8">
 					<div class="bg-white rounded-lg shadow-lg overflow-hidden">
-						<div class="flex justify-center items-center"
-							 style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;"
-							 background="transparent">
-							<div id="gwg7p" class="spinner" style="display: none;"></div>
+						<div class="flex justify-center items-center" style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
+							<div class="spinner" style="display: none;"></div>
 							<img src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg" alt="">
 						</div>
 						<div class="flex items-center p-6">
@@ -82,10 +77,8 @@
 				</div>
 				<div class="w-full md:w-1/3 p-8">
 					<div class="bg-white rounded-lg shadow-lg overflow-hidden">
-						<div class="flex justify-center items-center"
-							 style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;"
-							 background="transparent">
-							<div id="emnho" class="spinner" style="display: none;"></div>
+						<div class="flex justify-center items-center" style="width: 100%; height: 100%; overflow: hidden; margin: 0 auto; cursor: default;">
+							<div class="spinner" style="display: none;"></div>
 							<img src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg" alt="">
 						</div>
 						<div class="flex items-center p-6">
@@ -96,11 +89,11 @@
 							<div class="flex align-center">
 								<a href="https://github.com/ricki-z" target="_blank" rel="noopener nofollow noreferrer"
 								   class="inline-block">
-									<img src="icons/linkedin.svg" class="w-5 mr-1">
+									<img src="icons/linkedin.svg" class="w-5 mr-1" alt="">
 								</a>
 								<a href="https://fosstodon.org/@ohheyitsdave" target="_blank" rel="noopener nofollow noreferrer"
 								   class="inline-block">
-									<img src="icons/mastodon.svg" class="w-5 mr-1">
+									<img src="icons/mastodon.svg" class="w-5 mr-1" alt="">
 								</a>
 							</div>
 						</div>
@@ -108,10 +101,8 @@
 				</div>
 				<div class="w-full md:w-1/3 p-8">
 					<div class="bg-white rounded-lg shadow-lg overflow-hidden">
-						<div class="flex justify-center items-center"
-							 style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;"
-							 background="transparent">
-							<div id="qnqgn" class="spinner" style="display: none;"></div>
+						<div class="flex justify-center items-center" style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
+							<div class="spinner" style="display: none;"></div>
 							<img src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg" alt="">
 						</div>
 						<div class="flex items-center p-6">
@@ -120,12 +111,13 @@
 								<div class="mb-1 text-base font-lf-regular text-grey-darkest">Evaluation and interpretation of the measurement results
 								</div>
 							</div>
-							<div class="flex align-center"><a href="https://www.linkedin.com/in/may-li-leow/"
-															  target="_blank" class="inline-block"><img
-									src="https://static.lottiefiles.com/images/svg/linkedin.svg" class="w-5 mr-1"></a>
-								<a href="https://twitter.com/MayLiLeow" target="_blank"
-								   class="inline-block mt-1 ml-1"><img
-										src="https://static.lottiefiles.com/images/svg/social_twitter.svg" class="w-5"></a>
+							<div class="flex align-center">
+								<a href="https://www.linkedin.com/in/may-li-leow/" target="_blank" class="inline-block">
+								<img src="https://static.lottiefiles.com/images/svg/linkedin.svg" class="w-5 mr-1" alt="">
+								</a>
+								<a href="https://twitter.com/MayLiLeow" target="_blank" class="inline-block mt-1 ml-1">
+									<img src="https://static.lottiefiles.com/images/svg/social_twitter.svg" class="w-5" alt="">
+								</a>
 							</div>
 						</div>
 					</div>

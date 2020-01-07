@@ -2,40 +2,40 @@
 title: Introduction
 ---
 
-### Before we begin
-
-> Sapper is in early development, and some things may change before we hit version 1.0. This document is a work-in-progress. If you get stuck, reach out for help in the [Discord chatroom](https://svelte.dev/chat).
->
-> See the [migration guides](migrating) for help upgrading from older versions.
-
-### What is Sapper?
-
-Sapper is a framework for building extremely high-performance web apps. You're looking at one right now! There are two basic concepts:
-
-* Each page of your app is a [Svelte](https://svelte.dev) component
-* You create pages by adding files to the `src/routes` directory of your project. These will be server-rendered so that a user's first visit to your app is as fast as possible, then a client-side app takes over
-
-Building an app with all the modern best practices — code-splitting, offline support, server-rendered views with client-side hydration — is fiendishly complicated. Sapper does all the boring stuff for you so that you can get on with the creative part.
-
-You don't need to know Svelte to understand the rest of this guide, but it will help. In short, it's a UI framework that compiles your components to highly optimized vanilla JavaScript. Read the [introductory blog post](https://svelte.dev/blog/svelte-3-rethinking-reactivity) and the [tutorial](https://svelte.dev/tutorial) to learn more.
+> Build a DIY sensor and become part of the worldwide, opendata & civictech network. With airrohr you can measure airpollution yourself🚀.
 
 
-### Why the name?
+### Shopping list
 
-In war, the soldiers who build bridges, repair roads, clear minefields and conduct demolitions — all under combat conditions — are known as *sappers*.
+#### Configuration One 
+- [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
+- [SDS011 Fine dust sensor](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=sds011) 
+- [DHT22, temperature & humidity (optional)](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=dht22)
+- [Cable](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
+- [USB cable e.g.: flat 2m Micro-USB](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=micro+usb+cable+flat)
+- [Power supply USB]()
+- [Cable straps]()
+- [Flexible tube, if possible not transparent, diameter 6 mm, length approx. 20cm DIY store]()
+- [Weather protection, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
-For web developers, the stakes are generally lower than for combat engineers. But we face our own hostile environment: underpowered devices, poor network connections, and the complexity inherent in front-end engineering. Sapper, which is short for <b>S</b>velte <b>app</b> mak<b>er</b>, is your courageous and dutiful ally.
+
+#### Configuration Two 
+
+- [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
+- [SDS011 Fine dust sensor](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=sds011) 
+- [BME280, temperature, humidity & pressure](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=dht22)
+- [Cable](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
+- [USB cable e.g.: flat 2m Micro-USB](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=micro+usb+cable+flat)
+- [Power supply USB]()
+- [Cable straps]()
+- [Flexible tube, if possible not transparent, diameter 6 mm, length approx. 20cm DIY store]()
+- [Weather protection, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 
-### Comparison with Next.js
-
-[Next.js](https://github.com/zeit/next.js) is a React framework from [Zeit](https://zeit.co), and is the inspiration for Sapper. There are a few notable differences, however:
-
-* Sapper is powered by Svelte instead of React, so it's faster and your apps are smaller
-* Instead of route masking, we encode route parameters in filenames (see the [routing](docs#Routing) section below)
-* As well as *pages*, you can create *server routes* in your `src/routes` directory. This makes it very easy to, for example, add a JSON API such as the one powering this very page (try visiting [/docs.json](/docs.json))
-* Links are just `<a>` elements, rather than framework-specific `<Link>` components. That means, for example, that [this link right here](/), despite being inside a blob of markdown, works with the router as you'd expect
-
+### Waiting Phase
+🙌 Great, you decided to but the parts online! 
+Unfortunaltely this can take up to four weeks. 
+So enjoy your life until.
 
 ### Getting started
 

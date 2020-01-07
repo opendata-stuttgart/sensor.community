@@ -1,4 +1,5 @@
 <script>
+	import { _, locale, locales} from 'svelte-i18n';
 	import { afterUpdate } from 'svelte';
 	import Icon from './Icon.svelte';
 
@@ -124,7 +125,7 @@
 				<a
 					class="subsection"
 					class:active="{subsection.slug === active_section}"
-					href="docs#{subsection.slug}"
+					href="{$locale}/docs#{subsection.slug}"
 					data-level="{subsection.level}"
 				>
 					{@html subsection.title}
