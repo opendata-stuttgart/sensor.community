@@ -64,65 +64,6 @@
         }
     }
 
-    body {
-        --font: 'Overpass', sans-serif;
-        --font-mono: 'Fira Mono', monospace;
-    }
-
-
-    /*	fonts ---------------------------------- */
-    /* overpass-300normal - latin */
-    @font-face {
-        font-family: 'Overpass';
-        font-style: normal;
-        font-weight: 300;
-        src: local('Overpass Light '),
-        local('Overpass-Light'),
-        url('/fonts/overpass/overpass-latin-300.woff2') format('woff2');
-    }
-
-    /* overpass-600normal - latin */
-    @font-face {
-        font-family: 'Overpass';
-        font-style: normal;
-        font-weight: 600;
-        src: local('Overpass Bold '),
-        local('Overpass-Bold'),
-        url('/fonts/overpass/overpass-latin-600.woff2') format('woff2');
-    }
-
-    /* fira-mono-400normal - latin */
-    @font-face {
-        font-family: 'Fira Mono';
-        font-style: normal;
-        font-weight: 400;
-        src: local('Fira Mono Regular '),
-        local('Fira Mono-Regular'),
-        url('/fonts/fira-mono/fira-mono-latin-400.woff2') format('woff2');
-    }
-
-    /*	base reset ----------------------------- */
-    html {
-        font-size: 62.5%;
-        -webkit-text-size-adjust: 100%;
-        -ms-overflow-style: -ms-autohiding-scrollbar;
-        box-sizing: border-box;
-        border-collapse: collapse;
-    }
-
-    html,
-    body,
-    #sapper {
-        width: 100%;
-        height: 100%;
-    }
-
-    * {
-        box-sizing: inherit;
-        margin: 0;
-        padding: 0;
-    }
-
     /*	link reset ----------------------------- */
     a {
         text-decoration: none;
@@ -146,7 +87,6 @@
 
     /*	typography ----------------------------- */
     body {
-        font: 300 var(--h4)/var(--lh) var(--font);
         background-color: var(--back);
         color: var(--text);
 
@@ -186,7 +126,6 @@
     }
 
     h1, h2 {
-        font-family: var(--font);
         line-height: 1.25;
     }
 
@@ -202,9 +141,6 @@
         font-weight: 600
     }
 
-    tt, code, kbd, samp {
-        font: 400 var(--code-fs)/1.7 var(--font-mono);
-    }
 
     code {
         position: relative;
@@ -217,7 +153,6 @@
     pre code {
         top: 0;
         white-space: inherit;
-        background-color: none;
     }
 
     /* sync CodeMirror with prism  */
@@ -241,7 +176,6 @@
         margin: 1.6rem 0 2.4rem;
         padding: 2rem 2.4rem 1.8rem 2.4rem;
         border-radius: var(--border-r);
-        font-family: var(--font);
         max-width: var(--linemax);
     }
 
@@ -288,7 +222,6 @@
     .btn {
         --btn-h: 4rem;
         --btn-outline: .2rem;
-        --btn-font: var(--font);
         --btn-calc-h: calc(var(--btn-h) - var(--btn-outline) * 2);
         --btn-hover: linear-gradient(to top, rgba(0, 0, 0, .07), rgba(0, 0, 0, .07));
 
@@ -352,15 +285,13 @@
         padding: 0;
     }
 
-    /* a:hover:not(.disabled) > .icon { stroke: var(--flash) } */
+     a:hover:not(.disabled) > .icon { stroke: var(--flash) }
 
     /*  lists ---------------------------------- */
     .listify ol,
     .listify ul {
         --list-padding: 2.9rem;
-
         list-style: none;
-        color: currentColor;
         margin-left: var(--list-padding);
     }
 
@@ -460,13 +391,11 @@
         max-width: none;
         margin: 0 auto;
         padding: 1.6rem 0 0 .8rem;
-        font: 1.2rem/1.6 var(--font-mono);
     }
 
     .filename {
         display: inline-block;
         padding: 1.6rem 0 0 1rem;
-        font: var(--h6) var(--font-mono);
     }
 
     .box {
@@ -565,7 +494,6 @@
     input[type="checkbox"]:checked::after {
         left: calc(100% - 9px);
     }
-
 </style>
 
 <svelte:head>

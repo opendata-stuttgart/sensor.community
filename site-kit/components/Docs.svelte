@@ -246,8 +246,8 @@
 		}
 	}
 
-	.content :global(h3),
-	.content :global(h3 > code) {
+	.content h3,
+	.content h3 > code {
 		margin: 6.4rem 0 0 0;
 		padding: 2rem 1.6rem 2.6rem .2rem;
 		font-size: 	var(--h4);
@@ -257,24 +257,24 @@
 		line-height: 1;
 	}
 
-	.content :global(h3):first-of-type {
+	.content h3:first-of-type {
 		border: none;
 		margin: 0;
 	}
 
 	/* avoid doubled border-top */
-	.content :global(h3 > code) {
+	.content h3 > code {
 		border-radius: 0 0 0 0;
 		border: none;
 		font-size: inherit;
 	}
 
 
-	.content :global(h4),
-	.content :global(h4 > code) {
+	.content h4,
+	.content h4 > code {
 		font-family: inherit;
 		font-weight: 600;
-		font-size: 2.4rem;
+		font-size: 2rem;
 		color: var(--second);
 		margin: 6.4rem 0 1.6rem 0;
 		/*padding-left: 0;*/

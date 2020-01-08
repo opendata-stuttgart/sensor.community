@@ -1,12 +1,3 @@
-/*
------------------------------------------------
-	vars – css custom-properties
-
-	NOTE
-	- some vars change inside media-queries!
-	- under normal conditions, there's no need to touch these
------------------------------------------------
-*/
 :root {
 	--nav-h:       6rem;
 	--top-offset:  5rem;
@@ -29,89 +20,7 @@
 	}
 }
 
-/*	theme vars */
-.theme-default {
-	--back:       	#ffffff;
-	--back-light: 	#f6fafd;
-	--back-api: 		#eff8ff;
-	--prime:      	#ff3e00;
-	--second:     	#676778;
-	--flash:      	#40b3ff;
-	--heading:	var(--second);
-	--text:      		#444;
-	--sidebar-text: rgba(255, 255, 255, .75);
-	--border-w:  		.3rem; /* border-width  */
-	--border-r:  		.4rem; /* border-radius */
-}
-
-/*	typo vars */
-.typo-default {
-	--code-fs: 1.3rem;
-	--h6:      1.4rem;
-	--h5:      1.6rem;
-	--h4:      1.8rem; /* default font-size */
-	--h3:      2.6rem;
-	--h2:        3rem;
-	--h1:      3.2rem;
-	--linemax:   42em; /* max line-length */
-	--lh:  		 	  1.5; /* base line-height */
-}
-
-body {
-	--font: 'Overpass', sans-serif;
-	--font-mono: 'Fira Mono', monospace;
-}
-
-
-/*	fonts ---------------------------------- */
-/* overpass-300normal - latin */
-@font-face {
-	font-family: 'Overpass';
-	font-style: normal;
-	font-weight: 300;
-	src:
-		local('Overpass Light '),
-		local('Overpass-Light'),
-		url('/fonts/overpass/overpass-latin-300.woff2') format('woff2');
-}
-
-/* overpass-600normal - latin */
-@font-face {
-	font-family: 'Overpass';
-	font-style: normal;
-	font-weight: 600;
-	src:
-		local('Overpass Bold '),
-		local('Overpass-Bold'),
-		url('/fonts/overpass/overpass-latin-600.woff2') format('woff2');
-}
-
-/* fira-mono-400normal - latin */
-@font-face {
-	font-family: 'Fira Mono';
-	font-style: normal;
-	font-weight: 400;
-	src:
-		local('Fira Mono Regular '),
-		local('Fira Mono-Regular'),
-		url('/fonts/fira-mono/fira-mono-latin-400.woff2') format('woff2');
-}
-
 /*	base reset ----------------------------- */
-html {
-	font-size: 62.5%;
-	-webkit-text-size-adjust: 100%;
-	-ms-overflow-style: -ms-autohiding-scrollbar;
-	box-sizing: border-box;
-	border-collapse: collapse;
-}
-
-html,
-body,
-#sapper {
-	width: 100%;
-	height: 100%;
-}
 
 * {
 	box-sizing: inherit;
@@ -126,7 +35,7 @@ a {
 	color: inherit;
 }
 
-a:hover, a:active { color: var(--flash) }
+a:hover, a:active { color: #40b3ff }
 a:focus { outline: none }
 
 /*
@@ -136,45 +45,45 @@ a:focus { outline: none }
 */
 
 /*	typography ----------------------------- */
-body {
-	font: 300 var(--h4)/var(--lh) var(--font);
-	background-color: var(--back);
-	color: var(--text);
+/*body {*/
+/*	font: 300 1.4rem/1.5 var(--font);*/
+/*	background-color: #ffffff;*/
+/*	color: #444;*/
 
-	/* default spacing of Overpass is a bit too airy */
-	/* letter-spacing: -.013em; */
-}
+/*	!* default spacing of Overpass is a bit too airy *!*/
+/*	!* letter-spacing: -.013em; *!*/
+/*}*/
 
-h1, h2, h3, h4, h5, h6, blockquote {
-	position: relative;
-	margin: 0;
-	color: var(--heading);
-}
+/*h1, h2, h3, h4, h5, h6, blockquote {*/
+/*	position: relative;*/
+/*	margin: 0;*/
+/*	color: #676778;*/
+/*}*/
 
-/* h1, h2, h3, h4, h5, h6 { font-weight: 600 } */
-h6 { font-size: var(--h6) }
-h5 { font-size: var(--h5) }
-h4 { font-size: var(--h4) }
-h3 { font-size: var(--h3) }
-h2 { font-size: var(--h2) }
-h1 { font-size: var(--h1) }
+.listify h1, h2, h3, h4, h5, h6 { font-weight: 600 }
+.listify h6 { font-size: 1rem }
+.listify h5 { font-size: 1.1rem }
+.listify h4 { font-size: 1.4rem }
+.listify h3 { font-size: 1.6rem }
+.listify h2 { font-size: 3rem }
+.listify h1 { font-size: 3.2rem }
 
-h1, h2 {
-	font-family: var(--font);
-	line-height: 1.25;
-}
+/*h1, h2 {*/
+/*	font-family: var(--font);*/
+/*	line-height: 1.25;*/
+/*}*/
 
-h3 { font-weight: 300 }
+/*h3 { font-weight: 300 }*/
 
-p, ol, ul {
-	margin: 0 0 1em 0;
-}
+/*p, ol, ul {*/
+/*	margin: 0 0 0 0.5em;*/
+/*}*/
 
-.b, b, strong { font-weight: 600 }
+/*.b, b, strong { font-weight: 600 }*/
 
-tt, code, kbd, samp {
-	font: 400 var(--code-fs)/1.7 var(--font-mono);
-}
+/*tt, code, kbd, samp {*/
+/*	font-size: 1.3rem;*/
+/*}*/
 
 code {
 	position: relative;
@@ -187,154 +96,79 @@ code {
 pre code {
 	top: 0;
 	white-space: inherit;
-	background-color: none;
+	/*background-color: none;*/
 }
 
 /* sync CodeMirror with prism  */
 .CodeMirror {
-	font-size: var(--code-fs) !important;
+	font-size: 1.3rem !important;
 }
 
 ::selection {
-	background: var(--flash);
+	background: #40b3ff;
 	color: white;
 }
 
 /*	opinionated styles --------------------- */
 
-li:not(.white) > h2 {
-	color: var(--second)
-}
+/*li:not(.white) > h2 {*/
+/*	color: #676778*/
+/*}*/
 
-blockquote {
+.listify blockquote {
 	position: relative;
 	margin: 1.6rem 0 2.4rem;
-	padding: 2rem 2.4rem 1.8rem 2.4rem;
-	border-radius: var(--border-r);
-	font-family: var(--font);
-	max-width: var(--linemax);
+	padding: 1rem 1.4rem;
+	border-radius: .4rem;
+	max-width: 80%;
 }
 
-blockquote p {
-	font-size: var(--h5);
+.listify blockquote p {
+	font-size: 1.3em;
 }
 
-blockquote :last-child {
+.listify blockquote :last-child {
 	margin: 0;
 }
 
-/*  buttons -------------------------------- */
-button {
-	font-family: inherit;
-	font-size: inherit;
-	background-color: transparent;
-	border: none;
-	color: currentColor;
-	cursor: pointer;
-}
 
-button:focus,
-.btn:focus { outline: 0 }
-
-button[disabled],
-.btn[disabled],
-.btn:hover[disabled] {
-	opacity: .55;
-	pointer-events: none;
-}
-
-button > svg,
-.btn > svg {
-	position: relative;
-	top: -.1rem;
-	width: 2rem !important;
-	height: 2rem !important;
-	stroke: currentColor !important;
-}
-
-/*  reset ------- */
-.btn {
-	--btn-h: 4rem;
-	--btn-outline: .2rem;
-	--btn-font: var(--font);
-	--btn-calc-h: calc(var(--btn-h) - var(--btn-outline) * 2);
-	--btn-hover: linear-gradient(to top, rgba(0,0,0,.07), rgba(0,0,0,.07));
-
-	position: relative;
-	margin: 0 .8rem .8rem 0;
-	vertical-align: middle;
-	white-space: nowrap;
-	display: inline-block;
-	zoom: 1;
-	border: none transparent;
-	font: var(--h4) var(--btn-font);
-	border-radius: var(--border-r);
-	color: currentColor;
-	cursor: pointer;
-}
-
-/*  default */
-.btn {
-	line-height: var(--btn-h);
-	height: var(--btn-h);
-	padding: 0 1.6rem;
-	transition: all .1s;
-}
-
-.btn:hover  {
-	transform: scale(.98);
-	mix-blend-mode: multiply;
-	background-image: var(--btn-hover);
-}
-
-/*  optional */
-.btn[outline] {
-	line-height: var(--btn-calc-h);
-	height: var(--btn-calc-h);
-	border: var(--btn-outline) solid currentColor;
-	background-color: white;
-	color: currentColor;
-}
 
 /*  links ------------------------------------- */
-a {
-	position: relative;
-	padding: 0 0 1px 0;
-	border-bottom: 1px solid currentColor;
-	user-select: none;
-	color: var(--prime);
-	transition: color .2s, border .2s, padding .2s;
+.listify a {
+	/*position: relative;*/
+	/*padding: 0 0 1px 0;*/
+	/*border-bottom: 1px solid #d53f8c;*/
+	/*user-select: none;*/
+	/*color: #d53f8c;*/
+	/*transition: color .2s, border .2s, padding .2s;*/
+	/*box-shadow: inset 0 -0.12em 0 #d53f8c*/
+	text-decoration: none;
+	box-shadow: inset 0 -0.12em 0 #fd6378;
+	-webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+	transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 }
 
-a:hover  {
-	color: var(--flash);
+.listify  a:hover  {
+	box-shadow: inset 0 -1.5em 0 #fd6378;
+	color: #FFF;
 }
 
-a:hover {
-	padding: 0;
-	border-bottom: 2px solid currentColor;
-}
-
-a.no-underline {
+.listify a.no-underline {
 	border-bottom: none;
 	padding: 0;
 }
 
-/* a:hover:not(.disabled) > .icon { stroke: var(--flash) } */
+.listify  a:hover:not(.disabled) > .icon { stroke: #40b3ff }
 
 /*  lists ---------------------------------- */
 .listify ol,
 .listify ul {
-	--list-padding: 2.9rem;
-
 	list-style: none;
-	color: currentColor;
-	margin-left: var(--list-padding);
+	margin-left: 2.9rem;
 }
 
 .listify ol > li,
 .listify ul > li {
-	max-width: calc(var(--linemax) - var(--list-padding));
 	line-height: 1.5;
 	margin: 0 0 0.4rem 0;
 }
@@ -342,21 +176,23 @@ a.no-underline {
 .listify ul > li:before {
 	content: '';
 	position: absolute;
-	margin-top: 1.1rem;
+	margin-top: 0.5rem;
 	margin-left: -1.8rem;
-	background-color: var(--second);
-	width: .6rem;
-	height: .6rem;
-	border-radius: 2px;
-	opacity: 0.7;
+	background-color: #676778;
+	width: .5rem;
+	height: .5rem;
 }
 
 .listify ol { list-style: decimal }
 
+.listify p {
+	padding-left: 1rem;
+}
+
 /*  tables --------------------------------- */
 table {
 	width: 100%;
-	font-size: var(--h5);
+	font-size: 1.2rem;
 }
 
 td, th {
@@ -407,32 +243,32 @@ table code, table span {
 	max-width: none;
 	margin: 0 auto;
 	padding: 1.6rem 0 0 .8rem;
-	font: 1.2rem/1.6 var(--font-mono);
+	/*font: 1.2rem/1.6 var(--font-mono);*/
 }
 
 .filename {
 	display: inline-block;
 	padding: 1.6rem 0 0 1rem;
-	font: var(--h6) var(--font-mono);
+	/*font: 1rem var(--font-mono);*/
 }
 
 .box {
 	padding: 2.4rem 3.2rem;
-	border-radius: var(--border-r);
+	border-radius: .4rem;
 }
 
 /*	theme colors --------------------------- */
-.prime      { color: var(--prime) !important }
-.second     { color: var(--second) !important }
-.flash      { color: var(--flash) !important }
+.prime      { color: #ff3e00 !important }
+.second     { color: #676778 !important }
+.flash      { color: #40b3ff !important }
 .black      { color: black !important }
 .white      { color: white !important }
 
-.back       { background-color: var(--back) !important }
-.back-light { background-color: var(--back-light) !important }
-.bg-prime   { background-color: var(--prime) !important }
-.bg-second  { background-color: var(--second) !important }
-.bg-flash   { background-color: var(--flash) !important }
+.back       { background-color: #ffffff !important }
+.back-light { background-color: #f6fafd !important }
+.bg-prime   { background-color: #ff3e00 !important }
+.bg-second  { background-color: #676778 !important }
+.bg-flash   { background-color: #40b3ff!important }
 
 /*	inputs --------------------------------- */
 input[type="checkbox"] {
@@ -458,13 +294,13 @@ input[type="checkbox"]::before {
 	border-radius: 1em;
 	top: 0;
 	left: 0;
-	background: var(--second);
+	background: #676778;
 	/* box-sizing: border-box; */
 	box-sizing: content-box;
 }
 
 input[type="checkbox"]:checked::before {
-	background: var(--prime);
+	background: #ff3e00;
 }
 
 input[type="checkbox"]::after {

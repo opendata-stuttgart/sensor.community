@@ -156,7 +156,7 @@
 			</li>
 
 			<li class="hoverable hover:bg-teal-500 hover:text-white">
-				<a href='{$locale}/docs' class:selected="{segment === `/${locale}/docs` ? 'selected' : ''}" class="relative block py-6 px-4 lg:p-5 text-sm lg:text-base font-bold hover:bg-teal-500 hover:text-white">{$_('nav.docs')}</a>
+				<a class="relative block py-6 px-4 lg:p-5 text-sm lg:text-base font-bold uppercase hover:bg-teal-500 hover:text-white">{$locale}</a>
 				<div class="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-teal-500">
 					<div class="container mx-auto w-full flex flex-wrap justify-between mx-2">
 						<div class="w-full text-white mb-8">
