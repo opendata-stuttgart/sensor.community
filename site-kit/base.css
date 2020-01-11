@@ -89,15 +89,17 @@ code {
 	position: relative;
 	border-radius: .3em;
 	white-space: nowrap;
-	color: #444;
+	color: #343434;
 	-webkit-font-smoothing: initial;
 }
 
 pre code {
 	top: 0;
 	white-space: inherit;
-	/*background-color: none;*/
+	color: white;
 }
+
+
 
 /* sync CodeMirror with prism  */
 .CodeMirror {

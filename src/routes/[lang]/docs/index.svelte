@@ -1,29 +1,20 @@
 <script context="module">
     export async function preload() {
-        const sections = await this.fetch(`{$locale}/docs.json`).then(r => r.json());
+        const sections = await this.fetch(`{$locale}/docs/{$locale}.json`).then(r => r.json());
         return {sections};
     }
 </script>
 
 <script>
-    import {_} from 'svelte-i18n'
+    import {_, locale} from 'svelte-i18n'
     import {Docs} from '../../../../site-kit/'
 
     export let sections;
 </script>
 
 <style>
-    /*
------------------------------------------------
-	vars – css custom-properties
-
-	NOTE
-	- some vars change inside media-queries!
-	- under normal conditions, there's no need to touch these
------------------------------------------------
-*/
     :root {
-        --nav-h: 6rem;
+        --nav-h: 5rem;
         --top-offset: 6rem;
         --sidebar-w: 25rem;
         --sidebar-mid-w: 36rem;
@@ -34,12 +25,12 @@
         --code-fs: 1.3rem;
         --h6: 1rem;
         --h5: 1.6rem;
-        --h4: 1.8rem; /* default font-size */
+        --h4: 1.8rem;
         --h3: 2.6rem;
         --h2: 3rem;
         --h1: 3.2rem;
-        --linemax: 42em; /* max line-length */
-        --lh: 1.5; /* base line-height */
+        --linemax: 42em;
+        --lh: 1.5;
         --back: #ffffff;
         --back-light: #f6fafd;
         --back-api: #eff8ff;
@@ -49,8 +40,8 @@
         --heading: #676778;
         --text: #444;
         --sidebar-text: rgba(255, 255, 255, .75);
-        --border-w: .3rem; /* border-width  */
-        --border-r: .4rem; /* border-radius */
+        --border-w: .3rem;
+        --border-r: .4rem;
 
         /* easings */
         --out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -79,60 +70,7 @@
         outline: none
     }
 
-    /*
-    -----------------------------------------------
-        global styles
-    -----------------------------------------------
-    */
-
     /*	typography ----------------------------- */
-    body {
-        background-color: var(--back);
-        color: var(--text);
-
-        /* default spacing of Overpass is a bit too airy */
-        /* letter-spacing: -.013em; */
-    }
-
-    h1, h2, h3, h4, h5, h6, blockquote {
-        position: relative;
-        margin: 0;
-        color: var(--heading);
-    }
-
-    /* h1, h2, h3, h4, h5, h6 { font-weight: 600 } */
-    h6 {
-        font-size: var(--h6)
-    }
-
-    h5 {
-        font-size: var(--h5)
-    }
-
-    h4 {
-        font-size: var(--h4)
-    }
-
-    h3 {
-        font-size: var(--h3)
-    }
-
-    h2 {
-        font-size: var(--h2)
-    }
-
-    h1 {
-        font-size: var(--h1)
-    }
-
-    h1, h2 {
-        line-height: 1.25;
-    }
-
-    h3 {
-        font-weight: 300
-    }
-
     p, ol, ul {
         margin: 0 0 1em 0;
     }
@@ -140,7 +78,6 @@
     .b, b, strong {
         font-weight: 600
     }
-
 
     code {
         position: relative;
@@ -187,80 +124,6 @@
         margin: 0;
     }
 
-    /*  buttons -------------------------------- */
-    button {
-        font-family: inherit;
-        font-size: inherit;
-        background-color: transparent;
-        border: none;
-        color: currentColor;
-        cursor: pointer;
-    }
-
-    button:focus,
-    .btn:focus {
-        outline: 0
-    }
-
-    button[disabled],
-    .btn[disabled],
-    .btn:hover[disabled] {
-        opacity: .55;
-        pointer-events: none;
-    }
-
-    button > svg,
-    .btn > svg {
-        position: relative;
-        top: -.1rem;
-        width: 2rem !important;
-        height: 2rem !important;
-        stroke: currentColor !important;
-    }
-
-    /*  reset ------- */
-    .btn {
-        --btn-h: 4rem;
-        --btn-outline: .2rem;
-        --btn-calc-h: calc(var(--btn-h) - var(--btn-outline) * 2);
-        --btn-hover: linear-gradient(to top, rgba(0, 0, 0, .07), rgba(0, 0, 0, .07));
-
-        position: relative;
-        margin: 0 .8rem .8rem 0;
-        vertical-align: middle;
-        white-space: nowrap;
-        display: inline-block;
-        zoom: 1;
-        border: none transparent;
-        font: var(--h4) var(--btn-font);
-        border-radius: var(--border-r);
-        color: currentColor;
-        cursor: pointer;
-    }
-
-    /*  default */
-    .btn {
-        line-height: var(--btn-h);
-        height: var(--btn-h);
-        padding: 0 1.6rem;
-        transition: all .1s;
-    }
-
-    .btn:hover {
-        transform: scale(.98);
-        mix-blend-mode: multiply;
-        background-image: var(--btn-hover);
-    }
-
-    /*  optional */
-    .btn[outline] {
-        line-height: var(--btn-calc-h);
-        height: var(--btn-calc-h);
-        border: var(--btn-outline) solid currentColor;
-        background-color: white;
-        color: currentColor;
-    }
-
     /*  links ------------------------------------- */
     a {
         position: relative;
@@ -292,12 +155,12 @@
     .listify ul {
         --list-padding: 2.9rem;
         list-style: none;
-        margin-left: var(--list-padding);
+        /*margin-left: var(--list-padding);*/
     }
 
     .listify ol > li,
     .listify ul > li {
-        max-width: calc(var(--linemax) - var(--list-padding));
+        /*max-width: calc(var(--linemax) - var(--list-padding));*/
         line-height: 1.5;
         margin: 0 0 0.4rem 0;
     }

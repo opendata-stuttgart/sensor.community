@@ -12,7 +12,7 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run"
-  },
+    },
   "dependencies": {
     "@polka/send": "^0.4.0",
     "compression": "^1.7.1",

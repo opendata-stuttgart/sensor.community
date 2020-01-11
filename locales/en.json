@@ -13,7 +13,8 @@
     "h1": "Documentation",
     "content": "Sapper Template!",
     "metaDescription": "Sapper project template",
-    "metaTitle": "Documentation"
+    "metaTitle": "Documentation",
+    "editOnGithub" : "Edit on Github"
   },
   "blog": {
     "h1": "News",

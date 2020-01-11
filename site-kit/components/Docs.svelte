@@ -4,9 +4,11 @@
 	import Icon from './Icon.svelte';
 	import { getFragment } from '../utils/navigation';
 
-	export let owner = 'sveltejs';
-	export let project = 'svelte';
-	export let path = '/site/content';
+	import { _, locale, locales} from 'svelte-i18n';
+
+	export let owner = ' ohheyitsdave';
+	export let project = 'sensor.community';
+	// export let path = `{$locale}`;
 	export let dir = 'docs';
 	export let edit_title = 'edit this section';
 	export let sections;
@@ -297,7 +299,7 @@
 		padding: .3rem .8rem .3rem;
 		margin: 0 0.2rem;
 		top: -.1rem;
-		background: var(--back-api);
+		background: #eff8ff;
 	}
 
 	.content :global(pre) :global(code) {
@@ -329,7 +331,7 @@
 
 	section > :global(.code-block) > :global(pre) {
 		display: inline-block;
-		/* background: var(--back-api); */
+		 background: #eff8ff;
 		color: white;
 		padding: .3rem .8rem;
 		margin: 0;
@@ -341,25 +343,23 @@
 		background: var(--back-api);
 	}
 
-	section > :global(p) {
-		max-width: var(--linemax)
-	}
+	/*section > :global(p) {*/
+	/*	max-width: 42rem;*/
+	/*}*/
 
 	section :global(p) {
 		margin: 1em 0;
 	}
 
 	small {
-		font-size: var(--h5);
+		font-size: 0.7rem;
 		float: right;
-		pointer-events: all;
-		color: var(--prime);
-		cursor: pointer;
+		letter-spacing: 0.1em;
 	}
 
-	/* no linkify on these */
-	small a        { all: unset }
-	small a:before { all: unset }
+	/*!* no linkify on these *!*/
+	/*small a        { all: unset }*/
+	/*small a:before { all: unset }*/
 
 	section :global(blockquote) {
 		color: hsl(204, 100%, 50%);
@@ -379,12 +379,12 @@
 				<span class="offset-anchor" id={section.slug}></span>
 
 				<!-- svelte-ignore a11y-missing-content -->
-				<a href="docs#{section.slug}" class="anchor" aria-hidden></a>
+				<a href="{$locale}/docs#{section.slug}" class="anchor" aria-hidden></a>
 
 				{@html section.metadata.title}
 				<small>
-					<a href="https://github.com/{owner}/{project}/edit/master{path}/{dir}/{section.file}" title="{edit_title}">
-						<Icon name='edit' />
+					<a href="https://github.com/{owner}/{project}/edit/master/{$locale}/{dir}/{section.file}" title="{$_('docs.editOnGithub')}">
+						<Icon name='edit' />{$_('docs.editOnGithub')}
 					</a>
 				</small>
 			</h2>
@@ -395,7 +395,7 @@
 </div>
 
 <aside bind:this={aside} class="sidebar-container" class:open={show_contents}>
-	<div class="sidebar" on:click="{() => show_contents = false}"> <!-- scroll container -->
+	<div class="sidebar" on:click="{() => show_contents = false}">
 		<GuideContents {sections} {active_section} {show_contents} />
 	</div>
 

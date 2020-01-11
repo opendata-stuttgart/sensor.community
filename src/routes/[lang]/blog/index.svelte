@@ -1,246 +1,235 @@
 <script context="module">
-	export function preload({ params, query }) {
-		return this.fetch(`{$locale}/blog.json`).then(r => r.json()).then(posts => {
-			return { posts };
-		});
-	}
+    export function preload({params, query}) {
+        return this.fetch(`{$locale}/blog.json`).then(r => r.json()).then(posts => {
+            return {posts};
+        });
+    }
 </script>
 
 <script>
-	import { _, locale, locales } from 'svelte-i18n';
-	export let posts;
+    import {_, locale, locales} from 'svelte-i18n';
+
+    export let posts;
 </script>
 
 <style>
-	*, *:before, *:after {
-		box-sizing: border-box;
-	}
+    h1 {
+        font-size: 3em;
+        margin: 0 0 1em 0;
+        font-weight: bold;
+    }
 
-	body {
-		margin: 0;
-		font-size: 16px;
-		line-height: 1.6;
-		color: #36393b;
-	}
+    h2 {
+        margin: 1em 0 0 0;
+        font-size: 1.6em;
+        font-weight: bolder;
+    }
 
-	h1 {
-		font-size: 3em;
-		margin: 0 0 1em 0;
-		font-weight: bold;
-	}
+    h3 {
+        font-size: 1.5em;
+    }
 
-	h2 {
-		margin: 1em 0 0 0;
-		font-size: 1.6em;
-		font-weight: bolder;
-	}
+    h4 {
+        font-size: 1.4em;
+    }
 
-	h3 {
-		font-size: 1.5em;
-	}
+    h5 {
+        font-size: 1.3em;
+    }
 
-	h4 {
-		font-size: 1.4em;
-	}
+    h6 {
+        font-size: 1.2em;
+    }
 
-	h5 {
-		font-size: 1.3em;
-	}
+    p, ul, ol {
+        font-size: 1.3rem;
+        line-height: 1.5em;
+        margin: 1em 0;
+    }
 
-	h6 {
-		font-size: 1.2em;
-	}
+    ol, ul {
+        padding-left: 2rem;
+        -webkit-padding-start: 5%;
+        -webkit-padding-end: 5%;
+    }
 
-	p, ul, ol {
-		font-size: 1.3rem;
-		line-height: 1.5em;
-		margin: 1em 0;
-	}
+    li {
+        margin: 1rem 0;
+    }
 
-	ol, ul {
-		padding-left: 2rem;
-		-webkit-padding-start: 5%;
-		-webkit-padding-end: 5%;
-	}
+    li p {
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
 
-	li {
-		margin: 1rem 0;
-	}
+    a {
+        color: inherit;
+        transition: color linear .15s;
+    }
 
-	li p {
-		margin-bottom: 0.5rem;
-		margin-top: 0.5rem;
-	}
+    a:hover {
+        color: #fd6378;
+    }
 
-	a {
-		color: inherit;
-		transition: color linear .15s;
-	}
+    p a {
+        text-decoration: none;
+        box-shadow: inset 0 -0.12em 0 #fd6378;
+        -webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+        transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+    }
 
-	a:hover {
-		color: #fd6378;
-	}
+    p a:hover {
+        box-shadow: inset 0 -1.5em 0 #fd6378;
+        color: #FFF;
+    }
 
-	p a {
-		text-decoration: none;
-		box-shadow: inset 0 -0.12em 0 #fd6378;
-		-webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
-		transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
-	}
+    img {
+        max-width: 100%;
+    }
 
-	p a:hover {
-		box-shadow: inset 0 -1.5em 0 #fd6378;
-		color: #FFF;
-	}
+    hr {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(56, 178, 172, .8), rgba(0, 0, 0, 0));
+        border: 0;
+        height: 2px;
+        margin: 40px auto;
+    }
 
-	img {
-		max-width: 100%;
-	}
+    code {
+        font-family: 'SF Mono', menlo, inconsolata, monospace;
+        font-size: calc(1em - 2px);
+        color: #555;
+        background-color: #f0f0f0;
+        padding: 0.2em 0.4em;
+        border-radius: 2px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 
-	hr {
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(56, 178, 172, .8), rgba(0, 0, 0, 0));
-		border: 0;
-		height: 2px;
-		margin: 40px auto;
-	}
+    pre {
+        border-radius: 8px !important;
+        margin: 1.2em 0 !important;
+    }
 
-	code {
-		font-family: 'SF Mono', menlo, inconsolata, monospace;
-		font-size: calc(1em - 2px);
-		color: #555;
-		background-color: #f0f0f0;
-		padding: 0.2em 0.4em;
-		border-radius: 2px;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
+    pre code {
+        padding: 0;
+    }
 
-	pre {
-		border-radius: 8px!important;
-		margin: 1.2em 0!important;
-	}
+    blockquote {
+        border-left: 4px solid #cccccc;
+        font-size: 1.4em;
+        font-style: italic;
+        margin: 2rem 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 
-	pre code {
-		padding: 0;
-	}
+    blockquote p {
+        padding-bottom: 6px;
+    }
 
-	blockquote {
-		border-left: 4px solid #cccccc;
-		font-size: 1.4em;
-		font-style: italic;
-		margin: 2rem 0;
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
+    blockquote footer {
+        font-size: 1.1rem;
+        text-align: right;
+    }
 
-	blockquote p {
-		padding-bottom: 6px;
-	}
+    figure {
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        margin: 0 0 3em 0;
+    }
 
-	blockquote footer {
-		font-size: 1.1rem;
-		text-align: right;
-	}
+    table {
+        border-collapse: collapse;
+        font-family: Rubik, sans-serif;
+        font-size: 1.125em;
+        margin: 2em 0;
+    }
 
-	figure {
-		padding: 0;
-		border: 0;
-		font: inherit;
-		vertical-align: baseline;
-		-webkit-margin-start: 0;
-		-webkit-margin-end: 0;
-		margin: 0 0 3em 0;
-	}
+    th {
+        border-bottom: 2px solid #cccccc;
+        padding: 0.4em 0.8em;
+    }
 
-	table {
-		border-collapse: collapse;
-		font-family: Rubik, sans-serif;
-		font-size: 1.125em;
-		margin: 2em 0;
-	}
+    td {
+        padding: 0.4em 0.8em;
+    }
 
-	th {
-		border-bottom: 2px solid #cccccc;
-		padding: 0.4em 0.8em;
-	}
+    .container {
+        margin: 0 auto;
+        max-width: 42em;
+        width: 100%;
+    }
 
-	td {
-		padding: 0.4em 0.8em;
-	}
+    .content h1 {
+        font-size: 3em;
+        margin: 1em 0;
+    }
 
-	.container {
-		margin: 0 auto;
-		max-width: 42em;
-		width: 100%;
-	}
+    @media (max-width: 1020px) {
+        h1 {
+            font-size: 3em;
+        }
 
-	.content h1 {
-		font-size: 3em;
-		margin: 1em 0;
-	}
+        .content h1 {
+            font-size: 2.4em;
+        }
+    }
 
-	@media (max-width: 1020px) {
-		h1 {
-			font-size: 3em;
-		}
+    @media (max-width: 480px) {
+        body {
+            font-size: 14px;
+        }
 
-		.content h1 {
-			font-size: 2.4em;
-		}
-	}
+        p, ul, ol {
+            font-size: 1.2rem;
+            margin: 1em 0;
+        }
+    }
 
-	@media (max-width: 480px) {
-		body {
-			font-size: 14px;
-		}
+    .post-item-date {
+        color: #AAA;
+        text-align: left;
+        text-transform: uppercase;
+        margin-right: 16px;
+        font-size: smaller;
+    }
 
-		p, ul, ol {
-			font-size: 1.2rem;
-			margin: 1em 0;
-		}
-	}
-	.post-item-date {
-		color: #AAA;
-		text-align: left;
-		text-transform: uppercase;
-		margin-right: 16px;
-		font-size: smaller;
-	}
-	hr {
-		margin: 60px auto;
-	}
+    hr {
+        margin: 60px auto;
+    }
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+    <title>Blog</title>
 </svelte:head>
 
 
 <section>
-	<div class="container w-full md:max-w-3xl mx-auto pt-20">
-		<div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
-		<h1>Recent posts</h1>
+    <div class="container w-full md:max-w-3xl mx-auto pt-20">
+        <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
+            <h1>Recent posts</h1>
 
-	{#each posts as post, index}
-		{#if $locale === post.lang}
-			{#if index}
-				<hr />
-			{/if}
-		<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
-			<article class="post-item">
-				<h2>
-					<a rel='prefetch' href='{$locale}/blog/{post.slug}'>{post.title}</a>
-				</h2>
-				<p>{post.excerpt}</p>
-				<div class="post-item-footer">
-					<span class="post-item-date">— {post.printDate}</span>
-				</div>
-			</article>
-		{/if}
-	{/each}
-		</div>
-	</div>
+            {#each posts as post, index}
+                {#if $locale === post.lang}
+                    {#if index}
+                        <hr/>
+                    {/if}
+                        <!-- `rel=prefetch` attribute to load the data for the page as soon as  the user hovers over the link or taps it, instead of waiting for the 'click' event -->
+                    <article class="post-item">
+                        <h2>
+                            <a rel='prefetch' href='{$locale}/blog/{post.slug}'>{post.title}</a>
+                        </h2>
+                        <p>{post.excerpt}</p>
+                        <div class="post-item-footer">
+                            <span class="post-item-date">— {post.printDate}</span>
+                        </div>
+                    </article>
+                {/if}
+            {/each}
+        </div>
+    </div>
 </section>

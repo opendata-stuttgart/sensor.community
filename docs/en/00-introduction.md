@@ -36,17 +36,3 @@ title: Introduction
 🙌 Great, you decided to but the parts online! 
 Unfortunaltely this can take up to four weeks. 
 So enjoy your life until.
-
-### Getting started
-
-The easiest way to start building a Sapper app is to clone the [sapper-template](https://github.com/sveltejs/sapper-template) repo with [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit "sveltejs/sapper-template#rollup" my-app
-# or: npx degit "sveltejs/sapper-template#webpack" my-app
-cd my-app
-npm install
-npm run dev
-```
-
-This will scaffold a new project in the `my-app` directory, install its dependencies, and start a server on [localhost:3000](http://localhost:3000). Try editing the files to get a feel for how everything works – you may not need to bother reading the rest of this guide!

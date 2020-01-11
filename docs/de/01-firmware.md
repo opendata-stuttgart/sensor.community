@@ -44,7 +44,7 @@ To communicate with the ESP8266 you need usb2serial drivers. The chipset for Noc
 #### MacOS Driver for model V3 (CH341)
 * MacOS: http://www.wch.cn/downloads/file/178.html (restart your computer after installation)
 
-#### Extract the downloaded file for MacOS.
+#### Extract the downloaded file for MacOS:
 * for V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
 * for V3: open the folder CH341SER and double click on the application SETUP.
 
@@ -71,7 +71,7 @@ No drivers need to be installed. Chip should be supported directly (verifiable w
 #### Driver for model V3 (CH341)
 * MacOS: http://www.wch.cn/downloads/file/178.html (restart your computer after installation)
 
-#### Extract the downloaded file for Linux:
+#### Extract the downloaded file for Linux. Unpack it:
 Download Firmware Flasher Tool   
 * Linux (64-bit): https://luftdaten.info/flashtool/luftdaten-tool.linux-x64
 * Source Code: https://github.com/opendata-stuttgart/airrohr-firmware-flasher

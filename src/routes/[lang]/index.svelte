@@ -6,9 +6,9 @@
     });
 </script>
 <style>
-    * {
-        -webkit-tab-highlight-color: transparent;
-    }
+    /** {*/
+    /*    -webkit-tab-highlight-color: transparent;*/
+    /*}*/
 
     #particles-js {
         position: absolute;
@@ -71,9 +71,9 @@
         <!--	</div>-->
 
         <div class="flex" style="height: 600px;">
-            <iframe src="https://maps.sensor.community/?selection=PM25&nooverlay=true"
-                    style="width: 96%; height: 95%; margin: auto; overflow: hidden;"
-                    scrolling="no"></iframe>
+            <iframe scrolling="no"
+                    src="https://maps.sensor.community/?selection=PM25&nooverlay=true"
+                    style="width: 96%; height: 95%; margin: auto; overflow: hidden;" title="sensor.community particulare matter map"></iframe>
         </div>
     </div>
     <div class="px-4 py-16">
@@ -88,8 +88,8 @@
     <div class="-mt-10 max-w-4xl mx-auto bg-white shadow-lg relative z-20"
          style="border-radius: 20px;">
         <div class="h-10 bg-white rounded-t-lg border-b border-gray-100"></div>
-        <iframe src="https://maps.sensor.community/?selection=PM25" style="width: 100%; border: none; overflow: hidden;"
-                scrolling="no"></iframe>
+        <iframe scrolling="no" src="https://maps.sensor.community/?selection=PM25"
+                style="width: 100%; border: none; overflow: hidden;" title="sensor.community particulare matter map"></iframe>
     </div>
 </div>
 
