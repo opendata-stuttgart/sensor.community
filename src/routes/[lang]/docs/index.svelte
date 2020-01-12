@@ -1,15 +1,26 @@
-<script context="module">
-    export async function preload() {
-        const sections = await this.fetch(`{$locale}/docs/{$locale}.json`).then(r => r.json());
-        return {sections};
-    }
-</script>
+<!--<script context="module">-->
+<!--    export async function preload() {-->
+<!--        const sections = await this.fetch(`{$locale}/docs/en.json`).then(r => r.json());-->
+<!--        return {sections};-->
+<!--    }-->
+<!--</script>-->
 
 <script>
-    import {_, locale} from 'svelte-i18n'
+    import {_, locale, locales} from 'svelte-i18n'
+    import {stores} from '@sapper/app';
     import {Docs} from '../../../../site-kit/'
 
-    export let sections;
+    let {page} = stores();
+    let langPath;
+
+    langPath = $page.path.split("/")[1];
+
+    let sections = (async () => {
+        let uri = `/${langPath}/docs/${langPath}.json`;
+        const response = await fetch(uri);
+        return await response.json()
+    })()
+
 </script>
 
 <style>
@@ -148,7 +159,9 @@
         padding: 0;
     }
 
-     a:hover:not(.disabled) > .icon { stroke: var(--flash) }
+    a:hover:not(.disabled) > .icon {
+        stroke: var(--flash)
+    }
 
     /*  lists ---------------------------------- */
     .listify ol,
@@ -367,4 +380,11 @@
     <meta name="twitter:description" content={$_('docs.metaDescription')}>
 </svelte:head>
 
-<Docs {sections} project="sapper" class="mt-10"/>
+
+{#await sections}
+    <p>...waiting</p>
+{:then sections}
+    <Docs {sections} project="sapper" class="mt-10"/>
+{:catch error}
+    <p>An error occurred!</p>
+{/await}
