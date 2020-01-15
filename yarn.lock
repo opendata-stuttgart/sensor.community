@@ -3398,6 +3398,11 @@ svelte-i18n@^2.1.1:
     intl-messageformat "^7.5.2"
     tiny-glob "^0.2.6"
 
+svelte-table@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/svelte-table/-/svelte-table-0.1.5.tgz#308387ee7081aa6e269433690ad699bce4709269"
+  integrity sha512-CQXVf5sSQDi6KVWXDV+aKsA4azkuFwlZLfrYYPLDtpewmq/PTp1PCGdWOeC2kEZaMdjeJp6ePyUsMRUPoVjguw==
+
 svelte@^3.16.7:
   version "3.16.7"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.16.7.tgz#9ade80a4bbbac95595c676dd817222f632fa2c07"

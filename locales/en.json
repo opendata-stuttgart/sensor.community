@@ -1,13 +1,10 @@
 {
   "index": {
-    "h1": "Build a sensor and become part of the worldwide Civic Tech network \uD83C\uDF10. Supported by a lot of contributors \uD83D\uDC95",
-    "tagline": "The next small thing in web development",
-    "section1": "Sensor Community in numbers",
     "metaDescription": "Sapper project template",
     "metaTitle": "Sapper project template",
-    "success": "Great success!",
-    "highFive": "High five",
-    "tryEditing": "Try editing this file (src/routes/about.svelte) to test live reloading."
+    "h1": "Build a sensor and become part of the worldwide Civic Tech network \uD83C\uDF10. Supported by a lot of contributors \uD83D\uDC95",
+    "tagline": "The next small thing in web development",
+    "section1": "Sensor Community in numbers"
   },
   "docs": {
     "h1": "Documentation",
@@ -24,7 +21,8 @@
   "nav": {
     "home": "Home",
     "docs": "Docs",
-    "blog": "Blog"
+    "blog": "Blog",
+    "projects": "Projects"
   },
   "error": {
     "errorStatus" : "Encountered a {status} error.",

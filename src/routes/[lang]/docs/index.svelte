@@ -17,8 +17,7 @@
 
     let sections = (async () => {
         let uri = `/${langPath}/docs/${langPath}.json`;
-        const response = await fetch(uri);
-        return await response.json()
+        return await fetch(uri).then(response => response.json());
     })()
 
 </script>

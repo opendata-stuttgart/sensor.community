@@ -17,6 +17,7 @@
                 <a href="{$locale}/code-of-conduct" class="text-sm text-grey-darker py-1">Code of Conduct</a>
                 <a href="{$locale}/privacy-policy" class="text-sm text-grey-darker py-1">Privacy Policy</a>
                 <a href="{$locale}/blog" class="text-sm text-grey-darker py-1">Blog</a>
+                <a href="{$locale}/presskit" class="text-sm text-grey-darker py-1">Presskit</a>
             </div>
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
                 <h4 class="text-base pb-4">License</h4>

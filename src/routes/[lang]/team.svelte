@@ -223,8 +223,15 @@
 
 	<section class="text-center my-8 px-8">
 		<h1 class="font-medium">Questions?</h1>
-		<a href="{$locale}" target="_blank"><p class="text-gray-700 mt-2 mb-6">💬 Connect with the communitiy</p></a>
-		<a href="mailto:technic@sensor.community" target="_blank">
-		<p class="text-gray-700 mt-2 mb-6">✉️ Write us an email</p></a>
+<!--		<a href="https://forum.sensor.community" target="_blank"><p class="text-gray-700 mt-2 mb-6">💬 Connect with the communitiy</p></a>-->
+
+		<a href="mailto:partnership@Sensor.Community" target="_blank">
+		<p class="text-gray-700 mt-2 mb-6">✉️ want to partner with us?</p></a>
+
+			<a href="mailto:press@Sensor.Community" target="_blank">
+		<p class="text-gray-700 mt-2 mb-6">📰 Write us an email</p></a>
+
+			<a href="mailto:tech@Sensor.Community" target="_blank">
+		<p class="text-gray-700 mt-2 mb-6">💻 technical questions?</p></a>
 	</section>
 </div>

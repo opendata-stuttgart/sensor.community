@@ -12,18 +12,19 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run"
-    },
+  },
   "dependencies": {
     "@polka/send": "^0.4.0",
+    "@sindresorhus/slugify": "^0.9.1",
     "compression": "^1.7.1",
+    "golden-fleece": "^1.0.9",
     "highlight.js": "^9.17.1",
     "particles.js": "^2.0.0",
     "polka": "next",
     "prismjs": "^1.17.1",
     "sirv": "^0.4.0",
     "svelte-i18n": "^2.1.1",
-    "@sindresorhus/slugify": "^0.9.1",
-    "golden-fleece": "^1.0.9"
+    "svelte-table": "^0.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

@@ -1,0 +1,31 @@
+- id: android
+  title: Android
+  logo: ./logos/android.svg
+
+- id: ios
+  title: iOS
+  logo: ./logos/ios.svg
+
+- id: windows
+  title: Windows
+  logo: ./logos/windows.svg
+
+- id: linux
+  title: Linux
+  logo: ./logos/linux.svg
+
+- id: macos
+  title: macOS
+  logo: ./logos/apple.svg
+
+- id: portal
+  title: portal
+  logo:
+
+- id: sponsor
+  title: sponsor
+  logo:
+
+- id: partners
+  title: partners
+  logo:
