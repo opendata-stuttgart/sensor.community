@@ -1,0 +1,324 @@
+:root {
+	--nav-h:       6rem;
+	--top-offset:  5rem;
+	--sidebar-w:  25rem;
+	--sidebar-mid-w: 36rem;
+	--sidebar-large-w: 48rem;
+	--main-width: 80rem;
+	--side-nav:  3.2rem;
+	--side-page:   var(--side-nav);
+
+	/* easings */
+	--out-back:    cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@media screen and (min-width: 768px) {
+	:root {
+		--side-page:  14vw;
+		--top-offset: 3rem;
+		--side-nav: 4.8rem;
+	}
+}
+
+/*	base reset ----------------------------- */
+
+* {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+/*	link reset ----------------------------- */
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+a:hover, a:active { color: #40b3ff }
+a:focus { outline: none }
+
+/*
+-----------------------------------------------
+	global styles
+-----------------------------------------------
+*/
+
+/*	typography ----------------------------- */
+/*body {*/
+/*	font: 300 1.4rem/1.5 var(--font);*/
+/*	background-color: #ffffff;*/
+/*	color: #444;*/
+
+/*	!* default spacing of Overpass is a bit too airy *!*/
+/*	!* letter-spacing: -.013em; *!*/
+/*}*/
+
+/*h1, h2, h3, h4, h5, h6, blockquote {*/
+/*	position: relative;*/
+/*	margin: 0;*/
+/*	color: #676778;*/
+/*}*/
+
+.listify h1, h2, h3, h4, h5, h6 { font-weight: 600 }
+.listify h6 { font-size: 1rem }
+.listify h5 { font-size: 1.1rem }
+.listify h4 { font-size: 1.4rem }
+.listify h3 { font-size: 1.6rem }
+.listify h2 { font-size: 3rem }
+.listify h1 { font-size: 3.2rem }
+
+/*h1, h2 {*/
+/*	font-family: var(--font);*/
+/*	line-height: 1.25;*/
+/*}*/
+
+/*h3 { font-weight: 300 }*/
+
+/*p, ol, ul {*/
+/*	margin: 0 0 0 0.5em;*/
+/*}*/
+
+/*.b, b, strong { font-weight: 600 }*/
+
+/*tt, code, kbd, samp {*/
+/*	font-size: 1.3rem;*/
+/*}*/
+
+code {
+	position: relative;
+	border-radius: .3em;
+	white-space: nowrap;
+	color: #343434;
+	-webkit-font-smoothing: initial;
+}
+
+pre code {
+	top: 0;
+	white-space: inherit;
+	color: white;
+}
+
+
+
+/* sync CodeMirror with prism  */
+.CodeMirror {
+	font-size: 1.3rem !important;
+}
+
+::selection {
+	background: #40b3ff;
+	color: white;
+}
+
+/*	opinionated styles --------------------- */
+
+/*li:not(.white) > h2 {*/
+/*	color: #676778*/
+/*}*/
+
+.listify blockquote {
+	position: relative;
+	margin: 1.6rem 0 2.4rem;
+	padding: 1rem 1.4rem;
+	border-radius: .4rem;
+	max-width: 80%;
+}
+
+.listify blockquote p {
+	font-size: 1.3em;
+}
+
+.listify blockquote :last-child {
+	margin: 0;
+}
+
+
+
+/*  links ------------------------------------- */
+.listify a {
+	/*position: relative;*/
+	/*padding: 0 0 1px 0;*/
+	/*border-bottom: 1px solid #d53f8c;*/
+	/*user-select: none;*/
+	/*color: #d53f8c;*/
+	/*transition: color .2s, border .2s, padding .2s;*/
+	/*box-shadow: inset 0 -0.12em 0 #d53f8c*/
+	text-decoration: none;
+	box-shadow: inset 0 -0.12em 0 #fd6378;
+	-webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+	transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+}
+
+.listify  a:hover  {
+	box-shadow: inset 0 -1.5em 0 #fd6378;
+	color: #FFF;
+}
+
+.listify a.no-underline {
+	border-bottom: none;
+	padding: 0;
+}
+
+.listify  a:hover:not(.disabled) > .icon { stroke: #40b3ff }
+
+/*  lists ---------------------------------- */
+.listify ol,
+.listify ul {
+	list-style: none;
+	margin-left: 2.9rem;
+}
+
+.listify ol > li,
+.listify ul > li {
+	line-height: 1.5;
+	margin: 0 0 0.4rem 0;
+}
+
+.listify ul > li:before {
+	content: '';
+	position: absolute;
+	margin-top: 0.5rem;
+	margin-left: -1.8rem;
+	background-color: #676778;
+	width: .5rem;
+	height: .5rem;
+}
+
+.listify ol { list-style: decimal }
+
+.listify p {
+	padding-left: 1rem;
+}
+
+/*  tables --------------------------------- */
+table {
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+td, th {
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding: 0.4rem 0.8rem 0.4rem 0;
+}
+
+table code, table span {
+	white-space: pre;
+}
+
+/*	grid ----------------------------------- */
+.grid, .grid.half {
+	display: grid;
+	grid-gap: 2.4rem;
+	grid-template-columns: 1fr;
+	align-items: center;
+}
+
+.grid.stretch { align-items: stretch }
+
+.grid > .cols-2,
+.grid > .cols-3 { grid-column: span 1 }
+
+@media screen and (min-width: 840px) {
+	.grid.half,
+	.grid { grid-template-columns: repeat(2, 1fr) }
+	.grid > .cols-2,
+	.grid > .cols-3 { grid-column: span 2 }
+}
+
+@media screen and (min-width: 1100px) {
+	.grid { grid-template-columns: repeat(3, 1fr) }
+	.grid > .cols-2 { grid-column: span 2 }
+	.grid > .cols-3 { grid-column: span 3 }
+}
+
+/*	helper styles -------------------------- */
+.flex-auto { flex: 1 0 auto }
+
+.py0 {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.legend, figcaption, .post aside {
+	max-width: none;
+	margin: 0 auto;
+	padding: 1.6rem 0 0 .8rem;
+	/*font: 1.2rem/1.6 var(--font-mono);*/
+}
+
+.filename {
+	display: inline-block;
+	padding: 1.6rem 0 0 1rem;
+	/*font: 1rem var(--font-mono);*/
+}
+
+.box {
+	padding: 2.4rem 3.2rem;
+	border-radius: .4rem;
+}
+
+/*	theme colors --------------------------- */
+.prime      { color: #ff3e00 !important }
+.second     { color: #676778 !important }
+.flash      { color: #40b3ff !important }
+.black      { color: black !important }
+.white      { color: white !important }
+
+.back       { background-color: #ffffff !important }
+.back-light { background-color: #f6fafd !important }
+.bg-prime   { background-color: #ff3e00 !important }
+.bg-second  { background-color: #676778 !important }
+.bg-flash   { background-color: #40b3ff!important }
+
+/*	inputs --------------------------------- */
+input[type="checkbox"] {
+	/* display: block; */
+	position: relative;
+	height: 1em;
+	width: calc(100% - 0.6em);
+	max-width: 2em;
+	top: -2px;
+	border-radius: 0.5em;
+	-webkit-appearance: none;
+	outline: none;
+	margin: 0 0.6em 0 0;
+}
+
+input[type="checkbox"]::before {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 100%;
+	width: 100%;
+	padding: 2px;
+	border-radius: 1em;
+	top: 0;
+	left: 0;
+	background: #676778;
+	/* box-sizing: border-box; */
+	box-sizing: content-box;
+}
+
+input[type="checkbox"]:checked::before {
+	background: #ff3e00;
+}
+
+input[type="checkbox"]::after {
+	content: "";
+	position: absolute;
+	display: block;
+	height: 1em;
+	width: 1em;
+	top: 2px;
+	left: 2px;
+	border-radius: 1em;
+	background: white;
+	box-shadow: 0 0px 1px rgba(0,0,0,.4), 0 4px 2px rgba(0,0,0,.1);
+	-webkit-transition: background .2s ease-out, left .2s ease-out;
+}
+
+input[type="checkbox"]:checked::after {
+	left: calc(100% - 9px);
+}

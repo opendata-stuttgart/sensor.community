@@ -1,17 +1,23 @@
 <!doctype html>
-<html lang={$locale} >
+<html lang={$locale}>
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
 	<meta name='theme-color' content='#333333'>
 
 	%sapper.base%
-
+	<link rel="stylesheet" href="index.css"/>
 	<link rel='stylesheet' href='global.css'>
-	<link rel="stylesheet" href="index.css" />
+	<link rel='stylesheet' href='highlight.css'>
 	<link rel='manifest' href='manifest.json'>
 	<link rel='icon' type='image/png' href='favicon.png'>
+
 	<title>Sensor Community</title>
+
+	<meta name='twitter:card' content='summary_large_image'>
+	<meta name='twitter:site' content='@sensorcommunity'>
+	<meta name='twitter:creator' content='@sensorcommunity'>
+	<meta name='twitter:image' content=''>
 
 	<!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
@@ -31,5 +37,6 @@
 	     and anything else it needs to hydrate the app and
 	     initialise the router -->
 	%sapper.scripts%
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 </body>
 </html>

@@ -1,19 +1,17 @@
 {
   "index": {
-    "h1": "Sapper project template!",
-    "tagline": "The next small thing in web development",
-    "tile1": "Sapper is an application framework powered by Svelte — build bigger apps with a smaller footprint",
     "metaDescription": "Sapper project template",
     "metaTitle": "Sapper project template",
-    "success": "Great success!",
-    "highFive": "High five",
-    "tryEditing": "Try editing this file (src/routes/about.svelte) to test live reloading."
+    "h1": "Build a sensor and become part of the worldwide Civic Tech network \uD83C\uDF10. Supported by a lot of contributors \uD83D\uDC95",
+    "tagline": "The next small thing in web development",
+    "section1": "Sensor Community in numbers"
   },
   "docs": {
     "h1": "Documentation",
     "content": "Sapper Template!",
     "metaDescription": "Sapper project template",
-    "metaTitle": "Documentation"
+    "metaTitle": "Documentation",
+    "editOnGithub" : "Edit on Github"
   },
   "blog": {
     "h1": "News",
@@ -23,7 +21,8 @@
   "nav": {
     "home": "Home",
     "docs": "Docs",
-    "blog": "Blog"
+    "blog": "Blog",
+    "projects": "Projects"
   },
   "error": {
     "errorStatus" : "Encountered a {status} error.",
