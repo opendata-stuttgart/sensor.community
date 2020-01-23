@@ -23,6 +23,11 @@
 
 <svelte:head>
     <title>{$_('index.metaTitle')}</title>
+
+    <meta property="og:title" content={$_('index.metaTitle')}/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
 </svelte:head>
 
 <section>

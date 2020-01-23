@@ -4,6 +4,11 @@
 
 <svelte:head>
 	<title>Presskit</title>
+
+	<meta property="og:title" content={$_('index.metaTitle')}/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
 </svelte:head>
 
 <div class="bg-white">

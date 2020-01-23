@@ -4,6 +4,16 @@
 
     const {flag, code, name, countries} = require('country-emoji');
 </script>
+
+<svelte:head>
+    <title>Presskit</title>
+
+    <meta property="og:title" content={$_('index.metaTitle')}/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+</svelte:head>
+
 <section>
     <div class="container w-full mx-auto">
         <div class="w-full p-24  md:px-6 text-xl text-gray-800 leading-normal">
