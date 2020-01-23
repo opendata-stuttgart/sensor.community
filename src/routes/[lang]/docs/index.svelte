@@ -373,10 +373,10 @@
 
 <svelte:head>
     <title>{$_('docs.metaTitle')}</title>
-    <meta name="Description" content={$_('docs.metaDescription')}>
-
-    <meta name="twitter:title" content={$_('docs.metaTitle')}>
-    <meta name="twitter:description" content={$_('docs.metaDescription')}>
+    <meta property="og:title" content="{$_('docs.metaTitle')}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
 </svelte:head>
 
 

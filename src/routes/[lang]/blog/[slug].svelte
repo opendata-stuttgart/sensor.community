@@ -449,6 +449,11 @@
 
 <svelte:head>
     <title>{post.title}</title>
+
+    <meta property="og:title" content="The"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
 </svelte:head>
 
 <section class="container">
