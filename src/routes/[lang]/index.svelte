@@ -72,7 +72,7 @@
 
         <div class="flex" style="height: 600px;">
             <iframe scrolling="no"
-                    src="https://maps.sensor.community/?selection=PM25&nooverlay=true"
+                    src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
                     style="width: 96%; height: 95%; margin: auto; overflow: hidden;" title="sensor.community particulare matter map"></iframe>
         </div>
     </div>

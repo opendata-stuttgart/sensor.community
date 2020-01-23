@@ -1,30 +1,26 @@
 {
   "name": "sensor.community",
   "description": "sparkles new shiny website for dust and noise measuring project sensor.community based on sapper and svelte",
-  "version": "0.0.1",
+  "version": "0.1",
   "scripts": {
     "dev": "sapper dev --ext '.svexy .svelte .svx'",
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "build": "npm run build:tailwind && sapper build --legacy",
-    "export": "sapper export --legacy",
-    "start": "node __sapper__/build",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
-    "test": "run-p --race dev cy:run"
+    "start": "npm install && npx sapper export && npx serve __sapper__/export"
   },
   "dependencies": {
     "@polka/send": "^0.4.0",
     "@sindresorhus/slugify": "^0.9.1",
     "compression": "^1.7.1",
+    "country-emoji": "^1.5.0",
     "golden-fleece": "^1.0.9",
     "highlight.js": "^9.17.1",
     "particles.js": "^2.0.0",
     "polka": "next",
     "prismjs": "^1.17.1",
     "sirv": "^0.4.0",
-    "svelte-i18n": "^2.1.1",
-    "svelte-table": "^0.1.5"
+    "svelte-i18n": "^2.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
