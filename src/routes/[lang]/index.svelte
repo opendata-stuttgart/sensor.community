@@ -1,5 +1,8 @@
 <script>
-    import {_} from 'svelte-i18n'
+    import {_, locale, locales} from 'svelte-i18n';
+    import Contact from "../../components/Contact.svelte"
+
+
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
     particlesJS.load('particles-js', 'particles.json', function () {
         console.log('callback - particles.js config loaded');
@@ -40,9 +43,9 @@
                 <div class="p-2">
                     <div class="inline-flex items-center bg-white leading-none text-pink-600 rounded-full p-2 shadow text-sm">
                         <span class="inline-flex bg-pink-600 text-white rounded-full h-6 px-3 justify-center items-center text-">Donate</span>
-                        <a href="https://www.betterplace.org/de/projects/38071-fur-das-projekt-luftdaten-info-feinstaub-sensor-spenden"
+                        <a href="{$locale}/donate"
                            target="_blank" rel="noopener, noreferrer, nofollow">
-                            <span class="inline-flex px-2">Help us keep the network alive by donating a small amount 👉 here. 💓</span>
+                            <span class="inline-flex px-2">Help us keep the network alive by donating a small amount 💓</span>
                         </a>
                     </div>
                 </div>
@@ -117,139 +120,155 @@
 
 <!--</p>-->
 
+<section class="container mx-auto">
+    <div class="flex flex-row flex-wrap">
+        <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center">
+            Sensor Community in numbers</h2>
+        <div class="w-full flex">
+            <div class="w-full text-center md:text-left md:w-1/2">
+                <div class="mx-auto">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player
+                            src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+                    </lottie-player>
+                </div>
+            </div>
+            <div class="w-full md:w-3/4">
+                <div class="rounded flex justify-center items-center">
+                <div class="rounded flex justify-center items-center p-3">
+                    <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
+                        <div>
+                            <p class="text-base text-grey-dark text-sm">Total Sensor worldwide</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl text-grey-darker font-bold">13.249</p>
+                        </div>
+                        <!--                <div class="text-sm">-->
+                        <!--                    <p class="text-green mb-1 flex item-center">-->
+                        <!--                        <i class="material-icons">-->
+                        <!--                            arrow_drop_up-->
+                        <!--                        </i> 5.77%-->
 
-<section>
-    <div class="relative md:max-w-2xl md:mx-auto text-center pt-12">
-        <h2 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">
-            {$_('index.section1')}
-        </h2>
+                        <!--                    </p>-->
+                        <!--                    <p class="text-grey-dark">Since last month</p>-->
+                        <!--                </div>-->
+                    </div>
+                </div>
+                <div class="rounded flex justify-center items-center p-3">
+                    <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
+                        <div>
+                            <p class="text-base text-grey-dark text-sm">Countries</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl text-grey-darker font-bold">69</p>
+                        </div>
+                        <!--                <div class="text-sm">-->
+                        <!--                    <p class="text-green mb-1 flex item-center">-->
+                        <!--                        <i class="material-icons">-->
+                        <!--                            arrow_drop_up-->
+                        <!--                        </i> 5.77%-->
+
+                        <!--                    </p>-->
+                        <!--                    <p class="text-grey-dark">Since last month</p>-->
+                        <!--                </div>-->
+                    </div>
+                </div>
+                <div class="rounded flex justify-center items-center p-3">
+                    <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
+                        <div>
+                            <p class="text-base text-grey-dark text-sm">percentage of the world</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl text-grey-darker font-bold">36%</p>
+                        </div>
+                        <!--                <div class="text-sm">-->
+                        <!--                    <p class="text-green mb-1 flex item-center">-->
+                        <!--                        <i class="material-icons">-->
+                        <!--                            arrow_drop_up-->
+                        <!--                        </i> 5.77%-->
+
+                        <!--                    </p>-->
+                        <!--                    <p class="text-grey-dark">Since last month</p>-->
+                        <!--                </div>-->
+                    </div>
+                </div>
+            </div>
+                <div class="rounded flex justify-center items-center">
+                    <div class="rounded flex justify-center items-center p-3">
+                        <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
+                            <div>
+                                <p class="text-base text-grey-dark text-sm">Server Uptime</p>
+                            </div>
+                            <div>
+                                <p class="text-2xl text-grey-darker font-bold">76 days</p>
+                            </div>
+                            <!--                <div class="text-sm">-->
+                            <!--                    <p class="text-green mb-1 flex item-center">-->
+                            <!--                        <i class="material-icons">-->
+                            <!--                            arrow_drop_up-->
+                            <!--                        </i> 5.77%-->
+
+                            <!--                    </p>-->
+                            <!--                    <p class="text-grey-dark">Since last month</p>-->
+                            <!--                </div>-->
+                        </div>
+                    </div>
+                    <div class="rounded flex justify-center items-center p-3">
+                        <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
+                            <div>
+                                <p class="text-base text-grey-dark text-sm">Core Team</p>
+                            </div>
+                            <div>
+                                <p class="text-2xl text-grey-darker font-bold">9</p>
+                            </div>
+                            <!--                <div class="text-sm">-->
+                            <!--                    <p class="text-green mb-1 flex item-center">-->
+                            <!--                        <i class="material-icons">-->
+                            <!--                            arrow_drop_up-->
+                            <!--                        </i> 5.77%-->
+
+                            <!--                    </p>-->
+                            <!--                    <p class="text-grey-dark">Since last month</p>-->
+                            <!--                </div>-->
+                        </div>
+                    </div>
+                    <div class="rounded flex justify-center items-center p-3">
+                        <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
+                            <div>
+                                <p class="text-base text-grey-dark text-sm">Github Commits</p>
+                            </div>
+                            <div>
+                                <p class="text-2xl text-grey-darker font-bold">1.343</p>
+                            </div>
+                            <!--                <div class="text-sm">-->
+                            <!--                    <p class="text-green mb-1 flex item-center">-->
+                            <!--                        <i class="material-icons">-->
+                            <!--                            arrow_drop_up-->
+                            <!--                        </i> 5.77%-->
+
+                            <!--                    </p>-->
+                            <!--                    <p class="text-grey-dark">Since last month</p>-->
+                            <!--                </div>-->
+                        </div>
+                    </div>
+                </div></div>
+        </div>
+
     </div>
-
-    <div class="rounded h-full flex justify-center items-center">
-        <div class="rounded h-full flex justify-center items-center p-6">
-            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
-                <div>
-                    <p class="text-base text-grey-dark">Total Sensor worldwide</p>
-                </div>
-                <div>
-                    <p class="text-2xl text-grey-darker font-bold">13.249</p>
-                </div>
-<!--                <div class="text-sm">-->
-<!--                    <p class="text-green mb-1 flex item-center">-->
-<!--                        <i class="material-icons">-->
-<!--                            arrow_drop_up-->
-<!--                        </i> 5.77%-->
-
-<!--                    </p>-->
-<!--                    <p class="text-grey-dark">Since last month</p>-->
-<!--                </div>-->
-            </div>
-        </div>
-        <div class="rounded h-full flex justify-center items-center p-6">
-            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
-                <div>
-                    <p class="text-base text-grey-dark">Countries</p>
-                </div>
-                <div>
-                    <p class="text-2xl text-grey-darker font-bold">69</p>
-                </div>
-<!--                <div class="text-sm">-->
-<!--                    <p class="text-green mb-1 flex item-center">-->
-<!--                        <i class="material-icons">-->
-<!--                            arrow_drop_up-->
-<!--                        </i> 5.77%-->
-
-<!--                    </p>-->
-<!--                    <p class="text-grey-dark">Since last month</p>-->
-<!--                </div>-->
-            </div>
-        </div>
-        <div class="rounded h-full flex justify-center items-center p-6">
-            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
-                <div>
-                    <p class="text-base text-grey-dark">percentage of the world</p>
-                </div>
-                <div>
-                    <p class="text-2xl text-grey-darker font-bold">36%</p>
-                </div>
-                <div class="text-sm">
-                    <p class="text-green mb-1 flex item-center">
-                        <i class="material-icons">
-                            arrow_drop_up
-                        </i> 5.77%
-
-                    </p>
-                    <p class="text-grey-dark">Since last month</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="rounded h-full flex justify-center items-center">
-        <div class="rounded h-full flex justify-center items-center p-6">
-            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
-                <div>
-                    <p class="text-base text-grey-dark">Server Uptime</p>
-                </div>
-                <div>
-                    <p class="text-2xl text-grey-darker font-bold">76 days</p>
-                </div>
-<!--                <div class="text-sm">-->
-<!--                    <p class="text-green mb-1 flex item-center">-->
-<!--                        <i class="material-icons">-->
-<!--                            arrow_drop_up-->
-<!--                        </i> 5.77%-->
-
-<!--                    </p>-->
-<!--                    <p class="text-grey-dark">Since last month</p>-->
-<!--                </div>-->
-            </div>
-        </div>
-        <div class="rounded h-full flex justify-center items-center p-6">
-            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
-                <div>
-                    <p class="text-base text-grey-dark">Core Team</p>
-                </div>
-                <div>
-                    <p class="text-2xl text-grey-darker font-bold">9</p>
-                </div>
-<!--                <div class="text-sm">-->
-<!--                    <p class="text-green mb-1 flex item-center">-->
-<!--                        <i class="material-icons">-->
-<!--                            arrow_drop_up-->
-<!--                        </i> 5.77%-->
-
-<!--                    </p>-->
-<!--                    <p class="text-grey-dark">Since last month</p>-->
-<!--                </div>-->
-            </div>
-        </div>
-        <div class="rounded h-full flex justify-center items-center p-6">
-            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
-                <div>
-                    <p class="text-base text-grey-dark">Github Commits</p>
-                </div>
-                <div>
-                    <p class="text-2xl text-grey-darker font-bold">1.343</p>
-                </div>
-<!--                <div class="text-sm">-->
-<!--                    <p class="text-green mb-1 flex item-center">-->
-<!--                        <i class="material-icons">-->
-<!--                            arrow_drop_up-->
-<!--                        </i> 5.77%-->
-
-<!--                    </p>-->
-<!--                    <p class="text-grey-dark">Since last month</p>-->
-<!--                </div>-->
-            </div>
-        </div>
-    </div>
-
-    <div class="-m-2 text-center">
-        <div class="p-2">
-            <div class="inline-flex items-center bg-white leading-none text-teal-600 rounded-full p-2 shadow text-teal text-sm">
-                <span class="inline-flex bg-teal-600 text-white rounded-full h-6 px-3 justify-center items-center">Build</span>
-                <span class="inline-flex px-2">Build your own sensor</span>
-            </div>
-        </div>
 </section>
+
+<section class="container mx-auto">
+
+</section>
+
+
+<!--    <div class="-m-2 text-center">-->
+<!--        <div class="p-2">-->
+<!--            <div class="inline-flex items-center bg-white leading-none text-teal-600 rounded-full p-2 shadow text-teal text-sm">-->
+<!--                <span class="inline-flex bg-teal-600 text-white rounded-full h-6 px-3 justify-center items-center">Build</span>-->
+<!--                <span class="inline-flex px-2">Build your own sensor</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<Contact/>
+
