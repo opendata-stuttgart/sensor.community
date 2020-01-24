@@ -13,6 +13,13 @@
     "metaTitle": "Documentation",
     "editOnGithub" : "Edit on Github"
   },
+  "projects": {
+    "metaDescription": "Sapper project template",
+    "metaTitle": "Community Projects",
+    "h1": "Commnuity Projects",
+    "content": "Sapper Template!",
+    "editOnGithub" : "Edit on Github"
+  },
   "blog": {
     "h1": "News",
     "metaDescription": "News",

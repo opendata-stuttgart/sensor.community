@@ -1,4 +1,6 @@
 <script>
+    import {_} from 'svelte-i18n'
+
     const fs = require('fs');
     let rows = JSON.parse(fs.readFileSync('./projects/projects.json', 'utf-8'));
 
@@ -6,9 +8,9 @@
 </script>
 
 <svelte:head>
-    <title>Presskit</title>
+    <title>{$_('projects.metaTitle')}</title>
 
-    <meta property="og:title" content={$_('index.metaTitle')}/>
+    <meta property="og:title" content={$_('projects.metaTitle')}/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
@@ -17,7 +19,7 @@
 <section>
     <div class="container w-full mx-auto">
         <div class="w-full p-24  md:px-6 text-xl text-gray-800 leading-normal">
-            <h1>Commnuity Projects</h1>
+            <h1>{$_('projects.h1')}</h1>
             <p class="mb-x2">Find apps, websites,... from our lovely community  💖️</p>
 
             <div class="container my-12 mx-auto px-4 md:px-12">
@@ -26,14 +28,12 @@
                 {#each rows as row}
 
                     <div class="m-7 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-
                         <article class="overflow-hidden bg-gray-100 rounded-lg shadow-lg">
-
                             <a href="{row.link}">
                                 <img alt="" class="block h-auto w-full" src={row.screenshot}>
 
                             <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                <p class="text-grey-darker text-sm"> {flag(`${row.language}`)}</p>
+                                {flag(`${row.language}`)}
                             </header>
                             <footer>
 

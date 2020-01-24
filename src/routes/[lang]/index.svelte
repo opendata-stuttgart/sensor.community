@@ -78,7 +78,8 @@
         <div class="flex" style="height: 600px;">
             <iframe scrolling="no"
                     src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
-                    style="width: 96%; height: 95%; margin: auto; overflow: hidden;" title="sensor.community particulare matter map"></iframe>
+                    style="width: 97%; height: 95%; margin: auto; overflow: hidden;"
+                    title="sensor.community particulare matter map"></iframe>
         </div>
     </div>
     <div class="px-4 py-16">
@@ -94,7 +95,8 @@
          style="border-radius: 20px;">
         <div class="h-10 bg-white rounded-t-lg border-b border-gray-100"></div>
         <iframe scrolling="no" src="https://maps.sensor.community/?selection=PM25"
-                style="width: 100%; border: none; overflow: hidden;" title="sensor.community particulare matter map"></iframe>
+                style="width: 100%; border: none; overflow: hidden;"
+                title="sensor.community particulare matter map"></iframe>
     </div>
 </div>
 
@@ -123,80 +125,126 @@
         </h2>
     </div>
 
-    <div class="flex flex-wrap mb-2 max-w-6xl mx-auto">
-        <div class="w-full md:w-1/2 xl:w-1/3 pt-3 px-3 md:pr-2">
-            <div class="bg-green-600 border rounded shadow p-2">
-                <div class="flex flex-row items-center">
-                    <div class="flex-shrink pl-1 pr-4"><i class="fa fa-wallet fa-2x fa-fw fa-inverse"></i></div>
-                    <div class="flex-1 text-right">
-                        <h5 class="text-white">Total Sensor worldwide</h5>
-                        <h3 class="text-white text-3xl">13.249<span class="text-green-400"><i
-                                class="fas fa-caret-down"></i></span>
-                        </h3>
-                    </div>
+    <div class="rounded h-full flex justify-center items-center">
+        <div class="rounded h-full flex justify-center items-center p-6">
+            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
+                <div>
+                    <p class="text-base text-grey-dark">Total Sensor worldwide</p>
                 </div>
+                <div>
+                    <p class="text-2xl text-grey-darker font-bold">13.249</p>
+                </div>
+<!--                <div class="text-sm">-->
+<!--                    <p class="text-green mb-1 flex item-center">-->
+<!--                        <i class="material-icons">-->
+<!--                            arrow_drop_up-->
+<!--                        </i> 5.77%-->
+
+<!--                    </p>-->
+<!--                    <p class="text-grey-dark">Since last month</p>-->
+<!--                </div>-->
             </div>
         </div>
-        <div class="w-full md:w-1/2 xl:w-1/3 pt-3 px-3 md:pl-2">
-            <div class="bg-blue-600 border rounded shadow p-2">
-                <div class="flex flex-row items-center">
-                    <div class="flex-shrink pl-1 pr-4"><i class="fas fa-users fa-2x fa-fw fa-inverse"></i></div>
-                    <div class="flex-1 text-right">
-                        <h5 class="text-white">Countries</h5>
-                        <h3 class="text-white text-3xl">69 <span class="text-blue-400"><i
-                                class="fas fa-caret-up"></i></span></h3>
-                    </div>
+        <div class="rounded h-full flex justify-center items-center p-6">
+            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
+                <div>
+                    <p class="text-base text-grey-dark">Countries</p>
                 </div>
+                <div>
+                    <p class="text-2xl text-grey-darker font-bold">69</p>
+                </div>
+<!--                <div class="text-sm">-->
+<!--                    <p class="text-green mb-1 flex item-center">-->
+<!--                        <i class="material-icons">-->
+<!--                            arrow_drop_up-->
+<!--                        </i> 5.77%-->
+
+<!--                    </p>-->
+<!--                    <p class="text-grey-dark">Since last month</p>-->
+<!--                </div>-->
             </div>
         </div>
-        <div class="w-full md:w-1/2 xl:w-1/3 pt-3 px-3 md:pr-2 xl:pr-3 xl:pl-1">
-            <div class="bg-orange-600 border rounded shadow p-2">
-                <div class="flex flex-row items-center">
-                    <div class="flex-shrink pl-1 pr-4"><i class="fas fa-user-plus fa-2x fa-fw fa-inverse"></i></div>
-                    <div class="flex-1 text-right pr-1">
-                        <h5 class="text-white">% Worldwide</h5>
-                        <h3 class="text-white text-3xl">36% <span class="text-orange-400"><i
-                                class="fas fa-caret-up"></i></span></h3>
-                    </div>
+        <div class="rounded h-full flex justify-center items-center p-6">
+            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
+                <div>
+                    <p class="text-base text-grey-dark">percentage of the world</p>
                 </div>
-            </div>
-        </div>
-        <div class="w-full md:w-1/2 xl:w-1/3 pt-3 px-3 md:pl-2 xl:pl-3 xl:pr-2">
-            <div class="bg-purple-600 border rounded shadow p-2">
-                <div class="flex flex-row items-center">
-                    <div class="flex-shrink pl-1 pr-4"><i class="fas fa-server fa-2x fa-fw fa-inverse"></i></div>
-                    <div class="flex-1 text-right">
-                        <h5 class="text-white">Server Uptime</h5>
-                        <h3 class="text-white text-3xl">76 days</h3>
-                    </div>
+                <div>
+                    <p class="text-2xl text-grey-darker font-bold">36%</p>
                 </div>
-            </div>
-        </div>
-        <div class="w-full md:w-1/2 xl:w-1/3 pt-3 px-3 md:pr-2 xl:pl-2 xl:pr-3">
-            <div class="bg-red-600 border rounded shadow p-2">
-                <div class="flex flex-row items-center">
-                    <div class="flex-shrink pl-1 pr-4"><i class="fas fa-tasks fa-2x fa-fw fa-inverse"></i></div>
-                    <div class="flex-1 text-right">
-                        <h5 class="text-white">Core Team</h5>
-                        <h3 class="text-white text-3xl">7</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="w-full md:w-1/2 xl:w-1/3 pt-3 px-3 md:pl-2 xl:pl-1">
-            <div class="bg-pink-600 border rounded shadow p-2">
-                <div class="flex flex-row items-center">
-                    <div class="flex-shrink pl-1 pr-4"><i class="fas fa-inbox fa-2x fa-fw fa-inverse"></i></div>
-                    <div class="flex-1 text-right">
-                        <h5 class="text-white">Github Commits</h5>
-                        <h3 class="text-white text-3xl">1.343 <span class="text-pink-400"><i
-                                class="fas fa-caret-up"></i></span>
-                        </h3>
-                    </div>
+                <div class="text-sm">
+                    <p class="text-green mb-1 flex item-center">
+                        <i class="material-icons">
+                            arrow_drop_up
+                        </i> 5.77%
+
+                    </p>
+                    <p class="text-grey-dark">Since last month</p>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="rounded h-full flex justify-center items-center">
+        <div class="rounded h-full flex justify-center items-center p-6">
+            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
+                <div>
+                    <p class="text-base text-grey-dark">Server Uptime</p>
+                </div>
+                <div>
+                    <p class="text-2xl text-grey-darker font-bold">76 days</p>
+                </div>
+<!--                <div class="text-sm">-->
+<!--                    <p class="text-green mb-1 flex item-center">-->
+<!--                        <i class="material-icons">-->
+<!--                            arrow_drop_up-->
+<!--                        </i> 5.77%-->
+
+<!--                    </p>-->
+<!--                    <p class="text-grey-dark">Since last month</p>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="rounded h-full flex justify-center items-center p-6">
+            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
+                <div>
+                    <p class="text-base text-grey-dark">Core Team</p>
+                </div>
+                <div>
+                    <p class="text-2xl text-grey-darker font-bold">9</p>
+                </div>
+<!--                <div class="text-sm">-->
+<!--                    <p class="text-green mb-1 flex item-center">-->
+<!--                        <i class="material-icons">-->
+<!--                            arrow_drop_up-->
+<!--                        </i> 5.77%-->
+
+<!--                    </p>-->
+<!--                    <p class="text-grey-dark">Since last month</p>-->
+<!--                </div>-->
+            </div>
+        </div>
+        <div class="rounded h-full flex justify-center items-center p-6">
+            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around">
+                <div>
+                    <p class="text-base text-grey-dark">Github Commits</p>
+                </div>
+                <div>
+                    <p class="text-2xl text-grey-darker font-bold">1.343</p>
+                </div>
+<!--                <div class="text-sm">-->
+<!--                    <p class="text-green mb-1 flex item-center">-->
+<!--                        <i class="material-icons">-->
+<!--                            arrow_drop_up-->
+<!--                        </i> 5.77%-->
+
+<!--                    </p>-->
+<!--                    <p class="text-grey-dark">Since last month</p>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+
     <div class="-m-2 text-center">
         <div class="p-2">
             <div class="inline-flex items-center bg-white leading-none text-teal-600 rounded-full p-2 shadow text-teal text-sm">
