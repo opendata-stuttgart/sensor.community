@@ -10,6 +10,7 @@
                 <a href="/" class="text-sm text-grey-darker py-1">Community</a>
                 <a href="/" class="text-sm text-grey-darker py-1">Discussions</a>
                 <a href="/" class="text-sm text-grey-darker py-1">FAQ</a>
+                <a href="/{$locale}/donate" class="text-sm text-grey-darker py-1">Donate</a>
             </div>
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0"><h4 class="text-base pb-4">About</h4>
                 <a href="{$locale}/mission" class="text-sm text-grey-darker py-1">Project</a>
