@@ -29,7 +29,8 @@
     "home": "Home",
     "docs": "Docs",
     "blog": "Blog",
-    "projects": "Projects"
+    "projects": "Projects",
+    "donate": "Support Us"
   },
   "error": {
     "errorStatus" : "Encountered a {status} error.",
