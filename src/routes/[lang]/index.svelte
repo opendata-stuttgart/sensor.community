@@ -1,6 +1,8 @@
 <script>
     import {_, locale, locales} from 'svelte-i18n';
     import Contact from "../../components/Contact.svelte"
+    import Campaign from "../../components/Campaigns.svelte"
+    import Partnership from "../../components/Partnership.svelte"
 
 
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
@@ -8,6 +10,7 @@
         console.log('callback - particles.js config loaded');
     });
 </script>
+
 <style>
     /** {*/
     /*    -webkit-tab-highlight-color: transparent;*/
@@ -63,17 +66,19 @@
     <div class="w-3/4 mx-auto bg-white shadow-lg relative z-20 hidden md:block"
          style="margin-top: -20rem; border-radius: 15px;">
 
-        <div class="flex" style="height: 600px;">
+        <div class="flex" style="height: 800px;">
             <iframe scrolling="no"
                     src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
                     style="width: 97%; height: 95%; margin: auto; overflow: hidden;"
                     title="sensor.community particulate matter map"></iframe>
         </div>
     </div>
+
     <div class="px-4 py-16">
         <div class="relative md:max-w-2xl md:mx-auto text-center">
             <h1 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">
-                {$_('index.h1')}</h1>
+                <a href="{$locale}/docs/">{$_('index.h1-build')}</a> {$_('index.h1-become')}<a href="{$locale}/community">{$_('index.h1-civic-tech')}</a>{$_('index.h1-support')} <a href="{$locale}/contributors">{$_('index.h1-contributors')}</a>
+            </h1>
         </div>
     </div>
 </section>
@@ -122,15 +127,12 @@
 
 
 
-<section class="bg-gray-200 py-8">
-    <div class="container mx-auto px-4 text-center">
-        <p class="text-xl md:text-2xl max-w-md mx-auto leading-normal mb-8">Created your own DIY particulate matter
-            sensor or noise senor with our.</p>
-        <a href=""
-           class="bg-white px-8 py-2 mx-2 font-semibold text-xl no-underline hover:bg-teal-600 hover:text-white">Build
-            your sensor </a>
-    </div>
-</section>
+<!--<section class="bg-teal-600 py-8">-->
+<!--    <a href="{$locale}/docs"> <div class="container mx-auto px-4 text-center">-->
+<!--        <p class="text-xl md:text-2xl max-w-md mx-auto leading-normal mb-8 text-white">Build your own sensor.</p>-->
+<!--    </div>-->
+<!--    </a>-->
+<!--</section>-->
 
 <!--<p class="text-center p-4 text-gray-600 mt-10">-->
 <!--    Created your own DIY particulate matter sensor or noise senor with our-->
@@ -139,147 +141,201 @@
 
 <!--</p>-->
 
-<section class="container mx-auto">
-    <div class="flex flex-row flex-wrap">
-        <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center">
-            Sensor Community in numbers</h2>
-        <div class="w-full flex">
-            <div class="w-full text-center md:text-left md:w-1/2">
-                <div class="mx-auto">
+
+<section class="relative">
+    <div class="container mx-auto px-4 pt-4 flex flex-col">
+        <h2 class="w-full py-4 md:py-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center">
+            Sensor.Community in numbers</h2>
+        <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">
+
+            <div class="left_block w-full text-left py-2 md:py-16">
+<!--                <h2 class="text-grey-darkest text-4xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">-->
+<!--                    Sensor.Community in numbers</h2>-->
+
+<!--                <h3 class="text-grey-darkest font-normal text-xl font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">-->
+<!--                    lorem ipsum bllaaaa-->
+<!--                </h3>-->
+
+                <div class="">
+                    <div class="rounded flex justify-center items-center">
+                        <div class="rounded flex justify-center items-center p-3">
+                            <a href="http://stats.sensor.community/images/stats_active_sensors.svg" target="_blank">
+                                <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around hover:text-white hover:bg-teal-500">
+                                    <div>
+                                        <p class="text-base text-grey-dark text-sm">Active sensors worldwide</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl text-grey-darker font-bold">13.249</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="rounded flex justify-center items-center p-3">
+                            <a href="http://stats.sensor.community/scripts/active_sensors.php">
+                                <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around hover:text-white hover:bg-teal-500">
+                                    <div>
+                                        <p class="text-base text-grey-dark text-sm">Countries</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl text-grey-darker font-bold">69</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="rounded flex justify-center items-center p-3">
+                            <a href="">
+                                <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around hover:text-white hover:bg-teal-500">
+                                    <div>
+                                        <p class="text-base text-grey-dark text-sm">Data Points</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl text-grey-darker font-bold">8.150.109.409</p>
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rounded flex justify-center items-center">
+                        <div class="rounded flex justify-center items-center p-3">
+                            <a href="{$locale}/projects" target="_blank">
+
+                                <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around hover:text-white hover:bg-blue-500">
+                                    <div>
+                                        <p class="text-base text-grey-dark text-sm">Community Projects</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl text-grey-darker font-bold">17</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="rounded flex justify-center items-center p-3">
+                            <a href="">
+                                <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around hover:text-white hover:bg-blue-500">
+                                    <div>
+                                        <p class="text-base text-grey-dark text-sm">Community Hubs</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl text-grey-darker font-bold">13</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="rounded flex justify-center items-center p-3">
+                            <a href="https://github.com/opendata-stuttgart/" target="_blank">
+                                <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around hover:text-white hover:bg-blue-500">
+                                    <div>
+                                        <p class="text-base text-grey-dark text-sm">Github Commits</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-2xl text-grey-darker font-bold">1.343</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div id="ae_block" class="w-full md:w-2/3 h-full text-center md:py-16 md:pr-8">
+                <div class="flex justify-center items-center"
+                     style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
                     <lottie-player
-                            src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay >
+                            src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json" background="transparent"
+                            speed="1" style="width: 300px; height: 300px;" loop autoplay>
                     </lottie-player>
                 </div>
             </div>
-            <div class="w-full md:w-3/4">
-                <div class="rounded flex justify-center items-center">
-                <div class="rounded flex justify-center items-center p-3">
-                    <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
-                        <div>
-                            <p class="text-base text-grey-dark text-sm">Total Sensor worldwide</p>
-                        </div>
-                        <div>
-                            <p class="text-2xl text-grey-darker font-bold">13.249</p>
-                        </div>
-                        <!--                <div class="text-sm">-->
-                        <!--                    <p class="text-green mb-1 flex item-center">-->
-                        <!--                        <i class="material-icons">-->
-                        <!--                            arrow_drop_up-->
-                        <!--                        </i> 5.77%-->
-
-                        <!--                    </p>-->
-                        <!--                    <p class="text-grey-dark">Since last month</p>-->
-                        <!--                </div>-->
-                    </div>
-                </div>
-                <div class="rounded flex justify-center items-center p-3">
-                    <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
-                        <div>
-                            <p class="text-base text-grey-dark text-sm">Countries</p>
-                        </div>
-                        <div>
-                            <p class="text-2xl text-grey-darker font-bold">69</p>
-                        </div>
-                        <!--                <div class="text-sm">-->
-                        <!--                    <p class="text-green mb-1 flex item-center">-->
-                        <!--                        <i class="material-icons">-->
-                        <!--                            arrow_drop_up-->
-                        <!--                        </i> 5.77%-->
-
-                        <!--                    </p>-->
-                        <!--                    <p class="text-grey-dark">Since last month</p>-->
-                        <!--                </div>-->
-                    </div>
-                </div>
-                <div class="rounded flex justify-center items-center p-3">
-                    <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
-                        <div>
-                            <p class="text-base text-grey-dark text-sm">percentage of the world</p>
-                        </div>
-                        <div>
-                            <p class="text-2xl text-grey-darker font-bold">36%</p>
-                        </div>
-                        <!--                <div class="text-sm">-->
-                        <!--                    <p class="text-green mb-1 flex item-center">-->
-                        <!--                        <i class="material-icons">-->
-                        <!--                            arrow_drop_up-->
-                        <!--                        </i> 5.77%-->
-
-                        <!--                    </p>-->
-                        <!--                    <p class="text-grey-dark">Since last month</p>-->
-                        <!--                </div>-->
-                    </div>
-                </div>
-            </div>
-                <div class="rounded flex justify-center items-center">
-                    <div class="rounded flex justify-center items-center p-3">
-                        <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
-                            <div>
-                                <p class="text-base text-grey-dark text-sm">Server Uptime</p>
-                            </div>
-                            <div>
-                                <p class="text-2xl text-grey-darker font-bold">76 days</p>
-                            </div>
-                            <!--                <div class="text-sm">-->
-                            <!--                    <p class="text-green mb-1 flex item-center">-->
-                            <!--                        <i class="material-icons">-->
-                            <!--                            arrow_drop_up-->
-                            <!--                        </i> 5.77%-->
-
-                            <!--                    </p>-->
-                            <!--                    <p class="text-grey-dark">Since last month</p>-->
-                            <!--                </div>-->
-                        </div>
-                    </div>
-                    <div class="rounded flex justify-center items-center p-3">
-                        <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
-                            <div>
-                                <p class="text-base text-grey-dark text-sm">Core Team</p>
-                            </div>
-                            <div>
-                                <p class="text-2xl text-grey-darker font-bold">9</p>
-                            </div>
-                            <!--                <div class="text-sm">-->
-                            <!--                    <p class="text-green mb-1 flex item-center">-->
-                            <!--                        <i class="material-icons">-->
-                            <!--                            arrow_drop_up-->
-                            <!--                        </i> 5.77%-->
-
-                            <!--                    </p>-->
-                            <!--                    <p class="text-grey-dark">Since last month</p>-->
-                            <!--                </div>-->
-                        </div>
-                    </div>
-                    <div class="rounded flex justify-center items-center p-3">
-                        <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-3 flex flex-col justify-around">
-                            <div>
-                                <p class="text-base text-grey-dark text-sm">Github Commits</p>
-                            </div>
-                            <div>
-                                <p class="text-2xl text-grey-darker font-bold">1.343</p>
-                            </div>
-                            <!--                <div class="text-sm">-->
-                            <!--                    <p class="text-green mb-1 flex item-center">-->
-                            <!--                        <i class="material-icons">-->
-                            <!--                            arrow_drop_up-->
-                            <!--                        </i> 5.77%-->
-
-                            <!--                    </p>-->
-                            <!--                    <p class="text-grey-dark">Since last month</p>-->
-                            <!--                </div>-->
-                        </div>
-                    </div>
-                </div></div>
         </div>
-
     </div>
 </section>
 
-<section class="container mx-auto">
+<section class="relative bg-gray-200">
+    <div class="container mx-auto px-12 py-8 flex flex-col">
+        <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">
+            <div class="left_block w-full text-left py-2 md:py-4">
+                <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">
+                    USP 1: Own your own data </h3>
+                <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">
+                    Supercharge your animation workflow with the LottieFiles plugin. Export your animation as Lottie
+                    JSON, access your private files, test and perfect them straight from your After Effects.
+                </p>
+                <a href="/"
+                   class="text-primary font-semibold  py-2 text-teal-500">
+                    Find out more >
+                </a>
+            </div>
+            <div id="ae_block" class="w-full md:w-1/3 h-full text-center md:py-8 md:pr-4">
+                <div class="flex justify-center items-center"
+                     style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
+                    <lottie-player
+                            src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json" background="transparent"
+                            speed="1" style="width: 150px; height: 150px;" loop autoplay>
+                    </lottie-player>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 flex flex-col">
+            <div class="md:flex relative md:flex-row items-center">
+                <div class="left_block w-full text-left py-2 py-8 pl-24">
+                    <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">Worldwide community </h3>
+                    <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">
+                        Supercharge your animation workflow with the LottieFiles plugin. Export your animation as Lottie
+                        JSON, access your private files, test and perfect them straight from your After Effects.
+                    </p>
+                    <a href="/"
+                       class="text-primary font-semibold  py-2 text-teal-500">
+                        browse the community >
+                    </a>
+                </div>
+                <div id="ae_block" class="w-full md:w-1/3 h-full text-center md:py-8 md:pr-4">
+                    <div class="flex justify-center items-center"
+                         style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
+                        <lottie-player
+                                src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json" background="transparent"
+                                speed="1" style="width: 150px; height: 150px;" loop autoplay>
+                        </lottie-player>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">
+            <div class="left_block w-full text-left py-2 md:pb-16">
+                <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">
+                    USP 1: Own your own data </h3>
+                <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">
+                    Supercharge your animation workflow with the LottieFiles plugin. Export your animation as Lottie
+                    JSON, access your private files, test and perfect them straight from your After Effects.
+                </p>
+                <a href="/"
+                   class="text-primary font-semibold  py-2 text-teal-500">
+                    Find out more
+                </a>
+            </div>
+            <div id="ae_block" class="w-full md:w-1/3 h-full text-center py-2 md:pb-16">
+                <div class="flex justify-center items-center"
+                     style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
+                    <lottie-player
+                            src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json" background="transparent"
+                            speed="1" style="width: 150px; height: 150px;" loop autoplay>
+                    </lottie-player>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
+
+<Partnership/>
+
+<section class="container mx-auto">
+</section>
 
 <!--    <div class="-m-2 text-center">-->
 <!--        <div class="p-2">-->
@@ -289,5 +345,6 @@
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
+<Campaign/>
 <Contact/>
 

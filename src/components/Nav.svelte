@@ -63,9 +63,9 @@
 				<li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
 					   class:selected="{segment === `/${locale}` ? 'selected' : ''}"
 					   href='{$locale}'>{$_('nav.home')}</a></li>
-				<li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold" rel=prefetch
-					   class:selected="{segment === `/${locale}/blog` ? 'selected' : ''}"
-					   href='{$locale}/blog'>{$_('nav.blog')}</a></li>
+<!--				<li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold" rel=prefetch-->
+<!--					   class:selected="{segment === `/${locale}/blog` ? 'selected' : ''}"-->
+<!--					   href='{$locale}/blog'>{$_('nav.blog')}</a></li>-->
 
 				<li class="hoverable hover:bg-teal-500 hover:text-white">
 					<a href='{$locale}/docs' class:selected="{segment === `/${locale}/docs` ? 'selected' : ''}"
@@ -189,6 +189,12 @@
 						</div>
 					</div>
 				</li>
+				<li class="border-r"></li>
+
+				<li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
+					   class:selected="{segment === `/${locale}/blog` ? 'selected' : ''}"
+					   href='{$locale}/donate'>{$_('nav.donate')}
+					<img src="icons/heart.svg" class="-mt-4" width='20px' height="20px" alt="donate sensor.community"></a></li>
 
 				<li class="border-r"></li>
 				<li class="hoverable hover:bg-teal-500 hover:text-white">
@@ -269,7 +275,7 @@
 										 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 										<path d="M4.13 12H4a2 2 0 1 0 1.8 1.11L7.86 10a2.03 2.03 0 0 0 .65-.07l1.55 1.55a2 2 0 1 0 3.72-.37L15.87 8H16a2 2 0 1 0-1.8-1.11L12.14 10a2.03 2.03 0 0 0-.65.07L9.93 8.52a2 2 0 1 0-3.72.37L4.13 12zM0 4c0-1.1.9-2 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4z"/>
 									</svg>
-									<h3 class="font-bold text-xl text-white text-bold mb-2">Luftdaten Map</h3>
+									<h3 class="font-bold text-xl text-white text-bold mb-2">Maps.Sensor.Community</h3>
 								</div>
 								<p class="text-white text-sm">Code for our sensor (like particulate matter, noise,.. )
 									and community map .</p>
@@ -290,7 +296,7 @@
 										 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 										<path d="M2 4v14h14v-6l2-2v10H0V2h10L8 4H2zm10.3-.3l4 4L8 16H4v-4l8.3-8.3zm1.4-1.4L16 0l4 4-2.3 2.3-4-4z"/>
 									</svg>
-									<h3 class="font-bold text-xl text-white text-bold mb-2">API</h3>
+									<h3 class="font-bold text-xl text-white text-bold mb-2">API.Sensor.Community</h3>
 								</div>
 								<p class="text-white text-sm">Read who to access the API endpoints for advanced
 									users.</p>
@@ -324,6 +330,7 @@
 									   class="text-white bold border-b-2 border-white hover:text-white">Find out
 										more...</a>
 								</div>
+
 							</ul>
 						</div>
 					</div>
@@ -335,11 +342,6 @@
 							 alt="follow sensor.community on mastodon">
 					</a>
 				</li>
-				<li class="border-r"></li>
-				<li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold" rel=prefetch
-					   class:selected="{segment === `/${locale}/blog` ? 'selected' : ''}"
-					   href='{$locale}/donate'>{$_('nav.donate')}
-						<img src="icons/heart.svg" class="-mt-4" width='20px' height="20px" alt="donate sensor.community"></a></li>
 
 			</ul>
 		</div>
