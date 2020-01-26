@@ -260,14 +260,13 @@
         <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">
             <div class="left_block w-full text-left py-2 md:py-4">
                 <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">
-                    USP 1: Own your own data </h3>
+                    Open Data </h3>
                 <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">
-                    Supercharge your animation workflow with the LottieFiles plugin. Export your animation as Lottie
-                    JSON, access your private files, test and perfect them straight from your After Effects.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.
                 </p>
-                <a href="/"
+                <a href="http://archive.sensor.community/" target="_blank"
                    class="text-primary font-semibold  py-2 text-teal-500">
-                    Find out more >
+                    Take a look into the data >
                 </a>
             </div>
             <div id="ae_block" class="w-full md:w-1/3 h-full text-center md:py-8 md:pr-4">
@@ -285,10 +284,9 @@
                 <div class="left_block w-full text-left py-2 py-8 pl-24">
                     <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">Worldwide community </h3>
                     <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">
-                        Supercharge your animation workflow with the LottieFiles plugin. Export your animation as Lottie
-                        JSON, access your private files, test and perfect them straight from your After Effects.
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.
                     </p>
-                    <a href="/"
+                    <a href="{$locale}/community"
                        class="text-primary font-semibold  py-2 text-teal-500">
                         browse the community >
                     </a>
@@ -308,14 +306,13 @@
         <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">
             <div class="left_block w-full text-left py-2 md:pb-16">
                 <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">
-                    USP 1: Own your own data </h3>
+                    Open Source </h3>
                 <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">
-                    Supercharge your animation workflow with the LottieFiles plugin. Export your animation as Lottie
-                    JSON, access your private files, test and perfect them straight from your After Effects.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.
                 </p>
-                <a href="/"
+                <a href="https://github.com/opendata-stuttgart/" target="_blank"
                    class="text-primary font-semibold  py-2 text-teal-500">
-                    Find out more
+                    Check out our GitHub >
                 </a>
             </div>
             <div id="ae_block" class="w-full md:w-1/3 h-full text-center py-2 md:pb-16">
@@ -331,11 +328,12 @@
     </div>
 </section>
 
-
 <Partnership/>
+<section class="relative bg-gray-200 py-8">
+    <Campaign/>
 
-<section class="container mx-auto">
 </section>
+
 
 <!--    <div class="-m-2 text-center">-->
 <!--        <div class="p-2">-->
@@ -345,6 +343,5 @@
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->
-<Campaign/>
 <Contact/>
 
