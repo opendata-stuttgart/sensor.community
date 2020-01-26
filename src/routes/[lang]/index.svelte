@@ -6,9 +6,9 @@
 
 
     /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', 'particles.json', function () {
-        console.log('callback - particles.js config loaded');
-    });
+    // particlesJS.load('particles-js', 'particles.json', function () {
+    //     console.log('callback - particles.js config loaded');
+    // });
 </script>
 
 <style>
@@ -16,15 +16,15 @@
     /*    -webkit-tab-highlight-color: transparent;*/
     /*}*/
 
-    #particles-js {
-        position: absolute;
-        width: 100%;
-        height: 45rem;
-        z-index: 0;
-        /*background-size: cover;*/
-        left: 0;
-        top: 0;
-    }
+    /*#particles-js {*/
+    /*    position: absolute;*/
+    /*    width: 100%;*/
+    /*    height: 45rem;*/
+    /*    z-index: 0;*/
+    /*    !*background-size: cover;*!*/
+    /*    left: 0;*/
+    /*    top: 0;*/
+    /*}*/
 </style>
 
 <svelte:head>
@@ -37,7 +37,7 @@
 </svelte:head>
 
 <section class="md:block hidden">
-    <div id="particles-js"></div>
+<!--    <div id="particles-js"></div>-->
 
     <div class="bg-gray-200">
 <!--        <div class="px-4 py-10">-->
@@ -64,9 +64,8 @@
         </svg>
         </div>
     <div class="w-3/4 mx-auto bg-white shadow-lg relative z-20 hidden md:block"
-         style="margin-top: -20rem; border-radius: 15px;">
-
-        <div class="flex" style="height: 800px;">
+         style="margin-top: -15em; border-radius: 15px;">
+        <div class="flex" style="height: 30rem;">
             <iframe scrolling="no"
                     src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
                     style="width: 97%; height: 95%; margin: auto; overflow: hidden;"
@@ -236,9 +235,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
             <div id="ae_block" class="w-full md:w-2/3 h-full text-center md:py-16 md:pr-8">
                 <div class="flex justify-center items-center"
@@ -335,6 +331,7 @@
 </section>
 
 
+
 <!--    <div class="-m-2 text-center">-->
 <!--        <div class="p-2">-->
 <!--            <div class="inline-flex items-center bg-white leading-none text-teal-600 rounded-full p-2 shadow text-teal text-sm">-->
@@ -345,3 +342,92 @@
 <!--    </div>-->
 <Contact/>
 
+<section class="relative bg-gray-200">
+    <div class="container mx-auto px-12 py-8 flex flex-col">
+        <div class="lg:flex shadow border border-gray-400 w-1/3 mx-auto mb-8">
+            <div class="block overflow-hidden bg-white text-center w-24">
+                <div class="bg-red-600 text-white py-1">Feb</div>
+                <div class="pt-1 border-l border-r">
+                    <span class="text-4xl font-bold">1</span>
+                </div>
+                <div class="pb-2 px-2 border-l border-r border-b rounded-b flex">
+                    <span class="text-xs font-bold">2020</span>
+                </div>
+            </div>
+            <div class="w-full  lg:w-11/12 xl:w-full px-1 bg-white py-5 lg:px-2 lg:py-2 tracking-wide">
+                <div class="flex flex-row lg:justify-start justify-center">
+                    <div class="text-gray-700 font-medium text-sm text-center lg:text-left px-2">
+                        Organiser : IHC
+                    </div>
+                </div>
+                <div class="font-semibold text-gray-800 text-xl text-center lg:text-left px-2">
+                    FOSDEM 2020
+                </div>
+
+                <div class="text-gray-600 font-medium text-sm pt-1 text-center lg:text-left px-2">
+                    <a href="https://fosdem.org/2020/">FOSDEM</a>
+                </div>
+            </div>
+            <div class="flex flex-row items-center w-full lg:w-1/3 bg-white lg:justify-end justify-center px-2 py-4 lg:px-0">
+
+            </div>
+        </div>
+        <div class="lg:flex shadow border border-gray-400 w-1/3 mx-auto mb-8">
+            <div class="block overflow-hidden bg-white text-center w-24">
+                <div class="bg-red-600 text-white py-1">Feb</div>
+                <div class="pt-1 border-l border-r">
+                    <span class="text-4xl font-bold">1</span>
+                </div>
+                <div class="pb-2 px-2 border-l border-r border-b rounded-b flex">
+                    <span class="text-xs font-bold">2020</span>
+                </div>
+            </div>
+            <div class="w-full  lg:w-11/12 xl:w-full px-1 bg-white py-5 lg:px-2 lg:py-2 tracking-wide">
+                <div class="flex flex-row lg:justify-start justify-center">
+                    <div class="text-gray-700 font-medium text-sm text-center lg:text-left px-2">
+                        Organiser : IHC
+                    </div>
+                </div>
+                <div class="font-semibold text-gray-800 text-xl text-center lg:text-left px-2">
+                    FOSDEM 2020
+                </div>
+
+                <div class="text-gray-600 font-medium text-sm pt-1 text-center lg:text-left px-2">
+                    <a href="https://fosdem.org/2020/">FOSDEM</a>
+                </div>
+            </div>
+            <div class="flex flex-row items-center w-full lg:w-1/3 bg-white lg:justify-end justify-center px-2 py-4 lg:px-0">
+
+            </div>
+        </div>
+        <div class="lg:flex shadow border border-gray-400 w-1/3 mx-auto mb-8">
+            <div class="block overflow-hidden bg-white text-center w-24">
+                <div class="bg-red-600 text-white py-1">Feb</div>
+                <div class="pt-1 border-l border-r">
+                    <span class="text-4xl font-bold">1</span>
+                </div>
+                <div class="pb-2 px-2 border-l border-r border-b rounded-b flex">
+                    <span class="text-xs font-bold">2020</span>
+                </div>
+            </div>
+            <div class="w-full  lg:w-11/12 xl:w-full px-1 bg-white py-5 lg:px-2 lg:py-2 tracking-wide">
+                <div class="flex flex-row lg:justify-start justify-center">
+                    <div class="text-gray-700 font-medium text-sm text-center lg:text-left px-2">
+                        Organiser : IHC
+                    </div>
+                </div>
+                <div class="font-semibold text-gray-800 text-xl text-center lg:text-left px-2">
+                    FOSDEM 2020
+                </div>
+
+                <div class="text-gray-600 font-medium text-sm pt-1 text-center lg:text-left px-2">
+                    <a href="https://fosdem.org/2020/">FOSDEM</a>
+                </div>
+            </div>
+            <div class="flex flex-row items-center w-full lg:w-1/3 bg-white lg:justify-end justify-center px-2 py-4 lg:px-0">
+
+            </div>
+        </div>
+
+        </div>
+</section>
