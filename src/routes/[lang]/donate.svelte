@@ -1,0 +1,124 @@
+<script>
+    import {_, locale, locales} from 'svelte-i18n';
+    import Contact from "../../components/Contact.svelte"
+
+</script>
+
+<svelte:head>
+    <title>Donate</title>
+    <meta property="og:title" content={$_('index.metaTitle')}/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:image" content=""/>
+</svelte:head>
+
+<div class="bg-white">
+    <section class="lf-padding container mx-auto mt-10">
+        <div class="flex flex-row flex-wrap mt-10">
+            <div class="w-full flex flex-wrap my-12">
+                <div class="w-full text-center md:text-left md:w-1/2">
+                    <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
+                        <h1 class="py-4 md:py-8 md:pb-8 text-grey-darkest text-4xl md:text-6xl font-lf-extra-bold leading-tight">
+                            Show your support</h1>
+                    </div>
+                    <p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+                        We are non-profit, non-corporate and non-compromised. People like you help us. We rely on
+                        donations to carry out our mission.
+                        <br>
+                    </p>
+
+                </div>
+                <div class="w-full md:w-1/2">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player
+                            src="https://assets5.lottiefiles.com/packages/lf20_YLDmvx.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop autoplay >
+                    </lottie-player>
+                </div>
+            </div>
+
+            <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">
+               Ways to support</h2>
+
+            <div class="w-1/2 p-6">
+                <h3 class="text-gray-800 font-medium py-4 text-2xl">Current Campaign</h3>
+                <div class="leading-loose">
+                    <div class="max-w-xl m-4 p-10 bg-white border-r ">
+                        <iframe src="https://www.betterplace-widget.org/projects/38071?l=de" width="100%" height="320"
+                                frameborder="0">Informieren und spenden: <a
+                                href="https://www.betterplace.org/de/projects/38071-300-feinstaub-messgerate"
+                                target="_blank"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/2 p-6">
+                <h3 class="text-gray-800 font-medium py-4 text-2xl">Direct Donations</h3>
+                <div class="leading-loose">
+                    <div class="max-w-xl m-4 p-10 bg-white ">
+                        <div class="">
+                            <p class="block text-sm text-gray-600">Account holder</p>
+                            <p class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded">Open Knowledge Foundation
+                                Germany e.V.</p>
+                        </div>
+                        <div class="mt-2">
+                            <p class="block text-sm text-gray-600">IBAN</p>
+                            <p class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded">EN 36 4306 0967 1173 8932
+                                00</p>
+                        </div>
+                        <div class="mt-2">
+                            <p class=" block text-sm text-gray-600">BIC</p>
+                            <p class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded">GENODEM1GLS</p>
+                        </div>
+                        <div class="mt-2">
+                            <p class=" block text-sm text-gray-600">Bank</p>
+                            <p class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded">GLS Community Bank</p>
+                        </div>
+                        <div class="mt-2">
+                            <p class=" block text-sm text-gray-600">Intended use</p>
+                            <p class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded">OK Lab Stuttgart</p>
+                        </div>
+                        <div class="mt-2">
+                            <p class=" block text-sm text-gray-600">The Open Knowledge Foundation Germany is recognised
+                                as a non-profit organisation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="w-1/3 m-6">-->
+<!--                <h3 class="text-gray-800 font-medium py-4 text-2xl">Patreon / Open Collective</h3>-->
+<!--                <div class="leading-loose">-->
+<!--                    <div class="max-w-xl m-4 p-10 bg-white rounded shadow-md">-->
+<!--                        <div class="">-->
+<!--                            <p class="block text-sm text-gray-600">Account holder</p>-->
+<!--                            <p class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded">Open Knowledge Foundation-->
+<!--                                Germany e.V.</p>-->
+<!--                        </div>-->
+<!--                        <div class="mt-2">-->
+<!--                            <p class="block text-sm text-gray-600">IBAN</p>-->
+<!--                            <p class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded">EN 36 4306 0967 1173 8932-->
+<!--                                00</p>-->
+<!--                        </div>-->
+<!--                        <div class="mt-2">-->
+<!--                            <p class=" block text-sm text-gray-600">BIC</p>-->
+<!--                            <p class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded">GENODEM1GLS</p>-->
+<!--                        </div>-->
+<!--                        <div class="mt-2">-->
+<!--                            <p class=" block text-sm text-gray-600">Bank</p>-->
+<!--                            <p class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded">GLS Community Bank</p>-->
+<!--                        </div>-->
+<!--                        <div class="mt-2">-->
+<!--                            <p class=" block text-sm text-gray-600">Intended use</p>-->
+<!--                            <p class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded">OK Lab Stuttgart</p>-->
+<!--                        </div>-->
+<!--                        <div class="mt-2">-->
+<!--                            <p class=" block text-sm text-gray-600">The Open Knowledge Foundation Germany is recognised-->
+<!--                                as a non-profit organisation.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </section>
+
+    <Contact/>
+
+</div>

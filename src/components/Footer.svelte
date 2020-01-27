@@ -1,8 +1,8 @@
 <script>
     import { _, locale, locales} from 'svelte-i18n';
 </script>
-<footer class="bg-gray-100">
-    <div class="container bg-gray-100 px-8 md:px-4 mx-auto mt-12 border-grey-lighter py-10 flex flex-col">
+<footer class="bg-gray-200">
+    <div class="container px-8 md:px-4 mx-auto mt-12 border-grey-lighter py-10 flex flex-col">
         <div class="flex flex-col md:flex-row">
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
                 <h4 class="text-base pb-4">Important Links</h4>
@@ -10,6 +10,7 @@
                 <a href="/" class="text-sm text-grey-darker py-1">Community</a>
                 <a href="/" class="text-sm text-grey-darker py-1">Discussions</a>
                 <a href="/" class="text-sm text-grey-darker py-1">FAQ</a>
+                <a href="/{$locale}/donate" class="text-sm text-grey-darker py-1">Donate</a>
             </div>
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0"><h4 class="text-base pb-4">About</h4>
                 <a href="{$locale}/mission" class="text-sm text-grey-darker py-1">Project</a>
