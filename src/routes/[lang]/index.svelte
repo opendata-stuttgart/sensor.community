@@ -64,8 +64,8 @@
         </svg>
         </div>
     <div class="w-3/4 mx-auto bg-white shadow-lg relative z-20 hidden md:block"
-         style="margin-top: -15em; border-radius: 15px;">
-        <div class="flex" style="height: 30rem;">
+         style="margin-top: -18em; border-radius: 15px;">
+        <div class="flex" style="height: 40rem;">
             <iframe scrolling="no"
                     src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
                     style="width: 97%; height: 95%; margin: auto; overflow: hidden;"
@@ -76,7 +76,7 @@
     <div class="px-4 py-16">
         <div class="relative md:max-w-2xl md:mx-auto text-center">
             <h1 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">
-                <a href="{$locale}/docs/">{$_('index.h1-build')}</a> {$_('index.h1-become')}<a href="{$locale}/community">{$_('index.h1-civic-tech')}</a>{$_('index.h1-support')} <a href="{$locale}/contributors">{$_('index.h1-contributors')}</a>
+                <a class="bg-teal-500 text-white px-2" href="{$locale}/docs/">{$_('index.h1-build')}</a> {$_('index.h1-become')}<a class="bg-yellow-500 text-white px-2" href="{$locale}/community">{$_('index.h1-civic-tech')}</a>{$_('index.h1-support')} <a class="bg-blue-300 text-white px-2" href="{$locale}/contributors">{$_('index.h1-contributors')}</a>
             </h1>
         </div>
     </div>
@@ -147,7 +147,7 @@
             Sensor.Community in numbers</h2>
         <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">
 
-            <div class="left_block w-full text-left py-2 md:py-16">
+            <div class="left_block w-full text-left py-2 md:pb-16">
 <!--                <h2 class="text-grey-darkest text-4xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">-->
 <!--                    Sensor.Community in numbers</h2>-->
 
@@ -155,7 +155,7 @@
 <!--                    lorem ipsum bllaaaa-->
 <!--                </h3>-->
 
-                <div class="">
+                <div>
                     <div class="rounded flex justify-center items-center">
                         <div class="rounded flex justify-center items-center p-3">
                             <a href="http://stats.sensor.community/images/stats_active_sensors.svg" target="_blank">
@@ -188,7 +188,7 @@
                                         <p class="text-base text-grey-dark text-sm">Data Points</p>
                                     </div>
                                     <div>
-                                        <p class="text-2xl text-grey-darker font-bold">8.150.109.409</p>
+                                        <p class="text-2xl text-grey-darker font-bold">6193201195</p>
                                     </div>
 
                                 </div>
@@ -236,9 +236,9 @@
                     </div>
                 </div>
             </div>
-            <div id="ae_block" class="w-full md:w-2/3 h-full text-center md:py-16 md:pr-8">
+            <div class="w-full md:w-2/3 h-full text-center md:pb-8 md:pr-8">
                 <div class="flex justify-center items-center"
-                     style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
+                     style="width: 100%; height: 100%; overflow: hidden; margin: 0 auto; cursor: default;">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
                     <lottie-player
@@ -265,7 +265,7 @@
                     Take a look into the data >
                 </a>
             </div>
-            <div id="ae_block" class="w-full md:w-1/3 h-full text-center md:py-8 md:pr-4">
+            <div class="w-full md:w-1/3 h-full text-center md:py-8 md:pr-4">
                 <div class="flex justify-center items-center"
                      style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">
                     <lottie-player
