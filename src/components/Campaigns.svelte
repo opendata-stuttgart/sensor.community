@@ -105,4 +105,5 @@
             <!--		<h1 class="font-medium">Questions?</h1>-->
             <!--		<a href="https://forum.sensor.community" target="_blank"><p class="text-gray-700 mt-2 mb-6">💬 Connect with the communitiy</p></a>-->
         </div>
+    </div>
 </section>
