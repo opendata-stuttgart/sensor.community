@@ -218,21 +218,16 @@
             <h1>Recent posts</h1>
 
             {#each posts as post, index}
-                {#if $locale === post.lang}
-                    {#if index}
-                        <hr/>
-                    {/if}
                         <!-- `rel=prefetch` attribute to load the data for the page as soon as  the user hovers over the link or taps it, instead of waiting for the 'click' event -->
-                    <article class="post-item">
-                        <h2>
+                    <article class="post-item p-8 border border-teal-300 mb-8 hover:shadow-lg">
+                        <h3>
                             <a rel='prefetch' href='{$locale}/blog/{post.slug}'>{post.title}</a>
-                        </h2>
+                        </h3>
                         <p>{post.excerpt}</p>
                         <div class="post-item-footer">
-                            <span class="post-item-date">— {post.printDate}</span>
+                            <span class="post-item-date"> {post.printDate}</span>
                         </div>
                     </article>
-                {/if}
             {/each}
         </div>
     </div>

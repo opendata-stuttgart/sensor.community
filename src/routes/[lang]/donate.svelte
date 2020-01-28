@@ -43,10 +43,8 @@
                 <h3 class="text-gray-800 font-medium py-4 text-2xl">Current Campaign</h3>
                 <div class="leading-loose">
                     <div class="max-w-xl m-4 p-10 bg-white border-r ">
-                        <iframe src="https://www.betterplace-widget.org/projects/38071?l=de" width="100%" height="320"
-                                frameborder="0">Informieren und spenden: <a
-                                href="https://www.betterplace.org/de/projects/38071-300-feinstaub-messgerate"
-                                target="_blank"></iframe>
+                        <div id="betterplace_donation_iframe" style="background: transparent url('https://www.betterplace.org/assets/new_spinner.gif') 275px 20px no-repeat;"><iframe style="max-width: 600px; max-height: none; width: 100%; background-color: transparent; overflow: hidden; height: 994px;" src="https://www.betterplace.org/de/projects/38071/iframe_donations/new?background_color=ffffff&amp;color=4ecac2&amp;donation_amount=100&amp;bottom_logo=true&amp;recurring_interval=single&amp;utm_campaign=external_donation_forms&amp;utm_source=domain: luftdaten.info&amp;utm_medium=project_38071&amp;utm_content=luftdaten.info&amp;" id="iFrameResizer0" scrolling="no" width="100%" height="1200" frameborder="0"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>

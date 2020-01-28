@@ -182,8 +182,6 @@
                 </div>
             </div>
 
-            <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">
-                Meet the team</h2>
             <div class="w-full md:w-1/3 p-8">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="flex justify-center items-center"

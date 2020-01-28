@@ -58,7 +58,7 @@
 	<nav class="relative bg-white border-b-2 border-gray-300 text-gray-700 z-50">
 		<div class="container mx-auto flex justify-between">
 			<div class="relative block p-3 lg:p-3 text-xl text-teal-600">
-				<img src="logo.svg" alt="Sensor Community Logo" height="20%" width="20%"></div>
+				<a href="{$locale}/"><img src="logo.svg" alt="Sensor Community Logo" height="20%" width="20%"></a></div>
 			<ul class="flex text-gray-700">
 				<li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
 					   class:selected="{segment === `/${locale}` ? 'selected' : ''}"
@@ -152,6 +152,12 @@
 							</ul>
 						</div>
 					</div>
+				</li>
+				<li>
+					<a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
+					   href="https://forum.sensor.community" target="_blank" rel="noopener nofollow noreferrer">
+						Forum
+					</a>
 				</li>
 				<li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
 					   class:selected="{segment === `/${locale}/projects` ? 'selected' : ''}"
@@ -335,11 +341,18 @@
 						</div>
 					</div>
 				</li>
+<!--				<li>-->
+<!--					<a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"-->
+<!--					   href="https://fosstodon.org/@SensorCommunity" target="_blank" rel="noopener nofollow noreferrer">-->
+<!--						<img src="icons/mastodon.svg" width='21px' height="21px"-->
+<!--							 alt="follow sensor.community on mastodon">-->
+<!--					</a>-->
+<!--				</li>-->
+				<li class="border-r"></li>
 				<li>
 					<a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
-					   href="https://fosstodon.org/@SensorCommunity" target="_blank" rel="noopener nofollow noreferrer">
-						<img src="icons/mastodon.svg" width='21px' height="21px"
-							 alt="follow sensor.community on mastodon">
+					   href="https://forum.sensor.community" target="_blank" rel="noopener nofollow noreferrer">
+						Notify
 					</a>
 				</li>
 
