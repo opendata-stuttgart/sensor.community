@@ -200,7 +200,7 @@
 				<li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
 					   class:selected="{segment === `/${locale}/blog` ? 'selected' : ''}"
 					   href='{$locale}/donate'>{$_('nav.donate')}
-					<img src="icons/heart.svg" class="-mt-4" width='20px' height="20px" alt="donate sensor.community"></a></li>
+					<img src="icons/heart.svg" class="-mt-1" width='20px' height="20px" alt="donate sensor.community"></a></li>
 
 				<li class="border-r"></li>
 				<li class="hoverable hover:bg-teal-500 hover:text-white">
