@@ -9,6 +9,22 @@
     // particlesJS.load('particles-js', 'particles.json', function () {
     //     console.log('callback - particles.js config loaded');
     // });
+    
+	function get_numbers() {
+		fetch("https://stats.sensor.community/numbers.json")
+			.then(function(response){
+				return response.json();
+			})
+			.then(function(data){
+				console.log(data);
+				document.getElementById("number_sensors").innerText = data.numbers.sensors;
+				document.getElementById("number_countries").innerText = data.numbers.countries;
+				document.getElementById("number_measurements").innerText = data.numbers.measurements;
+				document.getElementById("number_commits").innerText = data.numbers.commits;
+				document.getElementById("number_hubs").innerText = data.numbers.local_hubs;
+			})
+	}
+	window.addEventListener('load', get_numbers)
 </script>
 
 <style>
@@ -164,7 +180,7 @@
                                         <p class="text-base text-grey-dark text-sm">Active sensors worldwide</p>
                                     </div>
                                     <div>
-                                        <p class="text-2xl text-grey-darker font-bold">13.249</p>
+                                        <p class="text-2xl text-grey-darker font-bold" id="number_sensors">13.249</p>
                                     </div>
                                 </div>
                             </a>
@@ -176,7 +192,7 @@
                                         <p class="text-base text-grey-dark text-sm">Countries</p>
                                     </div>
                                     <div>
-                                        <p class="text-2xl text-grey-darker font-bold">69</p>
+                                        <p class="text-2xl text-grey-darker font-bold" id="number_countries">69</p>
                                     </div>
                                 </div>
                             </a>
@@ -188,7 +204,7 @@
                                         <p class="text-base text-grey-dark text-sm">Data Points</p>
                                     </div>
                                     <div>
-                                        <p class="text-2xl text-grey-darker font-bold">6193201195</p>
+                                        <p class="text-2xl text-grey-darker font-bold" id="number_measurements">6193201195</p>
                                     </div>
 
                                 </div>
@@ -216,7 +232,7 @@
                                         <p class="text-base text-grey-dark text-sm">Community Hubs</p>
                                     </div>
                                     <div>
-                                        <p class="text-2xl text-grey-darker font-bold">13</p>
+                                        <p class="text-2xl text-grey-darker font-bold" id="number_hubs">13</p>
                                     </div>
                                 </div>
                             </a>
@@ -228,7 +244,7 @@
                                         <p class="text-base text-grey-dark text-sm">Github Commits</p>
                                     </div>
                                     <div>
-                                        <p class="text-2xl text-grey-darker font-bold">1.343</p>
+                                        <p class="text-2xl text-grey-darker font-bold" id="number_commits">1.343</p>
                                     </div>
                                 </div>
                             </a>
