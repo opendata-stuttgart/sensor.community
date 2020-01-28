@@ -34,7 +34,7 @@
     "docs": "Guide",
     "blog": "Blog",
     "projects": "Projects",
-    "donate": "Support Us"
+    "donate": "Support"
   },
   "error": {
     "errorStatus" : "Encountered a {status} error.",

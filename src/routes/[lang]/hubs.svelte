@@ -24,7 +24,7 @@
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
                     <h1 class="py-4 md:py-8 md:pb-8 text-grey-darkest text-4xl md:text-6xl font-lf-extra-bold leading-tight">
-                        Community Projects</h1>
+                        Community Hubs</h1>
                 </div>
                 <p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
                     Find apps, websites,... from our lovely community 💖️<br>
@@ -45,7 +45,7 @@
             <div class="m-7 px-1 w-full md:w-1/2 my-4 px-4 lg:w-1/3">
                 <article class="overflow-hidden bg-gray-100 rounded-lg shadow-md">
                     <a href="{row.link}">
-                        <img alt="" class="block h-auto w-full" src={row.screenshot}>
+                        <img alt="" class="block h-auto w-full" src="/hubs/paris.png">
 
                         <header class="flex items-center text-2xl justify-between leading-tight p-2 md:p-4">
                             {flag(`${row.language}`)}
@@ -66,5 +66,18 @@
             </div>
         {/each}
     </div>
+    <div class="flex flex-row flex-wrap mt-10">
+        <div class="w-full flex flex-wrap my-8">
+            <div class="w-full text-center md:text-left md:w-1/2">
+                <a href="">
+                    <span class="text-center text-gray-600 mt-10">
+						      Have a great project? Share it with the community! <br> <a class="text-teal-600" href="/docs/how-to-contribute/">Submit your project →</a>
+
+					</span>
+                </a>
+            </div>
+            <div class="w-full md:w-1/2 my-12"></div>
+        </div>
+
 </section>
 <Contact/>

@@ -40,7 +40,7 @@
                     @SensorCommunity</a>
                 <a href="" target="_blank"
                    class="md:px-3 pb-2 text-sm flex items-center text-grey-darkest">
-                    <img src="icons/discourse.svg" alt="twitter logo" class="w-5 mr-2">
+                    <img src="icons/discourse.svg" alt="discourse logo" class="w-5 mr-2">
                     Forum.Sensor.Community</a>
                 <a href="mailto:support@sensor.community" target="_blank"
                    class="md:px-3 pb-3 text-sm flex items-center text-grey-darkest">✉️ support@sensor.community</a>
