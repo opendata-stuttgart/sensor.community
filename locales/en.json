@@ -2,7 +2,11 @@
   "index": {
     "metaDescription": "Sapper project template",
     "metaTitle": "Sapper project template",
-    "h1": "Build a sensor and become part of the worldwide Civic Tech network \uD83C\uDF10. Supported by a lot of contributors \uD83D\uDC95",
+    "h1-build": "Build your own sensor",
+    "h1-become": "and become part of the ",
+    "h1-civic-tech": "worldwide Civic Tech network \uD83C\uDF10",
+    "h1-support": "Supported by a lot of",
+    "h1-contributors": "contributors \uD83D\uDC95",
     "tagline": "The next small thing in web development",
     "section1": "Sensor Community in numbers"
   },
@@ -16,7 +20,7 @@
   "projects": {
     "metaDescription": "Sapper project template",
     "metaTitle": "Community Projects",
-    "h1": "Commnuity Projects",
+    "h1": "Community Projects",
     "content": "Sapper Template!",
     "editOnGithub" : "Edit on Github"
   },
@@ -27,7 +31,7 @@
   },
   "nav": {
     "home": "Home",
-    "docs": "Docs",
+    "docs": "Guide",
     "blog": "Blog",
     "projects": "Projects",
     "donate": "Support Us"

@@ -2,7 +2,7 @@
     <div class="flex flex-row flex-wrap mt-10">
         <div class="w-full flex flex-wrap">
             <h2 id="contact" class="w-full text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">
-                Questions</h2>
+                Questions?</h2>
             <p class="text-grey-darkest text-xl font-lf-regular leading-reading text-left">
                 You have questions, want to write an article about us or partner with us<br>
             </p>
@@ -15,7 +15,7 @@
                             <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white"/>
                         </svg>
                         <div class="relative text-white px-6 pb-6 mt-6">
-                            <span class="block opacity-75 -mb-1">️No Purpose</span>
+                            <span class="block -mb-1">Contact</span>
                             <div class="flex justify-between">
                                 <span class="block font-semibold text-xl"> ️🧐 general questions?</span>
                             </div>
@@ -30,7 +30,7 @@
                             <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white"/>
                         </svg>
                         <div class="relative text-white px-6 pb-6 mt-6">
-                            <span class="block opacity-75 -mb-1">Partnership</span>
+                            <span class="block -mb-1">Partnership</span>
                             <div class="flex justify-between">
                                 <span class="block font-semibold text-xl">️💌 want to partner with us?</span>
                             </div>
@@ -44,7 +44,7 @@
                             <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white"/>
                         </svg>
                         <div class="relative text-white px-6 pb-6 mt-6">
-                            <span class="block opacity-75 -mb-1">Press</span>
+                            <span class="block -mb-1">Press</span>
                             <div class="flex justify-between">
                                 <span class="block font-semibold text-xl">️📰 article ideas?</span>
                             </div>
@@ -58,7 +58,7 @@
                             <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white"/>
                         </svg>
                         <div class="relative text-white px-6 pb-6 mt-6">
-                            <span class="block opacity-75 -mb-1">Tech</span>
+                            <span class="block -mb-1">Tech</span>
                             <div class="flex justify-between">
                                 <span class="block font-semibold text-xl">️💻 technical questions?</span>
                             </div>

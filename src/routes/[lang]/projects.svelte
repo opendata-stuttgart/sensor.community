@@ -16,44 +16,53 @@
     <meta property="og:image" content=""/>
 </svelte:head>
 
-<section>
-    <div class="container w-full mx-auto">
-        <div class="w-full p-24  md:px-6 text-xl text-gray-800 leading-normal">
-            <h1>{$_('projects.h1')}</h1>
-            <p class="mb-x2">Find apps, websites,... from our lovely community  💖️</p>
+<section class="lf-padding container mx-auto mt-10">
 
-            <div class="container my-12 mx-auto px-4 md:px-12">
-            <div class="flex flex-wrap -mx-1 lg:-mx-4">
+    <div class="flex flex-row flex-wrap mt-10">
+        <div class="w-full flex flex-wrap my-8">
+            <div class="w-full text-center md:text-left md:w-1/2">
+                <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
+                    <h1 class="py-4 md:py-8 md:pb-8 text-grey-darkest text-4xl md:text-6xl font-lf-extra-bold leading-tight">
+                        Community Projects</h1>
+                </div>
+                <p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+                    Find apps, websites,... from our lovely community 💖️<br>
+                </p>
+                <a href="">
+                    <span class="text-center text-gray-600 mt-10">
+						      Have a great project? Share it with the community! <br> <a class="text-teal-600" href="/docs/how-to-contribute/">Submit your project →</a>
 
-                {#each rows as row}
-
-                    <div class="m-7 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-                        <article class="overflow-hidden bg-gray-100 rounded-lg shadow-lg">
-                            <a href="{row.link}">
-                                <img alt="" class="block h-auto w-full" src={row.screenshot}>
-
-                            <header class="flex items-center justify-between leading-tight p-2 md:p-4">
-                                {flag(`${row.language}`)}
-                            </header>
-                            <footer>
-
-                                <div class="relative px-6 pb-6 mt-6">
-                                    <span class="block opacity-75 -mb-1 text-sm">{row.platform}</span>
-                                    <div class="flex justify-between">
-                                        <span class="block font-semibold text-xl">{row.title}</span>
-                                        <span class="block bg-teal-500 rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">{row.type}</span>
-                                    </div>
-                                </div>
-                            </footer>
-                            </a>
-                        </article>
-
-                    </div>
-            {/each}
+					</span>
+                </a>
             </div>
-
-            </div>
-
+            <div class="w-full md:w-1/2 my-12"></div>
         </div>
+
+
+        {#each rows as row}
+
+            <div class="m-7 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+                <article class="overflow-hidden bg-gray-100 rounded-lg shadow-md">
+                    <a href="{row.link}">
+                        <img alt="" class="block h-auto w-full" src={row.screenshot}>
+
+                        <header class="flex items-center text-2xl justify-between leading-tight p-2 md:p-4">
+                            {flag(`${row.language}`)}
+                        </header>
+                        <footer>
+
+                            <div class="relative px-6 pb-6 mt-6">
+                                <span class="block opacity-75 -mb-1 text-sm">{row.platform}</span>
+                                <div class="flex justify-between">
+                                    <span class="block font-semibold text-xl">{row.title}</span>
+                                    <span class="block bg-teal-500 rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">{row.type}</span>
+                                </div>
+                            </div>
+                        </footer>
+                    </a>
+                </article>
+
+            </div>
+        {/each}
     </div>
 </section>
