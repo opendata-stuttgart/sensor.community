@@ -1,7 +1,7 @@
 {
   "name": "sensor.community",
   "description": "sparkles new shiny website for dust and noise measuring project sensor.community based on sapper and svelte",
-  "version": "0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "sapper dev --ext '.svexy .svelte .svx'",
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
