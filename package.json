@@ -7,6 +7,7 @@
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "build": "npm run build:tailwind && sapper build --legacy",
+    "export": "sapper export",
     "start": "npm install && npx sapper export && npx serve __sapper__/export"
   },
   "dependencies": {
