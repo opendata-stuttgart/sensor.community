@@ -18,14 +18,14 @@
     let sections = (async () => {
         let uri = `/${langPath}/docs/${langPath}.json`;
         return await fetch(uri).then(response => response.json());
-    })()
+    })();
 
 </script>
 
 <style>
     :root {
         --nav-h: 5rem;
-        --top-offset: 6rem;
+        --top-offset: 10rem;
         --sidebar-w: 20rem;
         --sidebar-mid-w: 32rem;
         --sidebar-large-w: 48rem;
@@ -59,7 +59,7 @@
     @media screen and (min-width: 768px) {
         :root {
             --side-page: 14vw;
-            --top-offset: 6rem;
+            --top-offset: 10em;
             --side-nav: 4.8rem;
         }
     }
