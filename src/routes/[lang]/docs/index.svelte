@@ -26,8 +26,8 @@
     :root {
         --nav-h: 5rem;
         --top-offset: 6rem;
-        --sidebar-w: 25rem;
-        --sidebar-mid-w: 36rem;
+        --sidebar-w: 20rem;
+        --sidebar-mid-w: 32rem;
         --sidebar-large-w: 48rem;
         --main-width: 80rem;
         --side-nav: 3.2rem;
@@ -49,7 +49,6 @@
         --flash: #40b3ff;
         --heading: #676778;
         --text: #444;
-        --sidebar-text: rgba(255, 255, 255, .75);
         --border-w: .3rem;
         --border-r: .4rem;
 
@@ -117,6 +116,7 @@
     li:not(.white) > h2 {
         color: var(--second)
     }
+
 
     blockquote {
         position: relative;

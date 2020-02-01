@@ -1,7 +1,7 @@
 {
   "index": {
-    "metaDescription": "Sapper project template",
-    "metaTitle": "Sapper project template",
+    "metaDescription": "Build a DIY sensor and become part of the worldwide citizen science, open data, civic tech network. Supported by a lot of contributors \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Build your own sensor and join the worldwide civic tech network",
     "h1-build": "Build your own sensor",
     "h1-become": "and become part of the ",
     "h1-civic-tech": "worldwide Civic Tech network \uD83C\uDF10",
@@ -31,7 +31,7 @@
   },
   "nav": {
     "home": "Home",
-    "docs": "Guide",
+    "docs": "Sensor",
     "blog": "Blog",
     "projects": "Projects",
     "donate": "Support"

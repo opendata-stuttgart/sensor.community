@@ -1,3 +1,7 @@
+<script context="module">
+
+</script>
+
 <script>
     import {_, locale, locales} from 'svelte-i18n';
     import Contact from "../../components/Contact.svelte"
@@ -8,22 +12,15 @@
     // particlesJS.load('particles-js', 'particles.json', function () {
     //     console.log('callback - particles.js config loaded');
     // });
-    
-	function get_numbers() {
-		fetch("https://stats.sensor.community/numbers.json")
-			.then(function(response){
-				return response.json();
-			})
-			.then(function(data){
-				console.log(data);
-				document.getElementById("number_sensors").innerText = data.numbers.sensors;
-				document.getElementById("number_countries").innerText = data.numbers.countries;
-				document.getElementById("number_measurements").innerText = data.numbers.measurements;
-				document.getElementById("number_commits").innerText = data.numbers.commits;
-				document.getElementById("number_hubs").innerText = data.numbers.local_hubs;
-			})
-	}
-	window.addEventListener('load', get_numbers)
+    async function get_numbers() {
+        const data = await this.fetch(`https://stats.sensor.community/numbers.json`).then(r => r.json());
+        document.getElementById("number_sensors").innerText = data.numbers.sensors;
+        document.getElementById("number_countries").innerText = data.numbers.countries;
+        document.getElementById("number_measurements").innerText = data.numbers.measurements;
+        document.getElementById("number_commits").innerText = data.numbers.commits;
+        document.getElementById("number_hubs").innerText = data.numbers.local_hubs;
+    }
+    window.addEventListener('load', get_numbers)
 </script>
 
 <style>
@@ -128,13 +125,13 @@
 
 <!--<section class="bg-teal-600 py-8">-->
 <!--    <a href="{$locale}/docs"> <div class="container mx-auto px-4 text-center">-->
-<!--        <p class="text-xl md:text-2xl max-w-md mx-auto leading-normal mb-8 text-white">Build your own sensor.</p>-->
+<!--        <p class="text-xl md:text-2xl max-w-md mx-auto leading-normal mb-8 text-white">Build your own docs.</p>-->
 <!--    </div>-->
 <!--    </a>-->
 <!--</section>-->
 
 <!--<p class="text-center p-4 text-gray-600 mt-10">-->
-<!--    Created your own DIY particulate matter sensor or noise senor with our-->
+<!--    Created your own DIY particulate matter docs or noise senor with our-->
 <!--    <a class="border-b text-blue-500" href="" target="_blank">guide</a>.<br>-->
 <!--    <a href="#" class="cursor-pointer bg-teal-600 hover:bg-teal-500 shadow-xl px-5 py-2 inline-block text-teal-100 hover:text-white rounded">Build</a>-->
 
@@ -313,7 +310,7 @@
 <!--        <div class="p-2">-->
 <!--            <div class="inline-flex items-center bg-white leading-none text-teal-600 rounded-full p-2 shadow text-teal text-sm">-->
 <!--                <span class="inline-flex bg-teal-600 text-white rounded-full h-6 px-3 justify-center items-center">Build</span>-->
-<!--                <span class="inline-flex px-2">Build your own sensor</span>-->
+<!--                <span class="inline-flex px-2">Build your own docs</span>-->
 <!--            </div>-->
 <!--        </div>-->
 <!--    </div>-->

@@ -1,13 +1,14 @@
 {
   "index": {
-    "h1": "Sapper Vorlage!",
-    "tagline" : "Die nächste kleine Sache in der Webentwicklung",
-    "tile1" : "Sapper ist ein Application Framework basierend auf Svelte - größere Apps mit kleinerem Footprint bauen",
-    "metaDescription": "Sapper project template",
-    "metaTitle": "Sapper project template",
-    "success": "Klasse!",
-    "highFive": "High five",
-    "tryEditing": "Try editing this file (src/routes/about.svelte) to test live reloading."
+    "metaDescription": "Bauen deinen einen DIY-Sensor und werden Sie Teil des weltweiten civic tech, open data, open source Technologienetzes. Unterstützt von vielen Mitwirkenden \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Baue deinen eigenen Sensor und treten dem open source Netzwerk bei",
+    "h1-build": "Bauen Sie Ihren eigenen Sensor",
+    "h1-become": "und werden Sie Teil der ",
+    "h1-civic-tech": "weltweites Civic-Tech-Netzwerk \uD83C\uDF10",
+    "h1-support": "Unterstützt von einer Menge",
+    "h1-contributors": "Mitwirkende \uD83D\uDC95",
+    "tagline": "Die nächste kleine Sache in der Webentwicklung",
+    "section1": "Sensor.Community in Zahlen"
   },
   "docs": {
     "h1": "Dokumentation",
@@ -21,7 +22,9 @@
   },
   "nav": {
     "home": "Home",
-    "docs": "Dokumentation",
-    "blog": "Blog"
+    "docs": "Guide",
+    "blog": "Blog",
+    "projects": "Projekte",
+    "donate": "Support"
   }
 }

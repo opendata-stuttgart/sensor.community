@@ -83,7 +83,6 @@
 		height: 2em;
 		overflow: hidden;
 		border: 1px solid #eee;
-		box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
 		transition: width 0.2s, height 0.2s;
 	}
 
@@ -107,7 +106,6 @@
 		left: 0;
 		width: calc(100% - 2rem);
 		height: 2em;
-		background: linear-gradient(to top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,1) 100%);
 		pointer-events: none;
 		z-index: 2;
 	}
@@ -119,7 +117,6 @@
 		bottom: 1.9em;
 		width: calc(100% - 2rem);
 		height: 2em;
-		/*background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,1) 100%);*/
 		pointer-events: none;
 	}
 
@@ -130,12 +127,10 @@
 		height: 100%;
 		padding: 4em 1.6rem 2em 3.2rem;
 		bottom: 2em;
-		color: white;
-		background-color: #1a202c;
 	}
 
 	.content {
-		width: 100%;
+		width: 90%;
 		margin: 0;
 		padding: var(--side-nav);
 		tab-size: 2;
@@ -148,11 +143,11 @@
 			width: var(--sidebar-w);
 			height: 100vh;
 			top: 0;
-			left: 0;
+			left: 2em;
 			overflow: hidden;
 			box-shadow: none;
 			border: none;
-			background-color: var(--second);
+			color: #1a202c;
 		}
 
 		aside.open::before {
@@ -171,7 +166,7 @@
 		}
 
 		.sidebar {
-			padding: var(--top-offset) 0 6.4rem 3.2rem;
+			padding: var(--top-offset) 20px 6.4rem 3.2rem;
 			overflow-y: auto;
 			height: 100%;
 			bottom: auto;
@@ -184,7 +179,7 @@
 
 		.content :global(.side-by-side) {
 			display: grid;
-			grid-template-columns: calc(50% - 0.5em) calc(50% - 0.5em);
+			grid-template-columns: calc(50% - 1em) calc(50% - 1em);
 			grid-gap: 1em;
 		}
 
@@ -194,58 +189,25 @@
 	}
 
 	.content h2 {
-		margin-top: 2rem;
-		padding: 1rem 1rem 2rem 0.2rem;
-		border-top: var(--border-w) solid #6767785b; /* based on --second */
-		line-height: 1;
-		font-size: var(--h3);
-		letter-spacing: .05em;
-		text-transform: uppercase;
+		color: inherit;
+		font-weight: bold;
+		text-rendering: optimizeLegibility;
+		font-size: 1.46978rem;
+		line-height: 1.1;
+		margin: 1em 0 1.6rem 0 ;
 	}
 
 	.content section:first-of-type > h2 {
 		margin-top: 0;
 	}
 
+	.content :global(h3) {
+		margin: 1em 0;
+		font-size: 1.4em;
+	}
 	.content :global(h4) {
-		margin: 2em 0 1em 0;
-	}
-
-	.content :global(.offset-anchor) {
-		position: relative;
-		display: block;
-		top: calc(-1 * (var(--nav-h) + var(--top-offset) - 1rem));
-		width: 0;
-		height: 0;
-	}
-
-	.content :global(.anchor) {
-		position: absolute;
-		display: block;
-		background: url(/icons/link.svg) 0 50% no-repeat;
-		background-size: 1em 1em;
-		width: 1.4em;
-		height: 1em;
-		left: -1.3em;
-		opacity: 0;
-		transition: opacity 0.2s;
-		/* TODO get rid of linkify */
-		border: none !important;
-	}
-
-	@media (min-width: 768px) {
-		.content :global(h2):hover :global(.anchor),
-		.content :global(h3):hover :global(.anchor),
-		.content :global(h4):hover :global(.anchor),
-		.content :global(h5):hover :global(.anchor),
-		.content :global(h6):hover :global(.anchor) {
-			opacity: 1;
-		}
-
-		.content :global(h5) :global(.anchor),
-		.content :global(h6) :global(.anchor) {
-			top: 0.2em;
-		}
+		font-size: 1.2em;
+		margin: 1em 0 0.5em 0.5em;
 	}
 
 	.content h3,
@@ -253,7 +215,6 @@
 		margin: 6.4rem 0 0 0;
 		padding: 2rem 1.6rem 2.6rem .2rem;
 		font-size: 	var(--h4);
-		color: var(--text);
 		border-top: var(--border-w) solid #6767781f; /* based on --second */
 		background: transparent;
 		line-height: 1;
@@ -271,13 +232,11 @@
 		font-size: inherit;
 	}
 
-
 	.content h4,
 	.content h4 > code {
 		font-family: inherit;
 		font-weight: 600;
 		font-size: 2rem;
-		color: var(--second);
 		margin: 6.4rem 0 1.6rem 0;
 		/*padding-left: 0;*/
 		background: transparent;
@@ -331,7 +290,7 @@
 
 	section > :global(.code-block) > :global(pre) {
 		display: inline-block;
-		 background: #eff8ff;
+		background: #eff8ff;
 		color: white;
 		padding: .3rem .8rem;
 		margin: 0;
@@ -343,10 +302,6 @@
 		background: var(--back-api);
 	}
 
-	/*section > :global(p) {*/
-	/*	max-width: 42rem;*/
-	/*}*/
-
 	section :global(p) {
 		margin: 1em 0;
 	}
@@ -355,28 +310,16 @@
 		font-size: 0.7rem;
 		float: right;
 		letter-spacing: 0.1em;
+		margin: 5px;
 	}
 
-	/*!* no linkify on these *!*/
-	/*small a        { all: unset }*/
-	/*small a:before { all: unset }*/
-
-	section :global(blockquote) {
-		color: hsl(204, 100%, 50%);
-		border: 2px solid var(--flash);
-	}
-
-	section :global(blockquote) :global(code) {
-		background: hsl(204, 100%, 95%) !important;
-		color: hsl(204, 100%, 50%);
-	}
 </style>
 
 <div bind:this={container} class="content listify">
 	{#each sections as section}
 		<section data-id={section.slug}>
 			<h2>
-				<span class="offset-anchor" id={section.slug}></span>
+				<span id={section.slug}></span>
 
 				<!-- svelte-ignore a11y-missing-content -->
 				<a href="{$locale}/docs#{section.slug}" class="anchor" aria-hidden></a>
@@ -394,7 +337,7 @@
 	{/each}
 </div>
 
-<aside bind:this={aside} class="sidebar-container" class:open={show_contents}>
+<aside bind:this={aside} class:open={show_contents}>
 	<div class="sidebar" on:click="{() => show_contents = false}">
 		<GuideContents {sections} {active_section} {show_contents} />
 	</div>

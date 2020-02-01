@@ -1,7 +1,7 @@
 :root {
 	--nav-h:       6rem;
 	--top-offset:  5rem;
-	--sidebar-w:  25rem;
+	--sidebar-w:  26rem;
 	--sidebar-mid-w: 36rem;
 	--sidebar-large-w: 48rem;
 	--main-width: 80rem;
@@ -12,13 +12,13 @@
 	--out-back:    cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-@media screen and (min-width: 768px) {
-	:root {
-		--side-page:  14vw;
-		--top-offset: 3rem;
-		--side-nav: 4.8rem;
-	}
-}
+/*@media screen and (min-width: 768px) {*/
+/*	:root {*/
+/*		--side-page:  14vw;*/
+/*		--top-offset: 3rem;*/
+/*		--side-nav: 4.8rem;*/
+/*	}*/
+/*}*/
 
 /*	base reset ----------------------------- */
 
@@ -118,15 +118,15 @@ pre code {
 /*}*/
 
 .listify blockquote {
-	position: relative;
-	margin: 1.6rem 0 2.4rem;
-	padding: 1rem 1.4rem;
-	border-radius: .4rem;
-	max-width: 80%;
+	margin: 0 0 2em;
+	padding: 0 1.5em;
+	border-left: .25em solid #e2ecec;
+	transition: border-color .3s;
+	font-size: 1.1rem;
 }
 
 .listify blockquote p {
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 
 .listify blockquote :last-child {
@@ -134,25 +134,19 @@ pre code {
 }
 
 
-
 /*  links ------------------------------------- */
 .listify a {
-	/*position: relative;*/
-	/*padding: 0 0 1px 0;*/
-	/*border-bottom: 1px solid #d53f8c;*/
-	/*user-select: none;*/
-	/*color: #d53f8c;*/
-	/*transition: color .2s, border .2s, padding .2s;*/
-	/*box-shadow: inset 0 -0.12em 0 #d53f8c*/
 	text-decoration: none;
-	box-shadow: inset 0 -0.12em 0 #fd6378;
+	color: #00a672;
 	-webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 	transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+	padding: 0.2em;
 }
 
 .listify  a:hover  {
-	box-shadow: inset 0 -1.5em 0 #fd6378;
-	color: #FFF;
+	box-shadow: inset 0 -1.5em 0 #00a672;
+	color: white;
+	padding: 0.2em;
 }
 
 .listify a.no-underline {
@@ -245,7 +239,6 @@ table code, table span {
 	max-width: none;
 	margin: 0 auto;
 	padding: 1.6rem 0 0 .8rem;
-	/*font: 1.2rem/1.6 var(--font-mono);*/
 }
 
 .filename {
@@ -260,17 +253,17 @@ table code, table span {
 }
 
 /*	theme colors --------------------------- */
-.prime      { color: #ff3e00 !important }
-.second     { color: #676778 !important }
-.flash      { color: #40b3ff !important }
-.black      { color: black !important }
-.white      { color: white !important }
+/*.prime      { color: #ff3e00 !important }*/
+/*.second     { color: #676778 !important }*/
+/*.flash      { color: #40b3ff !important }*/
+/*.black      { color: black !important }*/
+/*.white      { color: white !important }*/
 
-.back       { background-color: #ffffff !important }
-.back-light { background-color: #f6fafd !important }
-.bg-prime   { background-color: #ff3e00 !important }
-.bg-second  { background-color: #676778 !important }
-.bg-flash   { background-color: #40b3ff!important }
+/*.back       { background-color: #ffffff !important }*/
+/*.back-light { background-color: #f6fafd !important }*/
+/*.bg-prime   { background-color: #ff3e00 !important }*/
+/*.bg-second  { background-color: #676778 !important }*/
+/*.bg-flash   { background-color: #40b3ff!important }*/
 
 /*	inputs --------------------------------- */
 input[type="checkbox"] {
