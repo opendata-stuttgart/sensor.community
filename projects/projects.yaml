@@ -8,7 +8,7 @@
   featured: true
 
 - title: Fancy iOS App
-  link: https://www.madavi.de/
+  link: https://www.madavi.[lang]/
   screenshot: ./screenshots/appstore.jpg
   author: Rajko
   platforms: ios

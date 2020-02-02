@@ -55,7 +55,7 @@ npx i18next-svelte-scanner -s src -o ./locales/fr.json
 ```
 2. Add it to the i18n.js
 ```javascript
-register('fr', () => import('../locales/fr.json'));
+register('fr', () => import('../[lang]/fr.json'));
 ```
 
 ## Bugs and feedback

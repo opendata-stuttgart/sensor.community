@@ -8,7 +8,7 @@
 <script>
     import {_, locale, locales} from 'svelte-i18n'
     import {stores} from '@sapper/app';
-    import {Docs} from '../../../../site-kit/'
+    import {Docs} from '../../../../site-kit'
 
     let {page} = stores();
     let langPath;

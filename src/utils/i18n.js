@@ -12,5 +12,5 @@ init({
     initialLocale: 'en'
 });
 // locale.set('en');
-// locales.initialLocale = 'en';
+// [lang].initialLocale = 'en';
 

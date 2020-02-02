@@ -54,7 +54,7 @@
     </div>
     <div class="w-3/4 mx-auto bg-white shadow-lg relative z-20 hidden md:block"
          style="margin-top: -18em; border-radius: 15px;">
-        <div class="flex" style="height: 35em;">
+        <div class="flex" style="height: 40em;">
             <iframe scrolling="no"
                     src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
                     style="width: 97%; height: 95%; margin: auto; overflow: hidden;"
@@ -62,16 +62,13 @@
         </div>
     </div>
 
-    <div class="px-4 py-16">
-        <div class="relative md:max-w-2xl md:mx-auto text-center">
-            <h1 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">
-                <a class="bg-teal-500 text-white px-2 hover:text-teal-800"
-                   href="{$locale}/docs/">{$_('index.h1-build')}</a> {$_('index.h1-become')}<a
-                    class="bg-yellow-500 text-white px-2 hover:text-yellow-700"
-                    href="{$locale}/community">{$_('index.h1-civic-tech')}</a>{$_('index.h1-support')} <a
-                    class="bg-blue-300 text-white px-2 hover:text-blue-700"
-                    href="{$locale}/contributors">{$_('index.h1-contributors')}</a>
-            </h1>
+    <div class="py-16">
+        <div class="relative md:max-w-3xl md:mx-auto text-center">
+            <h3 class="text-gray-700 text-5xl leading-tight">
+                Sensor.Community is a contributors driven global sensor network that creates Open Environmental Data.<br>
+                Our mission is to inspire and enrich people’s lives by offering a platform for the collective curiosity in nature that is genuine, joyful and positive.
+                Sensor.Community has global hubs in Stuttgart, Sofía, Warsaw, Brussels.
+            </h3>
         </div>
     </div>
 </section>
@@ -108,19 +105,17 @@
                 title="sensor.community particulate matter map"></iframe>
     </div>
     <div class="px-4 py-16">
-        <h1 class="font-bold text-gray-700 text-xl md:text-4xl leading-tight mb-6">
-            <a class="bg-teal-500 text-white px-2 hover:text-teal-800"
-               href="{$locale}/docs/">{$_('index.h1-build')}</a> {$_('index.h1-become')}<a
-                class="bg-yellow-500 text-white px-2 hover:text-yellow-700"
-                href="{$locale}/community">{$_('index.h1-civic-tech')}</a>{$_('index.h1-support')} <a
-                class="bg-blue-300 text-white px-2 hover:text-blue-700"
-                href="{$locale}/contributors">{$_('index.h1-contributors')}</a>
+        <h2 class="font-bold text-gray-700 text-5xl md:text-5xl leading-tight mb-6">
+            Sensor.Community is a contributors driven global sensor network that creates Open Environmental Data.<br>
+            Our mission is to inspire and enrich people’s lives by offering a platform for the collective curiosity in nature that is genuine, joyful and positive.
+            Sensor.Community has global hubs in Stuttgart, Sofía, Warsaw, Brussels.
+        </h2>
     </div>
 </section>
 
 <!--<section class="bg-teal-600 py-8">-->
 <!--    <a href="{$locale}/docs"> <div class="container mx-auto px-4 text-center">-->
-<!--        <p class="text-xl md:text-2xl max-w-md mx-auto leading-normal mb-8 text-white">Build your own docs.</p>-->
+<!--        <p class="text-4xl md:text-4xl max-w-md mx-auto leading-normal mb-8 text-white">Build your own docs.</p>-->
 <!--    </div>-->
 <!--    </a>-->
 <!--</section>-->
@@ -132,160 +127,84 @@
 
 <!--</p>-->
 
-<section class="relative">
+<section>
     <div class="container mx-auto px-4 pt-4 flex flex-col">
-        <h2 class="w-full py-4 md:py-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center">
+        <h2 class="w-full py-4 md:py-8 text-gray-700 text-4xl font-lf-bold leading-normal text-center">
             Sensor.Community in numbers</h2>
-        <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">
-
-            <div class="left_block w-full text-left py-2 md:pb-16">
-                <div class="rounded flex justify-center items-center">
-                    <div class="rounded flex justify-center items-center p-3">
-                        <a href="http://stats.sensor.community/images/stats_active_sensors.svg" rel="prefetch"
-                           target="_blank">
-                            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-500">
-                                <p class="block -mb-1 text-base text-grey-dark text-xl">Active sensors worldwide</p>
-                                <p class="text-2xl text-grey-darker font-bold block font-semibold" id="number_sensors">
-                                    13.249</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="rounded flex justify-center items-center p-3">
-                        <a href="http://stats.sensor.community/scripts/active_sensors.php" rel="prefetch"
-                           target="_blank">
-                            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-400">
-                                <p class="text-base text-grey-dark text-xl">Countries</p>
-                                <p class="text-2xl text-grey-darker font-bold" id="number_countries">69</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="rounded flex justify-center items-center p-3">
-                        <a href="">
-                            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-300">
-                                <p class="text-base text-grey-dark text-xl">Data Points</p>
-                                <p class="text-2xl text-grey-darker font-bold" id="number_measurements">6193201195</p>
-                            </div>
-                        </a>
-                    </div>
+        <div class="w-full text-left py-2 md:pb-16">
+            <div class="rounded-lg flex justify-center text-gray-700 items-center">
+                <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
+                    <a href="http://stats.sensor.community/images/stats_active_sensors.svg" rel="prefetch"
+                       target="_blank">
+                        <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-500">
+                            <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">Active sensors worldwide</p>
+                            <p class="text-4xl font-bold block" id="number_sensors">
+                                10.249</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="rounded flex justify-center items-center">
-                    <div class="rounded flex justify-center items-center p-3">
-                        <a href="{$locale}/projects" target="_blank">
-
-                            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-500">
-                                <p class="text-base text-grey-dark text-xl">Community Projects</p>
-                                <p class="text-2xl text-grey-darker font-bold">17</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="rounded flex justify-center items-center p-3">
-                        <a href="">
-                            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-400">
-                                <p class="text-base text-grey-dark text-xl">Community Hubs</p>
-                                <p class="text-2xl text-grey-darker font-bold" id="number_hubs">13</p>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="rounded flex justify-center items-center p-3">
-                        <a href="https://github.com/opendata-stuttgart/" target="_blank">
-                            <div class="rounded bg-gray-200 shadow-md h-48 w-48 p-5 flex flex-col justify-around hover:text-white hover:bg-blue-300">
-                                <p class="text-base text-grey-dark text-xl">Github Commits</p>
-                                <p class="text-2xl text-grey-darker font-bold" id="number_commits">1.343</p>
-                            </div>
-                        </a>
-                    </div>
+                <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
+                    <a href="http://stats.sensor.community/scripts/active_sensors.php" rel="prefetch"
+                       target="_blank">
+                        <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-400">
+                            <p class="text-base text-grey-dark text-4xl leading-tight ">Countries</p>
+                            <p class="text-4xl font-bold" id="number_countries">69</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
+                    <a href="">
+                        <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-300">
+                            <p class="text-base text-grey-dark text-4xl leading-tight ">Data Points</p>
+                            <p class="text-4xl font-bold" id="number_measurements">6193201195</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="w-full md:w-2/3 h-full text-center md:pb-8 md:pr-8">
-            <div class="flex justify-center items-center"
-                 style="width: 100%; height: 100%; overflow: hidden; margin: 0 auto; cursor: default;">
-                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <div class="rounded-lg flex justify-center text-gray-700 items-center">
+                <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
+                    <a href="{$locale}/projects" target="_blank">
 
-                <lottie-player
-                        src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json" background="transparent"
-                        speed="1" style="width: 300px; height: 300px;" loop autoplay>
-                </lottie-player>
+                        <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-500">
+                            <p class="text-base text-grey-dark text-4xl leading-tight ">Community Projects</p>
+                            <p class="text-4xl font-bold">17</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
+                    <a href="{$locale}/hubs">
+                        <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-400">
+                            <p class="text-base text-grey-dark text-4xl leading-tight ">Community Hubs</p>
+                            <p class="text-4xl font-bold" id="number_hubs">13</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
+                    <a href="https://github.com/opendata-stuttgart/" target="_blank">
+                        <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-5 flex flex-col justify-around hover:text-white hover:bg-blue-300">
+                            <p class="text-base text-grey-dark text-4xl leading-tight ">Github Commits</p>
+                            <p class="text-4xl font-bold" id="number_commits">1.343</p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!--<section class="relative bg-gray-200">-->
-<!--    <div class="container mx-auto px-12 py-8 flex flex-col">-->
-<!--        <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">-->
-<!--            <div class="left_block w-full text-left py-2 md:py-4">-->
-<!--                <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">-->
-<!--                    Open Data </h3>-->
-<!--                <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">-->
-<!--                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.-->
-<!--                </p>-->
-<!--                <a href="http://archive.sensor.community/" target="_blank"-->
-<!--                   class="text-primary font-semibold  py-2 text-teal-500">-->
-<!--                    Take a look into the data >-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div class="w-full md:w-1/3 h-full text-center md:py-8 md:pr-4">-->
-<!--                <div class="flex justify-center items-center"-->
-<!--                     style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">-->
-<!--                    <lottie-player-->
-<!--                            src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json" background="transparent"-->
-<!--                            speed="1" style="width: 150px; height: 150px;" loop autoplay>-->
-<!--                    </lottie-player>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="container mx-auto px-4 flex flex-col">-->
-<!--            <div class="md:flex relative md:flex-row items-center">-->
-<!--                <div class="left_block w-full text-left py-2 py-8 pl-24">-->
-<!--                    <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">Worldwide community </h3>-->
-<!--                    <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">-->
-<!--                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.-->
-<!--                    </p>-->
-<!--                    <a href="{$locale}/community"-->
-<!--                       class="text-primary font-semibold  py-2 text-teal-500">-->
-<!--                        browse the community >-->
-<!--                    </a>-->
-<!--                </div>-->
-<!--                <div id="ae_block" class="w-full md:w-1/3 h-full text-center md:py-8 md:pr-4">-->
-<!--                    <div class="flex justify-center items-center"-->
-<!--                         style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">-->
-<!--                        <lottie-player-->
-<!--                                src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json" background="transparent"-->
-<!--                                speed="1" style="width: 150px; height: 150px;" loop autoplay>-->
-<!--                        </lottie-player>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-<!--        <div class="md:flex relative md:flex-row md:flex-row-reverse items-center">-->
-<!--            <div class="left_block w-full text-left py-2 md:pb-16">-->
-<!--                <h3 class="text-grey-darkest text-3xl md:text-5xl font-lf-extra-bold  mx-auto leading-snug md:pr-4">-->
-<!--                    Open Source </h3>-->
-<!--                <p class="text-grey-darkest font-normal font-lf-regular md:text-md mx-auto md:pr-16 mt-4 mb-4 leading-reading">-->
-<!--                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.-->
-<!--                </p>-->
-<!--                <a href="https://github.com/opendata-stuttgart/" target="_blank"-->
-<!--                   class="text-primary font-semibold  py-2 text-teal-500">-->
-<!--                    Check out our GitHub >-->
-<!--                </a>-->
-<!--            </div>-->
-<!--            <div id="ae_block" class="w-full md:w-1/3 h-full text-center py-2 md:pb-16">-->
-<!--                <div class="flex justify-center items-center"-->
-<!--                     style="width: 100%; height: 100%; overflow: hidden; margin: 0px auto; cursor: default;">-->
-<!--                    <lottie-player-->
-<!--                            src="https://assets4.lottiefiles.com/packages/lf20_WKNlGw.json" background="transparent"-->
-<!--                            speed="1" style="width: 150px; height: 150px;" loop autoplay>-->
-<!--                    </lottie-player>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<Partnership/>
+<section>
+    <div class="container mx-auto px-4 pt-4 flex flex-col text-center">
+        <h1 class="font-bold text-gray-700 text-5xl leading-tight">
+            <a class="bg-teal-500 text-white px-2 hover:text-teal-800"
+               href="{$locale}/docs/">{$_('index.h1-build')}</a> {$_('index.h1-become')}<a
+                class="bg-yellow-500 text-white px-2 hover:text-yellow-700"
+                href="{$locale}/community">{$_('index.h1-civic-tech')}</a></h1>
+        <h2 class="font-bold text-gray-700 text-5xl leading-tight mb-6"><a
+                class="bg-blue-300 text-white px-2 hover:text-blue-700"
+                href="{$locale}/contributors">{$_('index.h1-support')}{$_('index.h1-contributors')}</a></h2>
+    </div>
+</section>
 <!--<div class="relative md:max-w-2xl md:mx-auto text-center">-->
 <!--    <div class="p-2">-->
 <!--        <div class="inline-flex items-center bg-white leading-none text-pink-600 rounded-full p-2 shadow text-sm">-->
@@ -299,6 +218,7 @@
 <!--</div>-->
 
 <Campaign/>
+<Partnership/>
 
 
 <!--    <div class="-m-2 text-center">-->

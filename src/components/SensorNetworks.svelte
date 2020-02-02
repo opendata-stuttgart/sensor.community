@@ -1,7 +1,7 @@
 <section class="lf-padding container mx-auto mt-10">
     <div class="flex flex-row flex-wrap mt-10">
         <div class="w-full flex flex-wrap">
-            <h2 id="contact" class="w-full text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center">
+            <h2 id="contact" class="w-full text-gray-700 text-4xl md:text-4xl font-lf-bold leading-normal text-center">
                 Campaigns</h2>
             <p class="text-grey-darkest text-xl font-lf-regular leading-reading text-left">
             </p>

@@ -31,8 +31,7 @@
                 </p>
                 <a href="">
                     <span class="text-center text-gray-600 mt-10">
-						      Have a great project? Share it with the community! <br> <a class="text-teal-600" href="/docs/how-to-contribute/">Submit your project →</a>
-
+					Have a great project? Share it with the community! <br> <a class="text-teal-600" href="/docs/how-to-contribute/">Submit your project →</a>
 					</span>
                 </a>
             </div>
