@@ -1,13 +1,19 @@
 <script context="module">
     export function preload({params, query}) {
-        return this.fetch(`{$locale}/blog.json`).then(r => r.json()).then(posts => {
+        return this.fetch(`{lang}/blog.json`).then(r => r.json()).then(posts => {
             return {posts};
         });
     }
 </script>
 
 <script>
-    import {_, locale, locales} from 'svelte-i18n';
+    import initI18n from "../../../utils/initI18n";
+    import { stores } from "@sapper/app";
+
+    const { page } = stores();
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
 
     export let posts;
 </script>
@@ -204,30 +210,29 @@
 </style>
 
 <svelte:head>
-    <title>Blog</title>
-    <meta property="og:title" content=""/>
+    <title>{i18n.t('blog:metaTitle')}</title>
+
+    <meta property="og:title" content={i18n.t('blog:metaTitle')}/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
 </svelte:head>
 
-
 <section>
     <div class="container w-full md:max-w-3xl mx-auto pt-20">
         <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
             <h1>Recent posts</h1>
-
             {#each posts as post, index}
-                        <!-- `rel=prefetch` attribute to load the data for the page as soon as  the user hovers over the link or taps it, instead of waiting for the 'click' event -->
-                    <article class="post-item p-8 border border-teal-300 mb-8 hover:shadow-lg">
-                        <h3>
-                            <a rel='prefetch' href='{$locale}/blog/{post.slug}'>{post.title}</a>
-                        </h3>
-                        <p>{post.excerpt}</p>
-                        <div class="post-item-footer">
-                            <span class="post-item-date"> {post.printDate}</span>
-                        </div>
-                    </article>
+            <!-- `rel=prefetch` attribute to load the data for the page as soon as  the user hovers over the link or taps it, instead of waiting for the 'click' event -->
+                <article class="post-item p-8 border border-teal-300 mb-8 hover:shadow-lg">
+                    <h3>
+                        <a rel='prefetch' href='{lang}/blog/{post.slug}'>{post.title}</a>
+                    </h3>
+                    <p>{post.excerpt}</p>
+                    <div class="post-item-footer">
+                        <span class="post-item-date"> {post.printDate}</span>
+                    </div>
+                </article>
             {/each}
         </div>
     </div>

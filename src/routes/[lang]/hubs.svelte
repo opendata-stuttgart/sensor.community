@@ -1,17 +1,23 @@
 <script>
-    import {_} from 'svelte-i18n'
+    import initI18n from "../../utils/initI18n";
+    import {stores} from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
 
     const fs = require('fs');
     let rows = JSON.parse(fs.readFileSync('./projects/projects.json', 'utf-8'));
 
+    const {page} = stores();
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
+
     const {flag, code, name, countries} = require('country-emoji');
 </script>
 
 <svelte:head>
-    <title>{$_('projects.metaTitle')}</title>
+    <title>{i18n.t('hubs:metaTitle')}</title>
 
-    <meta property="og:title" content={$_('projects.metaTitle')}/>
+    <meta property="og:title" content={i18n.t('hubs:metaTitle')}/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
@@ -27,14 +33,13 @@
                         Community Hubs</h1>
                 </div>
                 <p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
-                    Find apps, websites,... from our lovely community 💖️<br>
+                    Find communities around the world 💖️<br>
                 </p>
-                <a href="">
-                    <span class="text-center text-gray-600 mt-10">
-						      Have a great project? Share it with the community! <br> <a class="text-teal-600" href="/docs/how-to-contribute/">Submit your project →</a>
-
-					</span>
-                </a>
+<!--                <a href="">-->
+<!--                    <span class="text-center text-gray-600 mt-10">-->
+<!--						      Have a great project? Share it with the community! <br> <a class="text-teal-600" href="/docs/how-to-contribute/">Submit your project →</a>-->
+<!--					</span>-->
+<!--                </a>-->
             </div>
             <div class="w-full md:w-1/2 my-12"></div>
         </div>
@@ -78,6 +83,6 @@
             </div>
             <div class="w-full md:w-1/2 my-12"></div>
         </div>
-
+    </div>
 </section>
 <Contact/>

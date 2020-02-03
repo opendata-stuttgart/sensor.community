@@ -1,8 +1,18 @@
+<script>
+    import initI18n from "../utils/initI18n";
+    import {stores} from "@sapper/app";
+
+    const {page} = stores();
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
+</script>
+
 <section class="lf-padding container mx-auto mt-10">
     <div class="flex flex-row flex-wrap mt-10">
         <div class="w-full flex flex-wrap">
             <h2 class="w-full py-4 md:py-8 text-gray-700 text-5xl md:text-5xl font-lf-bold leading-normal text-center">
-                Join a campaign</h2>
+                {i18n.t('campaigns:title')}</h2>
 
             <div class="mx-auto flex flex-wrap items-center justify-center text-gray-700 ">
                 <div class="flex-shrink-0 m-6 relative overflow-hidden h-28 rounded-lg max-w-xs shadow-md border bg-gray-200">
@@ -40,7 +50,7 @@
                     <a href="mailto:tech@Sensor.Community" target="_blank">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
-                                <span class="block text-5xl">️#zero2020</span>
+                                <span class="block text-5xl">️#zero200</span>
                             </div>
                             <span class="block opacity-75 text-4xl -mb-1">Sensor.Community</span>
                         </div>
@@ -92,8 +102,6 @@
                 </div>
 
             </div>
-            <!--		<h1 class="font-medium">Questions?</h1>-->
-            <!--		<a href="https://forum.sensor.community" target="_blank"><p class="text-gray-700 mt-2 mb-6">💬 Connect with the communitiy</p></a>-->
         </div>
     </div>
 </section>

@@ -27,14 +27,8 @@
 	}
 </style>
 
-
 <svelte:head>
-	<title>404 Error</title>
-
-	<meta property="og:title" content="404 Error"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:url" content=""/>
-	<meta property="og:image" content=""/>
+	<title>{status}</title>
 </svelte:head>
 
 <h1>{status}</h1>

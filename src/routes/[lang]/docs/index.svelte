@@ -7,12 +7,16 @@
 
 <script>
     import {_, locale, locales} from 'svelte-i18n'
-    import {stores} from '@sapper/app';
+    import initI18n from "../../../utils/initI18n";
+    import {stores} from "@sapper/app";
     import {Docs} from '../../../../site-kit'
 
     let {page} = stores();
-    let langPath;
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
 
+    let langPath;
     langPath = $page.path.split("/")[1];
 
     let sections = (async () => {
@@ -372,13 +376,12 @@
 </style>
 
 <svelte:head>
-    <title>{$_('docs.metaTitle')}</title>
-    <meta property="og:title" content="{$_('docs.metaTitle')}"/>
+    <title>{i18n.t('docs:metaTitle')}</title>
+    <meta property="og:title" content="{i18n.t('docs:metaTitle')}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
 </svelte:head>
-
 
 {#await sections}
     <p>...waiting</p>

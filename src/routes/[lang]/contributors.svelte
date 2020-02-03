@@ -1,12 +1,18 @@
 <script>
-    import {_, locale, locales} from 'svelte-i18n';
+    import initI18n from "../../utils/initI18n";
+    import { stores } from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
+
+    const { page } = stores();
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
 </script>
 
 <svelte:head>
-    <title>About</title>
+    <title>{i18n.t('contributors:metaTitle')}</title>
 
-    <meta property="og:title" content={$_('index.metaTitle')}/>
+    <meta property="og:title" content={i18n.t('contributors:metaTitle')}/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
@@ -17,10 +23,10 @@
         <div class="w-full flex flex-wrap my-8">
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
-                    <h1 class="py-4 md:py-8 md:pb-8 text-grey-darkest text-4xl md:text-6xl font-lf-extra-bold leading-tight">
+                    <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-lf-extra-bold leading-tight">
                         Hello from the team👋</h1>
                 </div>
-                <p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+                <p class="text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
                     Meet the team who is working behind the scenes to harness the power of Sensor.Community.<br>
                 </p>
                 <a href="#contact">
@@ -32,7 +38,7 @@
             <div class="w-full md:w-1/2 my-12"><img src="team.jpg" alt="sensor community team"></div>
         </div>
 
-        <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">
+        <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">
             Meet the team</h2>
         <div class="flex flex-wrap md:-mx-8 sm:-mx-0 p-8">
             <div class="w-full md:w-1/3 p-8">
@@ -171,10 +177,10 @@
             <div class="w-full sm:w-1/2 md:w-1/3 flex flex-col p-8">
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden flex-1 flex items-center text-center">
                     <div class="p-4 py-8 ">
-                        <div class="mb-4 text-xl font-lf-regular text-grey-darkest leading-reading pb-4">Want to help
+                        <div class="mb-4 text-xl font-lf-regular leading-reading pb-4">Want to help
                             us?
                         </div>
-                        <a href="/careers"
+                        <a href="https://github.com/opendata-stuttgart/"
                            class="mb-auto font-lf-semi-bold text-base text-lf-teal-dark cursor-pointer">Check out our
                             Github</a></div>
                 </div>

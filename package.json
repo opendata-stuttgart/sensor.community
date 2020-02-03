@@ -17,6 +17,7 @@
     "country-emoji": "^1.5.0",
     "golden-fleece": "^1.0.9",
     "highlight.js": "^9.17.1",
+    "i18next": "^19.1.0",
     "particles.js": "^2.0.0",
     "polka": "next",
     "prismjs": "^1.17.1",
