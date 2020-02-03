@@ -46,7 +46,7 @@
     <div class="relative md:max-w-3xl md:mx-auto text-center">
       <h3 class="text-gray-700 text-5xl leading-tight">
         <p>{i18n.t('index:message-description')}</p>
-        <p>{i18n.t('index:message-goal')}</p>
+        <p>{i18n.t('index:message-mission')}</p>
         <p>{i18n.t('index:message-hubs')}</p>
       </h3>
     </div>
@@ -60,7 +60,7 @@
         <div class="p-2">
           <div class="inline-flex items-center bg-white leading-none text-pink-600 rounded-full p-2 shadow text-sm">
             <span class="inline-flex bg-pink-600 text-white rounded-full h-6 px-3 justify-center items-center text-">Donate</span>
-            <a href="{lang}/donate">
+            <a href="{lang}/donate/">
               <span class="inline-flex px-2">Help us keep the network alive by donating a small amount 💓</span>
             </a>
           </div>
@@ -85,9 +85,9 @@
   </div>
   <div class="px-4 py-16">
     <h2 class="font-bold text-gray-700 text-5xl md:text-5xl leading-tight mb-6">
-      Sensor.Community is a contributors driven global sensor network that creates Open Environmental Data.<br>
-      Our mission is to inspire and enrich people’s lives by offering a platform for the collective curiosity in nature that is genuine, joyful and positive.
-      Sensor.Community has global hubs in Stuttgart, Sofía, Warsaw, Brussels.
+      <p>{i18n.t('index:message-description')}</p>
+      <p>{i18n.t('index:message-mission')}</p>
+      <p>{i18n.t('index:message-hubs')}</p>
     </h2>
   </div>
 </section>
@@ -142,7 +142,7 @@
       </div>
       <div class="rounded-lg flex justify-center text-gray-700 items-center">
         <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
-          <a href="{lang}/projects">
+          <a href="{lang}/projects/">
             <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-500">
               <p class="text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityProjects')}</p>
               <p class="text-4xl font-bold">17</p>
@@ -150,7 +150,7 @@
           </a>
         </div>
         <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
-          <a href="{lang}/hubs">
+          <a href="{lang}/hubs/">
             <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-400">
               <p class="text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityHubs')}</p>
               <p class="text-4xl font-bold" id="number_hubs">13</p>
@@ -177,10 +177,10 @@
       <a class="bg-teal-500 text-white px-2 hover:text-teal-800"
          href="{lang}/docs/">{i18n.t('index:h1-build')}</a> {i18n.t('index:h1-become')}<a
             class="bg-yellow-500 text-white px-2 hover:text-yellow-700"
-            href="{lang}/community">{i18n.t('index:h1-civic-tech')}</a></h1>
-    <h2 class="font-bold text-gray-700 text-5xl leading-tight mb-6"><a
+            href="{lang}/community/">{i18n.t('index:h1-civic-tech')}</a></h1>
+    <h2 class="font-bold text-gray-700 text-5xl leading-tight mb-6">{i18n.t('index:h1-support')} <a
             class="bg-blue-300 text-white px-2 hover:text-blue-700"
-            href="{lang}/contributors">{i18n.t('index:h1-support')}{i18n.t('index:h1-contributors')}</a></h2>
+            href="{lang}/contributors/">{i18n.t('index:h1-contributors')}</a></h2>
   </div>
 </section>
 

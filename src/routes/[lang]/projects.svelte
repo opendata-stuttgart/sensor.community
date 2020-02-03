@@ -1,13 +1,12 @@
 <script>
     import initI18n from "../../utils/initI18n";
     import { stores } from "@sapper/app";
+    import Contact from "../../components/Contact.svelte"
 
     const { page } = stores();
     $: lang = $page.params.lang;
     $: path = $page.path;
     $: i18n = initI18n(lang);
-
-    import Contact from "../../components/Contact.svelte"
 
     const fs = require('fs');
     let rows = JSON.parse(fs.readFileSync('./projects/projects.json', 'utf-8'));
@@ -25,7 +24,6 @@
 </svelte:head>
 
 <section class="lf-padding container mx-auto mt-10">
-
     <div class="flex flex-row flex-wrap mt-10">
         <div class="w-full flex flex-wrap my-8">
             <div class="w-full text-center md:text-left md:w-1/2">

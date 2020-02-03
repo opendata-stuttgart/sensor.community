@@ -111,7 +111,7 @@
       <a href="{lang}/"><img src="logo.svg" alt="Sensor Community Logo" height="20%" width="20%"></a></div>
     <ul class="flex text-gray-700">
       <li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
-             class:selected="{segment === `/{lang}` ? 'selected' : ''}"
+             class:selected="{segment === `/{lang}/` ? 'selected' : ''}"
              href='{lang}/'>{i18n.t('nav:home')}</a></li>
       <li><a class="relative block py-6 px-2 lg:p-5 text-sm lg:text-base font-bold"
              class:selected="{segment === `/{lang}` ? 'selected' : ''}"
@@ -217,14 +217,14 @@
                alt="donate sensor.community"></a>
       </li>
       <li class="border-r"></li>
-      <li class="hover:text-white hover:bg-teal-500 hoverable svelte-1v9vjki"><a
+      <li class="hover:text-white hover:bg-teal-500 hoverable"><a
               class="text-sm block font-bold lg:p-5 lg:text-base py-6 relative hover:bg-teal-500 hover:text-white px-4 uppercase">en</a>
-        <div class="svelte-1v9vjki bg-teal-500 mb-16 mega-menu p-6 shadow-xl sm:mb-0">
+        <div class="bg-teal-500 mb-16 mega-menu p-6 shadow-xl sm:mb-0">
           <div class="flex container mx-auto justify-between flex-wrap mx-2 w-full">
             <ul>
               <li><a class="hover:text-white block a hover:bg-white-600 p-3 text-gray-300 selected {lang === 'en' ? 'selected' : ''}"
-                     href={`en/${pathWithoutLang}`}>en </a></li>
-              <li><a class="hover:text-white block a hover:bg-white-600 p-3 text-gray-300 {lang === 'de' ? 'selected' : ''}" href={`de/${pathWithoutLang}`}>
+                     href={`en/${pathWithoutLang}/`}>en </a></li>
+              <li><a class="hover:text-white block a hover:bg-white-600 p-3 text-gray-300 {lang === 'de' ? 'selected' : ''}" href={`de/${pathWithoutLang}/`}>
                 de </a></li>
             </ul>
           </div>
