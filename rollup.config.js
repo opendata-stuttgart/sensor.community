@@ -7,7 +7,6 @@ import { terser } from 'rollup-plugin-terser';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 import json from '@rollup/plugin-json'
-import * as path from "path";
 import marked from 'marked';
 import { mdsvex } from 'mdsvex';
 

@@ -1,12 +1,18 @@
 <script>
-    import {_, locale, locales} from 'svelte-i18n';
+    import initI18n from "../../utils/initI18n";
+    import { stores } from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
+
+    const { page } = stores();
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
 
 </script>
 
 <svelte:head>
-    <title>Donate</title>
-    <meta property="og:title" content={$_('index.metaTitle')}/>
+    <title>{i18n.t('donate:metaTitle')}</title>
+    <meta property="og:title" content={i18n.t('donate:metaTitle')}/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
@@ -31,7 +37,7 @@
                 <div class="w-full md:w-1/2">
                     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
                     <lottie-player
-                            src="https://assets5.lottiefiles.com/packages/lf20_YLDmvx.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop autoplay >
+                            src="https://assets5.lottiefiles.com/packages/lf20_YLDmvx.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"autoplay >
                     </lottie-player>
                 </div>
             </div>

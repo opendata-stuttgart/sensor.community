@@ -12,7 +12,6 @@
 <style>
     .reference-toc li {
         display: block;
-        /*line-height: 1.2;*/
         margin: 0 0 3rem 0;
     }
 
@@ -20,30 +19,30 @@
         position: relative;
         transition: color 0.2s;
         border-bottom: none;
-        padding: 0;
-        color: var(--second);
     }
 
     .section {
         display: block;
         padding: 0 0 .8rem 0;
-        font-size: var(--h6);
         text-transform: uppercase;
-        letter-spacing: 0.1em;
-        font-weight: 600;
+        font-weight: bold;
+        /*border-top: 1px #e2ecec solid;
+        padding-top: 20px; */
     }
+
 
     .subsection {
         display: block;
-        font-size: 0.95rem;
-        color: white;
-        padding: 0 0 0.6em 0;
+        font-size: 0.9em;
+        padding: 0 0 0.3em 0;
+        letter-spacing: -0.03em;
     }
 
     .section:hover,
     .subsection:hover,
     .active {
-        color: var(--flash);
+        color: #38b2ac;
+
     }
 
     .subsection[data-level="4"] {
@@ -56,18 +55,6 @@
         right: 2.4rem;
     }
 
-    @media (min-width: 832px) {
-        a {
-            color: var(--sidebar-text);
-        }
-
-        a:hover,
-        .section:hover,
-        .subsection:hover,
-        .active {
-            color: white
-        }
-    }
 </style>
 
 <ul	bind:this={ul} class="reference-toc">

@@ -1,14 +1,28 @@
-<script>
-    import Nav from '../components/Nav.svelte';
-    import Footer from '../components/Footer.svelte';
+<script context="module">
+  export async function preload(page) {
+    const DEFAULT_LANGUAGE = "en";
 
-    export let segment;
+    if (page.path === "/") {
+      return this.redirect(302, `/${DEFAULT_LANGUAGE}`);
+    }
+
+    return {};
+  }
 </script>
 
-<Nav {segment}/>
+<script>
+  import Nav from '../components/Nav.svelte';
+  import Footer from '../components/Footer.svelte';
+
+  export let segment;
+</script>
+
+
+
+<Nav {segment} class="z-50"/>
 
 <main>
-    <slot/>
+  <slot/>
 </main>
 
-<Footer/>
+<Footer class="z-50"/>

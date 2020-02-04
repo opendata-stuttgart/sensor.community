@@ -103,8 +103,8 @@ export default function generate_docs(dir) {
 
                 return `
 					<h${level}>
-						<span id="${slug}" class="offset-anchor" ${level > 4 ? 'data-scrollignore' : ''}></span>
-						<a href="${dir}#${slug}" class="anchor" aria-hidden="true"></a>
+						<span id="${slug}" ${level > 4 ? 'data-scrollignore' : ''}></span>
+						<a href="${dir}/docs#${slug}" class="anchor" aria-hidden="true"></a>
 						${text}
 					</h${level}>`;
             };

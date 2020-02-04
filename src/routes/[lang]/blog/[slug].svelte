@@ -1,8 +1,6 @@
 <script context="module">
-    export async function preload({params, query}) {
-        // the `slug` parameter is available because
-        // this file is called [slug].svelte
-        const res = await this.fetch(`{$locales}/blog/${params.slug}.json`);
+    export async function preload({params, lang, query}) {
+        const res = await this.fetch(`{lang}/blog/${params.slug}.json`);
         const data = await res.json();
 
         if (res.status === 200) {
@@ -14,8 +12,13 @@
 </script>
 
 <script>
-    import {_, locale, locales} from 'svelte-i18n';
-    import {stores} from "@sapper/app";
+    import initI18n from "../../../utils/initI18n";
+    import { stores } from "@sapper/app";
+
+    const { page } = stores();
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
 
     export let post;
 </script>
@@ -459,7 +462,7 @@
 <section class="container">
     <div class="w-full md:max-w-3xl mx-auto pt-20">
         <div class="mb-10">
-            <a href="{$locale}/blog" class="text-base md:text-sm text-teal-500 font-bold no-underline hover:underline">BACK
+            <a href="{lang}/blog" class="text-base md:text-sm text-teal-500 font-bold no-underline hover:underline">BACK
                 TO BLOG</a>
         </div>
         <header class="text-center">

@@ -1,12 +1,18 @@
 <script>
-    import {_, locale, locales} from 'svelte-i18n';
+    import initI18n from "../../utils/initI18n";
+    import { stores } from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
+
+    const { page } = stores();
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
 </script>
 
 <svelte:head>
-    <title>Presskit</title>
+    <title>{i18n.t('presskit:metaTitle')}</title>
 
-    <meta property="og:title" content={$_('index.metaTitle')}/>
+    <meta property="og:title" content={i18n.t('presskit:metaTitle')}/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>

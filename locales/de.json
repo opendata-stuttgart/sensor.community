@@ -1,13 +1,22 @@
 {
   "index": {
-    "h1": "Sapper Vorlage!",
-    "tagline" : "Die nächste kleine Sache in der Webentwicklung",
-    "tile1" : "Sapper ist ein Application Framework basierend auf Svelte - größere Apps mit kleinerem Footprint bauen",
-    "metaDescription": "Sapper project template",
-    "metaTitle": "Sapper project template",
-    "success": "Klasse!",
-    "highFive": "High five",
-    "tryEditing": "Try editing this file (src/routes/about.svelte) to test live reloading."
+    "metaDescription": "Bauen deinen einen DIY-Sensor und werden Sie Teil des weltweiten civic tech, open data, open source Technologienetzes. Unterstützt von vielen Mitwirkenden \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Baue deinen eigenen Sensor und treten dem open source Netzwerk bei",
+    "h1-build": "Bauen Sie Ihren eigenen Sensor",
+    "h1-become": "und werden Sie Teil der ",
+    "h1-civic-tech": "weltweites Civic-Tech-Netzwerk \uD83C\uDF10",
+    "h1-support": "Unterstützt von einer Menge",
+    "h1-contributors": "Mitwirkende \uD83D\uDC95",
+    "tagline": "Die nächste kleine Sache in der Webentwicklung",
+    "inNumbers-title": "Sensor.Community in Zahlen",
+    "inNumbers-activeSensors": "Aktive Sensoren weltweit",
+    "inNumbers-countries": "Länder",
+    "inNumbers-dataPoints": "Datenpunkte",
+    "inNumbers-communityProjects": "Community Projects",
+    "inNumbers-communityHubs": "Community Hubs",
+    "message-description": "Sensor.community ist ein von Mitwirkenden betriebenes globales Sensornetzwerk, das open data Umweltdaten generiert.",
+    "message-mission": "Unsere Mission ist es, das Leben der Menschen zu inspirieren und zu bereichern, indem wir eine Plattform bieten.",
+    "message-hubs": "Sensor.community hat globale Hubs in Stuttgart, Sofia, Warschau und Brüssel."
   },
   "docs": {
     "h1": "Dokumentation",
@@ -21,7 +30,34 @@
   },
   "nav": {
     "home": "Home",
-    "docs": "Dokumentation",
-    "blog": "Blog"
+    "docs": "Sensor",
+    "blog": "Blog",
+    "projects": "Projects",
+    "forum": "Forum",
+    "sensor": "Sensor",
+    "donate": "Support"
+  },
+  "error": {
+    "errorStatus" : "Encountered a {status} error.",
+    "reloadPage" : "Please try reloading the page.",
+    "offline" : "It looks like you're offline.",
+    "submitError" : "If the error persists, please drop by <a href=\"chat.sensor.community\">Discourse forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
+  },
+  "campaigns": {
+    "title": "Mach mit bei einer Kampagne"
+  },
+  "partnership": {
+    "title": "Kollaborationen"
+  },
+  "contact": {
+    "title": "Schreib uns doch",
+    "general": "Kontakt",
+    "general-subtitle": "Allgemeine Frage?",
+    "partnership": "Zusammenarbeit",
+    "partnership-subtitle": "Willst du eine Zusammenarbeit mit uns eingehen?",
+    "press": "Presse",
+    "press-subtitle": "Ideen für Artikel?",
+    "tech": "Technik",
+    "tech-subtitle": "Technische Fragen?"
   }
 }

@@ -1,62 +1,56 @@
+<script>
+    import initI18n from "../utils/initI18n";
+    import {stores} from "@sapper/app";
+
+    const {page} = stores();
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
+</script>
+
 <section class="lf-padding container mx-auto mt-10">
     <div class="flex flex-row flex-wrap mt-10">
         <div class="w-full flex flex-wrap">
-            <h2 class="w-full py-4 md:py-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center">
-                Contact us</h2>
-            <div class="mx-auto flex flex-wrap items-center justify-center">
-                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-orange-500 rounded-lg max-w-xs shadow-lg">
+            <h2 class="w-full py-4 md:py-8 text-gray-700 text-5xl md:text-5xl font-lf-bold leading-normal text-center">
+                {i18n.t('contact:title')}</h2>
+            <div class="mx-auto flex text-gray-700">
+                <div class="w-1/4 m-6 overflow-hidden bg-gray-200 rounded-lg shadow-md">
                     <a href="mailto:contact@Sensor.Community" target="_blank">
-                        <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
-                            <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white"/>
-                            <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white"/>
-                        </svg>
-                        <div class="relative text-white px-6 pb-6 mt-6">
-                            <span class="block -mb-1 text-4xl">Contact</span>
+                        <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
+                            <span class="block -mb-1 text-5xl">{i18n.t('contact:general')}</span>
                             <div class="flex justify-between">
-                                <span class="block font-semibold text-xl"> ️🧐 general questions?</span>
+                                <span class="block text-4xl"> ️🧐 {i18n.t('contact:tech-subtitle')}</span>
                             </div>
                         </div>
                     </a>
 
                 </div>
-                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-teal-500 rounded-lg max-w-xs shadow-lg">
+                <div class="w-1/4 m-6 overflow-hidden bg-gray-200 rounded-lg shadow-md">
                     <a href="mailto:partnership@Sensor.Community" target="_blank">
-                        <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
-                            <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white"/>
-                            <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white"/>
-                        </svg>
-                        <div class="relative text-white px-6 pb-6 mt-6">
-                            <span class="block -mb-1 text-4xl">Partnership</span>
+                        <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
+                            <span class="block -mb-1 text-5xl">{i18n.t('contact:partnership')}</span>
                             <div class="flex justify-between">
-                                <span class="block font-semibold text-xl">️💌 want to partner with us?</span>
+                                <span class="block text-4xl">️💌 {i18n.t('contact:partnership-subtitle')}</span>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-blue-500 rounded-lg max-w-xs shadow-lg">
+                <div class="w-1/4 m-6 overflow-hidden bg-gray-200 rounded-lg shadow-md">
                     <a href="mailto:press@Sensor.Community" target="_blank">
-                        <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
-                            <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white"/>
-                            <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white"/>
-                        </svg>
-                        <div class="relative text-white px-6 pb-6 mt-6">
-                            <span class="block -mb-1 text-4xl">Press</span>
+                        <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
+                            <span class="block -mb-1 text-5xl">{i18n.t('contact:press')}</span>
                             <div class="flex justify-between">
-                                <span class="block font-semibold text-xl">️📰 article ideas?</span>
+                                <span class="block text-4xl">️📰 {i18n.t('contact:press-subtitle')}</span>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-purple-500 rounded-lg max-w-xs shadow-lg">
+                <div class="w-1/4 m-6 overflow-hidden bg-gray-200 rounded-lg shadow-md">
                     <a href="mailto:tech@Sensor.Community" target="_blank">
-                        <svg class="absolute bottom-0 left-0 mb-8" viewBox="0 0 375 283" fill="none" style="transform: scale(1.5); opacity: 0.1;">
-                            <rect x="159.52" y="175" width="152" height="152" rx="8" transform="rotate(-45 159.52 175)" fill="white"/>
-                            <rect y="107.48" width="152" height="152" rx="8" transform="rotate(-45 0 107.48)" fill="white"/>
-                        </svg>
-                        <div class="relative text-white px-6 pb-6 mt-6">
-                            <span class="block -mb-1 text-4xl">Tech</span>
+                        <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
+                            <span class="block -mb-1 text-5xl">{i18n.t('contact:tech')}</span>
                             <div class="flex justify-between">
-                                <span class="block font-semibold text-xl">️💻 technical questions?</span>
+                                <span class="block text-4xl">️💻 {i18n.t('contact:tech-subtitle')}</span>
                             </div>
                         </div>
                     </a>

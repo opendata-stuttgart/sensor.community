@@ -7,27 +7,31 @@
 
 <script>
     import {_, locale, locales} from 'svelte-i18n'
-    import {stores} from '@sapper/app';
-    import {Docs} from '../../../../site-kit/'
+    import initI18n from "../../../utils/initI18n";
+    import {stores} from "@sapper/app";
+    import {Docs} from '../../../../site-kit'
 
     let {page} = stores();
-    let langPath;
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
 
+    let langPath;
     langPath = $page.path.split("/")[1];
 
     let sections = (async () => {
         let uri = `/${langPath}/docs/${langPath}.json`;
         return await fetch(uri).then(response => response.json());
-    })()
+    })();
 
 </script>
 
 <style>
     :root {
         --nav-h: 5rem;
-        --top-offset: 6rem;
-        --sidebar-w: 25rem;
-        --sidebar-mid-w: 36rem;
+        --top-offset: 10rem;
+        --sidebar-w: 20rem;
+        --sidebar-mid-w: 32rem;
         --sidebar-large-w: 48rem;
         --main-width: 80rem;
         --side-nav: 3.2rem;
@@ -49,7 +53,6 @@
         --flash: #40b3ff;
         --heading: #676778;
         --text: #444;
-        --sidebar-text: rgba(255, 255, 255, .75);
         --border-w: .3rem;
         --border-r: .4rem;
 
@@ -60,7 +63,7 @@
     @media screen and (min-width: 768px) {
         :root {
             --side-page: 14vw;
-            --top-offset: 6rem;
+            --top-offset: 10em;
             --side-nav: 4.8rem;
         }
     }
@@ -117,6 +120,7 @@
     li:not(.white) > h2 {
         color: var(--second)
     }
+
 
     blockquote {
         position: relative;
@@ -372,13 +376,12 @@
 </style>
 
 <svelte:head>
-    <title>{$_('docs.metaTitle')}</title>
-    <meta property="og:title" content="{$_('docs.metaTitle')}"/>
+    <title>{i18n.t('docs:metaTitle')}</title>
+    <meta property="og:title" content="{i18n.t('docs:metaTitle')}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
 </svelte:head>
-
 
 {#await sections}
     <p>...waiting</p>
