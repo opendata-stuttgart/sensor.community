@@ -213,7 +213,7 @@
         <a class="relative block py-6 px-4 lg:p-5 text-sm lg:text-base font-bold hover:bg-teal-500 hover:text-white"
            class:selected="{segment === `/{lang}/donate/` ? 'selected' : ''}"
            href='{lang}/donate/'>{i18n.t('nav:donate')}
-          <img src="icons/heart.svg" class="-mt-1" width='20px' height="20px"
+          <img src="/icons/heart.svg" class="-mt-1" width='20px' height="20px"
                alt="donate sensor.community"></a>
       </li>
       <li class="border-r"></li>
@@ -223,9 +223,9 @@
           <div class="flex container mx-auto justify-between flex-wrap mx-2 w-full">
             <ul>
               <li><a class="hover:text-white block a hover:bg-white-600 p-3 text-gray-300 selected {lang === 'en' ? 'selected' : ''}"
-                     href={`en/${pathWithoutLang}/`}>en </a></li>
-              <li><a class="hover:text-white block a hover:bg-white-600 p-3 text-gray-300 {lang === 'de' ? 'selected' : ''}" href={`de/${pathWithoutLang}/`}>
-                de </a></li>
+                     href={`en/${pathWithoutLang}`}>en </a></li>
+              <li><a class="hover:text-white block a hover:bg-white-600 p-3 text-gray-300 {lang === 'de' ? 'selected' : ''}" href={`de/${pathWithoutLang}`}>
+                de</a></li>
             </ul>
           </div>
         </div>

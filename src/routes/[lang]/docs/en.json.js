@@ -1,6 +1,5 @@
 import send from '@polka/send';
 import generate_docs from '../../../utils/generate_docs.js';
-import {_, locale} from 'svelte-i18n'
 
 let json;
 
