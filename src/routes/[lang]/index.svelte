@@ -22,18 +22,16 @@
   <meta property="og:image" content=""/>
 </svelte:head>
 
-<section class="md:block hidden">
-  <div class="bg-gray-200">
-    <svg class="fill-current bg-gray-200 text-white pt-10"
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 1440 320">
-      <path fill-opacity="1"
-            d="M0,64L120,85.3C240,107,480,149,720,149.3C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-      ></path>
-    </svg>
-  </div>
-  <div class="w-3/4 mx-auto bg-white shadow-lg relative z-20 hidden md:block"
-       style="margin-top: -18em; border-radius: 15px;">
+<section>
+  <svg class="fill-current bg-gray-200 text-white mt-15"
+       xmlns="http://www.w3.org/2000/svg"
+       viewBox="0 0 1440 320">
+    <path fill-opacity="1"
+          d="M0,64L120,85.3C240,107,480,149,720,149.3C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+    ></path>
+  </svg>
+  <div class="relative z-20 md:block md:w-3/4 mx-auto md:bg-white md:shadow-lg xs:w-full sm:w-full xs:mt-10 md:-mt-64"
+       style="border-radius: 15px;">
     <div class="flex" style="height: 40em;">
       <iframe scrolling="no"
               src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
@@ -50,45 +48,6 @@
         <p>{i18n.t('index:message-hubs')}</p>
       </h3>
     </div>
-  </div>
-</section>
-
-<section class="xs:block hidden">
-  <div class="bg-gray-200">
-    <div class="px-4 py-10">
-      <div class="relative md:max-w-2xl md:mx-auto text-center">
-        <div class="p-2">
-          <div class="inline-flex items-center bg-white leading-none text-pink-600 rounded-full p-2 shadow text-sm">
-            <span class="inline-flex bg-pink-600 text-white rounded-full h-6 px-3 justify-center items-center text-">Donate</span>
-            <a href="{lang}/donate/">
-              <span class="inline-flex px-2">Help us keep the network alive by donating a small amount 💓</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <svg class="fill-current bg-gray-200 text-white hidden md:block"
-         xmlns="http://www.w3.org/2000/svg"
-         viewBox="0 0 1440 320">
-      <path fill-opacity="1"
-            d="M0,64L120,85.3C240,107,480,149,720,149.3C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-      ></path>
-    </svg>
-  </div>
-  <div class="px-4 -mt-10 max-w-4xl mx-auto bg-white shadow-lg relative z-20"
-       style="margin-top: -8rem; height:600px">
-    <div class="bg-white rounded-t-lg border-b border-gray-100"></div>
-    <iframe scrolling="no" src="https://maps.sensor.community/?selection=PM25"
-            style="width: 100%; height: 100%; border: none; overflow: hidden;"
-            title="sensor.community particulate matter map"></iframe>
-  </div>
-  <div class="px-4 py-16">
-    <h2 class="font-bold text-gray-700 text-5xl md:text-5xl leading-tight mb-6">
-      <p>{i18n.t('index:message-description')}</p>
-      <p>{i18n.t('index:message-mission')}</p>
-      <p>{i18n.t('index:message-hubs')}</p>
-    </h2>
   </div>
 </section>
 

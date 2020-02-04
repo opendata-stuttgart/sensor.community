@@ -19,10 +19,10 @@
 
 
 
-<Nav {segment}/>
+<Nav {segment} class="z-50"/>
 
 <main>
   <slot/>
 </main>
 
-<Footer/>
+<Footer class="z-50"/>
