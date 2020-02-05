@@ -1,15 +1,14 @@
 <script>
     import initI18n from "../../utils/initI18n";
     import { stores } from "@sapper/app";
+    import { onMount } from "svelte";
     import Contact from "../../components/Contact.svelte"
+    import rows from "../../../projects/projects"
 
     const { page } = stores();
     $: lang = $page.params.lang;
     $: path = $page.path;
     $: i18n = initI18n(lang);
-
-    const fs = require('fs');
-    let rows = JSON.parse(fs.readFileSync('./projects/projects.json', 'utf-8'));
 
     const {flag, code, name, countries} = require('country-emoji');
 </script>
@@ -43,30 +42,27 @@
             <div class="w-full md:w-1/2 my-12"></div>
         </div>
 
-
         {#each rows as row}
-
-            <div class="m-7 px-1 w-full md:w-1/2 my-4 px-4 lg:w-1/3">
-                <article class="overflow-hidden bg-gray-100 rounded-lg shadow-md">
-                    <a href="{row.link}">
-                        <img alt="" class="block h-auto w-full" src={row.screenshot}>
-
-                        <header class="flex items-center text-2xl justify-between leading-tight p-2 md:p-4">
-                            {flag(`${row.language}`)}
-                        </header>
-                        <footer>
-
-                            <div class="relative px-6 pb-6 mt-6">
-                                <span class="block opacity-75 -mb-1 text-sm">{row.platform}</span>
-                                <div class="flex justify-between">
-                                    <span class="block font-semibold text-xl">{row.title}</span>
-                                    <span class="block bg-teal-500 rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">{row.type}</span>
-                                </div>
-                            </div>
-                        </footer>
-                    </a>
-                </article>
-
+            <div class="w-full md:w-1/3 p-8">
+                <a href="{row.link}">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img class="block h-auto w-full"
+                         src="{row.screenshot}"
+                         alt="">
+                    <div class="flex items-center p-3 border-b">
+                        <div class="text-2xl font-bold font-lf-regular">{row.title}</div>
+                    </div>
+                    <div class="block flex flex-wrap w-full">
+                        <button class="justify-center border-r p-5 flex w-1/3">
+                            {row.platform}</button>
+                        <button class="justify-center border-r p-5 flex w-1/3">
+                            {flag(`${row.language}`)}</button>
+                        <button class="justify-center p-5 flex w-1/3">
+                            <img src="icons/mastodon.svg" class="w-5 mr-1">
+                        </button>
+                    </div>
+                </div>
+                </a>
             </div>
         {/each}
     </div>

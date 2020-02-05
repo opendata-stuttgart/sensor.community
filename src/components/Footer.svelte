@@ -19,10 +19,10 @@
                 <a href="https://forum.sensor.community/" target="_blank" class="text-sm py-1">Forum</a>
                 <a href="https://press.sensor.community/"  target="_blank" class="text-sm py-1">Press</a>
             </div>
-            <div class="md:w-1/4 flex flex-col mb-12 md:mb-0"><h4 class="text-base pb-4">About</h4>
-                <a href="{lang}/mission/" class="text-sm py-1">Project</a>
+            <div class="md:w-1/4 flex flex-col mb-12 md:mb-0"><h4 class="text-base pb-4">Sitemap</h4>
                 <a href="{lang}/privacy-policy/" class="text-sm py-1">Privacy Policy</a>
                 <a href="{lang}/projects/" class="text-sm py-1">Project</a>
+                <a href="{lang}/hubs/" class="text-sm py-1">Hubs</a>
                 <a href="{lang}/contributors/" class="text-sm py-1">Contributors</a>
                 <a href="{lang}/blog/" class="text-sm py-1">Blog</a>
                 <a href="{lang}/presskit/" class="text-sm py-1">Presskit</a>
@@ -38,10 +38,6 @@
                 <a href="https://fosstodon.org/@SensorCommunity" target="_blank"
                    class="md:px-3 pb-2 text-sm flex items-center">
                     <img src="icons/mastodon.svg" alt="mastodon logo" class="w-5 mr-2">
-                    @SensorCommunity</a>
-                <a href="https://twitter.com/sensorcommunity" target="_blank"
-                   class="md:px-3 pb-2 text-sm flex items-center">
-                    <img src="icons/twitter.svg" alt="twitter logo" class="w-5 mr-2">
                     @SensorCommunity</a>
                 <a href="https://github.com/opendata-stuttgart/" target="_blank"
                    class="md:px-3 pb-3 text-sm flex items-center"><img src="icons/github.svg" alt="GitHub Repo of Sensor.Community" class="w-5 mr-2">

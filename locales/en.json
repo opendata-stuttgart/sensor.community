@@ -43,7 +43,7 @@
     "projects": "Projects",
     "forum": "Forum",
     "sensor": "Sensor",
-    "donate": "Support"
+    "donate": "Donate"
   },
   "error": {
     "errorStatus" : "Encountered a {status} error.",
