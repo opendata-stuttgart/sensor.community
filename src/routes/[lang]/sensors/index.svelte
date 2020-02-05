@@ -20,8 +20,14 @@
 
 <section class="lf-padding container mx-auto mt-10">
     <div class="flex flex-row flex-wrap mt-10">
-        <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">
-            Sensor Kits</h2>
+        <div class="w-full flex flex-wrap my-12">
+            <div class="w-full text-center md:text-left md:w-1/2">
+                <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
+                    <h1 class="py-4 md:py-8 md:pb-8 text-grey-darkest text-4xl md:text-6xl font-lf-extra-bold leading-tight">
+                        Sensor Kits</h1>
+                </div>
+            </div>
+        </div>
         <div class="w-full flex">
             <div class="w-1/3 m-6 overflow-hidden bg-gray-200 rounded-lg shadow-md">
                 <div class="bg-white">
