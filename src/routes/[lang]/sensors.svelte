@@ -23,7 +23,7 @@
         <div class="w-full flex flex-wrap my-12">
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
-                    <h1 class="py-4 md:py-8 md:pb-8 text-grey-darkest text-4xl md:text-6xl font-lf-extra-bold leading-tight">
+                    <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-lf-extra-bold leading-tight">
                         Sensor Kits</h1>
                 </div>
             </div>

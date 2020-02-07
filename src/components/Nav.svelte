@@ -54,7 +54,7 @@
                     </button>
                 {/if}
             </div>
-            <nav class="lg:flex items-center { menu.open ? 'block' : 'hidden' } sm:flex sm:p-0" >
+            <nav class="lg:flex items-center { menu.open ? 'block' : 'hidden' } sm:flex sm:p-0 text-gray-700">
                 <a href="{lang}/" class="block px-6 py-3 font-bold uppercase text-primary"
                    class:selected="{segment === `/{lang}/` ? 'selected' : ''}">{i18n.t('nav:home')}</a>
                 <a href="{lang}/sensors/" class="block px-6 py-3 font-bold uppercase text-secondary"

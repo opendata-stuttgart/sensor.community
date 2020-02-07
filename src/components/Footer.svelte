@@ -43,7 +43,7 @@
                    class="md:px-3 pb-3 text-sm flex items-center"><img src="icons/github.svg" alt="GitHub Repo of Sensor.Community" class="w-5 mr-2">
                       @GitHub</a>
                 <a href="mailto:contact@sensor.community" target="_blank"
-                class="md:px-3 pb-3 text-sm flex items-center pr-5"><span class="w-5 mr-2">✉</span>️contact@sensor.community</a>
+                class="md:px-3 pb-3 text-sm flex items-center pr-5"><span class="w-5 ml-2 mr-2">✉</span>️contact@sensor.community</a>
             </div>
         </div>
         <div class="flex md:flex-row items-start flex-col-reverse mt-8">
