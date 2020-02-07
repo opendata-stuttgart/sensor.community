@@ -1,3 +1,10 @@
+<!--<script context="module">-->
+<!--    export async function preload() {-->
+<!--        const data = await this.fetch(`https://stats.sensor.community/numbers.json`).then(r => r.json());-->
+<!--        return data;-->
+<!--    }-->
+<!--</script>-->
+
 <script>
   import initI18n from "../../utils/initI18n";
   import {stores} from "@sapper/app";
@@ -10,6 +17,18 @@
   $: path = $page.path;
   $: i18n = initI18n(lang);
   // $: i18n = initI18n($page.params.lang);
+
+
+  let getNumbers = (async () => {
+    return await fetch("https://stats.sensor.community/numbers.json").then(response => response.json()).then(function(data){
+      document.getElementById("number_sensors").innerText = data.numbers.sensors;
+      document.getElementById("number_countries").innerText = data.numbers.countries;
+      document.getElementById("number_measurements").innerText = data.numbers.measurements;
+      document.getElementById("number_commits").innerText = data.numbers.commits;
+      document.getElementById("number_hubs").innerText = data.numbers.local_hubs;
+    })
+  });
+  window.addEventListener('load', getNumbers)
 </script>
 
 <svelte:head>
@@ -77,7 +96,7 @@
             <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-500">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-activeSensors')}</p>
               <p class="text-4xl font-bold block" id="number_sensors">
-                10.249</p>
+                10249</p>
             </div>
           </a>
         </div>
@@ -121,7 +140,7 @@
           <a href="https://github.com/opendata-stuttgart/" target="_blank">
             <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-5 flex flex-col justify-around hover:text-white hover:bg-blue-300">
               <p class="text-base text-grey-dark text-4xl leading-tight ">Github Commits</p>
-              <p class="text-4xl font-bold" id="number_commits">1.343</p>
+              <p class="text-4xl font-bold" id="number_commits">2111</p>
             </div>
           </a>
         </div>

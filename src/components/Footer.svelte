@@ -14,18 +14,18 @@
                 <h4 class="text-base pb-4">Important Links</h4>
                 <a href="https://maps.sensor.community/" target="_blank" class="text-sm py-1">Maps</a>
                 <a href="https://archive.sensor.community/" target="_blank" class="text-sm py-1">Archive</a>
-                <a href="https://api.sensor.community/" target="_blank" class="text-sm py-1">API</a>
                 <a href="https://devices.sensor.community/" target="_blank" class="text-sm py-1">Devices</a>
-                <a href="https://forum.sensor.community/" target="_blank" class="text-sm py-1">Forum</a>
+                <a href="{lang}/forum" target="_blank" class="text-sm py-1">Forum</a>
                 <a href="https://press.sensor.community/"  target="_blank" class="text-sm py-1">Press</a>
+                <a href="https://api.sensor.community/" target="_blank" class="text-sm py-1">API</a>
             </div>
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0"><h4 class="text-base pb-4">Sitemap</h4>
-                <a href="{lang}/privacy-policy/" class="text-sm py-1">Privacy Policy</a>
-                <a href="{lang}/projects/" class="text-sm py-1">Project</a>
-                <a href="{lang}/hubs/" class="text-sm py-1">Hubs</a>
-                <a href="{lang}/contributors/" class="text-sm py-1">Contributors</a>
-                <a href="{lang}/blog/" class="text-sm py-1">Blog</a>
-                <a href="{lang}/presskit/" class="text-sm py-1">Presskit</a>
+                <a href="{lang}/privacy-terms/" rel="prefetch" class="text-sm py-1">Privacy & Terms</a>
+                <a href="{lang}/contributors/" rel="prefetch" class="text-sm py-1">Contributors</a>
+                <a href="{lang}/presskit/" rel="prefetch" class="text-sm py-1">Presskit</a>
+                <a href="{lang}/projects/" rel="prefetch" class="text-sm py-1">Project</a>
+                <a href="{lang}/hubs/" rel="prefetch" class="text-sm py-1">Hubs</a>
+                <a href="{lang}/blog/" rel="prefetch"class="text-sm py-1">Blog</a>
             </div>
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
                 <h4 class="text-base pb-4">License</h4>

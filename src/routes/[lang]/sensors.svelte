@@ -1,9 +1,9 @@
 <script>
-    import initI18n from "../../../utils/initI18n";
-    import { stores } from "@sapper/app";
-    import Contact from "../../../components/Contact.svelte"
+    import initI18n from "../../utils/initI18n";
+    import {stores} from "@sapper/app";
+    import Contact from "../../components/Contact.svelte"
 
-    const { page } = stores();
+    const {page} = stores();
     $: lang = $page.params.lang;
     $: path = $page.path;
     $: i18n = initI18n(lang);
@@ -34,7 +34,7 @@
                     <img class="block h-auto w-full" src="sensors/nodemcu-sds011.jpg"
                          alt="">
                     <div class="flex items-center px-6">
-                            <div class="mb-1 text-4xl text-gray-700">Sensor Kit 1</div>
+                        <div class="mb-1 text-4xl text-gray-700">Sensor Kit 1</div>
                     </div>
                     <div>
                         <ul>
@@ -56,7 +56,7 @@
                     <img class="block h-auto w-full" src="sensors/nodemcu-sds011.jpg"
                          alt="">
                     <div class="flex items-center px-6">
-                            <div class="mb-1 text-4xl text-gray-700">Sensor Kit 2</div>
+                        <div class="mb-1 text-4xl text-gray-700">Sensor Kit 2</div>
                     </div>
                     <div>
                         <ul>
@@ -78,7 +78,7 @@
                     <img class="block h-auto w-full" src="sensors/nodemcu-sds011.jpg"
                          alt="">
                     <div class="flex items-center px-6">
-                            <div class="mb-1 text-4xl text-gray-700">Sensor Kit 3</div>
+                        <div class="mb-1 text-4xl text-gray-700">Sensor Kit 3</div>
                     </div>
                     <div>
                         <ul>

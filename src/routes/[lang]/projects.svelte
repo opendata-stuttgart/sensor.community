@@ -1,9 +1,19 @@
 <script>
     import initI18n from "../../utils/initI18n";
     import { stores } from "@sapper/app";
-    import { onMount } from "svelte";
     import Contact from "../../components/Contact.svelte"
-    import rows from "../../../projects/projects"
+    const rows = [
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "iOS", "language": "PL", "screenshot": "./platform/appstore.jpg", "type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Android", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "PL", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "iOS", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "iOS", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Portal", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Android", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"}
+    ];
 
     const { page } = stores();
     $: lang = $page.params.lang;
@@ -56,7 +66,7 @@
                         <button class="justify-center border-r p-5 flex w-1/3">
                             {row.platform}</button>
                         <button class="justify-center border-r p-5 flex w-1/3">
-                            {flag(`${row.language}`)}</button>
+<!--                            {flag(`${row.language}`)}</button>-->
                         <button class="justify-center p-5 flex w-1/3">
                             <img src="icons/mastodon.svg" class="w-5 mr-1">
                         </button>

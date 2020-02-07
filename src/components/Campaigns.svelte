@@ -15,92 +15,88 @@
                 {i18n.t('campaigns:title')}</h2>
 
             <div class="mx-auto flex flex-wrap items-center justify-center text-gray-700 ">
-                <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
-                    <a href="mailto:contact@Sensor.Community" target="_blank">
+                <a href="{lang}/campaign" target="_blank">
+                    <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700 hover:text-teal-700">
                             <div class="flex justify-between">
                                 <span class="text-4xl flex">#Sensor2Library</span>
                             </div>
                             <span class="opacity-75 text-3xl -mb-1">Sensor.Community</span>
                         </div>
-                    </a>
-                </div>
-
-                <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
-                    <a href="mailto:press@Sensor.Community" target="_blank">
+                    </div>
+                </a>
+                <a href="{lang}/campaign" target="_blank">
+                    <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
                                 <span class="text-4xl flex">️#NO2</span>
                             </div>
                             <span class="opacity-75 text-3xl -mb-1">Sensor.Community</span>
                         </div>
-                    </a>
-                </div>
-                <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
-                    <a href="mailto:tech@Sensor.Community" target="_blank">
+                    </div>
+                </a>
+                <a href="{lang}/campaign" target="_blank">
+                    <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
                                 <span class="text-4xl flex">️#Sensor@RefS</span>
                             </div>
                             <span class="opacity-75 text-3xl -mb-1">Sensor.Community</span>
                         </div>
-                    </a>
-                </div>
-                <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
-                    <a href="mailto:tech@Sensor.Community" target="_blank">
+                    </div>
+                </a>
+                <a href="{lang}/campaign" target="_blank">
+                    <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
                                 <span class="text-4xl flex">️#zero200</span>
                             </div>
                             <span class="opacity-75 text-3xl -mb-1">Sensor.Community</span>
                         </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="mx-auto flex flex-wrap items-center justify-center text-gray-700 ">
-                <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
-                    <a href="https://sustainabledevelopment.un.org/?menu=1300" target="_blank">
-                        <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
-                            <div class="flex justify-between">
-                                <span class="text-4xl flex">#GlobalGoals</span>
+                    </div>
+                </a>
+                <a href="https://sustainabledevelopment.un.org/?menu=1300" target="_blank">
+                    <div class="mx-auto flex flex-wrap items-center justify-center text-gray-700 ">
+                        <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
+                            <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
+                                <div class="flex justify-between">
+                                    <span class="text-4xl flex">#GlobalGoals</span>
+                                </div>
+                                <span class="opacity-75 text-3xl -mb-1">United Nations SDG</span>
                             </div>
-                            <span class="opacity-75 text-3xl -mb-1">United Nations SDG</span>
                         </div>
-                    </a>
-
-                </div>
-                <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
-                    <a href="https://www.earthday.org/earth-day-2020/" target="_blank">
+                    </div>
+                </a>
+                <a href="https://www.earthday.org/earth-day-2020/" target="_blank">
+                    <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
                                 <span class="text-4xl flex">️#EC2020</span>
                             </div>
                             <span class="opacity-75 text-3xl -mb-1">Wilson Center & EPA</span>
                         </div>
-                    </a>
-                </div>
-                <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
-                    <a href="https://cleanairday.eu/" target="_blank">
+                    </div>
+                </a>
+                <a href="https://cleanairday.eu/" target="_blank">
+                    <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
                                 <span class="text-4xl flex">️#CAD2020</span>
                             </div>
                             <span class="opacity-75 text-3xl -mb-1">Clean Air Day</span>
                         </div>
-                    </a>
-                </div>
-                <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
-                    <a href="mailto:tech@Sensor.Community" target="_blank">
+                    </div>
+                </a>
+                <a href="{lang}/campaign" target="_blank">
+                    <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-64">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
                                 <span class="text-4xl flex">️#Sensor2School</span>
                             </div>
                             <span class="opacity-75 text-3xl -mb-1">Sensor.Community</span>
                         </div>
-                    </a>
-                </div>
-
+                    </div>
+                </a>
             </div>
         </div>
     </div>
