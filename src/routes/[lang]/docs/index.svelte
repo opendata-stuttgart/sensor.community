@@ -23,7 +23,6 @@
         let uri = `/${langPath}/docs/${langPath}.json`;
         return await fetch(uri).then(response => response.json());
     })();
-
 </script>
 
 <style>

@@ -1,3 +1,10 @@
+<!--<script context="module">-->
+<!--    export async function preload() {-->
+<!--        const data = await this.fetch(`https://stats.sensor.community/numbers.json`).then(r => r.json());-->
+<!--        return data;-->
+<!--    }-->
+<!--</script>-->
+
 <script>
   import initI18n from "../../utils/initI18n";
   import {stores} from "@sapper/app";
@@ -10,6 +17,18 @@
   $: path = $page.path;
   $: i18n = initI18n(lang);
   // $: i18n = initI18n($page.params.lang);
+
+
+  let getNumbers = (async () => {
+    return await fetch("https://stats.sensor.community/numbers.json").then(response => response.json()).then(function(data){
+      document.getElementById("number_sensors").innerText = data.numbers.sensors;
+      document.getElementById("number_countries").innerText = data.numbers.countries;
+      document.getElementById("number_measurements").innerText = data.numbers.measurements;
+      document.getElementById("number_commits").innerText = data.numbers.commits;
+      document.getElementById("number_hubs").innerText = data.numbers.local_hubs;
+    })
+  });
+  window.addEventListener('load', getNumbers)
 </script>
 
 <svelte:head>
@@ -41,11 +60,11 @@
   </div>
 
   <div class="py-16">
-    <div class="relative md:max-w-3xl md:mx-auto text-center">
-      <h3 class="text-gray-700 text-5xl leading-tight">
-        <p>{i18n.t('index:message-description')}</p>
-        <p>{i18n.t('index:message-mission')}</p>
-        <p>{i18n.t('index:message-hubs')}</p>
+    <div class="relative md:max-w-5xl md:mx-auto text-center">
+      <h3 class="text-gray-700 text-4xl leading-tight">
+        <p class="p-2">{i18n.t('index:message-description')}</p>
+        <p class="p-2">{i18n.t('index:message-mission')}</p>
+        <p class="p-2">{i18n.t('index:message-hubs')}</p>
       </h3>
     </div>
   </div>
@@ -67,7 +86,7 @@
 
 <section>
   <div class="container mx-auto px-4 pt-4 flex flex-col">
-    <h2 class="w-full py-4 md:py-8 text-gray-700 text-4xl font-lf-bold leading-normal text-center">
+    <h2 class="w-full py-4 md:py-8 text-gray-700 text-5xl font-lf-bold leading-normal text-center">
       {i18n.t('index:inNumbers-title')}</h2>
     <div class="w-full text-left py-2 md:pb-16">
       <div class="rounded-lg flex justify-center text-gray-700 items-center">
@@ -77,7 +96,7 @@
             <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-500">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-activeSensors')}</p>
               <p class="text-4xl font-bold block" id="number_sensors">
-                10.249</p>
+                10249</p>
             </div>
           </a>
         </div>
@@ -121,7 +140,7 @@
           <a href="https://github.com/opendata-stuttgart/" target="_blank">
             <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-5 flex flex-col justify-around hover:text-white hover:bg-blue-300">
               <p class="text-base text-grey-dark text-4xl leading-tight ">Github Commits</p>
-              <p class="text-4xl font-bold" id="number_commits">1.343</p>
+              <p class="text-4xl font-bold" id="number_commits">2111</p>
             </div>
           </a>
         </div>
@@ -131,7 +150,7 @@
 </section>
 
 <section>
-  <div class="container mx-auto px-4 pt-4 flex flex-col text-center">
+  <div class="container mx-auto px-5 mt-10 flex flex-col text-center">
     <h1 class="font-bold text-gray-700 text-5xl leading-tight">
       <a class="bg-teal-500 text-white px-2 hover:text-teal-800"
          href="{lang}/docs/">{i18n.t('index:h1-build')}</a> {i18n.t('index:h1-become')}<a

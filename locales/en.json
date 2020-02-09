@@ -15,7 +15,7 @@
     "inNumbers-communityHubs": "Community Hubs",
     "message-description": "Sensor.Community is a contributors driven global sensor network that creates Open Environmental Data.",
     "message-mission": "Our mission is to inspire and enrich people’s lives by offering a platform for the collective curiosity in nature that is genuine, joyful and positive.",
-    "message-hubs": "Sensor.Community has global hubs in Stuttgart, Sofía, Warsaw, Brussels."
+    "message-hubs": "Sensor.Community has global hubs in Stuttgart, Sofía and Warsaw."
   },
   "docs": {
     "h1": "Documentation",
@@ -43,7 +43,7 @@
     "projects": "Projects",
     "forum": "Forum",
     "sensor": "Sensor",
-    "donate": "Support"
+    "donate": "Donate"
   },
   "error": {
     "errorStatus" : "Encountered a {status} error.",
@@ -55,6 +55,11 @@
     "title": "Join a campaign"
   },
   "partnership": {
+    "title": "Collaborations"
+  },
+  "contributors": {
+    "metaTitle": "Contributors",
+    "metaDescription": "Contributors",
     "title": "Collaborations"
   },
   "contact": {
