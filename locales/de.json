@@ -7,7 +7,6 @@
     "h1-civic-tech": "weltweites Civic-Tech-Netzwerk \uD83C\uDF10",
     "h1-support": "Unterstützt von einer Menge",
     "h1-contributors": "Mitwirkende \uD83D\uDC95",
-    "tagline": "Die nächste kleine Sache in der Webentwicklung",
     "inNumbers-title": "Sensor.Community in Zahlen",
     "inNumbers-activeSensors": "Aktive Sensoren weltweit",
     "inNumbers-countries": "Länder",
@@ -35,7 +34,7 @@
     "projects": "Projects",
     "forum": "Forum",
     "sensor": "Sensor",
-    "donate": "Support"
+    "donate": "Unterstützen"
   },
   "error": {
     "errorStatus" : "Encountered a {status} error.",

@@ -12,7 +12,7 @@
 
 <svelte:head>
     <title>Campaign</title>
-    <meta property="og:title" content={i18n.t('donate:metaTitle')}/>
+    <meta property="og:title" content=""/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
@@ -23,7 +23,7 @@
         <div class="container mx-auto text-center">
             <div class="md:w-4/5 px-4 md:px-16 mx-auto md:py-24 my-12 md:my-14"><h1
                     class="leading-lf font-lf-extra-bold text-3xl md:text-6xl">
-                Campaigns.</h1>
+                Campaigns</h1>
                 <h2 class="font-lf-light leading-normal text-base md:text-xl mt-6 opacity-75 md:px-10">Comming soon.</h2></div>
         </div>
 

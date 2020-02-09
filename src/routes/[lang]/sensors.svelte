@@ -45,7 +45,7 @@
                                 <span class="px-4 text-gray-700 text-3xl text-lg ml-3">SDS011</span>
                             </li>
                             <li class="items-center border-b pt-2 pb-2">
-                                <span class="px-4 text-gray-700 text-3xl text-lg ml-3">49.99 €</span>
+                                <span class="px-4 text-gray-700 text-3xl text-lg ml-3">~ 49.99 €</span>
                             </li>
                         </ul>
                     </div>
