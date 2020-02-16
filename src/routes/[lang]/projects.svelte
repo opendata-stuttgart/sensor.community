@@ -2,16 +2,21 @@
     import initI18n from "../../utils/initI18n";
     import { stores } from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
+    import {flag} from "country-emoji"
 
     const { page } = stores();
     $: lang = $page.params.lang;
     $: path = $page.path;
     $: i18n = initI18n(lang);
 
-    const fs = require('fs');
-    let rows = JSON.parse(fs.readFileSync('./projects/projects.json', 'utf-8'));
+    const rows = [
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "iOS", "language": "PL", "screenshot": "./platform/appstore.jpg", "type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Android", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "PL", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Portal", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"}
+    ]
 
-    const {flag, code, name, countries} = require('country-emoji');
 </script>
 
 <svelte:head>
@@ -23,52 +28,54 @@
     <meta property="og:image" content=""/>
 </svelte:head>
 
-<section class="lf-padding container mx-auto mt-10">
-    <div class="flex flex-row flex-wrap mt-10">
+<section class="container mx-auto mt-10">
+    <div class="flex flex-row flex-wrap mt-10 mx-10">
         <div class="w-full flex flex-wrap my-8">
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
-                    <h1 class="py-4 md:py-8 md:pb-8 text-grey-darkest text-4xl md:text-6xl font-lf-extra-bold leading-tight">
+                    <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-black leading-tight">
                         {i18n.t('projects:h1')}</h1>
                 </div>
-                <p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
-                    Find apps, websites,... from our lovely community 💖️<br>
+                <p class="text-xl mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+                    Find mobile apps, websites,... from our lovely community 💖️<br>
                 </p>
-                <a href="">
-                    <span class="text-center text-gray-600 mt-10">
-					Have a great project? Share it with the community! <br> <a class="text-teal-600" href="/docs/how-to-contribute/">Submit your project →</a>
+                <span class="text-center text-gray-600 mt-10">
+					Have a great project? Share it with the community! <br> <a class="text-teal-600" href="">Submit your project →</a>
 					</span>
-                </a>
             </div>
             <div class="w-full md:w-1/2 my-12"></div>
         </div>
 
-
         {#each rows as row}
 
-            <div class="m-7 px-1 w-full md:w-1/2 my-4 px-4 lg:w-1/3">
-                <article class="overflow-hidden bg-gray-100 rounded-lg shadow-md">
+            <div class="w-full md:w-1/3">
+                <div class="mr-6 mb-6">
                     <a href="{row.link}">
-                        <img alt="" class="block h-auto w-full" src={row.screenshot}>
-
-                        <header class="flex items-center text-2xl justify-between leading-tight p-2 md:p-4">
-                            {flag(`${row.language}`)}
-                        </header>
-                        <footer>
-
-                            <div class="relative px-6 pb-6 mt-6">
-                                <span class="block opacity-75 -mb-1 text-sm">{row.platform}</span>
-                                <div class="flex justify-between">
-                                    <span class="block font-semibold text-xl">{row.title}</span>
-                                    <span class="block bg-teal-500 rounded-full text-white text-xs font-bold px-3 py-2 leading-none flex items-center">{row.type}</span>
-                                </div>
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                        <div class="flex justify-center items-center">
+                            <img class="block h-auto w-full"
+                                 src="https://picsum.photos/300/300/?random"
+                                 alt="">
+                        </div>
+                        <div class="flex items-center p-6">
+                            <div class="flex-1">
+                                <div class="mb-1 text-xl font-bold ">{row.title}</div>
+                                <div class="mb-1 text-base">{row.platform}</div>
                             </div>
-                        </footer>
+                            <div class="flex align-center">
+                                {flag(`${row.language}`)}
+                            </div>
+                        </div>
+                    </div>
                     </a>
-                </article>
-
+                </div>
             </div>
+
         {/each}
+
+
+
+
     </div>
 </section>
 <Contact/>

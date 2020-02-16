@@ -1,28 +1,30 @@
-<!--<script context="module">-->
-<!--    export async function preload() {-->
-<!--        const sections = await this.fetch(`{$locale}/docs/en.json`).then(r => r.json());-->
-<!--        return {sections};-->
-<!--    }-->
-<!--</script>-->
+<script context="module">
+    export async function preload() {
+        const sections = await this.fetch(`endpoints/airrohr/en.json`).then(r => r.json());
+        return {sections};
+    }
+</script>
 
 <script>
     import {_, locale, locales} from 'svelte-i18n'
-    import initI18n from "../../../utils/initI18n";
+    import initI18n from "../../../../utils/initI18n";
     import {stores} from "@sapper/app";
-    import {Docs} from '../../../../site-kit'
+    import {Docs} from '../../../../../site-kit'
 
     let {page} = stores();
     $: lang = $page.params.lang;
     $: path = $page.path;
     $: i18n = initI18n(lang);
 
-    let langPath;
-    langPath = $page.path.split("/")[1];
+    export let sections;
 
-    let sections = (async () => {
-        let uri = `/${langPath}/docs/${langPath}.json`;
-        return await fetch(uri).then(response => response.json());
-    })();
+    // let langPath;
+    // langPath = $page.path.split("/")[1];
+    //
+    // let sections = (async () => {
+    //     let uri = `/${langPath}/sensors/airrohr/${langPath}.json`;
+    //     return await fetch(uri).then(response => response.json());
+    // })();
 
 </script>
 
@@ -376,8 +378,8 @@
 </style>
 
 <svelte:head>
-    <title>{i18n.t('docs:metaTitle')}</title>
-    <meta property="og:title" content="{i18n.t('docs:metaTitle')}"/>
+    <title>{i18n.t('airrohr:metaTitle')}</title>
+    <meta property="og:title" content="{i18n.t('airrohr:metaTitle')}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>

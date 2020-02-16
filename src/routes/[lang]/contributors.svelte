@@ -5,7 +5,6 @@
 
     const {page} = stores();
     $: lang = $page.params.lang;
-    $: path = $page.path;
     $: i18n = initI18n(lang);
 </script>
 
@@ -18,188 +17,98 @@
     <meta property="og:image" content=""/>
 </svelte:head>
 
-<section class="lf-padding container mx-auto mt-10">
-    <div class="flex flex-row flex-wrap mt-10">
+<section class="container mx-auto mt-10">
+    <div class="flex flex-row flex-wrap mt-10 mx-10">
         <div class="w-full flex flex-wrap my-8">
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
-                    <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-lf-extra-bold leading-tight">
-                        Hello from the team👋</h1>
+                    <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-black leading-tight">
+                        Hello from the team 👋</h1>
                 </div>
-                <p class="text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+                <p class="text-xl md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
                     Meet the team who is working behind the scenes to harness the power of Sensor.Community.<br>
                 </p>
-                <a href="#contact">
-                    <span class="text-center text-gray-600 mt-10">
-						📮Please use the contact options at the bottom of the page.
-					</span>
-                </a>
+                <span class="text-center text-gray-600 mt-10">
+                    📮Please use the contact options at the bottom of the page.
+                </span>
             </div>
-            <div class="w-full md:w-1/2 my-12"><img src="team.jpg" alt="sensor community team"></div>
+            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>
         </div>
 
-        <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-lf-bold leading-normal text-center md:text-left">
+        <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal text-center md:text-left">
             Meet the team</h2>
-        <div class="flex flex-wrap md:-mx-8 sm:-mx-0 p-8">
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                            <div class="text-2xl font-bold font-lf-regular">Rajko <span class="font-thin">DevOps
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                            <div class="text-2xl font-bold font-lf-regular">Lukas <span class="font-thin">Partnership
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                            <div class="text-2xl font-bold font-lf-regular">David <span class="font-thin">Software Dev
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">Rajko <span class="font-thin">DevOps
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">Lukas <span class="font-thin">Partnership
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">David <span class="font-thin">Software Dev
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
-                    </div>
-                </div>
-            </div>
 
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">Rajko <span class="font-thin">DevOps
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">Lukas <span class="font-thin">Partnership
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+
+                <div class="w-full md:w-1/3">
+                    <div class="mr-6 mb-6">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <div class="flex justify-center items-center">
+                                <img class="block h-auto w-full"
+                                     src="https://picsum.photos/300/300/?random"
+                                     alt="">
+                            </div>
+                            <div class="flex items-center p-6">
+                                <div class="flex-1">
+                                    <div class="mb-1 text-xl font-bold ">Rajko</div>
+                                    <div class="mb-1 text-base">DevOps</div>
+                                </div>
+                                <div class="flex align-center">
+                                    <a href="" target="_blank" class="inline-block mt-1 ml-1">
+                                        <img src="icons/mastodon.svg" class="w-5">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">David <span class="font-thin">Software Dev
-                            </span></div>
-                    </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/mail.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
+
+                <div class="w-full md:w-1/3">
+                    <div class="mr-6 mb-6">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <div class="flex justify-center items-center">
+                                <img class="block h-auto w-full"
+                                     src="https://picsum.photos/300/300/?random"
+                                     alt="">
+                            </div>
+                            <div class="flex items-center p-6">
+                                <div class="flex-1">
+                                    <div class="mb-1 text-xl font-bold ">Lukas</div>
+                                    <div class="mb-1 text-base">Partnership & Community</div>
+                                </div>
+                                <div class="flex align-center">
+                                    <a href="" target="_blank" class="inline-block mt-1 ml-1">
+                                        <img src="icons/mastodon.svg" class="w-5">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="w-full md:w-1/3 p-8">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">Want to help
-                            us? </div>
+
+                <div class="w-full md:w-1/3">
+                    <div class="mr-6 mb-6">
+                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                            <div class="flex justify-center items-center">
+                                <img class="block h-auto w-full"
+                                     src="https://picsum.photos/300/300/?random"
+                                     alt="">
+                            </div>
+                            <div class="flex items-center p-6">
+                                <div class="flex-1">
+                                    <div class="mb-1 text-xl font-bold ">David</div>
+                                    <div class="mb-1 text-base">Developer</div>
+                                </div>
+                                <div class="flex align-center">
+                                    <a href="" target="_blank" class="inline-block mt-1 ml-1">
+                                        <img src="icons/mastodon.svg" class="w-5">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="block flex flex-wrap w-full">
-                        <button class="justify-center border-r p-5 flex w-1/2">
-                            <img class="w-5 mr-1" src="icons/github.svg" alt=""></button>
-                        <button class="justify-center p-5 flex w-1/2"><img src="icons/mastodon.svg" class="w-5 mr-1"></button>
-                    </div>
+
                 </div>
             </div>
         </div>

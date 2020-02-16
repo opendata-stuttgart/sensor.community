@@ -5,7 +5,7 @@ let json;
 
 export function get(req, res) {
     if (!json || process.env.NODE_ENV !== 'production') {
-        json = JSON.stringify(generate_docs('en'));
+        json = JSON.stringify(generate_docs('airrohr'));
     }
 
     send(res, 200, json, {

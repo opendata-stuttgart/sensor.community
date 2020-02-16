@@ -10,6 +10,7 @@
   $: path = $page.path;
   $: i18n = initI18n(lang);
   // $: i18n = initI18n($page.params.lang);
+
 </script>
 
 <svelte:head>
@@ -41,102 +42,105 @@
   </div>
 
   <div class="py-16">
-    <div class="relative md:max-w-3xl md:mx-auto text-center">
-      <h3 class="text-gray-700 text-5xl leading-tight">
-        <p>{i18n.t('index:message-description')}</p>
-        <p>{i18n.t('index:message-mission')}</p>
-        <p>{i18n.t('index:message-hubs')}</p>
+    <div class="relative md:max-w-5xl md:mx-auto text-center">
+      <h3 class="text-gray-700 text-4xl leading-tight">
+        <p class="p-2">{i18n.t('index:message-description')}</p>
+        <p class="p-2">{i18n.t('index:message-mission')}</p>
+        <p class="p-2">{i18n.t('index:message-hubs')}</p>
       </h3>
     </div>
   </div>
 </section>
 
 <!--<section class="bg-teal-600 py-8">-->
-<!--    <a href="{lang}/docs"> <div class="container mx-auto px-4 text-center">-->
-<!--        <p class="text-4xl md:text-4xl max-w-md mx-auto leading-normal mb-8 text-white">Build your own docs.</p>-->
+<!--    <a href="{lang}/airrohr"> <div class="container mx-auto px-4 text-center">-->
+<!--        <p class="text-4xl md:text-4xl max-w-md mx-auto leading-normal mb-8 text-white">Build your own airrohr.</p>-->
 <!--    </div>-->
 <!--    </a>-->
 <!--</section>-->
 
 <!--<p class="text-center p-4 text-gray-600 mt-10">-->
-<!--    Created your own DIY particulate matter docs or noise senor with our-->
+<!--    Created your own DIY particulate matter airrohr or noise senor with our-->
 <!--    <a class="border-b text-blue-500" href="" target="_blank">guide</a>.<br>-->
 <!--    <a href="#" class="cursor-pointer bg-teal-600 hover:bg-teal-500 shadow-xl px-5 py-2 inline-block text-teal-100 hover:text-white rounded">Build</a>-->
 
 <!--</p>-->
 
-<section>
-  <div class="container mx-auto px-4 pt-4 flex flex-col">
-    <h2 class="w-full py-4 md:py-8 text-gray-700 text-4xl font-lf-bold leading-normal text-center">
-      {i18n.t('index:inNumbers-title')}</h2>
-    <div class="w-full text-left py-2 md:pb-16">
-      <div class="rounded-lg flex justify-center text-gray-700 items-center">
-        <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
-          <a href="http://stats.sensor.community/images/stats_active_sensors.svg" rel="prefetch"
-             target="_blank">
-            <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-500">
-              <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-activeSensors')}</p>
-              <p class="text-4xl font-bold block" id="number_sensors">
-                10.249</p>
-            </div>
-          </a>
-        </div>
-        <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
-          <a href="http://stats.sensor.community/scripts/active_sensors.php" rel="prefetch"
-             target="_blank">
-            <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-400">
-              <p class="text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-countries')}</p>
-              <p class="text-4xl font-bold" id="number_countries">69</p>
-            </div>
-          </a>
-        </div>
-        <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
-          <a href="http://api.sensor.community/v1/" target="_blank">
-            <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-300">
-              <p class="text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-dataPoints')}</p>
-              <p class="text-4xl font-bold" id="number_measurements">6193201195</p>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="rounded-lg flex justify-center text-gray-700 items-center">
-        <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
-          <a href="{lang}/projects/">
-            <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-500">
-              <p class="text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityProjects')}</p>
-              <p class="text-4xl font-bold">17</p>
-            </div>
-          </a>
-        </div>
-        <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
-          <a href="{lang}/hubs/">
-            <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-400">
-              <p class="text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityHubs')}</p>
-              <p class="text-4xl font-bold" id="number_hubs">13</p>
+<section class="container mx-auto mt-10">
+  <div class="flex flex-row flex-wrap mt-10">
+    <div class="w-full flex flex-wrap">
+      <h2 class="w-full py-4 md:py-8 text-gray-700 text-5xl font-bold leading-normal text-center flex-col">
+        {i18n.t('index:inNumbers-title')}</h2>
 
+      <div class="mx-auto flex flex-wrap items-center justify-center text-gray-700">
+        <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
+          <a href="http://stats.sensor.community/images/stats_active_sensors.svg"
+             target="_blank">
+            <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-700">
+              <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-activeSensors')}</p>
+              <p class="text-4xl font-bold block" id="number_sensors">10.249</p>
             </div>
           </a>
         </div>
-        <div class="rounded-lg flex justify-center text-gray-700 items-center p-3">
-          <a href="https://github.com/opendata-stuttgart/" target="_blank">
-            <div class="rounded bg-gray-200 shadow-md h-64 w-64 p-5 flex flex-col justify-around hover:text-white hover:bg-blue-300">
-              <p class="text-base text-grey-dark text-4xl leading-tight ">Github Commits</p>
-              <p class="text-4xl font-bold" id="number_commits">1.343</p>
+        <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
+          <a href="http://stats.sensor.community/images/stats_active_sensors.svg"
+             target="_blank">
+            <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-500">
+              <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-countries')}</p>
+              <p class="text-4xl font-bold block" id="number_countries">69</p>
             </div>
           </a>
         </div>
+        <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
+          <a href="http://stats.sensor.community/images/stats_active_sensors.svg"
+             target="_blank">
+            <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-300">
+              <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-dataPoints')}</p>
+              <p class="text-4xl font-bold block" id="number_measurements">6.193.201.195</p>
+            </div>
+          </a>
+        </div>
+        <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
+          <a href="http://stats.sensor.community/images/stats_active_sensors.svg"
+             target="_blank">
+            <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-700">
+              <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityProjects')}</p>
+              <p class="text-4xl font-bold block" id="number_sensors">17</p>
+            </div>
+          </a>
+        </div>
+        <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
+          <a href="http://stats.sensor.community/images/stats_active_sensors.svg"
+             target="_blank">
+            <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-500">
+              <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityHubs')}</p>
+              <p class="text-4xl font-bold block" id="number_hubs">27</p>
+            </div>
+          </a>
+        </div>
+        <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
+          <a href="http://stats.sensor.community/images/stats_active_sensors.svg"
+             target="_blank">
+            <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-300">
+              <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-commits')}</p>
+              <p class="text-4xl font-bold block" id="number_commits">2.111</p>
+            </div>
+          </a>
+        </div>
+
       </div>
     </div>
   </div>
 </section>
 
 <section>
-  <div class="container mx-auto px-4 pt-4 flex flex-col text-center">
+  <div class="container mx-auto mx-10 my-32 flex flex-col text-center">
     <h1 class="font-bold text-gray-700 text-5xl leading-tight">
       <a class="bg-teal-500 text-white px-2 hover:text-teal-800"
-         href="{lang}/docs/">{i18n.t('index:h1-build')}</a> {i18n.t('index:h1-become')}<a
-            class="bg-yellow-500 text-white px-2 hover:text-yellow-700"
-            href="{lang}/community/">{i18n.t('index:h1-civic-tech')}</a></h1>
+         href="{lang}/docs/">{i18n.t('index:h1-build')}</a> {i18n.t('index:h1-become')}<br>
+      <a class="bg-yellow-500 text-white px-2 hover:text-yellow-700"
+         href="{lang}/community/">{i18n.t('index:h1-civic-tech')}</a>
+    </h1>
     <h2 class="font-bold text-gray-700 text-5xl leading-tight mb-6">{i18n.t('index:h1-support')} <a
             class="bg-blue-300 text-white px-2 hover:text-blue-700"
             href="{lang}/contributors/">{i18n.t('index:h1-contributors')}</a></h2>
