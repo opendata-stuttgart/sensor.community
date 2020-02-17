@@ -14,7 +14,7 @@ function initI18n(lng = 'en') {
       'default': ['en']
     }
   });
-
+  let lang = 'en';
   return i18next;
 }
 

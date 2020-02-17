@@ -22,7 +22,7 @@
     <section class=" container w-1/2 mx-auto mt-10 items-center">
         <div class="flex flex-row flex-wrap items-center">
 
-            <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal items-center">
+            <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal items-center">
                 Presskit</h2>
 
             The OK Lab Stuttgart is part of the program Code for Germany of the Open Knowledge Foundation Germany. The
@@ -34,7 +34,7 @@
             <strong>code a difference</strong>: Use your skills to improve your city!
 
             <hr>
-            <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal items-center">
+            <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal items-center">
                 Logo</h2>
             <div class="flex flex-wrap">
                 <div class="flex-shrink-0 m-6 relative overflow-hidden bg-white rounded-lg max-w-xs shadow-lg">
@@ -52,7 +52,7 @@
 
             <hr>
 
-            <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal items-center">
+            <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal items-center">
                 Colors</h2>
             <div class="flex flex-wrap">
                 <div class="flex-shrink-0 m-6 relative overflow-hidden bg-teal-900 rounded-lg max-w-xs shadow-lg">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="w-full py-4 md:py-8 pb-8 text-grey-darkest text-4xl md:text-4xl font-lf-bold leading-normal items-center">
+            <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal items-center">
                 Pictures</h2>
 
             <img src="https://exchange.sensor.community/index.php/s/6FWx7MGZZ89CXrt/preview" alt="">

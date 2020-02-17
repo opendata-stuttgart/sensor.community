@@ -130,7 +130,7 @@
 	}
 
 	.content {
-		width: 90%;
+		width: 85%;
 		margin: 0;
 		padding: var(--side-nav);
 		tab-size: 2;
@@ -322,12 +322,12 @@
 				<span id={section.slug}></span>
 
 				<!-- svelte-ignore a11y-missing-content -->
-				<a href="{$locale}/docs#{section.slug}" class="anchor" aria-hidden></a>
+				<a href="{$locale}/sesnors#{section.slug}" class="anchor" aria-hidden></a>
 
 				{@html section.metadata.title}
 				<small>
-					<a href="https://github.com/{owner}/{project}/edit/master/{$locale}/{dir}/{section.file}" title="{$_('docs.editOnGithub')}">
-						<Icon name='edit' />{$_('docs.editOnGithub')}
+					<a href="https://github.com/{owner}/{project}/edit/master/{$locale}/{dir}/{section.file}" title="{$_('airrohr.editOnGithub')}">
+						<Icon name='edit' />{$_('airrohr.editOnGithub')}
 					</a>
 				</small>
 			</h2>
