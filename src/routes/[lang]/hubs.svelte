@@ -2,14 +2,14 @@
     import initI18n from "../../utils/initI18n";
     import {stores} from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
+    import Cards from "../../components/Cards.svelte"
+
     import {flag} from "country-emoji"
 
-    const rows = [
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "iOS", "language": "PL", "screenshot": "./platform/appstore.jpg", "type": "closed source"},
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Android", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "PL", "screenshot": "./platform/playstore.jpg","type": "closed source"},
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Portal", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"}
+    const projects = [
+        { link: "/test", title: "Stuttgart", description: "8274 Sensors <br> 1525 Meetups", country: "PL", imageUrl: "https://picsum.photos/300/300/?random", type: "closed source"},
+        { link: "/test", title: "Brussel", description: "2342 Sensors <br> 124 Meetups", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source"},
+        { link: "/test", title: "China", description: "234 Sensors <br> 12 Meetups", country: "UK", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source"},
     ]
 
     const {page} = stores();
@@ -40,46 +40,36 @@
                     Find communities around the world 💖️<br>
                 </p>
             </div>
-<!--            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>-->
+            <!--            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>-->
         </div>
 
 
-        <div class="flex flex-wrap">
-            {#each rows as row}
-                <div class="w-full md:w-1/3">
-                    <div class="mr-6 mb-6">
-                        <a href="{row.link}">
-                            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                                <div class="flex justify-center items-center">
-                                    <img class="block h-auto w-full"
-                                         src="https://picsum.photos/300/300/?random"
-                                         alt="">
-                                </div>
-                                <div class="flex items-center p-6">
-                                    <div class="flex-1">
-                                        <div class="mb-1 text-xl font-bold ">{row.title}</div>
-                                        <div class="mb-1 text-base">{row.platform}</div>
-                                    </div>
-                                    <div class="flex align-center">
-                                        {flag(`${row.language}`)}
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        {#each projects as project}
+            <div class="w-full md:w-1/3">
+                <div class="mr-6 mb-6">
+                    <Cards
+                            link={lang}{project.link}
+                            title={project.title}
+                            subtitle={project.subtitle}
+                            description={project.description}
+                            imageUrl={project.imageUrl}
+                            country={project.country}
+                            type={project.type}
+                    />
                 </div>
-            {/each}
-        </div>
+            </div>
+        {/each}
     </div>
-    <div class="flex flex-row flex-wrap mt-10 mx-10">
-        <div class="w-full flex flex-wrap my-8">
-            <div class="w-full text-center md:text-left ">
+
+        <div class="flex flex-row flex-wrap mt-10 mx-10">
+            <div class="w-full flex flex-wrap my-8">
+                <div class="w-full text-center md:text-left ">
                     <span class="text-center text-gray-600 mt-10">
 						      Have a great project? Share it with the community! <br>
                         <a class="text-teal-600" href="">Submit your project →</a>
 					</span>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 <Contact/>

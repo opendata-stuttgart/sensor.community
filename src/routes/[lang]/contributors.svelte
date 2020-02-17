@@ -2,10 +2,17 @@
     import initI18n from "../../utils/initI18n";
     import {stores} from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
+    import Cards from "../../components/Cards.svelte"
 
     const {page} = stores();
     $: lang = $page.params.lang;
     $: i18n = initI18n(lang);
+
+    const contributors = [
+        { title: "Rajko", description: "DevOps", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false },
+        { title: "Lukas", description: "Partnership & Community", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false },
+        { title: "David", description: "Developer", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false }
+    ]
 </script>
 
 <svelte:head>
@@ -38,81 +45,25 @@
         <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal text-center md:text-left">
             Meet the team</h2>
 
-        <div class="container mx-auto">
-            <div class="flex flex-wrap">
 
-                <div class="w-full md:w-1/3">
-                    <div class="mr-6 mb-6">
-                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                            <div class="flex justify-center items-center">
-                                <img class="block h-auto w-full"
-                                     src="https://picsum.photos/300/300/?random"
-                                     alt="">
-                            </div>
-                            <div class="flex items-center p-6">
-                                <div class="flex-1">
-                                    <div class="mb-1 text-xl font-bold ">Rajko</div>
-                                    <div class="mb-1 text-base">DevOps</div>
-                                </div>
-                                <div class="flex align-center">
-                                    <a href="" target="_blank" class="inline-block mt-1 ml-1">
-                                        <img src="icons/mastodon.svg" class="w-5">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="w-full md:w-1/3">
-                    <div class="mr-6 mb-6">
-                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                            <div class="flex justify-center items-center">
-                                <img class="block h-auto w-full"
-                                     src="https://picsum.photos/300/300/?random"
-                                     alt="">
-                            </div>
-                            <div class="flex items-center p-6">
-                                <div class="flex-1">
-                                    <div class="mb-1 text-xl font-bold ">Lukas</div>
-                                    <div class="mb-1 text-base">Partnership & Community</div>
-                                </div>
-                                <div class="flex align-center">
-                                    <a href="" target="_blank" class="inline-block mt-1 ml-1">
-                                        <img src="icons/mastodon.svg" class="w-5">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="w-full md:w-1/3">
-                    <div class="mr-6 mb-6">
-                        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                            <div class="flex justify-center items-center">
-                                <img class="block h-auto w-full"
-                                     src="https://picsum.photos/300/300/?random"
-                                     alt="">
-                            </div>
-                            <div class="flex items-center p-6">
-                                <div class="flex-1">
-                                    <div class="mb-1 text-xl font-bold ">David</div>
-                                    <div class="mb-1 text-base">Developer</div>
-                                </div>
-                                <div class="flex align-center">
-                                    <a href="" target="_blank" class="inline-block mt-1 ml-1">
-                                        <img src="icons/mastodon.svg" class="w-5">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+        {#each contributors as contributor}
+            <div class="w-full md:w-1/3">
+                <div class="mr-6 mb-6 hover:shadow-lg">
+                    <Cards
+                            link={contributor.link}
+                            title={contributor.title}
+                            subtitle={contributor.subtitle}
+                            description={contributor.description}
+                            imageUrl={contributor.imageUrl}
+                            country={contributor.country}
+                            type={contributor.type}
+                            isFav={contributor.isFavorite}
+                    />
                 </div>
             </div>
-        </div>
-    </div>
+        {/each}
+
 </section>
 
 <Contact/>
