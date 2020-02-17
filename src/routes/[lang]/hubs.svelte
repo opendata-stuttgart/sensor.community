@@ -2,12 +2,15 @@
     import initI18n from "../../utils/initI18n";
     import {stores} from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
+    import {flag} from "country-emoji"
 
     const rows = [
-        { "link": "hubs/location", "location": "STR", "sensors": "8275", "meetups": "1525"},
-        { "link": "hubs/location", "location": "BER", "sensors": "2342", "meetups": "124"},
-        { "link": "hubs/location", "location": "CHN", "sensors": "234", "meetups": "12"}
-    ];
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "iOS", "language": "PL", "screenshot": "./platform/appstore.jpg", "type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Android", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "PL", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
+        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Portal", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"}
+    ]
 
     const {page} = stores();
     $: lang = $page.params.lang;
@@ -17,59 +20,66 @@
 </script>
 
 <svelte:head>
-    <title>{i18n.t('hub:metaTitle')}</title>
+    <title>{i18n.t('hubs:metaTitle')}</title>
 
-    <meta property="og:title" content={i18n.t('hub:metaTitle')}/>
+    <meta property="og:title" content={i18n.t('hubs:metaTitle')}/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
 </svelte:head>
 
-
-<section class="lf-padding container mx-auto mt-10">
-    <div class="flex flex-row flex-wrap mt-10">
+<section class="container mx-auto">
+    <div class="flex flex-row flex-wrap mt-10 mx-10">
         <div class="w-full flex flex-wrap my-8">
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
-                    <h1 class="py-4 md:py-8 md:pb-8 text-grey-darkest text-4xl md:text-6xl font-lf-extra-bold leading-tight">
+                    <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-black leading-tight">
                         Community Hubs</h1>
                 </div>
-                <p class="text-grey-darkest text-xl font-lf-regular md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+                <p class="text-xl md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
                     Find communities around the world 💖️<br>
                 </p>
-<!--                <a href="">-->
-<!--                    <span class="text-center text-gray-600 mt-10">-->
-<!--						      Have a great project? Share it with the community! <br> <a class="text-teal-600" href="/docs/how-to-contribute/">Submit your project →</a>-->
-<!--					</span>-->
-<!--                </a>-->
             </div>
-            <div class="w-full md:w-1/2 my-12"></div>
+<!--            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>-->
         </div>
 
 
-        {#each rows as row}
-
-            <div class="w-full md:w-1/3 p-8">
-                <a href="{lang}/{row.link}">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                    <img class="block h-auto w-full"
-                         src="https://luftdaten.info/wp-content/uploads/2015/02/Feinstaub-Sensor-Spenden-300x300.jpg"
-                         alt="">
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">{row.location}</div>
-                    </div>
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">{row.sensors} Sensors
-                        </div>
-                    </div>
-                    <div class="flex items-center p-3 border-b">
-                        <div class="text-2xl font-bold font-lf-regular">{row.meetups} Meetups
-                        </div>
+        <div class="flex flex-wrap">
+            {#each rows as row}
+                <div class="w-full md:w-1/3">
+                    <div class="mr-6 mb-6">
+                        <a href="{row.link}">
+                            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                                <div class="flex justify-center items-center">
+                                    <img class="block h-auto w-full"
+                                         src="https://picsum.photos/300/300/?random"
+                                         alt="">
+                                </div>
+                                <div class="flex items-center p-6">
+                                    <div class="flex-1">
+                                        <div class="mb-1 text-xl font-bold ">{row.title}</div>
+                                        <div class="mb-1 text-base">{row.platform}</div>
+                                    </div>
+                                    <div class="flex align-center">
+                                        {flag(`${row.language}`)}
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                </a>
+            {/each}
+        </div>
+    </div>
+    <div class="flex flex-row flex-wrap mt-10 mx-10">
+        <div class="w-full flex flex-wrap my-8">
+            <div class="w-full text-center md:text-left ">
+                    <span class="text-center text-gray-600 mt-10">
+						      Have a great project? Share it with the community! <br>
+                        <a class="text-teal-600" href="">Submit your project →</a>
+					</span>
             </div>
-        {/each}
+        </div>
     </div>
 </section>
 <Contact/>

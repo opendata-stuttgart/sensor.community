@@ -7,6 +7,7 @@ import hljs from 'highlight.js';
 
 export const SLUG_PRESERVE_UNICODE = false;
 export const SLUG_SEPARATOR = '_';
+export const SLUG_LANG = 'en';
 
 const block_types = [
     'blockquote',
@@ -28,11 +29,11 @@ export default function generate_docs(dir) {
     });
 
     return fs
-        .readdirSync(`docs/${dir}`)
+        .readdirSync(`content/${dir}`)
         .filter(file => file[0] !== '.' && path.extname(file) === '.md')
         .map(file => {
-            const markdown = fs.readFileSync(`docs/${dir}/${file}`, 'utf-8');
-            const {content, metadata} = extract_frontmatter(markdown);
+            const markdown = fs.readFileSync(`content/${dir}/${file}`, 'utf-8');
+            const { content, metadata } = extract_frontmatter(markdown);
             const section_slug = make_slug(metadata.title);
             const subsections = [];
             const renderer = new marked.Renderer();
@@ -73,7 +74,12 @@ export default function generate_docs(dir) {
                 }
 
                 const plang = langs[lang];
-                const {value: highlighted} = hljs.highlight(lang, source);
+                const { value: highlighted } = hljs.highlight(lang, source);
+                // const highlighted = PrismJS.highlight(
+                // 	source,
+                // 	PrismJS.languages[plang],
+                // 	lang
+                // );
 
                 const html = `<div class='${class_name}'>${prefix}<pre class='language-${plang}'><code>${highlighted}</code></pre></div>`;
 
@@ -97,25 +103,25 @@ export default function generate_docs(dir) {
                             return `.${$1}`;
                         });
 
-                    subsections.push({slug, title, level});
+                    subsections.push({ slug, title, level });
                 }
 
                 return `
 					<h${level}>
-						<span id="${slug}" ${level > 4 ? 'data-scrollignore' : ''}></span>
-						<a href="${dir}/docs#${slug}" class="anchor" aria-hidden="true"></a>
+						<span id="${slug}" class="offset-anchor" ${level > 4 ? 'data-scrollignore' : ''}></span>
+						<a href="${dir}#${slug}" class="anchor" aria-hidden="true"></a>
 						${text}
 					</h${level}>`;
             };
 
             block_types.forEach(type => {
                 const fn = renderer[type];
-                renderer[type] = function () {
+                renderer[type] = function() {
                     return fn.apply(this, arguments);
                 };
             });
 
-            const html = marked(content, {renderer});
+            const html = marked(content, { renderer });
 
             const hashes = {};
 
