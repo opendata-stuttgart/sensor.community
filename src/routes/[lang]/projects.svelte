@@ -3,18 +3,19 @@
     import { stores } from "@sapper/app";
     import Contact from "../../components/Contact.svelte"
     import {flag} from "country-emoji"
+    import Cards from "../../components/Cards.svelte"
 
     const { page } = stores();
     $: lang = $page.params.lang;
     $: path = $page.path;
     $: i18n = initI18n(lang);
 
-    const rows = [
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "iOS", "language": "PL", "screenshot": "./platform/appstore.jpg", "type": "closed source"},
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Android", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "PL", "screenshot": "./platform/playstore.jpg","type": "closed source"},
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Windows", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"},
-        { "link": "https://play.google.com/store/apps/details?id=pl.tajchert.canary", "title": "Kanarek", "platform": "Portal", "language": "DE", "screenshot": "./platform/playstore.jpg","type": "closed source"}
+    const projects = [
+        { link: "", title: "Project #2", description: "A simple, hackable & minimalistic starter.", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true},
+        { link: "", title: "Project #3", description: "A simple, hackable & minimalistic starter.", country: "UK", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true},
+        { link: "", title: "Project #4", description: "A simple, hackable & minimalistic starter.", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true},
+        { link: "", title: "Project #5", description: "A simple, hackable & minimalistic starter.", country: "US", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true},
+        { link: "", title: "Project #6", description: "A simple, hackable & minimalistic starter.", country: "US", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true}
     ]
 
 </script>
@@ -46,35 +47,26 @@
             <div class="w-full md:w-1/2 my-12"></div>
         </div>
 
-        {#each rows as row}
 
+
+
+        {#each projects as project}
             <div class="w-full md:w-1/3">
-                <div class="mr-6 mb-6">
-                    <a href="{row.link}">
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <div class="flex justify-center items-center">
-                            <img class="block h-auto w-full"
-                                 src="https://picsum.photos/300/300/?random"
-                                 alt="">
-                        </div>
-                        <div class="flex items-center p-6">
-                            <div class="flex-1">
-                                <div class="mb-1 text-xl font-bold ">{row.title}</div>
-                                <div class="mb-1 text-base">{row.platform}</div>
-                            </div>
-                            <div class="flex align-center">
-                                {flag(`${row.language}`)}
-                            </div>
-                        </div>
-                    </div>
-                    </a>
+                <div class="mr-6 mb-6 hover:shadow-lg">
+                    <Cards
+                            link={project.link}
+                            title={project.title}
+                            subtitle={project.subtitle}
+                            description={project.description}
+                            imageUrl={project.imageUrl}
+                            country={project.country}
+                            type={project.type}
+                            hasCountry={project.hasCountry}
+                            hasPrice={project.hasPrice}
+                    />
                 </div>
             </div>
-
         {/each}
-
-
-
 
     </div>
 </section>
