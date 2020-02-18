@@ -85,7 +85,7 @@
                             <p class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded">GLS Community Bank</p>
                         </div>
                         <div class="mt-2">
-                            <p class=" block text-sm text-gray-600">{i18n.t('donate:intendedUse')}Intended use</p>
+                            <p class=" block text-sm text-gray-600">{i18n.t('donate:intendedUse')}</p>
                             <p class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded">OK Lab Stuttgart</p>
                         </div>
                         <div class="mt-2">
