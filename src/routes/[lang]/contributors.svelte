@@ -30,20 +30,21 @@
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
                     <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-black leading-tight">
-                        Hello from the team 👋</h1>
+                        {i18n.t('contributors:h1')}</h1>
                 </div>
                 <p class="text-xl md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
-                    Meet the team who is working behind the scenes to harness the power of Sensor.Community.<br>
+                    {i18n.t('contributors:description')}
+                    <br>
                 </p>
                 <span class="text-center text-gray-600 mt-10">
-                    📮Please use the contact options at the bottom of the page.
+                   {i18n.t('contributors:contactBottom')}
                 </span>
             </div>
             <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>
         </div>
 
         <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal text-center md:text-left">
-            Meet the team</h2>
+            {i18n.t('contributors:meetTeam')}</h2>
 
 
 

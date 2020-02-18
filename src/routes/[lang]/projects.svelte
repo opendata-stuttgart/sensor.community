@@ -7,7 +7,6 @@
 
     const { page } = stores();
     $: lang = $page.params.lang;
-    $: path = $page.path;
     $: i18n = initI18n(lang);
 
     const projects = [
@@ -38,10 +37,11 @@
                         {i18n.t('projects:h1')}</h1>
                 </div>
                 <p class="text-xl mx-auto md:pr-8 mt-4 mb-4 leading-reading">
-                    Find mobile apps, websites,... from our lovely community 💖️<br>
+                    {i18n.t('projects:description')}️<br>
                 </p>
                 <span class="text-center text-gray-600 mt-10">
-					Have a great project? Share it with the community! <br> <a class="text-teal-600" href="">Submit your project →</a>
+					{i18n.t('projects:submitIdea')}️
+                     <br> <a class="text-teal-600" href="">{i18n.t('projects:submitProject')}️</a>
 					</span>
             </div>
             <div class="w-full md:w-1/2 my-12"></div>

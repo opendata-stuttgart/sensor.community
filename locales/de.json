@@ -20,6 +20,12 @@
     "message-mission": "Unsere Mission ist es, das Leben der Menschen zu inspirieren und zu bereichern, indem wir eine Plattform bieten.",
     "message-hubs": "Sensor.community hat globale Hubs in Stuttgart, Sofia, Warschau und Brüssel."
   },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Find your sensor and building instructions for your DYI fine dust sensor",
+    "h1": "Sensor Kits",
+    "subtitle": " Find our guides️ for your sensor"
+  },
   "docs": {
     "h1": "Dokumentation",
     "metaDescription": "Sapper project template",
