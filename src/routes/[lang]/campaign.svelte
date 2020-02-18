@@ -10,8 +10,8 @@
 </script>
 
 <svelte:head>
-    <title>Campaign</title>
-    <meta property="og:title" content=""/>
+    <title>{i18n.t('campaign:metaTitle')}</title>
+    <meta property="og:title" content="{i18n.t('campaign:metaTitle')}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
@@ -22,14 +22,14 @@
         <div class="container mx-auto text-center">
             <div class="md:w-4/5 px-4 md:px-16 mx-auto md:py-24 my-12 md:my-14"><h1
                     class="leading-lf font-black text-3xl md:text-6xl">
-                Campaigns</h1>
-                <h2 class="leading-normal text-base md:text-xl mt-6 opacity-75 md:px-10">Comming soon.</h2></div>
+                {i18n.t('campaign:h1')}</h1>
+                <h2 class="leading-normal text-base md:text-xl mt-6 opacity-75 md:px-10">{i18n.t('campaign:subtitle')}</h2></div>
         </div>
 
         <div class="container mx-auto mb-48">
             <div class="container mx-auto text-center">
                 <a href="mailto:contact@sensor.community" class="bg-teal-500 text-center hover:bg-teal-700 hover:text-white mx-auto rounded-lg inline-block shadow px-8 py-6 text-white text-xl">
-                    <div>💌 Get notified</div>
+                    <div>{i18n.t('campaign:getNotified')}</div>
             </a></div>
         </div>
     </section>

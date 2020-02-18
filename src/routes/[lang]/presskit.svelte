@@ -5,7 +5,6 @@
 
     const { page } = stores();
     $: lang = $page.params.lang;
-    $: path = $page.path;
     $: i18n = initI18n(lang);
 </script>
 

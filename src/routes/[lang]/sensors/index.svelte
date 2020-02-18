@@ -6,7 +6,6 @@
 
     const {page} = stores();
     $: lang = $page.params.lang;
-    $: path = $page.path;
     $: i18n = initI18n(lang);
 
 
@@ -33,10 +32,10 @@
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
                     <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-black leading-tight">
-                        Sensor Kits</h1>
+                        {i18n.t('sensor:h1')}</h1>
                 </div>
                 <p class="text-xl md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
-                    Find our guides️ for your sensor<br>
+                    {i18n.t('sensor:subtitle')}<br>
                 </p>
             </div>
 <!--            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>-->
