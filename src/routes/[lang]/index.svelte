@@ -4,12 +4,19 @@
   import Campaigns from "../../components/Campaigns.svelte";
   import Partnership from "../../components/Partnership.svelte";
   import Contact from "../../components/Contact.svelte";
+  import { onMount } from "svelte";
 
   const {page} = stores();
   $: lang = $page.params.lang;
   $: path = $page.path;
   $: i18n = initI18n(lang);
   // $: i18n = initI18n($page.params.lang);
+
+
+  const fetchNumbers = (async () => {
+    const response = await fetch('https://stats.sensor.community/numbers.json')
+    return await response.json()
+  })()
 
 </script>
 
@@ -72,13 +79,17 @@
       <h2 class="w-full py-4 md:py-8 text-gray-700 text-5xl font-bold leading-normal text-center flex-col">
         {i18n.t('index:inNumbers-title')}</h2>
 
+      {#await fetchNumbers}
+          <p>{i18n.t('index:inNumbers-fetching')}</p>
+      {:then data}
+
       <div class="mx-auto flex flex-wrap items-center justify-center text-gray-700">
         <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
           <a href="http://stats.sensor.community/images/stats_active_sensors.svg"
              target="_blank">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-700">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-activeSensors')}</p>
-              <p class="text-4xl font-bold block" id="number_sensors">10.249</p>
+              <p class="text-4xl font-bold block" id="number_sensors">{data.numbers.sensors}</p>
             </div>
           </a>
         </div>
@@ -87,7 +98,7 @@
              target="_blank">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-500">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-countries')}</p>
-              <p class="text-4xl font-bold block" id="number_countries">69</p>
+              <p class="text-4xl font-bold block" id="number_countries">{data.numbers.countries}</p>
             </div>
           </a>
         </div>
@@ -96,7 +107,7 @@
              target="_blank">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-300">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-dataPoints')}</p>
-              <p class="text-4xl font-bold block" id="number_measurements">6.193.201.195</p>
+              <p class="text-4xl font-bold block" id="number_measurements">{data.numbers.measurements}</p>
             </div>
           </a>
         </div>
@@ -114,7 +125,7 @@
              target="_blank">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-500">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityHubs')}</p>
-              <p class="text-4xl font-bold block" id="number_hubs">27</p>
+              <p class="text-4xl font-bold block" id="number_hubs">{data.numbers.local_hubs}</p>
             </div>
           </a>
         </div>
@@ -123,12 +134,14 @@
              target="_blank">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-300">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-commits')}</p>
-              <p class="text-4xl font-bold block" id="number_commits">2.111</p>
+              <p class="text-4xl font-bold block" id="number_commits">{data.numbers.commits}</p>
             </div>
           </a>
         </div>
-
       </div>
+      {:catch error}
+      <p>{i18n.t('index:inNumbers-error')}</p>
+    {/await}
     </div>
   </div>
 </section>

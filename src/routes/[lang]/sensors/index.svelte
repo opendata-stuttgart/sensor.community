@@ -11,9 +11,9 @@
 
 
     const sensors = [
-        { link: "", title: "Sensor Kit #1", description: "NodeMCU <br> SDS011", imageUrl: "https://picsum.photos/300/300/?random", hasPrice: true, price: "~ 49.99 €" },
-        { link: "", title: "Sensor Kit #2", description: "NodeMCU <br> SDS011", imageUrl: "https://picsum.photos/300/300/?random", hasPrice: true, price: "-- €"},
-        { link: "", title: "Sensor Kit #3", description: "NodeMCU <br> SDS011", imageUrl: "https://picsum.photos/300/300/?random", hasPrice: true, price: "-- €"}
+        { link: "/sensors/airrohr/", title: "Sensor Kit #1", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "~ 49.99 €" },
+        { link: "", title: "Sensor Kit #2", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "-- €"},
+        { link: "", title: "Sensor Kit #3", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "-- €"}
     ]
 </script>
 
@@ -46,7 +46,7 @@
             <div class="w-full md:w-1/3">
                 <div class="mr-6 mb-6 hover:shadow-lg">
                     <Cards
-                            link={sensor.link}
+                            link={lang}{sensor.link}
                             title={sensor.title}
                             subtitle={sensor.subtitle}
                             description={sensor.description}
