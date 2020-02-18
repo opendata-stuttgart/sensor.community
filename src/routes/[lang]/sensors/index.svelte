@@ -6,14 +6,13 @@
 
     const {page} = stores();
     $: lang = $page.params.lang;
-    $: path = $page.path;
     $: i18n = initI18n(lang);
 
 
     const sensors = [
-        { link: "", title: "Sensor Kit #1", description: "NodeMCU <br> SDS011", imageUrl: "https://picsum.photos/300/300/?random", hasPrice: true, price: "~ 49.99 €" },
-        { link: "", title: "Sensor Kit #2", description: "NodeMCU <br> SDS011", imageUrl: "https://picsum.photos/300/300/?random", hasPrice: true, price: "-- €"},
-        { link: "", title: "Sensor Kit #3", description: "NodeMCU <br> SDS011", imageUrl: "https://picsum.photos/300/300/?random", hasPrice: true, price: "-- €"}
+        { link: "/sensors/airrohr/", title: "Sensor Kit #1", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "~ 49.99 €" },
+        { link: "", title: "Sensor Kit #2", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "-- €"},
+        { link: "", title: "Sensor Kit #3", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "-- €"}
     ]
 </script>
 
@@ -33,10 +32,10 @@
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
                     <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-black leading-tight">
-                        Sensor Kits</h1>
+                        {i18n.t('sensor:h1')}</h1>
                 </div>
                 <p class="text-xl md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
-                    Find our guides️ for your sensor<br>
+                    {i18n.t('sensor:subtitle')}<br>
                 </p>
             </div>
 <!--            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>-->
@@ -46,7 +45,7 @@
             <div class="w-full md:w-1/3">
                 <div class="mr-6 mb-6 hover:shadow-lg">
                     <Cards
-                            link={sensor.link}
+                            link={lang}{sensor.link}
                             title={sensor.title}
                             subtitle={sensor.subtitle}
                             description={sensor.description}
