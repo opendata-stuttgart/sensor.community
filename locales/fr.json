@@ -1,4 +1,137 @@
 {
+    "nav": {
+      "home": "Accueil",
+      "docs": "Détecteurs",
+      "blog": "Blog",
+      "projects": "Projets",
+      "forum": "Forum",
+      "sensor": "Détecteurs",
+      "donate": "Soutenir"
+    },
+    "error": {
+      "errorStatus": "Une erreur {status} est survenue.",
+      "reloadPage": "Veuillez recharger la page.",
+      "offline": "Il semble que vous soyez hors ligne.",
+      "submitError": "Si l'erreur persiste, veuillez laisser un message sur <a href=\"chat.sensor.community\">Discourse forum</a> pour nous informer, ou signaler le problème sur <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Merci!"
+    },
+    "index": {
+      "metaDescription": "Fabriquez vous-même votre détecteur et prenez part à un projet mondial de science citoyenne, de données ouvertes et de technologie civique soutenu par de nombreux contributeurs \uD83D\uDC95",
+      "metaTitle": "Sensor.Community \uD83C\uDF10 Fabriquez votre détecteur et rejoignez un réseau mondial de technologie civique",
+      "h1-build": "Fabriquez votre détecteur ",
+      "h1-become": "et prenez part à ",
+      "h1-civic-tech": "un réseau mondial de technologie civique \uD83C\uDF10",
+      "h1-support": "soutenu par ",
+      "h1-contributors": "de nombreux contributeurs \uD83D\uDC95",
+      "inNumbers-title": "Sensor.Community en chiffres",
+      "inNumbers-activeSensors": "Détecteurs actifs dans le monde",
+      "inNumbers-countries": "Pays",
+      "inNumbers-dataPoints": "Données",
+      "inNumbers-communityProjects": "Projets",
+      "inNumbers-communityHubs": "Communautés",
+      "inNumbers-commits": "Commits GitHub",
+      "inNumbers-fetching": "... collecte des données",
+      "inNumbers-error": "Une erreur est survenue !",
+      "message-description": "Sensor.Community est un réseau global de détecteurs mis en œuvre par des contributeurs bénévoles pour créer des données environnementales.",
+      "message-mission": "Notre mission est d'inspirer et d'enrichir la vie de nos concitoyens en mettant à disposition une plateforme favoriant la curiosité pour la nature de manière authentique, joyeuse et positive.",
+      "message-hubs": "Sensor.Community possède d'importants centres de coordination à Stuttgart, Sofia, Varsovie et Bruxelles."
+    },
+    "sensor": {
+      "metaDescription": "",
+      "metaTitle": "Trouvez ici votre détecteur de particules fines et sa notice de montage",
+      "h1": "Kits de détecteurs",
+      "subtitle": " Nos guides pour vos détecteurs"
+    },
+    "forum": {
+      "metaDescription": "",
+      "metaTitle": "Forum",
+      "h1": "Forum",
+      "subtitle": "Prochainement",
+      "getNotified": "\uD83D\uDC8C Recevoir une notification"
+    },
+    "donate": {
+      "metaDescription": "Nous sommes une structure à but non lucratif, sans lien avec le monde des affaires et sans compromis. Des personnes comme vous participent déjà. Nous dépendons de dons pour mener à bien nos projets.",
+      "metaTitle": "Faire un don - Aidez-nous et montrez votre soutien",
+      "h1": "Soutenez-nous",
+      "description": "Nous sommes une structure à but non lucratif, sans lien avec le monde des affaires et sans compromis. Des personnes comme vous participent déjà. Nous dépendons de dons pour mener à bien nos projets.",
+      "section": "Nous soutenir",
+      "campaign": "Campagnes en cours",
+      "donation": "Don direct",
+      "holder": "Titutlaire du compte",
+      "iban": "IBAN",
+      "bic": "BIC",
+      "bank": "Banque",
+      "intendedUse": "Usage prévu",
+      "donationDescription": "L'Open Knowledge Foundation Germany est une organisation à but non lucratif reconnue."
+    },
+    "blog": {
+      "metaDescription": "Actualités",
+      "metaTitle": "Actualités",
+      "h1": "Derniers messages",
+      "description": " Trouvez ici les dernières actualités et des informations intéressantes"
+    },
+    "contributors": {
+      "metaDescription": "Les personnes derrière le projet",
+      "metaTitle": "Les contributeurs de Sensor.Community",
+      "h1": "Un bonjour de l'équipe \uD83D\uDC4B",
+      "description": "Faites connaissances avec l'équipe qui travaille dans l'ombre pour faire monter en puissance le projet Sensor.Community.",
+      "contactBottom": "\uD83D\uDCEE Veuillez utiliser les options de prise de contact en bas de page.",
+      "meetTeam": "Faites connaissance avec l'équipe"
+    },
+    "projects": {
+      "metaDescription": "Trouvez des apps et des sites internet alternatifs produits par la communauté \uD83D\uDC96",
+      "metaTitle": "Projets de la communauté",
+      "h1": "Projets de la communauté",
+      "description": "Trouvez des apps et des sites internet alternatifs produits par la communaut \uD83D\uDC96️",
+      "submitIdea": "Vous avez un super projet ? Partagez-le avec la communauté !",
+      "submitProject": "Proposez votre projet →"
+    },
+    "hubs": {
+      "metaDescription": "Trouvez un groupe près de chez vous \uD83D\uDC96️",
+      "metaTitle": "Réseaux partenaires",
+      "h1": "Réseaux partenaires",
+      "description": "Trouvez un groupe près de chez vous \uD83D\uDC96️️"
+    },
+    "campaigns": {
+      "title": "Rejoindre une campagne"
+    },
+    "campaign": {
+      "h1": "Campagne",
+      "subtitle": "Prochainement",
+      "getNotified": "\uD83D\uDC8C Recevoir une notification"
+    },
+    "collaborations": {
+      "h1": "Collaborations",
+      "subtitle": "Prochainement",
+      "getNotified": "\uD83D\uDC8C Recevoir une notification"
+    },
+    "location": {
+      "h1": "Localisation",
+      "subtitle": "Prochainement",
+      "getNotified": "\uD83D\uDC8C Recevoir une notification"
+    },
+    "partnership": {
+      "title": "Collaborations"
+    },
+    "contact": {
+      "title": "Nous contacter",
+      "general": "Contact",
+      "general-subtitle": "Des questions générales ?",
+      "partnership": "Partenariat",
+      "partnership-subtitle": "Établir un partenariat ?",
+      "press": "Presse",
+      "press-subtitle": "Des idées d'articles ?",
+      "tech": "Technique",
+      "tech-subtitle": "Des questions techniques ?"
+    },
+    "footer": {
+      "importantLinks": "Liens importants",
+      "sitemap": "Plan du site",
+      "license": "Licence",
+      "socialMedia": "Connection"
+    }
+  }
+  
+=======
   "nav": {
     "home": "Accueil",
     "docs": "Détecteurs",
@@ -139,4 +272,3 @@
     "withLove": "Réalisé avec \uD83D\uDC95 à Stuttgart, Allemagne"
   }
 }
-

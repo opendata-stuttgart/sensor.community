@@ -86,3 +86,4 @@ Now connect the NodeMCU to the computer with a short micro-USB cable (the cable 
 Wait until the process is done and done. Now we assemble the sensor.
 
 Un grand merci à [Piotr, from Poland](https://dropbox.inf.re/) pour son aide ! 🙋‍♂️ 
+

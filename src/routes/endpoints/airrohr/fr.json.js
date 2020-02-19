@@ -1,5 +1,5 @@
 import send from '@polka/send';
-import generate_docs from '../../utils/generate_docs.js';
+import generate_docs from '../../../utils/generate_docs.js';
 
 let json;
 
@@ -13,4 +13,3 @@ export function get(req, res) {
     });
 	
 }
-
