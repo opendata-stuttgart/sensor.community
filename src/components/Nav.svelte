@@ -127,6 +127,8 @@
                class:selected="{lang === 'en' ? 'selected' : ''}">{flag('usa')}</a>
             <a href="{`de/${pathWithoutLang}`}" class="uppercase block md:px-2"
                class:selected="{lang === 'de' ? 'selected' : ''}">{flag('de')}</a>
+            <a href="{`fr/${pathWithoutLang}`}" class="uppercase block md:pr-4"
+               class:selected="{lang === 'fr' ? 'selected' : ''}">{flag('fr')}</a>
             <!--      <LanguageSwitcher class="hidden sm:block sm:ml-6"/>-->
             <a href="https://github.com/opendata-stuttgart/" class="block md:px-4 text-gray-700 font-semibold">
                 <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none"
