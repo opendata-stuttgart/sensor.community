@@ -126,6 +126,12 @@
     "importantLinks": "Wichtige Links",
     "sitemap": "Sitemap",
     "license": "Lizenz",
-    "socialMedia": "Verbinden"
+    "socialLinks": "Verbinden",
+    "blog": "Blog",
+    "privacy" : "Datenschutz & Impressum",
+    "communityProjects": "Community Projekte",
+    "communityHubs": "Community Hubs",
+    "contributors": "Mitwirkende",
+    "withLove": "Mit \uD83D\uDC95 erstellt in Stuttgart, Deutschland"
   }
 }

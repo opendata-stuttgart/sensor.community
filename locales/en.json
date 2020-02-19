@@ -127,6 +127,12 @@
     "importantLinks": "Important Links",
     "sitemap": "Sitemap",
     "license": "License",
-    "socialMedia": "Connect"
+    "socialLinks": "Connect",
+    "blog": "Blog",
+    "privacy" : "Privacy & Terms",
+    "communityProjects": "Community Projects",
+    "communityHubs": "Community Hubs",
+    "contributors": "Contributors",
+    "withLove": "Made with \uD83D\uDC95 in Stuttgart, Germany"
   }
 }
