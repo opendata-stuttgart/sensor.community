@@ -4,7 +4,6 @@ title: Introduction
 
 > Fabriquez vous-même votre détecteur et prenez part à un projet mondial de science citoyenne, de données ouvertes et de technologie civique. Avec airrohr, vous pouvez vous-même mesurer le pollution de l'air🚀.
 
-
 ### Liste d'achats
 
 #### Configuration 1 
