@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "home": "Home",
+    "docs": "Sensor",
+    "blog": "Blog",
+    "projects": "Projekt",
+    "forum": "Forum",
+    "sensor": "Sensor",
+    "donate": "Unterstützen"
+  },
+  "error": {
+    "errorStatus": "Encountered a {status} error.",
+    "reloadPage": "Please try reloading the page.",
+    "offline": "It looks like you're offline.",
+    "submitError": "If the error persists, please drop by <a href=\"chat.sensor.community\">Discourse forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
+  },
+  "index": {
+    "metaDescription": "Bauen deinen eigenen DIY-Sensor und werden ein Teil des weltweiten civic tech, open data, open source Netzwerks. Unterstützt von vielen Mitwirkenden \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Baue deinen eigenen Sensor und treten dem open source Netzwerk bei.",
+    "h1-build": "Bauen deinen eigenen Sensor",
+    "h1-become": "und werden ein Teil des ",
+    "h1-civic-tech": "weltweiten Civic-Tech-Netzwerk \uD83C\uDF10",
+    "h1-support": "Unterstützt von einer Menge",
+    "h1-contributors": "Mitwirkende \uD83D\uDC95",
+    "inNumbers-title": "Sensor.Community in Zahlen",
+    "inNumbers-activeSensors": "Aktive Sensoren weltweit",
+    "inNumbers-countries": "Länder",
+    "inNumbers-dataPoints": "Datenpunkte",
+    "inNumbers-communityProjects": "Community Projects",
+    "inNumbers-communityHubs": "Community Hubs",
+    "inNumbers-fetching": "... Daten werden abrufen",
+    "inNumbers-error": "Ein Fehler ist aufgetreten!",
+    "message-description": "Sensor.community ist ein von Mitwirkenden betriebenes globales Sensornetzwerk, das open data Umweltdaten generiert.",
+    "message-mission": "Unsere Mission ist es, das Leben der Menschen zu inspirieren und zu bereichern, indem wir eine Plattform bieten.",
+    "message-hubs": "Sensor.community hat globale Hubs in Stuttgart, Sofia, Warschau und Brüssel."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Find your sensor and building instructions for your DYI fine dust sensor",
+    "h1": "Sensor Kits",
+    "subtitle": "Finden unsere Anleitungen für deinen Sensor"
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Forum",
+    "h1": "Forum",
+    "subtitle": "Demnächst.",
+    "getNotified": "\uD83D\uDC8C Werde benachrichtigt"
+  },
+  "donate": {
+    "metaDescription": "Wir sind gemeinnützig, nicht korporativ und nicht kompromittiert. Menschen wie Sie helfen uns. Wir sind auf Spenden angewiesen, um unsere Mission zu erfüllen.",
+    "metaTitle": "Spenden Sie - helfen Sie uns, indem Sie Ihre Liebe zeigen",
+    "h1": "Zeigen deine Unterstützung",
+    "description": "Wir sind gemeinnützig, nicht korporativ und nicht kompromittiert. Menschen wie Sie helfen uns. Wir sind auf Spenden angewiesen, um unsere Mission zu erfüllen.",
+    "section": "Wege zur Förderung von Sensor.Community",
+    "campaign": "Laufende Kampagne",
+    "donate": "direkte Spende",
+    "holder": "Kontoinhaber",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Bank",
+    "intendedUse": "Verwendungszweck",
+    "donationDescription": "Die Open Knowledge Foundation Deutschland ist als gemeinnützig anerkannt."
+  },
+  "blog": {
+    "metaDescription": "Finde Nachrichten oder andere interessante Informationen",
+    "metaTitle": "News",
+    "h1": "Neueste Beiträge",
+    "description": "Finde Nachrichten oder andere interessante Informationen"
+  },
+  "contributors": {
+    "metaDescription": "Die Menschen hinter dem Projekt",
+    "metaTitle": "Mitwirkende von  Sensor.Community",
+    "h1": "Hallo vom Team \uD83D\uDC4B",
+    "description": "Meet the team who is working behind the scenes to harness the power of Sensor.Community.",
+    "contactBottom": "\uD83D\uDCEE Bitte nutzen die Kontaktmöglichkeiten am Ende der Seite.",
+    "meetTeam": "Lernen das Team kennen"
+  },
+  "projects": {
+    "metaDescription": "Finden Sie mobile Apps, Websites,... aus unserer wunderbaren Gemeinschaft\uD83D\uDC96",
+    "metaTitle": "Community Projects",
+    "h1": "Community Projects",
+    "description": "Finden Sie mobile Apps, Websites,... aus unserer wunderbaren Gemeinschaft \uD83D\uDC96️",
+    "submitIdea": "Hast du ein großartiges Projekt? Teilen mit der Gemeinschaft!",
+    "submitProject": "Reiche ein Projekt ein →"
+  },
+  "hubs": {
+    "metaDescription": "Finden eine Community auf der ganzen Welt \uD83D\uDC96️",
+    "metaTitle": "Community Hubs",
+    "h1": "Community Hubs",
+    "description": "Finden eine Community auf der ganzen Welt \uD83D\uDC96️️"
+  },
+  "campaigns": {
+    "title": "Nehme an einer Kampagne teil"
+  },
+  "campaign": {
+    "h1": "Kampagne",
+    "subtitle": "Demnächst.",
+    "getNotified": "\uD83D\uDC8C Werde benachrichtigt"
+  },
+  "collaborations": {
+    "h1": "Kollaborationen",
+    "subtitle": "Demnächst.",
+    "getNotified": "\uD83D\uDC8C Werde benachrichtigt"
+  },
+  "location": {
+    "h1": "Standort",
+    "subtitle": "Demnächst.",
+    "getNotified": "\uD83D\uDC8C Werde benachrichtigt"
+  },
+  "partnership": {
+    "title": "Kollaborationen"
+  },
+  "contact": {
+    "title": "Schreib uns doch",
+    "general": "Kontakt",
+    "general-subtitle": "Allgemeine Frage?",
+    "partnership": "Zusammenarbeit",
+    "partnership-subtitle": "Sie möchten mit uns zusammenarbeiten?",
+    "press": "Presse",
+    "press-subtitle": "Ideen für Artikel?",
+    "tech": "Technik",
+    "tech-subtitle": "Technische Fragen?"
+  },
+  "footer": {
+    "importantLinks": "Wichtige Links",
+    "sitemap": "Sitemap",
+    "license": "Lizenz",
+    "socialLinks": "Verbinden",
+    "blog": "Blog",
+    "privacy" : "Datenschutz & Impressum",
+    "communityProjects": "Community Projekte",
+    "communityHubs": "Community Hubs",
+    "contributors": "Mitwirkende",
+    "withLove": "Mit \uD83D\uDC95 erstellt in Stuttgart, Deutschland"
+  }
+}
