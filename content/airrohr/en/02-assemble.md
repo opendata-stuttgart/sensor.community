@@ -1,5 +1,5 @@
 ---
-title: Assemble the eletronics
+title: Assemble
 ---
 
 > ⚠️ **IMPORTANT NOTE**
@@ -57,16 +57,7 @@ DHT22 Pin 3 -> unused
 DHT22 Pin 4 -> Pin GND
 ```
 
-### Electronic switch
-The particulate matter sensor SDS011 and the temperature and humidity sensor DHT22 are connected with cables to the chip (NodeMCU).
-
-### Connecting displays and other sensors
-In the FAQ, under ‘Connecting other sensors’, there is a list of supported sensors (such as BME280) and displays. It is also described how to connected those.
-
-![](../docs/nodemcu-v3-schaltplan-sds011.jpg)
-
-
-#### Tie everything together
+### Tie everything together
 Tie NodeMCU (ESP8266) and SDS011 fine dust sensor together with a cable tie. Point the Wifi antenna away from the sensor (see picture).
 
 ![](../docs/tie-together-1.png)

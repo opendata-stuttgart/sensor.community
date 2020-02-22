@@ -40,6 +40,13 @@
     "h1": "Sensor Kits",
     "subtitle": "Finden unsere Anleitungen für deinen Sensor"
   },
+  "guide": {
+    "editOnGithub": "edit on Github"
+  },
+  "airrohr": {
+    "metaTitle": "Baue deinen eigenen Feinstaubsensor.",
+    "metaDescription": ""
+  },
   "forum": {
     "metaDescription": "",
     "metaTitle": "Forum",

@@ -1,8 +1,8 @@
 ---
-title: Introduction
+title: Einleitung
 ---
 
-> Build a DIY sensor and become part of the worldwide, opendata & civictech network. With airrohr you can measure airpollution yourself🚀.
+>  Baue einen DIY-Feinstaub-Sensor und werden Sie Teil des weltweiten open data- und civic tech-Netzwerks. Mit airrohr können Sie die Luftverschmutzung selber messen 🚀.
 
 
 ### Shopping list

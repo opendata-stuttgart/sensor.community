@@ -1,7 +1,6 @@
 ---
-title: Configure the particulare matter sensor
+title: Configure
 ---
-### Configure
 
 Connect the station with the power cable
 
@@ -17,6 +16,7 @@ Android: If the connection is immediately disconnected, you may have to deactiva
 Open your browser and type in http://192.168.4.1/. 
 
 > ⚠️ **Please note**  It may take a few tries for the NodeMCU to connect to the home WLAN. Please do not get impatient and try until it works. The chip can also be configured via a smartphone. If the configuration of the sensor has worked, the configuration page is no longer accessible under this IP 192.168.4.1
+
 Under 'Configure' enter the SSID (name of the home WLAN) and the network security key (under Windows) or the WLAN password of the home WLAN, save
 
 For fine dust sensors according to this manual, no further changes are necessary
@@ -26,9 +26,9 @@ After saving, the sensor is restarted and is no longer accessible this way when 
 If no changes have been made other than entering the WLAN data, the sensor can be 'tested' on the following pages after about 10 minutes. On these pages you have to search for the ChipID (in the example above the 13597771).
 
  Sensordaten: www.madavi.de/sensor/graph.php WLAN-Signal: www.madavi.de/sensor/signal.php
-
+ 
 ![](../docs/airrohr_config_initial.png)
-
+ 
 ### Last steps
 
 Unter [devices.sensor.community](https://devices.sensor.community/) können Sensoren durch die Benutzer selbst eingetragen werden. Damit der Sensor Teil des Netzwerkes wird, brauchen wir noch einige Angaben.

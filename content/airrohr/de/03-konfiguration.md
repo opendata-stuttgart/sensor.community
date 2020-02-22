@@ -1,9 +1,6 @@
 ---
-title: Configure the particulare matter sensor
+title: Konfiguration
 ---
-
-### Configure
-
 
 Connect the station with the power cable
 

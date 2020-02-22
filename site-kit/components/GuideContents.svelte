@@ -1,6 +1,5 @@
 <script>
     import {_, locale, locales} from 'svelte-i18n';
-    import Icon from './Icon.svelte';
 
     export let sections = [];
     export let active_section = null;
@@ -26,10 +25,8 @@
         padding: 0 0 .8rem 0;
         text-transform: uppercase;
         font-weight: bold;
-        /*border-top: 1px #e2ecec solid;
-        padding-top: 20px; */
-    }
 
+    }
 
     .subsection {
         display: block;
@@ -46,26 +43,19 @@
     }
 
     .subsection[data-level="4"] {
-        padding-left: 1.2rem;
+        padding-left: 0.5rem;
     }
-
-    .icon-container {
-        position: absolute;
-        top: -.2rem;
-        right: 2.4rem;
-    }
-
 </style>
 
-<ul	bind:this={ul} class="reference-toc">
+<ul bind:this={ul} class="reference-toc">
     {#each sections as section}
         <li>
-            <a class="section" class:active="{section.slug === active_section}" href="{$locale}/sensor#{section.slug}">
+            <a class="section" class:active="{section.slug === active_section}" href="{$locale}/sensors/airrohr#{section.slug}">
                 {@html section.metadata.title}
 
                 {#if section.slug === active_section}
                     <div class="icon-container">
-                        <Icon name="arrow-right"/>
+
                     </div>
                 {/if}
             </a>
@@ -73,14 +63,12 @@
             {#each section.subsections as subsection}
                 <a class="subsection"
                    class:active="{subsection.slug === active_section}"
-                   href="{$locale}/sensor#{subsection.slug}"
+                   href="{$locale}/sensors/airrohr#{subsection.slug}"
                    data-level="{subsection.level}">
                     {@html subsection.title}
 
                     {#if subsection.slug === active_section}
-                        <div class="icon-container">
-                            <Icon name="arrow-right"/>
-                        </div>
+
                     {/if}
                 </a>
             {/each}

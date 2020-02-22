@@ -41,6 +41,13 @@
     "h1": "Kits de détecteurs",
     "subtitle": " Nos guides pour vos détecteurs"
   },
+  "guide": {
+    "editOnGithub": "edit on Github"
+  },
+  "airrohr": {
+    "metaTitle": "Construisez votre propre capteur de particules.",
+    "metaDescription": ""
+  },
   "forum": {
     "metaDescription": "",
     "metaTitle": "Forum",

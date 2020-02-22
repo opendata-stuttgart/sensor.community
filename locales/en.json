@@ -41,6 +41,13 @@
     "h1": "Sensor Kits",
     "subtitle": " Find our guides️ for your sensor"
   },
+  "guide": {
+    "editOnGithub": "edit on Github"
+  },
+  "airrohr": {
+    "metaTitle": "Build your own particulate matter sensor.",
+    "metaDescription": ""
+  },
   "forum": {
     "metaDescription": "",
     "metaTitle": "Forum",
