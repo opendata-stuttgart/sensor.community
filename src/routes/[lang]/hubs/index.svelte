@@ -1,15 +1,15 @@
 <script>
-    import initI18n from "../../utils/initI18n";
+    import initI18n from "../../../utils/initI18n";
     import {stores} from "@sapper/app";
-    import Contact from "../../components/Contact.svelte"
-    import Cards from "../../components/Cards.svelte"
+    import Contact from "../../../components/Contact.svelte"
+    import Cards from "../../../components/Cards.svelte"
 
     import {flag} from "country-emoji"
 
     const projects = [
-        { link: "/test", title: "Stuttgart", description: "8274 Sensors <br> 1525 Meetups", country: "PL", imageUrl: "https://picsum.photos/300/300/?random", type: "closed source"},
-        { link: "/test", title: "Brussel", description: "2342 Sensors <br> 124 Meetups", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source"},
-        { link: "/test", title: "China", description: "234 Sensors <br> 12 Meetups", country: "UK", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source"},
+        { link: "", title: "Stuttgart", description: "Stuttgart <br >8274 Sensors <br> 5 Contributors", country: "PL", imageUrl: "https://picsum.photos/300/300/?random", deactivate: true},
+        { link: "", title: "Brussel", description: "Brussel <br> 2342 Sensors <br> 2 Contributors", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",deactivate: true},
+        { link: "", title: "China", description: "China <br> 234 Sensors <br> 4 Contributors", country: "UK", imageUrl: "https://picsum.photos/300/300/?random",deactivate: true},
     ]
 
     const {page} = stores();
@@ -54,6 +54,7 @@
                             imageUrl={project.imageUrl}
                             country={project.country}
                             type={project.type}
+                            deactivate={project.deactivate}
                     />
                 </div>
             </div>
