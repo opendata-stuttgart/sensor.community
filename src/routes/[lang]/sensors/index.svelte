@@ -11,8 +11,8 @@
 
     const sensors = [
         { link: "/sensors/airrohr/", title: "Sensor Kit #1", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "~ 49.99 €" },
-        { link: "", title: "Sensor Kit #2", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "-- €"},
-        { link: "", title: "Sensor Kit #3", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "-- €"}
+        { link: "", title: "Sensor Kit #2", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "-- €", deactivate: true},
+        { link: "", title: "Sensor Kit #3", description: "NodeMCU <br> SDS011", imageUrl: "images/nodemcu-sds011.jpg", hasPrice: true, price: "-- €", deactivate: true}
     ]
 </script>
 
@@ -54,6 +54,7 @@
                             type={sensor.type}
                             hasPrice={sensor.hasPrice}
                             price={sensor.price}
+                            deactivate={sensor.deactivate}
                     />
                 </div>
             </div>
