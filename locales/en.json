@@ -27,13 +27,13 @@
     "inNumbers-countries": "Countries",
     "inNumbers-dataPoints": "Data Points",
     "inNumbers-communityProjects": "Community Projects",
-    "inNumbers-communityHubs": "Community Hubs",
+    "inNumbers-communityHubs": "Community Pins",
     "inNumbers-commits": "GitHub Commits",
     "inNumbers-fetching": "... fetching data",
     "inNumbers-error": "An error occurred!",
     "message-description": "Sensor.Community is a contributors driven global sensor network that creates Open Environmental Data.",
     "message-mission": "Our mission is to inspire and enrich people’s lives by offering a platform for the collective curiosity in nature that is genuine, joyful and positive.",
-    "message-hubs": "Sensor.Community has global hubs in Stuttgart, Sofía, Warsaw, Brussels."
+    "message-hubs": "Sensor.Community has global hubs in Stuttgart, Sofía and Warsaw."
   },
   "sensor": {
     "metaDescription": "",
@@ -53,7 +53,7 @@
     "metaTitle": "Forum",
     "h1": "Forum",
     "subtitle": "Coming soon",
-    "getNotified": "\uD83D\uDC8C Get notified"
+    "getNotified": "Subscribe"
   },
   "donate": {
     "metaDescription": "We are non-profit, non-corporate and non-compromised. People like you help us. We rely on donations to carry out our mission.",
@@ -141,5 +141,23 @@
     "communityHubs": "Community Hubs",
     "contributors": "Contributors",
     "withLove": "Made with \uD83D\uDC95 in Stuttgart, Germany"
+  },
+  "imprint": {
+    "h1": "Imprint & Privacy",
+    "lastModified": "Last Modified: ",
+    "imprint": "Imprint",
+    "imprintName": "Name: ",
+    "imprintStreet": "Street: ",
+    "imprintPostalCode": "Zip Code: ",
+    "imprintCountry": "Country: ",
+    "imprintMail": "Email: ",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Responsible",
+    "privacyPolicyDesc": "With this privacy policy we would like to inform you about the type, scope and purpose of the processing of personal data on our website. Personal data are all data that have a personal reference to you, e.g. name, address, e-mail address or user behaviour. With regard to the terms used, such as \"processing\" or \"responsible person\", we refer to the definitions in Art. 4 of the Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyName": "Name: ",
+    "privacyPolicyStreet": "Street: ",
+    "privacyPolicyPostalCode": "Zip code: ",
+    "privacyPolicyCountry": "Country: ",
+    "privacyPolicyMail": "Email: "
   }
 }
