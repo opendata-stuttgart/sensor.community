@@ -26,7 +26,7 @@
                          src="{imageUrl}"
                          alt="">
                 </div>
-                <div class="p-6">
+                <div class="p-6 text-gray-700">
                     <div class="text-2xl font-bold">{@html description}</div>
                     {#if hasCountry}
                         <div class="flex justify-between items-center pt-4">
@@ -48,7 +48,7 @@
                      src="{imageUrl}"
                      alt="">
             </div>
-            <div class="p-6">
+            <div class="p-6 text-gray-700">
                 <div class="text-2xl font-bold">{@html description}</div>
 
                 {#if hasCountry}

@@ -18,6 +18,10 @@
     return await response.json()
   })()
 
+  function formatNumber(n) {
+   return String(n).replace(/\d+?(?=(?:\d{3})+$)/img, "$&.");
+  }
+
 </script>
 
 <svelte:head>
@@ -87,26 +91,26 @@
         <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-700">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-activeSensors')}</p>
-              <p class="text-4xl font-bold block" id="number_sensors">{data.numbers.sensors}</p>
+              <p class="text-4xl font-bold block" id="number_sensors">{formatNumber(data.numbers.sensors)}</p>
             </div>
         </div>
         <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-500">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-countries')}</p>
-              <p class="text-4xl font-bold block" id="number_countries">{data.numbers.countries}</p>
+              <p class="text-4xl font-bold block" id="number_countries">{formatNumber(data.numbers.countries)}</p>
             </div>
         </div>
         <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-teal-300">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-dataPoints')}</p>
-              <p class="text-4xl font-bold block" id="number_measurements">{data.numbers.measurements}</p>
+              <p class="text-4xl font-bold block" id="number_measurements">{formatNumber(data.numbers.measurements)}</p>
             </div>
         </div>
         <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 w-full md:w-1/3">
           <a href="{lang}/projects/">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-700">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityProjects')}</p>
-              <p class="text-4xl font-bold block" id="number_sensors">17</p>
+              <p class="text-4xl font-bold block" id="number_sensors"></p>
             </div>
           </a>
         </div>
@@ -115,7 +119,8 @@
 
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-500">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityHubs')}</p>
-              <p class="text-4xl font-bold block" id="number_hubs">{data.numbers.local_hubs}</p>
+              <p class="text-4xl font-bold block" id="number_hubs">23</p>
+<!--              <p class="text-4xl font-bold block" id="number_hubs">{data.numbers.local_hubs}</p>-->
             </div>
 
         </div>
@@ -124,7 +129,7 @@
              target="_blank">
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-300">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-commits')}</p>
-              <p class="text-4xl font-bold block" id="number_commits">{data.numbers.commits}</p>
+              <p class="text-4xl font-bold block" id="number_commits">{formatNumber(data.numbers.commits)}</p>
             </div>
           </a>
         </div>

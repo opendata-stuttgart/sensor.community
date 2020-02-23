@@ -53,7 +53,7 @@
     "metaTitle": "Forum",
     "h1": "Forum",
     "subtitle": "Coming soon",
-    "getNotified": "Subscribe"
+    "getNotified": "\uD83D\uDC8C Subscribe"
   },
   "donate": {
     "metaDescription": "We are non-profit, non-corporate and non-compromised. People like you help us. We rely on donations to carry out our mission.",
@@ -104,17 +104,17 @@
   "campaign": {
     "h1": "Campaign",
     "subtitle": "Coming soon",
-    "getNotified": "\uD83D\uDC8C Get notified"
+    "getNotified": "\uD83D\uDC8C Subscribe"
   },
   "collaborations": {
     "h1": "Collaborations",
     "subtitle": "Coming soon",
-    "getNotified": "\uD83D\uDC8C Get notified"
+    "getNotified": "\uD83D\uDC8C Subscribe"
   },
   "location": {
     "h1": "Location",
     "subtitle": "Coming soon",
-    "getNotified": "\uD83D\uDC8C Get notified"
+    "getNotified": "\uD83D\uDC8C Subscribe"
   },
   "partnership": {
     "title": "Collaborations"

@@ -7,9 +7,9 @@
     import {flag} from "country-emoji"
 
     const projects = [
-        { link: "", title: "Stuttgart", description: "Stuttgart <br >8274 Sensors <br> 5 Contributors", country: "PL", imageUrl: "https://picsum.photos/300/300/?random", deactivate: true},
-        { link: "", title: "Brussel", description: "Brussel <br> 2342 Sensors <br> 2 Contributors", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",deactivate: true},
-        { link: "", title: "China", description: "China <br> 234 Sensors <br> 4 Contributors", country: "UK", imageUrl: "https://picsum.photos/300/300/?random",deactivate: true},
+        { link: "", title: "Stuttgart", description: "Stuttgart <br >754 Sensors <br> 5 Contributors", country: "PL", imageUrl: "https://picsum.photos/300/300/?random", deactivate: true},
+        { link: "", title: "Brussel", description: "Brussel <br> 560 Sensors <br> 2 Contributors", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",deactivate: true},
+        { link: "", title: "China", description: "Bejing <br> 14 Sensors <br> 4 Contributors", country: "UK", imageUrl: "https://picsum.photos/300/300/?random",deactivate: true},
     ]
 
     const {page} = stores();
@@ -48,7 +48,6 @@
                 <div class="mr-6 mb-6">
                     <Cards
                             link={lang}{project.link}
-                            title={project.title}
                             subtitle={project.subtitle}
                             description={project.description}
                             imageUrl={project.imageUrl}

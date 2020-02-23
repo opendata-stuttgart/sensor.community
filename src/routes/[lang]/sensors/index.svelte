@@ -11,17 +11,19 @@
 
     const sensors = [
         {
-            link: "/sensors/airrohr/",
+            link: "",
             title: "Sensor Kit #1",
-            description: "NodeMCU <br> SDS011 <br> ~ 50 €",
+            description: "Sensor Kit #1 <br> NodeMCU <br> SDS011 <br> ~ 50 €",
             imageUrl: "images/nodemcu-sds011.jpg",
             hasPrice: true,
-            price: "~ 50 €"
+            price: "~ 50 €",
+            deactivate: true
+
         },
         {
             link: "",
             title: "Sensor Kit #2",
-            description: "ESP32 <br> SDS011 <br> -- €",
+            description: "Sensor Kit #2 <br> ESP32 <br> SDS011 <br> -- €",
             imageUrl: "images/nodemcu-sds011.jpg",
             hasPrice: true,
             price: "-- €",
@@ -31,7 +33,7 @@
         {
             link: "",
             title: "Sensor Kit #3",
-            description: "ESP32 <br> -- <br> -- €",
+            description: "Sensor Kit #3 <br> ESP32 <br> -- <br> -- €",
             imageUrl: "images/nodemcu-sds011.jpg",
             hasPrice: true,
             price: "-- €",

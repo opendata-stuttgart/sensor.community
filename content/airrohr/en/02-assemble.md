@@ -36,7 +36,9 @@ Electronic switch
 ### NodeMCU v3
 Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized by the connections VU and G (see drawing). The versions have RSV at these ports. In these versions, the VIN ports can be used instead of VU and GND instead of G next to the MicroUSB port.
 
-#### Connection SDS011
+![](../docs/airrohr-wiring-sds011-bme280.jpg)
+
+#### Wiring SDS011
 Pins are numbered from RIGHT to LEFT, make sure when connecting that the cables are sitting on the pins, as most Dupont cables also fit inbetween the pins.
 ```bash
 SDS011 Pin 1 -> Pin D1 / GPIO5
@@ -48,13 +50,13 @@ SDS011 Pin 6 -> unused
 SDS011 Pin 7 -> unused
 ```
 
-#### Connecting DHT22
+#### Wiring BME280
 Pins are numbered from LEFT to RIGHT.
 ```bash
-DHT22 Pin 1 -> Pin 3V3 (3.3V)
-DHT22 Pin 2 -> Pin D7 (GPIO13)
-DHT22 Pin 3 -> unused
-DHT22 Pin 4 -> Pin GND
+VIN -> Pin 3V3 (3.3V)
+GND->  GND/G
+SDA -> PIN D3
+SCL -> Pin D4
 ```
 
 ### Tie everything together

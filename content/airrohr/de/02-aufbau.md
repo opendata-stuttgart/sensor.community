@@ -4,7 +4,7 @@ title: Aufbau
 
 > ⚠️ **IMPORTANT NOTE**
 Before assembling install the firmware!
-See import [firmware section](docs#Install_the_firmware).
+See import firmware section.
 
 ### NodeMCU v2
 Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized by the connections VU and G (see drawing). The versions have RSV at these ports. In these versions, the VIN ports can be used instead of VU and GND instead of G next to the MicroUSB port.
@@ -35,6 +35,8 @@ Electronic switch
 
 ### NodeMCU v3
 Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized by the connections VU and G (see drawing). The versions have RSV at these ports. In these versions, the VIN ports can be used instead of VU and GND instead of G next to the MicroUSB port.
+
+![](../docs/airrohr-wiring-sds011-bme280.jpg)
 
 #### Connection SDS011
 Pins are numbered from RIGHT to LEFT, make sure when connecting that the cables are sitting on the pins, as most Dupont cables also fit inbetween the pins.
