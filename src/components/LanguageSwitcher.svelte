@@ -24,11 +24,15 @@
 
 <div class="relative">
     <button on:click={menuToggle} class="uppercase block px-2 text-gray-700 font-semibold rounded">
-        {flag(`{lang}`)}
+        {#if flag(`${lang}`) != undefined}
+        {flag(`${lang}`)}
+        {:else}
+            {flag('gb')}
+        {/if}
     </button>
-    <div class="shadow-md absolute right-0 mt-2 py-2 w-24 bg-white rounded-lg shadow-xl { menu.open ? 'block' : 'hidden' }">
-        <a href="{`en/${pathWithoutLang}`}" class="uppercase block px-2 text-gray-700 font-semibold rounded hover:bg-teal-500" class:selected="{lang === 'en' ? 'selected' : ''}"> {flag('usa')} en</a>
-        <a href="{`de/${pathWithoutLang}`}" class="uppercase block px-2 text-gray-700 font-semibold rounded hover:bg-teal-500" class:selected="{lang === 'de' ? 'selected' : ''}"> {flag('de')} de</a>
-	      <a href="{`fr/${pathWithoutLang}`}" class="uppercase block px-2 text-gray-700 font-semibold rounded hover:bg-teal-500" class:selected="{lang === 'fr' ? 'selected' : ''}"> {flag('fr')} fr</a>
+    <div class="absolute right-0 mt-2 w-24 bg-white rounded-lg shadow-xl border { menu.open ? 'block' : 'hidden' }">
+        <a on:click={menuToggle} href="{`en/${pathWithoutLang}`}" class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white" class:selected="{lang === 'en' ? 'selected' : ''}"> {flag('gb')} en</a>
+        <a on:click={menuToggle} href="{`de/${pathWithoutLang}`}" class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white" class:selected="{lang === 'de' ? 'selected' : ''}"> {flag('de')} de</a>
+        <a on:click={menuToggle} href="{`fr/${pathWithoutLang}`}" class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white" class:selected="{lang === 'fr' ? 'selected' : ''}"> {flag('fr')} fr</a>
     </div>
 </div>

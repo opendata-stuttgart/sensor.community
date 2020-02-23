@@ -45,45 +45,47 @@ a:focus { outline: none }
 */
 
 /*	typography ----------------------------- */
-/*body {*/
-/*	font: 300 1.4rem/1.5 var(--font);*/
-/*	background-color: #ffffff;*/
-/*	color: #444;*/
-
-/*	!* default spacing of Overpass is a bit too airy *!*/
-/*	!* letter-spacing: -.013em; *!*/
-/*}*/
-
-/*h1, h2, h3, h4, h5, h6, blockquote {*/
-/*	position: relative;*/
-/*	margin: 0;*/
-/*	color: #676778;*/
-/*}*/
+h1, h2, h3, h4, h5, h6, blockquote {
+	position: relative;
+	margin: 0;
+	color: #676778;
+}
 
 .listify h1, h2, h3, h4, h5, h6 { font-weight: 600 }
 .listify h6 { font-size: 1rem }
 .listify h5 { font-size: 1.1rem }
-.listify h4 { font-size: 1.4rem }
-.listify h3 { font-size: 1.6rem }
-.listify h2 { font-size: 3rem }
-.listify h1 { font-size: 3.2rem }
+.listify h4 { font-size: 1.5rem }
+.listify h3 { font-size: 1.7rem }
+.listify h2 { font-size: 2.5rem }
+.listify h1 { font-size: 3rem }
 
-/*h1, h2 {*/
-/*	font-family: var(--font);*/
-/*	line-height: 1.25;*/
-/*}*/
+.listify h2 {
+	font-weight: bold;
+	line-height: 1.1;
+	margin: 0.25em 0;
+}
 
-/*h3 { font-weight: 300 }*/
+.listify h2:before {
+	content: " ";
+	display: block;
+	border-top: 1px solid #cbdade;
+	transition: border-color .3s;
+	padding: 0.25em 0;
+}
 
-/*p, ol, ul {*/
-/*	margin: 0 0 0 0.5em;*/
-/*}*/
 
-/*.b, b, strong { font-weight: 600 }*/
+.listify h3, h4, h5 {
+	margin: 1em 0 0.3em 0;
+}
+p, ol, ul {
+	margin: 0 0 0 0.5em;
+}
 
-/*tt, code, kbd, samp {*/
-/*	font-size: 1.3rem;*/
-/*}*/
+.b, b, strong { font-weight: 600 }
+
+tt, code, kbd, samp {
+	font-size: 1.3rem;
+}
 
 code {
 	position: relative;
@@ -99,6 +101,14 @@ pre code {
 	color: white;
 }
 
+
+:not(pre) > code {
+	color: #b32585;
+	padding: .2rem .33rem;
+	vertical-align: 1%;
+	font-size: .78em;
+	background-color: rgba(212, 53, 159, 0.03);
+}
 
 
 /* sync CodeMirror with prism  */
@@ -136,11 +146,14 @@ pre code {
 
 /*  links ------------------------------------- */
 .listify a {
-	text-decoration: none;
+	/*text-decoration: none;*/
 	color: #00a672;
 	-webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 	transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 	padding: 0.2em;
+	text-decoration: underline;
+	text-decoration-color: #e2cece;
+
 }
 
 .listify  a:hover  {
@@ -252,66 +265,4 @@ table code, table span {
 	border-radius: .4rem;
 }
 
-/*	theme colors --------------------------- */
-/*.prime      { color: #ff3e00 !important }*/
-/*.second     { color: #676778 !important }*/
-/*.flash      { color: #40b3ff !important }*/
-/*.black      { color: black !important }*/
-/*.white      { color: white !important }*/
 
-/*.back       { background-color: #ffffff !important }*/
-/*.back-light { background-color: #f6fafd !important }*/
-/*.bg-prime   { background-color: #ff3e00 !important }*/
-/*.bg-second  { background-color: #676778 !important }*/
-/*.bg-flash   { background-color: #40b3ff!important }*/
-
-/*	inputs --------------------------------- */
-input[type="checkbox"] {
-	/* display: block; */
-	position: relative;
-	height: 1em;
-	width: calc(100% - 0.6em);
-	max-width: 2em;
-	top: -2px;
-	border-radius: 0.5em;
-	-webkit-appearance: none;
-	outline: none;
-	margin: 0 0.6em 0 0;
-}
-
-input[type="checkbox"]::before {
-	content: "";
-	position: absolute;
-	display: block;
-	height: 100%;
-	width: 100%;
-	padding: 2px;
-	border-radius: 1em;
-	top: 0;
-	left: 0;
-	background: #676778;
-	/* box-sizing: border-box; */
-	box-sizing: content-box;
-}
-
-input[type="checkbox"]:checked::before {
-	background: #ff3e00;
-}
-
-input[type="checkbox"]::after {
-	content: "";
-	position: absolute;
-	display: block;
-	height: 1em;
-	width: 1em;
-	top: 2px;
-	left: 2px;
-	border-radius: 1em;
-	background: white;
-	box-shadow: 0 0px 1px rgba(0,0,0,.4), 0 4px 2px rgba(0,0,0,.1);
-	-webkit-transition: background .2s ease-out, left .2s ease-out;
-}
-
-input[type="checkbox"]:checked::after {
-	left: calc(100% - 9px);
-}
