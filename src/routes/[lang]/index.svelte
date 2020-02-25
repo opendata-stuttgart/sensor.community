@@ -35,19 +35,11 @@
 </svelte:head>
 
 <section>
-  <svg class="fill-current bg-gray-200 text-white mt-15"
-       xmlns="http://www.w3.org/2000/svg"
-       viewBox="0 0 1440 320">
-    <path fill-opacity="1"
-          d="M0,64L120,85.3C240,107,480,149,720,149.3C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-    ></path>
-  </svg>
-  <div class="relative z-20 md:block md:w-3/4 mx-auto md:bg-white md:shadow-lg xs:w-full sm:w-full xs:mt-10 md:-mt-64"
-       style="border-radius: 15px;">
+  <div class="relative z-20 md:block md:w-3/4 mx-auto md:bg-white md:shadow-lg mt-10 z-10">
     <div class="flex" style="height: 40em;">
-      <iframe scrolling="no"
+      <iframe scrolling="no" class="z-10"
               src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
-              style="width: 97%; height: 95%; margin: auto; overflow: hidden;"
+              style="width: 97%; height: 95%; margin: auto; "
               title="sensor.community particulate matter map"></iframe>
     </div>
   </div>
@@ -63,12 +55,6 @@
   </div>
 </section>
 
-<!--<section class="bg-teal-600 py-8">-->
-<!--    <a href="{lang}/airrohr"> <div class="container mx-auto px-4 text-center">-->
-<!--        <p class="text-4xl md:text-4xl max-w-md mx-auto leading-normal mb-8 text-white">Build your own airrohr.</p>-->
-<!--    </div>-->
-<!--    </a>-->
-<!--</section>-->
 
 <!--<p class="text-center p-4 text-gray-600 mt-10">-->
 <!--    Created your own DIY particulate matter airrohr or noise senor with our-->

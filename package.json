@@ -3,12 +3,12 @@
   "description": "sparkles new shiny website for dust and noise measuring project sensor.community based on sapper and svelte",
   "version": "0.1.0",
   "scripts": {
-    "dev": "sapper dev --ext '.svexy .svelte .svx'",
+    "dev": "sapper dev --ext '.svexy .svelte .svx' start:dev autobuild watch:build",
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build:tailwind": "NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "build": "npm run build:tailwind && sapper build --legacy",
     "start": "npm install && npx sapper export && npx serve __sapper__/export",
-    "export": "sapper export"
+    "export": "NODE_ENV=production postcss static/tailwind.css -o static/index.css && sapper export"
   },
   "dependencies": {
     "@polka/send": "^0.4.0",
