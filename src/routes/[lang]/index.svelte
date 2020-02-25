@@ -105,7 +105,8 @@
 
             <div class="rounded bg-gray-200 shadow-md h-64 p-6 flex flex-col justify-around hover:text-white hover:bg-blue-500">
               <p class="block -mb-1 text-base text-grey-dark text-4xl leading-tight ">{i18n.t('index:inNumbers-communityHubs')}</p>
-              <p class="text-4xl font-bold block" id="number_hubs">{data.numbers.local_hubs}</p>
+              <p class="text-4xl font-bold block" id="number_hubs">23</p>
+<!--              <p class="text-4xl font-bold block" id="number_hubs">{data.numbers.local_hubs}</p>-->
             </div>
 
         </div>
