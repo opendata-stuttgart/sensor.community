@@ -7,7 +7,7 @@
     $: i18n = initI18n(lang);
 </script>
 <footer class="bg-gray-200">
-    <div class="container px-8 md:px-4 mx-auto mt-12 border-grey-lighter py-10 flex flex-col">
+    <div class="container mx-auto mt-12 border-grey-lighter py-10 flex flex-col">
         <div class="flex flex-col md:flex-row">
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
                 <h4 class="text-base pb-4">{i18n.t('footer:importantLinks')}</h4>
