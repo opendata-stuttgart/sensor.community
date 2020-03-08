@@ -2,7 +2,7 @@
 title: Einleitung
 ---
 
->  Baue einen DIY-Feinstaub-Sensor und werden Sie Teil des weltweiten open data- und civic tech-Netzwerks. Mit airrohr können Sie die Luftverschmutzung selber messen 🚀.
+>  Baue einen DIY-Feinstaub-Sensor und werden Sie Teil des weltweiten open data- und civic tech-Netzwerks. Mit airrohr können Sie die Luftverschmutzung selber messen.
 
 
 ### Shopping list
