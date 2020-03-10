@@ -12,7 +12,7 @@ Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized
 <img src="../docs/airrohr-wiring-sds011-bme280.jpg" style="width:50%;"/>
 <small>Copyright: roman-minyaylov, MIT License</small>
 
-#### Wiring SDS011
+#### Wire the SDS011
 Pins are numbered from RIGHT to LEFT, make sure when connecting that the cables are sitting on the pins, as most Dupont cables also fit inbetween the pins.
 ```bash
 SDS011 Pin 1 -> Pin D1 / GPIO5
@@ -24,7 +24,12 @@ SDS011 Pin 6 -> unused
 SDS011 Pin 7 -> unused
 ```
 
-#### Wiring BME280
+#### Solder together BME280
+Connect the pin header with the BME280 board. Solder it from the backside. The gaps between the pins are very small so be patient and careful.  
+
+The trick is to put the soldering iron tip to the pin, warm it up a little, and then lightly apply the solder.  
+
+#### Wire the BME280
 Pins are numbered from LEFT to RIGHT.
 ```bash
 VIN -> Pin 3V3 (3.3V)
