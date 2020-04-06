@@ -4,6 +4,8 @@ title: Introduction
 > 🚧 Build a DIY sensor and become part of the worldwide, opendata & civictech network. With airrohr you can measure airpollution yourself.
 
 
+<img src="../docs/particulate-matter-air-quality-sensor-kit.jpeg"/>
+
 #### Shopping list
 ##### Sensor kit
 * [Pre-flashed Sensor Kit](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
