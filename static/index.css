@@ -543,10 +543,6 @@ h1 {
   background-color: #e53e3e;
 }
 
-.bg-orange-500 {
-  background-color: #ed8936;
-}
-
 .bg-yellow-500 {
   background-color: #ecc94b;
 }
@@ -752,10 +748,6 @@ h1 {
   height: 100%;
 }
 
-.leading-none {
-  line-height: 1;
-}
-
 .leading-tight {
   line-height: 1.25;
 }
@@ -894,10 +886,6 @@ h1 {
   opacity: 0.25;
 }
 
-.opacity-50 {
-  opacity: 0.5;
-}
-
 .opacity-75 {
   opacity: 0.75;
 }
@@ -953,11 +941,6 @@ h1 {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
 }
 
 .py-4 {

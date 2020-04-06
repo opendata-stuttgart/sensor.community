@@ -7,9 +7,6 @@
 	--main-width: 80rem;
 	--side-nav:  3.2rem;
 	--side-page:   var(--side-nav);
-
-	/* easings */
-	--out-back:    cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 /*@media screen and (min-width: 768px) {*/
@@ -45,12 +42,6 @@ a:focus { outline: none }
 */
 
 /*	typography ----------------------------- */
-h1, h2, h3, h4, h5, h6, blockquote {
-	position: relative;
-	margin: 0;
-	color: #676778;
-}
-
 .listify h1, h2, h3, h4, h5, h6 { font-weight: 600 }
 .listify h6 { font-size: 1rem }
 .listify h5 { font-size: 1.1rem }
@@ -62,16 +53,16 @@ h1, h2, h3, h4, h5, h6, blockquote {
 .listify h2 {
 	font-weight: bold;
 	line-height: 1.1;
-	margin: 0.25em 0;
+	/*margin: 0.25em 0;*/
 }
 
-.listify h2:before {
-	content: " ";
-	display: block;
-	border-top: 1px solid #cbdade;
-	transition: border-color .3s;
-	padding: 0.25em 0;
-}
+/*.listify h2:before {*/
+/*	content: " ";*/
+/*	display: block;*/
+/*	border-top: 1px solid #cbdade;*/
+/*	transition: border-color .3s;*/
+/*	padding: 0.25em 0;*/
+/*}*/
 
 
 .listify h3, h4, h5 {
@@ -151,14 +142,14 @@ pre code {
 	-webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 	transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
 	padding: 0.2em;
-	text-decoration: underline;
+	text-decoration: none;
 	text-decoration-color: #e2cece;
 
 }
 
 .listify  a:hover  {
-	box-shadow: inset 0 -1.5em 0 #00a672;
-	color: white;
+	box-shadow: inset 0 -1.5em 0 rgba(0, 166, 114, 0.2);
+	color: #008057;
 	padding: 0.2em;
 }
 
@@ -212,32 +203,6 @@ td, th {
 
 table code, table span {
 	white-space: pre;
-}
-
-/*	grid ----------------------------------- */
-.grid, .grid.half {
-	display: grid;
-	grid-gap: 2.4rem;
-	grid-template-columns: 1fr;
-	align-items: center;
-}
-
-.grid.stretch { align-items: stretch }
-
-.grid > .cols-2,
-.grid > .cols-3 { grid-column: span 1 }
-
-@media screen and (min-width: 840px) {
-	.grid.half,
-	.grid { grid-template-columns: repeat(2, 1fr) }
-	.grid > .cols-2,
-	.grid > .cols-3 { grid-column: span 2 }
-}
-
-@media screen and (min-width: 1100px) {
-	.grid { grid-template-columns: repeat(3, 1fr) }
-	.grid > .cols-2 { grid-column: span 2 }
-	.grid > .cols-3 { grid-column: span 3 }
 }
 
 /*	helper styles -------------------------- */
