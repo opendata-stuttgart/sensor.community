@@ -6,18 +6,14 @@ title: Assemble
 Before assembling install the firmware!
 See import [firmware section](docs#Install_the_firmware).
 
-<img src="../docs/particulate-matter-air-quality-sensor-kit.jpeg"/>
-
-
 ### NodeMCU v3
 Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized by the connections VU and G (see drawing). The versions have RSV at these ports. In these versions, the VIN ports can be used instead of VU and GND instead of G next to the MicroUSB port.
 
 <img src="../docs/airrohr-wiring-sds011-bme280.jpg" style="width:50%;"/>
 <small>Copyright: roman-minyaylov, MIT License</small>
 
-
-
-<img src="../docs/nodemcu-v3-bme280.jpeg"/>
+<img src="../docs/nodemcu-v3-bme280.jpeg" style="margin-top: 5rem"/>
+When you done, this is how it should look like.
 
 
 #### Wire the SDS011
