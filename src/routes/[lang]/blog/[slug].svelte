@@ -82,6 +82,8 @@
 
     img {
         max-width: 100%;
+        height: auto;
+        display: inline;
     }
 
     hr {

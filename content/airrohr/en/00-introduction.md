@@ -1,12 +1,12 @@
 ---
 title: Introduction
 ---
-> 🚧 Build a DIY sensor and become part of the worldwide, opendata & civictech network. With airrohr you can measure airpollution yourself.
+> 🚧 Build your DIY sensor and become part of the worldwide, opendata & civictech network. <br> With airRohr you can measure air pollution yourself.
 
 
 <img src="../docs/particulate-matter-air-quality-sensor-kit.jpeg"/>
 
-#### Shopping list
+### Shopping list
 ##### Sensor kit
 * [Pre-flashed Sensor Kit](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
 
@@ -24,7 +24,8 @@ title: Introduction
 * [Weather protection, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 
-#### Waiting Phase
-🙌 Great, you decided to but the parts online! 
-Unfortunaltely this can take from days up to four weeks. 
-So enjoy your life until ⛱️.
+<br>
+
+🙌 Great, you decided to buy the parts online! 
+Unfortunately this can take from days up to three weeks. 
+Until then enjoy your life ⛱️.

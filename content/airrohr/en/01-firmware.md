@@ -2,17 +2,22 @@
 title: Driver & firmware
 ---
 
-We already programmed the firmware. You only have to installed drivers and flash it on the NodeMCU (ESP8288). 
-To communicate with the ESP8266 you need usb2serial drivers. The chipset for NocdeMCUs is usually CH341. Choose the link that corresponds to the operating system of your computer.
+We already prepared the firmware. You only have to installed drivers and flash your NodeMCU (ESP8266). 
+
+To communicate with your ESP8266 you need usb2serial drivers for your operating system. 
+
+The chipset for NocdeMCUs v3 is usually CH341, just check the back of your NodeMCU to find some technical information. 
+
+Choose the link that corresponds to the operating system of your computer.
 
 ### Windows
 
-##### Drivers for the old V2 model (CP2102) for Windows
-* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) 
-* [Windows 7/8/8.1 (32-bit version - **not** supporting-bit version OS)](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip)
+##### Drivers for model V2 (CP2102) for Windows
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 should be able to automatically download these
+* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit version - **not** supporting-bit version OS
 
 ##### Driver for model V3 (CH341) for Windows
-* [Windows](http://www.wch.cn/downloads/file/5.html)
+* [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 should be able to automatically download these
 
 ##### Extract the downloaded file for Windows:
 * for V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
@@ -27,8 +32,8 @@ To communicate with the ESP8266 you need usb2serial drivers. The chipset for Noc
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 
 #####  Extract the downloaded file for MacOS.
-* for V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
-* for V3: open the folder CH341SER and double click on the application SETUP.
+* for V2: Unzip the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
+* for V3: Unzip the folder CH341SER and double click on the application SETUP.
 * Restart your Mac
 
 ---
@@ -37,16 +42,14 @@ To communicate with the ESP8266 you need usb2serial drivers. The chipset for Noc
 No drivers need to be installed. Chip should be supported directly (verifiable with dmesg)
 
 ---
-### Download Firmware Flasher 
+### Firmware Flasher 
+Support for multiple Operating Systems: Windows, MacOS and Linux.
 
-* [Windows (64-bit)](https://luftdaten.info/flashtool/luftdaten-tool.zip)
-* [MacOS](https://luftdaten.info/flashtool/luftdaten-tool.dmg)
-* [Linux (64-bit)](https://luftdaten.info/flashtool/luftdaten-tool.linux-x64)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
 * [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
-### Install Firmware
-Now connect the NodeMCU to the computer with a short micro-USB cable (the cable should not be longer than 1m, otherwise the installation may fail). Select the latest version `latest_en.bin` (or another language version) and click “Upload”.
-Wait until the process is done and done. Now we assemble the sensor.
+Connect NodeMCU to your computer with a short micro-USB cable (choose one shorter than 1 Meter, otherwise the installation may fail). Select `latest_en.bin` (or another language version) and click “Upload”.
+Wait until the process is done. Now we can assemble the sensor.
 <br>
-A big thank you goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
+A big thanks goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
 
