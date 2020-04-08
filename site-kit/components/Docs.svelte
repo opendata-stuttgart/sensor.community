@@ -303,7 +303,9 @@
         letter-spacing: 0.1em;
         margin: 5px;
     }
-
+    img {
+        display: inline;
+    }
 
 </style>
 

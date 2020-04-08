@@ -35,6 +35,10 @@ a {
 a:hover, a:active { color: #40b3ff }
 a:focus { outline: none }
 
+img {
+	display: inline;
+}
+
 /*
 -----------------------------------------------
 	global styles

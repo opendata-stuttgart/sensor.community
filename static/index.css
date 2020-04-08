@@ -553,17 +553,17 @@ samp {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
-/*img,*/
-/*svg,*/
-/*video,*/
-/*canvas,*/
-/*audio,*/
-/*iframe,*/
-/*embed,*/
-/*object {*/
-/*  display: block;*/
-/*  vertical-align: middle;*/
-/*}*/
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  vertical-align: middle;
+}
 
 /**
  * Constrain images and videos to the parent width and preserve
