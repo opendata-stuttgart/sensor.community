@@ -163,6 +163,7 @@
 
         .content {
             padding-left: calc(var(--sidebar-w) + var(--side-nav));
+            padding-right: var(--side-nav);
         }
 
         .content .side-by-side {
@@ -301,6 +302,9 @@
         float: right;
         letter-spacing: 0.1em;
         margin: 5px;
+    }
+    img {
+        display: inline;
     }
 
 </style>
