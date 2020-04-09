@@ -134,4 +134,5 @@
         </div>
     </nav>
 </div>
-
+<a href="{`fr/${pathWithoutLang}`}" class="uppercase block md:pr-4"
+               class:selected="{lang === 'sk' ? 'selected' : ''}">{flag('sk')}</a>
