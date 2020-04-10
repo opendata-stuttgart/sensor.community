@@ -15,7 +15,7 @@ title: Configuration
 
 2. Pour les détecteurs de particules fines (avec capteur SDS011) décrits dans les présentes isntructions, aucune autre configuration n'est nécessaire
 
-3. Cliquez sur le bouton 'Enregistrer', la station va redémmarer et se connecter à votre réseau. Elle ne sera plus directement accessible. Vous devriez toutefois pouvoir utiliser une adresse de la forme `airRohr-ID.local` (cf. ci dessus) ou bien passer par une adresse IP locale de la forme `192.168.1._ _ _` à récuperer dans la liste des appareils connectés à votre box internet.
+3. Cliquez sur le bouton 'Enregistrer', la station va redémmarer et se connecter à votre réseau. Elle ne sera plus directement accessible. Vous devriez toutefois pouvoir utiliser une adresse de la forme `airRohr-ID.local` (cf. ci dessus) ou bien passer par une adresse IP locale de la forme `192.168.1.<nombre>` (peut varier selon les fournisseurs d'accès) à récuperer dans la liste des appareils connectés à votre box internet.
 
 <br>
 

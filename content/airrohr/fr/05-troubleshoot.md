@@ -18,9 +18,9 @@ L'[ID] peut également être recherchée sur la page [https://www.madavi.de/sens
 * Le Wifi est-il bien configuré ? (La station se connecte-t-elle au réseau ?) Dans le cas contraire :
     * Le détecteur crée-t-il un point d'accès (dans les 2 à 7 minutes après le redémarrage) ?
     * Cherchez un réseau Wifi `airrohr-[ID]`. Patience, il peut apparaître une à deux minutes après le branchement de la station.
-* Vérifiez sur votre box que la station est connectée au réseau Wifi et noter l'adresse IP `192.168.1._ _ _`.
+* Vérifiez sur votre box que la station est connectée au réseau Wifi (cf. la liste des appareils connectés) et noter l'adresse IP `192.168.1.<nombre>` (peut varier selon les fournisseurs d'accès).
     * Utilisez le bouton "Rechercher" de l'[installateur Airrohr](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
-    * Si oui: connectez-vous au détecteur avec l'IP `192.168.1._ _ _` à l'aide d'un navigateur. Vous devez accéderÀ l'interface de configuration.
+    * Si oui: connectez-vous au détecteur avec l'IP `192.168.1.<nombre>` à l'aide d'un navigateur. Vous devez accéderÀ l'interface de configuration.
     * Si non: l'ESP a un problème, par exemple, une alimentation insuffisante, une boucle de redémarrage...
 * Connectez la prise USB à un ordinateur pour lire les sorties de la console de deboguage. 
     * Consultez les textes s'affichant sur le terminal du port série de la station (Configuration : 9600 bauds, 8N1)
