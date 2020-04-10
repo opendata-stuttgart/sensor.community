@@ -41,6 +41,13 @@
     "h1": "Kits de détecteurs",
     "subtitle": " Nos guides pour vos détecteurs"
   },
+  "guide": {
+    "editOnGithub": "edit on Github"
+  },
+  "airrohr": {
+    "metaTitle": "Construisez votre propre capteur de particules.",
+    "metaDescription": ""
+  },
   "forum": {
     "metaDescription": "",
     "metaTitle": "Forum",
@@ -267,5 +274,23 @@
     "donate": "Soutenir",
     "contributors": "Contributeurs",
     "withLove": "Réalisé avec \uD83D\uDC95 à Stuttgart, Allemagne"
+  },
+  "imprint": {
+    "h1": "Imprint & Privacy",
+    "lastModified": "Last Modified: ",
+    "imprint": "Imprint",
+    "imprintName": "Name: Rajko Zschiegner",
+    "imprintStreet": "Street:  Reichenbacher Str. 20",
+    "imprintPostalCode": "Zip Code: 07973 Greiz",
+    "imprintCountry": "Country: Germany",
+    "imprintMail": "Email: rajko@sensor.community",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Responsible",
+    "privacyPolicyDesc": "With this privacy policy we would like to inform you about the type, scope and purpose of the processing of personal data on our website. Personal data are all data that have a personal reference to you, e.g. name, address, e-mail address or user behaviour. With regard to the terms used, such as \"processing\" or \"responsible person\", we refer to the definitions in Art. 4 of the Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyName": "Name: Rajko Zschiegner",
+    "privacyPolicyStreet": "Street:  Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Zip code: 07973 Greiz",
+    "privacyPolicyCountry": "Country: Germany",
+    "privacyPolicyMail": "Email: rajko@sensor.community"
   }
 }

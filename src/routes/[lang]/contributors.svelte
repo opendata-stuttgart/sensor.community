@@ -9,9 +9,9 @@
     $: i18n = initI18n(lang);
 
     const contributors = [
-        { title: "Rajko", description: "DevOps", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false },
-        { title: "Lukas", description: "Partnership & Community", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false },
-        { title: "David", description: "Developer", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false }
+        { title: "Rajko", description: "Rajko <br> DevOps", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false, deactivate:true },
+        { title: "Lukas", description: "Lukas <br> Partnership & Community", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false, deactivate:true },
+        { title: "David", description: "David <br> Developer", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false, deactivate:true }
     ]
 </script>
 
@@ -50,7 +50,7 @@
 
         {#each contributors as contributor}
             <div class="w-full md:w-1/3">
-                <div class="mr-6 mb-6 hover:shadow-lg">
+
                     <Cards
                             link={contributor.link}
                             title={contributor.title}
@@ -60,8 +60,9 @@
                             country={contributor.country}
                             type={contributor.type}
                             isFav={contributor.isFavorite}
+                            deactivate={contributor.deactivate}
                     />
-                </div>
+
             </div>
         {/each}
 
