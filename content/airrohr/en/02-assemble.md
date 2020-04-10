@@ -15,7 +15,7 @@ Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized
 
 <img src="../docs/nodemcu-v3-bme280.jpeg" style="margin-top: 1em"/>
 
-##### When you done, this is how it should look like
+##### When you are done, this is how it should look like
 
 
 ### Wire the SDS011
@@ -61,7 +61,7 @@ Use a cable tie to link the NodeMCU (ESP8266) and the SDS011 sensor so that the 
  
 * connect the flexible tube to the SDS011 sensor
 * Use another cable tie to attach the BME280 temperature sensor to the tube
-* Pass the USB cable through the tube. Mount the SDS011 is facing to the top and the fan is facing to the bottom
+* Pass the USB cable through the tube. Mount the SDS011 with the NodeMCU facing to the top and the fan facing to the bottom
 
  
  ##### Push in sensor into the pipe

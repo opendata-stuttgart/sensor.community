@@ -2,7 +2,7 @@
 title: Driver & firmware
 ---
 
-We already prepared the firmware. You only have to installed drivers and flash your NodeMCU (ESP8266). 
+We already prepared the firmware. You only have to install drivers and flash your NodeMCU (ESP8266). 
 
 To communicate with your ESP8266 you need usb2serial drivers for your operating system. 
 
@@ -14,7 +14,7 @@ Choose the link that corresponds to the operating system of your computer.
 
 ##### Drivers for model V2 (CP2102) for Windows
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 should be able to automatically download these
-* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit version - **not** supporting-bit version OS
+* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit version - **not** supporting 64-bit version OS
 
 ##### Driver for model V3 (CH341) for Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 should be able to automatically download these
