@@ -1,22 +1,22 @@
 ---
-title: Troubleshoot
+title: Problèmes & difficultés
 ---
 
-### Transmitting problems?
-Enter the following in the browser with your own data:
+### Problèmes de transmission ?
+Entrez l'adresse suivante dans votre navigateur en remplçant l'ID et le type de capteur :
 `https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor type]`
 
-The [ID] can also be searched for in the text on the page [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
+L'[ID] peut égalemnt être recherchée sur la page [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
 
-* Is the sensor registered via [https://devices.sensor.community/](https://devices.sensor.community/) and is the sensor visible on the map?
-    * Was the WLAN signal level weak in the past?
-        here is the signal log server-side: `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
+* Le détecteur a-t-il été enregistré sur le site [https://devices.sensor.community/](https://devices.sensor.community/) et est-il visible sur la carte ?
+    * Le signal Wifi était-il faible dernièrement ?
+        Ici, un server qui enregistre le niveau de signal Wifi : `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
         
 
 
-### USB cable problems?
-* Check power supply: USB cable
-* Reboot (disconnect power supply, e.g. pull USB plug)
+### Problèmes de câble USB ?
+* Vérifiez la prise d'alimentation USB et le câble.
+* Redémarez (débranchez l'alimentation et/ou le câble).
 * Is the WLAN Config OK (the sensor connects to the configured WLAN) If not:
     * does the sensor open an AP (in the first 2-7 minutes after a reboot)?
     * Look for `airrohr-[ID]` WLAN network. Patience, it may take 1-2 minutes after boot.
