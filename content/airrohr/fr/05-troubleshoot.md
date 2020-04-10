@@ -6,7 +6,7 @@ title: Problèmes & difficultés
 Entrez l'adresse suivante dans votre navigateur en remplçant l'ID et le type de capteur :
 `https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor type]`
 
-L'[ID] peut égalemnt être recherchée sur la page [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
+L'[ID] peut également être recherchée sur la page [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
 
 * Le détecteur a-t-il été enregistré sur le site [https://devices.sensor.community/](https://devices.sensor.community/) et est-il visible sur la carte ?
     * Le signal Wifi était-il faible dernièrement ?
@@ -16,10 +16,10 @@ L'[ID] peut égalemnt être recherchée sur la page [https://www.madavi.de/senso
 
 ### Problèmes de câble USB ?
 * Vérifiez la prise d'alimentation USB et le câble.
-* Redémarez (débranchez l'alimentation et/ou le câble).
-* Is the WLAN Config OK (the sensor connects to the configured WLAN) If not:
-    * does the sensor open an AP (in the first 2-7 minutes after a reboot)?
-    * Look for `airrohr-[ID]` WLAN network. Patience, it may take 1-2 minutes after boot.
+* Redémarrez (débranchez l'alimentation et/ou le câble).
+* Le Wifi est-il bien configuré ? (La station se connecte-t-elle au réseau ?) Dans le cas contraire :
+    * Le détecteur crée-t-il un point d'accès (dans les 2 à 7 minutes après le redémarrage) ?
+    * Cherchez un réseau Wifi `airrohr-[ID]`. Patience, il peut apparaître une à deux minutes après le branchement de la station.
 * Check on your own router if the sensor is logged into the network, then remember the IP 
     * alternatively use "Discovery" in the [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
     * If yes: connect to the sensor via IP with a browser `http://[ip-of-the-sensor]/` , the interface should appear 
@@ -30,7 +30,7 @@ L'[ID] peut égalemnt être recherchée sur la page [https://www.madavi.de/senso
         * possibly suitable usb2serial drivers are still necessary, see [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)                                                                                                                                                                                                                                                                                                                      
     * There you should be able to see what the sensor is doing (boot messages, WLAN connection or AP, measurement - only after 3 minutes)
 
-### Electronics problems?
+### Problèmesélectroniques ?
 * Remove sensor electronics from the housing and observe
 * Check/replace power supply again
     * does ESP flash shortly after reboot?
