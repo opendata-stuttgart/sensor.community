@@ -131,10 +131,10 @@
 
     .content {
         /*width: 85%;*/
-        margin: 0;
-        padding: var(--side-nav);
-        tab-size: 2;
-        -moz-tab-size: 2;
+        /*margin: 0;*/
+        padding-top: var(--side-nav);
+        /*tab-size: 2;*/
+        /*-moz-tab-size: 2;*/
     }
 
     @media (min-width: 832px) {
@@ -163,6 +163,7 @@
 
         .content {
             padding-left: calc(var(--sidebar-w) + var(--side-nav));
+            padding-right: var(--side-nav);
         }
 
         .content .side-by-side {
@@ -257,17 +258,9 @@
         max-width: 100%;
     }
 
-    .content .icon{
+    .content .icon {
         width: 1.4em;
         height: 1.4em;
-        stroke: #4a5568;
-        stroke-width: 2;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        fill: none;
-    }
-
-    .icon {
         position: relative;
         overflow: hidden;
         vertical-align: middle;
@@ -310,6 +303,9 @@
         letter-spacing: 0.1em;
         margin: 5px;
     }
+    img {
+        display: inline;
+    }
 
 </style>
 
@@ -319,16 +315,19 @@
             <h2>
                 <span id={section.slug}></span>
 
-                <!-- svelte-ignore a11y-missing-content -->
-                <a href="{$locale}/sensors/airrohr#{section.slug}" class="anchor" aria-hidden></a>
+<!--                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">-->
+<!--                    <path d="M30,12V8h-5.004l1-8h-4l-1,8h-7.998l1-8h-4l-1,8H2v4h6.498L7.5,20H2v4h5l-1,8h4l1-8h8l-1.002,8H22 l1-8h7v-4h-6.5l0.996-8H30z M19.5,20h-8l0.998-8h7.998L19.5,20z"/>-->
+<!--                </svg>-->
 
                 {@html section.metadata.title}
+                <a href="{$locale}/sensors/airrohr#{section.slug}" class="anchor" aria-hidden></a>
+
                 <small>
                     <a href="https://github.com/{owner}/{project}/edit/master/content/airrohr/{$locale}/{dir}/{section.file}"
                        title="{$_('guide.editOnGithub')}">
                         <svg class="icon" viewBox='0 0 24 24'>
-                            <path d='M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34' />
-                            <polygon points='18 2 22 6 12 16 8 16 8 12 18 2' />
+                            <path d='M20 14.66V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h5.34'/>
+                            <polygon points='18 2 22 6 12 16 8 16 8 12 18 2'/>
                         </svg>
                     </a>
                 </small>
@@ -348,8 +347,8 @@
              viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
 			  <path d="M53.333,106.667H416c29.417,0,53.333-23.927,53.333-53.333S445.417,0,416,0H53.333C23.917,0,0,23.927,0,53.333
 				S23.917,106.667,53.333,106.667z"/>
-             <path d="M416,181.333H53.333C23.917,181.333,0,205.26,0,234.667S23.917,288,53.333,288H416c29.417,0,53.333-23.927,53.333-53.333 S445.417,181.333,416,181.333z"/>
-             <path d="M416,362.667H53.333C23.917,362.667,0,386.594,0,416s23.917,53.333,53.333,53.333H416
+            <path d="M416,181.333H53.333C23.917,181.333,0,205.26,0,234.667S23.917,288,53.333,288H416c29.417,0,53.333-23.927,53.333-53.333 S445.417,181.333,416,181.333z"/>
+            <path d="M416,362.667H53.333C23.917,362.667,0,386.594,0,416s23.917,53.333,53.333,53.333H416
 				c29.417,0,53.333-23.927,53.333-53.333S445.417,362.667,416,362.667z"/>
         </svg>
     </button>

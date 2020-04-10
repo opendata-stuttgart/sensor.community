@@ -7,7 +7,6 @@ import hljs from 'highlight.js';
 
 export const SLUG_PRESERVE_UNICODE = false;
 export const SLUG_SEPARATOR = '_';
-export const SLUG_LANG = 'en';
 
 const block_types = [
     'blockquote',
@@ -109,7 +108,7 @@ export default function generate_docs(dir) {
                 return `
 					<h${level}>
 						<span id="${slug}" class="offset-anchor" ${level > 4 ? 'data-scrollignore' : ''}></span>
-						<a href="${dir}#${slug}" class="anchor" aria-hidden="true"></a>
+                        <!-- <a href="${dir}#${slug}" class="anchor" aria-hidden="true"></a>-->
 						${text}
 					</h${level}>`;
             };

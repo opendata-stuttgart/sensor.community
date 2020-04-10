@@ -11,13 +11,12 @@
 
     const sensors = [
         {
-            link: "",
+            link: "/sensors/airrohr/",
             title: "Sensor Kit #1",
             description: "Sensor Kit #1 <br> NodeMCU <br> SDS011 <br> ~ 50 €",
             imageUrl: "images/nodemcu-sds011.jpg",
             hasPrice: true,
-            price: "~ 50 €",
-            deactivate: true
+            price: "~ 50 €"
 
         },
         {
@@ -86,71 +85,7 @@
 
             </div>
         {/each}
-
     </div>
-
-    <!--    <div class="container mx-6 mx-auto">-->
-    <!--        <div class="flex flex-wrap">-->
-    <!--            <div class="w-full md:w-1/3 ">-->
-    <!--                <div class="mr-6 mb-6">-->
-    <!--                    <a href="/en/sensors/airrohr/">-->
-
-    <!--                    <div class="relative rounded-lg shadow-md hover:shadow-lg">-->
-    <!--                        <div class="relative flex items-center justify-center">-->
-    <!--                            <img class="h-auto w-full" src="images/nodemcu-sds011.jpg" alt="">-->
-    <!--                        </div>-->
-    <!--                        <div class="relative  px-6 pb-6 mt-6">-->
-    <!--                            <div class="flex justify-between">-->
-    <!--                                <span class="block font-bold text-xl">Sensor Kit 1</span>-->
-    <!--                                <span class="block bg-white rounded-full text-white bg-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">~ 49.99 €</span>-->
-    <!--                            </div>-->
-    <!--                            <span class="block">NodeMCU</span>-->
-    <!--                            <span class="block">SDS011</span>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                    </a>-->
-    <!--                </div>-->
-    <!--            </div>-->
-
-    <!--            <div class="w-full md:w-1/3">-->
-    <!--                <div class="mr-6 mb-6">-->
-    <!--                    <div class="relative rounded-lg shadow-md opacity-50">-->
-    <!--                        <div class="relative flex items-center justify-center">-->
-    <!--                            <img class="h-auto w-full" src="images/nodemcu-sds011.jpg" alt="">-->
-    <!--                        </div>-->
-    <!--                        <div class="relative px-6 pb-6 mt-6">-->
-    <!--                            <div class="flex justify-between">-->
-    <!--                                <span class="block font-semibold text-xl">Sensor Kit 2</span>-->
-    <!--                                <span class="block bg-white rounded-full text-white bg-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">&#45;&#45; €</span>-->
-    <!--                            </div>-->
-    <!--                            <span class="block">ESP32</span>-->
-    <!--                            <span class="block">SDS011</span>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-
-    <!--            <div class="w-full md:w-1/3">-->
-    <!--                <div class="mr-6 mb-6">-->
-    <!--                    <div class="relative rounded-lg shadow-md opacity-50">-->
-    <!--                        <div class="relative flex items-center justify-center">-->
-    <!--                            <img class="h-auto w-full" src="images/nodemcu-sds011.jpg" alt="">-->
-    <!--                        </div>-->
-    <!--                        <div class="relative px-6 pb-6 mt-6">-->
-    <!--                            <div class="flex justify-between">-->
-    <!--                                <span class="block font-semibold text-xl">Sensor Kit 3</span>-->
-    <!--                                <span class="block bg-white rounded-full text-white bg-orange-500 text-xs font-bold px-3 py-2 leading-none flex items-center">&#45;&#45; €</span>-->
-    <!--                            </div>-->
-    <!--                            <span class="block">ESP32</span>-->
-    <!--                            <span class="block">-</span>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-
-
-    <!--        </div>-->
-    <!--    </div>-->
 </section>
 
 
