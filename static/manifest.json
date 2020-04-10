@@ -1,10 +1,10 @@
 {
 	"background_color": "#ffffff",
 	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
-	"display": "minimal-ui",
-	"start_url": "/",
+	"name": "Sensor.Community",
+	"short_name": "Sensor.Community",
+	"display": "browser",
+	"start_url": "/en",
 	"icons": [
 		{
 			"src": "logo-192.png",

@@ -19,7 +19,7 @@
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <span class="block -mb-1 text-4xl">{i18n.t('contact:general')}</span>
                             <div class="flex justify-between">
-                                <span class="block text-3xl"> ️🧐 {i18n.t('contact:general-subtitle')}</span>
+                                <span class="block text-3xl"> ️🧐 {i18n.t('contact:tech-subtitle')}</span>
                             </div>
                         </div>
                     </a>
