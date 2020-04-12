@@ -28,5 +28,5 @@ title: Introduction
 <br>
 
 🙌 Vous avez décidé d'acheter les pièces en ligne, très bien ! 
-La livraison va cependant prendre qulques semaines. 
+La livraison va cependant prendre quelques semaines. 
 En attendant, profitez de la vie.
