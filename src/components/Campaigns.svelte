@@ -14,7 +14,7 @@
                 {i18n.t('campaigns:title')}</h2>
 
             <div class="mx-auto flex flex-wrap items-center justify-center text-gray-700">
-                <a href="{lang}/campaign/sensor2library">
+                <a href="{lang}/campaign">
                     <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-128">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700 hover:text-teal-700">
                             <div class="flex justify-between">
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="{lang}/campaign/no2">
+                <a href="{lang}/campaign">
                     <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-128">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="{lang}/campaign/sensorAtRefs">
+                <a href="{lang}/campaign">
                     <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-128">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="{lang}/campaign/zero200">
+                <a href="{lang}/campaign">
                     <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-128">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="{lang}/campaign/sensor2school">
+                <a href="{lang}/campaign">
                     <div class="flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-md border bg-gray-200 h-64 w-128">
                         <div class="relative px-6 pb-6 mt-6 hover:text-teal-700">
                             <div class="flex justify-between">

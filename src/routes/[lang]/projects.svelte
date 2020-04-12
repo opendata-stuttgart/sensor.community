@@ -10,11 +10,11 @@
     $: i18n = initI18n(lang);
 
     const projects = [
-        { link: "", title: "Project #2", description: "Project #1", country: "DE", imageUrl: "https://picsum.photos/300/300/?random"},
-        { link: "", title: "Project #3", description: "Project #2", country: "UK", imageUrl: "https://picsum.photos/300/300/?random"},
-        { link: "", title: "Project #4", description: "Project #3", country: "DE", imageUrl: "https://picsum.photos/300/300/?random"},
-        { link: "", title: "Project #5", description: "Project #4", country: "US", imageUrl: "https://picsum.photos/300/300/?random"},
-        { link: "", title: "Project #6", description: "Project #5", country: "US", imageUrl: "https://picsum.photos/300/300/?random"}
+        { link: "", title: "Project #2", description: "A simple, hackable & minimalistic starter.", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true},
+        { link: "", title: "Project #3", description: "A simple, hackable & minimalistic starter.", country: "UK", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true},
+        { link: "", title: "Project #4", description: "A simple, hackable & minimalistic starter.", country: "DE", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true},
+        { link: "", title: "Project #5", description: "A simple, hackable & minimalistic starter.", country: "US", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true},
+        { link: "", title: "Project #6", description: "A simple, hackable & minimalistic starter.", country: "US", imageUrl: "https://picsum.photos/300/300/?random",type: "closed source", hasPrice: false, hasCountry: true}
     ]
 
 </script>
@@ -39,10 +39,10 @@
                 <p class="text-xl mx-auto md:pr-8 mt-4 mb-4 leading-reading">
                     {i18n.t('projects:description')}️<br>
                 </p>
-<!--                <span class="text-center text-gray-600 mt-10">-->
-<!--					{i18n.t('projects:submitIdea')}️-->
-<!--                     <br> <a class="text-teal-600" href="">{i18n.t('projects:submitProject')}️</a>-->
-<!--					</span>-->
+                <span class="text-center text-gray-600 mt-10">
+					{i18n.t('projects:submitIdea')}️
+                     <br> <a class="text-teal-600" href="">{i18n.t('projects:submitProject')}️</a>
+					</span>
             </div>
             <div class="w-full md:w-1/2 my-12"></div>
         </div>

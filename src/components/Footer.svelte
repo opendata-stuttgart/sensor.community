@@ -7,16 +7,16 @@
     $: i18n = initI18n(lang);
 </script>
 <footer class="bg-gray-200">
-    <div class="container mx-auto mt-12 border-grey-lighter py-10 flex flex-col">
+    <div class="container px-8 md:px-4 mx-auto mt-12 border-grey-lighter py-10 flex flex-col">
         <div class="flex flex-col md:flex-row">
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
                 <h4 class="text-base pb-4">{i18n.t('footer:importantLinks')}</h4>
                 <a href="https://maps.sensor.community/" target="_blank" class="text-sm py-1">Maps</a>
-                <a href="https://api.sensor.community/" target="_blank" class="text-sm py-1">API</a>
                 <a href="https://archive.sensor.community/" target="_blank" class="text-sm py-1">Archive</a>
                 <a href="https://devices.sensor.community/" target="_blank" class="text-sm py-1">Devices</a>
                 <a href="{lang}/forum" target="_blank" class="text-sm py-1">Forum</a>
                 <a href="https://press.sensor.community/" target="_blank" class="text-sm py-1">Press</a>
+                <a href="https://api.sensor.community/" target="_blank" class="text-sm py-1">API</a>
             </div>
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
                 <h4 class="text-base pb-4">{i18n.t('footer:sitemap')}</h4>
@@ -25,7 +25,7 @@
                 <!--                <a href="{lang}/presskit/" rel="prefetch" class="text-sm py-1">Presskit</a>-->
                 <a href="{lang}/projects/" rel="prefetch" class="text-sm py-1">{i18n.t('footer:communityProjects')}</a>
                 <a href="{lang}/hubs/" rel="prefetch" class="text-sm py-1">{i18n.t('footer:communityHubs')}</a>
-<!--                <a href="{lang}/blog/" rel="prefetch" class="text-sm py-1">{i18n.t('footer:blog')}</a>-->
+                <a href="{lang}/blog/" rel="prefetch" class="text-sm py-1">{i18n.t('footer:blog')}</a>
             </div>
             <div class="md:w-1/4 flex flex-col mb-12 md:mb-0">
                 <h4 class="text-base pb-4">{i18n.t('footer:license')}</h4>

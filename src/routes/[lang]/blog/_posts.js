@@ -12,6 +12,7 @@ const prism = require('prismjs');
 const marked = require('marked');
 const matter = require('gray-matter');
 const formatDate = require('date-fns/format');
+const readingTime = require('reading-time');
 
 // Support JSX syntax highlighting
 require('prismjs/components/prism-jsx.min');
@@ -61,6 +62,8 @@ const posts = fs.readdirSync(POSTS_DIR)
 		}
 
 		const html = marked(content);
+		const readingStats = readingTime(content);
+		const printReadingTime = readingStats.text;
 		const printDate = formatDate(new Date(date), 'dd mmmm, yyyy');
 
 		return {
@@ -70,7 +73,8 @@ const posts = fs.readdirSync(POSTS_DIR)
 			date,
 			lang,
 			excerpt,
-			printDate
+			printDate,
+			printReadingTime,
 		}
 	});
 

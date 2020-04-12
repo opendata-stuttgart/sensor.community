@@ -29,7 +29,7 @@
         <div class="container mx-auto mb-48">
             <div class="container mx-auto text-center">
                 <a href="mailto:contact@sensor.community" class="bg-teal-500 text-center hover:bg-teal-700 hover:text-white mx-auto rounded-lg inline-block shadow px-8 py-6 text-white text-xl">
-                    <div>{i18n.t('forum:getNotified')}</div>
+                    <div>💌 {i18n.t('forum:getNotified')}</div>
             </a></div>
         </div>
     </section>
