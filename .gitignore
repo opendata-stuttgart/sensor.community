@@ -154,3 +154,4 @@ typings/
 /src/node_modules/@sapper/
 /cypress/screenshots/
 /__sapper__/
+.DS_Store
