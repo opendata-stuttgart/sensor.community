@@ -27,8 +27,8 @@ title: Configuration
 ### Tester la station
 Si aucun changement particulier n'a été effectué (autre que la saisie du réseau Wifi) lors de la configuration, vous devriez pouvoir consulter les pages test suivantes après environ 10 minutes. Recherchez simplement l'ID de votre station (par exemple 13597771).
 
- * [Sensordaten](www.madavi.de/sensor/graph.php) 
- * [WLAN-Signal](www.madavi.de/sensor/signal.php) 
+ * [Données du détecteur](www.madavi.de/sensor/graph.php) 
+ * [Signal Wifi](www.madavi.de/sensor/signal.php) 
         
 
 
