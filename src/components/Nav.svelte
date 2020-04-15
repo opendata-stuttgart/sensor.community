@@ -134,4 +134,3 @@
         </div>
     </nav>
 </div>
-<a href="{`sk/${pathWithoutLang}`}" class="uppercase block md:pr-4"
