@@ -135,4 +135,3 @@
     </nav>
 </div>
 <a href="{`sk/${pathWithoutLang}`}" class="uppercase block md:pr-4"
-               class:selected="{lang === 'sk' ? 'selected' : ''}">{flag('sk')}</a>

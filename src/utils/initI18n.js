@@ -4,8 +4,6 @@ import de from '../../locales/de';
 import fr from '../../locales/fr';
 import sk from '../../locales/sk';
 
-}
-
 function initI18n(lng = 'en') {
   i18next.init({
     lng,
