@@ -4,6 +4,7 @@ import {register, init} from 'svelte-i18n'
 register('en', () => import('../../locales/en'));
 register('de', () => import('../../locales/de'));
 register('fr', () => import('../../locales/fr'));
+register('sk', () => import('../../locales/sk'));
 
 init({
     fallbackLocale: 'en',
