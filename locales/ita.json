@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "docs": "Sensore",
+    "blog": "Blog",
+    "projects": "Progetti",
+    "forum": "Forum",
+    "sensor": "Sensore",
+    "donate": "Dona"
+  },
+  "error": {
+    "errorStatus": "Riscontrato un errore {status}",
+    "reloadPage": "Per favore prova a ricaricare la pagina",
+    "offline": "Sembra tu sia offline.",
+    "submitError": "Se l'errore persiste, vai su <a href=\"chat.sensor.community\">Discourse forum</a> e facci sapere, o apri una questione su <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Grazie!"
+  },
+  "index": {
+    "metaDescription": "Costruisci il tuo sensore faidate ed entra a far parte della rete mondiale di scienza dei cittadini, open data e tecnologia civica. Supportato da molti collaboratori \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Costruisci il tuo sensore faidate e unisci alla rete mondiale di tecnologia civica",
+    "h1-build": "Costruisci il tuo sensore",
+    "h1-become": "ed entra a far parte della",
+    "h1-civic-tech": "rete mondiale di Tecnologia Civica \uD83C\uDF10",
+    "h1-support": "Supportato da molti",
+    "h1-contributors": "collaboratori \uD83D\uDC95",
+    "inNumbers-title": "Sensor.Community in numeri",
+    "inNumbers-activeSensors": "Sensori attivi nel mondo",
+    "inNumbers-countries": "Nazioni",
+    "inNumbers-dataPoints": "Dati raccolti",
+    "inNumbers-communityProjects": "Progetti Comunitari",
+    "inNumbers-communityHubs": "Laboratori Comunitari",
+    "inNumbers-commits": "GitHub Commits",
+    "inNumbers-fetching": "... recupero i dati",
+    "inNumbers-error": "Riscontrato un errore!",
+    "message-description": "Sensor.Community è una rete di sensori globale guidata dai collaboratori che crea Dati Ambientali Aperti.",
+      "message-mission": "La nostra missione è ispirare e arricchire la vita delle persone offrendo una piattaforma per la curiosità collettiva nella natura che sia genuina, gioiosa e positiva",
+  "message-hubs": "Sensor.Community ha hub globali a Stoccarda, Sofia e Varsavia."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Trova il tuo sensore e le istruzioni di costruzione faidate per il tuo sensore di polvere fine",
+    "h1": "Sensori in kit",
+    "subtitle": " Trova le nostre guide per il tuo sensore"
+  },
+  "guide": {
+    "editOnGithub": "Modifica su Github"
+  },
+  "airrohr": {
+    "metaTitle": "Costruisci il tuo sensore di particolato.",
+    "metaDescription": ""
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Forum",
+    "h1": "Forum",
+    "subtitle": "Prossimamente",
+    "getNotified": "\uD83D\uDC8C Sottoscrivi"
+  },
+  "donate": {
+    "metaDescription": "Siamo senza fini di lucro, non aziendali e senza compromessi. Le persone come te ci aiutano. Facciamo affidamento su donazioni per svolgere la nostra missione.",
+    "metaTitle": "Dona - aiutaci mostrando il tuo affetto",
+    "h1": "Mostra il tuo supporto",
+    "description": "Siamo senza fini di lucro, non aziendali e senza compromessi. Le persone come te ci aiutano. Facciamo affidamento su donazioni per svolgere la nostra missione.",
+    "section": "Modi di supportare",
+    "campaign": "Campagna in corso",
+    "donation": "Donazione diretta",
+    "holder": "Titolare del conto",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Banca",
+    "intendedUse": "Causale",
+    "donationDescription": "The Open Knowledge Foundation Germany é riconosciuta come una organizzazione non-profit."
+  },
+  "blog": {
+    "metaDescription": "News",
+    "metaTitle": "News",
+    "h1": "Posts recenti",
+    "description": " Trova news o altre informazioni interessanti"
+  },
+  "contributors": {
+    "metaDescription": "Le persone dietro al progetto",
+    "metaTitle": "Collaboratori di Sensor.Community",
+    "h1": "Ciao dal team \uD83D\uDC4B",
+    "description": "Incontra il team che sta lavorando dietro le quinte per sfruttare la potenza di Sensor.Community.",
+    "contactBottom": "\uD83D\uDCEE Per favore usa l'opzione contatti in fondo alla pagina",
+    "meetTeam": "Incontra il team"
+  },
+  "projects": {
+    "metaDescription": "Trova app mobili, siti Web, ... dalla nostra adorabile community \uD83D\uDC96",
+    "metaTitle": "Progetti della Community ",
+    "h1": "Progetti della Community",
+    "description": "Trova app mobili, siti Web, ... dalla nostra adorabile community \uD83D\uDC96?",
+    "submitIdea": "Hai un grande progetto? Condividilo con la community!",
+    "submitProject": "Invia il tuo progetto ?"
+  },
+  "hubs": {
+    "metaDescription": "Trova comunitá in tutto il mondo \uD83D\uDC96?",
+    "metaTitle": "Community Hubs",
+    "h1": "Community Hubs",
+    "description": "Trova comunitá in tutto il mondo \uD83D\uDC9??
