@@ -1,17 +1,17 @@
 {
   "nav": {
-    "home": "Home",
-    "docs": "Sensor",
-    "blog": "Blog",
-    "projects": "Projects",
-    "forum": "Forum",
-    "sensor": "Sensor",
-    "donate": "Donate"
+    "home": "Главная",
+    "docs": "Сенсор",
+    "blog": "Блог",
+    "projects": "Проекты",
+    "forum": "форум",
+    "sensor": "Сенсор",
+    "donate": "Поддержать проект"
   },
   "error": {
     "errorStatus": "Encountered a {status} error.",
-    "reloadPage": "Please try reloading the page.",
-    "offline": "It looks like you're offline.",
+    "reloadPage": "Пожалуйста, обновите страницу",
+    "offline": "Кажется, вы не подключены к сети...",
     "submitError": "If the error persists, please drop by <a href=\"chat.sensor.community\">Discourse forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
   },
   "index": {
