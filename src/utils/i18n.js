@@ -5,6 +5,7 @@ register('en', () => import('../../locales/en'));
 register('de', () => import('../../locales/de'));
 register('fr', () => import('../../locales/fr'));
 register('sk', () => import('../../locales/sk'));
+register('ru', () => import('../../locales/ru'));
 
 init({
     fallbackLocale: 'en',
