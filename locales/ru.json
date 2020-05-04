@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Главная",
-    "docs": "инструкция",
+    "docs": "<a href=\"shorturl.at/TY014\">Инструкция</a>",
     "blog": "Блог",
     "projects": "Проекты",
     "forum": "Форум",
@@ -15,13 +15,13 @@
     "submitError": "Если ошибка повторяется, напишите на <a href=\"chat.sensor.community\">Discourse форум</a> или создайте задачу на <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Спасибо!"
   },
   "index": {
-    "metaDescription": "Build your DIY sensor and become part of the worldwide citizen science, open data, civic tech network. Supported by a lot of contributors \uD83D\uDC95",
-    "metaTitle": "Sensor.Community \uD83C\uDF10 Build your own sensor and join the worldwide civic tech network",
+    "metaDescription": "Соберите свой самодельый сенсор и станьте частью сети даных проекта гражданской науки, который развивается благодаря поддержке большого числа участников. \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Соберите свой сенсор и станьте частью всемирной сети сбора открытых данных",
     "h1-build": "Соберите свой сенсор",
     "h1-become": "и сделайте его частью ",
     "h1-civic-tech": "всемирновй гражданской сети \uD83C\uDF10",
     "h1-support": "При поддержке огромного числа",
-    "h1-contributors": "contributors \uD83D\uDC95",
+    "h1-contributors": "участников \uD83D\uDC95",
     "inNumbers-title": "Sensor.Community в цифрах",
     "inNumbers-activeSensors": "Активных сенсоров в мире",
     "inNumbers-countries": "Стран",
@@ -33,16 +33,16 @@
     "inNumbers-error": "Возникла ошибка!",
     "message-description": "Sensor.Community это всемирная сеть сенсоров информация с которых доступна в виде открытых данные об окружающей среде.",
     "message-mission": "Наша миссия состоит в том, чтобы вдохновлять людей исследовать окружающую их среду, предоставляю для этого удобную платформу для коллективного сбора данных.",
-    "message-hubs": "Sensor.Community имеет представительства в Штутгарте, Софии и Варшаве."
+    "message-hubs": "Sensor.Community имеет представительства в Штутгарте, Софии, Варшаве, Москве и других городах."
   },
   "sensor": {
     "metaDescription": "",
     "metaTitle": "Find your sensor and building instructions for your DYI fine dust sensor",
     "h1": "Наборы сенсоров",
-    "subtitle": " Find our guides️ for your sensor"
+    "subtitle": " Руководство по сборке собственного сенсора"
   },
   "guide": {
-    "editOnGithub": "edit on Github"
+    "editOnGithub": "редактировать на Github"
   },
   "airrohr": {
     "metaTitle": "Соберите собственный сенсор.",
@@ -58,7 +58,7 @@
   "donate": {
     "metaDescription": "We are non-profit, non-corporate and non-compromised. People like you help us. We rely on donations to carry out our mission.",
     "metaTitle": "Donate - help us by showing your love",
-    "h1": "Show your support",
+    "h1": "Окажите проекту поддержку",
     "description": "We are non-profit, non-corporate and non-compromised. People like you help us. We rely on donations to carry out our mission.",
     "section": "Способы поддержки",
     "campaign": "Running Campaign",
