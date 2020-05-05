@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "home": "Начало",
+    "docs": "Станция",
+    "blog": "Блог",
+    "projects": "Проекти",
+    "forum": "Форум",
+    "sensor": "Станция",
+    "donate": "Дари"
+  },
+  "error": {
+    "errorStatus": "Възникна {status} грешка.",
+    "reloadPage": "Моля, опитайте да презаредите страницата.",
+    "offline": "Изглежда, че сте офлайн.",
+    "submitError": "Ако грешката продължава, моля, пишете на <a href=\"chat.sensor.community\">Форум за дискурси</a> и ни уведомете или поставете въпрос <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Благодарим!"
+  },
+  "index": {
+    "metaDescription": "Изградете своята станция и станете част от световната наука за гражданите, отворени данни, граждански технологични мрежи. Подкрепен от много участници \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Създайте своя собствена станция и се присъединете към световната мрежа за граждански технологии",
+    "h1-build": "Създайте своя собствена станция",
+    "h1-become": "и станете част от ",
+    "h1-civic-tech": "глобална мрежа за граждански технологии \uD83C\uDF10",
+    "h1-support": "Поддържа се от много",
+    "h1-contributors": "участници \uD83D\uDC95",
+    "inNumbers-title": "Sensor.Community в числа",
+    "inNumbers-activeSensors": "Активни станции по целия свят",
+    "inNumbers-countries": "Държави",
+    "inNumbers-dataPoints": "Точки от данни (измервания)",
+    "inNumbers-communityProjects": "Проекти на общността",
+    "inNumbers-communityHubs": "Лаборатории на общността",
+    "inNumbers-commits": "GitHub участия",
+    "inNumbers-fetching": "... извличане на данни",
+    "inNumbers-error": "Възникна грешка!",
+    "message-description": "Sensor.Community е глобална мрежа от станции, създадена от участници, която създава отворени данни за околната среда.",
+    "message-mission": "Нашата мисия е да вдъхновяваме и обогатяваме живота на хората, като предлагаме платформа за колективно любознание за природата, която е истинска, радостна и положителна.",
+    "message-hubs": "Sensor.Community има глобални центрове в Щутгарт, София и Варшава."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Открийте своята станция за фини прахови частици и инструкциите за неговото инсталиране тук",
+    "h1": "Комплекти за станции",
+    "subtitle": " Намерете нашите ръководства️ за вашията станция"
+  },
+  "guide": {
+    "editOnGithub": "edit on Github"
+  },
+  "airrohr": {
+    "metaTitle": "Изградете своя собствена станция за фини прахови частици. ",
+    "metaDescription": ""
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Форум",
+    "h1": "Форум",
+    "subtitle": "Очаквайте скоро",
+    "getNotified": "\uD83D\uDC8C Абонирай се"
+  },
+  "donate": {
+    "metaDescription": "Ние сме организация с нестопанска цел, несвързана със света на бизнеса и без компромиси. Хора като вас вече участват. Зависими сме от дарения за изпълнение на нашите проекти.",
+    "metaTitle": "Дарете - Помогнете ни и покажете вашата подкрепа",
+    "h1": "Подкрепете ни",
+    "description": "Ние сме организация с нестопанска цел, несвързана със света на бизнеса и без компромиси. Хора като вас вече участват. Зависими сме от дарения за изпълнение на нашите проекти.",
+    "section": "Начини за подкрепа",
+    "campaign": "Участие в кампания",
+    "donation": "Директно дарение",
+    "holder": "Титуляр на партида",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Банка",
+    "intendedUse": "Предназначение",
+    "donationDescription": "Фондация Open Knowledge-Германия е призната за организация с нестопанска цел."
+  },
+  "blog": {
+    "metaDescription": "Новини",
+    "metaTitle": "Новини",
+    "h1": "Скорошни публикации",
+    "description": " Намерете новини или друга интересна информация"
+  },
+  "contributors": {
+    "metaDescription": "Хората, стоящи зад проекта",
+    "metaTitle": "Участниците в Sensor.Community",
+    "h1": "Здравейте от екипа \uD83D\uDC4B",
+    "description": "Запознайте се с екипа, който работи зад кулисите, за да използва силата на Sensor.Community.",
+    "contactBottom": "\uD83D\uDCEEМоля, използвайте опциите за контакт в долната част на страницата.",
+    "meetTeam": "Запознайте се с екипа"
+  },
+  "projects": {
+    "metaDescription": "Намерете мобилни приложения, уебсайтове, ... от нашата прекрасна общност \uD83D\uDC96",
+    "metaTitle": "Проекти на общността",
+    "h1": "Проекти на общността",
+    "description": "Намерете мобилни приложения, уебсайтове, ... от нашата прекрасна общност \uD83D\uDC96️",
+    "submitIdea": "Имате страхотен проект? Споделете го с общността!",
+    "submitProject": "Изпратете своя проект →"
+  },
+  "hubs": {
+    "metaDescription": "Намерете общности по целия свят \uD83D\uDC96️",
+    "metaTitle": "Центрове на общността",
+    "h1": "Центрове на общността",
+    "description": "Намерете общности по целия свят \uD83D\uDC96️️"
+  },
+  "campaigns": {
+    "title": "Присъединете се към кампания"
+  },
+  "campaign": {
+    "h1": "Кампания",
+    "subtitle": "Очаквайте скоро",
+    "getNotified": "\uD83D\uDC8C Абонирай се"
+  },
+  "collaborations": {
+    "h1": "Съвместна работа",
+    "subtitle": "Очаквайте скоро",
+    "getNotified": "\uD83D\uDC8C Абонирай се"
+  },
+  "location": {
+    "h1": "Местоположение",
+    "subtitle": "Очаквайте скоро",
+    "getNotified": "\uD83D\uDC8C Абонирай се"
+  },
+  "partnership": {
+    "title": "Съвместна работа"
+  },
+  "contact": {
+    "title": "Контакти",
+    "general": "Контакти",
+    "general-subtitle": "Общи въпроси?",
+    "partnership": "Партньорство",
+    "partnership-subtitle": "искате да си партнирате с нас?",
+    "press": "Преса",
+    "press-subtitle": "идеи за статии?",
+    "tech": "Техника",
+    "tech-subtitle": "технически въпроси?"
+  },
+  "footer": {
+    "importantLinks": "Важни връзки",
+    "sitemap": "Карта на сайта",
+    "license": "Разрешително",
+    "socialLinks": "Връзка",
+    "blog": "Блог",
+    "privacy" : "Поверителност и условия",
+    "communityProjects": "Проекти на общността",
+    "communityHubs": "Центрове на общността",
+    "contributors": "Участници",
+    "withLove": "Изработено \uD83D \uDC95 в Щутгарт, Германия"
+  },
+  "imprint": {
+    "h1": "Imprint & Privacy",
+    "lastModified": "Last Modified: ",
+    "imprint": "Imprint",
+    "imprintName": "Name: Rajko Zschiegner",
+    "imprintStreet": "Street:  Reichenbacher Str. 20",
+    "imprintPostalCode": "Zip Code: 07973 Greiz",
+    "imprintCountry": "Country: Germany",
+    "imprintMail": "Email: rajko@sensor.community",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Responsible",
+    "privacyPolicyDesc": "With this privacy policy we would like to inform you about the type, scope and purpose of the processing of personal data on our website. Personal data are all data that have a personal reference to you, e.g. name, address, e-mail address or user behaviour. With regard to the terms used, such as \"processing\" or \"responsible person\", we refer to the definitions in Art. 4 of the Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyName": "Name: Rajko Zschiegner",
+    "privacyPolicyStreet": "Street:  Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Zip code: 07973 Greiz",
+    "privacyPolicyCountry": "Country: Germany",
+    "privacyPolicyMail": "Email: rajko@sensor.community"
+  }
+}
