@@ -42,7 +42,7 @@
     "subtitle": " Trova le nostre guide per il tuo sensore"
   },
   "guide": {
-    "editOnGithub": "Modifica su Github"
+    "editOnGithub": "modifica su Github"
   },
   "airrohr": {
     "metaTitle": "Costruisci il tuo sensore di particolato.",
@@ -81,19 +81,85 @@
     "metaTitle": "Collaboratori di Sensor.Community",
     "h1": "Ciao dal team \uD83D\uDC4B",
     "description": "Incontra il team che sta lavorando dietro le quinte per sfruttare la potenza di Sensor.Community.",
-    "contactBottom": "\uD83D\uDCEE Per favore usa l'opzione contatti in fondo alla pagina",
+    "contactBottom": "\uD83D\uDCEEPer favore usa l'opzione contatti in fondo alla pagina",
     "meetTeam": "Incontra il team"
   },
   "projects": {
     "metaDescription": "Trova app mobili, siti Web, ... dalla nostra adorabile community \uD83D\uDC96",
     "metaTitle": "Progetti della Community ",
     "h1": "Progetti della Community",
-    "description": "Trova app mobili, siti Web, ... dalla nostra adorabile community \uD83D\uDC96?",
+    "description": "Trova app mobili, siti Web, ... dalla nostra adorabile community \uD83D\uDC96",
     "submitIdea": "Hai un grande progetto? Condividilo con la community!",
     "submitProject": "Invia il tuo progetto ?"
   },
   "hubs": {
-    "metaDescription": "Trova comunitá in tutto il mondo \uD83D\uDC96?",
+    "metaDescription": "Trova comunitá in tutto il mondo \uD83D\uDC96",
     "metaTitle": "Community Hubs",
     "h1": "Community Hubs",
-    "description": "Trova comunitá in tutto il mondo \uD83D\uDC9??
+    "description": "Trova comunitá in tutto il mondo \uD83D\uDC9??"
+},
+  "campaigns": {
+    "title": "Unisciti a una campagna"
+  },
+  "campaign": {
+    "h1": "Campagna",
+    "subtitle": "Prossimamente",
+    "getNotified": "\uD83D\uDC8C Sottoscrivi"
+  },
+  "collaborations": {
+    "h1": "Collaborazioni",
+    "subtitle": "Prossimamnte",
+    "getNotified": "\uD83D\uDC8C Sottoscrivi"
+  },
+  "location": {
+    "h1": "Posizione",
+    "subtitle": "Prossimamente",
+    "getNotified": "\uD83D\uDC8C Sottoscrivi"
+  },
+  "partnership": {
+    "title": "Collaborazioni"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "general": "Contatto",
+    "general-subtitle": "domande generali?",
+    "partnership": "Collaborazione",
+    "partnership-subtitle": "Vuoi collaborare con noi?",
+    "press": "Stampa",
+    "press-subtitle": "Idee per un articolo?",
+    "tech": "Tech",
+    "tech-subtitle": "domande tecniche?"
+  },
+  "footer": {
+    "importantLinks": "Links Importanti",
+    "sitemap": "Sitemap",
+    "license": "License",
+    "socialLinks": "Connect",
+    "blog": "Blog",
+    "privacy" : "Privacy & Terms",
+    "communityProjects": "Community Projects",
+    "communityHubs": "Community Hubs",
+    "contributors": "Contributors",
+    "withLove": "Made with \uD83D\uDC95 in Stuttgart, Germany"
+  },
+  "imprint": {
+    "h1": "Imprint & Privacy",
+    "lastModified": "Last Modified: ",
+    "imprint": "Imprint",
+    "imprintName": "Name: Rajko Zschiegner",
+    "imprintStreet": "Street:  Reichenbacher Str. 20",
+    "imprintPostalCode": "Zip Code: 07973 Greiz",
+    "imprintCountry": "Country: Germany",
+    "imprintMail": "Email: rajko@sensor.community",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Responsible",
+    "privacyPolicyDesc": "With this privacy policy we would like to inform you about the type, scope and purpose of the processing of personal data on our website. Personal data are all data that have a personal reference to you, e.g. name, address, e-mail address or user behaviour. With regard to the terms used, such as \"processing\" or \"responsible person\", we refer to the definitions in Art. 4 of the Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyName": "Name: Rajko Zschiegner",
+    "privacyPolicyStreet": "Street:  Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Zip code: 07973 Greiz",
+    "privacyPolicyCountry": "Country: Germany",
+    "privacyPolicyMail": "Email: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Contact via e-mail, social media or telephone",
+    "privacyPolicyContactDescription": "As far as you address the e-mail, telephone or social media offered on our website and provide us with personal data, these data will be automatically stored and processed by our team to process your inquiry. These data are only processed for correspondence with you. We need your e-mail address to be able to answer your inquiry. We need your telephone number in order to be able to answer your callback request. Legal basis: The legal basis for the use of your data as described above is Art. 6 para. 1 lit. a DSGVO. Deletion: The personal data collected by us will be deleted if they are no longer required. We check the necessity every 2 years. You can also revoke the data processing at any time."
+  }
+}
