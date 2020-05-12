@@ -4,6 +4,8 @@ import de from '../../locales/de';
 import fr from '../../locales/fr';
 import sk from '../../locales/sk';
 import cz from '../../locales/cz';
+import bg from '../../locales/bg';
+
 
 function initI18n(lng = 'en') {
   i18next.init({
@@ -13,7 +15,8 @@ function initI18n(lng = 'en') {
       de,
       fr,
       sk,
-      cz
+      cz,
+      bg
     },
     fallbackLng: {
       'de-CH': ['de'],
