@@ -18,8 +18,7 @@ function initI18n(lng = 'en') {
       sk,
       cz,
       bg,
-      ru,
-      cz
+      ru
     },
     fallbackLng: {
       'de-CH': ['de'],
