@@ -6,6 +6,7 @@ register('de', () => import('../../locales/de'));
 register('fr', () => import('../../locales/fr'));
 register('sk', () => import('../../locales/sk'));
 register('ru', () => import('../../locales/ru'));
+register('cz', () => import('../../locales/cz'));
 
 init({
     fallbackLocale: 'en',
@@ -16,4 +17,3 @@ init({
 });
 // locale.set('en');
 // [lang].initialLocale = 'en';
-
