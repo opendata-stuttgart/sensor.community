@@ -48,6 +48,6 @@
            class:selected="{lang === 'cz' ? 'selected' : ''}"> {flag('cz')} cz</a>
        <a on:click={menuToggle} href="{`bg/${pathWithoutLang}`}"
            class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'bg' ? 'selected' : ''}"> {flag('cz')} bg</a>
+           class:selected="{lang === 'bg' ? 'selected' : ''}"> {flag('bg')} bg</a>
     </div>
 </div>
