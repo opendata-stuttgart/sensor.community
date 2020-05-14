@@ -3,6 +3,7 @@ import en from '../../locales/en';
 import de from '../../locales/de';
 import fr from '../../locales/fr';
 import sk from '../../locales/sk';
+import ru from '../../locales/ru';
 import cz from '../../locales/cz';
 import bg from '../../locales/bg';
 
@@ -16,7 +17,9 @@ function initI18n(lng = 'en') {
       fr,
       sk,
       cz,
-      bg
+      bg,
+      ru,
+      cz
     },
     fallbackLng: {
       'de-CH': ['de'],
