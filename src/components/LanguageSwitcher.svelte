@@ -40,6 +40,9 @@
         <a on:click={menuToggle} href="{`fr/${pathWithoutLang}`}"
            class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
            class:selected="{lang === 'fr' ? 'selected' : ''}"> {flag('fr')} fr</a>
+        <a on:click={menuToggle} href="{`it/${pathWithoutLang}`}"
+           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
+           class:selected="{lang === 'it' ? 'selected' : ''}"> {flag('it')} it</a>
         <a on:click={menuToggle} href="{`sk/${pathWithoutLang}`}"
            class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
            class:selected="{lang === 'sk' ? 'selected' : ''}"> {flag('sk')} sk</a>
