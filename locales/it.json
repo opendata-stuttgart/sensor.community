@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Home",
+    "docs": "Sensore",
+    "blog": "Blog",
+    "projects": "Progetti",
+    "forum": "Forum",
+    "sensor": "Sensore",
+    "donate": "Dona"
+  },
+  "error": {
+    "errorStatus": "Riscontrato un errore {status}",
+    "reloadPage": "Per favore prova a ricaricare la pagina",
+    "offline": "Sembra tu sia offline.",
+    "submitError": "Se l'errore persiste, vai su <a href=\"chat.sensor.community\">Discourse forum</a> e facci sapere, o apri una questione su <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Grazie!"
+  },
+  "index": {
+    "metaDescription": "Costruisci il tuo sensore faidate ed entra a far parte della rete mondiale di scienza dei cittadini, open data e tecnologia civica. Supportato da molti collaboratori \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Costruisci il tuo sensore faidate e unisci alla rete mondiale di tecnologia civica",
+    "h1-build": "Costruisci il tuo sensore",
+    "h1-become": "ed entra a far parte della",
+    "h1-civic-tech": "rete mondiale di Tecnologia Civica \uD83C\uDF10",
+    "h1-support": "Supportato da molti",
+    "h1-contributors": "collaboratori \uD83D\uDC95",
+    "inNumbers-title": "Sensor.Community in numeri",
+    "inNumbers-activeSensors": "Sensori attivi nel mondo",
+    "inNumbers-countries": "Nazioni",
+    "inNumbers-dataPoints": "Dati raccolti",
+    "inNumbers-communityProjects": "Progetti Comunitari",
+    "inNumbers-communityHubs": "Laboratori Comunitari",
+    "inNumbers-commits": "GitHub Commits",
+    "inNumbers-fetching": "... recupero i dati",
+    "inNumbers-error": "Riscontrato un errore!",
+    "message-description": "Sensor.Community è una rete di sensori globale guidata dai collaboratori che crea Dati Ambientali Aperti.",
+      "message-mission": "La nostra missione è ispirare e arricchire la vita delle persone offrendo una piattaforma per la curiosità collettiva nella natura che sia genuina, gioiosa e positiva",
+  "message-hubs": "Sensor.Community ha hub globali a Stoccarda, Sofia e Varsavia."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Trova il tuo sensore e le istruzioni di costruzione faidate per il tuo sensore di polvere fine",
+    "h1": "Sensori in kit",
+    "subtitle": " Trova le nostre guide per il tuo sensore"
+  },
+  "guide": {
+    "editOnGithub": "modifica su Github"
+  },
+  "airrohr": {
+    "metaTitle": "Costruisci il tuo sensore di particolato.",
+    "metaDescription": ""
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Forum",
+    "h1": "Forum",
+    "subtitle": "Prossimamente",
+    "getNotified": "\uD83D\uDC8C Sottoscrivi"
+  },
+  "donate": {
+    "metaDescription": "Siamo senza fini di lucro, non aziendali e senza compromessi. Le persone come te ci aiutano. Facciamo affidamento su donazioni per svolgere la nostra missione.",
+    "metaTitle": "Dona - aiutaci mostrando il tuo affetto",
+    "h1": "Mostra il tuo supporto",
+    "description": "Siamo senza fini di lucro, non aziendali e senza compromessi. Le persone come te ci aiutano. Facciamo affidamento su donazioni per svolgere la nostra missione.",
+    "section": "Modi di supportare",
+    "campaign": "Campagna in corso",
+    "donation": "Donazione diretta",
+    "holder": "Titolare del conto",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Banca",
+    "intendedUse": "Causale",
+    "donationDescription": "The Open Knowledge Foundation Germany è riconosciuta come una organizzazione non-profit."
+  },
+  "blog": {
+    "metaDescription": "News",
+    "metaTitle": "News",
+    "h1": "Posts recenti",
+    "description": " Trova news o altre informazioni interessanti"
+  },
+  "contributors": {
+    "metaDescription": "Le persone dietro al progetto",
+    "metaTitle": "Collaboratori di Sensor.Community",
+    "h1": "Ciao dal team \uD83D\uDC4B",
+    "description": "Incontra il team che sta lavorando dietro le quinte per sfruttare la potenza di Sensor.Community.",
+    "contactBottom": "\uD83D\uDCEEPer favore usa l'opzione contatti in fondo alla pagina",
+    "meetTeam": "Incontra il team"
+  },
+  "projects": {
+    "metaDescription": "Trova app mobili, siti Web, ... dalla nostra adorabile community \uD83D\uDC96",
+    "metaTitle": "Progetti della Community ",
+    "h1": "Progetti della Community",
+    "description": "Trova app mobili, siti Web, ... dalla nostra adorabile community \uD83D\uDC96",
+    "submitIdea": "Hai un grande progetto? Condividilo con la community!",
+    "submitProject": "Invia il tuo progetto ?"
+  },
+  "hubs": {
+    "metaDescription": "Trova comunità in tutto il mondo \uD83D\uDC96",
+    "metaTitle": "Community Hubs",
+    "h1": "Community Hubs",
+    "description": "Trova comunità in tutto il mondo \uD83D\uDC96"
+},
+  "campaigns": {
+    "title": "Unisciti a una campagna"
+  },
+  "campaign": {
+    "h1": "Campagna",
+    "subtitle": "Prossimamente",
+    "getNotified": "\uD83D\uDC8C Sottoscrivi"
+  },
+  "collaborations": {
+    "h1": "Collaborazioni",
+    "subtitle": "Prossimamnte",
+    "getNotified": "\uD83D\uDC8C Sottoscrivi"
+  },
+  "location": {
+    "h1": "Posizione",
+    "subtitle": "Prossimamente",
+    "getNotified": "\uD83D\uDC8C Sottoscrivi"
+  },
+  "partnership": {
+    "title": "Collaborazioni"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "general": "Contatto",
+    "general-subtitle": "domande generali?",
+    "partnership": "Collaborazione",
+    "partnership-subtitle": "Vuoi collaborare con noi?",
+    "press": "Stampa",
+    "press-subtitle": "Idee per un articolo?",
+    "tech": "Tech",
+    "tech-subtitle": "domande tecniche?"
+  },
+  "footer": {
+    "importantLinks": "Links Importanti",
+    "sitemap": "Sitemap",
+    "license": "License",
+    "socialLinks": "Connect",
+    "blog": "Blog",
+    "privacy" : "Privacy & Terms",
+    "communityProjects": "Community Projects",
+    "communityHubs": "Community Hubs",
+    "contributors": "Contributors",
+    "withLove": "Made with \uD83D\uDC95 in Stuttgart, Germany"
+  },
+  "imprint": {
+    "h1": "Imprint & Privacy",
+    "lastModified": "Last Modified: ",
+    "imprint": "Imprint",
+    "imprintName": "Name: Rajko Zschiegner",
+    "imprintStreet": "Street:  Reichenbacher Str. 20",
+    "imprintPostalCode": "Zip Code: 07973 Greiz",
+    "imprintCountry": "Country: Germany",
+    "imprintMail": "Email: rajko@sensor.community",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Responsible",
+    "privacyPolicyDesc": "With this privacy policy we would like to inform you about the type, scope and purpose of the processing of personal data on our website. Personal data are all data that have a personal reference to you, e.g. name, address, e-mail address or user behaviour. With regard to the terms used, such as \"processing\" or \"responsible person\", we refer to the definitions in Art. 4 of the Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyName": "Name: Rajko Zschiegner",
+    "privacyPolicyStreet": "Street:  Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Zip code: 07973 Greiz",
+    "privacyPolicyCountry": "Country: Germany",
+    "privacyPolicyMail": "Email: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Contact via e-mail, social media or telephone",
+    "privacyPolicyContactDescription": "As far as you address the e-mail, telephone or social media offered on our website and provide us with personal data, these data will be automatically stored and processed by our team to process your inquiry. These data are only processed for correspondence with you. We need your e-mail address to be able to answer your inquiry. We need your telephone number in order to be able to answer your callback request. Legal basis: The legal basis for the use of your data as described above is Art. 6 para. 1 lit. a DSGVO. Deletion: The personal data collected by us will be deleted if they are no longer required. We check the necessity every 2 years. You can also revoke the data processing at any time."
+  }
+}
