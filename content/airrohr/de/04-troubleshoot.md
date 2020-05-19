@@ -2,41 +2,39 @@
 title: Troubleshoot
 ---
 
-## wurden Daten online übermittelt?
-Folgendes im Browser mit den eigenen Daten eintragen:
-`https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensortyp]`
+### Problemen beim Übertragen?
+Gebe folgendes in deinem Browser mti deinen eigenen Daten ein:
+`https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[Sensortyp]`
 
-Nach der [ID] kann auch im Text auf der Seite `https://www.madavi.de/sensor/graph.php` gesucht werden
+Die [ID] kann auch im Text auf der Seite [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php) gesucht werden.
 
-* Ist der Sensor via https://devices.sensor.community/ registiert und befindet sich der Sensor auf der Karte?
-    * War das WLAN Signalpegel in der Vergangenheit schwach?
-        hier ist das Signal-Log serverseitig: ``https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
+* Ist der Sensor über [https://devices.sensor.community/](https://devices.sensor.community/) registriert und ist der Sensor auf der Karte sichtbar?
+    * War das WLAN-Signal in der Vergangenheit schwach?
+        Hier ist das server-seitig Signalprotokoll: `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
         
+### Probleme mit dem USB-Kabel?
+* Überprüfe die Stromversorgung
+* Neustart (Stromversorgung trennen, z.B. USB-Stecker ziehen)
+* Ist die WLAN-Konfiguration OK (der Sensor verbindet sich mit dem konfigurierten WLAN). Wenn nicht:
+    * Öffnet der Sensor einen Adhoc Wifi (Accesss Point), in den ersten 2-7 Minuten nach einem Neustart?
+    * Suchee nach dem WLAN-Netzwerk `airrohr-[ID]`. Es kann einige Minuten, nach einem Neustart, brauchen.
+* Prüfe an deinem eigenen Router, ob der Sensor im Netzwerk angemeldet ist, und merke dir die IP 
+    * alternativ "Durchsuchen" im [airrohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) verwenden
+    * Falls ja: Verbinde dich mit dem Sensor über einen Browser `http://[ip-deines-sensors]/`, die Konfiguratino sollte erscheinen 
+    * Falls nein: könnte es an einer unzureichenden Stromversorgung, Neustartschleife oder ähnliches liegen.
+* Schließe den NodeMCU über ein USB-Kabel an einen Computer an und schau dir das Protokoll an 
+    * Mit einem seriellen Terminalprogramm verfolgen (Einstellungen: Baud 9600, 8N1)
+        * Linux: Bildschirm, Minicom, cutecom
+        * Windows: Tera Term
+        * MacOS: Bildschirm, Minicom, ...
+        * evtl. sind noch geeignete usb2serielle Treiber notwendig, siehe [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)                                  
+    * Dort sollte zu sehen sein, was der Sensor gerade macht (Boot-Meldungen, WLAN-Verbindung oder Access Point, Messung - erst nach 3 Minuten)
 
-
-## USB-Kabel:
-
-* Stromversorgung checken: USB Kabel
-* Reboot (Stromversorgung unterbrechen, z.B. USB Stecker ziehen)
-* Ist die WLAN Konfig OK (der Sensor verbindet auf das konfigurierte WLAN)? Falls nicht:
-    * macht der Sensor einen AP auf (in den ersten 2-7 Minuten nach einem Reboot)?
-    * Nach airrohr-[ID] WLAN Netzwerk Ausschau halten. Geduld, es kann nach dem Boot 1-2 Minuten dauern.
-* Auf dem eigenen Router nachsehen, ob der Sensor im Netzwerk angemeldet ist, dann die IP merken 
-    * alternativ "Discovery" im flashtool nutzen: https://github.com/opendata-stuttgart/airrohr-firmware-flasher/
-    * Falls ja: auf die IP mit einem Browser verbinden http://[IP]/ , dort sollte die Oberfläche erscheinen
-    * Falls nein: der ESP hat Probleme, z.B. Stromversorgung nicht ausreichend, reboot loop o.ä.
-* USB an einen Rechner anschließen und dort das Log ansehen 
-    * Text auf serieller Schnittstelle mit seriellem Terminal-Programm verfolgen (Settings: baud 9600, 8N1)
-        * Linux: screen, minicom, cutecom; Windows: Tera Term; MacOS: screen, minicom, ...?
-        * evtl. sind passende usb2serial Treiber noch nötig, siehe https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen
-    * Dort sollte man erkennen können, was der Sensor gerade tut (Bootmeldungen, WLAN Verbindung oder AP, Messung - erst nach 3 Minuten)
-
-## Elektronik:
-
-* Sensorelektronik aus dem Gehäuse nehmen und beobachten
-* Stromversorgung noch einmal checken/tauschen
-    * blinkt der ESP kurz nach Reboot?
-    * SDS011: rote LED/Lüfter an nach Reboot?
-    * die Kabel zu den Sensoren noch einmal checken/tauschen
+### Probleme mit der Elektronik?
+* Entferne die Sensorelektronik aus dem Gehäuse und schau sie dir genau an
+* Stromversorgung erneut prüfen/ersetzen
+    * Blinkt ESP kurz nach dem Neustart?
+    * SDS011: rote LED/Lüfter leuchtet nach dem Neustart?
+    * Überprüfe/ersetze die Kabel zu den Sensoren erneut
 
 
