@@ -36,7 +36,7 @@ SDS011 Pin 7 -> inutilisé
 
 Placez la série de connecteur au recto et soudez au verso. Soyez méticuleux pour ne pas créer de court-circuit.
 
-Chauffez la base de soudure et le connecteur avec la pointe du fer à souder puis appliquer l'étain avec parcimonie.  
+Chauffez la base de soudure et le connecteur avec la pointe du fer à souder puis appliquez l'étain avec parcimonie.  
 
 ### Connecter le BME280
 Les connecteurs sont numérotés de GAUCHE à DROITE.
@@ -70,7 +70,7 @@ Utilisez un serre-câbles pour attacher le NodeMCU et le SDS011, de manière à 
 
  ##### Finition
 * Positionnez le BME280 sur le tube flexible au niveau du bord du coude PVC.
-* COupez le tube flexible au ras du tube PVC.
+* Coupez le tube flexible au ras du tube PVC.
 * En option : vous pouvez installez du filet moustiquaire au extrémités des coudes PVC pour éviter l'entrée d'insectes.
  
 <img src="../docs/position-bme280.jpeg"/>
