@@ -8,14 +8,14 @@ title: Configuration
 
 3. Connectez-vous à ce point d'accès. Attendez que la connexion soit bien établie.<br>*Android*: Si l'appareil se déconnecte immédiatement, vous devez désactiver l'option 'Réseau intelligent' sous 'WiFi -> Plus'.
 
-4. Ouvrez un navigateur et taper l'adresse [http://192.168.4.1/](http://192.168.4.1/)
+4. Ouvrez un navigateur et tapez l'adresse [http://192.168.4.1/](http://192.168.4.1/)
 
 ### Configure the station
 1. Sous 'Configuration', tapez le SSID (le nom de votre réseau Wifi) et le mot de passe.
 
 2. Pour les détecteurs de particules fines (avec capteur SDS011) décrits dans les présentes isntructions, aucune autre configuration n'est nécessaire
 
-3. Cliquez sur le bouton 'Enregistrer', la station va redémmarer et se connecter à votre réseau. Elle ne sera plus directement accessible. Vous devriez toutefois pouvoir utiliser une adresse de la forme `airRohr-ID.local` (cf. ci dessus) ou bien passer par une adresse IP locale de la forme `192.168.1.<nombre>` (peut varier selon les fournisseurs d'accès) à récuperer dans la liste des appareils connectés à votre box internet.
+3. Cliquez sur le bouton 'Enregistrer', la station va redémmarer et se connecter à votre réseau. Elle ne sera plus directement accessible. Vous devriez toutefois pouvoir utiliser une adresse de la forme `airRohr-ID.local` (cf. ci dessus) ou bien passer par une adresse IP locale de la forme `192.168.1.<nombre>` (peut varier selon les fournisseurs d'accès) à récuperer dans la liste des appareils connectés à votre box internet. Le firmware flasher permet également de se connecter aux capteurs présents sur le réseau local (Onglet "Rechercher" puis double-clique). 
 
 <br>
 
