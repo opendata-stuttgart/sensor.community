@@ -62,7 +62,7 @@ Go to `src/utils/initI18n.js`. Add the new language, in this case it's French.
 First add the path to the locale file, then add it to the resources.
 
 ```javascript
- import fr from '../../locales/fr';  // path to the locale file
+import fr from '../../locales/fr';  // path to the locale file
 
 function initI18n(lng = 'en') {
   i18next.init({
@@ -76,24 +76,20 @@ function initI18n(lng = 'en') {
 ```
 
  Go to `src/routes/[lang]/_layout.svelte`  and extend the array with the new language.
- ```javascript
+ ```html
 <script context="module">
-    const LANGUAGES = ["en", "de", "fr"];  <- add new lanuage in the array
+    const LANGUAGES = ["en", "de", "fr"];  // <- add new lanuage in the array
     const DEFAULT_LANGUAGE = "en";
     export async function preload(page) {...
 ```
 
 3. Add language to the navbar
 
-To add the language in the navbar go to `src/components/Nav.svelte`. Scroll down to around Line 140 and add this line with the corresponding language.
+To add the language in the navbar go to `src/components/LanguageSwitcher.svelte`. Scroll down to around Line 140 and add this line with the corresponding language.
 ```
 <a href="{`fr/${pathWithoutLang}`}" class="uppercase block md:pr-4"
                class:selected="{lang === 'fr' ? 'selected' : ''}">{flag('fr')}</a>
 ```
-
-4. Translate guide
-
-tbd
 
 ## Bugs and feedback
 The website is in early development, and may have the rough edge here and there. 
@@ -103,6 +99,6 @@ The website is in early development, and may have the rough edge here and there.
 yarn export or sapper export
 ```
 
-copy content of `__sapper__/export` to an ftp server
+copy content of `__sapper__/export` to a ftp server
 
 Happy coding :tada: :raised_hands:

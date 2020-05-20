@@ -2,58 +2,54 @@
 title: Treiber & Firmware
 ---
 
-We already programmed the firmware. You only have to installed drivers and flash it on the NodeMCU (ESP8288). 
-To communicate with the ESP8266 you need usb2serial drivers. The chipset for NocdeMCUs is usually CH341. Choose the link that corresponds to the operating system of your computer.
+Wir haben die Firmware bereits vorbereitet. Du muss nur noch Treiber installieren und den NodeMCU (ESP8266) flashen. 
+
+Um mit deinem ESP8266 zu kommunizieren, benötigst du den usb2serielle Treiber für dein Betriebssystem. 
+
+Der Chipsatz für die NocdeMCUs v3 ist normalerweise der CH341, schaue einfach auf der Rückseite deines NodeMCU nach, um einige technische Informationen zu finden. 
+
+Wählen den Link, der dem Betriebssystem deinesComputers entspricht.
 
 ### Windows
 
-##### Drivers for the old V2 model (CP2102) for Windows
-* Windows 10: https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip
-* Windows 7/8/8/8/8.1: https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip (32-bit version not supported for 64-bit version of system)
+##### Treiber für Modell V2 (CP2102) für Windows
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 sollte in der Lage sein, diese automatisch herunterzuladen
+* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-Bit-Version - **keine** Unterstützung für die 64-Bit-Version des Betriebssystems
 
-##### Driver for model V3 (CH341) for Windows
-* Windows: http://www.wch.cn/downloads/file/5.html
+##### Treiber für Modell V3 (CH341) für Windows
+* [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 sollte in der Lage sein, diese automatisch herunterzuladen.
 
-##### Extract the downloaded file for Windows:
-* for V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
-* for V3: open the folder CH341SER and double click on the application SETUP.
+##### Entpacke die heruntergeladene Datei für Windows:
+* für V2: Öffne den Ordner CP210x und doppelklicke auf die Anwendung CP210xVCPInstaller_x64 (oder x86)
+* für V3: Öffnen den Ordner CH341SER und doppelklicke auf die Anwendung SETUP.
 
 ---
 
 ### MacOS
 
-#####  MacOS Drivers for the old V2 model
-* MacOS: https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip (restart computer after installation)
+##### MacOS-Treiber
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 
-#####  MacOS Driver for model V3
-* MacOS: http://www.wch.cn/downloads/file/178.html (restart your computer after installation)
-
-#####  Extract the downloaded file for MacOS.
-* for V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
-* for V3: open the folder CH341SER and double click on the application SETUP.
+##### Entpacke die heruntergeladene Datei für MacOS.
+* für V2: Entpacke den Ordner CP210x und doppelklicke auf die Anwendung CP210xVCPInstaller_x64 (oder x86)
+* für V3: Entpacke den Ordner CH341SER und doppelklicke auf die Anwendung SETUP.
+* Starten deinen Mac neu
 
 ---
 
 ### Linux
-#####  Drivers for the old V2 model
-No drivers need to be installed. Chip should be supported directly (verifiable with dmesg)
-
-#####  Driver for model V3
-* MacOS: http://www.wch.cn/downloads/file/178.html (restart your computer after installation)
+Es müssen keine Treiber installiert werden. Der Chip sollte direkt unterstützt werden (verifizierbar mit `dmesg`)
 
 ---
-### Download Firmware Flasher 
+### Firmware-Blinker 
+Unterstützung für mehrere Betriebssysteme: Windows, MacOS und Linux.
 
-* Windows (64-bit): https://luftdaten.info/flashtool/luftdaten-tool.zip
-* Source Code: https://github.com/opendata-stuttgart/airrohr-firmware-flasher
-* MacOS: https://luftdaten.info/flashtool/luftdaten-tool.dmg
-* Source Code: https://github.com/opendata-stuttgart/airrohr-firmware-flasher
-* Linux (64-bit): https://luftdaten.info/flashtool/luftdaten-tool.linux-x64
-* Source Code: https://github.com/opendata-stuttgart/airrohr-firmware-flasher
+* [airRohr-Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Quellcode](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
-### Install Firmware
-Now connect the NodeMCU to the computer with a short micro-USB cable (the cable should not be longer than 1m, otherwise the installation may fail). Select the latest version `latest_en.bin` (or another language version) and click “Upload”.
-Wait until the process is done and done. Now we assemble the sensor.
+Schließe deine NodeMCU mit einem kurzen Mikro-USB-Kabel an deinem Computer an (wählen dabei ein Kabel, das kürzer als 1 Meter ist, sonst kann die Installation fehlschlagen). Wähle `latest_de.bin` (oder eine andere Sprachversion) und klicken auf "Hochladen".
+Warte, bis der Vorgang abgeschlossen ist. Jetzt können wir den Sensor zusammenbauen.
 <br>
-A big thank you goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
+Ein grosser Dank geht an [Piotr, aus Polen] (https://dropbox.inf.re/), für seine Hilfe! 🙋‍♂️♂️ 
 

@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Domů",
+    "docs": "Senzor",
+    "blog": "Blog",
+    "projects": "Projekty",
+    "forum": "Fórum",
+    "sensor": "Senzor",
+    "donate": "Přispějte"
+  },
+  "error": {
+    "errorStatus": "Vyskytla se chyba {status}.",
+    "reloadPage": "Prosím, zkuste stránku znovu načíst.",
+    "offline": "Zdá se, že jste offline.",
+    "submitError": "Jestliže chyba přetrvává, prosím stavte se na <a href=\"chat.sensor.community\">Diskusním fóru</a> a dejte nám vědět, nebo oznamte problém přes <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Díky!"
+  },
+  "index": {
+    "metaDescription": "Postavte si sami svůj senzor a staňte se součástí světové občanské vědy, otevřených dat a občanské tech sítě. Podporováno mnoho přispěvateli \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Postav si vlastní senzor a zapoj se do celosvětové občanské tech sítě",
+    "h1-build": "Postavte si vlastní senzor",
+    "h1-become": "a staň se součástí ",
+    "h1-civic-tech": "celosvětové občanské tech sítě \uD83C\uDF10",
+    "h1-support": "Podporované množstvím",
+    "h1-contributors": "přispěvatelů \uD83D\uDC95",
+    "inNumbers-title": "Sensor.Community v číslech",
+    "inNumbers-activeSensors": "Celosvětově aktivních senzorů",
+    "inNumbers-countries": "Zemí",
+    "inNumbers-dataPoints": "Data Pointů (měření)",
+    "inNumbers-communityProjects": "Komunitních projektů",
+    "inNumbers-communityHubs": "Komunitních Labů",
+    "inNumbers-commits": "GitHub komitů",
+    "inNumbers-fetching": "... načítání dat",
+    "inNumbers-error": "Stala se chyba!",
+    "message-description": "Sensor.Community je celosvětová síť senzorů založená na práci dobrovolníků, která vytváří otevřené enviromentální údaje.",
+    "message-mission": "Naším posláním je inspirace a obohacování životů lidí tím, že nabízíme platformu pro společný zájem o přírodu, která je opravdová a plná radosti.",
+    "message-hubs": "Sensor.Community má globální centra ve Štuttgartu, Sofii a ve Varšavě."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Najdi svůj senzor a návod na sestavení tvého vlastnoručně vyrobeného senzoru.",
+    "h1": "Senzorové sady",
+    "subtitle": "Najdi návody pro tvůj senzor"
+  },
+  "guide": {
+    "editOnGithub": "uprav na Githubu"
+  },
+  "airrohr": {
+    "metaTitle": "Postav si svůj vlastní senzor prachových částic.",
+    "metaDescription": ""
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Fórum",
+    "h1": "Fórum",
+    "subtitle": "Už brzy",
+    "getNotified": "\uD83D\uDC8C Přihlásit se k odběru"
+  },
+  "donate": {
+    "metaDescription": "Jsme nekomerční, neziskoví a nezkompromitovaní. Pomáhají nám lidé, jako jste vy. Na naplnění našeho poslání potřebujeme vaši podporu.",
+    "metaTitle": "Přispějte - pomozte nám svojí podporou.",
+    "h1": "Ukažte vaší podporu",
+    "description": "Jsme nekomerční, neziskoví a nezkompromitovaní. Pomáhají nám lidé, jako jste vy. Na naplnění našeho poslání potřebujeme vaši podporu.",
+    "section": "Způsoby podpory",
+    "campaign": "Aktuální kampaně",
+    "donation": "Přímý dar",
+    "holder": "Majitel účtu",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Banka",
+    "intendedUse": "Určeno pro",
+    "donationDescription": "Open Knowledge Foundation Germany je registrována jako nezisková organizace."
+  },
+  "blog": {
+    "metaDescription": "Novinky",
+    "metaTitle": "Novinky",
+    "h1": "Poslední příspěvky",
+    "description": "Přečti si novinky nebo jiné zajímavé informace"
+  },
+  "contributors": {
+    "metaDescription": "Lidé za tímto projektem",
+    "metaTitle": "Přispěvovatelé Sensor.Community",
+    "h1": "Ahoj, pozdravujeme vás \uD83D\uDC4B",
+    "description": "Seznamte se s týmem, který se v zákulisí podílí na síle of Sensor.Community.",
+    "contactBottom": "\uD83D\uDCEEPoužijte kontakty v dolní části stránky.",
+    "meetTeam": "Seznamte se s týmem"
+  },
+  "projects": {
+    "metaDescription": "Objev mobilní aplikace, stránky,... naší skvělé komunity \uD83D\uDC96",
+    "metaTitle": "Komunitní projekty",
+    "h1": "Komunitní projekty",
+    "description": "Objev mobilní aplikace, stránky,... naší skvělé komunity \uD83D\uDC96️",
+    "submitIdea": "Máte skvělý projekt? Sdílejte ho s komunitou!",
+    "submitProject": "Přidejte váš projekt →"
+  },
+  "hubs": {
+    "metaDescription": "Najděte komunity po celém světě \uD83D\uDC96️",
+    "metaTitle": "Komunitní huby",
+    "h1": "Komunitní huby",
+    "description": "Najděte komunity po celém světě \uD83D\uDC96️️"
+  },
+  "campaigns": {
+    "title": "Přidejte se ke kampani"
+  },
+  "campaign": {
+    "h1": "Kampaň",
+    "subtitle": "Už brzy",
+    "getNotified": "\uD83D\uDC8C Přihlasit se k odběru"
+  },
+  "collaborations": {
+    "h1": "Spolupráce",
+    "subtitle": "Už brzy",
+    "getNotified": "\uD83D\uDC8C Přihlasit se k odběru"
+  },
+  "location": {
+    "h1": "Poloha",
+    "subtitle": "Už brzy",
+    "getNotified": "\uD83D\uDC8C Přihlasit se k odběru"
+  },
+  "partnership": {
+    "title": "Spolupráce"
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "general": "Kontakt",
+    "general-subtitle": "všeobecné otázky?",
+    "partnership": "Partnerství",
+    "partnership-subtitle": "chcete se stát naším partnerem?",
+    "press": "Tisk",
+    "press-subtitle": "nápady na články?",
+    "tech": "Tech",
+    "tech-subtitle": "technické otázky?"
+  },
+  "footer": {
+    "importantLinks": "Důležité odkazy",
+    "sitemap": "Mapa stránky",
+    "license": "Licence",
+    "socialLinks": "Spoj se",
+    "blog": "Blog",
+    "privacy" : "Ochrana souhromí & podmínky používání",
+    "communityProjects": "Komunitní projekty",
+    "communityHubs": "Komunitní huby",
+    "contributors": "Přispěvovatelé",
+    "withLove": "Vyrobené s \uD83D\uDC95 ve Štuttgatu, Německo"
+  },
+  "imprint": {
+    "h1": "Tiráž & Soukromí",
+    "lastModified": "Naposledy upraveno: ",
+    "imprint": "Tiráž",
+    "imprintName": "Jméno: Rajko Zschiegner",
+    "imprintStreet": "Ulice:  Reichenbacher Str. 20",
+    "imprintPostalCode": "PSČ: 07973 Greiz",
+    "imprintCountry": "Země: Německo",
+    "imprintMail": "E-mail: rajko@sensor.community",
+    "privacyPolicy": "Soukromí",
+    "privacyPolicyContact": "Odpovědný",
+    "privacyPolicyDesc": "Na základě těchto zásad ochrany osobních údajů bychom vás chtěli informovat o typu, rozsahu a účelu zpracování osobních údajů na naší webové stránce. Osobní údaje jsou všechny údaje, které můžou identifikovat vaši osobu, jakými jsou např. jméno, adresa, e-mail nebo chování uživatele. Pokud jde o použité pojmy, jakými jsou například \"zpracovatel\" nebo \"zodpovědná osoba\", odkazujeme na definici v článku 4 Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyName": "Jméno: Rajko Zschiegner",
+    "privacyPolicyStreet": "Ulice:  Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "PSČ: 07973 Greiz",
+    "privacyPolicyCountry": "Země: Německo",
+    "privacyPolicyMail": "E-mail: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Kontakt prostřednictvím e-mailu, sociálních médií nebo telefonu",
+    "privacyPolicyContactDescription": "Pokud adresujete e-mail, telefon nebo sociální média nabízené na našich webových stránkách a poskytnete nám osobní údaje, budou tyto údaje automaticky uloženy a zpracovány naším týmem pro zpracování vašeho dotazu. Tato data jsou zpracovávána pouze pro korespondenci s vámi. Abychom mohli odpovědět na váš dotaz, potřebujeme vaši e-mailovou adresu. Abychom mohli odpovědět na váš požadavek na zpětné volání, potřebujeme vaše telefonní číslo. Právní základ: Právní základ pro použití vašich údajů, jak je popsáno výše, je Čl. 6 odst. 1 lit. DSGVO. Smazání: Osobní údaje, které shromažďujeme, budou vymazány, pokud již nebudou vyžadovány. Nutnost kontrolujeme každé 2 roky. Zpracování dat můžete také kdykoli zrušit."
+  }
+}
