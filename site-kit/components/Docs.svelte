@@ -82,7 +82,7 @@
     }
 
     .content {
-        margin:auto;
+        margin: auto;
         padding-left: 1em;
         padding-right: 1em;
     }
@@ -244,6 +244,7 @@
         letter-spacing: 0.1em;
         margin: 5px;
     }
+
     img {
         display: inline;
     }
