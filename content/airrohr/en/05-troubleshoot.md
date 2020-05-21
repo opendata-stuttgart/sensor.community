@@ -4,15 +4,13 @@ title: Troubleshoot
 
 ### Transmitting problems?
 Enter the following in the browser with your own data:
-`https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor type]`
+https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor_type]
 
 The [ID] can also be searched for in the text on the page [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
 
 * Is the sensor registered via [https://devices.sensor.community/](https://devices.sensor.community/) and is the sensor visible on the map?
-    * Was the WLAN signal level weak in the past?
-        here is the signal log server-side: `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
+* Was the WLAN signal level weak in the past? Here is the signal log server-side: https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]
         
-
 
 ### USB cable problems?
 * Check power supply: USB cable
