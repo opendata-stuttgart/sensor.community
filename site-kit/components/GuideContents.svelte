@@ -54,9 +54,7 @@
                 {@html section.metadata.title}
 
                 {#if section.slug === active_section}
-                    <div class="icon-container">
-
-                    </div>
+                    <div class="icon-container"></div>
                 {/if}
             </a>
 
@@ -67,9 +65,7 @@
                    data-level="{subsection.level}">
                     {@html subsection.title}
 
-                    {#if subsection.slug === active_section}
-
-                    {/if}
+                    {#if subsection.slug === active_section}{/if}
                 </a>
             {/each}
         </li>
