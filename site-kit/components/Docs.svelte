@@ -74,71 +74,22 @@
 <style>
     aside {
         position: fixed;
-        left: 0.8rem;
-        bottom: 0.8rem;
         width: 2em;
         height: 2em;
-        overflow: scroll;
-        border: 1px solid #eee;
         transition: width 0.2s, height 0.2s;
-    }
-
-    aside button {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 3.4rem;
-        height: 3.4rem;
-    }
-
-    aside.open {
-        width: 80vw;
-        height: 90vh;
-        border: 1px solid #1a202c;
-    }
-
-    aside.open::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: calc(100% - 2rem);
-        height: 2em;
-        pointer-events: none;
-        z-index: 2;
-    }
-
-    aside::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: 1.9em;
-        width: calc(100% - 2rem);
-        height: 2em;
-        pointer-events: none;
-    }
-
-    .sidebar {
-        /*position: absolute;*/
-        overflow-x: auto;
-        width: 100%;
-        height: 100%;
-        padding: 5em 1.6rem 2em 3.2rem;
-        bottom: 2em;
-        background-color: white;
         margin: var(--top-offset) 0;
+        padding: 5em 1.6rem 2em 3.2rem;
     }
 
     .content {
-        /*width: 85%;*/
-        /*margin: 0;*/
-        padding-top: var(--side-nav);
-        /*tab-size: 2;*/
-        /*-moz-tab-size: 2;*/
+        margin: auto;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
-    @media (min-width: 832px) {
+    @media (min-width: 770px) {
         aside {
+            position: absolute;
             display: block;
             width: var(--sidebar-w);
             height: 100vh;
@@ -150,20 +101,10 @@
             color: #1a202c;
         }
 
-        aside button {
-            display: none;
-        }
-
-        .sidebar {
-            padding: var(--top-offset) 20px 6.4rem 3.2rem;
-            height: 80%;
-            bottom: auto;
-            width: 100%;
-        }
-
         .content {
             padding-left: calc(var(--sidebar-w) + var(--side-nav));
             padding-right: var(--side-nav);
+            margin: var(--top-offset) 0;
         }
 
         .content .side-by-side {
@@ -303,6 +244,7 @@
         letter-spacing: 0.1em;
         margin: 5px;
     }
+
     img {
         display: inline;
     }
@@ -314,10 +256,6 @@
         <section data-id={section.slug}>
             <h2>
                 <span id={section.slug}></span>
-
-<!--                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">-->
-<!--                    <path d="M30,12V8h-5.004l1-8h-4l-1,8h-7.998l1-8h-4l-1,8H2v4h6.498L7.5,20H2v4h5l-1,8h4l1-8h8l-1.002,8H22 l1-8h7v-4h-6.5l0.996-8H30z M19.5,20h-8l0.998-8h7.998L19.5,20z"/>-->
-<!--                </svg>-->
 
                 {@html section.metadata.title}
                 <a href="{$locale}/sensors/airrohr#{section.slug}" class="anchor" aria-hidden></a>
@@ -338,18 +276,6 @@
     {/each}
 </div>
 
-<aside bind:this={aside} class:open={show_contents}>
-    <div class="sidebar" on:click="{() => show_contents = false}">
-        <GuideContents {sections} {active_section} {show_contents}/>
-    </div>
-    <button on:click="{() => show_contents = !show_contents}" name="{show_contents? 'close' : 'menu'}">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px"
-             viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
-			  <path d="M53.333,106.667H416c29.417,0,53.333-23.927,53.333-53.333S445.417,0,416,0H53.333C23.917,0,0,23.927,0,53.333
-				S23.917,106.667,53.333,106.667z"/>
-            <path d="M416,181.333H53.333C23.917,181.333,0,205.26,0,234.667S23.917,288,53.333,288H416c29.417,0,53.333-23.927,53.333-53.333 S445.417,181.333,416,181.333z"/>
-            <path d="M416,362.667H53.333C23.917,362.667,0,386.594,0,416s23.917,53.333,53.333,53.333H416
-				c29.417,0,53.333-23.927,53.333-53.333S445.417,362.667,416,362.667z"/>
-        </svg>
-    </button>
+<aside bind:this={aside}>
+    <GuideContents {sections} {active_section} {show_contents}/>
 </aside>
