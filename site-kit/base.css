@@ -5,17 +5,16 @@
 	--sidebar-mid-w: 36rem;
 	--sidebar-large-w: 48rem;
 	--main-width: 80rem;
-	--side-nav:  3.2rem;
-	--side-page:   var(--side-nav);
+	--side-nav:  4rem;
 }
 
-/*@media screen and (min-width: 768px) {*/
-/*	:root {*/
-/*		--side-page:  14vw;*/
-/*		--top-offset: 3rem;*/
-/*		--side-nav: 4.8rem;*/
-/*	}*/
-/*}*/
+@media screen and (min-width: 768px) {
+	:root {
+		--sidebar-w:  18rem;
+		--top-offset: 5rem;
+		--side-nav:  3.2rem;
+	}
+}
 
 /*	base reset ----------------------------- */
 

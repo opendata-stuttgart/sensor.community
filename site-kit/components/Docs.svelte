@@ -139,6 +139,7 @@
 
     @media (min-width: 832px) {
         aside {
+            position: absolute;
             display: block;
             width: var(--sidebar-w);
             height: 100vh;
