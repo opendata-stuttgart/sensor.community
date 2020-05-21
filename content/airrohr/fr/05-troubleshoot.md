@@ -4,13 +4,14 @@ title: Problèmes & difficultés
 
 ### Problèmes de transmission ?
 Entrez l'adresse suivante dans votre navigateur en remplçant l'ID et le type de capteur :
-`https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor type]`
+https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor_type]
 
 L'[ID] peut également être recherchée sur la page [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
 
 * Le détecteur a-t-il été enregistré sur le site [https://devices.sensor.community/](https://devices.sensor.community/) et est-il visible sur la carte ?
-    * Le signal Wifi était-il faible dernièrement ?
-        Ici, un server qui enregistre le niveau de signal Wifi : `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
+* Le signal Wifi était-il faible dernièrement ? 
+Ici, un server qui enregistre le niveau de signal Wifi : https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]
+
 
 ### Problèmes de câble USB ?
 * Vérifiez la prise d'alimentation USB et le câble.

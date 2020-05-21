@@ -32,8 +32,8 @@ Choisissez le lien correspondsant à votre ordinateur.
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 
 #####  Décompresser et installer le fichier téléchargé pour MacOS.
-* for V2: Décompressez le dossier CP210x et double-cliquez sur le fichier exécutable CP210xVCPInstaller_x64 (or x86)
-* for V3: Décompressez le dossier CH341SER et double-cliquez sur le fichier exécutable SETUP.
+* V2: Décompressez le dossier CP210x et double-cliquez sur le fichier exécutable CP210xVCPInstaller_x64 (or x86)
+* V3: Décompressez le dossier CH341SER et double-cliquez sur le fichier exécutable SETUP.
 * Redémarrez votre Mac
 
 ---
