@@ -5,11 +5,11 @@
     import {flag} from "country-emoji"
 
     const {page} = stores();
-    lang = $page.params.lang;
-    path = $page.path;
-    i18n = initI18n(lang);
+    $: lang = $page.params.lang;
+    $: path = $page.path;
+    $: i18n = initI18n(lang);
 
-    pathWithoutLang = $page.path
+    $: pathWithoutLang = $page.path
             .split("/")
             .slice(2)
             .join("/");
