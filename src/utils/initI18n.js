@@ -7,6 +7,7 @@ import sk from '../../locales/sk';
 import ru from '../../locales/ru';
 import cz from '../../locales/cz';
 import bg from '../../locales/bg';
+import nl from '../../locales/nl';
 
 
 function initI18n(lng = 'en') {
@@ -20,6 +21,7 @@ function initI18n(lng = 'en') {
       sk,
       cz,
       bg,
+      nl,
       ru
     },
     fallbackLng: {
