@@ -33,7 +33,7 @@ SDS011 Pin 7 -> unbenutzt
 ```
 
 ### Zusammenlöten BME280
-<img src="../docs/solder-a-bme-280.jpeg" style="width:48%; padding-right: 1em" class="items-center"/>
+<img src="../docs/solder-a-bme-280.jpeg" style="width:48%; padding-right: 0.5em" class="items-center"/>
 <img src="../docs/solder-bme-280.jpeg" style="width:49%;">
 
 Verbinde die Stiftleiste mit der BME280-Platine. Löte diese von der Rückseite zusammen. Die Abstände zwischen den Pins sind sehr klein, sei also geduldig und vorsichtig.  
@@ -57,7 +57,7 @@ SCL -> Stift D4
 Verwende den Kabelbinder, um die NodeMCU (ESP8266) und den SDS011-Sensor so zu verbinden, dass die Wifi-Antenne vom Sensor weg zeigt.
 
  ##### Flexiblen Schlauch anschließen
- <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 1em"/>
+ <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
  <img src="../docs/bme280-tied-to-tube.jpeg" style="width:49%;">
  
 * Schließe den flexiblen Schlauch an den Sensor SDS011 an.
