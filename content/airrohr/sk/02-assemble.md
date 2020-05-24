@@ -31,7 +31,7 @@ SDS011 Pin 7 -> nepoužívaný
 ```
 
 ### Spájkovanie BME280
-<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 1em" class="items-center"/>
+<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
 <img src="../docs/solder-bme-280.jpeg" style="width:49%;">
 
 Pripojte kolíkovú lištu k doske BME280. Spájkujte ju zozadu. Medzery medzi kolíkmi sú veľmi malé, takže buďte trpezliví a opatrní.  
@@ -56,7 +56,7 @@ SCL -> Pin D4
 Pomocou svorky spojte NodeMCU (ESP8266) a senzor prachových častíc SDS011 tak, aby anténa Wifi (kovový pliešok s textom WiFi) smerovala preč od senzora.
 
  ##### Pripojte ohybnú hadičku
- <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 1em"/>
+ <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
  <img src="../docs/bme280-tied-to-tube.jpeg" style="width:49%;">
 
 * Pripojte hadičku k senzoru SDS011.

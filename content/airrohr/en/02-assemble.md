@@ -31,7 +31,7 @@ SDS011 Pin 7 -> unused
 ```
 
 ### Solder together BME280
-<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 1em" class="items-center"/>
+<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
 <img src="../docs/solder-bme-280.jpeg" style="width:49%;">
 
 Connect the pin header with the BME280 board. Solder it from the backside. The gaps between the pins are very small so be patient and careful.  
@@ -56,7 +56,7 @@ SCL -> Pin D4
 Use a cable tie to link the NodeMCU (ESP8266) and the SDS011 sensor so that the Wifi antenna points away from the sensor
 
  ##### Connect flexible tube
- <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 1em"/>
+ <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
  <img src="../docs/bme280-tied-to-tube.jpeg" style="width:49%;">
  
 * connect the flexible tube to the SDS011 sensor
