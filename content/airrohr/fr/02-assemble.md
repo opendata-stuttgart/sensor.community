@@ -50,7 +50,7 @@ SCL -> Pin D4
 ### Assemblage
 
  ##### NodeMCU et SDS011
-<img src="../docs/tie-air-quality-sensor- together.jpeg"/>
+<img src="../docs/tie-air-quality-sensor-together.jpeg"/>
 Utilisez un serre-câbles pour attacher le NodeMCU et le SDS011, de manière à ce que l'antenne Wifi soit à l'opposé du capteur de particules fines.
 
  ##### Tube flexible

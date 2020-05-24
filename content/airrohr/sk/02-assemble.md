@@ -52,7 +52,7 @@ SCL -> Pin D4
 ### Zviažte všetko dohromady
 
  ##### Sťahovacou svorkou spojte NodeMCU s SDS011 tak, ako vidíte na obrázku
-<img src="../docs/tie-air-quality-sensor- together.jpeg"/>
+<img src="../docs/tie-air-quality-sensor-together.jpeg"/>
 Pomocou svorky spojte NodeMCU (ESP8266) a senzor prachových častíc SDS011 tak, aby anténa Wifi (kovový pliešok s textom WiFi) smerovala preč od senzora.
 
  ##### Pripojte ohybnú hadičku

@@ -52,7 +52,7 @@ SCL -> Pin D4
 ### Tie everything together
 
  ##### Tie NodeMCU and SDS011 together
-<img src="../docs/tie-air-quality-sensor- together.jpeg"/>
+<img src="../docs/tie-air-quality-sensor-together.jpeg"/>
 Use a cable tie to link the NodeMCU (ESP8266) and the SDS011 sensor so that the Wifi antenna points away from the sensor
 
  ##### Connect flexible tube
