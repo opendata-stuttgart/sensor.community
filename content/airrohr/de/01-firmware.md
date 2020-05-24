@@ -2,13 +2,13 @@
 title: Treiber & Firmware
 ---
 
-Wir haben die Firmware bereits vorbereitet. Du muss nur noch Treiber installieren und den NodeMCU (ESP8266) flashen. 
+Wir haben die Firmware bereits vorbereitet. Du muss nur noch Treiber installieren und die NodeMCU (ESP8266) flashen. 
 
-Um mit deinem ESP8266 zu kommunizieren, benötigst du den usb2serielle Treiber für dein Betriebssystem. 
+Um mit deinem ESP8266 zu kommunizieren, benötigst du den USB-2-Seriell-Treiber für dein Betriebssystem. 
 
-Der Chipsatz für die NocdeMCUs v3 ist normalerweise der CH341, schaue einfach auf der Rückseite deines NodeMCU nach, um einige technische Informationen zu finden. 
+Der Chipsatz für die NodeMCUs v3 ist normalerweise der CH341, schaue einfach auf der Rückseite deiner NodeMCU nach, um einige technische Informationen zu finden. 
 
-Wählen den Link, der dem Betriebssystem deinesComputers entspricht.
+Wähle den Link, der dem Betriebssystem deines Computers entspricht.
 
 ### Windows
 
@@ -42,13 +42,13 @@ Wählen den Link, der dem Betriebssystem deinesComputers entspricht.
 Es müssen keine Treiber installiert werden. Der Chip sollte direkt unterstützt werden (verifizierbar mit `dmesg`)
 
 ---
-### Firmware-Blinker 
+### Firmware Flashing Tool 
 Unterstützung für mehrere Betriebssysteme: Windows, MacOS und Linux.
 
 * [airRohr-Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
 * [Quellcode](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
-Schließe deine NodeMCU mit einem kurzen Mikro-USB-Kabel an deinem Computer an (wählen dabei ein Kabel, das kürzer als 1 Meter ist, sonst kann die Installation fehlschlagen). Wähle `latest_de.bin` (oder eine andere Sprachversion) und klicken auf "Hochladen".
+Schließe deine NodeMCU mit einem kurzen Mikro-USB-Kabel an deinem Computer an (wähle dabei ein Kabel, das kürzer als 1 Meter ist, sonst kann die Installation fehlschlagen). Wähle `latest_de.bin` (oder eine andere Sprachversion) und klicke auf "Hochladen".
 Warte, bis der Vorgang abgeschlossen ist. Jetzt können wir den Sensor zusammenbauen.
 <br>
 Ein grosser Dank geht an [Piotr, aus Polen] (https://dropbox.inf.re/), für seine Hilfe! 🙋‍♂️♂️ 

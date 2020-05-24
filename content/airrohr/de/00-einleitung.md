@@ -1,14 +1,14 @@
 ---
 title: Einleitung
 ---
-> 🚧 Baue dein DIY-Sensor und werde ein Teil des weltweiten, opendata & civictech Netzwerks. Mit airRohr kannst du die Luftverschmutzung selbst messen.
+> 🚧 Baue deinen DIY-Sensor und werde ein Teil des weltweiten OpenData & CivicTech Netzwerks. Mit airRohr kannst du die Luftverschmutzung selbst messen.
 
 
 <img src="../docs/particulate-matter-air-quality-sensor-kit.jpeg"/>
 
 ### Einkaufsliste
 ###### Sensor-Bausatz
-* [Vorgeflashter Sensor-Kit](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
+* [Vorgeflashtes Sensor-Kit](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
 
 ###### Einzelne Komponenten
 * [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
@@ -22,11 +22,11 @@ title: Einleitung
 * [Stromversorgung USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+Stromversorgung+Netzteil)
 * [Kabelbinder](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+Bänder)
 * Flexibler Schlauch, wenn möglich **nicht** transparent, Durchmesser 6 mm, Länge ca. 20cm Baumarkt
-* [Witterungsschutz, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
+* [Witterungsschutz, Marley Silent HT Bogen DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 
 <br>
 
 🙌 Toll, du hast dich entschieden, die Teile online zu kaufen! 
 Leider kann die Lieferung einige Tagen oder bis zu drei Wochen dauern. 
-Genieße bis dahin ihr Leben 🏝.
+Genieße bis dahin dein Leben .
