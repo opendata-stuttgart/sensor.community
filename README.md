@@ -44,6 +44,7 @@ Website is based on [Svelte 3](https://svelte.dev) and [Sapper](https://sapper.s
 Please consider reading the documentation.
 
 ## Translation
+
 1. Create locale file
 
 duplicate `locales/en.json` file and rename it to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding, for example *vn* for Vietnam.
@@ -55,6 +56,14 @@ Translate the **values** in the locale file:
         ...
     },
 ```
+
+Now duplicate `content/airrohr/en` folder and rename it again to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1)  
+
+![assembly guide](assembly-guide-markdown.png)
+
+It's written in markdown. To get used to the markdown syntax, visit [www.markdownguide.org](https://www.markdownguide.org/getting-started/).
+
+**FYI** You can leave the filename. The title will be taken from the beginning of each file, see picture above.
 
 2. Add new language to the init18n.js
 
@@ -90,6 +99,8 @@ To add the language in the navbar go to `src/components/LanguageSwitcher.svelte`
 <a href="{`fr/${pathWithoutLang}`}" class="uppercase block md:pr-4"
                class:selected="{lang === 'fr' ? 'selected' : ''}">{flag('fr')}</a>
 ```
+
+#
 
 ## Bugs and feedback
 The website is in early development, and may have the rough edge here and there. 
