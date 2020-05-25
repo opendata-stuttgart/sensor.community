@@ -14,10 +14,10 @@
                 <div class="grid grid-cols-1 md:gap-8">
                     <div>
                         <div class="mt-12 md:mt-0">
-                            <img class="h-10 text-gray-500 text-2xl" src="/img/logos/workflow-mark-gray-300.svg"
+                            <img class="h-10 text-gray-500 text-2xl" src=""
                                  alt="Sensor.Community"/>
                             <p class="mt-4 text-gray-500 text-base leading-6">
-                                Making the world a better place through community driven, open environmental data.
+                                {i18n.t('footer:mission')}
                                 {i18n.t('footer:withLove')}
                             </p>
                             <div class="mt-8 flex">
