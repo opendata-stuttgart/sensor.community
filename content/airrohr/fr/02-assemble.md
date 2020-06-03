@@ -31,7 +31,7 @@ SDS011 Pin 7 -> inutilisé
 ```
 
 ### Soudure BME280
-<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 1em" class="items-center"/>
+<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
 <img src="../docs/solder-bme-280.jpeg" style="width:49%;">
 
 Placez la série de connecteur au recto et soudez au verso. Soyez méticuleux pour ne pas créer de court-circuit.
@@ -50,11 +50,11 @@ SCL -> Pin D4
 ### Assemblage
 
  ##### NodeMCU et SDS011
-<img src="../docs/tie-air-quality-sensor- together.jpeg"/>
+<img src="../docs/tie-air-quality-sensor-together.jpeg"/>
 Utilisez un serre-câbles pour attacher le NodeMCU et le SDS011, de manière à ce que l'antenne Wifi soit à l'opposé du capteur de particules fines.
 
  ##### Tube flexible
- <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 1em"/>
+ <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
  <img src="../docs/bme280-tied-to-tube.jpeg" style="width:49%;">
  
 * Connectez le tube flexible sur le capteur de particules fines SDS011.

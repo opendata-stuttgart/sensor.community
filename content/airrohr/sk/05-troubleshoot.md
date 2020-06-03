@@ -4,13 +4,13 @@ title: Riešenie problémov
 
 ### Problémy s prenosom?
 Do prehliadača zadajte svoje vlastné údaje v nasledujúcom formáte:
-`https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[typ senzora]`
+https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[typ_senzora]
 
 [ID] môžete nájsť aj v texte na tejto stránke (načítanie stránky môže chvíľu trvať): [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
 
 * Je senzor zaregistrovaný prostredníctvom [https://devices.sensor.community/](https://devices.sensor.community/) a je senzor viditeľný na mape?
-    * Bola intenzita WiFi signálu v minulosti slabá?
-        Tu je stránka s log súborom signálu: `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
+* Bola intenzita WiFi signálu v minulosti slabá?
+Tu je stránka s log súborom signálu: https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]
 
 
 

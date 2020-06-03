@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Hoofdpagina",
+    "docs": "Sensor",
+    "blog": "Blog",
+    "projects": "Projecten",
+    "forum": "Forum",
+    "sensor": "Sensor",
+    "donate": "Doneren"
+  },
+  "error": {
+    "errorStatus": "Er is een {status}-fout opgetreden.",
+    "reloadPage": "Probeer de pagina opnieuw te laden.",
+    "offline": "Het lijkt erop dat je offline bent.",
+    "submitError": "Als de fout blijft bestaan, laat het ons dan weten in het <a href=\"chat.sensor.community\">chatkanaal</a>, of maak een issue aan op <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Bedankt!"
+  },
+  "index": {
+    "metaDescription": "Maak je eigen zelfbouwsensor en word onderdeel van het wereldwijde technologienetwerk van burgerwetenschap, open source en open data. Ondersteund door veel bijdragers.\uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Bouw je eigen sensor en doe mee met het wereldwijde technologienetwerk van burgerwetenschap",
+    "h1-build": "Bouw je eigen sensor",
+    "h1-become": "en word onderdeel van ",
+    "h1-civic-tech": "een wereldwijd netwerk van burgerwetenschap \uD83C\uDF10",
+    "h1-support": "Ondersteund door veel",
+    "h1-contributors": "bijdragers \uD83D\uDC95",
+    "inNumbers-title": "Sensor.Community in cijfers",
+    "inNumbers-activeSensors": "Actieve sensoren wereldwijd",
+    "inNumbers-countries": "Landen",
+    "inNumbers-dataPoints": "Metingen",
+    "inNumbers-communityProjects": "Projecten",
+    "inNumbers-communityHubs": "Labs",
+    "inNumbers-commits": "GitHub Commits",
+    "inNumbers-fetching": "... gegevens ophalen",
+    "inNumbers-error": "Er is een fout opgetreden!",
+    "message-description": "Sensor.Community is een wereldwijd sensornetwerk, gedreven door de bijdragers, dat open milieudata creëert.",
+    "message-mission": "Onze missie is om mensen te inspireren en hun leven te verrijken, wij bieden daarvoor een platform aan.",
+    "message-hubs": "Sensor.Community heeft wereldwijde hubs in Stuttgart, Sofía and Warsaw."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Jouw sensor en zelfbouwinstructies",
+    "h1": "Sensorkits",
+    "subtitle": "Onze handleiding voor jouw sensor"
+  },
+  "guide": {
+    "editOnGithub": "edit on Github"
+  },
+  "airrohr": {
+    "metaTitle": "Bouw je eigen fijnstofsensor.",
+    "metaDescription": ""
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Forum",
+    "h1": "Forum",
+    "subtitle": "Binnenkort",
+    "getNotified": "\uD83D\uDC8C Abonneer"
+  },
+  "donate": {
+    "metaDescription": "We zijn non-profit, niet-commercieel en onafhankelijk. Mensen zoals jij helpen ons. We zijn op donaties aangewezen om onze missie te vervullen.",
+    "metaTitle": "Doneer - steun ons met jouw bijdrage",
+    "h1": "Steun ons",
+    "description": "We zijn non-profit, niet-commercieel en onafhankelijk. Mensen zoals jij helpen ons. We zijn op donaties aangewezen om onze missie te vervullen.",
+    "section": "Manieren om ons te steunen",
+    "campaign": "Lopende campagne",
+    "donation": "Directe donatie",
+    "holder": "Rekeninghouder",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Bank",
+    "intendedUse": "Intended use",
+    "donationDescription": "The Open Knowledge Foundation Germany is recognised as a non-profit organisation."
+  },
+  "blog": {
+    "metaDescription": "Nieuws",
+    "metaTitle": "Nieuws",
+    "h1": "Recente berichten",
+    "description": "Vind nieuws of andere interessante informatie"
+  },
+  "contributors": {
+    "metaDescription": "De mensen achter het project",
+    "metaTitle": "Bijdragers aan Sensor.Community",
+    "h1": "Hallo namens het team \uD83D\uDC4B",
+    "description": "Maak kennis met het team dat achter de schermen werkt aan Sensor.Community.",
+    "contactBottom": "\uD83D\uDCEEGebruik de contactmogelijkheden onderaan de pagina.",
+    "meetTeam": "Maak kennis met het team"
+  },
+  "projects": {
+    "metaDescription": "Vind mobiele apps, websites, ... \uD83D\uDC96",
+    "metaTitle": "Community Projects",
+    "h1": "Community Projects",
+    "description": "Vind mobiele apps, websites, ... \uD83D\uDC96️",
+    "submitIdea": "Heb je een geweldig project? Deel het met de community!",
+    "submitProject": "Deel je project →"
+  },
+  "hubs": {
+    "metaDescription": "Vind communities over de hele wereld \uD83D\uDC96️",
+    "metaTitle": "Community Hubs",
+    "h1": "Community Hubs",
+    "description": "Vind communities over de hele wereld \uD83D\uDC96️️"
+  },
+  "campaigns": {
+    "title": "Doe mee met een campagne"
+  },
+  "campaign": {
+    "h1": "Campagne",
+    "subtitle": "Binnenkort",
+    "getNotified": "\uD83D\uDC8C Abonneer"
+  },
+  "collaborations": {
+    "h1": "Samenwerkingen",
+    "subtitle": "Binnenkort",
+    "getNotified": "\uD83D\uDC8C Abonneer"
+  },
+  "location": {
+    "h1": "Location",
+    "subtitle": "Binnenkort",
+    "getNotified": "\uD83D\uDC8C Abonneer"
+  },
+  "partnership": {
+    "title": "Samenwerkingen"
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "general": "Contact",
+    "general-subtitle": "Algemene vragen?",
+    "partnership": "Partner",
+    "partnership-subtitle": "Wil je samenwerken?",
+    "press": "Media",
+    "press-subtitle": "Ideeën voor een artikel?",
+    "tech": "Tech",
+    "tech-subtitle": "Technische vragen?"
+  },
+  "footer": {
+    "importantLinks": "Belangrijke links",
+    "sitemap": "Sitemap",
+    "license": "Licentie",
+    "socialLinks": "Connect",
+    "blog": "Blog",
+    "privacy" : "Privacy & Voorwaarden",
+    "communityProjects": "Community Projecten",
+    "communityHubs": "Community Hubs",
+    "contributors": "Bijdragers",
+    "withLove": "Gemaakt met \uD83D\uDC95 in Stuttgart, Duitsland"
+  },
+  "imprint": {
+    "h1": "Imprint & Privacy",
+    "lastModified": "Laatst gewijzigd: ",
+    "imprint": "Imprint",
+    "imprintName": "Naam: Rajko Zschiegner",
+    "imprintStreet": "Adres:  Reichenbacher Str. 20",
+    "imprintPostalCode": "Postcode: 07973 Greiz",
+    "imprintCountry": "Land: Duitsland",
+    "imprintMail": "Email: rajko@sensor.community",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Responsible",
+    "privacyPolicyDesc": "With this privacy policy we would like to inform you about the type, scope and purpose of the processing of personal data on our website. Personal data are all data that have a personal reference to you, e.g. name, address, e-mail address or user behaviour. With regard to the terms used, such as \"processing\" or \"responsible person\", we refer to the definitions in Art. 4 of the Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyName": "Naam: Rajko Zschiegner",
+    "privacyPolicyStreet": "Adres:  Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Postcode: 07973 Greiz",
+    "privacyPolicyCountry": "Land: Duitsland",
+    "privacyPolicyMail": "Email: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Contact via e-mail, sociale media of telefoon",
+    "privacyPolicyContactDescription": "As far as you address the e-mail, telephone or social media offered on our website and provide us with personal data, these data will be automatically stored and processed by our team to process your inquiry. These data are only processed for correspondence with you. We need your e-mail address to be able to answer your inquiry. We need your telephone number in order to be able to answer your callback request. Legal basis: The legal basis for the use of your data as described above is Art. 6 para. 1 lit. a DSGVO. Deletion: The personal data collected by us will be deleted if they are no longer required. We check the necessity every 2 years. You can also revoke the data processing at any time."
+  }
+}
