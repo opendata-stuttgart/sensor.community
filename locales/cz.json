@@ -16,9 +16,9 @@
   },
   "index": {
     "metaDescription": "Postavte si sami svůj senzor a staňte se součástí světové občanské vědy, otevřených dat a občanské tech sítě. Podporováno mnoho přispěvateli \uD83D\uDC95",
-    "metaTitle": "Sensor.Community \uD83C\uDF10 Postav si vlastní senzor a zapoj se do celosvětové občanské tech sítě",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Postavte si vlastní senzor a zapojte se do celosvětové občanské tech sítě",
     "h1-build": "Postavte si vlastní senzor",
-    "h1-become": "a staň se součástí ",
+    "h1-become": "a staňte se součástí ",
     "h1-civic-tech": "celosvětové občanské tech sítě \uD83C\uDF10",
     "h1-support": "Podporované množstvím",
     "h1-contributors": "přispěvatelů \uD83D\uDC95",
@@ -31,21 +31,21 @@
     "inNumbers-commits": "GitHub komitů",
     "inNumbers-fetching": "... načítání dat",
     "inNumbers-error": "Stala se chyba!",
-    "message-description": "Sensor.Community je celosvětová síť senzorů založená na práci dobrovolníků, která vytváří otevřené enviromentální údaje.",
+    "message-description": "Sensor.Community je celosvětová síť senzorů založená na práci dobrovolníků, kteří vytvářejí otevřené enviromentální údaje.",
     "message-mission": "Naším posláním je inspirace a obohacování životů lidí tím, že nabízíme platformu pro společný zájem o přírodu, která je opravdová a plná radosti.",
     "message-hubs": "Sensor.Community má globální centra ve Štuttgartu, Sofii a ve Varšavě."
   },
   "sensor": {
     "metaDescription": "",
-    "metaTitle": "Najdi svůj senzor a návod na sestavení tvého vlastnoručně vyrobeného senzoru.",
+    "metaTitle": "Najděte svůj senzor a návod na sestavení tvého vlastnoručně vyrobeného senzoru.",
     "h1": "Senzorové sady",
-    "subtitle": "Najdi návody pro tvůj senzor"
+    "subtitle": "Najděte návody pro Váš senzor"
   },
   "guide": {
-    "editOnGithub": "uprav na Githubu"
+    "editOnGithub": "upravte na Githubu"
   },
   "airrohr": {
-    "metaTitle": "Postav si svůj vlastní senzor prachových částic.",
+    "metaTitle": "Postavte si svůj vlastní senzor prachových částic.",
     "metaDescription": ""
   },
   "forum": {
@@ -74,13 +74,13 @@
     "metaDescription": "Novinky",
     "metaTitle": "Novinky",
     "h1": "Poslední příspěvky",
-    "description": "Přečti si novinky nebo jiné zajímavé informace"
+    "description": "Přečtěte si novinky nebo jiné zajímavé informace"
   },
   "contributors": {
     "metaDescription": "Lidé za tímto projektem",
     "metaTitle": "Přispěvovatelé Sensor.Community",
-    "h1": "Ahoj, pozdravujeme vás \uD83D\uDC4B",
-    "description": "Seznamte se s týmem, který se v zákulisí podílí na síle of Sensor.Community.",
+    "h1": "Ahoj, pozdravujeme Vás \uD83D\uDC4B",
+    "description": "Seznamte se s týmem, který se v zákulisí podílí na síle Sensor.Community.",
     "contactBottom": "\uD83D\uDCEEPoužijte kontakty v dolní části stránky.",
     "meetTeam": "Seznamte se s týmem"
   },
@@ -88,7 +88,7 @@
     "metaDescription": "Objev mobilní aplikace, stránky,... naší skvělé komunity \uD83D\uDC96",
     "metaTitle": "Komunitní projekty",
     "h1": "Komunitní projekty",
-    "description": "Objev mobilní aplikace, stránky,... naší skvělé komunity \uD83D\uDC96️",
+    "description": "Objevte mobilní aplikace, stránky,... naší skvělé komunity \uD83D\uDC96️",
     "submitIdea": "Máte skvělý projekt? Sdílejte ho s komunitou!",
     "submitProject": "Přidejte váš projekt →"
   },
@@ -134,12 +134,13 @@
     "importantLinks": "Důležité odkazy",
     "sitemap": "Mapa stránky",
     "license": "Licence",
-    "socialLinks": "Spoj se",
+    "socialLinks": "Spojte se",
     "blog": "Blog",
     "privacy" : "Ochrana souhromí & podmínky používání",
     "communityProjects": "Komunitní projekty",
     "communityHubs": "Komunitní huby",
     "contributors": "Přispěvovatelé",
+    "mission" : "Děláme svět lepší a vytváříme otevřené enviromentální údaje založené na naší komunitě.",
     "withLove": "Vyrobené s \uD83D\uDC95 ve Štuttgatu, Německo"
   },
   "imprint": {
@@ -153,7 +154,7 @@
     "imprintMail": "E-mail: rajko@sensor.community",
     "privacyPolicy": "Soukromí",
     "privacyPolicyContact": "Odpovědný",
-    "privacyPolicyDesc": "Na základě těchto zásad ochrany osobních údajů bychom vás chtěli informovat o typu, rozsahu a účelu zpracování osobních údajů na naší webové stránce. Osobní údaje jsou všechny údaje, které můžou identifikovat vaši osobu, jakými jsou např. jméno, adresa, e-mail nebo chování uživatele. Pokud jde o použité pojmy, jakými jsou například \"zpracovatel\" nebo \"zodpovědná osoba\", odkazujeme na definici v článku 4 Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyDesc": "Na základě těchto zásad ochrany osobních údajů bychom Vás chtěli informovat o typu, rozsahu a účelu zpracování osobních údajů na naší webové stránce. Osobní údaje jsou všechny údaje, které můžou identifikovat vaši osobu, jakými jsou např. jméno, adresa, e-mail nebo chování uživatele. Pokud jde o použité pojmy, jakými jsou například \"zpracovatel\" nebo \"zodpovědná osoba\", odkazujeme na definici v článku 4 Basic Data Protection Regulation (DSGVO)",
     "privacyPolicyName": "Jméno: Rajko Zschiegner",
     "privacyPolicyStreet": "Ulice:  Reichenbacher Str. 20",
     "privacyPolicyPostalCode": "PSČ: 07973 Greiz",
