@@ -50,7 +50,7 @@
 <ul bind:this={ul} class="reference-toc">
     {#each sections as section}
         <li>
-            <a class="section" class:active="{section.slug === active_section}" href="{$locale}/sensors/airrohr#{section.slug}">
+            <a class="section" class:active="{section.slug === active_section}" href="{$locale}/sensors/dnms#{section.slug}">
                 {@html section.metadata.title}
 
                 {#if section.slug === active_section}
@@ -63,7 +63,7 @@
             {#each section.subsections as subsection}
                 <a class="subsection"
                    class:active="{subsection.slug === active_section}"
-                   href="{$locale}/sensors/airrohr#{subsection.slug}"
+                   href="{$locale}/sensors/dnms#{subsection.slug}"
                    data-level="{subsection.level}">
                     {@html subsection.title}
 
