@@ -4,7 +4,7 @@ title: Introduction
 > 🚧 Fabriquez votre détecteur et prenez part à notre réseau mondial de données ouvertes et de technologies civiques. <br> Avec airRohr, vous pouvez mesurer vous-même la pollution de l'air.
 
 
-<img src="../docs/particulate-matter-air-quality-sensor-kit.jpeg"/>
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
 
 ### Liste des composants
 ##### Détecteur en kit

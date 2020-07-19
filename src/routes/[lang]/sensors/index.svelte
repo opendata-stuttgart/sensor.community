@@ -72,7 +72,6 @@
                     {i18n.t('sensor:subtitle')}<br>
                 </p>
             </div>
-            <!--            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>-->
         </div>
 
         {#each sensors as sensor}
@@ -95,6 +94,5 @@
         {/each}
     </div>
 </section>
-
 
 <Contact/>

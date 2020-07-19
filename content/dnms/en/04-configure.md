@@ -21,7 +21,7 @@ title: Configure
 
 <br>
 
-![](../docs/airrohr_config_initial.png)
+![](../docs/dnms/airrohr_config_initial.png)
 <br>
 
 ### Test the station

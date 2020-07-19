@@ -7,7 +7,6 @@ We already prepared the firmware. You only have to install drivers and flash you
 To communicate with your ESP8266 you need usb2serial drivers for your operating system. 
 
 The chipset for NocdeMCUs v3 is usually CH341, just check the back of your NodeMCU to find some technical information. 
-
 Choose the link that corresponds to the operating system of your computer.
 
 ### Windows
@@ -50,7 +49,8 @@ Support for multiple Operating Systems: Windows, MacOS and Linux.
 
 Connect NodeMCU to your computer with a short micro-USB cable (choose one shorter than 1 Meter, otherwise the installation may fail). Select `latest_en.bin` (or another language version) and click “Upload”.
 Wait until the process is done. Now we can assemble the sensor.
-<br>
+<br><br>
+
 A big thanks goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
 
 ---

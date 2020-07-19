@@ -17,7 +17,7 @@ The common part is the microphone unit.
 
 The microphone unit is based on Pesky Products breakout board with a MEMS microphone ICS-43434. You can fin such board at the [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/). 
 
-<img src="../docs/mic1.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone.png" style="width:40%; margin-top: 3em"/>
 
 
 ##### Housing for the microphone unit
@@ -25,16 +25,16 @@ The housing is made with a .500" (12.7mm) polystyrene tubing. This diameter perm
 
 The prototype was developed with the [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-<img src="../docs/mic3.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.png" style="width:40%; margin-top: 3em"/>
 
 The breakout board has to be adapted to the diameter of the tubing with a file. Use some tape to protect the microphone inlet.
 
-<img src="../docs/etape2.png" style="width:40%; margin-top: 3em"/>
-<img src="../docs/etape3.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.png" style="width:40%; margin-top: 3em"/>
 
 Then solder the six silicone cables. Note which pin the cable is connected with!
 
-<img src="../docs/etape4.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.png" style="width:40%; margin-top: 3em"/>
 
 Cut a 115 mm long piece of tubing.
 
@@ -42,12 +42,12 @@ Cut a 115 mm long piece of tubing.
 
 Stick the microphone board on some crossed tape. Put the cables in the tubing and fasten the board at the extremity of the tubing.
 
-<img src="../docs/etape5.png" style="width:40%; margin-top: 3em"/>
-<img src="../docs/etape6.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.png" style="width:40%; margin-top: 3em"/>
 
 Make the extremity of the tube tight with the tape.
 
-<img src="../docs/etape8.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.png" style="width:40%; margin-top: 3em"/>
 
 Now you can fill the tube with some resin. This step is mandatory to avoid resonance and obtain calibrated and reproductible data.
 
@@ -72,7 +72,7 @@ The [polyurethane resin UR5545](https://electrolube.com/wp-content/uploads/2019/
 For each tubing 15 g of resin should be sufficient.
 
 
-<img src="../docs/etape10.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.png" style="display:block; margin-top: 3em"/>
 When the resin has hardened remove the tape. Your microphone unit is ready.
 
 
@@ -88,24 +88,24 @@ When the Teensy (DNMS) and the NodeMCU (standalone or on PCB) are separated : DN
 
 You need a piece of 25 mm diameter tubing (for example tubing for electrical applications), a connector, a 90° bow and a M25 IP68 cable gland.
 
-<img src="../docs/etape10.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.png" style="width:40%; margin-top: 3em"/>
 
 The tube itself should be 160 mm long. The DNMS looks place in. The microphone housing is maintained by the cable gland.
 
 The bow prevents water and humidity to enter the housing while letting the cable pass.
 
-<img src="../docs/gehau.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing.png" style="margin-top: 3em"/>
 
 
 The DNMS is connected to the second PCB by a RJ12 cable. If this cable is longer than 250 mm, you must use an I²C extension.
 
-<img src="../docs/rj12.jpg" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin-top: 3em"/>
 
 After everything is well connected, the parts are glued together.
 
 Result:
 
-<img src="../docs/etape14.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.png" style="margin-top: 3em"/>
 
 The PCB carrying the NodeMCU can be put in any kind of electrical box.
 
@@ -119,33 +119,31 @@ The size DN40 fits the noise sensor alone.
 The size DN50 fits the noise sensor combined with a fine dust sensor and a a thermometer/barometer/hygrometer BME280.
 Beyond these sized a resonance effect can appear and influences the measurements.
 
-<img src="../docs/gehauv3.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-and-particulate-matter-sensor-kit-sps030.png" style="margin-top: 3em"/>
 
-#####The housing is made of four parts:
+##### The housing is made of four parts:
 * a 150 mm or 200 mm long piece of DN40 or DN50 pipe
 * a DN40 or DN50 67° or 87° bow
 * a DN40 or DN50 plug
 * a M20 IP68 cable gland
 
-<img src="../docs/gehauv32.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing-dn40-vs-dn50.png" style="margin: 1em 0"/>
 
-Most of the parts should have some build in gaskets. You should be able to assemble almost everything together without glue.
-
-The plug has to be perforated in order to glue the cable gland on. This gland will sustain the microphone.
-
-<img src="../docs/ip68.png" style="width:40%; margin-top: 3em"/>
+Most of the parts should have some build in gaskets. You should be able to assemble almost everything together without glue. The plug has to be perforated in order to glue the cable gland on. This gland will sustain the microphone.
 
 Put the SPS30 fine dust sensor and the BME280 in the bow. The DNMS PCB is in the straight pipe.
 
-<img src="../docs/sps30.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing-teensy-and-sps30.png" style="margin: 1em 0"/>
 
 Use some double-sided tape and/or some cable clamps to secure the parts positions.
 
-<img src="../docs/sps301.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-particulate-matter-sps030-inside-housing.png" style="display: block; margin-top: 2em; margin-bottom: 2em"/>
 
+
+<br>
 Result:
 
-<img src="../docs/gehause3fin.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-dn50-result.png" style="display: block"/>
 
 
 ### Weather protection
@@ -154,10 +152,10 @@ The housings themselves should be waterproof. Only the microphone inlet could be
 
 You can add a skew cut piece of tube on the microphone tubing. 5 mm are enough to avoid to change the measurement of the sensitive microphone (the calibrators reported a 1 dB decrease in this case).
 
-<img src="../docs/prot.jpg" style="width:40%; margin-top: 3em"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:45%; margin-top: 3em; margin-right: 3px"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin-top: 3em"/>
 
 Actually two of the nine prototypes has stood storm and rain for months.
 
 A windscreen could be necessary for heavy exposure to wind.
 
-<img src="../docs/bonette.jpg" style="width:40%; margin-top: 3em"/>

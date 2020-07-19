@@ -4,7 +4,7 @@ title: Einleitung
 > 🚧 Baue deinen DIY-Sensor und werde ein Teil des weltweiten OpenData & CivicTech Netzwerks. Mit airRohr kannst du die Luftverschmutzung selbst messen.
 
 
-<img src="../docs/particulate-matter-air-quality-sensor-kit.jpeg"/>
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
 
 ### Einkaufsliste
 ###### Sensor-Bausatz
