@@ -8,7 +8,6 @@
     $: lang = $page.params.lang;
     $: i18n = initI18n(lang);
 
-
     const sensors = [
         {
             link: "/sensors/airrohr/",

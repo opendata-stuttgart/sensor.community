@@ -1,9 +1,17 @@
 <script context="module">
-    export async function preload() {
-        const sections = await this.fetch(`endpoints/dnms/en.json`).then(r => r.json());
-        return {sections};
-    }
+     export async function preload({ page, params, query }) {
+         const res = await this.fetch(`endpoints/dnms/${params.lang}.json`);
+
+         if (res.status === 200) {
+             const sections = await res.json();
+             return { sections };
+         } else {
+             const sections = await this.fetch(`endpoints/dnms/en.json`).then(r => r.json())
+             return {sections}
+         }
+     }
 </script>
+
 <script>
     import {stores} from "@sapper/app";
     import initI18n from "../../../../utils/initI18n";
@@ -12,13 +20,7 @@
     let {page} = stores();
     $: lang = $page.params.lang;
     $: i18n = initI18n(lang);
-
     export let sections;
-    // let langPath = $page.path.split("/")[1]
-
-    // sections = (async function() {
-    //     return await fetch(`/endpoints/airrohr/${langPath}.json`).then(response => response.json());
-    // })();
 </script>
 
 
@@ -37,3 +39,4 @@
 {:catch error}
     <p>An error occurred!</p>
 {/await}
+
