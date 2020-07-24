@@ -8,7 +8,7 @@ You can find the original version of these instructions on [Helmut Bitter's Gith
 This repository contains different possibility to build the sensor with different kinds of board and PCBs. Only one possibility is described here. Have a look at Helmut's Github!
 
 
-<img src="../docs/dnms-kit.jpg"/>
+<img src="../docs/dnms-kit.jpg" style="margin-top: 3em; margin-bottom: 3em"/>
 
 ### Shopping list
 
