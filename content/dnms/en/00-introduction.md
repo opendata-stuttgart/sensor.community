@@ -3,9 +3,9 @@ title: Introduction
 ---
 > 🚧 Build your DIY sensor and become part of the worldwide, opendata & civictech network. <br> With DNMS you can measure noise pollution yourself.
 
-You can find the original version of these instructions on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
+You can find the original version of these instructions and former versions of the noise sensor on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
 <br>
-This repository contains different possibility to build the sensor with different kinds of board and PCBs. Only one possibility is described here. Have a look at Helmut's Github!
+This repository contains different setups to build the sensor with different kinds of board and PCBs. Only one variant is described here. Have a look at Helmut's Github!
 
 
 <img src="../docs/dnms-kit.jpg" style="margin-top: 3em; margin-bottom: 3em"/>

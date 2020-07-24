@@ -104,9 +104,9 @@ The PCB carrying the NodeMCU can be put in any kind of electrical box.
 The housings themselves should be waterproof. Only the microphone inlet could be sensitive. TDK, the manufacturer has published some recommendations for sealing InvenSense bottom-port MEMS microphones from dust and liquid ingress but the components are difficult to find and were not tested.
 
 It is absolutely necessary to install a weather protection in the form of a foam cover. If necessary, even a household sponge is sufficient. There are several reasons for this:
-* it protects against wind noise (which can be many decibels)
-* it protects against wetness directly at the microphone. However, no drops should form on the microphone. Therefore you should pull the cover back a little bit after putting it on. This creates a small cavity.
-* it protects against radiation. Intense sunlight can influence the measured value and reduce the life of the microphone.
+* it protects against wind noise (which can increase the decibels measurements)
+* it protects against direct water leakage on the microphone. To avoid condensation on the microphone pull back the cover a beat after installing it in order to create a small cavity.
+* it protects against solar radiation. Intense sunlight can influence the measured values and reduce the life of the microphone.
 
 <img src="../docs/bonette.png" style="width:60%; margin-top: 3em; margin-bottom: 3em"/>
 
@@ -116,7 +116,7 @@ If you need more ones [this source](https://de.aliexpress.com/item/32357483926.h
 
 ### Location of the microphone 
 
-It is important to place the microphone in an area as "free" as possible, this means in a location with as less sound reflecting surfaces as possible nearby.  The distance to reflective surfaces should be as great as possible. Try not to mount the microphone directly on the wall of a house, because stone walls are reflecting noise strongly.  The distance to the wall should ideally be more than 1 m. Of course this is not always easy to realize. 
+It is important to place the microphone in an area as "free" as possible, this means in a location with as less sound reflecting surfaces as possible. The distance to reflective surfaces should be as great as possible. Try not to mount the microphone directly on the wall of a house, because walls reflect sounds strongly.  The distance to the wall should ideally be more than 1 m. Of course this is not always easy to realize. 
 
 With a distance of about 50 cm from the tip of the microphone to the wall, the induced error is still reasonable. Good places are for example balconies or terrace railings, or a small mast on the roof. 
 

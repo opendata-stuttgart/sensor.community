@@ -8,10 +8,10 @@ Just download our circuit diagrams below, upload them at the manufacturer's webs
 
 The last versions of the PCBs as described here. Refer to [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs) for further informations and to access the KiCad files.
 
-### AIRROHR V1.2
-<img src="../docs/Airrohr-PCB-V1.2-Bild-2.jpg" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+### AIRROHR V1.4
+<img src="../docs/AirrohrV14_2.jpg" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
 <br><br>
-PCB for the NodeMCU ESP8266 CPU/WLAN with a I2C Bus extension to connect the DNMS on as well as other sensors (SPS30, BME280…).
+PCB for the NodeMCU ESP8266 CPU/WLAN with a I2C Bus extension to connect the DNMS on as well as other sensors (SDS011, BME280…).
 
 
 ##### Download:
