@@ -45,7 +45,7 @@
             description: "Sensor Kit <br> NodeMCU <br> Teensy <br> ICS-43434 <br> ~ 90 €",
             imageUrl: "images/dnms.jpg",
             hasPrice: true,
-            price: "~ 90 €",
+            price: "~ 90 €"
         }
     ]
 </script>

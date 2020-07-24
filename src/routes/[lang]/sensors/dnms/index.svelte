@@ -17,7 +17,7 @@
     // let langPath = $page.path.split("/")[1]
 
     // sections = (async function() {
-    //     return await fetch(`/endpoints/airrohr/${langPath}.json`).then(response => response.json());
+    //     return await fetch(`/endpoints/dnms/${langPath}.json`).then(response => response.json());
     // })();
 </script>
 
