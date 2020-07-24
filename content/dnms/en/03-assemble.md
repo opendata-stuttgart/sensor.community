@@ -7,17 +7,11 @@ Before assembling install the firmware!
 See __firmware flasher__ section.
 
 
-##### There are two different ways to build the noise sensor:
-* DNMS – Teensy separated from the NodeMCU (standalone or on a PCB)
-* DNMS – Teensy and NodeMCU on the same PCB 
-
-The common part is the microphone unit.
-
 ### Microphone unit
 
 The microphone unit is based on Pesky Products breakout board with a MEMS microphone ICS-43434. You can fin such board at the [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/). 
 
-<img src="../docs/mic1.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/mic1.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
 
 
 ##### Housing for the microphone unit
@@ -25,30 +19,31 @@ The housing is made with a .500" (12.7mm) polystyrene tubing. This diameter perm
 
 The prototype was developed with the [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-<img src="../docs/mic3.png" style="width:40%; margin-top: 3em"/>
-
+<img src="../docs/mic3.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
 The breakout board has to be adapted to the diameter of the tubing with a file. Use some tape to protect the microphone inlet.
+<br>
 
-<img src="../docs/etape2.png" style="width:40%; margin-top: 3em"/>
-<img src="../docs/etape3.png" style="width:40%; margin-top: 3em"/>
-
+<img src="../docs/etape2.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
+<img src="../docs/etape3.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
 Then solder the six silicone cables. Note which pin the cable is connected with!
 
-<img src="../docs/etape4.png" style="width:40%; margin-top: 3em"/>
-
+<img src="../docs/etape4.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
 Cut a 115 mm long piece of tubing.
-
-##### Housing for the microphone unit
-
+<br>
 Stick the microphone board on some crossed tape. Put the cables in the tubing and fasten the board at the extremity of the tubing.
-
-<img src="../docs/etape5.png" style="width:40%; margin-top: 3em"/>
-<img src="../docs/etape6.png" style="width:40%; margin-top: 3em"/>
-
+<br>
+<img src="../docs/etape5.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
+<img src="../docs/etape6.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
 Make the extremity of the tube tight with the tape.
-
-<img src="../docs/etape8.png" style="width:40%; margin-top: 3em"/>
-
+<br>
+<img src="../docs/etape8.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
 Now you can fill the tube with some resin. This step is mandatory to avoid resonance and obtain calibrated and reproductible data.
 
 The prototype was developed with some [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produced by Copaltec GmbH.
@@ -72,92 +67,70 @@ The [polyurethane resin UR5545](https://electrolube.com/wp-content/uploads/2019/
 For each tubing 15 g of resin should be sufficient.
 
 
-<img src="../docs/etape10.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/etape10.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
 When the resin has hardened remove the tape. Your microphone unit is ready.
 
 
 
 ### DNMS Housing
 
-Depending on the PCBs you have chosen, there are two kinds of housing.
-
-
-##### Housing 1
-
 When the Teensy (DNMS) and the NodeMCU (standalone or on PCB) are separated : DNMS - T3.6 V1.2 / DNMS - T4 V1.2 + AIRROHR V1.2
 
 You need a piece of 25 mm diameter tubing (for example tubing for electrical applications), a connector, a 90° bow and a M25 IP68 cable gland.
-
-<img src="../docs/etape10.png" style="width:40%; margin-top: 3em"/>
 
 The tube itself should be 160 mm long. The DNMS looks place in. The microphone housing is maintained by the cable gland.
 
 The bow prevents water and humidity to enter the housing while letting the cable pass.
 
-<img src="../docs/gehau.png" style="width:40%; margin-top: 3em"/>
+<img src="../docs/gehau.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
 
-
+<br>
 The DNMS is connected to the second PCB by a RJ12 cable. If this cable is longer than 250 mm, you must use an I²C extension.
-
-<img src="../docs/rj12.jpg" style="width:40%; margin-top: 3em"/>
-
+<br>
+<img src="../docs/rj12.jpg" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
 After everything is well connected, the parts are glued together.
 
 Result:
 
-<img src="../docs/etape14.png" style="width:40%; margin-top: 3em"/>
-
+<img src="../docs/etape14.png" style="width:40%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
 The PCB carrying the NodeMCU can be put in any kind of electrical box.
-
-
-##### Housing 2
-
-When the Teensy and the NodeMCU are on the same PCB: DNMS - T3.6+NodeMCU V1.0 / DNMS - T4+NodeMCU V1.2
-
-The PCB is 36 mm wide. PVC pipes for sanitary application are used.
-The size DN40 fits the noise sensor alone.
-The size DN50 fits the noise sensor combined with a fine dust sensor and a a thermometer/barometer/hygrometer BME280.
-Beyond these sized a resonance effect can appear and influences the measurements.
-
-<img src="../docs/gehauv3.png" style="width:40%; margin-top: 3em"/>
-
-#####The housing is made of four parts:
-* a 150 mm or 200 mm long piece of DN40 or DN50 pipe
-* a DN40 or DN50 67° or 87° bow
-* a DN40 or DN50 plug
-* a M20 IP68 cable gland
-
-<img src="../docs/gehauv32.png" style="width:40%; margin-top: 3em"/>
-
-Most of the parts should have some build in gaskets. You should be able to assemble almost everything together without glue.
-
-The plug has to be perforated in order to glue the cable gland on. This gland will sustain the microphone.
-
-<img src="../docs/ip68.png" style="width:40%; margin-top: 3em"/>
-
-Put the SPS30 fine dust sensor and the BME280 in the bow. The DNMS PCB is in the straight pipe.
-
-<img src="../docs/sps30.png" style="width:40%; margin-top: 3em"/>
-
-Use some double-sided tape and/or some cable clamps to secure the parts positions.
-
-<img src="../docs/sps301.png" style="width:40%; margin-top: 3em"/>
-
-Result:
-
-<img src="../docs/gehause3fin.png" style="width:40%; margin-top: 3em"/>
 
 
 ### Weather protection
 
-The housings themselves should be waterproof. Only the microphone inlet could be sensitive. TDK, the manufacturer has published some [recommendations for sealing InvenSense bottom-port MEMS microphones from dust and liquid ingress](https://invensense.tdk.com/download-pdf/an-1124-recommendations-for-sealing-invensense-bottom-port-mems-microphones-from-dust-and-liquid-ingress/) but the components are difficult to find and were not tested.
+The housings themselves should be waterproof. Only the microphone inlet could be sensitive. TDK, the manufacturer has published some recommendations for sealing InvenSense bottom-port MEMS microphones from dust and liquid ingress but the components are difficult to find and were not tested.
 
-You can add a skew cut piece of tube on the microphone tubing. 5 mm are enough to avoid to change the measurement of the sensitive microphone (the calibrators reported a 1 dB decrease in this case).
+It is absolutely necessary to install a weather protection in the form of a foam cover. If necessary, even a household sponge is sufficient. There are several reasons for this:
+* it protects against wind noise (which can be many decibels)
+* it protects against wetness directly at the microphone. However, no drops should form on the microphone. Therefore you should pull the cover back a little bit after putting it on. This creates a small cavity.
+* it protects against radiation. Intense sunlight can influence the measured value and reduce the life of the microphone.
 
-<img src="../docs/prot.jpg" style="width:40%; margin-top: 3em"/>
+<img src="../docs/bonette.png" style="width:60%; margin-top: 3em; margin-bottom: 3em"/>
 
-Actually two of the nine prototypes has stood storm and rain for months.
+Those foam covers are normaly sold as ‘covers for measurement microfons’. But they are expensive. You can also take a normal foam ball and cut a hole with the scissors.
 
-A windscreen could be necessary for heavy exposure to wind.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
-<img src="../docs/bonette.jpg" style="width:40%; margin-top: 3em"/>
+### Location of the microphone 
+
+It is important to place the microphone in an area as "free" as possible, this means in a location with as less sound reflecting surfaces as possible nearby.  The distance to reflective surfaces should be as great as possible. Try not to mount the microphone directly on the wall of a house, because stone walls are reflecting noise strongly.  The distance to the wall should ideally be more than 1 m. Of course this is not always easy to realize. 
+
+With a distance of about 50 cm from the tip of the microphone to the wall, the induced error is still reasonable. Good places are for example balconies or terrace railings, or a small mast on the roof. 
+
+You can also try to place the microphone directly on the corner of the house for the reflections to partially cancel each other.
+
+A free-standing mast of at least 1 m height could also be a solution but then you have to watch out for reflections on the ground. That depends on the floor covering, of course.
+
+It is also important to always be aware that we measure ambient noise.  We can only make an approximation of the noise emission of sources such as roads or railways. 
+
+However, the closer you get to the source, the more accurate the reference to the source becomes. Upgrades of the firmware should then be able to get preceise measurements for an identified type of noise.
+
+<img src="../docs/balcony.png" style="width:60%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
+
+<img src="../docs/terasse.png" style="width:60%; margin-top: 3em; margin-bottom: 3em"/>
+<br>
+<img src="../docs/wall.png" style="width:60%; margin-top: 3em; margin-bottom: 3em"/>
