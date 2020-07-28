@@ -25,8 +25,8 @@
 
 
 <svelte:head>
-    <title>{i18n.t('airrohr:metaTitle')}</title>
-    <meta property="og:title" content="{i18n.t('airrohr:metaTitle')}"/>
+    <title>{i18n.t('dnms:metaTitle')}</title>
+    <meta property="og:title" content="{i18n.t('dnms:metaTitle')}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
