@@ -1,27 +1,23 @@
 ---
 title: Introduction
 ---
-> 🚧 Build your DIY sensor and become part of the worldwide, opendata & civictech network. <br> With DNMS (Digital Noise Measurement Sensor) you can measure noise pollution yourself.
+> 🚧 Build your DIY sensor and become part of the worldwide, opendata & civictech network. <br> With DNMS (Digital Noise Measuring Sensor) you can measure noise pollution yourself.
 
-You can find the original version of these instructions on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual)
+You can find the original version of these instructions and former versions of the noise sensor on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
+<br>
+This repository contains different setups to build the sensor with different kinds of board and PCBs. Only one variant is described here. Have a look at Helmut's Github!
 
-
-<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 2em 0"/>
 
 ### Shopping list
 
 ##### Single components
-* [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+c€h340)
-* [Teensy 3.6 development board](https://www.pjrc.com/store/teensy36.html)
-or [Teensy 4.0 development board](https://www.pjrc.com/store/teensy40.html)
-<img src="../docs/dnms/dnms-noise-measuring-teensy-36.jpg" style="display:block;"/>
-<small>Copyright: SparkFun Electronics, Flickr, CC BY 2.0</small>
-<img src="../docs/dnms/dnms-noise-measuring-teensy-40.jpg" style="display:block;"/>
-<small>Copyright: SparkFun Electronics</small>
+* [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
+* [Teensy 4.0 development board](https://www.pjrc.com/store/teensy40.html)
 * [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * ultra flexible silicone cables with a diameter of 0,15mm² (AWG 26) in 6 different colours
 <br>
-The DNMS can be combined with an airRohr PM-Sensor:
+The DNMS (Digital Noise Measuring Sensor)  can be combined with an airRohr PM-Sensor:
 
 * [SPS30 fine dust sensor](https://www.sparkfun.com/products/15103)
 * BME280 6-PIN, temperature & humidity
