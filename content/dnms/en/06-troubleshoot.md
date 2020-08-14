@@ -34,5 +34,5 @@ The [ID] can also be searched for in the text on the page [https://www.madavi.de
 * Remove sensor electronics from the housing and observe
 * Check/replace power supply again
     * does ESP flash shortly after reboot?
-    * Teensy: red LED on after reboot?
+    * Teensy: red LED flashing after reboot?
     * check/replace the cables to the sensors again
