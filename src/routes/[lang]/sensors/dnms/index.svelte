@@ -11,7 +11,6 @@
          }
      }
 </script>
-
 <script>
     import {stores} from "@sapper/app";
     import initI18n from "../../../../utils/initI18n";
@@ -39,4 +38,3 @@
 {:catch error}
     <p>An error occurred!</p>
 {/await}
-

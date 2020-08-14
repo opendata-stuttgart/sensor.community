@@ -6,13 +6,14 @@ title: Introduction
 You can find the original version of these instructions and former versions of the noise sensor on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
 <br>
  That repository contains different setups to build the sensor with different kinds of board and PCBs.
+
 <br>
 There are two different kinds of setups:
 * a setup where the NodeMCU with some sensors (PM, temperature etc.) and the DNMS are separated. The PCBs are called AIRROHR V1.4 and DNMS - T4 V1.4
 
 <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 2em 0"/>
 
- In this case, the connection between the NodeMCU and the DNMS can be as long as 10m. This is important because you need to find the right position for the DNMS to obtain accurate noise measurements.
+In this case, the connection between the NodeMCU and the DNMS can be as long as 10m. This is important because you need to find the right position for the DNMS to obtain accurate noise measurements.
 
 ### Shopping list
 
@@ -37,4 +38,5 @@ The PCBs and the weather protection will be described below.
 
 🙌 Great, you decided to buy the parts online! 
 Unfortunately the delivery can take from days up to three weeks. 
+
 Until then enjoy your life️.

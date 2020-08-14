@@ -11,8 +11,8 @@ The last versions of the PCBs are described here. Refer to [Helmut Bitter's Gith
 
 ### AIRROHR V1.4
 <img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0"/>
-PCB for the NodeMCU ESP8266 CPU/WLAN with a I2C Bus extension to connect the DNMS on as well as other sensors (SDS011, BME280…).
 
+PCB for the NodeMCU ESP8266 CPU/WLAN with a I2C Bus extension to connect the DNMS on as well as other sensors (SDS011, BME280…).
 
 ##### Download:
 * [Circuit diagram](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
@@ -22,10 +22,10 @@ PCB for the NodeMCU ESP8266 CPU/WLAN with a I2C Bus extension to connect the DNM
 
 ### DNMS - T4 V1.4
 <img src="../docs/dnms/dnms-noise-measuring-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0"/>
+
 PCB for the DNMS Teensy 4.0 which can be connected directly on a NodeMCU ESP8266 or on the AIRROHR PCB above.
 
 
 ##### Download:
 * [Circuit diagram](../docs/dnms/dnms-noise-measuring-teensy-40-NodeMCU-circuit-diagram.pdf)
 * [Gerber file to upload at the PCB manufacturer's website](https://github.com/hbitter/DNMS/blob/master/PCBs/DNMS%20-%20T4/DNMS_V1.2_T4.zip)
-

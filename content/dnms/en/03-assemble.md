@@ -13,13 +13,13 @@ The microphone unit is based on Pesky Products breakout board with a MEMS microp
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.png" style="width:40%; margin: 3em 0"/>
 
-
 ##### Housing for the microphone unit
 The housing is made with a .500" (12.7mm) polystyrene tubing. This diameter permits to plug directly most of the calibrators on the unit.
 
 The prototype was developed with the [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.png" style="width:40%; margin: 3em 0"/>
+
 <br>
 The breakout board has to be adapted to the diameter of the tubing with a file. Use some tape to protect the microphone inlet.
 <br>
@@ -30,10 +30,12 @@ The breakout board has to be adapted to the diameter of the tubing with a file. 
 Then solder the six silicone cables. Note which pin the cable is connected with!
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.png" style="display: block;    width:40%; margin: 2em 0"/>
+
 Cut a 115 mm long piece of tubing.
 <br>
 Stick the microphone board on some crossed tape. Put the cables in the tubing and fasten the board at the extremity of the tubing.
 <br>
+
 <img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.png" style="width:40%; margin: 2em 0"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-housing.png" style="width:42%; margin: 2em 0"/>
 
@@ -90,7 +92,6 @@ After everything is well connected, the parts are glued together.
 Result:
 
 <img src="../docs/dnms/dnms-noise-measuring-dn40-result.png" style="margin: 1em 0"/>
-
 The PCB carrying the NodeMCU can be put in any kind of electrical box.
 
 

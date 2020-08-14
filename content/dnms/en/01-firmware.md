@@ -65,4 +65,6 @@ A command line version also exist.
 
 #####  Teensyduino
 You can flash the .ino file in the Teensy boards with the Arduino IDE extension [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
+
 If needed, you can modify the firmware directly in the Arduino IDE.
+
