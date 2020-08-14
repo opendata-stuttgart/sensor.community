@@ -1,8 +1,15 @@
 <script context="module">
-    export async function preload() {
-        const sections = await this.fetch(`endpoints/dnms/en.json`).then(r => r.json());
-        return {sections};
-    }
+     export async function preload({ page, params, query }) {
+         const res = await this.fetch(`endpoints/dnms/${params.lang}.json`);
+
+         if (res.status === 200) {
+             const sections = await res.json();
+             return { sections };
+         } else {
+             const sections = await this.fetch(`endpoints/dnms/en.json`).then(r => r.json())
+             return {sections}
+         }
+     }
 </script>
 <script>
     import {stores} from "@sapper/app";
@@ -12,19 +19,13 @@
     let {page} = stores();
     $: lang = $page.params.lang;
     $: i18n = initI18n(lang);
-
     export let sections;
-    // let langPath = $page.path.split("/")[1]
-
-    // sections = (async function() {
-    //     return await fetch(`/endpoints/dnms/${langPath}.json`).then(response => response.json());
-    // })();
 </script>
 
 
 <svelte:head>
-    <title>{i18n.t('airrohr:metaTitle')}</title>
-    <meta property="og:title" content="{i18n.t('airrohr:metaTitle')}"/>
+    <title>{i18n.t('dnms:metaTitle')}</title>
+    <meta property="og:title" content="{i18n.t('dnms:metaTitle')}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>

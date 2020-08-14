@@ -21,7 +21,7 @@ title: Configure
 
 <br>
 
-![](../docs/airrohr_config_initial.png)
+![](../docs/airrohr/airrohr_config_initial.png)
 <br>
 
 ### Verify the station is correctly configured
