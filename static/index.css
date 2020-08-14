@@ -1730,6 +1730,10 @@ pre[class*="language-"].language-css > code, pre[class*="language-"].language-sa
     padding-top: 0;
   }
 
+  .md\:pb-4 {
+    padding-bottom: 1rem;
+  }
+
   .md\:pr-8 {
     padding-right: 2rem;
   }

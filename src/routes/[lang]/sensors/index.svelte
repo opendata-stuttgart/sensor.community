@@ -8,7 +8,7 @@
     $: lang = $page.params.lang;
     $: i18n = initI18n(lang);
 
-    const sensors = [
+    const airSensors = [
         {
             link: "/sensors/airrohr/",
             title: "Sensor Kit #1",
@@ -37,8 +37,10 @@
             price: "-- €",
             deactivate: true,
             opacity: true
-        },
-                {
+        }
+    ]
+    const noiseSensors = [
+        {
             link: "/sensors/dnms/",
             title: "Noise Sensor DNMS",
             description: "Sensor Kit <br> NodeMCU <br> Teensy <br> ICS-43434 <br> ~ 90 €",
@@ -64,16 +66,19 @@
         <div class="w-full flex flex-wrap my-8">
             <div class="w-full text-center md:text-left md:w-1/2">
                 <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
-                    <h1 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-black leading-tight">
+                    <h1 class="pt-4 text-4xl md:text-6xl font-black leading-tight">
                         {i18n.t('sensor:h1')}</h1>
                 </div>
-                <p class="text-xl md:text-md mx-auto md:pr-8 mt-4 mb-4 leading-reading">
+                <p class="text-xl md:text-md mx-auto md:pr-8 mb-4 leading-reading">
                     {i18n.t('sensor:subtitle')}<br>
                 </p>
             </div>
         </div>
-
-        {#each sensors as sensor}
+        <div class="container">
+            <h2 class="py-4 md:py-8 md:pb-4 text-4xl md:text-6xl font-black leading-tight">
+                {i18n.t('sensor:airSensorTitle')}</h2>
+        </div>
+        {#each airSensors as sensor}
             <div class="w-full md:w-1/3">
                 <Cards
                         link={lang}{sensor.link}
@@ -88,7 +93,29 @@
                         deactivate={sensor.deactivate}
                         opacity={sensor.opacity}
                 />
+            </div>
+        {/each}
 
+        <div class="container">
+            <h2 class="py-4 md:py-8 md:pb-8 text-4xl md:text-6xl font-black leading-tight">
+                {i18n.t('sensor:noiseSensorTitle')}</h2>
+        </div>
+
+        {#each noiseSensors as sensor}
+            <div class="w-full md:w-1/3">
+                <Cards
+                        link={lang}{sensor.link}
+                        title={sensor.title}
+                        subtitle={sensor.subtitle}
+                        description={sensor.description}
+                        imageUrl={sensor.imageUrl}
+                        country={sensor.country}
+                        type={sensor.type}
+                        hasPrice={sensor.hasPrice}
+                        price={sensor.price}
+                        deactivate={sensor.deactivate}
+                        opacity={sensor.opacity}
+                />
             </div>
         {/each}
     </div>

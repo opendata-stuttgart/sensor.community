@@ -39,7 +39,9 @@
     "metaDescription": "",
     "metaTitle": "Find your sensor and building instructions for your DYI fine dust sensor",
     "h1": "Sensor Kits",
-    "subtitle": " Find our guides️ for your sensor"
+    "subtitle": " Find our guides️ for your sensor",
+    "airSensorTitle": "Air",
+    "noiseSensorTitle": "Noise"
   },
   "guide": {
     "editOnGithub": "edit on Github"
