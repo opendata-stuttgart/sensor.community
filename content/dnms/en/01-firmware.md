@@ -6,9 +6,7 @@ We already prepared the firmware. You only have to install drivers and flash you
 
 To communicate with your ESP8266 you need usb2serial drivers for your operating system. 
 
-The chipset for NocdeMCUs v3 is usually CH341, just check the back of your NodeMCU to find some technical information. 
-
-Choose the link that corresponds to the operating system of your computer.
+The chipset for NocdeMCUs v3 is usually CH341, just check the back of your NodeMCU to find some technical information. Choose the link that corresponds to the operating system of your computer.
 
 ### Windows
 
@@ -65,6 +63,4 @@ A command line version also exist.
 
 #####  Teensyduino
 You can flash the .ino file in the Teensy boards with the Arduino IDE extension [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
-
 If needed, you can modify the firmware directly in the Arduino IDE.
-

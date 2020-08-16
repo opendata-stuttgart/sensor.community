@@ -6,8 +6,8 @@ title: Assemble
 Before assembling install the firmware!
 See __firmware flasher__ section.
 
-### NodeMCU (ESP8266) v3
-Note: Our instructions refer to version 3 of the NodeMCU (ESP8266). This can be recognized by the connections VU and G (see drawing). 
+### NodeMCU v3
+Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized by the connections VU and G (see drawing). 
 
 <img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>
 <small>Copyright: roman-minyaylov, MIT License</small>
@@ -25,7 +25,7 @@ SDS011 Pin 1 -> Pin D1 / GPIO5
 SDS011 Pin 2 -> Pin D2 / GPIO4
 SDS011 Pin 3 -> GND
 SDS011 Pin 4 -> unused
-SDS011 Pin 5 -> VU (NodeMCU (ESP8266) v3) / VIN (NodeMCU (ESP8266) v1,v2)
+SDS011 Pin 5 -> VU (NodeMCU v3) / VIN (NodeMCU v1,v2)
 SDS011 Pin 6 -> unused
 SDS011 Pin 7 -> unused
 ```
@@ -53,7 +53,6 @@ SCL -> Pin D4
 
  ##### Tie NodeMCU and SDS011 together
 <img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg"/>
-
 Use a cable tie to link the NodeMCU (ESP8266) and the SDS011 sensor so that the Wifi antenna points away from the sensor
 
  ##### Connect flexible tube
@@ -64,6 +63,7 @@ Use a cable tie to link the NodeMCU (ESP8266) and the SDS011 sensor so that the 
 * Use another cable tie to attach the BME280 temperature sensor to the tube
 * Pass the USB cable through the tube. Mount the SDS011 with the NodeMCU facing to the top and the fan facing to the bottom
 
+ 
  ##### Push in sensor into the pipe
 * Push the parts into the tube, so it's jammed inside
 * USB cable, flexible tube and BME280 should look out of the tube's end
