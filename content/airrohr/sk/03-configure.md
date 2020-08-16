@@ -25,7 +25,7 @@ title: Kofigurácia
 
 <br>
 
-![](../docs/airrohr_config_initial.png)
+![](../docs/airrohr/airrohr_config_initial.png)
 <br>
 
 ### Otestujte senzor
