@@ -3,19 +3,20 @@ title: Introduction
 ---
 > 🚧 Build your DIY sensor and become part of the worldwide, opendata & civictech network. <br> With DNMS (Digital Noise Measuring Sensor) you can measure noise pollution yourself.
 
-You can find the original version of these instructions and former versions of the noise sensor on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
+ <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0"/>
+
+
+Check out the original instructions and former versions of the noise sensor on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
 <br>
  That repository contains different setups to build the sensor with different kinds of board and PCBs.
+ 
  <br>
+ 
  There are two different kinds of setups:
- * a setup where the NodeMCU with some sensors (PM, temperature etc.) and the DNMS are separated. The PCBs are called AIRROHR V1.4 and DNMS - T4 V1.4
  
- <img src="../docs/NEWBILD1.jpg" style="margin-top: 3em; margin-bottom: 3em"/>
- 
- * a combined version of the NodeMCU and DNMS on the same PCB: DNMS - T4+NodeMCU V1.4
- 
- <img src="../docs/NEWBILD2.jpg" style="margin-top: 3em; margin-bottom: 3em"/>
- 
+* a setup where the NodeMCU with some sensors (PM, temperature etc.) and the DNMS are separated. The PCBs are called AIRROHR V1.4 and DNMS - T4 V1.4
+* a combined version of the NodeMCU and DNMS on the same PCB: DNMS - T4+NodeMCU V1.4
+  
  Only the variant where the NODEMCU and DNMS are separated is described here. Have a look at Helmut's Github for the other variants!
  
   In this case, the connection between the NodeMCU and the DNMS can be as long as 10m. This is important because you need to find the right position for the DNMS to obtain accurate noise measurements.
