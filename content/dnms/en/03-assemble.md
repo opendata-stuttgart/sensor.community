@@ -1,7 +1,6 @@
 ---
 title: Assemble
 ---
-
 > ⚠️ **IMPORTANT NOTE**
 Before assembling install the firmware!
 See __firmware flasher__ section.
