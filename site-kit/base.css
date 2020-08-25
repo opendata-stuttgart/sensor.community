@@ -187,11 +187,11 @@ pre code {
 	height: .5rem;
 }
 
-.listify ol { list-style: decimal }
+/*.listify ol { list-style: disc }*/
 
-.listify p {
-	padding-left: 1rem;
-}
+/*.listify p {*/
+/*	padding-left: 1rem;*/
+/*}*/
 
 /*  tables --------------------------------- */
 table {
