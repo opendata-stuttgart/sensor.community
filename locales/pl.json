@@ -12,7 +12,7 @@
     "errorStatus": "Napotkany błąd {status}.",
     "reloadPage": "Proszę spróbować przeładować stronę.",
     "offline": "Wygląda na to, że jesteś offline.",
-    "submitError": "Jeśli błąd się powtarza, proszę wrócić do <a href=\"chat.sensor.community\">Discourse forum</a> i dać nam znać, lub zgłosić problem w sprawie <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Podziękowania!"
+    "submitError": "Jeśli błąd się powtarza, proszę wrócić do <a href=\"forum.sensor.community\">Discourse forum</a> i dać nam znać, lub zgłosić problem w sprawie <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Podziękowania!"
   },
   "Indeks": {
     "metaDescription": "Zbuduj swój czujnik DIYY i stań się częścią światowej nauki obywatelskiej, otwartych danych, sieci technologii obywatelskich. Wspierany przez wielu współpracowników \uD83D\uDC95",

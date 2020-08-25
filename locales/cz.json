@@ -12,7 +12,7 @@
     "errorStatus": "Vyskytla se chyba {status}.",
     "reloadPage": "Prosím, zkuste stránku znovu načíst.",
     "offline": "Zdá se, že jste offline.",
-    "submitError": "Jestliže chyba přetrvává, prosím stavte se na <a href=\"chat.sensor.community\">Diskusním fóru</a> a dejte nám vědět, nebo oznamte problém přes <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Díky!"
+    "submitError": "Jestliže chyba přetrvává, prosím stavte se na <a href=\"forum.sensor.community\">Diskusním fóru</a> a dejte nám vědět, nebo oznamte problém přes <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Díky!"
   },
   "index": {
     "metaDescription": "Postavte si sami svůj senzor a staňte se součástí světové občanské vědy, otevřených dat a občanské tech sítě. Podporováno mnoho přispěvateli \uD83D\uDC95",

@@ -12,7 +12,7 @@
     "errorStatus": "Er is een {status}-fout opgetreden.",
     "reloadPage": "Probeer de pagina opnieuw te laden.",
     "offline": "Het lijkt erop dat je offline bent.",
-    "submitError": "Als de fout blijft bestaan, laat het ons dan weten in het <a href=\"chat.sensor.community\">chatkanaal</a>, of maak een issue aan op <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Bedankt!"
+    "submitError": "Als de fout blijft bestaan, laat het ons dan weten in het <a href=\"forum.sensor.community\">chatkanaal</a>, of maak een issue aan op <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Bedankt!"
   },
   "index": {
     "metaDescription": "Maak je eigen zelfbouwsensor en word onderdeel van het wereldwijde technologienetwerk van burgerwetenschap, open source en open data. Ondersteund door veel bijdragers.\uD83D\uDC95",

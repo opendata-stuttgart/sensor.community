@@ -65,7 +65,7 @@
     <div class="flex flex-row flex-wrap mt-10 mx-6">
         <div class="w-full flex flex-wrap my-8">
             <div class="w-full text-center md:text-left md:w-1/2">
-                <div class="md:w-4/5 md:pr-20 pb-2 pl-0">
+                <div class="md:pr-20 pb-2 pl-0">
                     <h1 class="pt-4 text-4xl md:text-6xl font-black leading-tight">
                         {i18n.t('sensor:h1')}</h1>
                 </div>
