@@ -13,7 +13,7 @@ title: Configuration
 ### Configure the station
 1. Sous 'Configuration', tapez le SSID (le nom de votre réseau Wifi) et le mot de passe.
 
-2. Pour les détecteurs de particules fines (avec capteur SDS011) décrits dans les présentes isntructions, aucune autre configuration n'est nécessaire
+2. Pour les détecteurs de particules fines (avec capteur SDS011) décrits dans les présentes instructions, aucune autre configuration n'est nécessaire
 
 3. Cliquez sur le bouton 'Enregistrer', la station va redémmarer et se connecter à votre réseau. Elle ne sera plus directement accessible. Vous devriez toutefois pouvoir utiliser une adresse de la forme `airRohr-ID.local` (cf. ci dessus) ou bien passer par une adresse IP locale de la forme `192.168.1.<nombre>` (peut varier selon les fournisseurs d'accès) à récuperer dans la liste des appareils connectés à votre box internet. Le firmware flasher permet également de se connecter aux capteurs présents sur le réseau local (Onglet "Rechercher" puis double-clique). 
 
@@ -27,9 +27,9 @@ title: Configuration
 ### Tester la station
 Si aucun changement particulier n'a été effectué (autre que la saisie du réseau Wifi) lors de la configuration, vous devriez pouvoir consulter les pages test suivantes après environ 10 minutes. Recherchez simplement l'ID de votre station (par exemple 13597771).
 
- * [Données du détecteur](www.madavi.de/sensor/graph.php) 
- * [Signal Wifi](www.madavi.de/sensor/signal.php) 
+ * [Sensordaten](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&theme=light&var-chipID=) 
+ * [WLAN-Signal](https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=) 
         
-
+Ajoutez l'ID de votre station à l'extrémité de l'adresse URL ou bien cherchez là dans laliste déroulante.
 
  
