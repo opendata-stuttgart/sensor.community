@@ -16,7 +16,7 @@ PCB for the NodeMCU ESP8266 CPU/WLAN with a I2C Bus extension to connect the DNM
 
 ##### Download:
 * [Circuit diagram](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
-* [Gerber file to upload at the PCB manufacturer's website](../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
+* [Gerber file to upload at the PCB manufacturer's website](https://github.com/hbitter/DNMS/blob/master/PCBs/Airrohr%20PCB/Airrohr%20PCB%20V1.2%20Gerber.zip)
 
 ---
 
@@ -27,5 +27,5 @@ PCB for the DNMS Teensy 4.0 which can be connected directly on a NodeMCU ESP8266
 
 ##### Download:
 * [Circuit diagram](../docs/dnms/dnms-noise-measuring-teensy-40-NodeMCU-circuit-diagram.pdf)
-* [Gerber file to upload at the PCB manufacturer's website](../docs/dnms/dnms-noise-measuring-teensy-40-NodeMCU-circuit-gerber.zip)
+* [Gerber file to upload at the PCB manufacturer's website](https://github.com/hbitter/DNMS/blob/master/PCBs/DNMS%20-%20T4/DNMS_V1.2_T4.zip)
 
