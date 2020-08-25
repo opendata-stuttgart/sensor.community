@@ -8,6 +8,7 @@ import ru from '../../locales/ru';
 import cz from '../../locales/cz';
 import bg from '../../locales/bg';
 import nl from '../../locales/nl';
+import es from '../../locales/es';
 
 
 function initI18n(lng = 'en') {
@@ -22,7 +23,8 @@ function initI18n(lng = 'en') {
       cz,
       bg,
       nl,
-      ru
+      ru,
+      es
     },
     fallbackLng: {
       'de-CH': ['de'],

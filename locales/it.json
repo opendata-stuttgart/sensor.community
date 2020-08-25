@@ -12,7 +12,7 @@
     "errorStatus": "Riscontrato un errore {status}",
     "reloadPage": "Per favore prova a ricaricare la pagina",
     "offline": "Sembra tu sia offline.",
-    "submitError": "Se l'errore persiste, vai su <a href=\"chat.sensor.community\">Discourse forum</a> e facci sapere, o apri una questione su <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Grazie!"
+    "submitError": "Se l'errore persiste, vai su <a href=\"forum.sensor.community\">Discourse forum</a> e facci sapere, o apri una questione su <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Grazie!"
   },
   "index": {
     "metaDescription": "Costruisci il tuo sensore faidate ed entra a far parte della rete mondiale di scienza dei cittadini, open data e tecnologia civica. Supportato da molti collaboratori \uD83D\uDC95",

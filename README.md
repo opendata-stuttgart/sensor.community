@@ -47,7 +47,7 @@ Please consider reading the documentation.
 
 1. Create locale file
 
-duplicate `locales/en.json` file and rename it to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding, for example *vn* for Vietnam.
+duplicate `locales/en.json` file and rename it to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding, for example *fr* for French.
 Translate the **values** in the locale file:
 ```javascript
 {
