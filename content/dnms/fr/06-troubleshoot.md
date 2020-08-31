@@ -3,9 +3,8 @@ title: Problèmes & difficultés
 ---
 
 ### Problèmes de transmission ?
-
 Entrez l'adresse suivante dans votre navigateur en remplçant l'`ID` et le type de capteur :
-[https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/pm-sensors?orgId=1&var-chipID=esp8266-ID](https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/pm-sensors?orgId=1&var-chipID=esp8266-ID).
+[https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/pm-sensors?orgId=1&var-chipID==esp8266-ID](https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/pm-sensors?orgId=1&var-chipID==esp8266-ID).
 
 L'`ID` peut également être recherchée dans la liste déroulante sur la page.
 
@@ -15,7 +14,7 @@ Ici, un server qui enregistre le niveau de signal Wifi :
 
 [https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-ID](https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-ID)
 <br>
-Remplacez `ID` par l'identifiant de la station (ID de la platine NodeMCU).
+Remplacer `ID` par l'identifiant de la station (ID de la platine NodeMCU).
 
 ### Problèmes de câble USB ?
 * Vérifiez la prise d'alimentation USB et le câble.
@@ -35,8 +34,8 @@ Remplacez `ID` par l'identifiant de la station (ID de la platine NodeMCU).
     * Vous devriez voir dans le terminal ce que le capteur fait (messages de démarrages, connexion au réseau WiFi ou création d'un point d'accès, mesures - après 3 minutes).
 
 ### Problèmes électroniques ?
-* Retirez la station du boitier de protection (coudes PVC).
+* Retirez la station des boitiers de protection
 * Débranchez et rebranchez l'alimentation USB/la prise USB
-    * Voyez-vous un court flash sur la platine ?
-    * SDS011: Une diode rouge s'allume-t-elle ? Le ventilateur démarre-t-il ?
+    * Voyez-vous un court flash bleu sur la platine NodeMCU ?
+    * Teensy: une diode rouge clignote-t-elle après redémarrage ?
     * Vérifiez tous les câbles de connexion.
