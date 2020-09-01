@@ -178,7 +178,9 @@
     "metaDescription": "",
     "metaTitle": "Trouvez ici votre détecteur de particules fines et sa notice de montage",
     "h1": "Kits de détecteurs",
-    "subtitle": " Nos guides pour vos détecteurs"
+    "subtitle": " Nos guides de montage pour vos détecteurs",
+    "airSensorTitle": "Air",
+    "noiseSensorTitle": "Bruit"
   },
   "forum": {
     "metaDescription": "",
