@@ -16,7 +16,7 @@ Platine pour le microcontrôleur NodeMCU ESP8266 (processeur + WiFi) disposant d
 
 ##### Download:
 * [Diagramme](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
-* [Fichier Gerber à charger sur le site internet du fabricant de platines](https://github.com/hbitter/DNMS/blob/master/PCBs/Airrohr%20PCB/Airrohr%20PCB%20V1.2%20Gerber.zip)
+* [Fichier Gerber à charger sur le site internet du fabricant de platines](../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
 
 ---
 
@@ -26,6 +26,6 @@ Platine pour le microcontrôleur Teensy 4.0 à connecter à la platine AIRROHR c
 
 
 ##### Download:
-* [Diagramme](../docs/dnms/dnms-noise-measuring-teensy-40-NodeMCU-circuit-diagram.pdf)
-* [Fichier Gerber à charger sur le site internet du fabricant de platines](https://github.com/hbitter/DNMS/blob/master/PCBs/DNMS%20-%20T4/DNMS_V1.2_T4.zip)
+* [Diagramme](../docs/dnms/dnms-noise-measuring-teensy-40-circuit-diagram.pdf)
+* [Fichier Gerber à charger sur le site internet du fabricant de platines](../docs/dnms/dnms-noise-measuring-teensy-40-circuit-gerber.zip)
 
