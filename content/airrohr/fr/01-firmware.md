@@ -32,8 +32,8 @@ Choisissez le lien correspondsant à votre ordinateur.
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 
 #####  Décompresser et installer le fichier téléchargé pour MacOS.
-* V2: Décompressez le dossier CP210x et double-cliquez sur le fichier exécutable CP210xVCPInstaller_x64 (or x86)
-* V3: Décompressez le dossier CH341SER et double-cliquez sur le fichier exécutable SETUP.
+* V2: Décompressez le dossier CP210x et double-cliquez sur l'image disque `SiLabsUSBDriverDisk.dmg` puis sur le fichier exécutable `Install CP210x VCP Driver`
+* V3: Décompressez le dossier CH341SER et double-cliquez sur le fichier exécutable `CH34x_Install_V1.5.pkg`
 * Redémarrez votre Mac
 
 ---
