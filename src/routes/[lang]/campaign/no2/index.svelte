@@ -20,10 +20,10 @@
 <div class="bg-white">
     <section class="container mx-auto mt-10">
         <div class="container mx-auto text-center">
-            <div class="md:w-4/5 px-4 md:px-16 mx-auto md:py-24 my-12 md:my-14">
+            <div class="md:w-4/5 px-4 md:px-16 mx-auto md:pt-12 my-12">
                 <h1 class="leading-lf font-black text-3xl md:text-6xl">
                 #No2</h1>
-                <h2 class="leading-normal text-base md:text-xl mt-6 opacity-75 md:px-10">{i18n.t('campaign:subtitle')}</h2>
+                <h2 class="leading-normal text-base md:text-xl mt-6 opacity-75 md:px-10">{i18n.t('campaign:no2')}</h2>
             </div>
         </div>
 

@@ -110,6 +110,11 @@
   "campaign": {
     "h1": "Campaign",
     "subtitle": "Coming soon",
+    "refs": "Sensor.Community Campaign to bring sensors at every reference station in this world.\n",
+    "sensor2school": "Sensor.Community Campaign to bring sensors at every school in this world.\n",
+    "sensor2library": "Sensor.Community campaign to bring sensors at every library in this world.\n",
+    "zero200": "#zero200 campaign supports you in launching your local Sensor.Community group.\n",
+    "no2": "We measure NO2 with diffusion tubes.\n",
     "getNotified": "\uD83D\uDC8C Subscribe"
   },
   "collaborations": {
