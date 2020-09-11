@@ -1,7 +1,7 @@
 ---
 title: Introducción
 ---
-> 🚧 Construye tu sensor de bricolaje y conviértete en parte de la red mundial, opendata & civictech. <Con airRohr puedes medir la contaminación del aire por ti mismo.
+> 🚧 Construye tu sensor DIY y conviértete en parte de la red mundial de trabajo opendata y civitech. Con airRohr puedes medir la contaminación del aire tú mismo.
 
 <img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
 
@@ -19,12 +19,10 @@ title: Introducción
 * [Cable](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
 * [Cable USB por ejemplo: plano 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flat+cable+2m)
 * [Fuente de alimentación USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)
-* [Correas de cable](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+straps)
-* Tubo flexible, si es posible **no** transparente, diámetro 6 mm, longitud aprox. 20cm tienda de bricolaje
-* [Protección del clima, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
+* [Correas para cables](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+straps)
+* Un tubo flexible y que no sea transparente. Con un diámetro de 6 mm y una longitud aproximada de 20 cm de la tienda de bricolaje
+* [Protección contra el mal tiempo, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 <br>
 
-🙌 ¡Genial, has decidido comprar las piezas en línea! 
-Desafortunadamente la entrega puede tardar desde días hasta tres semanas. 
-Hasta entonces disfruta de tu life️.
+🙌 ¡Bien, compraste los componentes online! Sin embargo, el reparto puede tardar de aquí a tres semanas. Hasta entonces disfruta tu vida.
