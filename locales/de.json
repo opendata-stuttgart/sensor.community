@@ -103,6 +103,11 @@
   "campaign": {
     "h1": "Kampagne",
     "subtitle": "Demnächst.",
+    "refs": "Sensor.Community-Kampagne, um Sensoren an jede Referenzstation dieser Welt zu bringen",
+    "sensor2school": "Sensor.Community-Kampagne, um Sensoren an jede Schule dieser Welt zu bringen. \n",
+    "sensor2library": "Sensor.Community-Kampagne, um Sensoren in jede Bibliothek dieser Welt zu bringen. \n",
+    "zero200": "Die #zero200-Kampagne unterstützt Sie bei der Gründung Ihrer lokalen Sensor.Community group.\n",
+    "no2": "Wir messen NO2 mit Diffusionsrohren.\n",
     "getNotified": "\uD83D\uDC8C Abbonieren"
   },
   "collaborations": {
