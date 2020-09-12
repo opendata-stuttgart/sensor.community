@@ -2,8 +2,9 @@
     import {onMount} from 'svelte';
     import GuideContents from './GuideContents.svelte';
     import {getFragment} from '../utils/navigation';
-
     import {_, locale, locales} from 'svelte-i18n';
+    import { stores } from '@sapper/app';
+    const { page } = stores();
 
     export const owner = 'opendata-stuttgart';
     export const project = 'sensor.community';
@@ -257,7 +258,7 @@
                 <span id={section.slug}></span>
 
                 {@html section.metadata.title}
-                <a href="{$locale}/sensors/airrohr#{section.slug}" class="anchor" aria-hidden></a>
+                <a href="{section.lang}/sensors/airrohr#{section.slug}" class="anchor" aria-hidden></a>
 
                 <small>
                     <a href="https://github.com/{owner}/{project}/edit/develop/content/airrohr/{$locale}/{dir}/{section.file}"

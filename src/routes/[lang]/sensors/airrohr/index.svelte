@@ -20,6 +20,7 @@
     let {page} = stores();
     $: lang = $page.params.lang;
     $: i18n = initI18n(lang);
+
     export let sections;
 </script>
 
