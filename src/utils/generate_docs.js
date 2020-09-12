@@ -33,6 +33,7 @@ export default function generate_docs(dir) {
         .map(file => {
             const markdown = fs.readFileSync(`content/${dir}/${file}`, 'utf-8');
             const { content, metadata } = extract_frontmatter(markdown);
+            const path = dir;
             const section_slug = make_slug(metadata.title);
             const subsections = [];
             const renderer = new marked.Renderer();
@@ -128,6 +129,8 @@ export default function generate_docs(dir) {
                 metadata,
                 subsections,
                 slug: section_slug,
+                path: path.split("/")[0],
+                lang: path.split("/")[1],
                 file,
             };
         });
