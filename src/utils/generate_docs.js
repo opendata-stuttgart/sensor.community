@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-import {extract_frontmatter, extract_metadata, langs, link_renderer} from '../../site-kit/utils/markdown';
-import {make_session_slug_processor} from '../../site-kit/utils/slug';
+import {extract_frontmatter, extract_metadata, langs, link_renderer} from './markdown';
+import {make_session_slug_processor} from './slug';
 import marked from 'marked';
 import hljs from 'highlight.js';
 
@@ -37,7 +37,6 @@ export default function generate_docs(dir) {
             const subsections = [];
             const renderer = new marked.Renderer();
             let block_open = false;
-
             renderer.link = link_renderer;
 
             renderer.hr = () => {
@@ -108,7 +107,7 @@ export default function generate_docs(dir) {
                 return `
 					<h${level}>
 						<span id="${slug}" class="offset-anchor" ${level > 4 ? 'data-scrollignore' : ''}></span>
-                        <!-- <a href="${dir}#${slug}" class="anchor" aria-hidden="true"></a>-->
+                        <a href="${dir}#${slug}" class="anchor" aria-hidden="true"></a>
 						${text}
 					</h${level}>`;
             };
