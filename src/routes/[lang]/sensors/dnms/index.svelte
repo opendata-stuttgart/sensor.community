@@ -1,5 +1,5 @@
 <script context="module">
-     export async function preload({ page, params, query }) {
+     export async function preload({params}) {
          const res = await this.fetch(`endpoints/dnms/${params.lang}.json`);
 
          if (res.status === 200) {
@@ -15,7 +15,7 @@
 <script>
     import {stores} from "@sapper/app";
     import initI18n from "../../../../utils/initI18n";
-    import {Docs} from '../../../../../site-kit'
+    import Docs from '../../../../components/Docs.svelte'
 
     let {page} = stores();
     $: lang = $page.params.lang;

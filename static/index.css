@@ -735,6 +735,10 @@ h1 {
   display: inline-block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1192,6 +1196,10 @@ h1 {
   padding-top: 5rem;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1202,6 +1210,10 @@ h1 {
 
 .right-0 {
   right: 0;
+}
+
+.resize {
+  resize: both;
 }
 
 .shadow {
