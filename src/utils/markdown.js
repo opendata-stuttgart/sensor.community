@@ -56,6 +56,5 @@ export function link_renderer (href, title, text) {
 	if (title !== null) {
 		title_attr = ` title="${title}"`;
 	}
-
 	return `<a href="${href}"${target_attr}${title_attr}>${text}</a>`;
 }
