@@ -7,6 +7,7 @@ import sk from '../../locales/sk';
 import ru from '../../locales/ru';
 import cz from '../../locales/cz';
 import bg from '../../locales/bg';
+import pl from '../../locales/pl';
 import nl from '../../locales/nl';
 import es from '../../locales/es';
 
@@ -22,6 +23,7 @@ function initI18n(lng = 'en') {
       sk,
       cz,
       bg,
+      pl,
       nl,
       ru,
       es
