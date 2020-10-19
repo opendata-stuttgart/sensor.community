@@ -141,6 +141,5 @@
 </section>
 
 <Campaigns/>
-<Partnership/>
 <Contact/>
 

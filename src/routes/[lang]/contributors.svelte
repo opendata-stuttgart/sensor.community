@@ -9,9 +9,10 @@
     $: i18n = initI18n(lang);
 
     const contributors = [
-        { title: "Rajko", description: "Rajko <br> DevOps", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false, deactivate:true },
-        { title: "Lukas", description: "Lukas <br> Partnership & Community", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false, deactivate:true },
-        { title: "David", description: "David <br> Developer", imageUrl: "https://picsum.photos/300/300/?random", isFavorite: false, deactivate:true }
+        { name: "Rajko", position: "DevOps", imageURL: "images/contributors/rajko-zschiegner.jpg" },
+        { name: "Lukas", position: "Partnership & Community", imageURL: "images/contributors/lukas-mocek.jpg"},
+        { name: "David", position: "Developer", imageURL: "images/contributors/david-lackovic.jpg"},
+        { name: "Pierre-Jean", position: "Data Viz & Partnerhsip FR", imageURL: "images/contributors/pierre-jean-gueno.jpg"}
     ]
 </script>
 
@@ -46,26 +47,29 @@
         <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal text-center md:text-left">
             {i18n.t('contributors:meetTeam')}</h2>
 
+        <div>
+            <div class="mx-auto max-w-screen-xl">
+                    <ul class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4">
+                        {#each contributors as contributor}
+                            <li>
+                                <div class="space-y-4">
+                                    <div class="relative pb-2/3">
+                                        <img class="object-cover h-full w-full shadow-xs rounded-lg" src={contributor.imageURL} alt="">
+                                    </div>
 
-
-        {#each contributors as contributor}
-            <div class="w-full md:w-1/3">
-
-                    <Cards
-                            link={contributor.link}
-                            title={contributor.title}
-                            subtitle={contributor.subtitle}
-                            description={contributor.description}
-                            imageUrl={contributor.imageUrl}
-                            country={contributor.country}
-                            type={contributor.type}
-                            isFav={contributor.isFavorite}
-                            deactivate={contributor.deactivate}
-                    />
-
+                                    <div class="space-y-2">
+                                        <div class="text-lg leading-6 font-medium space-y-1">
+                                            <h4>{contributor.name}</h4>
+                                            <p class="text-teal-600">{contributor.position}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        {/each}
+                    </ul>
             </div>
-        {/each}
-
+        </div>
+    </div>
 </section>
 
 <Contact/>

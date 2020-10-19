@@ -506,6 +506,30 @@ h1 {
   }
 }
 
+.space-y-1 > :not(template) ~ :not(template) {
+  --space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--space-y-reverse));
+}
+
+.space-y-2 > :not(template) ~ :not(template) {
+  --space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--space-y-reverse));
+}
+
+.space-y-4 > :not(template) ~ :not(template) {
+  --space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(1rem * var(--space-y-reverse));
+}
+
+.space-y-12 > :not(template) ~ :not(template) {
+  --space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(3rem * var(--space-y-reverse));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -843,6 +867,10 @@ h1 {
   font-size: 1rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
 }
@@ -1003,6 +1031,10 @@ h1 {
 
 .max-w-screen-xl {
   max-width: 1280px;
+}
+
+.object-cover {
+  object-fit: cover;
 }
 
 .opacity-25 {
@@ -1214,6 +1246,10 @@ h1 {
 
 .resize {
   resize: both;
+}
+
+.shadow-xs {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
 
 .shadow {
@@ -1516,6 +1552,14 @@ pre[class*="language-"] ::selection {
   }
 }
 
+:not(pre) > code[class*="language-"] {
+  white-space: normal;
+  color: #c3cee3;
+  background: #263238;
+  border-radius: 0.2em;
+  padding: 0.1em;
+}
+
 pre > code[class*="language-"] {
   background: none;
 }
@@ -1691,12 +1735,22 @@ pre[class*="language-"].language-css > code, pre[class*="language-"].language-sa
 
 @media (min-width: 640px) {
 
+  .sm\:space-y-0 > :not(template) ~ :not(template) {
+    --space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
+    margin-bottom: calc(0px * var(--space-y-reverse));
+  }
+
   .sm\:block {
     display: block;
   }
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:grid {
+    display: grid;
   }
 
   .sm\:hidden {
@@ -1739,6 +1793,20 @@ pre[class*="language-"].language-css > code, pre[class*="language-"].language-sa
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sm\:gap-x-6 {
+    grid-column-gap: 1.5rem;
+    column-gap: 1.5rem;
+  }
+
+  .sm\:gap-y-12 {
+    grid-row-gap: 3rem;
+    row-gap: 3rem;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1978,6 +2046,10 @@ pre[class*="language-"].language-css > code, pre[class*="language-"].language-sa
 
   .lg\:w-11\/12 {
     width: 91.666667%;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
