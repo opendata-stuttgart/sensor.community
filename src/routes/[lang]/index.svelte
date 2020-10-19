@@ -4,7 +4,6 @@
   import Campaigns from "../../components/Campaigns.svelte";
   import Partnership from "../../components/Partnership.svelte";
   import Contact from "../../components/Contact.svelte";
-  import FollowUs from "../../components/FollowUs.svelte";
   import { onMount } from "svelte";
 
   const {page} = stores();

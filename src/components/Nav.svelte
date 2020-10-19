@@ -107,12 +107,14 @@
             <span></span>
         </div>
     </div>
-    <nav class="sm:block { menu.open ? 'block' : 'hidden' }">
+</div>
+
+<nav class="sm:block { menu.open ? 'block' : 'hidden' }">
         <div class="px-2 pt-2 pb-4 sm:flex sm:p-0">
             <a href="{lang}/" class="uppercase block md:px-4 text-gray-700 font-semibold"
                class:selected="{segment === `/{lang}/` ? 'selected' : ''}">{i18n.t('nav:home')}</a>
             <a href="{lang}/sensors/" class="uppercase mt-1 block md:px-4 text-gray-700 font-semibold sm:mt-0 sm:ml-2"
-               class:selected="{segment === `/{lang}` ? 'selected' : ''}">{i18n.t('nav:sensor')}</a>
+               class:selected="{segment === `/{lang}/sensor` ? 'selected' : ''}">{i18n.t('nav:sensor')}</a>
             <a href="{lang}/forum/"
                class="uppercase mt-1 block md:px-4 text-gray-700 font-semibold sm:mt-0 sm:ml-2">{i18n.t('nav:forum')}</a>
             <a href="{lang}/donate/" class="uppercase mt-1 block md:px-4 text-gray-700 font-semibold sm:mt-0 sm:ml-2"
