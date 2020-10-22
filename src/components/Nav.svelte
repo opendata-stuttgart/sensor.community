@@ -94,7 +94,7 @@
 
 
 <div class="border-teal-500 border-t-8"></div>
-<div class="bg-white sm:flex sm:justify-between sm:items-center sm:py-3 lg:mx-40 z-50 border-b text-xl md:text-base ">
+<div class="bg-white sm:flex sm:justify-between sm:items-center sm:py-3 lg:mx-40 z-50 border-b text-xl md:text-base">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
         <div>
             <a href="{lang}/" class="uppercase block text-gray-700 pl-5">

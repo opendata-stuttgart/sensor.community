@@ -23,9 +23,10 @@
     }
 </script>
 
-<div class="relative bg-white z-50 sticky top-0">
+<div class="border-teal-500 border-t-4"></div>
+<div class="relative lg:mx-20  bg-white z-50 sticky top-0">
     <div class="max-w-7xl mx-auto px-6">
-        <div class="flex justify-between items-center border-b-2 border-gray-200 py-4 md:justify-start md:space-x-10">
+        <div class="flex justify-between items-center border-b-2 border-gray-200 py-3 md:justify-start md:space-x-10">
             <div class="lg:w-0 lg:flex-1">
                 <a href="{lang}/" class="uppercase block text-gray-700">
                     <span class="font-black">sensor</span><span>.community</span>
@@ -54,23 +55,23 @@
             </div>
             <nav class="hidden md:flex space-x-10">
                 <a href="{lang}/"
-                   class="text-base leading-6 font-medium text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
+                   class="text-base leading-6 uppercase font-semibold text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
                    class:selected="{segment === `/{lang}/` ? 'selected' : ''}">
                     {i18n.t('nav:home')}
                 </a>
 
                 <button on:click={menuToggle} type="button"
-                        class="group text-gray-700 inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                        class="group text-gray-700 inline-flex items-center uppercase font-semibold leading-6 font-medium hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                     <span>{i18n.t('nav:sensor')}</span>
                     {#if !menu.open}
-                        <svg class="text-gray-400 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                        <svg class="text-gray-700 hover:text-teal-600 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
                                   d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                                   clip-rule="evenodd"/>
                         </svg>
                     {:else}
-                        <svg class="text-gray-400 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                        <svg class="text-gray-600 hover:text-teal-600 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
                              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd"
                                   d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
@@ -83,7 +84,7 @@
                     <div class="rounded-lg shadow-xs overflow-hidden">
                         <div class="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
                             <a href="{lang}/sensors/airrohr/" on:click={menuToggle}
-                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
                                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                          viewBox="0 0 24 24" stroke="currentColor">
@@ -101,7 +102,7 @@
                                 </div>
                             </a>
                             <a href="#" on:click={menuToggle}
-                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150 opacity-25">
                                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                          viewBox="0 0 24 24" stroke="currentColor">
@@ -119,7 +120,7 @@
                                 </div>
                             </a>
                             <a href="#" on:click={menuToggle}
-                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150 opacity-25">
                                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                          viewBox="0 0 24 24" stroke="currentColor">
@@ -137,7 +138,7 @@
                                 </div>
                             </a>
                             <a href="{lang}/sensors/dnms/" on:click={menuToggle}
-                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-100 transition ease-in-out duration-150">
                                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
                                          viewBox="0 0 24 24" stroke="currentColor">
@@ -150,7 +151,7 @@
                                         Noise Sensor Kit
                                     </p>
                                     <p class="text-sm leading-5 text-gray-500">
-                                        beta version of the digital noise measurment sensor
+                                        beta of noise measurment sensor
                                     </p>
                                 </div>
                             </a>
@@ -158,14 +159,13 @@
                     </div>
                 </div>
 
-
                 <a href="{lang}/forum/"
-                   class="text-base leading-6 font-medium text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                   class="text-base leading-6 uppercase font-semibold text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
                     {i18n.t('nav:forum')}
                 </a>
 
                 <a href="{lang}/donate/"
-                   class="whitespace-no-wrap text-base leading-6 font-medium text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900"
+                   class="whitespace-no-wrap uppercase font-semibold leading-6 font-medium text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900"
                    class:selected="{segment === `/{lang}/donate/` ? 'selected' : ''}">
                     {i18n.t('nav:donate')}
                     <svg class="inline-block ml-1" width="16" height="16" viewBox="0 5 512 512"
@@ -191,63 +191,63 @@
     </div>
 </div>
 
-    <!--Mobile menu-->
-    <div class="absolute z-50 inset-x-0 transition transform origin-top-right md:hidden { menu.open ? 'block' : 'hidden' }">
-        <div class="rounded-lg shadow-lg">
-            <div class="bg-white divide-y-2 divide-gray-50">
-                <div class="pt-5 pb-6 px-5 space-y-6">
-                    <nav class="grid gap-y-8 { menu.open ? 'open' : 'closed' }">
-                        <a href="{lang}/"
-                           class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
-                            <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
-                                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
-                            </svg>
+<!--Mobile menu-->
+<div class="absolute z-50 inset-x-0 transition transform origin-top-right md:hidden { menu.open ? 'block' : 'hidden' }">
+    <div class="rounded-lg shadow-lg">
+        <div class="bg-white divide-y-2 divide-gray-50">
+            <div class="pt-5 pb-6 px-5 space-y-6">
+                <nav class="grid gap-y-8 { menu.open ? 'open' : 'closed' }">
+                    <a href="{lang}/"
+                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-100 transition ease-in-out duration-150">
+                        <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
+                             fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                        </svg>
 
-                            <div class="text-base leading-6 font-medium text-gray-900">
-                                {i18n.t('nav:home')}
-                            </div>
-                        </a>
-                        <a href="{lang}/sensors/"
-                           class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150 class:selected="
-                           class:selected="{segment === `/{lang}/sensor` ? 'selected' : ''}">
-                            <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
-                                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
-                            </svg>
-                            <div class="text-base leading-6 font-medium text-gray-900">
-                                {i18n.t('nav:sensor')}
-                            </div>
-                        </a>
-                        <a href="#"
-                           class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
-                            <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
-                                 fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
-                            </svg>
-                            <div class="text-base leading-6 font-medium text-gray-900">
-                                {i18n.t('nav:forum')}
-                            </div>
-                        </a>
-                        <a href="{lang}/donate/"
-                           class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150"
-                           class:selected="{segment === `/{lang}/donate/` ? 'selected' : ''}">
-                            <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
-                                 fill="none" viewBox="0 0 24 24">
-                                <path fill="#ff2e87" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-                            </svg>
-                            <div class="text-base leading-6 font-medium text-gray-900">
-                                {i18n.t('nav:donate')}
-                            </div>
-                        </a>
-                    </nav>
-                </div>
+                        <div class="text-base leading-6 font-medium text-gray-900">
+                            {i18n.t('nav:home')}
+                        </div>
+                    </a>
+                    <a href="{lang}/sensors/"
+                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-100 transition ease-in-out duration-150 class:selected="
+                       class:selected="{segment === `/{lang}/sensor` ? 'selected' : ''}">
+                        <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
+                             fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>
+                        </svg>
+                        <div class="text-base leading-6 font-medium text-gray-900">
+                            {i18n.t('nav:sensor')}
+                        </div>
+                    </a>
+                    <a href="#"
+                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-100 transition ease-in-out duration-150">
+                        <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
+                             fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"/>
+                        </svg>
+                        <div class="text-base leading-6 font-medium text-gray-900">
+                            {i18n.t('nav:forum')}
+                        </div>
+                    </a>
+                    <a href="{lang}/donate/"
+                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-100 transition ease-in-out duration-150"
+                       class:selected="{segment === `/{lang}/donate/` ? 'selected' : ''}">
+                        <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
+                             fill="none" viewBox="0 0 24 24">
+                            <path fill="#ff2e87" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                        <div class="text-base leading-6 font-medium text-gray-900">
+                            {i18n.t('nav:donate')}
+                        </div>
+                    </a>
+                </nav>
             </div>
         </div>
     </div>
+</div>
 
 
