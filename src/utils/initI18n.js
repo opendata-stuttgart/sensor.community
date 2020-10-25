@@ -10,6 +10,7 @@ import bg from '../../locales/bg';
 import pl from '../../locales/pl';
 import nl from '../../locales/nl';
 import es from '../../locales/es';
+import ua from '../../locales/ua';
 
 
 function initI18n(lng = 'en') {
@@ -26,7 +27,8 @@ function initI18n(lng = 'en') {
       pl,
       nl,
       ru,
-      es
+      es,
+      ua
     },
     fallbackLng: {
       'de-CH': ['de'],
