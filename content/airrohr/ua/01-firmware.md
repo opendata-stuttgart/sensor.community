@@ -54,4 +54,3 @@ Wait until the process is done. Now we can assemble the sensor.
 After the download you may have to set the permission to executable. This can be done with the command: `chmod o+x <download filename>` 
 <br>
 A big thanks goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
-
