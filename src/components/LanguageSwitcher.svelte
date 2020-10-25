@@ -64,5 +64,8 @@
         <a on:click={menuToggle} href="{`es/${pathWithoutLang}`}"
            class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
            class:selected="{lang === 'es' ? 'selected' : ''}"> {flag('es')} es</a>
+        <a on:click={menuToggle} href="{`ua/${pathWithoutLang}`}"
+           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
+           class:selected="{lang === 'ua' ? 'selected' : ''}"> {flag('ua')} ua</a>
     </div>
 </div>
