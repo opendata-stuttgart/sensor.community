@@ -50,6 +50,10 @@ Unterstützung für mehrere Betriebssysteme: Windows, MacOS und Linux.
 
 Schließe deine NodeMCU mit einem kurzen Mikro-USB-Kabel an deinem Computer an (wähle dabei ein Kabel, das kürzer als 1 Meter ist, sonst kann die Installation fehlschlagen). Wähle `latest_de.bin` (oder eine andere Sprachversion) und klicke auf "Hochladen".
 Warte, bis der Vorgang abgeschlossen ist. Jetzt können wir den Sensor zusammenbauen.
+
+#### Linux: Berechtigungen als ausführbare Datei setzen
+Nach dem Download muss die Datei eventuell noch ausführbar gemacht werden. Dies lässt sich mit dem Befehl: `chmod o+x <download filename>` 
+
 <br>
 Ein grosser Dank geht an [Piotr, aus Polen] (https://dropbox.inf.re/), für seine Hilfe! 🙋‍♂️♂️ 
 

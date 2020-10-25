@@ -9,6 +9,7 @@ register('sk', () => import('../../locales/sk'));
 register('ru', () => import('../../locales/ru'));
 register('cz', () => import('../../locales/cz'));
 register('bg', () => import('../../locales/bg'));
+register('pl', () => import('../../locales/pl'));
 register('nl', () => import('../../locales/nl'));
 register('es', () => import('../../locales/es'));
 

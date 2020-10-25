@@ -54,7 +54,7 @@
                             <li>
                                 <div class="space-y-4">
                                     <div class="relative pb-2/3">
-                                        <img class="object-cover h-full w-full shadow-lg rounded-lg" src={contributor.imageURL} alt="">
+                                        <img class="object-cover h-full w-full shadow-xs rounded-lg" src={contributor.imageURL} alt="">
                                     </div>
 
                                     <div class="space-y-2">

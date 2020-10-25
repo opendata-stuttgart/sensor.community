@@ -10,8 +10,8 @@
 </script>
 
 <svelte:head>
-    <title>{i18n.t('campaign:metaTitle')}</title>
-    <meta property="og:title" content="{i18n.t('campaign:metaTitle')}"/>
+    <title>{i18n.t('campaign:sensor2school-metaTitle')}</title>
+    <meta property="og:title" content="{i18n.t('campaign:sensor2school-metaTitle')}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content=""/>
     <meta property="og:image" content=""/>
@@ -19,11 +19,16 @@
 
 <div class="bg-white">
     <section class="container mx-auto mt-10">
-        <div class="container mx-auto text-center">
-            <div class="md:w-4/5 px-4 md:px-16 mx-auto md:pt-12 my-12">
+        <div class="container mx-auto md:px-16 mx-auto md:pt-12 md:w-4/5">
+            <div class="px-4 text-center">
                 <h1 class="leading-lf font-black text-3xl md:text-6xl">
                     #Sensor2School</h1>
-                <h2 class="leading-normal text-base md:text-xl mt-6 opacity-75 md:px-10">{i18n.t('campaign:sensor2school')}</h2>
+                <p class="text-gray-700 text-2xl mt-6">{i18n.t('campaign:sensor2school')}<p>
+            </div>
+            <div class="text-gray-700 text-xl p-8">
+                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase1')} </span>{i18n.t('campaign:sensor2school-phase1')}</p>
+                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase2')} </span>{i18n.t('campaign:sensor2school-phase2')}</p>
+                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase3')} </span>{i18n.t('campaign:sensor2school-phase3')}</p>
             </div>
         </div>
 
