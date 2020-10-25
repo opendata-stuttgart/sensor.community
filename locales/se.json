@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "home": "Home",
+    "docs": "Sensor",
+    "blog": "Blogg",
+    "projects": "Projects",
+    "forum": "Forum",
+    "sensor": "Sensor",
+    "donate": "Donera"
+  },
+  "error": {
+    "errorStatus": "Påträffade ett {status} -fel.",
+    "reloadPage": "Försök ladda sidan igen.",
+    "offline": "Det verkar som om du är offline.",
+    "submitError": "Om felet kvarstår, snälla besök <a href=\"forum.sensor.community\"> vårt forum </a> och meddela oss, eller ta upp ett problem på <a href=\"https://github.com/opendata-stuttgart/\"> GitHub </a>. Tack!"
+  },
+  "index": {
+    "metaDescription": "Bygg din DIY-sensor och bli en del av den globala medborgarvetenskapen, open data, civic tech-nätverket. Stöds av många bidragsgivare \uD83D \uDC95",
+    "metaTitle": "Sensor.Community \uD83C \uDF10 Bygg din egen sensor och gå med i det världsomspännande civic tech-nätverket",
+    "h1-build": "Bygg din egen sensor",
+    "h1-become": "och bli en del av",
+    "h1-civic-tech": "världsomspännande Civic Tech-nätverk \uD83C \uDF10",
+    "h1-support": "Stöds av mycket",
+    "h1-contributors": "bidragsgivare \uD83D \uDC95",
+    "inNumbers-title": "Sensor.Community in numbers",
+    "inNumbers-activeSensors": "Aktiva sensorer över hela världen",
+    "inNumbers-länder": "Länder",
+    "inNumbers-dataPoints": "Datapunkter",
+    "inNumbers-communityProjects": "Community-projekt",
+    "inNumbers-communityHubs": "Community Labs",
+    "inNumbers-commits": "GitHub Commits",
+    "inNumbers-fetching": "... hämtar data",
+    "inNumbers-error": "Ett fel inträffade!",
+    "message-description": "Sensor.Community är ett bidragsdrivet globalt sensornätverk som skapar öppna miljödata.",
+    "message-mission": "Vårt uppdrag är att inspirera och berika människors liv genom att erbjuda en plattform för den kollektiva nyfikenheten i naturen som är äkta, glad och positiv.",
+    "message-hubs": "Sensor.Community har globala nav i Stuttgart, Sofía och Warszawa."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Hitta din sensor och bygginstruktioner för din DYI-dammsensor",
+    "h1": "Sensorsatser",
+    "subtitle": "Välj en monteringsguide och bygg din sensor.",
+    "airSensorTitle": "Luft",
+    "noiseSensorTitle": "Buller"
+  },
+  "guide": {
+    "editOnGithub": "redigera på Github"
+  },
+  "airrohr": {
+    "metaTitle": "Bygg din egen partikelsensor.",
+    "metaDescription": ""
+  },
+  "dnms": {
+    "metaTitle": "Bygg din egen brusmätningssensor.",
+    "metaDescription": ""
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Forum",
+    "h1": "Forum",
+    "subtitle": "Kommer snart",
+    "getNotified": "\uD83D \uDC8C Prenumerera"
+  },
+  "donate": {
+    "metaDescription": "Vi är ideella, icke-företagande och kompromisslösa. Människor som du hjälper oss. Vi litar på donationer för att utföra vårt uppdrag.",
+    "metaTitle": "Donera - hjälp oss genom att visa din kärlek",
+    "h1": "Visa ditt stöd",
+    "description": "Vi är ideella, icke-företagande och kompromisslösa. Människor som du hjälper oss. Vi litar på donationer för att utföra vårt uppdrag.",
+    "section": "Sätt att stödja",
+    "campaign": "Running Campaign",
+    "donation": "Direkt donation",
+    "holder": "Kontoinnehavare",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Bank",
+    "intendedUse": "Avsedd användning",
+    "donationDescription": "Open Knowledge Foundation Tyskland erkänns som en ideell organisation."
+  },
+  "blog": {
+    "metaDescription": "Nyheter",
+    "metaTitle": "Nyheter",
+    "h1": "Senaste inlägg",
+    "description": "Hitta nyheter eller annan intressant information"
+  },
+  "contributors": {
+    "metaDescription": "Människorna bakom projektet",
+    "metaTitle": "Bidragsgivare till Sensor.Community",
+    "h1": "Hej från teamet \uD83D \uDC4B",
+    "description": "Träffa teamet som arbetar bakom kulisserna för att utnyttja kraften i Sensor.Community.",
+    "contactBottom": "\uD83D \uDCEEP Använd kontaktalternativen längst ner på sidan.",
+    "meetTeam": "Möt teamet"
+  },
+  "projects": {
+    "metaDescription": "Hitta mobilappar, webbplatser, ... från vår underbara community \uD83D \uDC96",
+    "metaTitle": "Community-projekt",
+    "h1": "Community-projekt",
+    "description": "Hitta mobilappar, webbplatser, ... från vår underbara community \uD83D \uDC96️",
+    "submitIdea": "Har du ett bra projekt? Dela det med samhället!",
+    "submitProject": "Skicka in ditt projekt →"
+  },
+  "hubs": {
+    "metaDescription": "Hitta samhällen runt om i världen \uD83D \uDC96️",
+    "metaTitle": "Community Hubs",
+    "h1": "Community Hubs",
+    "description": "Hitta samhällen runt om i världen \uD83D \uDC96️️"
+  },
+  "campaigns": {
+    "title": "Gå med i en kampanj"
+  },
+  "campaign": {
+    "h1": "Kampanj",
+    "subtitle": "Kommer snart",
+    "phase1": "Phase 1:",
+    "phase2": "Phase 2:",
+    "phase3": "Phase 3:",
+    "refs": "Sensor.Community-kampanj för att ta med sensorer vid varje referensstation i denna värld. \n",
+    "refs-metaTitle": "Sensor.Community-kampanj för att ta med sensorer vid varje referensstation i denna värld. \n",
+    "refs-phase1": "Visa platser för alla referensstationer på Maps.Sensor.Community. \n",
+    "refs-phase2": "Visa mätvärden och information för alla referensstationer. \n",
+    "refs-phase3": "Mer information 2021. \n",
+    "sensor2school": "Sensor.Community-kampanj för att ta med sensorer på varje skola i denna värld. \n",
+    "sensor2school-metaTitle": "Sensor.Community-kampanj för att ta med sensorer på varje skola i denna värld. \n",
+    "sensor2school-phase1": "Registrera dig och bli en öppen medarbetare för miljödata. \n",
+    "sensor2school-phase2": "Anslut till den globala Sensor.Community. \n",
+    "sensor2school-phase3": "Bli datadriven medborgare och stöd ditt lokala samhälle. \n",
+    "sensor2library": "Sensor.Community-kampanj för att ta med sensorer i varje bibliotek i denna värld. \n",
+    "sensor2library-metaTitle": "Sensor.Community-kampanj för att få sensorer till varje bibliotek i denna värld. \n",
+    "zero200": "# zero200-kampanj stöder dig med att starta din lokala Sensor.Community-grupp. \n",
+    "zero200-metaTitle": "# zero200-kampanj stöder dig med att starta din lokala Sensor.Community-grupp. \n",
+    "no2": "Vi mäter NO2 med diffusionsrör. \n",
+    "no2-metaTitle": "Vi mäter NO2 med diffusionsrör. \n",
+    "no2-phase1": "Lansering 01.10.2020 - 10 städer i Europa mäter med 30 NO2-diffusionsrör vardera. \n",
+    "no2-phase2": "Ny karta för att visa alla NO2-diffusionsrörsmätningar. \n",
+    "no2-phase3": "Lägga till alla andra NO2-diffusionsrörskampanjer över hela världen till kartan. \n",
+    "getNotified": "\uD83D \uDC8C Prenumerera"
+  },
+  "collaborations": {
+    "h1": "Samarbeten",
+    "subtitle": "Kommer snart",
+    "getNotified": "\uD83D \uDC8C Prenumerera"
+  },
+  "location": {
+    "h1": "Plats",
+    "subtitle": "Kommer snart",
+    "getNotified": "\uD83D \uDC8C Prenumerera"
+  },
+  "partnership": {
+    "title": "Samarbeten"
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "general": "Contact",
+    "general-subtitle": "allmänna frågor?",
+    "partnership": "Partnership",
+    "partnership-subtitle": "vill du samarbeta med oss?",
+    "press": "Press",
+    "press-subtitle": "artikelidéer?",
+    "tech": "Tech",
+    "tech-subtitle": "tekniska frågor?"
+  },
+  "footer": {
+    "importantLinks": "Viktiga länkar",
+    "sitemap": "Sitemap",
+    "license": "Licens",
+    "socialLinks": "Connect",
+    "blog": "Blogg",
+    "privacy": "Sekretess och villkor",
+    "communityProjects": "Community-projekt",
+    "communityHubs": "Community Hubs",
+    "contributors": "Contributors",
+    "mission": "Göra världen till en bättre plats genom samhällsdriven, öppen miljödata.",
+    "withLove": "Gjord med \uD83D \uDC95 i Stuttgart, Tyskland"
+  },
+  "imprint": {
+    "h1": "Imprint & Privacy",
+    "lastModified": "Senast ändrad:",
+    "imprint": "Imprint",
+    "imprintName": "Namn: Rajko Zschiegner",
+    "imprintStreet": "Gata: Reichenbacher Str. 20",
+    "imprintPostalCode": "Postnummer: 07973 Greiz",
+    "imprintCountry": "Land: Tyskland",
+    "imprintMail": "E-post: rajko@sensor.community",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Ansvarig",
+    "privacyPolicyDesc": "Med denna integritetspolicy vill vi informera dig om typen, omfattningen och syftet med behandlingen av personuppgifter på vår webbplats. Personuppgifter är alla uppgifter som har en personlig referens till dig, t.ex. namn, adress, e-postadress eller användarnas beteende. Med avseende på de begrepp som används, såsom \"bearbetning\" eller \"ansvarig person\" hänvisar vi till definitionerna i artikel 4 i DSGVO (Basic Data Protection Regulation)",
+    "privacyPolicyName": "Namn: Rajko Zschiegner",
+    "privacyPolicyStreet": "Gata: Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Postnummer: 07973 Greiz",
+    "privacyPolicyCountry": "Land: Tyskland",
+    "privacyPolicyMail": "E-post: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Kontakt via e-post, sociala medier eller telefon",
+    "privacyPolicyContactDescription": "Såvitt du adresserar e-post, telefon eller sociala medier som erbjuds på vår webbplats och ger oss personuppgifter, kommer dessa uppgifter att automatiskt lagras och bearbetas av vårt team för att behandla din förfrågan. Dessa uppgifter är endast behandlas för korrespondens med dig. Vi behöver din e-postadress för att kunna svara på din förfrågan. Vi behöver ditt telefonnummer för att kunna svara på din återuppringningsförfrågan. Rättslig grund: Den rättsliga grunden för användningen av dina uppgifter som beskrivet ovan är artikel 6 stycke 1 lit. a DSGVO. Radering: De personuppgifter som samlas in av oss kommer att raderas om de inte längre behövs. Vi kontrollerar nödvändigheten vartannat år. Du kan också återkalla databehandlingen när som helst."
+  }
+}
+
