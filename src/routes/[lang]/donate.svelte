@@ -73,7 +73,7 @@
                         </div>
                         <div class="mt-2">
                             <p class="block text-sm text-gray-600">{i18n.t('donate:iban')}</p>
-                            <p class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded">EN 36 4306 0967 1173 8932
+                            <p class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded">DE 36 4306 0967 1173 8932
                                 00</p>
                         </div>
                         <div class="mt-2">
