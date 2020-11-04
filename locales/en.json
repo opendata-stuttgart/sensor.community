@@ -6,7 +6,10 @@
     "projects": "Projects",
     "forum": "Forum",
     "sensor": "Guides",
-    "donate": "Donate"
+    "donate": "Donate",
+    "langHelpWanted": "Help wanted",
+    "langCallTo": "Missing your language?",
+    "langDescription": "Provide your translation via GitHub"
   },
   "error": {
     "errorStatus": "Encountered a {status} error.",

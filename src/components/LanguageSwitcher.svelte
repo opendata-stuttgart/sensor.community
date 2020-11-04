@@ -28,7 +28,7 @@
 
 <div class="md:relative z-50">
     <button on:click={menuToggle} type="button"
-            class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+            class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
         <span class="text-xl font-bold">{#if flag(`${lang}`) != undefined}
             {flag(`${lang}`)}
         {:else}
@@ -62,15 +62,15 @@
                 <a href="https://github.com/opendata-stuttgart/meta/wiki/Translations"
                    class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100 transition ease-in-out duration-150">
                     <div class="items-center">
-                        <div class="-ml-2 py-0.5 rounded-full text-xs font-medium leading-5 bg-teal-100 text-teal-800 mb-2 w-1/2 text-center">
-                            Help wanted
+                        <div class="-ml-2 py-1 rounded-full text-xs font-medium leading-4 bg-teal-100 text-teal-800 mb-2 w-1/2 text-center">
+                            {i18n.t('nav:langHelpWanted')}
                         </div>
                         <div class="text-base text-xs font-medium text-gray-900">
-                            Missing your language?
+                            {i18n.t('nav:langCallTo')}
                         </div>
                     </div>
-                    <p class="text-sm leading-5 text-gray-500">
-                        Provide your translation <br> via GitHub
+                    <p class="text-sm leading-4 text-gray-500">
+                        {i18n.t('nav:langDescription')}
                     </p>
                 </a>
             </div>

@@ -26,9 +26,9 @@
 <div class="border-teal-500 border-t-4"></div>
 <div class="relative lg:mx-20 bg-white z-50 sticky top-0">
     <div class="max-w-7xl mx-auto px-6">
-        <div class="flex justify-between items-center border-b-2 border-gray-200 py-3 md:justify-start md:space-x-10 font-semibold text-gray-700 uppercase">
+        <div class="flex justify-between items-center border-b-2 border-gray-200 py-3 md:justify-start md:space-x-10 font-semibold text-gray-700">
             <div class="lg:w-0 lg:flex-1">
-                <a href="{lang}/" class="block">
+                <a href="{lang}/" class="block uppercase">
                     <span class="font-black">sensor</span><span class="font-light">.community</span>
                 </a>
             </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="-mr-2 -my-2 md:hidden">
                 <button type="button" on:click={menuToggle}
-                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 focus:text-gray-500 transition duration-150 hover:text-teal-500 ease-in-out">
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-300 transition duration-150 hover:text-teal-500 ease-in-out">
                     {#if !menu.open}
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
@@ -53,7 +53,7 @@
                     {/if}
                 </button>
             </div>
-            <nav class="hidden md:flex space-x-10">
+            <nav class="hidden md:flex space-x-10 uppercase">
                 <a href="{lang}/" on:click={menuToggle}
                    class="text-base leading-6 transition ease-in-out duration-150 hover:text-teal-500">
                     {i18n.t('nav:home')}
