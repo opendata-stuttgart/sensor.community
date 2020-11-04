@@ -59,7 +59,7 @@
                     {i18n.t('nav:home')}
                 </a>
 
-                <a href="{lang}/sensors/airrohr/" on:click={menuToggle}
+                <a href="{lang}/sensors/" on:click={menuToggle}
                    class="text-base leading-6 transition ease-in-out duration-150 hover:text-teal-500">
                     {i18n.t('nav:sensor')}
                 </a>
