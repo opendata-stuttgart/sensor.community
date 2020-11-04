@@ -9,66 +9,74 @@
     $: i18n = initI18n(lang);
 
     $: pathWithoutLang = $page.path
-            .split("/")
-            .slice(2)
-            .join("/");
+        .split("/")
+        .slice(2)
+        .join("/");
 
     export let segment;
 
-    let menu = {open: false};
+    $: menu = {open: false};
 
     function menuToggle() {
         menu.open = !menu.open;
     }
+
+    const langauges = [
+        "gb", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se"
+    ]
 </script>
 
-<div class="relative">
-    <button on:click={menuToggle} class="uppercase block px-2 text-gray-700 font-semibold rounded">
-        {#if flag(`${lang}`) != undefined}
+<div class="md:relative z-50">
+    <button on:click={menuToggle} type="button"
+            class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+        <span class="text-xl font-bold">{#if flag(`${lang}`) != undefined}
             {flag(`${lang}`)}
         {:else}
             {flag('gb')}
+        {/if}</span>
+        {#if !menu.open}
+            <svg class="text-gray-600 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"/>
+            </svg>
+        {:else}
+            <svg class="text-gray-600 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd"
+                      d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                      clipRule="evenodd"/>
+            </svg>
         {/if}
     </button>
-    <div class="absolute right-0 mt-2 w-24 bg-white rounded-lg shadow-xl border { menu.open ? 'block' : 'hidden' } z-50">
-        <a on:click={menuToggle} href="{`en/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'en' ? 'selected' : ''}"> {flag('gb')} en</a>
-        <a on:click={menuToggle} href="{`de/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'de' ? 'selected' : ''}"> {flag('de')} de</a>
-        <a on:click={menuToggle} href="{`fr/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'fr' ? 'selected' : ''}"> {flag('fr')} fr</a>
-        <a on:click={menuToggle} href="{`it/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'it' ? 'selected' : ''}"> {flag('it')} it</a>
-        <a on:click={menuToggle} href="{`sk/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'sk' ? 'selected' : ''}"> {flag('sk')} sk</a>
-        <a on:click={menuToggle} href="{`ru/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'ru' ? 'selected' : ''}"> {flag('ru')} ru</a>
-        <a on:click={menuToggle} href="{`cz/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'cz' ? 'selected' : ''}"> {flag('cz')} cz</a>
-       <a on:click={menuToggle} href="{`bg/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'bg' ? 'selected' : ''}"> {flag('bg')} bg</a>
-       <a on:click={menuToggle} href="{`pl/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'pl' ? 'selected' : ''}"> {flag('pl')} pl</a>
-       <a on:click={menuToggle} href="{`nl/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'nl' ? 'selected' : ''}"> {flag('nl')} nl</a>
-        <a on:click={menuToggle} href="{`es/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'es' ? 'selected' : ''}"> {flag('es')} es</a>
-        <a on:click={menuToggle} href="{`ua/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'ua' ? 'selected' : ''}"> {flag('ua')} ua</a>
-        <a on:click={menuToggle} href="{`se/${pathWithoutLang}`}"
-           class="uppercase block px-2 py-1 text-gray-700 font-semibold rounded hover:bg-teal-500 hover:text-white"
-           class:selected="{lang === 'se' ? 'selected' : ''}"> {flag('se')} se</a>
+    <div class="absolute transform leading-6 -ml-4 inset-x-0 d:max-w-md md:-translate-x-48 { menu.open ? 'block opacity-100 translate-y-0 ease-out' : 'hidden opacity-0 -translate-y-1 ease-in' } transition duration-200">
+        <div class="rounded-lg shadow-lg mt-6 md:w-64">
+            <div class="relative bg-white p-6 grid grid-cols-2">
+                {#each langauges as lang}
+                    <a href="{`${lang}/${pathWithoutLang}`}" on:click={menuToggle}
+                       class="uppercase inline-block p-2 text-gray-700 font-semibold rounded hover:bg-gray-200 hover:text-gray-700">{flag(lang)} {lang}</a>
+                {/each}
+            </div>
+            <div class="hidden rounded-b-lg md:block p-8 bg-gray-100">
+                <a href="https://github.com/opendata-stuttgart/meta/wiki/Translations"
+                   class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100 transition ease-in-out duration-150">
+                    <div class="items-center">
+                        <div class="-ml-2 py-1 rounded-full text-xs font-medium leading-4 bg-teal-100 text-teal-800 mb-2 w-1/2 text-center">
+                            {i18n.t('nav:langHelpWanted')}
+                        </div>
+                        <div class="text-base text-xs font-medium text-gray-900">
+                            {i18n.t('nav:langCallTo')}
+                        </div>
+                    </div>
+                    <p class="text-sm leading-4 text-gray-500">
+                        {i18n.t('nav:langDescription')}
+                    </p>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
+
+
+

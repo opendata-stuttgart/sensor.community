@@ -1,12 +1,15 @@
 {
   "nav": {
     "home": "Home",
-    "docs": "Sensor",
+    "docs": "Guides",
     "blog": "Blog",
     "projects": "Projects",
     "forum": "Forum",
-    "sensor": "Sensor",
-    "donate": "Donate"
+    "sensor": "Guides",
+    "donate": "Donate",
+    "langHelpWanted": "Help wanted",
+    "langCallTo": "Missing your language?",
+    "langDescription": "Provide your translation via GitHub"
   },
   "error": {
     "errorStatus": "Encountered a {status} error.",
