@@ -15,7 +15,7 @@
 
     export let segment;
 
-    let menu = {open: false};
+    $: menu = {open: false};
 
     function menuToggle() {
         menu.open = !menu.open;
@@ -50,13 +50,12 @@
             </svg>
         {/if}
     </button>
-    <div class="absolute transform leading-6 -ml-4 inset-x-0 d:max-w-md md:-translate-x-48 { menu.open ? 'opacity-100 translate-y-0 ease-out' : 'opacity-0 -translate-y-1 ease-in' } transition duration-200">
+    <div class="absolute transform leading-6 -ml-4 inset-x-0 d:max-w-md md:-translate-x-48 { menu.open ? 'block opacity-100 translate-y-0 ease-out' : 'hidden opacity-0 -translate-y-1 ease-in' } transition duration-200">
         <div class="rounded-lg shadow-lg mt-6 md:w-64">
             <div class="relative bg-white p-6 grid grid-cols-2">
                 {#each langauges as lang}
-                    <a on:click={menuToggle} href="{`${lang}/${pathWithoutLang}`}"
-                       class="uppercase inline-block p-2 text-gray-700 font-semibold rounded hover:bg-gray-200 hover:text-gray-700"
-                       class:selected="{lang === {lang} ? 'selected' : ''}">{flag(lang)} {lang}</a>
+                    <a href="{`${lang}/${pathWithoutLang}`}" on:click={menuToggle}
+                       class="uppercase inline-block p-2 text-gray-700 font-semibold rounded hover:bg-gray-200 hover:text-gray-700">{flag(lang)} {lang}</a>
                 {/each}
             </div>
             <div class="hidden rounded-b-lg md:block p-8 bg-gray-100">

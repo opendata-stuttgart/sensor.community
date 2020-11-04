@@ -16,7 +16,7 @@
 
     export let segment;
 
-    let menu = {open: false};
+    $: menu = {open: false};
 
     function menuToggle() {
         menu.open = !menu.open;
@@ -26,10 +26,10 @@
 <div class="border-teal-500 border-t-4"></div>
 <div class="relative lg:mx-20 bg-white z-50 sticky top-0">
     <div class="max-w-7xl mx-auto px-6">
-        <div class="flex justify-between items-center border-b-2 border-gray-200 py-3 md:justify-start md:space-x-10">
+        <div class="flex justify-between items-center border-b-2 border-gray-200 py-3 md:justify-start md:space-x-10 font-semibold text-gray-700 uppercase">
             <div class="lg:w-0 lg:flex-1">
-                <a href="{lang}/" class="uppercase block text-gray-700">
-                    <span class="font-black">sensor</span><span>.community</span>
+                <a href="{lang}/" class="block">
+                    <span class="font-black">sensor</span><span class="font-light">.community</span>
                 </a>
             </div>
             <div class="md:hidden block">
@@ -37,7 +37,7 @@
             </div>
             <div class="-mr-2 -my-2 md:hidden">
                 <button type="button" on:click={menuToggle}
-                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 focus:text-gray-500 transition duration-150 ease-in-out">
+                        class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-300 focus:outline-none focus:bg-gray-300 focus:text-gray-500 transition duration-150 hover:text-teal-500 ease-in-out">
                     {#if !menu.open}
                         <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                              stroke="currentColor">
@@ -54,126 +54,23 @@
                 </button>
             </div>
             <nav class="hidden md:flex space-x-10">
-                <a href="{lang}/"
-                   class="text-base leading-6 uppercase font-semibold text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
-                   class:selected="{segment === `/{lang}/` ? 'selected' : ''}">
+                <a href="{lang}/" on:click={menuToggle}
+                   class="text-base leading-6 transition ease-in-out duration-150 hover:text-teal-500">
                     {i18n.t('nav:home')}
                 </a>
 
-                <a href="{lang}/sensors/"
-                   class="text-base leading-6 uppercase font-semibold text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
-                   class:selected="{segment === `/{lang}/` ? 'selected' : ''}">
+                <a href="{lang}/sensors/airrohr/" on:click={menuToggle}
+                   class="text-base leading-6 transition ease-in-out duration-150 hover:text-teal-500">
                     {i18n.t('nav:sensor')}
                 </a>
 
-
-                <!--                <button on:click={menuToggle} type="button"-->
-                <!--                        class="group text-gray-700 inline-flex items-center uppercase font-semibold leading-6 font-medium hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">-->
-                <!--                    <span>{i18n.t('nav:sensor')}</span>-->
-                <!--                    {#if !menu.open}-->
-                <!--                        <svg class="text-gray-700 hover:text-teal-600 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"-->
-                <!--                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">-->
-                <!--                            <path fill-rule="evenodd"-->
-                <!--                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"-->
-                <!--                                  clip-rule="evenodd"/>-->
-                <!--                        </svg>-->
-                <!--                    {:else}-->
-                <!--                        <svg class="text-gray-600 hover:text-teal-600 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"-->
-                <!--                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">-->
-                <!--                            <path fillRule="evenodd"-->
-                <!--                                  d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"-->
-                <!--                                  clipRule="evenodd"/>-->
-                <!--                        </svg>-->
-                <!--                    {/if}-->
-                <!--                </button>-->
-
-                <!--                <div class="absolute -ml-4 mt-12 transform lg:w-screen md:w-4/5 max-w-3xl ml-0 left-1/2 -translate-x-48  { menu.open ? 'opacity-100 translate-y-0 ease-out' : 'opacity-0 -translate-y-1 ease-in' } transition  duration-200">-->
-                <!--                    <div class="rounded-lg shadow-xs overflow-hidden">-->
-                <!--                        <div class="z-20 relative grid gap-6 bg-gray-100 px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">-->
-                <!--                            <a href="{lang}/sensors/airrohr/" on:click={menuToggle}-->
-                <!--                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-300 transition ease-in-out duration-150">-->
-                <!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">-->
-                <!--                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"-->
-                <!--                                         viewBox="0 0 24 24" stroke="currentColor">-->
-                <!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"-->
-                <!--                                              d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>-->
-                <!--                                    </svg>-->
-                <!--                                </div>-->
-                <!--                                <div class="space-y-1">-->
-                <!--                                    <p class="text-base leading-6 font-medium text-gray-900">-->
-                <!--                                        Air Quality Sensor Kit 1-->
-                <!--                                    </p>-->
-                <!--                                    <p class="text-sm leading-5 text-gray-500">-->
-                <!--                                        our popular low cost air quality sensor kit-->
-                <!--                                    </p>-->
-                <!--                                </div>-->
-                <!--                            </a>-->
-                <!--                            <a href="#" on:click={menuToggle}-->
-                <!--                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-300 transition ease-in-out duration-150 opacity-25">-->
-                <!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">-->
-                <!--                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"-->
-                <!--                                         viewBox="0 0 24 24" stroke="currentColor">-->
-                <!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"-->
-                <!--                                              d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>-->
-                <!--                                    </svg>-->
-                <!--                                </div>-->
-                <!--                                <div class="space-y-1">-->
-                <!--                                    <p class="text-base leading-6 font-medium text-gray-900">-->
-                <!--                                        Air Quality Sensor Kit 2-->
-                <!--                                    </p>-->
-                <!--                                    <p class="text-sm leading-5 text-gray-500">-->
-                <!--                                        in development-->
-                <!--                                    </p>-->
-                <!--                                </div>-->
-                <!--                            </a>-->
-                <!--                            <a href="#" on:click={menuToggle}-->
-                <!--                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-300 transition ease-in-out duration-150 opacity-25">-->
-                <!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">-->
-                <!--                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"-->
-                <!--                                         viewBox="0 0 24 24" stroke="currentColor">-->
-                <!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"-->
-                <!--                                              d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>-->
-                <!--                                    </svg>-->
-                <!--                                </div>-->
-                <!--                                <div class="space-y-1">-->
-                <!--                                    <p class="text-base leading-6 font-medium text-gray-900">-->
-                <!--                                        Air Quality Sensor Kit 3-->
-                <!--                                    </p>-->
-                <!--                                    <p class="text-sm leading-5 text-gray-500">-->
-                <!--                                        in development-->
-                <!--                                    </p>-->
-                <!--                                </div>-->
-                <!--                            </a>-->
-                <!--                            <a href="{lang}/sensors/dnms/" on:click={menuToggle}-->
-                <!--                               class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-300 transition ease-in-out duration-150">-->
-                <!--                                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">-->
-                <!--                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"-->
-                <!--                                         viewBox="0 0 24 24" stroke="currentColor">-->
-                <!--                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"-->
-                <!--                                              d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"/>-->
-                <!--                                    </svg>-->
-                <!--                                </div>-->
-                <!--                                <div class="space-y-1">-->
-                <!--                                    <p class="text-base leading-6 font-medium text-gray-900">-->
-                <!--                                        Noise Sensor Kit-->
-                <!--                                    </p>-->
-                <!--                                    <p class="text-sm leading-5 text-gray-500">-->
-                <!--                                        beta of noise measurment sensor-->
-                <!--                                    </p>-->
-                <!--                                </div>-->
-                <!--                            </a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-
-                <a href="{lang}/forum/"
-                   class="text-base leading-6 uppercase font-semibold text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+                <a href="{lang}/forum/" on:click={menuToggle}
+                   class="text-base leading-6 transition ease-in-out duration-150 hover:text-teal-500">
                     {i18n.t('nav:forum')}
                 </a>
 
-                <a href="{lang}/donate/"
-                   class="whitespace-no-wrap uppercase font-semibold leading-6 font-medium text-gray-700 hover:text-teal-600 focus:outline-none focus:text-gray-900"
-                   class:selected="{segment === `/{lang}/donate/` ? 'selected' : ''}">
+                <a href="{lang}/donate/" on:click={menuToggle}
+                   class="whitespace-no-wrap font-semibold leading-6">
                     {i18n.t('nav:donate')}
                     <svg class="inline-block ml-1" width="16" height="16" viewBox="0 5 512 512"
                          xmlns="http://www.w3.org/2000/svg">
@@ -199,13 +96,13 @@
 </div>
 
 <!--Mobile menu-->
-<div class="absolute z-50 inset-x-0 transition transform origin-top-right md:hidden { menu.open ? 'opacity-100 translate-y-0 ease-out' : 'opacity-0 -translate-y-1 ease-in' } transition  duration-200">
+<div class="absolute z-50 inset-x-0 transition transform origin-top-right md:hidden { menu.open ? 'block opacity-100 translate-y-0 ease-out' : 'hidden opacity-0 -translate-y-1 ease-in' } transition  duration-200">
     <div class="rounded-lg shadow-lg bg-white">
         <div class="divide-y-2 divide-gray-50">
             <div class="pb-6 mt-4 px-5 space-y-6">
                 <nav class="grid gap-y-8 { menu.open ? 'open' : 'closed' }">
                     <a href="{lang}/" on:click={menuToggle}
-                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150">
+                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150 hover:text-teal-500">
                         <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -217,8 +114,7 @@
                         </div>
                     </a>
                     <a href="{lang}/sensors/" on:click={menuToggle}
-                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150 class:selected="
-                       class:selected="{segment === `/{lang}/sensor` ? 'selected' : ''}">
+                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150 hover:text-teal-500">
                         <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -229,7 +125,7 @@
                         </div>
                     </a>
                     <a href="{lang}/forum/" on:click={menuToggle}
-                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150">
+                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150 hover:text-teal-500">
                         <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -240,8 +136,7 @@
                         </div>
                     </a>
                     <a href="{lang}/donate/" on:click={menuToggle}
-                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150"
-                       class:selected="{segment === `/{lang}/donate/` ? 'selected' : ''}">
+                       class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150 hover:text-teal-500">
                         <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 24 24">
                             <path fill="#ff2e87" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
