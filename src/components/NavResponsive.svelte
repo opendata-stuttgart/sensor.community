@@ -28,7 +28,7 @@
     <div class="max-w-7xl mx-auto px-6">
         <div class="flex justify-between items-center border-b-2 border-gray-200 py-3 md:justify-start md:space-x-10 font-semibold text-gray-700">
             <div class="lg:w-0 lg:flex-1">
-                <a href="{lang}/" class="block uppercase">
+                <a href="{lang}/" class="block uppercase hover:text-teal-500">
                     <span class="font-black">sensor</span><span class="font-light">.community</span>
                 </a>
             </div>
