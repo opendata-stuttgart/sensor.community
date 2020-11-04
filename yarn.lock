@@ -3050,10 +3050,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-sirv@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.6.tgz#178c13bffccc0dea715a0e50894cf3a6c74a715e"
-  integrity sha512-LRGu7Op4Xl9hhigOy2kcB53zAYTjNDdpooey49dIU0cMdpOv9ithVf7nstk3jvs8EhMiT/VORoyazZYGgw4vnA==
+sirv@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.7.tgz#ad8ca1f84430777a59162592626c2b8e9b9f1384"
+  integrity sha512-QMT2OTD3CTr8de9VByPmvSEeyt6k8/Cxg0J2kQJ5HNhIWfhFg9ypcIWWzez9rPWnGj+WtJ7AZD/MdT/vdilV/A==
   dependencies:
     "@polka/url" "^1.0.0-next.9"
     mime "^2.3.1"
@@ -3209,15 +3209,15 @@ svelte-i18n@^3.1.0:
     intl-messageformat "^7.5.2"
     tiny-glob "^0.2.6"
 
-svelte@^3.24.1:
-  version "3.24.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.1.tgz#aca364937dd1df27fe131e2a4c234acb6061db4b"
-  integrity sha512-OX/IBVUJSFo1rnznXdwf9rv6LReJ3qQ0PwRjj76vfUWyTfbHbR9OXqJBnUrpjyis2dwYcbT2Zm1DFjOOF1ZbbQ==
+svelte@^3.29.4:
+  version "3.29.4"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.29.4.tgz#d0f80cb58109ef52963855c23496f7153bb2eb7e"
+  integrity sha512-oW0fGHlyFFMvzRtIvOs84b0fOc0gmZNQcL5Is3hxuTpvaYX3pfd8oHy4KnOvbq4Ca6SG6AHdRMk7OhApTo0NqA==
 
-tailwindcss@^1.8.13:
-  version "1.8.13"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.8.13.tgz#ee57050a516d342bafc92cb74b4de6f92e44c189"
-  integrity sha512-z3R/6qPqfjauSR4qHhlA8I0OnfSyuotvigXISq666k+V52VSs5HV//KZ0Xe3qrZ4h5Um4OG5g+lcgjXSfURjDw==
+tailwindcss@^1.9.6:
+  version "1.9.6"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.9.6.tgz#0c5089911d24e1e98e592a31bfdb3d8f34ecf1a0"
+  integrity sha512-nY8WYM/RLPqGsPEGEV2z63riyQPcHYZUJpAwdyBzVpxQHOHqHE+F/fvbCeXhdF1+TA5l72vSkZrtYCB9hRcwkQ==
   dependencies:
     "@fullhuman/postcss-purgecss" "^2.1.2"
     autoprefixer "^9.4.5"
