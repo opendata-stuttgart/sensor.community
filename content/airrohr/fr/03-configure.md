@@ -19,7 +19,7 @@ title: Configuration
 
 <br>
 
-![](../docs/airrohr/airrohr_config_initial.png)
+![](../docs/airrohr_config_initial.jpg)
 <br>
 
 > ⚠️ **Remarque**  La connexion au réseau local peut prendre un peu de temps. Ne soyez pas impatient et essayez plusieurs fois si besoin. La station peut aussi être configurée à l'aide d'un smartphone. Si la configuration a fonctionné, la page décrite ci-dessus ne sera plus accessible directement avec l'adresse IP 192.168.4.1.

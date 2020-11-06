@@ -21,7 +21,7 @@ title: Конфигуриране
 
 <br>
 
-![](../docs/airrohr/airrohr_config_initial.png)
+![](../docs/airrohr_config_initial.jpg)
 <br>
 
 ### Проверете дали станцията е правилно конфигурирана

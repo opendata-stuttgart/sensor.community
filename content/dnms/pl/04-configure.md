@@ -42,7 +42,7 @@ title: Configure
 
 <br>
 
-![](../docs/dnms/airrohr_config_initial.png)
+![](docs/airrohr_config_initial.jpg)
 <br>
 
 ### Przetestuj stację

@@ -93,7 +93,7 @@ export default function generate_docs(dir) {
             renderer.heading = (text, level, rawtext) => {
                 const slug = level <= 4 && make_slug(rawtext);
 
-                if (level === 3 || level === 4) {
+                if (level === 3) {
                     const title = text
                         .replace(/<\/?code>/g, '')
                         .replace(/\.(\w+)(\((.+)?\))?/, (m, $1, $2, $3) => {
