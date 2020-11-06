@@ -21,7 +21,7 @@ title: Konfiguration
 
 <br>
 
-![](../docs/airrohr/airrohr_config_initial.png)
+![](../docs/airrohr_config_initial.jpg)
 <br>
 
 ### Testen Sie die Station

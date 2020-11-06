@@ -42,7 +42,7 @@ title: Налаштувати
 
 <br>
 
-![](../docs/dnms/airrohr_config_initial.png)
+![](docs/airrohr_config_initial.jpg)
 <br>
 
 ### Перевірте станцію

@@ -21,7 +21,7 @@ title: Configurar
 
 <br>
 
-![](../docs/airrohr/airrohr_config_initial.png)
+![](../docs/airrohr_config_initial.jpg)
 <br>
 
 ### Verifica que la estación está correctamente configurada
