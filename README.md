@@ -94,13 +94,14 @@ function initI18n(lng = 'en') {
 
 3. Add language to the navbar
 
-To add the language in the navbar go to `src/components/LanguageSwitcher.svelte`. Scroll down to around Line 140 and add this line with the corresponding language.
-```
-<a href="{`fr/${pathWithoutLang}`}" class="uppercase block md:pr-4"
-               class:selected="{lang === 'fr' ? 'selected' : ''}">{flag('fr')}</a>
+To add the language in the navbar go to `src/components/LanguageSwitcher.svelte`. Scroll down to around Line 24 and add this line with the corresponding language.
+
+```javascript
+const langauges = [
+        "gb", "de", "fr", "it", "sk", "ru" // <- add new lanuage in the array
+    ]
 ```
 
-#
 
 ## Bugs and feedback
 The website is in early development, and may have the rough edge here and there. 
