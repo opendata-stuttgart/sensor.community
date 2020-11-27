@@ -159,6 +159,11 @@
                                     DB Contents License
                                 </a>
                             </li>
+                            <li class="mt-4">
+                                <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+                                    Photos License
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
