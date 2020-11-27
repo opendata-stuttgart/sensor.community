@@ -25,7 +25,7 @@ Je kan zoeken op [ID] in de tekst op de pagina [https://www.madavi.de/sensor/gra
 * Verbind via USB met een computer en bekijk het log
     * Volg de tekst op de seriele interface met een serieel-terminalprogramma (Instellingen: baud 9600, 8N1)
         * Linux: screen, minicom, cutecom; Windows: Tera Term; MacOS: screen, minicom, ...
-        * mogelijk zijn geschikt usb2serial drivers nog steeds vereist, zie [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
+        * mogelijk zijn geschikte usb2serial drivers nog steeds vereist, zie [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
     * Hier zou je moeten kunnen zien wat de sensor aan het doen is (boot messages, WiFi-verbinding of AP, meten - pas na 3 minuten)
 
 ### Problemen met de elektronica?
