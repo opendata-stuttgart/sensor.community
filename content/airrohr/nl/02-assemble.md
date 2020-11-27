@@ -13,7 +13,7 @@ Let op: onze instructies gaan over versie 3 van de NodeMCU. Deze kan je herkenne
 <small>Copyright: roman-minyaylov, MIT License</small>
 
 
-<img src="../docs/nodemcu-v3-bme280.jpeg" style="margin-top: 1em"/>
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em;display: block"/>
 
 ##### Dit is hoe het eruit zou moeten zien wanneer je klaar bent
 
@@ -31,8 +31,8 @@ SDS011 Pin 7 -> niet aangesloten
 ```
 
 ### Solderen van de BME280
-<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
-<img src="../docs/solder-bme-280.jpeg" style="width:49%;">
+<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
+<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;">
 
 Verbind de pinheader met het BME280 bord. Soldeer deze vanaf de achterkant. De afstand tussen de pinnen is erg klein, dus weer geduldig en voorzichtig.  
 
@@ -52,12 +52,12 @@ SCL -> Pin D4
 ### Alles bij elkaar binden
 
  ##### Bind de NodeMCU en de SDS011 samen
-<img src="../docs/tie-air-quality-sensor-together.jpeg"/>
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" style="display: block"/>
 Gebruik een kabelbinder om de NodeMCU (ESP8266) en de SDS011-sensor aan elkaar te verbinden zodat de WiFi-antenne van de sensor afwijst
 
  ##### Verbind de flexibele slang
- <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
- <img src="../docs/bme280-tied-to-tube.jpeg" style="width:49%;">
+<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
+<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;">
  
 * Verbind de flexibele slang aan de SDS011 sensor
 * Gebruik nog een kabelbinder om de BME280-temperatuursensor aan de slang te binden
@@ -69,11 +69,11 @@ Gebruik een kabelbinder om de NodeMCU (ESP8266) en de SDS011-sensor aan elkaar t
 * De USB-kabel, flexibele slang en de BME280 zouden uit de pijp moeten steken
 * Duw het andere pijpdeel op de eerste
 
-<img src="../docs/sds011-jammed-into-tube.jpeg"/>
+<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg"/>
 
  ##### Afwerking
 * Positioneer de temperatuursensor op de flexibele slang, zodat deze bij het uiteinde van de pijp zit.
 * Knip de flexibele slang af aan het eind van de pijp
 * Optioneel: je kan de open einden van de pijp bedekken met een fijn gaas. Zo kan de lucht circuleren maar hou je insecten buiten.
  
-<img src="../docs/position-bme280.jpeg"/>
+<img src="../docs/airrohr/position-bme280.jpeg"/>
