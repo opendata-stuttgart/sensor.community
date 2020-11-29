@@ -27,5 +27,5 @@ title: Konfigurace
 ### Otestujte senzor
 Jestliže jste kromě zadání Wi-Fi sítě nezměnili žádné jiné údaje, senzor můžete po cca. 10 minutách 'otestovat' na následujících stránkách. Na těchto stránkách vyhledejte vaše ChipID (v příkladě výše 13597771).
 
- * [Sensordaten](www.madavi.de/sensor/graph.php)
- * [WLAN-Signal](www.madavi.de/sensor/signal.php)
+ * [Sensordaten](https://www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](https://www.madavi.de/sensor/signal.php)
