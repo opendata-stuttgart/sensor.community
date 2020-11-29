@@ -27,5 +27,5 @@ title: Configuratie
 ### Controleer dat het station juist is geconfigureerd
 Als je geen andere wijzigingen hebt gemaakt in de vorige stap, anders dan WiFi netwerkconfiguratie, zal de sensor nu starten met meten en uploaden van data. Je kan na ongeveer 10 minuten controleren dat alles juist werkt, door naar de volgende pagina's te gaan. Zoek op deze pagina's naar je ChipID (in het voorbeeld hierboven 13597771).
 
- * [Sensordata](http://www.madavi.de/sensor/graph.php)
- * [WiFi-signaaldata](http://www.madavi.de/sensor/signal.php)
+ * [Sensordata](https://www.madavi.de/sensor/graph.php)
+ * [WiFi-signaaldata](https://www.madavi.de/sensor/signal.php)
