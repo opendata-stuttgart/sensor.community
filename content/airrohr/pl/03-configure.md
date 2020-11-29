@@ -27,5 +27,5 @@ title: Configure
 ### Sprawdź, czy stacja jest prawidłowo skonfigurowana
 Jeżeli w poprzednim kroku nie dokonano żadnych innych zmian poza konfiguracją sieci WiFi, czujnik rozpocznie teraz rejestrowanie i przesyłanie danych. Po około 10 minutach można sprawdzić, czy wszystkie dane działają prawidłowo, przechodząc do kolejnych stron. Na tych stronach wyszukaj ChipID (w przykładzie powyżej 13597771).
 
- * [Dane z czujników](http://www.madavi.de/sensor/graph.php)
- * [Dane dotyczące sygnału WiFi](http://www.madavi.de/sensor/signal.php)
+ * [Dane z czujników](https://www.madavi.de/sensor/graph.php)
+ * [Dane dotyczące sygnału WiFi](https://www.madavi.de/sensor/signal.php)
