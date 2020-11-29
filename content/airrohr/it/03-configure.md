@@ -60,5 +60,5 @@ decina di minuti.
 
 Connettiti alle seguenti pagine e cerca il tuo ChipID.
 
- * [Dati del sensore](http://www.madavi.de/sensor/graph.php)
- * [Dati del segnale wireless](http://www.madavi.de/sensor/signal.php)
+ * [Dati del sensore](https://www.madavi.de/sensor/graph.php)
+ * [Dati del segnale wireless](https://www.madavi.de/sensor/signal.php)
