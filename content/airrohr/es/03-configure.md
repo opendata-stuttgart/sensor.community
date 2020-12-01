@@ -27,5 +27,5 @@ title: Configurar
 ### Verifica que la estación está correctamente configurada
 Si no realizó ningún otro cambio en el paso anterior que no sea la configuración de la red WiFi, el sensor comenzará a grabar y cargar los datos. Puede verificar que todo funciona correctamente después de aproximadamente 10 minutos dirigiéndote a las siguientes páginas. En estas páginas, busque el ChipID (en el ejemplo anterior 13597771).
 
- * [Sensor data](http://www.madavi.de/sensor/graph.php)
- * [WiFi signal data](http://www.madavi.de/sensor/signal.php)
+ * [Sensor data](https://www.madavi.de/sensor/graph.php)
+ * [WiFi signal data](https://www.madavi.de/sensor/signal.php)

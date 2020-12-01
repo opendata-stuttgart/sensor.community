@@ -27,5 +27,5 @@ title: Configure
 ### Verify the station is correctly configured
 If you made no other changes in the previous step other than WiFi network configuration, the sensor will now start recording and uploading the data. You can verify that everyting is working correctly after about 10 minutes by navigating to the following pages. On these pages search for the ChipID (in the example above the 13597771).
 
- * [Sensor data](http://www.madavi.de/sensor/graph.php)
- * [WiFi signal data](http://www.madavi.de/sensor/signal.php)
+ * [Sensor data](https://www.madavi.de/sensor/graph.php)
+ * [WiFi signal data](https://www.madavi.de/sensor/signal.php)
