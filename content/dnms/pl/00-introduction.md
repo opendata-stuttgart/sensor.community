@@ -47,13 +47,13 @@ To repozytorium zawiera różne konfiguracje do budowy czujnika z różnych rodz
 
 ##### Pojedyncze komponenty
 * [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
-* [Teensy 4.0 development board](https://www.pjrc.com/store/teensy40.html). Inni sprzedawcy: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0?gclid=EAIaIQobChMIydqP3t2Y6wIVhtKyCh1IagurEAQYASABEgJAKPD_BwE), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
+* [Teensy 4.0 development board](https://www.pjrc.com/store/teensy40.html). Inni sprzedawcy: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
 * [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * ultra elastyczne kable silikonowe o średnicy 0,15 mm² (AWG 26) w 6 różnych kolorach
 <br>
 Czujnik DNMS (Digital Noise Measuring Sensor) może być połączony z czujnikiem PM AirRohr:
 
-* SPS30 Czujnik drobnego pyłu](https://www.sparkfun.com/products/15103).  Inni sprzedawcy: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1&gclid=EAIaIQobChMI-63cmP6Y6wIVDM53Ch1hNwmGEAYYASABEgLp5PD_BwE), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234?gclid=EAIaIQobChMIsYW85oOZ6wIVAtGyCh0f8wU_EAYYASABEgK8PfD_BwE). Można również zastosować zwykły czujnik [SDS011 PM sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) can be used as well.
+* SPS30 Czujnik drobnego pyłu](https://www.sparkfun.com/products/15103).  Inni sprzedawcy: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Można również zastosować zwykły czujnik [SDS011 PM sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) can be used as well.
 * [BME280 6-PIN Version, temperatura i wilgotność](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Inni sprzedawcy: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
 * [Przewód](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
 * [Przewód USB np.: płaski 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flat+cable+2m)

@@ -47,13 +47,13 @@ title: Вступ
 
 ##### Поодинокі компоненти
 * [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
-* [Рада з розробки Teensy 4.0](https://www.pjrc.com/store/teensy40.html). Інші продавці: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0?gclid=EAIaIQobChMIydqP3t2Y6wIVhtKyCh1IagurEAQYASABEgJAKPD_BwE), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
+* [Рада з розробки Teensy 4.0](https://www.pjrc.com/store/teensy40.html). Інші продавці: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
 * [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * надзвичайно гнучкі силіконові кабелі діаметром 0,15 мм² (AWG 26) у 6 різних кольорах
 <br>
 DNMS (цифровий датчик вимірювання шуму) можна поєднати з датчиком airRohr PM:
 
-* [Датчик тонкої пилу SPS30](https://www.sparkfun.com/products/15103). Інші продавці: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1&gclid=EAIaIQobChMI-63cmP6Y6wIVDM53Ch1hNwmGEAYYASABEgLp5PD_BwE), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234?gclid=EAIaIQobChMIsYW85oOZ6wIVAtGyCh0f8wU_EAYYASABEgK8PfD_BwE). Також можна використовувати звичайний [датчик SDS011 PM](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
+* [Датчик тонкої пилу SPS30](https://www.sparkfun.com/products/15103). Інші продавці: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Також можна використовувати звичайний [датчик SDS011 PM](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
 * [BME280 6-PIN Version, temperature & humidity](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Інші продавці: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
 * [Кабель](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
 * [USB-кабель, наприклад: плоский 2 м Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flat+cable+2m)
