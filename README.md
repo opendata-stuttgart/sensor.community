@@ -102,6 +102,28 @@ const langauges = [
     ]
 ```
 
+4. Add endpoints
+ Duplicate inside `src/routes/endpoints/airrohr` or `src/routes/endpoints/dnms`  then `en` folder to the [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1), e.g. `fr`. Inside the `index.json.js` file change line 8.
+ 
+ ````javascript
+import send from '@polka/send';
+import generate_docs from '../../../../utils/generate_docs.js';
+
+let json;
+
+export function get(req, res) {
+    if (!json || process.env.NODE_ENV !== 'production') {
+        json = JSON.stringify(generate_docs('airrohr/fr'));  // <- change the lanuage iso-code 
+    }
+
+    send(res, 200, json, {
+        'Content-Type': 'application/json'
+    });
+	
+}
+
+````
+
 
 ## Bugs and feedback
 The website is in early development, and may have the rough edge here and there. 
