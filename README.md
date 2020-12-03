@@ -103,6 +103,7 @@ const langauges = [
 ```
 
 4. Add endpoints
+
  Duplicate inside `src/routes/endpoints/airrohr` or `src/routes/endpoints/dnms`  then `en` folder to the [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1), e.g. `fr`. Inside the `index.json.js` file change line 8.
  
  ````javascript
