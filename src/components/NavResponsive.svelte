@@ -64,7 +64,7 @@
                     {i18n.t('nav:sensor')}
                 </a>
 
-                <a href="{lang}/forum/" on:click={menuToggle}
+                <a href="https://forum.sensor.community/" target="_blank" on:click={menuToggle}
                    class="text-base leading-6 transition ease-in-out duration-150 hover:text-teal-500">
                     {i18n.t('nav:forum')}
                 </a>
