@@ -56,3 +56,11 @@ After the download you may have to set the permission to executable. This can be
 <br>
 A big thanks goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
 
+#### MacOS: how to run a unverified app
+Right click and open the application several times and always confirm with "Open".
+
+Here is a short video on Youtube 👉 https://youtu.be/1KZiP94TYjw
+
+
+
+

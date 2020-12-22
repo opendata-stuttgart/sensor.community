@@ -30,6 +30,12 @@ SDS011 Pin 6 -> unused
 SDS011 Pin 7 -> unused
 ```
 
+<br>
+
+💡 You can find a list of [sensors supported by our firmware](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)
+
+
+
 ### Solder together BME280
 <img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
 <img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;">
