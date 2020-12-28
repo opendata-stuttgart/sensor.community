@@ -32,6 +32,12 @@ SDS011 Pin 6 -> unbenutzt
 SDS011 Pin 7 -> unbenutzt
 ```
 
+<br>
+
+💡 Weitere [von unserer Firmware unterstützten Sensoren](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md) 
+
+
+
 ### Zusammenlöten BME280
 <img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:48%; padding-right: 0.5em" class="items-center"/>
 <img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;">

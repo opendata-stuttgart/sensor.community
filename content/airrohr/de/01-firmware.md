@@ -55,5 +55,11 @@ Warte, bis der Vorgang abgeschlossen ist. Jetzt können wir den Sensor zusammenb
 Nach dem Download muss die Datei eventuell noch ausführbar gemacht werden. Dies lässt sich mit dem Befehl: `chmod o+x <download filename>` 
 
 <br>
-Ein grosser Dank geht an [Piotr, aus Polen] (https://dropbox.inf.re/), für seine Hilfe! 🙋‍♂️♂️ 
+Ein grosser Dank geht an [Piotr aus Polen](https://dropbox.inf.re) für seine Hilfe! 🙋‍♂️
+
+
+#### MacOS: So starten Sie eine nicht verifizierte App
+Klicken Sie mit der rechten Maustaste und öffnen Sie die Anwendung mehrmals und bestätigen Sie immer mit "Öffnen".
+
+Hier ist ein kurzes Video auf Youtube 👉 https://youtu.be/1KZiP94TYjw
 
