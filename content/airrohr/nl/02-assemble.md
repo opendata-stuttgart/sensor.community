@@ -11,7 +11,7 @@ Let op: onze instructies gaan over versie 3 van de NodeMCU. Deze kan je herkenne
 
 Heb je een 
 
-<img src="../docs/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>
 <small>Copyright: roman-minyaylov, MIT License</small>
 
 ##### Dit is hoe het eruit zou moeten zien wanneer je klaar bent
