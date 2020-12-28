@@ -39,7 +39,7 @@ Choisissez le lien correspondsant à votre ordinateur.
 ---
 
 ### Linux
-Aucune installation requise. La platine devrait être immédiatement reconnue (vérifiable with dmesg)
+Aucune installation requise. La platine devrait être immédiatement reconnue (vérifiable avec dmesg)
 
 ---
 ### Firmware Flasher 
