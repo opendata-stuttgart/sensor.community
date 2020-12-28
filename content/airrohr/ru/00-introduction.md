@@ -1,12 +1,11 @@
 ---
-title: Introduction
+title: Вступление
 ---
-> 🚧 Build your DIY sensor and become part of the worldwide, opendata & civictech network. <br> With airRohr you can measure air pollution yourself.
-
+> 🚧 Sensor.Community это всемирная сеть сенсоров окружающей среды информация с которых доступна в виде открытых данныех. Соберите свою станцию измерения и присоединяйтесь к сети Sensor.Community!
 
 <img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
 
-### Shopping list
+### Список покупок
 ##### Sensor kit
 * [Pre-flashed Sensor Kit](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
 
@@ -27,6 +26,6 @@ title: Introduction
 
 <br>
 
-🙌 Great, you decided to buy the parts online! 
-Unfortunately the delivery can take from days up to three weeks. 
-Until then enjoy your life️.
+🙌 GОтлично, вы решили купить запчасти для собственной станции! 
+К сожалению, доставка может занять от нескольких дней до месяца. 
+А до тех пор наслаждайтесь жизнью )
