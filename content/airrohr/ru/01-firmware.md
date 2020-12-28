@@ -1,58 +1,54 @@
 ---
-title: Driver & firmware
+title: Драйвер и прошивка
 ---
 
-We already prepared the firmware. You only have to install drivers and flash your NodeMCU (ESP8266). 
+Мы уже подготовили прошивку. Достаточно установить драйверы и прошить ваш NodeMCU (ESP8266).
 
-To communicate with your NodeMCU (ESP8266) you need usb2serial drivers for your operating system. 
+Для связи с NodeMCU (ESP8266) вам понадобятся драйверы для вашей операционной системы.
 
-The chipset for NocdeMCUs v3 is usually CH341, just check the back of your NodeMCU (ESP8266) to find some technical information. 
+Набор микросхем для NocdeMCU v3 обычно составляет CH341, просто проверьте обратную сторону NodeMCU (ESP8266), чтобы найти некоторую техническую информацию.
 
-Choose the link that corresponds to the operating system of your computer.
+Выберите ссылку, соответствующую операционной системе вашего компьютера.
 
 ### Windows
 
-##### Drivers for NodeMCU (ESP8266) V2 (CP2102) for Windows
+##### Драйвер для NodeMCU (ESP8266) V2 (чип CP2102) под Windows
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 should be able to automatically download these
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit version - **not** supporting 64-bit version OS
 
-##### Driver for NodeMCU (ESP8266) V3 (CH341) for Windows
+##### Драйвер для NodeMCU (ESP8266) V3 (чип CH341) под Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 should be able to automatically download these
-
-##### Extract the downloaded file for Windows:
-* for NodeMCU (ESP8266) V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
-* for NodeMCU (ESP8266) V3: open the folder CH341SER and double click on the application SETUP.
 
 ---
 
 ### MacOS
 
-#####  MacOS Drivers
+#####  Драйверы дя MacOS Drivers
 * [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
-
-#####  Extract the downloaded file for MacOS.
-* for V2: Unzip the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
-* for V3: Unzip the folder CH341SER and double click on the application SETUP.
-* Restart your Mac
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ---
 
 ### Linux
-No drivers need to be installed. Chip should be supported directly (verifiable with dmesg)
+Дополнительные драйверы не нужны. Все чипы должны поддерживаться системой (можно проверить командой dmesg)
 
 ---
-### Firmware Flasher 
-Support for multiple Operating Systems: Windows, MacOS and Linux.
+### Прошивка устройства
 
-* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* Скачайте и запустите программу для прошивки процессора Flashing Tool:
+  https://github.com/opendata-stuttgart/airrohr-firmware-flasher/releases
+  выберите версию для вашей ОС в разделе Assets внизу страницы:
 
-Connect NodeMCU to your computer with a short micro-USB cable (choose one shorter than 1 Meter, otherwise the installation may fail). Select `latest_en.bin` (or another language version) and click “Upload”.
-Wait until the process is done. Now we can assemble the sensor.
+** Linux: после загрузки файла выдайте ему разрешение на исполнение командой: `chmod o+x <download filename>`
 
-#### Linux: Set permissions as executable
-After the download you may have to set the permission to executable. This can be done with the command: `chmod o+x <download filename>` 
-<br>
-A big thanks goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
+* Выберите из списка нужную прошивку. Обычно это файл latest_BME280_ru.bin который содержит русифицированную прошивку с поддержкой сенсора BME280.
 
+* Подключите NodeMCU к компьютеру с помощью короткого кабеля micro-USB. Используйте кабель короче 1 метра, в противном случае соединение может быть нестабильно.
+
+* После подключения должен определиться порт подключения. Если нет, то выберите порт вручную.
+
+NB! Желательно прошивать процессор без подключенных датчиков или в устройстве, которое ранее уже исправно работало. Если какой-либо сенсор был неверно подключен, то программа может выдать ошибку подключения к процессору и прошить будет невозможно!
+
+* Нажмите кнопку Upload. Должна произойти загрузка прошивки.
+
+После того, как процесс загрузки прошивки завершится отсоедините процессор из порта USB и подсоедините снова. Тем самым вы перезагрузите его.

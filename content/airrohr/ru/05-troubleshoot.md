@@ -1,36 +1,37 @@
 ---
-title: Troubleshoot
+title: Устранение неполадок
 ---
 
-### Transmitting problems?
-Enter the following in the browser with your own data:
-https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor_type]
+### Проблема при передаче данных?
+Введите следующий адрес заменив в конце тип сенсора на свой:
+https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[тип сенсора]
 
-The [ID] can also be searched for in the text on the page [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
+Искать [ID] можно также в тексте на странице [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php).
 
-* Is the sensor registered via [https://devices.sensor.community/](https://devices.sensor.community/) and is the sensor visible on the map?
-* Was the WLAN signal level weak in the past? Here is the signal log server-side: https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]
-        
+* Зарегистрирован ли датчик через [https://devices.sensor.community/](https://devices.sensor.community/) и виден ли он на карте?
+* Был ли в прошлом слабый уровень сигнала WLAN? Здесь находится сервер регистрации сигналов: https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID].
 
-### USB cable problems?
-* Check power supply: USB cable
-* Reboot (disconnect power supply, e.g. pull USB plug)
-* Is the WLAN Config OK (the sensor connects to the configured WLAN) If not:
-    * does the sensor open an AP (in the first 2-7 minutes after a reboot)?
-    * Look for `airrohr-[ID]` WLAN network. Patience, it may take 1-2 minutes after boot.
-* Check on your own router if the sensor is logged into the network, then remember the IP 
-    * alternatively use "Discovery" in the [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
-    * If yes: connect to the sensor via IP with a browser `http://[ip-of-the-sensor]/` , the interface should appear 
-    * If no: the ESP has problems, e.g. power supply insufficient, reboot loop or similar
-* Connect USB to a computer and view the log 
-    * Track text on serial interface with serial terminal program (Settings: baud 9600, 8N1)
-        * Linux: screen, minicom, cutecom; Windows: Tera Term; MacOS: screen, minicom, ...
-        * possibly suitable usb2serial drivers are still necessary, see [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)                                                                                                                                                                                                                                                                                                                      
-    * There you should be able to see what the sensor is doing (boot messages, WLAN connection or AP, measurement - only after 3 minutes)
 
-### Electronics problems?
-* Remove sensor electronics from the housing and observe
-* Check/replace power supply again
-    * does ESP flash shortly after reboot?
-    * SDS011: red LED/fan on after reboot?
-    * check/replace the cables to the sensors again
+### Проблемы с USB-кабелем?
+* Проверьте электропитание: кабель USB
+* Перезагрузите (отключить питание, например, вытащить USB-штекер)
+* Подключается ли устройство к сконфигурированной сети WLAN? Если нет:
+  * открывает ли датчик точку доступа (в первые 2-7 минут после перезагрузки)?
+  * Ищите `airrohr-[ID]` WLAN сеть. Терпение, это может занять 1-2 минуты после загрузки.
+* Проверьте на собственном маршрутизаторе, входит ли датчик в сеть, запомните его IP.
+  * альтернативно используйте "Discovery" в [flashtool] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher/).
+  * Если да: подключение к датчику по IP через браузер `http://[ip-of-the-sensor]/`, то должен появиться интерфейс.
+  * Если нет: у ESP возникли проблемы, например, недостаточное питание, бесконечая перезагрузка или другие.
+* Подключите USB к компьютеру и просмотрите журнал.
+  * Отслеживание текста на последовательном интерфейсе с помощью программы последовательных терминалов (Настройки: baud 9600, 8N1)
+    * Linux: экран, minicom, cutecom; Windows: Tera Term; MacOS: экран, minicom, ...
+    * возможно, подходящие usb2serial драйверы все еще необходимы, см. [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen).
+  * Там вы должны видеть, что делает датчик (сообщения о загрузке, подключение к WLAN или AP, измерение - только через 3 минуты).
+
+
+### Проблемы с электроникой?
+* Извлеките электронику датчика из корпуса и проведите визуальный осмотр.
+* Проверьте/замените источник питания
+  * мигает ли ESP вскоре после перезагрузки? *
+  * SDS011: красный светодиод/вентилятор горит после перезагрузки?
+  * Проверьте/замените кабели к датчикам снова.
