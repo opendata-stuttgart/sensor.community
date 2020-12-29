@@ -10,9 +10,6 @@ title: Вступление
 Датчик мелкодисперной “пыли” SDS011 (~1360р.)
 * https://aliexpress.com/item/32858717930.html
 
-Альтернативный датчик мелкодисперсной пыли PMS5003 и обязательно шлейф к нему (~1070р.)
-* https://aliexpress.ru/item/32944660534.html
-
 Процессор NodeMcu V3 (~150р.)
 * https://aliexpress.com/item/32656409057.html
 
@@ -50,7 +47,6 @@ title: Вступление
 Компонент | Описание | Ссылки на продавцов
 ------------ | -------------  | -------------
 SDS011 <img src="https://sc01.alicdn.com/kf/Hd3dab59a3463404fbd2d108138731cf1e.jpg" width="100" height="100"> | сенсор частиц PM2,5 PM10  | [проверенный продавец](https://ru.aliexpress.com/item/nova-PM-sensor-SDS011-High-precision-laser-pm2-5-air-quality-detection-sensor-module-Super-dust/32617788139.html) <br /> [список продавцов](https://www.aliexpress.com/wholesale?minPrice=&maxPrice=&isBigSale=n&isFreeShip=y&isNew=n&isFavorite=n&shipFromCountry=&shipCompanies=&SearchText=sds011&CatId=202000062&g=y&SortType=price_asc&needQuery=y)
-PMS5003 <img src="http://www.plantower.com/upload/ueditor/image/20160810/14708405789575346.jpg" width="100" height="100"> | альтернативный сенсор частиц PM2,5 PM10  | [проверенный продавец](https://aliexpress.ru/item/32944660534.html) <br /> [список продавцов](https://aliexpress.ru/wholesale?catId=0&initiative_id=SB_20201118071942&origin=y&SearchText=pms5003) 
 ESP8266 Node MCU v3 <img src="https://www.cytron.io/image/cache/catalog/products/NODEMCU-V3/NodeMCU%20V3%20Lolin%20(1)-800x800.jpg" width="100" height="100"> | процессор с возможностью подключения к WiFi. Версию Node MCU  v2 не рекомендуется, равно как процессоры без металлической защиты от помех на чипе WiFi | [проверенный продавец](https://ru.aliexpress.com/item/5pcs-lot-New-Wireless-module-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-with/32266751149.html) <br /> [список продавцов](https://www.aliexpress.com/wholesale?minPrice=&maxPrice=&isBigSale=n&isFreeShip=y&isNew=n&isFavorite=n&shipFromCountry=&shipCompanies=&SearchText=nodemcu+v3+esp8266+ch340&CatId=202001107&g=y&SortType=price_asc&needQuery=y) 
 BME280 <img src="https://cdn-reichelt.de/bilder/web/xxl_ws/A300/DEBO_BME280_01.png" width="100" height="100"> | Датчик давления, температуры, влажности. Выбирайте версию BME280-3.3V у которой 6 контактов (у другой версии на 5 В в среднем точность чуть хуже) <br /> Не спутайте с датчиком давления BMP280! | [проверенный продавец](https://aliexpress.ru/item/32862421810.html) <br /> [список продавцов](https://ru.aliexpress.com/w/wholesale-bme280.html?spm=a2g0v.search0104.0.0.11c328ccrxhgXQ&site=rus&groupsort=1&SortType=price_asc&SearchText=bme280&g=y&initiative_id=SB_20190222051555&needQuery=n&isFreeShip=y) 
 Зарядка 5 вольт <img src="https://www.stall.com.ua/components/com_virtuemart/shop_image/product/x222.jpg5b6954ed4591c.jpg.pagespeed.ic.CIotjwTxuP.jpg" width="100" height="100"> | Подойдет от телефона. Выбирайте качественную зарядку! | возможно купить в местных магазинах
