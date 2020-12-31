@@ -1,22 +1,9 @@
 ---
-title: Assemble
+title: Сборка
 ---
 
-> ⚠️ **IMPORTANT NOTE**
-Before assembling install the firmware!
-See __firmware flasher__ section.
-
-### NodeMCU v3
-Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized by the connections VU and G (see drawing). 
-
-<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>
-<small>Copyright: roman-minyaylov, MIT License</small>
-
-
-<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em"/>
-
-##### When you are done, this is how it should look like
-
+> ⚠️ **Важное замечание**
+До того, как приступать к сборке и подсоединять сенсоры нужно прошить и проверить процессор ESP8266!
 
 ### Подключение сенсора частиц SDS011
 
@@ -62,7 +49,13 @@ SDS011 Pin 6 -> unused
 SDS011 Pin 7 -> unused
 ```
 
-### Solder together BME280
+### Подсоединение сенсора BME280
+
+Датчик BME280 обычно поставляется отдельно от контактных ножек и их необходимо припаять. Если вы не умеете это делать, то можно обратится в ремонт бытовой техники или мобильных телефонов, где вам, возможно, все сделают прямо при вас за несколько минут за небольшую плату.
+
+Отделите четыре провода и подсоедините их параллельно друг к другу контактами (в середине разъема) вовнутрь как показано на фото ниже:
+
+
 <img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
 <img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;">
 
