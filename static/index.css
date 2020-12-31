@@ -451,6 +451,7 @@ code {
 
 img,
 svg,
+video,
 iframe {
   display: block;
   vertical-align: middle;
@@ -463,7 +464,8 @@ iframe {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
-img {
+img,
+video {
   max-width: 100%;
   height: auto;
 }
