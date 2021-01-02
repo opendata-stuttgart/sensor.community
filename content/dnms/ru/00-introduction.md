@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Вступление
 ---
  
   <div class="max-w-screen-xl mx-auto pb-5">
@@ -12,7 +12,7 @@ title: Introduction
           </span>
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
-              Noise is in beta. Send questions to</p>
+              Сенсор звука пока в статусе бета. Задавайте вопросы на forum.sensor.community или почту to</p>
         <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
                 Noise@Sensor.Community</a>
         </div>
@@ -21,49 +21,43 @@ title: Introduction
 </div>
 
 
-> 🚧 Build your DIY sensor and become part of the worldwide, opendata & civictech network. <br> With DNMS (Digital Noise Measuring Sensor) you can measure noise pollution yourself.
+> 🚧 Sensor.Community это всемирная сеть сенсоров окружающей среды информация с которых доступна в виде открытых данныех. Соберите свою станцию измерения и присоединяйтесь к сети Sensor.Community! С сенсором DNMS (от английского Digital Noise Measuring Sensor) вы сможете измерять также и шумовое загрязнение.
 
  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0"/>
 
 
-Check out the original instructions and former versions of the noise sensor on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
+Ознакомиться с оригинальном инструкций и предыдущими версиями датчика шума можно в [GitHub'е Хельмута Биттера](https://github.com/hbitter/DNMS/tree/master/Manual).
 
 <br>
 
-That repository contains different setups to build the sensor with different kinds of board and PCBs.
+В этом репозитории содержатся варианты сборки датчика с использованием разных печатных плат.
  
  <br>
  
- There are two different kinds of setups:
+ Существует два варианта сборки:
  
-* a setup where the NodeMCU with some sensors (PM, temperature etc.) and the DNMS are separated. The PCBs are called AIRROHR V1.4 and DNMS - T4 V1.4
-* a combined version of the NodeMCU and DNMS on the same PCB: DNMS - T4+NodeMCU V1.4
-  
- Only the variant where the NODEMCU and DNMS are separated is described here. Have a look at Helmut's Github for the other variants!
+* сборка, при которой контроллер NodeMCU с сенсорами (PM, температура, влажность и т.д.) и DNMS раздельны. Печатные платы, соответсвенно, называются AIRROHR V1.4 и DNMS - T4 V1.4.
+* комбинированная версия, где контроллер NodeMCU и DNMS размещены на одной печатной плате. Такой вариант называется DNMS-T4 + NodeMCU V1.4.
  
-  In this case, the connection between the NodeMCU and the DNMS can be as long as 10m. This is important because you need to find the right position for the DNMS to obtain accurate noise measurements.
+В данном руководстве описан только первый вариан с раздельными платами. Второй вариант описан в [GitHub'е Хельмута Биттера](https://github.com/hbitter/DNMS/tree/master/Manual).
 
-### Shopping list
+  В этом случае длина соединения между NodeMCU и DNMS может достигать 10 метров. Это важно, так как для получения точных измерений шума необходимо найти правильноe место для установки сенсора звука DNMS.
 
-##### Single components
-* [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
-* [Teensy 4.0 development board](https://www.pjrc.com/store/teensy40.html). Other sellers: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
-* [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
-* ultra flexible silicone cables with a diameter of 0,15mm² (AWG 26) in 6 different colours
-<br>
-The DNMS (Digital Noise Measuring Sensor)  can be combined with an airRohr PM-Sensor:
+### Список покупок
 
-* SPS30 fine dust sensor](https://www.sparkfun.com/products/15103). Other sellers: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). The usual [SDS011 PM sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) can be used as well.
-* [BME280 6-PIN Version, temperature & humidity](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Other sellers: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
-* [Cable](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
-* [USB cable e.g.: flat 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flat+cable+2m)
-* [Power supply USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)
-* [Cable straps](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+straps)
+##### Компоненты сенсора шума DNMS
+Компонент | Описание | Ссылки на продавцов
+------------ | -------------  | -------------
+ESP8266 Node MCU v3 <img src="https://www.cytron.io/image/cache/catalog/products/NODEMCU-V3/NodeMCU%20V3%20Lolin%20(1)-800x800.jpg" width="100" height="100"> | процессор с возможностью подключения к WiFi. Версию Node MCU  v2 не рекомендуется, равно как процессоры без металлической защиты от помех на чипе WiFi | [проверенный продавец](https://ru.aliexpress.com/item/5pcs-lot-New-Wireless-module-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-with/32266751149.html) <br /> [список продавцов](https://www.aliexpress.com/wholesale?minPrice=&maxPrice=&isBigSale=n&isFreeShip=y&isNew=n&isFavorite=n&shipFromCountry=&shipCompanies=&SearchText=nodemcu+v3+esp8266+ch340&CatId=202001107&g=y&SortType=price_asc&needQuery=y) 
+плата разработки Teensy 4.0 <img src="https://forum.pjrc.com/teensy40_front.jpg" width="100" height="100"> | Плата Teensy 4.0, оснащенная процессором NXP iMXRT1062 с ядром ARM Cortex-M7 с частотой 600 МГц, является самым быстрым микроконтроллером на сегодняшний день.  | [PJRC](https://www.pjrc.com/store/teensy40.html) <br /> [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board) <br /> [Antratek](https://www.antratek.de/teensy-4-0) <br /> [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
+Микрофон ICS-43434 <img src="https://cdn.tindiemedia.com/images/resize/zZfcH1YGwpqKUPjaCqdjy_y9bVg=/p/full-fit-in/1782x1336/i/44691/products/2017-07-15T04%3A32%3A01.633Z-ICS43434.top.jpg" width="100" height="100"> | цифровой микрофон с выходом I²S. | [tindie.com](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) 
+Провода для подключения микрофона | Ультрагибкие силиконовые кабели диаметром 0,15 мм² (AWG 26) в 6 различных цветах | 
 
-The PCBs and the weather protection will be described below.
+Компоненты сенсора твердых частиц перечислены в отдельном [руководстве](https://sensor.community/ru/sensors/airrohr#Spisok_pokupok). Если вам нужен сенсор твердых частиц, то купите все перечисленное в наборе за исключение NodeMCU.
+
 
 <br>
 
-🙌 Great, you decided to buy the parts online! 
-Unfortunately the delivery can take from days up to three weeks. 
-Until then enjoy your life️.
+🙌 Отлично, что вы решили купить запчасти для собственной станции! 
+К сожалению, доставка может занять от нескольких дней до месяца. 
+А до тех пор наслаждайтесь жизнью :)

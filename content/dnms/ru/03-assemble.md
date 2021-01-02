@@ -1,126 +1,105 @@
 ---
-title: Assemble
+title: Сборка шумомера
 ---
-> ⚠️ **IMPORTANT NOTE**
-Before assembling install the firmware!
-See __firmware flasher__ section.
+> ⚠️ **ВАЖНОЕ ЗАМЕЧАНИЕ**
+Прежде чем начать сборку прошейте микроконтроллеры и убедитесь, что они работают!
 
 
-### Microphone unit
+##### Корпус для микрофона
+Корпус изготовлен из полистироловой трубки длиной 115 мм и диаметром полдюйма (12,7 мм). Такой диаметр позволяет напрямую подключать большинство калибраторов к прибору.
 
-The microphone unit is based on Pesky Products breakout board with a MEMS microphone ICS-43434. You can fin such board at the [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/). 
-
-<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0"/>
-
-
-##### Housing for the microphone unit
-The housing is made with a .500" (12.7mm) polystyrene tubing. This diameter permits to plug directly most of the calibrators on the unit.
-
-The prototype was developed with the [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Прототуп был изготовлен с использованием [трубки No. 236 от Evergreen](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0"/>
 <br>
-The breakout board has to be adapted to the diameter of the tubing with a file. Use some tape to protect the microphone inlet.
+Печатную плату, возможно, придется немного подогнать напильником чтобы она вошла в отверстие трубки. Используйте при этом защитный скотч для защиты входа микрофона!
 <br>
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0"/>
 
-Then solder the six silicone cables. Note which pin the cable is connected with!
+Затем припаяйте шесть силиконовых кабелей. Следите за тем, чтобы кабеля были подключены к правильным контактам!
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block;    width:40%; margin: 2em 0"/>
-Cut a 115 mm long piece of tubing.
+Отрежьте трубку длиной 115 мм.
 <br>
-Stick the microphone board on some crossed tape. Put the cables in the tubing and fasten the board at the extremity of the tubing.
+Приклейте плату микрофонна на клейкую ленту уложенную в виде креста (как на фото). Уложите кабели в трубку и закрепите плату на самом конце трубки.
 <br>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0"/>
 
-Make the extremity of the tube tight with the tape.
+Приклейте уложенную крестом клейкую ленту к трубке и надежно зафиксируйте ее на конце трубки.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0"/>
 
-Now you can fill the tube with some resin. This step is mandatory to avoid resonance and obtain calibrated and reproductible data.
+Теперь нужно заполнить трубку эпоксидной смолой. Этот нужно для того, чтобы избежать резонанса и получить калиброванные и воспроизводимые данные.
 
-The prototype was developed with some [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produced by Copaltec GmbH.
+Для изготовления прототипа использовалась эпоксиданая смола [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
 
-##### Specifications:
-* Dielectric strength: 28 kV/mm
-* Specific forward resistance: 5,8.1014 ohm/cm
-* Surface resistance: 1,3.1016 ohm
-* Mixing ratio resin/hardener: 2 : 1
-* Pot time: 20 à 30 min.
-* Curing time: 16 à 30 h
-* Final hardened state: 10 à 14 days
-* Viscosity (mixed): 500 à 600 mPa.s
-* Shore hardness: D 50 to 55 (ISO 868, DIN 53505)
-* Thermal conductivity: 0,3 W/mK
-* Application temperatures: - 20 to +130 °C
+##### Спецификации эпоксидной смолы:
+* Диэлектрическая прочность: 28 кВ/мм
+* Специфическое прямое сопротивление: 5,8.1014 Ом/см
+* Поверхностное сопротивление: 1,3.1016 Ом.
+* Твердость по Шору: D от 50 до 55 (ISO 868, DIN 53505)
+* Теплопроводность: 0,3 Вт/мК.
 
+Полиуриетановая эпоксидная смола [UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) от Electrolube тоже подойдет.
 
-The [polyurethane resin UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) made by Electrolube should work too.
-
-For each tubing 15 g of resin should be sufficient.
+Для заполнения трубки нужно 15 г смолы.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0"/>
 
-When the resin has hardened remove the tape. Your microphone unit is ready.
+После того, как смола окончательно затвердеет можно убрать клейкую ленту.
 
 
+### Корпус для DNMS
 
-### DNMS Housing
+Вам понадобятся трубки диаметром 25 мм (например, трубки для электроприборов), соединитель, уголок на 90° и кабельный сальник M25 IP68.
 
-When the Teensy (DNMS) and the NodeMCU (standalone or on PCB) are separated: DNMS and airRohr
+Длина самой трубки должна составлять 160 мм. 
 
-You need a piece of 25 mm diameter tubing (for example tubing for electrical applications), a connector, a 90° bow and a M25 IP68 cable gland.
-
-The tube itself should be 160 mm long. The DNMS looks place in. The microphone housing is maintained by the cable gland.
-
-The bow prevents water and humidity to enter the housing while letting the cable pass.
+Уголок нужен для предотвращает попадание воды и влаги внутрь корпуса при подсоединенном кабеле.
 
 <img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0"/>
 
-The DNMS is connected to the second PCB by a RJ12 cable. If this cable is longer than 250 mm, you must use an I²C extension.
+DNMS соединено со второй печатной платой с помощью кабеля с разъемом RJ12. Длина кабеля при этом не должна первышает 25 см!
 
 <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0"/>
 
-After everything is well connected, the parts are glued together.
+После того, как вы все надежно соеденили и проверили можно трубки склеить.
 
-Result:
+Должно получиться так:
 
 <img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0"/>
 
-The PCB carrying the NodeMCU can be put in any kind of electrical box.
+### Защита для микрофона
 
+Если вы все сделали правильно, то корпуса должны получиться водонепроницаемыми. Чувствительным к влаге остался только вход микрофона. Производитель микрофона фирма TDK предлагает ряд решений по герметизации микрофонов данного типа от попадания пыли и жидкости, но компоненты трудно найти и они не были протестированы на прототипе.
 
-### Weather protection
-
-The housings themselves should be waterproof. Only the microphone inlet could be sensitive. TDK, the manufacturer has published some recommendations for sealing InvenSense bottom-port MEMS microphones from dust and liquid ingress but the components are difficult to find and were not tested.
-
-It is absolutely necessary to install a weather protection in the form of a foam cover. If necessary, even a household sponge is sufficient. There are several reasons for this:
-* it protects against wind noise (which can increase the decibels measurements)
-* it protects against direct water leakage on the microphone. To avoid condensation on the microphone pull back the cover a beat after installing it in order to create a small cavity.
-* it protects against solar radiation. Intense sunlight can influence the measured values and reduce the life of the microphone.
+Крайне важно установить на микрофон ветро- и влагозащитный экран. В крайнем случае достаточно будет даже надеть обычную мочалку, которая сможет защитить от:
+* порывов ветра (шум от которых может увеличить показания прибора);
+* прямого попадания воды на микрофон. * Чтобы избежать образования конденсата на микрофоне, после установки на место, чтобы создать небольшую полость.
+* солнечной радиации. Интенсивный солнечный свет может повлиять на измеренния и сократить срок службы микрофона.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0"/>
 
-Those foam covers are normaly sold as ‘covers for measurement microfons’. But they are expensive. You can also take a normal foam ball and cut a hole with the scissors.
+Существуют и готовые защитные корпуса. Они обычно называются ‘ветрозащитный экран для микрофона’.
+Возможно, [тут](https://ru.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) удастся что-то подобрать подходящее
 
-If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
-### Location of the microphone 
+### Расположение микрофона 
 
-It is important to place the microphone in an area as "free" as possible, this means in a location with as less sound reflecting surfaces as possible. The distance to reflective surfaces should be as great as possible. Try not to mount the microphone directly on the wall of a house, because walls reflect sounds strongly.  The distance to the wall should ideally be more than 1 m. Of course this is not always easy to realize. 
+Важно разместить микрофон в зоне как можно более "свободной", то есть в месте с как можно меньшим количеством отражающих звук поверхностей. Расстояние до отражающих поверхностей должно быть как можно большим. Старайтесь не устанавливать микрофон непосредственно на стену дома, так как стены сильно отражают звуки.  Расстояние до стены в идеале должно быть больше 1 м. Конечно, это не всегда легко реализовать. 
 
-With a distance of about 50 cm from the tip of the microphone to the wall, the induced error is still reasonable. Good places are for example balconies or terrace railings, or a small mast on the roof. 
+При расстоянии около 50 см от микрофона до стены, наведенные шумы все равно являются значимыми. Хорошими местами установки являются, например, балконы или перила террасы или небольшая мачта на крыше. 
 
-You can also try to place the microphone directly on the corner of the house for the reflections to partially cancel each other.
+Можно также попробовать разместить микрофон непосредственно на углу дома, чтобы отражения частично взаимно уничтожали друг друга.
 
-A free-standing mast of at least 1 m height could also be a solution but then you have to watch out for reflections on the ground. That depends on the floor covering, of course.
+Свободно стоящая мачта высотой не менее 1 метра также может быть решением, но тогда вы должны следить за отраженными помехами от земли. Это зависит, конечно, от покрытия основания установки.
 
-It is also important to always be aware that we measure ambient noise.  We can only make an approximation of the noise emission of sources such as roads or railways. 
+Также важно всегда помнить, что мы измеряем окружающий шум.  Мы можем только приблизительно различать шумовые излучение таких источников как автомобильные или железные дороги. 
 
-However, the closer you get to the source, the more accurate the reference to the source becomes. Upgrades of the firmware should then be able to get preceise measurements for an identified type of noise.
+Однако, чем ближе Вы приближаетесь к источнику, тем точнее становится шум от конкретного источника. Обновление програмного обеспечения со временем позволит различать источники шума.
 
 <img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;"/>
 <img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;"/>
