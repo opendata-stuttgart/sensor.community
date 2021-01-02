@@ -1,31 +1,30 @@
 ---
-title: PCBs and circuit diagrams
+title: Печатные платы и принципиальные схемы
 ---
 
-The best way to build the DNMS is to use one of our PCBs.
-There are now quite a lot of PCB manufacturer who can produce circuit boards for a few bucks with no minimum quantities. For example, [JLCPCB](https://jlcpcb.com/).
-Just download our circuit diagrams and/or Gerber files below, upload them at the manufacturer's website and order your PCBs. 
+Лучший способ собрать DNMS сенсор - это использовать одну из наших печатных плат.
+В настоящее время существует довольно много производителей печатных плат, которые могут производить печатные платы за несколько долларов даже в минимальных количествах. Например, [JLCPCB](https://jlcpcb.com/).
+Просто скачайте наши принципиальные схемы и/или файлы Gerber ниже, загрузите их на сайт производителя и закажите печатные платы. 
 
 <br>
-The last versions of the PCBs are described here. Refer to [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs) for further informations and to access the KiCad files. 
+Здесь описаны последние версии печатных плат. Для получения дополнительной информации и доступа к файлам KiCad обратитесь к [GitHub'у Хельмеа Биттера](https://github.com/hbitter/DNMS/tree/master/PCBs). 
 
 ### AIRROHR V1.4
-<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0"/>
-PCB for the NodeMCU ESP8266 CPU/WLAN with a I2C Bus extension to connect the DNMS on as well as other sensors (SDS011, BME280…).
+<img src=".../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0"/>
+Печатная плата для NodeMCU ESP8266 CPU/WLAN с расширением шины I2C для подключения DNMS, а также других датчиков (SDS011, BME280...).
 
 
-##### Download:
-* [Circuit diagram](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
-* [Gerber file to upload at the PCB manufacturer's website](../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
+##### Скачать:
+* [Принципиальная схема](.../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
+* [Файл Gerber для загрузки на сайт производителя печатной платы] (.../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
 
 ---
 
 ### DNMS - T4 V1.4
-<img src="../docs/dnms/dnms-noise-measuring-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0"/>
-PCB for the DNMS Teensy 4.0 which can be connected directly on a NodeMCU ESP8266 or on the AIRROHR PCB above.
+<img src=".../docs/dnms/dnms- noise-measuring-teensy-4.jpg" style= "display: block;width:40%; margin: 1em 0"/>".
+Печатная плата для DNMS Teensy 4.0, которая может быть подключена непосредственно к узлу NodeMCU ESP8266 или к печатной плате AIRROHR, указанной выше.
 
 
-##### Download:
-* [Circuit diagram](../docs/dnms/dnms-noise-measuring-teensy-40-circuit-diagram.pdf)
-* [Gerber file to upload at the PCB manufacturer's website](../docs/dnms/dnms-noise-measuring-teensy-40-circuit-gerber.zip)
-
+##### Скачать:
+* [Электрическая схема](../docs/dnms/dnms-noisee-measuring-teensy-40-circuit-diagram.pdf)
+* [Файл Gerber для загрузки на сайт производителя печатной платы] (.../docs/dnms/dnms-noise-measuring-teensy-40-circuit-gerber.zip)
