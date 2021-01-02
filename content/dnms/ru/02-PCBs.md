@@ -1,5 +1,5 @@
 ---
-title: Печатные платы и принципиальные схемы
+title: Печатные платы
 ---
 
 Лучший способ собрать DNMS сенсор - это использовать одну из наших печатных плат.
@@ -7,16 +7,18 @@ title: Печатные платы и принципиальные схемы
 Просто скачайте наши принципиальные схемы и/или файлы Gerber ниже, загрузите их на сайт производителя и закажите печатные платы. 
 
 <br>
-Здесь описаны последние версии печатных плат. Для получения дополнительной информации и доступа к файлам KiCad обратитесь к [GitHub'у Хельмеа Биттера](https://github.com/hbitter/DNMS/tree/master/PCBs). 
+
+Здесь описаны последние версии печатных плат. Дополнительную информацию и файлы печатных плат в проекте KiCad вы найдете в 
+[GitHub'е Хельме Биттера](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 ### AIRROHR V1.4
 <img src=".../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0"/>
-Печатная плата для NodeMCU ESP8266 CPU/WLAN с расширением шины I2C для подключения DNMS, а также других датчиков (SDS011, BME280...).
+Печатная плата для NodeMCU ESP8266 CPU/WLAN с расширением шины I2C для подключения DNMS, а также других датчиков (SDS011, BME280 и пр.).
 
 
 ##### Скачать:
 * [Принципиальная схема](.../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
-* [Файл Gerber для загрузки на сайт производителя печатной платы] (.../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
+* [Файл Gerber для загрузки на сайт производителя печатной платы](.../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
 
 ---
 
@@ -27,4 +29,4 @@ title: Печатные платы и принципиальные схемы
 
 ##### Скачать:
 * [Электрическая схема](../docs/dnms/dnms-noisee-measuring-teensy-40-circuit-diagram.pdf)
-* [Файл Gerber для загрузки на сайт производителя печатной платы] (.../docs/dnms/dnms-noise-measuring-teensy-40-circuit-gerber.zip)
+* [Файл Gerber для загрузки на сайт производителя печатной платы](.../docs/dnms/dnms-noise-measuring-teensy-40-circuit-gerber.zip)
