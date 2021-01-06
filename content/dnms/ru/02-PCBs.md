@@ -30,4 +30,4 @@ title: Печатные платы
 
 ##### Скачать:
 * [Электрическая схема](../docs/dnms/dnms-noisee-measuring-teensy-40-circuit-diagram.pdf)
-* [Файл Gerber для загрузки на сайт производителя печатной платы](.../docs/dnms/dnms-noise-measuring-teensy-40-circuit-gerber.zip)
+* [Файл Gerber для загрузки на сайт производителя печатной платы](../docs/dnms/dnms-noise-measuring-teensy-40-circuit-gerber.zip)
