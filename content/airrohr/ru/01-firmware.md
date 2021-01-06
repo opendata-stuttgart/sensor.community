@@ -13,12 +13,11 @@ title: Драйвер и прошивка
 ### Windows
 
 ##### Драйвер для NodeMCU (ESP8266) V2 (чип CP2102) под Windows
-* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 should be able to automatically download these
-* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit version - **not** supporting 64-bit version OS
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 должна автоматически их загружать.
+* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-битная версия без поддежки 64-битных ОС
 
 ##### Драйвер для NodeMCU (ESP8266) V3 (чип CH341) под Windows
-* [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 should be able to automatically download these
-
+* [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 должна автоматически их загружать.
 ---
 
 ### MacOS
