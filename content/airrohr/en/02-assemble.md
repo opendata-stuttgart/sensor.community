@@ -77,9 +77,13 @@ Use a cable tie to link the NodeMCU (ESP8266) and the SDS011 sensor so that the 
 
 <img src="../docs/airrohr/sds011-jammed-into-tube.jpeg"/>
 
- ##### Finishing
+##### Finishing
 * Position the temperature sensor on the flexible tube, so that it's on the edge of the pipe.
 * Cut off the flexible tube at the end of the pipe
 * Optional: you can cover the open ends of the tube with a fine mesh. So air can circulate but insects stay outside
  
 <img src="../docs/airrohr/position-bme280.jpeg"/>
+
+### Placement 
+Ideal place would be 1.5 to 3.5 meters above the street and well ventilated. However, this cannot be done for all people because, therefore, information such as the height above the ground and the position to the street is requested during registration.
+

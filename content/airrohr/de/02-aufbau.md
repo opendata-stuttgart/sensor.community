@@ -84,3 +84,6 @@ Verwende den Kabelbinder, um die NodeMCU (ESP8266) und den SDS011-Sensor so zu v
 * Optional: Du kannst die offenen Enden des Rohrs mit einem feinen Netz abdecken. So kann die Luft zirkulieren, aber die Insekten bleiben draußen.
  
 <img src="../docs/airrohr/position-bme280.jpeg"/>
+
+### Platzierung
+Der ideale Platz wäre 1,5 bis 3,5 Meter über der Straße und gut belüftet. Dies ist jedoch nicht für alle Personen möglich, daher werden bei der Anmeldung Angaben wie Höhe über dem Boden und Lage zur Straße abgefragt.
