@@ -74,3 +74,6 @@ Utilisez un serre-câbles pour attacher le NodeMCU et le SDS011, de manière à 
 * En option : vous pouvez installez du filet moustiquaire au extrémités des coudes PVC pour éviter l'entrée d'insectes.
  
 <img src="../docs/airrohr/position-bme280.jpeg"/>
+
+### Installation
+La position idéale serait de 1,5 à 3,5 mètres au-dessus du niveau de la chaussée avec une bonne circulation de l'air. Ceci n'est bien sûr pas toujours possible. C'est pouquoi, lors de l'enregistrement de la station, il est demandé d'indiquer la hauteur et la position par rapport à la rue.
