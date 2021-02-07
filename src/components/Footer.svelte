@@ -12,7 +12,7 @@
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
             <div class="xl:col-span-1">
                 <img class="h-10 text-gray-500 text-2xl" src=""
-                     alt="Sensor.Community"/>
+                     alt="Sensor.Community" loading="lazy"/>
                 <p class="mt-8 text-gray-500 text-base leading-6">
                     {i18n.t('footer:mission')}
                 </p>

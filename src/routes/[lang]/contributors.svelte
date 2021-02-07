@@ -41,7 +41,7 @@
                    {i18n.t('contributors:contactBottom')}
                 </span>
             </div>
-            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>
+            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team" loading="lazy"></div>
         </div>
 
         <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal text-center md:text-left">
@@ -54,7 +54,7 @@
                             <li>
                                 <div class="space-y-4">
                                     <div class="relative pb-2/3">
-                                        <img class="object-cover h-full w-full shadow-xs rounded-lg" src={contributor.imageURL} alt="">
+                                        <img class="object-cover h-full w-full shadow-xs rounded-lg" src={contributor.imageURL} alt="" loading="lazy">
                                     </div>
 
                                     <div class="space-y-2">
