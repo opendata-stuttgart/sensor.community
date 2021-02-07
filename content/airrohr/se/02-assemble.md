@@ -7,11 +7,11 @@ title: Montera
 ### NodeMCU v3
 Obs! Våra instruktioner hänvisar till version 3 av NodeMCU. Detta kan kännas igen av anslutningarna VU och G (se ritning).
 
-<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em" loading="lazy"/>
 <small>Copyright: roman-minyaylov, MIT License</small>
 
 
-<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em"/>
+<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>
 
 ##### När du är klar så ska det se ut
 
@@ -28,8 +28,8 @@ SDS011 stift 7 -> oanvänd
 ```
 
 ### Löd tillsammans BME280
-<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
-<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;">
+<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>
+<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
 
 Anslut stifthuvudet med BME280-kortet. Löd det från baksidan. Avstånden mellan stiften är mycket små så var tålamod och försiktig.
 
@@ -48,12 +48,12 @@ SCL -> Stift D4
 ### Fäst allt ihop
 
 ##### Knyt ihop NodeMCU och SDS011
-<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg"/>
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 Använd en buntband för att länka NodeMCU (ESP8266) och SDS011-sensorn så att Wifi-antennen pekar bort från sensorn
 
 ##### Anslut flexibelt rör
-<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
-<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;">
+<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
+<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
  
 * anslut det flexibla röret till SDS011-sensorn
 * Använd en annan buntband för att fästa BME280-temperatursensorn till röret
@@ -65,11 +65,11 @@ Använd en buntband för att länka NodeMCU (ESP8266) och SDS011-sensorn så att
 * USB-kabel, flexibelt rör och BME280 ska se ut ur rörets ände
 * Skjut det andra röret på det första.
 
-<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg"/>
+<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
 ##### Efterbehandling
 * Placera temperaturgivaren på det flexibla röret så att det ligger på rörets kant.
 * Klipp av det flexibla röret i slutet av röret
 * Valfritt: du kan täcka rörets öppna ändar med ett fint nät. Så luft kan cirkulera men insekter stannar utanför
  
-<img src="../docs/airrohr/position-bme280.jpeg"/>
+<img src="../docs/airrohr/position-bme280.jpeg" loading="lazy"/>

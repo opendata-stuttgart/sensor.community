@@ -3,7 +3,7 @@ title: Introducción
 ---
 > 🚧 Construye tu sensor DIY y conviértete en parte de la red mundial de trabajo opendata y civitech. Con airRohr puedes medir la contaminación del aire tú mismo.
 
-<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
 ### Lista de compras
 ##### Kit de sensores

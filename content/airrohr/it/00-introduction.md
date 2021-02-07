@@ -34,7 +34,7 @@ Per il funzionamento quotidiano sono necessari:
   point lo permette)
 * una presa di corrente elettrica a 220 V
 
-<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 <small>I principali componenti del kit</small>
 
 ### Lista della spesa

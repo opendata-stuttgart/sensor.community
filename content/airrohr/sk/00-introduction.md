@@ -4,7 +4,7 @@ title: Úvod
 > 🚧 Zostavte si vlastný snímač a staňte sa súčasťou celosvetovej občianskej tech siete a otvorených dát. Pomocou AirRohr môžete sami merať znečistenie vzduchu.
 
 
-<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
 ### Nákupný zoznam
 ##### Set všetkých potrebných súčiastok

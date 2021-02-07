@@ -9,9 +9,7 @@ Lees daarover in de __firmware flasher__ sectie.
 ### NodeMCU v3
 Let op: onze instructies gaan over versie 3 van de NodeMCU. Deze kan je herkennen aan de pinnen VU en GNG (zie tekening).
 
-Heb je een 
-
-<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>ter
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em" loading="lazy"/>
 <small>Copyright: roman-minyaylov, MIT License</small>
 
 ##### Dit is hoe het eruit zou moeten zien wanneer je klaar bent
@@ -30,8 +28,8 @@ SDS011 Pin 7 -> niet aangesloten
 ```
 
 ### Solderen van de BME280
-<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
-<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;">
+<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>
+<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
 
 Steek de pinheader vanaf de achterkant (dekant zonder componenten) door het BME280 bord. Soldeer vanaf de kant met de componenten. De afstand tussen de pinnen is erg klein, dus wees geduldig en voorzichtig. De truuk is om de soldeerbout tegen de pin te houden, deze op te warmen en dan de soldeer toe te voegen.
 
@@ -54,12 +52,12 @@ Lees over het configureren eventueel meer in de __Configuratie__ sectie. Optione
 ### Alles bij elkaar binden
 
 ##### Bind de NodeMCU en de SDS011 samen
-<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" style="display: block"/>
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" style="display: block" loading="lazy"/>
 Gebruik een kabelbinder om de NodeMCU en de SDS011-sensor aan elkaar te verbinden zodat de WiFi-antenne van de sensor afwijst
 
 ##### Verbind de flexibele slang
-<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
-<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;">
+<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
+<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
  
 * Steek de flexibele slang op de SDS011 sensor
 * Gebruik een kabelbinder om de BME280-temperatuursensor aan de slang te binden
@@ -71,11 +69,11 @@ Gebruik een kabelbinder om de NodeMCU en de SDS011-sensor aan elkaar te verbinde
 * De USB-kabel, flexibele slang en de BME280 zouden uit de pijp moeten steken
 * Duw het andere pijpdeel op de eerste
 
-<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg"/>
+<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
  ##### Afwerking
 * Positioneer de temperatuursensor op de flexibele slang, zodat deze bij het uiteinde van de pijp zit.
 * Knip de flexibele slang af aan het eind van de pijp
 * Optioneel: je kan de open einden van de pijp bedekken met een fijn gaas. Zo kan de lucht circuleren maar hou je insecten buiten.
  
-<img src="../docs/airrohr/position-bme280.jpeg"/>
+<img src="../docs/airrohr/position-bme280.jpeg" loading="lazy"/>
