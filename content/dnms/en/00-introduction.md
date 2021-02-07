@@ -23,7 +23,7 @@ title: Introduction
 
 > 🚧 Build your DIY sensor and become part of the worldwide, opendata & civictech network. <br> With DNMS (Digital Noise Measuring Sensor) you can measure noise pollution yourself.
 
- <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0"/>
+ <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Check out the original instructions and former versions of the noise sensor on [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).

@@ -12,7 +12,7 @@ title: Печатные платы
 [GitHub'е Хельме Биттера](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 ### AIRROHR V1.4
-<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%; margin: 1em 0"/>
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%; margin: 1em 0" loading="lazy"/>
 
 Печатная плата для NodeMCU ESP8266 CPU/WLAN с расширением шины I2C для подключения DNMS, а также других датчиков (SDS011, BME280 и пр.).
 
@@ -24,7 +24,7 @@ title: Печатные платы
 ---
 
 ### DNMS - T4 V1.4
-<img src="../docs/dnms/dnms-noise-measuring-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0" loading="lazy"/>
 Печатная плата для DNMS Teensy 4.0, которая может быть подключена непосредственно к узлу NodeMCU ESP8266 или к печатной плате AIRROHR, указанной выше.
 
 

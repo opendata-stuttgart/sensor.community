@@ -11,7 +11,7 @@ Voir la section Pilotes & micrologiciel.
 
 Le microphone est basé sur une platine Pesky Products avec un composant MEMS ICS-43434. VOus pouvez trouver cette platine sur le [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/). 
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 
 ##### Corps du microphone
@@ -19,28 +19,28 @@ Le corps du microphone est réalisé avec du tube de polystyrène .500" (12.7mm)
 
 Le prototype a été fabriqué avec un [tube Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 <br>
 La platine doit être limé au diamètre du tube. Utilisez du ruban de masquage pour protéger l'orifice du mircophone.
 <br>
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
 
 Soudez les 6 câbles silicone en notant bien les connexions.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block;    width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
 Coupez un morceau de tube de 115 mm.
 <br>
 Collez le microphone sur des morceaux de ruban de masquage croisés. Faites passser les câble dans le tube.
 <br>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
 Refermez bien l'extrémité du tube avec le ruban de masquage.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
 Vous pouvez maintenant remplir le tube avec de la résine isolante. Cette étape est nécessaire pour éviter tout phénomène de résonnance et ainsi obentir des valeurs calibrées et reproductibles.
 
@@ -63,7 +63,7 @@ La [résine polyuréthane UR5545](https://electrolube.com/wp-content/uploads/201
 
 15 grammes de résine environ sont nécessaires au remplissage de chaque tube.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 Après durcissement de la résine, retirez le ruban de masquage. Le microphone est prêt !
 
@@ -78,17 +78,17 @@ Collez le connecteur presse-étoupe M25 IP68 au manchon.
 
 Fixez le coude de 90° (avec seulement un peu de colle pour pouvoir ultérieurement mettre à jour le firmware de la platine Teensy) une fois le circuit imprimé installé. Placé vers le bas, il empêchera l'humidité d'atteindre le DNMS.
 
-<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Installez le câble reliant le DNMS au processeur de communication. S'il fait plus de 250 mm de long, l'extension du bus I2C intégrée dans la platine AIRROHR V1.4 est nécessaire. Un câble RJ12 est utilisé pour relier les platines AIRROHR V1.4 et DNMS - T4 V1.4.
 
-<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Quand tout est bien connecté, vous pouvez coller les différentes parties.
 
 Résultat:
 
-<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 La platine portant le microcontrôleur NodeMCU peut être placé dans n'importe quel boitier électrique.
 
@@ -101,7 +101,7 @@ Par contre, il est nécessaire d'installer une bonnette en mousse. Un morceau d'
 * protection contre les gouttes d'eau. Pour éviter la condensation, laissez une petite cavité entre la bonnettte et l'orifice du microphone.
 * protection contre les UV. Une lumière intense peut réduire la durée de vie du microphone et influencer les mesures.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
 
 Les bonnettes pour microphones de mesure sont chères mais vous pouvez facilement découper des bonnettes rondes.
 
@@ -119,7 +119,7 @@ Un petit mât de 1 mètre de haut est la solution si vous placer le DNMS dans un
 <br>
 Il faut être conscient que le DNMS mesure le bruit ambiant. La pollution sonore générée par des voies ferrées ou les routes ne pourra être mesurée que de manière approximative. Cependant, plus vous êtes proche de la source, plus la détection du bruit est précise. Des améliorations du firmware pourraient permettre à l'avenir de mesurer le niveau sonore d'une source précisément identifiée.
 
-<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;"/>
-<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;"/>
+<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
+<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <br>
-<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;"/>
+<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;" loading="lazy"/>

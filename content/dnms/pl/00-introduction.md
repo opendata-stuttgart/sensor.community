@@ -23,7 +23,7 @@ title: Introduction
 
 > 🚧 Zbuduj swój czujnik DIYY i stań się częścią światowej sieci opendata i civictech. Dzięki DNMS (Digital Noise Measuring Sensor) możesz samodzielnie mierzyć poziom hałasu.
 
- <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0"/>
+ <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Sprawdź oryginalne instrukcje i poprzednie wersje czujnika hałasu na [Helmut Bitter's Github] (https://github.com/hbitter/DNMS/tree/master/Manual).

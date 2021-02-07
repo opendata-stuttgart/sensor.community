@@ -23,7 +23,7 @@ title: Introduktion
 
 > 🚧 Bygg din DIY-sensor och bli en del av det globala nätverket för opendata & civictech. <br> Med DNMS (Digital Noise Measuring Sensor) kan du själv mäta buller.
 
- <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0"/>
+ <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 Kolla in originalinstruktionerna och tidigare versioner av brusgivaren på [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
 

@@ -10,7 +10,7 @@ Patrz sekcja __ migacza firmware__.
 
 Moduł mikrofonowy oparty jest na płycie Pesky Products breakoutboard z mikrofonem MEMS ICS-43434. Płytę taką można dopracować w [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/). 
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 
 ##### Obudowa modułu mikrofonu
@@ -18,27 +18,27 @@ Obudowa wykonana jest z rurki styropianowej .500" (12,7 mm). Średnica ta pozwal
 
 Prototyp został opracowany przy użyciu [Evergreen nr 236 rurki] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; marginale: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; marginale: 3em 0" loading="lazy"/>
 <br>
 Płytka łamiąca musi być dostosowana do średnicy rurki za pomocą pilnika. Do ochrony wlotu mikrofonu należy użyć trochę taśmy.
 <br>
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; marginale: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; marginale: 2em 0" loading="lazy"/>
 
 Następnie przylutować sześć silikonowych kabli. Zwróć uwagę, z którym stykiem kabel jest połączony!
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
 Odciąć kawałek rury o długości 115 mm.
 <br>
 Przykleić płytkę mikrofonu na jakiejś skrzyżowanej taśmie. Umieścić kable w rurce i zamocować płytkę na końcu rurki.
 <br>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; marginale: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; marginale: 2em 0" loading="lazy"/>
 
 Zacisnąć koniec rury taśmą.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
 Teraz możesz wypełnić rurę żywicą. Ten krok jest obowiązkowy w celu uniknięcia rezonansu i uzyskania skalibrowanych i odtwarzalnych danych.
 
@@ -62,7 +62,7 @@ Powinna działać również [żywica poliuretanowa UR5545](https://electrolube.c
 
 Na każdą rurkę powinno wystarczyć 15 g żywicy.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 Po stwardnieniu żywicy należy usunąć taśmę. Jednostka mikrofonowa jest gotowa.
 
@@ -78,17 +78,17 @@ Sama rurka powinna mieć długość 160 mm. DNMS wygląda w środku. Obudowa mik
 
 Dławik zapobiega przedostawaniu się wody i wilgoci do wnętrza obudowy podczas przepuszczania kabla.
 
-<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS jest podłączony do drugiej płytki drukowanej za pomocą kabla RJ12. Jeśli kabel ten jest dłuższy niż 250 mm, należy użyć przedłużacza I²C.
 
-<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Gdy wszystko jest już dobrze połączone, części są sklejane razem.
 
 Rezultat:
 
-<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Płytka drukowana zawierająca NodeMCU może być umieszczona w dowolnym rodzaju skrzynki elektrycznej.
 
@@ -101,7 +101,7 @@ Bezwzględnie konieczne jest zainstalowanie zabezpieczenia pogodowego w postaci 
 * chroni przed bezpośrednim wyciekiem wody z mikrofonu. Aby uniknąć kondensacji pary wodnej na mikrofonie, po zainstalowaniu należy odciągnąć pokrywę do tyłu, aby utworzyć małą szczelinę.
 * chroni ona przed promieniowaniem słonecznym. Intensywne promieniowanie słoneczne może wpływać na mierzone wartości i skrócić żywotność mikrofonu.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
 
 Te piankowe osłony są zwykle sprzedawane jako "osłony do mikrofonów pomiarowych". Ale są one drogie. Można też wziąć normalną piankową kulkę i wyciąć w niej otwór nożyczkami.
 
@@ -121,7 +121,7 @@ Ważne jest również, aby zawsze mieć świadomość, że mierzymy hałas otocz
 
 Jednak im bliżej źródła, tym dokładniejsze staje się odniesienie do źródła. Aktualizacje oprogramowania sprzętowego powinny wtedy umożliwiać wstępne pomiary dla określonego rodzaju hałasu.
 
-<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;"/>
-<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margines: 1em 0;"/>
+<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
+<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margines: 1em 0;" loading="lazy"/>
 <br>
-<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;"/>
+<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;" loading="lazy"/>
