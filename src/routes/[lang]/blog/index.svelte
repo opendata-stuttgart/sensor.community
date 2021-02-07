@@ -41,7 +41,7 @@
                     {i18n.t('blog:description')}<br>
                 </p>
             </div>
-            <!--            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team"></div>-->
+            <!--            <div class="w-full md:w-1/2 my-12"><img src="images/team.jpg" alt="sensor community team" loading="lazy"></div>-->
         </div>
 
         <div class="mx-6 mx-auto justify-center">

@@ -8,7 +8,7 @@ title: Montera
 
 Mikrofonenheten är baserad på Pesky Products brytkort med en MEMS-mikrofon ICS-43434. Du kan finla en sådan tavla på [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/). 
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 
 ##### Hölje för mikrofonenheten
@@ -16,27 +16,27 @@ Höljet är tillverkat med en 0,55 "(12,7 mm) polystyrenrör. Denna diameter gö
 
 Prototypen utvecklades med [Evergreen No. 236 slangar](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 <br>
 Brytbrädan måste anpassas till slangens diameter med en fil. Använd lite tejp för att skydda mikrofoninloppet.
 <br>
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
 Löd sedan de sex silikonkablarna. Observera vilken stift kabeln är ansluten till!
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block;    width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
 Klipp en 115 mm lång slangbit.
 <br>
 Stick mikrofonkortet på något korsat tejp. Lägg kablarna i slangen och fäst kortet vid slangens yttersta del.
 <br>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
 Gör rörets ändar täta med tejpen.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
 Nu kan du fylla röret med lite harts. Detta steg är obligatoriskt för att undvika resonans och erhålla kalibrerade och reproducerbara data.
 
@@ -59,7 +59,7 @@ Härdningstid: 16 à 30 timmar
 
 För varje slang bör 15 g harts vara tillräckligt.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 Ta bort tejpen när hartset har härdat. Din mikrofonenhet är klar.
 
@@ -73,17 +73,17 @@ Själva röret ska vara 160 mm långt. DNMS ser ut i. Mikrofonhöljet underhåll
 
 Fören förhindrar att vatten och fukt tränger in i huset medan kabeln passerar.
 
-<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS är ansluten till det andra kretskortet med en RJ12-kabel. Om denna kabel är längre än 250 mm måste du använda en I²C-förlängning.
 
-<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 När allt är väl anslutet limmas delarna ihop.
 
 Resultat:
 
-<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Kretskortet som bär NodeMCU kan placeras i alla slags elektriska lådor.
 
@@ -96,7 +96,7 @@ Det är absolut nödvändigt att installera ett väderskydd i form av ett skumsk
 * det skyddar mot direkt vattenläckage på mikrofonen. För att undvika kondens på mikrofonen, dra tillbaka locket ett slag efter installationen för att skapa ett litet hålrum.
 * det skyddar mot solstrålning. Intensivt solljus kan påverka de uppmätta värdena och minska mikrofonens livslängd.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
 
 Dessa skumskydd säljs normalt som ”lock för mätmikrofoner”. Men de är dyra. Du kan också ta en vanlig skumkula och klippa ett hål med saxen.
 
@@ -116,7 +116,7 @@ Det är också viktigt att alltid vara medveten om att vi mäter omgivningsbulle
 
 Ju närmare källan kommer, desto mer exakt blir referensen till källan. Uppgraderingar av firmware bör då kunna få exakta mätningar för en identifierad typ av buller.
 
-<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;"/>
-<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;"/>
+<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
+<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <br>
-<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;"/>
+<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;" loading="lazy"/>

@@ -9,11 +9,11 @@ title: Зібрати
 ### NodeMCU v3
 Примітка: Наші інструкції посилаються на версію 3 NodeMCU. Це можна розпізнати за з'єднаннями VU і G (див. Креслення).
 
-<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em" loading="lazy"/>
 <small>Copyright: roman-minyaylov, MIT License</small>
 
 
-<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em"/>
+<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>
 
 ##### Коли закінчите, ось як це повинно виглядати
 
@@ -31,8 +31,8 @@ SDS011 Pin 7 -> не використовується
 ```
 
 ### Пайка разом BME280
-<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
-<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;">
+<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>
+<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
 
 З'єднайте роз'єм штифта з платою BME280. Припаяйте його з тильної сторони. Зазори між штифтами дуже малі, тому будьте терплячі та обережні.
 
@@ -51,12 +51,12 @@ SCL -> Pin D4
 ### Зв’яжіть все разом
 
 ##### Зв’яжіть NodeMCU та SDS011 разом
-<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg"/>
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 За допомогою кабельної стяжки зв’яжіть NodeMCU (ESP8266) і датчик SDS011 так, щоб антена Wifi спрямовувала в сторону від датчика.
 
  ##### Підключіть гнучку трубку
- <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
- <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;">
+ <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
+ <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
  
 * підключіть гнучку трубку до датчика SDS011
 * За допомогою іншої кабельної стяжки прикріпіть датчик температури BME280 до трубки
@@ -68,11 +68,11 @@ SCL -> Pin D4
 * Кабель USB, гнучка трубка та BME280 повинні виглядати з торця трубки
 * Насуньте іншу трубу на першу.
 
-<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg"/>
+<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
 ##### Оздоблення
 * Розташуйте датчик температури на гнучкій трубці так, щоб він знаходився на краю труби.
 * Відріжте гнучку трубку на кінці труби
 * Необов’язково: ви можете закрити відкриті кінці трубки тонкою сіткою. Таким чином повітря може циркулювати, але комахи залишаються надворі
  
-<img src="../docs/airrohr/position-bme280.jpeg"/>
+<img src="../docs/airrohr/position-bme280.jpeg" loading="lazy"/>

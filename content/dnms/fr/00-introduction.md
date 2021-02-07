@@ -25,7 +25,7 @@ title: Introduction
 > 🚧 Fabriquez votre détecteur et prenez part à notre réseau mondial de données ouvertes et de technologies civiques. <br> Avec DNMS (Digital Noise Measuring Sensor), vous pouvez mesurer vous-même la pollution sonore.
 
 
- <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0"/>
+ <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Consultez les instructions originales et les anciennes versions sur le [GitHub de Helmut Bitter](https://github.com/hbitter/DNMS/tree/master/Manual).

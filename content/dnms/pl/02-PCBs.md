@@ -10,7 +10,7 @@ Po prostu ściągnij nasze schematy i/lub pliki Gerbera poniżej, wgraj je na st
 Ostatnie wersje płytek drukowanych są opisane tutaj. Więcej informacji i dostęp do plików KiCad można znaleźć w [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs). 
 
 ### AIRROHR V1.4
-<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0"/>
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 Płytka drukowana dla NodeMCU ESP8266 CPU/WLAN z rozszerzeniem magistrali I2C do podłączenia DNMS oraz innych czujników (SDS011, BME280...).
 
 
@@ -21,7 +21,7 @@ Płytka drukowana dla NodeMCU ESP8266 CPU/WLAN z rozszerzeniem magistrali I2C do
 ---
 
 ### DNMS - T4 V1.4
-<img src="../docs/dnms/dnms-noise-measuring-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0" loading="lazy"/>
 Płytka drukowana dla DNMS Teensy 4.0, która może być podłączona bezpośrednio do NodeMCU ESP8266 lub do powyższej płytki AIRROHR.
 
 

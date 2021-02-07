@@ -4,7 +4,7 @@ title: Introduction
 > 🚧 Zbuduj swój czujnik DIYY i stań się częścią światowej sieci opendata i civictech. <br> Z airRohr możesz samodzielnie mierzyć zanieczyszczenia powietrza.
 
 
-<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
 ### Lista zakupów
 ##### Zestaw czujników

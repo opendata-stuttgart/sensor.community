@@ -10,7 +10,7 @@ Vea la sección __firmware flasher__.
 
 La unidad de micrófono se basa en el tablero de escape de Pesky Products con un micrófono MEMS ICS-43434. Puedes encontrar dicha placa en el [mercado de la hojalata](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/). 
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 
 ##### Carcasa de la unidad de micrófono
@@ -18,27 +18,27 @@ La carcasa está hecha con un tubo de poliestireno de 12,7 mm. Este diámetro pe
 
 El prototipo fue desarrollado con el [tubo Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 <br>
 La tabla de escape tiene que ser adaptada al diámetro del tubo con una lima. Use un poco de cinta adhesiva para proteger la entrada del micrófono.
 <br>
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
 Luego soldar los seis cables de silicona. ¡Anote con qué clavija está conectado el cable!
 
-<img src="../docs/dnms/dnms-noise measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
 Corta un tubo de 115 mm de largo.
 <br>
 Pega la tabla del micrófono en alguna cinta cruzada. Ponga los cables en el tubo y fije la tabla en el extremo del tubo.
 <br>
-<img src="../docs/dnms/dnms-noise measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
 Apriete la extremidad del tubo con la cinta.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
 Ahora puedes llenar el tubo con algo de resina. Este paso es obligatorio para evitar la resonancia y obtener datos calibrados y reproducibles.
 
@@ -62,7 +62,7 @@ La [resina de poliuretano UR5545](https://electrolube.com/wp-content/uploads/201
 
 Por cada tubo, 15 g de resina deberían ser suficientes.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 Cuando la resina se haya endurecido, retire la cinta. Su unidad de micrófono está lista.
 
@@ -78,17 +78,17 @@ El tubo en sí mismo debe tener 160 mm de longitud. El DNMS parece estar colocad
 
 El arco evita que el agua y la humedad entren en la carcasa mientras deja pasar el cable.
 
-<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 El DNMS está conectado al segundo PCB por un cable RJ12. Si este cable es más largo de 250 mm, debe utilizar una extensión I²C.
 
-<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Después de que todo esté bien conectado, las partes se pegan entre sí.
 
 Resultado:
 
-<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 El PCB que lleva el NodeMCU puede ser puesto en cualquier tipo de caja eléctrica.
 

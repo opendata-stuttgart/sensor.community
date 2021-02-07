@@ -9,27 +9,27 @@ title: Сборка сенсора DNMS
 
 Прототуп был изготовлен с использованием [трубки No. 236 от Evergreen](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 <br>
 Печатную плату, возможно, придется немного подогнать напильником чтобы она вошла в отверстие трубки. Используйте при этом защитный скотч для защиты входа микрофона!
 <br>
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
 Затем припаяйте шесть силиконовых кабелей. Следите за тем, чтобы кабеля были подключены к правильным контактам!
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block;    width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
 Отрежьте трубку длиной 115 мм.
 <br>
 Приклейте плату микрофонна на клейкую ленту уложенную в виде креста (как на фото). Уложите кабели в трубку и закрепите плату на самом конце трубки.
 <br>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
 Приклейте уложенную крестом клейкую ленту к трубке и надежно зафиксируйте ее на конце трубки.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
 Теперь нужно заполнить трубку эпоксидной смолой. Этот нужно для того, чтобы избежать резонанса и получить калиброванные и воспроизводимые данные.
 
@@ -46,7 +46,7 @@ title: Сборка сенсора DNMS
 
 Для заполнения трубки нужно 15 г смолы.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 После того, как смола окончательно затвердеет можно убрать клейкую ленту.
 
@@ -59,17 +59,17 @@ title: Сборка сенсора DNMS
 
 Уголок нужен для предотвращает попадание воды и влаги внутрь корпуса при подсоединенном кабеле.
 
-<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS соединено со второй печатной платой с помощью кабеля с разъемом RJ12. Длина кабеля при этом не должна первышает 25 см!
 
-<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 После того, как вы все надежно соеденили и проверили можно трубки склеить.
 
 Должно получиться так:
 
-<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 ### Защита для микрофона
 
@@ -82,7 +82,7 @@ DNMS соединено со второй печатной платой с по�
 
 *Совет: чтобы избежать образования конденсата на микрофоне, после установки защитного экрана немного отодвиньте его обратно, чтобы создать небольшую полость между микрофоном и экраном.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
 
 Существуют и готовые защитные корпуса. Они обычно называются ‘ветрозащитный экран для микрофона’.
 Возможно, [тут](https://ru.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) удастся что-то подобрать подходящее
@@ -102,7 +102,7 @@ DNMS соединено со второй печатной платой с по�
 
 Однако, чем ближе Вы приближаетесь к источнику, тем точнее становится шум от конкретного источника. Обновление програмного обеспечения со временем позволит различать источники шума.
 
-<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;"/>
-<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;"/>
+<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
+<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <br>
-<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;"/>
+<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;" loading="lazy"/>

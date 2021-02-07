@@ -45,8 +45,8 @@ title: Сборка
 Еще раз проверьте ваше подключение по схеме. Неправильное подключение питания датчика (переполюсовка) может повредить сенсор! Убедитесь, что 5V с датчика приходит на VU контроллера, а GND (ground - земля) соединена с контактом G на плате контроллера:
 
 #### Подсоединение трубочки к SDS011
- <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
- <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;">
+ <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
+ <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
 
 1. Отрежте 20 см силиконовой трубки с внутренним диаметром 6мм.
 1. Заострите один конец трубки под углом 30-45 градусов. Это нужно для того, чтобы уменьшить вероятность образования капли конденсата в трубке.

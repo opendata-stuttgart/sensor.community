@@ -12,12 +12,12 @@ Questa parte delle istruzioni si riferisce alla scheda NodeMCU V3.
 Questa versione si riconosce facilmente nel disegno dai connettori
 `VU` e `GND`:
 
-<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em" loading="lazy"/>
 <small>Copyright: roman-minyaylov, MIT License</small>
 
 A lavoro finito dovresti avere una cosa del genere:
 
-<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em"/>
+<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>
 
 ### Cablaggio dell'SDS011
 
@@ -54,8 +54,8 @@ Un trucco per saldare a stagno. Appoggia la punta del saldatore sul
 pin, scaldarlo un po' e poi applica lo stagno sul pin, senza toccare
 il saldatore direttamente.
 
-<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
-<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;">
+<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>
+<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
 
 ### Cablaggio per BME280
 
@@ -75,7 +75,7 @@ SCL -> Pin D4
 Usa una fascetta per legare la scheda NodeMCU ed il sensore SDS011 in
 modo che l'antenna wireless sia dal lato opposto al sensore.
 
-<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg"/>
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 
 #### Connetti il tubicino flessibile
 
@@ -86,8 +86,8 @@ modo che l'antenna wireless sia dal lato opposto al sensore.
 * Tieni il sensore SDS011 con la ventola in basso e la scheda NodeMCU
   in alto
 
-<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
-<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;">
+<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
+<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
 
 #### Inserisci il sensore nel tubo
 
@@ -95,7 +95,7 @@ modo che l'antenna wireless sia dal lato opposto al sensore.
 * Il cavo micro-USB ed il tubo flessibile dovrebbero sporgere dall'altra
   estremità del tubo
 
-<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg"/>
+<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
 #### Chiusura finale
 
@@ -108,4 +108,4 @@ modo che l'antenna wireless sia dal lato opposto al sensore.
   BME280 al tubicino
 * Opzionale: copri le estremità dei tubi con un telo da zanzariera
 
-<img src="../docs/airrohr/position-bme280.jpeg"/>
+<img src="../docs/airrohr/position-bme280.jpeg" loading="lazy"/>

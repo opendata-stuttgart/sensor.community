@@ -18,12 +18,12 @@
 <!--        <div class="flex flex-wrap justify-center md:justify-between items-center mt-6 opacity-75 mx-auto">-->
 <!--            <a href="https://www.opengeospatial.org/" target="_blank"-->
 <!--               class="w-1/5 px-2 mb-4 md:mb-2 md:px-2 md:w-auto inline-block text-center">-->
-<!--                <img src="images/partner/ogc.png"></a>-->
+<!--                <img src="images/partner/ogc.png" loading="lazy"></a>-->
 <!--            <a href="https://www.rivm.nl/" target="_blank"  class="w-1/5 px-2 mb-4 md:mb-2 md:px-2 md:w-auto inline-block text-center">-->
-<!--                <img src="images/partner/rivm.png"></a>-->
+<!--                <img src="images/partner/rivm.png" loading="lazy"></a>-->
 <!--            <a href="https://www.opengeospatial.org/" target="_blank"-->
 <!--               class="w-1/5 px-2 mb-4 md:mb-2 md:px-2 md:w-auto inline-block text-center">-->
-<!--                <img src="images/partner/jrc.png"></a>-->
+<!--                <img src="images/partner/jrc.png" loading="lazy"></a>-->
 <!--        </div>-->
     </div>
 </section>

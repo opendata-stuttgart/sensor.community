@@ -9,11 +9,11 @@ title: Сглобяване
 ### NodeMCU v3
 Забележка: Нашите инструкции се отнасят до версия на NodeMCU. Това може да бъде разпознато по връзките VU и G (вижте снимката). 
 
-<img src="../docs/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em"/>
+<img src="../docs/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em" loading="lazy"/>
 <small>Авторско право: roman-minyaylov, MIT License</small>
 
 
-<img src="../docs/nodemcu-v3-bme280.jpeg" style="margin-top: 1em"/>
+<img src="../docs/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>
 
 ##### Когато приключите, ето как трябва да изглежда
 
@@ -31,8 +31,8 @@ SDS011 Pin 7 -> не се използва
 ```
 
 ### Запойте BME280 и пиновете
-<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center"/>
-<img src="../docs/solder-bme-280.jpeg" style="width:49%;">
+<img src="../docs/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>
+<img src="../docs/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
 
 Свържете заглавката на пиновете с платката BME280. Запойте я от задната страна. Разстоянията между щифтовете са много малки, така че бъдете търпеливи и внимателни.  
 
@@ -52,12 +52,12 @@ SCL -> Pin D4
 ### Свържете всичко заедно
 
  ##### Свържете NodeMCU и SDS011 заедно
-<img src="../docs/tie-air-quality-sensor-together.jpeg"/>
+<img src="../docs/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 Използвайте кабелна връзка, за да свържете NodeMCU (ESP8266) и сензора SDS011 така, че  Wifi антената да бъде отдалечната страна на сензора.
 
  ##### Свържете гъвкавата тръба
- <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em"/>
- <img src="../docs/bme280-tied-to-tube.jpeg" style="width:49%;">
+ <img src="../docs/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
+ <img src="../docs/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
  
 * Свържете гъвкавата тръба към сензора SDS011
 * Използвайте друга кабелна връзка, за да прикрепите датчика за температура BME280 към тръбата
@@ -69,11 +69,11 @@ SCL -> Pin D4
 * USB кабела, гъвкава тръбичка и BME280 трябва да излезнат от края на тръбата
 * Натиснете другата тръба върху първата.
 
-<img src="../docs/sds011-jammed-into-tube.jpeg"/>
+<img src="../docs/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
  ##### Завършване
 * Поставете температурния сензор върху гъвкавата тръба, така че да е на ръба на тръбата.
 * Отрежете гъвкавата тръбичка в края на тръбата
 * По желание: можете да покриете отворените краища на тръбата с фина мрежа. Така въздухът може да циркулира, но насекомите остават навън
  
-<img src="../docs/position-bme280.jpeg"/>
+<img src="../docs/position-bme280.jpeg" loading="lazy"/>

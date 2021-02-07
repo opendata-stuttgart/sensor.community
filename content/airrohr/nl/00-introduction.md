@@ -4,7 +4,7 @@ title: Inleiding
 > 🚧 Bouw je eigen doe-het-zelf sensor en word onderdeel van het wereldwijde open-data en burgermeetnetwerk. <br> Met airRohr kan je zelf luchtvervuiling meten.
 
 
-<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg"/>
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
 ### Boodschappenlijst
 ##### Complete sets (rond de € 50)

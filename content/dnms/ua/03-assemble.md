@@ -10,36 +10,36 @@ title: Зібрати
 ### Блок мікрофона
 Мікрофонний блок створений на основі плати Pesky Products з мікрофоном MEMS ICS-43434. Ви можете знайти таку дошку на [ринку ринку Tindie](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 ##### Корпус для мікрофонного блоку
 Корпус виконаний з полістиролової трубки .500 "(12,7 мм). Цей діаметр дозволяє безпосередньо підключити більшість калібраторів на пристрої.
 
 Прототип був розроблений за допомогою [трубки Evergreen № 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 <br>
 Дошка обриву повинна бути пристосована до діаметра НКТ за допомогою напилка. Використовуйте трохи стрічки для захисту входу мікрофона.
 <br>
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
 Потім припаяйте шість силіконових кабелів. Зверніть увагу, з яким штифтом підключений кабель!
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block;    width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
 
 Відріжте шматок трубки довжиною 115 мм.
 <br>
 Наклейте дошку мікрофона на якусь схрещену стрічку. Покладіть кабелі в НКТ і закріпіть плату на кінці НКТ.
 <br>
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0"/>
-<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
 Зробіть кінець труби щільним за допомогою стрічки.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
 Тепер ви можете наповнити пробірку смолою. Цей крок є обов’язковим, щоб уникнути резонансу та отримати калібровані та відтворювані дані.
 
@@ -62,7 +62,7 @@ title: Зібрати
 
 Для кожної трубки повинно бути достатньо 15 г смоли.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 Коли смола затвердіє, зніміть стрічку. Ваш мікрофон готовий.
 
@@ -76,17 +76,17 @@ title: Зібрати
 
 Лук запобігає потраплянню води та вологи у корпус, пропускаючи кабель.
 
-<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS підключений до другої друкованої плати кабелем RJ12. Якщо довжина цього кабелю перевищує 250 мм, потрібно використовувати подовжувач I²C.
 
-<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Після того, як все добре з’єднано, деталі склеюються.
 
 Результат:
 
-<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Друковану плату, що несе NodeMCU, можна помістити в будь-яку електричну коробку.
 
@@ -99,7 +99,7 @@ DNMS підключений до другої друкованої плати к
 * захищає від прямого витоку води на мікрофон. Щоб уникнути конденсації мікрофона, відтягніть кришку після встановлення, щоб створити невелику порожнину.
 * захищає від сонячного випромінювання. Інтенсивне сонячне світло може впливати на виміряні значення та зменшити термін служби мікрофона.
 
-<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
 
 Ці пінопластові чохли зазвичай продаються як „кришки для вимірювальних мікрофонів“. Але вони дорогі. Ви також можете взяти звичайний поролоновий куля і вирізати ножицями отвір.
 
@@ -119,7 +119,7 @@ DNMS підключений до другої друкованої плати к
 
 Однак, чим ближче ви наближаєтесь до джерела, тим точнішим стає посилання на джерело. Потім оновлення мікропрограми повинні мати можливість отримувати попередні вимірювання для виявленого типу шуму.
 
-<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;"/>
-<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;"/>
+<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
+<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <br>
-<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;"/>
+<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;" loading="lazy"/>

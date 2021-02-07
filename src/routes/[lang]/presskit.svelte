@@ -38,13 +38,13 @@
             <div class="flex flex-wrap">
                 <div class="flex-shrink-0 m-6 relative overflow-hidden bg-white rounded-lg max-w-xs shadow-lg">
                     <div class="relative p-20 px-10 flex items-center justify-center">
-                        <img class="relative" src="logo.svg" alt="">
+                        <img class="relative" src="logo.svg" alt="" loading="lazy">
                     </div>
                 </div>
 
                 <div class="flex-shrink-0 m-6 relative overflow-hidden bg-black rounded-lg max-w-xs shadow-lg">
                     <div class="relative p-20 px-10 flex items-center justify-center">
-                        <img class="relative" src="logo-sw.svg" alt="">
+                        <img class="relative" src="logo-sw.svg" alt="" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -75,8 +75,8 @@
             <h2 class="w-full py-4 md:py-8 pb-8 text-4xl md:text-4xl font-bold leading-normal items-center">
                 Pictures</h2>
 
-            <img src="https://exchange.sensor.community/index.php/s/6FWx7MGZZ89CXrt/preview" alt="">
-            <img src="https://exchange.sensor.community/index.php/s/WYqRSTiJciDHSFZ/preview" alt="" class="mt-6">
+            <img src="https://exchange.sensor.community/index.php/s/6FWx7MGZZ89CXrt/preview" alt="" loading="lazy">
+            <img src="https://exchange.sensor.community/index.php/s/WYqRSTiJciDHSFZ/preview" alt="" class="mt-6" loading="lazy">
         </div>
     </section>
 
