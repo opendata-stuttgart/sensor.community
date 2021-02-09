@@ -42,7 +42,7 @@ title: Configure
 
 <br>
 
-![](docs/airrohr_config_initial.jpg)
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
 <br>
 
 ### Przetestuj stację
