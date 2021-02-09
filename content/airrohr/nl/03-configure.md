@@ -25,7 +25,7 @@ title: Configuratie
 
 <br>
 
-![](../docs/airrohr_config_initial.png)
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
 <br>
 
 ### Controleer dat het station juist is geconfigureerd

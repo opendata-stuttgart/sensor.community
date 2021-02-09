@@ -48,7 +48,7 @@ title: Configurazione
    > airrohr-firmware-flasher (vedi oltre nella sezione "Risoluzione
    > dei Problemi").
 
-![](../docs/airrohr_config_initial.jpg)
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
 
 ### Verifica della configurazione
 

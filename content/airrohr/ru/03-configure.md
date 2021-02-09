@@ -22,7 +22,7 @@ title: Конфигурация устройства
 
 <br>
 
-![](../docs/airrohr_config_initial.jpg)
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
 <br>
 
 ### Как убедится, что станция отсылает данные
