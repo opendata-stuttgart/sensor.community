@@ -4,13 +4,13 @@ title: Виправлення неполадок
 
 ### Передача проблем?
 Введіть у браузері такі дані, як ваші власні дані:
-`https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[тип датчика]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] також можна шукати в тексті на сторінці [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
+[ID] також можна шукати у полі введення у верхньому лівому куті [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
 
 * Чи зареєстрований датчик через [https://devices.sensor.community/](https://devices.sensor.community/) і чи датчик видно на карті?
     * Чи був рівень сигналу WLAN слабким у минулому?
-        ось сигнал журналу сигналів на стороні сервера: `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
+        ось сигнал журналу сигналів на стороні сервера: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
         
 
 ### Проблеми з кабелем USB?

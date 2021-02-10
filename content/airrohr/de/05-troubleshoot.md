@@ -4,13 +4,13 @@ title: Troubleshoot
 
 ### Problemen beim Übertragen?
 Gebe folgendes in deinem Browser mit deinen eigenen Daten ein:
-https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[Sensortyp]
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-Die [ID] kann auch im Text auf der Seite [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php) gesucht werden.
+Die [ID] kann auch im Eingabefeld open links auf der Seite [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1) gesucht werden.
 
 * Ist der Sensor über [https://devices.sensor.community/](https://devices.sensor.community/) registriert und ist der Sensor auf der Karte sichtbar?
 * War das WLAN-Signal in der Vergangenheit schwach?
-Hier ist das server-seitige Signalprotokoll: https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]
+Hier ist das server-seitige Signalprotokoll: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
         
 ### Probleme mit dem USB-Kabel?
 * Überprüfe die Stromversorgung
