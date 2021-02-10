@@ -4,9 +4,9 @@ title: Felsök
 
 ### Överföringsproblem?
 Ange följande i webbläsaren med dina egna data:
-`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] kan också sökas i inmatningsfältet i det övre vänstra hörnet [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
+[ID] kan också sökas i inmatningsfältet i det övre vänstra hörnet [https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1](https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1)
 
 * Är sensorn registrerad via [https://devices.sensor.community/ ](https://devices.sensor.community/) och är sensorn synlig på kartan?
     * Var WLAN-signalnivån svag tidigare?

@@ -4,9 +4,9 @@ title: Виправлення неполадок
 
 ### Передача проблем?
 Введіть у браузері такі дані, як ваші власні дані:
-`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] також можна шукати у полі введення у верхньому лівому куті [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
+[ID] також можна шукати у полі введення у верхньому лівому куті [https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1](https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1)
 
 * Чи зареєстрований датчик через [https://devices.sensor.community/](https://devices.sensor.community/) і чи датчик видно на карті?
     * Чи був рівень сигналу WLAN слабким у минулому?
