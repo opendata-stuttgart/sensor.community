@@ -4,12 +4,13 @@ title: Отстраняване на неизправности
 
 ### Проблеми с предаването?
 Въведете следното в браузъра със собствените си данни:
-https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor_type]
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] може да се търси и като текст на страницата [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
+[ID] може да се търси и в полето за въвеждане в горния ляв ъгъл [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
 
 * Регистрирана ли е станцията на [https://devices.sensor.community/](https://devices.sensor.community/) и странцията видима ли е на картата?
-* Ниско ли е било нивото на WLAN сигнал в миналото? Ето я от сървъра на дневника на сигнала: https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]
+* Ниско ли е било нивото на WLAN сигнал в миналото?
+    Ето я от сървъра на дневника на сигнала: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
         
 
 ### Проблеми с USB кабела?

@@ -4,12 +4,13 @@ title: Troubleshoot
 
 ### Problemy z transmisją?
 Wprowadź poniższe dane w przeglądarce z własnymi danymi:
-https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor_type]
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-Identyfikatora [ID] można również szukać w tekście na stronie [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php).
+[ID] można również wyszukać w polu wprowadzania w lewym górnym rogu tej strony [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
 
 * Czy czujnik jest zarejestrowany przez [https://devices.sensor.community/](https://devices.sensor.community/) i czy jest on widoczny na mapie?
-* Czy w przeszłości poziom sygnału WLAN był słaby? Tutaj znajduje się serwer logów sygnałowych: https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]
+* Czy w przeszłości poziom sygnału WLAN był słaby?
+    Tutaj znajduje się serwer logów sygnałowych: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
         
 
 ### Problemy z kablami USB?

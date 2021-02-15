@@ -5,7 +5,8 @@ title: Problèmes & difficultés
 ### Problèmes de transmission ?
 
 Entrez l'adresse suivante dans votre navigateur en remplaçant l'`ID` et le type de capteur :
-[https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-ID](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-ID).
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
+
 
 L'`ID` peut également être recherchée dans la liste déroulante sur la page.
 
@@ -13,7 +14,7 @@ L'`ID` peut également être recherchée dans la liste déroulante sur la page.
 * Le signal Wifi était-il faible dernièrement ? 
 Ici, un server qui enregistre le niveau de signal Wifi : 
 
-[https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-ID](https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-ID)
+`https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
 <br>
 Remplacez `ID` par l'identifiant de la station (ID de la platine NodeMCU).
 

@@ -4,7 +4,7 @@ title: Problèmes & difficultés
 
 ### Problèmes de transmission ?
 Entrez l'adresse suivante dans votre navigateur en remplçant l'`ID` et le type de capteur :
-[https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID==esp8266-ID](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID==esp8266-ID).
+`https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1&var-chipID=esp8266-[ID]`
 
 L'`ID` peut également être recherchée dans la liste déroulante sur la page.
 

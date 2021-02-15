@@ -4,12 +4,13 @@ title: Troubleshoot
 
 ### ¿Transmite de manera errónea?
 Ingrese lo siguiente en el navegador con sus propios datos:
-https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor_type]
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-El [ID] también se puede buscar en el texto de la siguiente página: [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
+[ID] también se puede buscar en el campo de entrada en la esquina superior izquierda de la página: [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
 
 * ¿Está el sensor registrado en [https://devices.sensor.community/](https://devices.sensor.community/) y es el sensor visible en el mapa?
-* ¿Ha estado la señal WLAN en un nivel bajo en el pasado? Aquí está el servidor de registro de la señal: [https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID] ](https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID] )       
+* ¿Ha estado la señal WLAN en un nivel bajo en el pasado?
+    Aquí está el servidor de registro de la señal: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
 
 ### ¿Problemas con el cable USB?
 * Verifique la fuente de alimentación: cable USB 

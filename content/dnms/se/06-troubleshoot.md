@@ -4,13 +4,13 @@ title: Felsök
 
 ### Överföringsproblem?
 Ange följande i webbläsaren med dina egna data:
-`https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensortyp]`
+`https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] kan också sökas i texten på sidan [https://www.madavi.de/sensor/graph.php ](https://www.madavi.de/sensor/graph.php)
+[ID] kan också sökas i inmatningsfältet i det övre vänstra hörnet [https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1](https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1)
 
 * Är sensorn registrerad via [https://devices.sensor.community/ ](https://devices.sensor.community/) och är sensorn synlig på kartan?
     * Var WLAN-signalnivån svag tidigare?
-        här är signalloggens serversida: `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
+        här är signalloggens serversida: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
 
 ### USB-kabelproblem?
 * Kontrollera strömförsörjningen: USB-kabel

@@ -4,13 +4,13 @@ title: Troubleshoot
 
 ### Transmitting problems?
 Enter the following in the browser with your own data:
-`https://www.madavi.de/sensor/graph.php?sensor=esp8266-[ID]-[sensor type]`
+`https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1&var-chipID=esp8266-[ID]`
 
-The [ID] can also be searched for in the text on the page [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
+The [ID] can also be searched for in input field in the upper left corner [https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1](https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1)
 
 * Is the sensor registered via [https://devices.sensor.community/](https://devices.sensor.community/) and is the sensor visible on the map?
     * Was the WLAN signal level weak in the past?
-        here is the signal log server-side: `https://www.madavi.de/sensor/signal.php?sensor=esp8266-[ID]`
+        here is the signal log server-side: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
         
 
 

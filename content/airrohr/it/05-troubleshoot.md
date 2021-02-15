@@ -4,8 +4,8 @@ title: Risoluzione dei problemi
 
 ### Problemi di trasmissione dati?
 
-* Cerca il ChipID alla pagina:
-  [https://www.madavi.de/sensor/graph.php](https://www.madavi.de/sensor/graph.php)
+* [ID] può essere cercato anche nel campo di immissione nell'angolo superiore sinistro di questa pagina:
+  [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
   e controlla se il segnare wireless è stato debole in passato
 * Controlla che il dispositivo sia visibile sulla
   [mappa](https://maps.sensor.community)
