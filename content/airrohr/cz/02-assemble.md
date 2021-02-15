@@ -52,7 +52,7 @@ SCL -> Pin D4
 ### Svažte všechno dohromady
 
  ##### Svažte NodeMCU a SDS011 dohromady
-<img src="../docs/airrohr/tie-air-quality-sensor- together.jpeg" loading="lazy"/>
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 Stahovací svorkou svažte NodeMCU (ESP8266) a senzor SDS011 tak, aby Wifi anténa směřovala pryč od senzoru.
 
  ##### Připojte ohebnou trubičku

@@ -24,16 +24,16 @@ La tabla de escape tiene que ser adaptada al diámetro del tubo con una lima. Us
 <br>
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
-<img src="../docs/dnms/dnms-noise measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
 Luego soldar los seis cables de silicona. ¡Anote con qué clavija está conectado el cable!
 
-<img src="../docs/dnms/dnms-noise measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
 Corta un tubo de 115 mm de largo.
 <br>
 Pega la tabla del micrófono en alguna cinta cruzada. Ponga los cables en el tubo y fije la tabla en el extremo del tubo.
 <br>
-<img src="../docs/dnms/dnms-noise measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
 Apriete la extremidad del tubo con la cinta.
