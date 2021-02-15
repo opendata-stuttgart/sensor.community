@@ -54,7 +54,7 @@ SCL -> Pin D4
 ### Związać wszystko razem
 
  ##### Wiązanie NodeMCU i SDS011 razem
-<img src="../docs/airrohr/tie air-quality-sensor-together.jpeg" loading="lazy"/>
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 Do połączenia NodeMCU (ESP8266) z czujnikiem SDS011 należy użyć opaski kablowej, tak aby antena Wifi była skierowana z dala od czujnika.
 
  ##### Podłączenie rury elastycznej
