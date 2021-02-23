@@ -7,6 +7,13 @@
     $: lang = $page.params.lang;
     $: i18n = initI18n(lang);
 
+    function delayMap() {
+        if (process.browser) {
+            setTimeout(function () {
+                document.getElementById('map-frame').src = 'https://no2.maps.sensor.community';
+            }, 900);
+        }
+    }
 </script>
 
 <svelte:head>
@@ -18,7 +25,7 @@
 </svelte:head>
 
 <div class="bg-white">
-    <section class="container mx-auto mt-10">
+    <section class="container mx-auto mt-10 mb-10">
         <div class="container mx-auto md:px-16 mx-auto md:pt-12 md:w-4/5">
             <div class="px-4 text-center">
                 <h1 class="leading-lf font-black text-3xl md:text-6xl">
@@ -26,17 +33,19 @@
                 <p class="text-gray-700 text-2xl mt-6">{i18n.t('campaign:no2')}<p>
             </div>
             <div class="text-gray-700 text-xl p-8">
-                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase1')} </span>{i18n.t('campaign:no2-phase1')}</p>
-                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase2')} </span>{i18n.t('campaign:no2-phase2')}</p>
+                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase1')} </span>{i18n.t('campaign:no2-phase1')} ✔</p>
+                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase2')} </span>{i18n.t('campaign:no2-phase2')} ️️✔️</p>
                 <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase3')} </span>{i18n.t('campaign:no2-phase3')}</p>
             </div>
         </div>
 
-        <div class="container mx-auto mb-48">
-            <div class="container mx-auto text-center">
-                <a href="mailto:Campaign02@Sensor.Community" class="bg-teal-500 text-center hover:bg-teal-700 hover:text-white mx-auto rounded-lg inline-block shadow px-8 py-6 text-white text-xl">
-                    <div>{i18n.t('campaign:getNotified')}</div>
-            </a></div>
+        <div class="relative z-20 md:block mx-auto md:bg-white md:shadow-lg z-10 mb-10">
+            <div class="flex" style="height: 40em;">
+                <iframe scrolling="no" class="z-10" id="map-frame" onLoad="{delayMap()}"
+                        src=""
+                        style="width: 97%; height: 95%; margin: auto; "
+                        title="sensor.community particulate matter map"></iframe>
+            </div>
         </div>
     </section>
 </div>

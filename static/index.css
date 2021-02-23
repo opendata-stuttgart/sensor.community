@@ -133,7 +133,8 @@ img {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button {
+button,
+input {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -145,7 +146,8 @@ button {
  * 1. Show the overflow in Edge.
  */
 
-button { /* 1 */
+button,
+input { /* 1 */
   overflow: visible;
 }
 
@@ -391,6 +393,10 @@ img {
   border-style: solid;
 }
 
+input::placeholder {
+  color: #a0aec0;
+}
+
 button {
   cursor: pointer;
 }
@@ -427,7 +433,8 @@ a {
  * normalize.css.
  */
 
-button {
+button,
+input {
   padding: 0;
   line-height: inherit;
   color: inherit;
