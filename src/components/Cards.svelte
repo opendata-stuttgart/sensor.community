@@ -24,7 +24,7 @@
                 <div class="flex justify-center items-center">
                     <img class="block h-auto w-full border-b-1 border-gray-700"
                          src="{imageUrl}"
-                         alt="">
+                         alt="" loading="lazy">
                 </div>
                 <div class="p-6 text-gray-700">
                     <div class="text-2xl font-bold">{@html description}</div>
@@ -46,7 +46,7 @@
             <div class="flex justify-center items-center">
                 <img class="block h-auto w-full border-b-1 border-gray-700"
                      src="{imageUrl}"
-                     alt="">
+                     alt="" loading="lazy">
             </div>
             <div class="p-6 text-gray-700">
                 <div class="text-2xl font-bold">{@html description}</div>

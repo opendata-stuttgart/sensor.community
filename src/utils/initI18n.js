@@ -2,9 +2,17 @@ import i18next from 'i18next';
 import en from '../../locales/en';
 import de from '../../locales/de';
 import fr from '../../locales/fr';
+import it from '../../locales/it';
 import sk from '../../locales/sk';
 import ru from '../../locales/ru';
 import cz from '../../locales/cz';
+import bg from '../../locales/bg';
+import pl from '../../locales/pl';
+import nl from '../../locales/nl';
+import es from '../../locales/es';
+import ua from '../../locales/ua';
+import se from '../../locales/se';
+
 
 function initI18n(lng = 'en') {
   i18next.init({
@@ -13,9 +21,16 @@ function initI18n(lng = 'en') {
       en,
       de,
       fr,
+      it,
       sk,
+      cz,
+      bg,
+      pl,
+      nl,
       ru,
-      cz
+      es,
+      ua,
+      se
     },
     fallbackLng: {
       'de-CH': ['de'],

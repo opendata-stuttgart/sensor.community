@@ -22,6 +22,14 @@
    return String(n).replace(/\d+?(?=(?:\d{3})+$)/img, "$&.");
   }
 
+
+  function delayMap() {
+	if (process.browser) {
+      setTimeout(function(){
+        document.getElementById('map-frame').src='https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1';
+      },900);
+    }
+  };
 </script>
 
 <svelte:head>
@@ -37,8 +45,8 @@
 <section>
   <div class="relative z-20 md:block md:w-3/4 mx-auto md:bg-white md:shadow-lg mt-10 z-10">
     <div class="flex" style="height: 40em;">
-      <iframe scrolling="no" class="z-10"
-              src="https://maps.sensor.community/?selection=PM25&nooverlay=true#2/28.3/-1.1"
+      <iframe scrolling="no" class="z-10" id="map-frame" onLoad="{delayMap()}"
+              src=""
               style="width: 97%; height: 95%; margin: auto; "
               title="sensor.community particulate matter map"></iframe>
     </div>
@@ -141,6 +149,5 @@
 </section>
 
 <Campaigns/>
-<Partnership/>
 <Contact/>
 

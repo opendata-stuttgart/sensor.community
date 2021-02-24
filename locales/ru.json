@@ -12,7 +12,7 @@
     "errorStatus": "Обнаружена {status} ошибка.",
     "reloadPage": "Пожалуйста, обновите страницу",
     "offline": "Кажется, вы не подключены к сети...",
-    "submitError": "Если ошибка повторяется, напишите на <a href=\"chat.sensor.community\">Discourse форум</a> или создайте задачу на <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Спасибо!"
+    "submitError": "Если ошибка повторяется, напишите на <a href=\"forum.sensor.community\">Discourse форум</a> или создайте задачу на <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Спасибо!"
   },
   "index": {
     "metaDescription": "Соберите свой самодельый сенсор и станьте частью сети даных проекта гражданской науки, который развивается благодаря поддержке большого числа участников. \uD83D\uDC95",
@@ -136,6 +136,7 @@
     "license": "License",
     "socialLinks": "Connect",
     "blog": "Blog",
+    "donate": "Поддержать проект",
     "privacy" : "Privacy & Terms",
     "communityProjects": "Community Projects",
     "communityHubs": "Community Hubs",

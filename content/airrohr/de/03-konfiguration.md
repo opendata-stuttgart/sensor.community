@@ -1,45 +1,33 @@
 ---
 title: Konfiguration
 ---
+### Abrufen der ID
+1. Schließe die Station mit einem USB-Kabel an, um den Sensor mit Strom zu versorgen.
 
-Connect the station with the power cable
+2. Die Station versucht, eine Verbindung mit dem konfigurierten WiFi herzustellen. Falls dies nicht funktioniert, öffnet der Sensor einen Access Point mit dem Namen `Particulate Matter ID` , `Feinstaubsensor-ID` oder `airRohr-ID`. Die ID ist die **chipID** (zum Beispiel 13597771). **Bitte notiere dir diese Nummer, da diese für die Registrierung benötigt wird.**
 
-The station tries to connect to the configured WLAN access point. If this does not work, the sensor opens an access point with the name Particulate matter or airRohr. The ID referes to the **ChipID** (in the example below the 13597771). Please note that number down, as we need it later 
+3. Verbinde dich mit dem erstellten Adhoc-WiFi. Warte, bis die Verbindung hergestellt ist.<br>*Android*: Wenn die Verbindung sofort abbricht, schau unter 'Verbindungen -> WiFi -> Erweitert' und deaktiviere die Option 'Smart Network Switch'.
 
-The station tries to connect to the configured WLAN access point (default is "Freifunk-Disabled"). If this does not work, the sensor opens an access point with the name Feinstaubsensor-ID or airRohr-ID. Where ID is the **ChipID** (decimal, in the example below 13597771).
-Note down ID, it is needed for the registration of the sensor!
+4. Öffne deinen Browser und gebe [http://192.168.4.1/](http://192.168.4.1/) ein.
 
-Connect to this just created access point. Wait briefly until the connection is established.
+> ⚠️ **Bitte beachten** Es kann einige Versuche dauern, bis die NodeMCU eine Verbindung mit deinem WLAN herstellen kann. Bitte werde nicht ungeduldig und versuche es, bis es funktioniert. Der Sensor kann auch über ein Smartphone konfiguriert werden. Wenn die Konfiguration des Sensors funktioniert hat, ist die Konfigurationsseite unter dieser IP 192.168.4.1 nicht mehr zugänglich.
 
-Android: If the connection is immediately disconnected, you may have to deactivate the option 'Smart network switch' under 'Connections WLAN Advanced'.
+### Konfiguriere die Station
+1. Gib unter 'Konfigurieren' deine SSID (Name deines WiFi-Heimnetzwerks) und den Netzwerksicherheitsschlüssel (unter Windows) bzw. das WiFi-Passwort ein.
 
-Open your browser and type in http://192.168.4.1/. 
+2. Für Feinstaubsensoren (SDS011) sind gemäß dieser Anleitung keine weiteren Änderungen erforderlich
 
-> ⚠️ **Please note**  It may take a few tries for the NodeMCU to connect to the home WLAN. Please do not get impatient and try until it works. The chip can also be configured via a smartphone. If the configuration of the sensor has worked, the configuration page is no longer accessible under this IP 192.168.4.1
+3. Nachdem du auf Speichern gedrückt hast, startet der Sensor neu und ist auf diese Weise nicht mehr erreichbar, wenn er sich mit dem WLAN verbindet.
 
-Under 'Configure' enter the SSID (name of the home WLAN) and the network security key (under Windows) or the WLAN password of the home WLAN, save
+<br>
 
-For fine dust sensors according to this manual, no further changes are necessary
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 
-After saving, the sensor is restarted and is no longer accessible this way when it connects to the WLAN
+### Testen Sie die Station
+Wenn außer der Eingabe der Daten des WiFi-Netzwerks keine Änderungen vorgenommen wurden, kann der Sensor nach etwa 10 Minuten auf den folgenden Seiten "getestet" werden. Auf diesen Seiten muss nach der chipID gesucht werden (im obigen Beispiel die 13597771).
 
-If no changes have been made other than entering the WLAN data, the sensor can be 'tested' on the following pages after about 10 minutes. On these pages you have to search for the ChipID (in the example above the 13597771).
+ * [Sensordaten](https://www.madavi.de/sensor/graph.php) 
+ * [WLAN-Signal](https://www.madavi.de/sensor/signal.php) 
+        
 
- Sensordaten: www.madavi.de/sensor/graph.php WLAN-Signal: www.madavi.de/sensor/signal.php
- 
-![](../docs/airrohr_config_initial.png)
- 
-### Last steps
-
-Unter [devices.sensor.community](https://devices.sensor.community/) können Sensoren durch die Benutzer selbst eingetragen werden. Damit der Sensor Teil des Netzwerkes wird, brauchen wir noch einige Angaben.
-Registriere dich, falls noch nicht geschehen, und logge dich ein, dann füge einen Sensor hinzu und fülle das Formular aus.
-
-deine ID des ESP8266 (NodeMCU) –> kommt als Nummer im WLAN (Feinstaubsensor-…) oder auf der Konfigurationsseite oben
-
-deine Emailadresse (wird nicht veröffentlicht)
-
-deine Adresse: Strasse mit Hausnummer, PLZ und Ort und die Standortkoordinaten (werden nur gerundet herausgegeben)
-
-die Umgebung der Station – z. B. Höhe über Grund, Strassenseite, hohes Verkehrsaufkommen, freies Feld oder ähnliches
-
-Startseite -> (Login) - Sensoren -> Sensor registrieren

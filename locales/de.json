@@ -12,7 +12,7 @@
     "errorStatus": "Encountered a {status} error.",
     "reloadPage": "Please try reloading the page.",
     "offline": "It looks like you're offline.",
-    "submitError": "If the error persists, please drop by <a href=\"chat.sensor.community\">Discourse forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
+    "submitError": "If the error persists, please drop by <a href=\"forum.sensor.community\">Discourse forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
   },
   "index": {
     "metaDescription": "Bauen deinen eigenen DIY-Sensor und werden ein Teil des weltweiten civic tech, open data, open source Netzwerks. Unterstützt von vielen Mitwirkenden \uD83D\uDC95",
@@ -38,7 +38,7 @@
     "metaDescription": "",
     "metaTitle": "Find your sensor and building instructions for your DYI fine dust sensor",
     "h1": "Sensor Kits",
-    "subtitle": "Finden unsere Anleitungen für deinen Sensor"
+    "subtitle": "wählen eine Anleitung und bauen deinen Sensor."
   },
   "guide": {
     "editOnGithub": "edit on Github"
@@ -103,6 +103,25 @@
   "campaign": {
     "h1": "Kampagne",
     "subtitle": "Demnächst.",
+    "refs": "Sensor.Community-Kampagne, um Sensoren an jede Referenzstation dieser Welt zu bringen",
+    "refs-metaTitle": "Sensor.Community-Kampagne, um Sensoren an jede Referenzstation dieser Welt zu bringen",
+    "refs-phase1": "Anzeige der Standorte aller Referenzstationen auf Maps.Sensor.Community.\n",
+    "refs-phase2": "Messwerte & Informationen aller Referenzstationen anzeigen.\n",
+    "refs-phase3": "Mehr Informationen im Jahr 2021 .\n",
+    "sensor2school": "Sensor.Community-Kampagne, um Sensoren an jede Schule dieser Welt zu bringen. \n",
+    "sensor2school-metaTitle": "Sensor.Community-Kampagne, um Sensoren an jede Schule dieser Welt zu bringen",
+    "sensor2school-phase1": "Registrieren Sie sich und werden Sie ein offener Beitragender für Umweltdaten.\n",
+    "sensor2school-phase2": "Mit der globalen Sensor.Gemeinschaft.\n verbinden",
+    "sensor2school-phase3": "Werden Sie ein datengesteuerter Bürger und unterstützen Sie Ihre örtliche Gemeinschaft.\n",
+    "sensor2library": "Sensor.Community-Kampagne, um Sensoren in jede Bibliothek dieser Welt zu bringen. \n",
+    "sensor2library-metaTitle": "Sensor.Community-Kampagne, um Sensoren in jede Bibliothek dieser Welt zu bringen. \n",
+    "zero200": "Die #zero200-Kampagne unterstützt Sie bei der Gründung Ihrer lokalen Sensor.Community group.\n",
+    "zero200-metaTitle": "Die #zero200-Kampagne unterstützt Sie bei der Gründung Ihrer lokalen Sensor.Community group.\n",
+    "no2": "Wir messen NO2 mit Diffusionsrohren.\n",
+    "no2-metaTitle": "Wir messen NO2 mit Diffusionsrohren.\n",
+    "no2-phase1": "Start am 01.10.2020 - 10 Städte in Europa messen mit je 30 NO2-Diffusionsrohren.\n",
+    "no2-phase2": "Neue Karte zur Anzeige aller Messungen von NO2-Diffusionsrohren.\n",
+    "no2-phase3": "Hinzufügen aller anderen NO2-Diffusionsrohrkampagnen weltweit zur Karte.\n",
     "getNotified": "\uD83D\uDC8C Abbonieren"
   },
   "collaborations": {
@@ -135,6 +154,7 @@
     "license": "Lizenz",
     "socialLinks": "Verbinden",
     "blog": "Blog",
+    "donate": "Unterstützen",
     "privacy" : "Impressum & Datenschutz",
     "communityProjects": "Community Projekte",
     "communityHubs": "Community Hubs",

@@ -32,14 +32,14 @@ Choisissez le lien correspondsant à votre ordinateur.
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 
 #####  Décompresser et installer le fichier téléchargé pour MacOS.
-* for V2: Décompressez le dossier CP210x et double-cliquez sur le fichier exécutable CP210xVCPInstaller_x64 (or x86)
-* for V3: Décompressez le dossier CH341SER et double-cliquez sur le fichier exécutable SETUP.
+* V2: Décompressez le dossier CP210x et double-cliquez sur l'image disque `SiLabsUSBDriverDisk.dmg` puis sur le fichier exécutable `Install CP210x VCP Driver`
+* V3: Décompressez le dossier CH341SER et double-cliquez sur le fichier exécutable `CH34x_Install_V1.5.pkg`
 * Redémarrez votre Mac
 
 ---
 
 ### Linux
-Aucune installation requise. La platine devrait être immédiatement reconnue (vérifiable with dmesg)
+Aucune installation requise. La platine devrait être immédiatement reconnue (vérifiable avec dmesg)
 
 ---
 ### Firmware Flasher 
@@ -48,7 +48,7 @@ Compatible avec les systèmes d'exploitation suivants : Windows, MacOS and Linux
 * [Installateur airRohr](http://firmware.sensor.community/airrohr/flashing-tool/)
 * [Code source](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
-Connectez la platine NodeMCU à votre ordianteur avec un câble USB court (câble charge + transfert de données, moins de 1 mètre, sinon l'installation peut échouer). Sélectionnez `latest_fr.bin` (ou un autre langue) ét cliquez sur "Téléverser".
+Connectez la platine NodeMCU à votre ordianteur avec un câble USB court (câble charge + transfert de données, moins de 1 mètre, sinon l'installation peut échouer). Sélectionnez `latest_fr.bin` (ou une autre langue) et cliquez sur "Téléverser".
 Attendez la fin du chargement. Vous pouvez maintenant commencer le montage.
 <br>
 Un grand merci à [Piotr, de Pologne](https://dropbox.inf.re/) pour son aide! 🙋‍♂️ 

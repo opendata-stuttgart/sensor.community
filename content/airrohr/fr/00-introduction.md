@@ -4,13 +4,13 @@ title: Introduction
 > 🚧 Fabriquez votre détecteur et prenez part à notre réseau mondial de données ouvertes et de technologies civiques. <br> Avec airRohr, vous pouvez mesurer vous-même la pollution de l'air.
 
 
-<img src="../docs/particulate-matter-air-quality-sensor-kit.jpeg"/>
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
 ### Liste des composants
 ##### Détecteur en kit
 * [Kit avec micrologiciel préinstallé](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
 
-##### Single components
+##### Composants individuels
 * [Platine NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
 * [Détecteur de particules fines SDS011](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=sds011) 
 * Thermomètre & hygromètre BME280 6-PIN

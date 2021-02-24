@@ -2,86 +2,88 @@
 title: Aufbau
 ---
 
-> ⚠️ **IMPORTANT NOTE**
-Before assembling install the firmware!
-See import firmware section.
 
-### NodeMCU v2
-Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized by the connections VU and G (see drawing). The versions have RSV at these ports. In these versions, the VIN ports can be used instead of VU and GND instead of G next to the MicroUSB port.
-
-#### Connection SDS011 for NodeMCU v2
-Pins are numbered from RIGHT to LEFT, make sure when connecting that the cables are sitting on the pins, as most Dupont cables also fit inbetween the pins.
-
-```bash
-SDS011 Pin 1 -> Pin D1 / GPIO5
-SDS011 Pin 2 -> Pin D2 / GPIO4
-SDS011 Pin 3 -> GND
-SDS011 Pin 4 -> unused
-SDS011 Pin 5 -> VU (NodeMCU v3) / VIN (NodeMCU v1,v2)
-SDS011 Pin 6 -> unused
-SDS011 Pin 7 -> unused
-```
-
-#### Connecting DHT22 for NodeMCU v2
-Pins are numbered from LEFT to RIGHT.
-```bash
-DHT22 Pin 1 -> Pin 3V3 (3.3V)
-DHT22 Pin 2 -> Pin D7 (GPIO13)
-DHT22 Pin 3 -> unused
-DHT22 Pin 4 -> Pin GND
-Electronic switch
-```
-
+> ⚠️ **WICHTIGE ANMERKUNG**
+Installiere vor dem Zusammenbau die Firmware!
+Siehe Abschnitt __Firmware-Flasher__.
 
 ### NodeMCU v3
-Note: Our instructions refer to version 3 of the NodeMCU. This can be recognized by the connections VU and G (see drawing). The versions have RSV at these ports. In these versions, the VIN ports can be used instead of VU and GND instead of G next to the MicroUSB port.
+Hinweis: Unsere Anweisungen beziehen sich auf Version 3 der NodeMCU. Dies ist an den Anschlüssen VU und G zu erkennen (siehe Zeichnung). 
 
-![](../docs/airrohr-wiring-sds011-bme280.jpg)
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em" loading="lazy"/>
+<small>Copyright: roman-minyaylov, MIT-Lizenz</small>
 
-#### Connection SDS011
-Pins are numbered from RIGHT to LEFT, make sure when connecting that the cables are sitting on the pins, as most Dupont cables also fit inbetween the pins.
-```bash
-SDS011 Pin 1 -> Pin D1 / GPIO5
-SDS011 Pin 2 -> Pin D2 / GPIO4
-SDS011 Pin 3 -> GND
-SDS011 Pin 4 -> unused
-SDS011 Pin 5 -> VU (NodeMCU v3) / VIN (NodeMCU v1,v2)
-SDS011 Pin 6 -> unused
-SDS011 Pin 7 -> unused
+
+<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>
+
+####### Wenn du fertig bist, sollte es so aussehen
+
+
+### Verdrahten des SDS011
+Die Stifte sind von RECHTS nach LINKS nummeriert. Achte beim Anschließen darauf, dass die Kabel auf den Stiften sitzen, da die meisten Dupont-Kabel auch zwischen die Stifte passen.
+
+```Bash
+SDS011 Stift 1 -> Stift D1 / GPIO5
+SDS011 Stift 2 -> Stift D2 / GPIO4
+SDS011 Stift 3 -> GND
+SDS011 Pin 4 -> unbenutzt
+SDS011 Stift 5 -> VU (NodeMCU v3) / VIN (NodeMCU v1,v2)
+SDS011 Pin 6 -> unbenutzt
+SDS011 Pin 7 -> unbenutzt
 ```
 
-#### Connecting DHT22
-Pins are numbered from LEFT to RIGHT.
-```bash
-DHT22 Pin 1 -> Pin 3V3 (3.3V)
-DHT22 Pin 2 -> Pin D7 (GPIO13)
-DHT22 Pin 3 -> unused
-DHT22 Pin 4 -> Pin GND
+<br>
+
+💡 Weitere [von unserer Firmware unterstützten Sensoren](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md) 
+
+
+
+### Zusammenlöten BME280
+<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:48%; padding-right: 0.5em" class="items-center" loading="lazy"/>
+<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
+
+Verbinde die Stiftleiste mit der BME280-Platine. Löte diese von der Rückseite zusammen. Die Abstände zwischen den Pins sind sehr klein, sei also geduldig und vorsichtig.  
+
+Der Trick besteht darin, die Lötkolbenspitze auf den Pin aufzusetzen, diese etwas zu erwärmen und dann das Lötzinn leicht aufzutragen.  
+
+### Verdrahten den BME280
+Die Stifte sind von LINKS nach RECHTS nummeriert.
+
+```Bash
+VIN -> Stift 3V3 (3,3V)
+GND-> GND/G
+SDA -> PIN D3
+SCL -> Stift D4
 ```
 
-### Tie everything together
-Tie NodeMCU (ESP8266) and SDS011 fine dust sensor together with a cable tie. Point the Wifi antenna away from the sensor (see picture).
+### Alles miteinander verbinden
 
-![](../docs/tie-together-1.png)
+##### Verbinde die NodeMCU und den SDS011 miteinander
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
+Verwende den Kabelbinder, um die NodeMCU (ESP8266) und den SDS011-Sensor so zu verbinden, dass die Wifi-Antenne vom Sensor weg zeigt.
 
-Tie the temperature sensor DHT22 to the tube with another cable tie.
-![](../docs/tie-together-2.png)
+ ##### Flexiblen Schlauch anschließen
+ <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
+ <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
+ 
+* Schließe den flexiblen Schlauch an den Sensor SDS011 an.
+* Verwende den zweiten Kabelbinder, um den Temperatursensor BME280 am Schlauch zu befestigen
+* Führe das USB-Kabel durch das Rohr. Montiere den SDS011 so, dass die NodeMCU nach oben und der Lüfter nach unten zeigt.
 
+ 
+##### Sensor in das Rohr einschieben
+* Schiebe die Teile in das Rohr, so dass es innen eingeklemmt wird.
+* USB-Kabel, flexibler Schlauch und BME280 sollten aus dem Ende des Schlauchs herausschauen.
+* Schiebe das andere Rohr drauf.
 
-![](../docs/tie-together-3.png)
-Pull the USB cable through the pipe.
+<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
-![](../docs/tie-together-4.png)
+###### Endbearbeitung
+* Positioniere den Temperatursensor so auf dem flexiblen Schlauch, dass er sich am Rand des Rohrs befindet.
+* Schneide den flexiblen Schlauch am Ende des Rohrs ab.
+* Optional: Du kannst die offenen Enden des Rohrs mit einem feinen Netz abdecken. So kann die Luft zirkulieren, aber die Insekten bleiben draußen.
+ 
+<img src="../docs/airrohr/position-bme280.jpeg" loading="lazy"/>
 
-Install the SDS011 particutal matter board. The fan is pointing down.
-Push parts into the pipe,  so that the sensor fixates in the pipe.
-
-![](../docs/tie-together-5.png)
-
-
-Tube and USB cable should be looking out of the pipe.
-Connect the second Pipe. Make sure that no cables are pinched.
-Position the temperature sensor at the end, so it still sits inside the pipe.
-Cut the transparent tube. Close the open ends of the pipes with a net or similar, so that the air can circulate but insects stay outside.
-
-![](../docs/tie-together-6.png)
+### Platzierung
+Der ideale Platz wäre 1,5 bis 3,5 Meter über der Straße und gut belüftet. Dies ist jedoch nicht für alle Personen möglich, daher werden bei der Anmeldung Angaben wie Höhe über dem Boden und Lage zur Straße abgefragt.

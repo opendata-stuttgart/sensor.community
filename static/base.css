@@ -1,0 +1,237 @@
+:root {
+	--nav-h:       6rem;
+	--top-offset:  5rem;
+	--sidebar-w:  20rem;
+	--sidebar-mid-w: 36rem;
+	--sidebar-large-w: 48rem;
+	--main-width: 80rem;
+	--side-nav:  3.2rem;
+	--side-page:   var(--side-nav);
+}
+
+/*@media screen and (min-width: 768px) {*/
+/*	:root {*/
+/*		--side-page:  14vw;*/
+/*		--top-offset: 3rem;*/
+/*		--side-nav: 4.8rem;*/
+/*	}*/
+/*}*/
+
+/*	base reset ----------------------------- */
+
+* {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+/*	link reset ----------------------------- */
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+a:hover, a:active { color: #40b3ff }
+a:focus { outline: none }
+
+img {
+	display: inline;
+}
+
+/*
+-----------------------------------------------
+	global styles
+-----------------------------------------------
+*/
+
+/*	typography ----------------------------- */
+.listify h1, h2, h3, h4, h5, h6 { font-weight: 600 }
+.listify h6 { font-size: 1rem }
+.listify h5 { font-size: 1.1rem }
+.listify h4 { font-size: 1.5rem }
+.listify h3 { font-size: 1.7rem }
+.listify h2 { font-size: 2.5rem }
+.listify h1 { font-size: 3rem }
+
+.listify h2 {
+	font-weight: bold;
+	line-height: 1.1;
+	/*margin: 0.25em 0;*/
+}
+
+/*.listify h2:before {*/
+/*	content: " ";*/
+/*	display: block;*/
+/*	border-top: 1px solid #cbdade;*/
+/*	transition: border-color .3s;*/
+/*	padding: 0.25em 0;*/
+/*}*/
+
+
+.listify h3, h4, h5 {
+	margin: 1em 0 0.3em 0;
+}
+/*p, ol, ul {*/
+/*	margin: 0 0 0 0.5em;*/
+/*}*/
+
+.b, b, strong { font-weight: 600 }
+
+tt, code, kbd, samp {
+	font-size: 1.3rem;
+}
+
+code {
+	position: relative;
+	border-radius: .3em;
+	white-space: nowrap;
+	color: #343434;
+	-webkit-font-smoothing: initial;
+}
+
+pre code {
+	top: 0;
+	white-space: inherit;
+	color: white;
+}
+
+
+:not(pre) > code {
+	color: #b32585;
+	padding: .2rem .33rem;
+	vertical-align: 1%;
+	font-size: .78em;
+	background-color: rgba(212, 53, 159, 0.03);
+}
+
+
+/* sync CodeMirror with prism  */
+.CodeMirror {
+	font-size: 1.3rem !important;
+}
+
+::selection {
+	background: #40b3ff;
+	color: white;
+}
+
+/*	opinionated styles --------------------- */
+
+/*li:not(.white) > h2 {*/
+/*	color: #676778*/
+/*}*/
+
+.listify blockquote {
+	margin: 0 0 2em;
+	padding: 0 1.5em;
+	border-left: .25em solid #e2ecec;
+	transition: border-color .3s;
+	font-size: 1.1rem;
+}
+
+.listify blockquote p {
+	font-size: 1.1em;
+}
+
+.listify blockquote :last-child {
+	margin: 0;
+}
+
+
+/*  links ------------------------------------- */
+.listify a {
+	/*text-decoration: none;*/
+	color: #00a672;
+	-webkit-transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+	transition: box-shadow .2s ease-in-out, color .2s ease-in-out;
+	padding: 0.2em;
+	text-decoration: none;
+	text-decoration-color: #e2cece;
+
+}
+
+.listify  a:hover  {
+	box-shadow: inset 0 -1.5em 0 rgba(0, 166, 114, 0.2);
+	color: #008057;
+	padding: 0.2em;
+}
+
+.listify a.no-underline {
+	border-bottom: none;
+	padding: 0;
+}
+
+.listify  a:hover:not(.disabled) > .icon { stroke: #40b3ff }
+
+/*  lists ---------------------------------- */
+.listify ol,
+.listify ul {
+	list-style: none;
+	margin-left: 2.9rem;
+}
+
+.listify ol > li,
+.listify ul > li {
+	line-height: 1.5;
+	margin: 0 0 0.4rem 0;
+}
+
+.listify ul > li:before {
+	content: '';
+	position: absolute;
+	margin-top: 0.5rem;
+	margin-left: -1.8rem;
+	background-color: #676778;
+	width: .5rem;
+	height: .5rem;
+}
+
+/*.listify ol { list-style: disc }*/
+
+/*.listify p {*/
+/*	padding-left: 1rem;*/
+/*}*/
+
+/*  tables --------------------------------- */
+table {
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+td, th {
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding: 0.4rem 0.8rem 0.4rem 0;
+}
+
+table code, table span {
+	white-space: pre;
+}
+
+/*	helper styles -------------------------- */
+.flex-auto { flex: 1 0 auto }
+
+.py0 {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.legend, figcaption, .post aside {
+	max-width: none;
+	margin: 0 auto;
+	padding: 1.6rem 0 0 .8rem;
+}
+
+.filename {
+	display: inline-block;
+	padding: 1.6rem 0 0 1rem;
+	/*font: 1rem var(--font-mono);*/
+}
+
+.box {
+	padding: 2.4rem 3.2rem;
+	border-radius: .4rem;
+}
+
+

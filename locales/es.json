@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "home": "Página Principal",
+    "docs": "Sensor",
+    "blog": "Blog",
+    "projects": "Proyectos",
+    "forum": "Foro",
+    "sensor": "Sensor",
+    "donate": "Donar"
+  },
+  "error": {
+    "errorStatus": "Encontré un error de {status}.",
+    "reloadPage": "Por favor, intente recargar la página.",
+    "offline": "Parece que estás desconectado.",
+    "submitError": "Si el error persiste, por favor pasa por el <a href=\"forum.sensor.community\">foro de discusión</a> y háznoslo saber, o plantea un problema en <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. ¡Gracias!"
+  },
+  "index": {
+    "metaDescription": "Construya su sensor DIY y forme parte de la red mundial de ciencia ciudadana, datos abiertos y tecnología cívica. Apoyado por un montón de contribuyentes \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Construye tu propio sensor y únete a la red mundial de tecnología civil",
+    "h1-build": "Construye tu propio sensor",
+    "h1-become": "y formar parte de la ",
+    "h1-civic-tech": "Red mundial de Civic Tech \uD83C\uDF10",
+    "h1-support": "Apoyado por un montón de",
+    "h1-contributors": "contribuyentes \uD83D\uDC95",
+    "inNumbers-title": "Sensor.Community en números",
+    "inNumbers-activeSensors": "Sensores activos en todo el mundo",
+    "inNumbers-countries": "Países",
+    "inNumbers-dataPoints": "Data Points",
+    "inNumbers-communityProjects": "Proyectos comunitarios",
+    "inNumbers-communityHubs": "Community Labs",
+    "inNumbers-commits": "GitHub Commits",
+    "inNumbers-fetching": "... datos atractivos",
+    "inNumbers-error": "¡Se ha producido un error!",
+    "message-description": "Sensor.Community es una red de sensores global impulsada por los contribuyentes que crea Datos Ambientales Abiertos.",
+    "message-mission": "Nuestra misión es inspirar y enriquecer la vida de las personas ofreciendo una plataforma para la curiosidad colectiva en la naturaleza que sea genuina, alegre y positiva.",
+    "message-hubs": "tiene centros globales en Stuttgart, Sofía y Varsovia."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Encuentre su sensor y las instrucciones de construcción para su sensor de polvo fino DYI",
+    "h1": "Kits de sensores",
+    "subtitle": " Encuentre nuestro guides️ para su sensor",
+    "airSensorTitle": "Aire",
+    "noiseSensorTitle": "Ruido"
+  },
+  "guide": {
+    "editOnGithub": "editar en Github"
+  },
+  "airrohr": {
+    "metaTitle": "Construye tu propio sensor de partículas.",
+    "metaDescription": ""
+  },
+  "dnms": {
+    "metaTitle": "Construye tu propio sensor de medición de ruido.",
+    "metaDescription": ""
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Foro",
+    "h1": "Foro",
+    "subtitle": "Próximamente",
+    "getNotified": "\uD83D\uDC8C Suscríbete"
+  },
+  "donate": {
+    "metaDescription": "Somos una organización sin fines de lucro, no corporativa y no comprometida. La gente como usted nos ayuda. Dependemos de las donaciones para llevar a cabo nuestra misión.",
+    "metaTitle": "Dona - ayúdanos mostrando tu amor",
+    "h1": "Muestra tu apoyo",
+    "description": "Somos una organización sin fines de lucro, no corporativa y no comprometida. La gente como usted nos ayuda. Dependemos de las donaciones para llevar a cabo nuestra misión.",
+    "section": "Formas de apoyar",
+    "campaign": "Campaña en marcha",
+    "donation": "Donación directa",
+    "holder": "Titular de la cuenta",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Banco",
+    "intendedUse": "Uso previsto",
+    "donationDescription": "La Fundación de Conocimiento Abierto de Alemania está reconocida como una organización sin fines de lucro."
+  },
+  "blog": {
+    "metaDescription": "Noticias",
+    "metaTitle": "Noticias",
+    "h1": "Mensajes recientes",
+    "description": " Encontrar noticias u otra información interesante"
+  },
+  "contributors": {
+    "metaDescription": "La gente detrás del proyecto",
+    "metaTitle": "Contribuyentes de Sensor.Community",
+    "h1": "Hola del equipo \uD83D\uDC4B",
+    "description": "Conoce al equipo que está trabajando entre bastidores para aprovechar el poder de Sensor.Community.",
+    "contactBottom": "\uD83D\uDCEE favor, use las opciones de contacto al final de la página.",
+    "meetTeam": "Conoce al equipo"
+  },
+  "projects": {
+    "metaDescription": "Encuentra aplicaciones para móviles, páginas web,... de nuestra encantadora comunidad \uD83D\uDC96",
+    "metaTitle": "Proyectos comunitarios",
+    "h1": "Proyectos comunitarios",
+    "description": "Encuentra aplicaciones para móviles, páginas web,... de nuestra encantadora comunidad \uD83D\uDC96️",
+    "submitIdea": "¿Tener un gran proyecto? Compártelo con la comunidad!",
+    "submitProject": "Presenta tu proyecto →"
+  },
+  "hubs": {
+    "metaDescription": "Encuentra comunidades alrededor del mundo \uD83D\uDC96️",
+    "metaTitle": "Centros de la Comunidad",
+    "h1": "Centros de la Comunidad",
+    "description": "Encuentra comunidades alrededor del mundo \uD83D\uDC96️️"
+  },
+  "campaigns": {
+    "title": "Únete a una campaña"
+  },
+  "campaign": {
+    "h1": "Campaña",
+    "subtitle": "Próximamente",
+    "getNotified": "\uD83D\uDC8C Suscríbete"
+  },
+  "collaborations": {
+    "h1": "Colaboraciones",
+    "subtitle": "Próximamente",
+    "getNotified": "\uD83D\uDC8C Suscríbete"
+  },
+  "location": {
+    "h1": "Ubicación",
+    "subtitle": "Próximamente",
+    "getNotified": "\uD83D\uDC8C Suscríbete"
+  },
+  "partnership": {
+    "title": "Colaboraciones"
+  },
+  "contact": {
+    "title": "Contacto",
+    "general": "Contacto",
+    "general-subtitle": "¿preguntas generales?",
+    "partnership": "Asociación",
+    "partnership-subtitle": "¿quieres asociarte con nosotros?",
+    "press": "Prensa",
+    "press-subtitle": "¿Ideas de artículos?",
+    "tech": "Tech",
+    "tech-subtitle": "¿preguntas técnicas?"
+  },
+  "footer": {
+    "importantLinks": "Enlaces importantes",
+    "sitemap": "Mapa del sitio",
+    "license": "Licencia",
+    "socialLinks": "Conectar",
+    "blog": "Blog",
+    "donate": "Donar",
+    "privacy" : "Privacidad y Términos",
+    "communityProjects": "Proyectos comunitarios",
+    "communityHubs": "Community Hubs",
+    "contributors": "Contribuyentes",
+    "mission" : "Hacer del mundo un lugar mejor a través de datos ambientales abiertos y dirigidos por la comunidad.",
+    "withLove": "Hecho con \uD83D\uDC95 en Stuttgart, Alemania"
+  },
+  "imprint": {
+    "h1": "Pie de imprenta y privacidad",
+    "lastModified": "Last Modified: ",
+    "imprint": "Imprimir",
+    "imprintName": "Nombre: Rajko Zschiegner",
+    "imprintStreet": "Calle:  Reichenbacher Str. 20",
+    "imprintPostalCode": "Código postal: 07973 Greiz",
+    "imprintCountry": "País: Germany",
+    "imprintMail": "Email: rajko@sensor.community",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Responsable",
+    "privacyPolicyDesc": "Con esta política de privacidad queremos informarle sobre el tipo, alcance y finalidad del tratamiento de los datos personales en nuestro sitio web. Los datos personales son todos los datos que tienen una referencia personal a usted, por ejemplo, el nombre, la dirección, la dirección de correo electrónico o el comportamiento del usuario. Con respecto a los términos utilizados, como \"tratamiento\" o \"persona responsable\", nos remitimos a las definiciones del Art. 4 del Reglamento Básico de Protección de Datos (DSGVO/GDPR)",
+    "privacyPolicyName": "Nombre: Rajko Zschiegner",
+    "privacyPolicyStreet": "Calle:  Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Código postal: 07973 Greiz",
+    "privacyPolicyCountry": "País: Germany",
+    "privacyPolicyMail": "Email: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Contacto por correo electrónico, medios sociales o teléfono",
+    "privacyPolicyContactDescription": "n la medida en que usted se dirija al correo electrónico, teléfono o medios de comunicación social ofrecidos en nuestro sitio web y nos proporcione datos personales, estos datos serán almacenados y procesados automáticamente por nuestro equipo para procesar su consulta. Estos datos sólo se procesan para la correspondencia con usted. Necesitamos su dirección de correo electrónico para poder responder a su consulta. Necesitamos su número de teléfono para poder responder a su solicitud de devolución de llamada. Base legal: La base legal para el uso de sus datos como se describe arriba es el Art. 6 párrafo. 1 lit. a DSGVO. Eliminación: Los datos personales recogidos por nosotros serán eliminados si ya no son necesarios. Comprobamos la necesidad cada 2 años. También puede revocar el procesamiento de los datos en cualquier momento."
+  }
+}

@@ -12,7 +12,7 @@
     "errorStatus": "Une erreur {status} est survenue.",
     "reloadPage": "Veuillez recharger la page.",
     "offline": "Il semble que vous soyez hors ligne.",
-    "submitError": "Si l'erreur persiste, veuillez laisser un message sur <a href=\"chat.sensor.community\">Discourse forum</a> pour nous informer, ou signaler le problème sur <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Merci!"
+    "submitError": "Si l'erreur persiste, veuillez laisser un message sur <a href=\"forum.sensor.community\">Discourse forum</a> pour nous informer, ou signaler le problème sur <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Merci!"
   },
   "index": {
     "metaDescription": "Fabriquez vous-même votre détecteur et prenez part à un projet mondial de science citoyenne, de données ouvertes et de technologie civique soutenu par de nombreux contributeurs \uD83D\uDC95",
@@ -32,14 +32,16 @@
     "inNumbers-fetching": "... collecte des données",
     "inNumbers-error": "Une erreur est survenue !",
     "message-description": "Sensor.Community est un réseau global de détecteurs mis en œuvre par des contributeurs bénévoles pour créer des données environnementales.",
-    "message-mission": "Notre mission est d'inspirer et d'enrichir la vie de nos concitoyens en mettant à disposition une plateforme favoriant la curiosité pour la nature de manière authentique, joyeuse et positive.",
+    "message-mission": "Notre mission est d'inspirer et d'enrichir la vie de nos concitoyens en mettant à disposition une plateforme favorisant la curiosité pour la nature de manière authentique, joyeuse et positive.",
     "message-hubs": "Sensor.Community possède d'importants centres de coordination à Stuttgart, Sofia, Varsovie et Bruxelles."
   },
   "sensor": {
     "metaDescription": "",
     "metaTitle": "Trouvez ici votre détecteur de particules fines et sa notice de montage",
     "h1": "Kits de détecteurs",
-    "subtitle": " Nos guides pour vos détecteurs"
+    "subtitle": " Nos guides de montage pour vos détecteurs",
+    "airSensorTitle": "Air",
+    "noiseSensorTitle": "Bruit"
   },
   "guide": {
     "editOnGithub": "edit on Github"
@@ -134,6 +136,7 @@
     "importantLinks": "Liens importants",
     "sitemap": "Plan du site",
     "license": "Licence",
+    "donate": "Soutenir",
     "socialMedia": "Connection"
   },
   "nav": {
@@ -169,14 +172,16 @@
     "inNumbers-fetching": "... collecte des données",
     "inNumbers-error": "Une erreur est survenue !",
     "message-description": "Sensor.Community est un réseau global de détecteurs mis en œuvre par des contributeurs bénévoles pour créer des données environnementales.",
-    "message-mission": "Notre mission est d'inspirer et d'enrichir la vie de nos concitoyens en mettant à disposition une plateforme favoriant la curiosité pour la nature de manière authentique, joyeuse et positive.",
+    "message-mission": "Notre mission est d'inspirer et d'enrichir la vie de nos concitoyens en mettant à disposition une plateforme favorisant la curiosité pour la nature de manière authentique, joyeuse et positive.",
     "message-hubs": "Sensor.Community possède d'importants centres de coordination à Stuttgart, Sofia, Varsovie et Bruxelles."
   },
   "sensor": {
     "metaDescription": "",
     "metaTitle": "Trouvez ici votre détecteur de particules fines et sa notice de montage",
     "h1": "Kits de détecteurs",
-    "subtitle": " Nos guides pour vos détecteurs"
+    "subtitle": " Nos guides de montage pour vos détecteurs",
+    "airSensorTitle": "Air",
+    "noiseSensorTitle": "Bruit"
   },
   "forum": {
     "metaDescription": "",

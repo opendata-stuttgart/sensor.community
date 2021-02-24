@@ -1,18 +1,21 @@
 {
   "nav": {
     "home": "Home",
-    "docs": "Sensor",
+    "docs": "Guides",
     "blog": "Blog",
     "projects": "Projects",
     "forum": "Forum",
-    "sensor": "Sensor",
-    "donate": "Donate"
+    "sensor": "Guides",
+    "donate": "Donate",
+    "langHelpWanted": "Help wanted",
+    "langCallTo": "Missing your language?",
+    "langDescription": "Provide your translation via GitHub"
   },
   "error": {
     "errorStatus": "Encountered a {status} error.",
     "reloadPage": "Please try reloading the page.",
     "offline": "It looks like you're offline.",
-    "submitError": "If the error persists, please drop by <a href=\"chat.sensor.community\">Discourse forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
+    "submitError": "If the error persists, please drop by <a href=\"forum.sensor.community\">our forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
   },
   "index": {
     "metaDescription": "Build your DIY sensor and become part of the worldwide citizen science, open data, civic tech network. Supported by a lot of contributors \uD83D\uDC95",
@@ -39,13 +42,19 @@
     "metaDescription": "",
     "metaTitle": "Find your sensor and building instructions for your DYI fine dust sensor",
     "h1": "Sensor Kits",
-    "subtitle": " Find our guides️ for your sensor"
+    "subtitle": "Choose an assembly guide and build your sensor.",
+    "airSensorTitle": "Air",
+    "noiseSensorTitle": "Noise"
   },
   "guide": {
     "editOnGithub": "edit on Github"
   },
   "airrohr": {
     "metaTitle": "Build your own particulate matter sensor.",
+    "metaDescription": ""
+  },
+  "dnms": {
+    "metaTitle": "Build your own noise measuring sensor.",
     "metaDescription": ""
   },
   "forum": {
@@ -104,6 +113,28 @@
   "campaign": {
     "h1": "Campaign",
     "subtitle": "Coming soon",
+    "phase1": "Phase 1:",
+    "phase2": "Phase 2:",
+    "phase3": "Phase 3:",
+    "refs": "Sensor.Community campaign to bring sensors at every reference station in this world.\n",
+    "refs-metaTitle": "Sensor.Community campaign to bring sensors at every reference station in this world.\n",
+    "refs-phase1": "Display locations of all reference stations.\n",
+    "refs-phase2": "Display meta information of reference stations.\n",
+    "refs-phase3": "Display measurement values of reference stations.\n",
+    "sensor2school": "Sensor.Community campaign to bring sensors at every school in this world.\n",
+    "sensor2school-metaTitle": "Sensor.Community campaign to bring sensors at every school in this world.\n",
+    "sensor2school-phase1": "Register and become an open environmental data contributor.\n",
+    "sensor2school-phase2": "Connect with the global Sensor.Community.\n",
+    "sensor2school-phase3": "Become data driven citizen and support your local community.\n",
+    "sensor2library": "Sensor.Community campaign to bring sensors at every library in this world.\n",
+    "sensor2library-metaTitle": "Sensor.Community campaign to bring sensors at every library in this world.\n",
+    "zero200": "#zero200 campaign supports you in launching your local Sensor.Community group.\n",
+    "zero200-metaTitle": "#zero200 campaign supports you in launching your local Sensor.Community group.\n",
+    "no2": "We measure NO2 with diffusion tubes.\n",
+    "no2-metaTitle": "We measure NO2 with diffusion tubes.\n",
+    "no2-phase1": "Launching on 01.10.2020 - 10 cities in Europe measure with 30 NO2 diffusion tubes each.\n",
+    "no2-phase2": "New Map to display all NO2 diffusion tubes measurements.\n",
+    "no2-phase3": "Adding all other NO2 diffusion tube campaigns worldwide to the Map.\n",
     "getNotified": "\uD83D\uDC8C Subscribe"
   },
   "collaborations": {
@@ -136,10 +167,12 @@
     "license": "License",
     "socialLinks": "Connect",
     "blog": "Blog",
+    "donate": "Donate",
     "privacy" : "Privacy & Terms",
     "communityProjects": "Community Projects",
     "communityHubs": "Community Hubs",
     "contributors": "Contributors",
+    "mission" : "Making the world a better place through community driven, open environmental data.",
     "withLove": "Made with \uD83D\uDC95 in Stuttgart, Germany"
   },
   "imprint": {

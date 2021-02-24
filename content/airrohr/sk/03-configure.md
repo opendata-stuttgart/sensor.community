@@ -25,12 +25,12 @@ title: Kofigurácia
 
 <br>
 
-![](../docs/airrohr_config_initial.png)
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
 <br>
 
 ### Otestujte senzor
 Ak ste okrem zadania údajov WiFi siete nespravili žiadne iné zmeny, senzor môžete po cca. 10 minútach "otestovať" na nasledujúcich stránkach . Na týchto stránkach vyhľadajte vaše ChipID (v príklade vyššie 13597771).
 
 
- * [Data zo senzora](www.madavi.de/sensor/graph.php)
- * [WiFi signál](www.madavi.de/sensor/signal.php)
+ * [Data zo senzora](https://www.madavi.de/sensor/graph.php)
+ * [WiFi signál](https://www.madavi.de/sensor/signal.php)

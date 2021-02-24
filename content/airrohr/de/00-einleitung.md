@@ -1,24 +1,32 @@
 ---
 title: Einleitung
 ---
+> 🚧 Baue deinen DIY-Sensor und werde ein Teil des weltweiten OpenData & CivicTech Netzwerks. Mit airRohr kannst du die Luftverschmutzung selbst messen.
 
->  Baue einen DIY-Feinstaub-Sensor und werden Sie Teil des weltweiten open data- und civic tech-Netzwerks. Mit airrohr können Sie die Luftverschmutzung selber messen.
 
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
-### Shopping list
+### Einkaufsliste
+###### Sensor-Bausatz
+* [Vorgeflashtes Sensor-Kit](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
 
+###### Einzelne Komponenten
 * [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
-* [SDS011 Fine dust sensor](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=sds011) 
-* [BME, temperature, humidity & pressure](https://www.aliexpress.com/item/32961882719.html?spm=a2g0o.productlist.0.0.10a4562eLL4P7Z&algo_pvid=6b91fd1b-ec5c-4d97-bc06-5b8c0504b748&algo_expid=6b91fd1b-ec5c-4d97-bc06-5b8c0504b748-2&btsid=0b0a0ae215824005174267436e2254&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
-* [Cable](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
-* [USB cable e.g.: flat 2m Micro-USB](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=micro+usb+cable+flat)
-* [Power supply USB]()
-* [Cable straps]()
-* [Flexible tube, if possible not transparent, diameter 6 mm, length approx. 20cm DIY store]()
-* [Weather protection, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
+* [SDS011 Feinstaub-Sensor](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=sds011) 
+* BME280 6-PIN, Temperatur & Feuchtigkeit & Luftdruck
+  - [über Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)
+  - [über Nettgio](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280)
+  - [über Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+* [Kabel](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+Kabel+20cm+Buchse-Buchse)(http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+Kabel+20cm+Buchse-Buchse)
+* [USB-Kabel z.B.: flach 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flach+Kabel+2m)
+* [Stromversorgung USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+Stromversorgung+Netzteil)
+* [Kabelbinder](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+Bänder)
+* Flexibler Schlauch, wenn möglich **nicht** transparent, Durchmesser 6 mm, Länge ca. 20cm Baumarkt
+* [Witterungsschutz, Marley Silent HT Bogen DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 
-### Waiting Phase
-🙌 Great, you decided to but the parts online! 
-Unfortunaltely this can take up to four weeks. 
-So enjoy your life until.
+<br>
+
+🙌 Toll, du hast dich entschieden, die Teile online zu kaufen! 
+Leider kann die Lieferung einige Tagen oder bis zu drei Wochen dauern. 
+Genieße bis dahin dein Leben .

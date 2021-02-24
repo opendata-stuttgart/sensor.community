@@ -44,9 +44,10 @@ Website is based on [Svelte 3](https://svelte.dev) and [Sapper](https://sapper.s
 Please consider reading the documentation.
 
 ## Translation
+
 1. Create locale file
 
-duplicate `locales/en.json` file and rename it to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding, for example *vn* for Vietnam.
+duplicate `locales/en.json` file and rename it to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding, for example *fr* for French.
 Translate the **values** in the locale file:
 ```javascript
 {
@@ -55,6 +56,14 @@ Translate the **values** in the locale file:
         ...
     },
 ```
+
+Now duplicate `content/airrohr/en` folder and rename it again to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding.
+
+![assembly guide](assembly-guide-markdown.png)
+
+It's written in markdown. To get used to the markdown syntax, visit [www.markdownguide.org](https://www.markdownguide.org/getting-started/).
+
+**FYI** You can leave the filename. The title will be taken from the beginning of each file, see picture above.
 
 2. Add new language to the init18n.js
 
@@ -85,11 +94,37 @@ function initI18n(lng = 'en') {
 
 3. Add language to the navbar
 
-To add the language in the navbar go to `src/components/LanguageSwitcher.svelte`. Scroll down to around Line 140 and add this line with the corresponding language.
+To add the language in the navbar go to `src/components/LanguageSwitcher.svelte`. Scroll down to around Line 24 and add this line with the corresponding language.
+
+```javascript
+const langauges = [
+        "gb", "de", "fr", "it", "sk", "ru" // <- add new lanuage in the array
+    ]
 ```
-<a href="{`fr/${pathWithoutLang}`}" class="uppercase block md:pr-4"
-               class:selected="{lang === 'fr' ? 'selected' : ''}">{flag('fr')}</a>
-```
+
+4. Add endpoints
+
+ Duplicate inside `src/routes/endpoints/airrohr` or `src/routes/endpoints/dnms`  then `en` folder to the [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1), e.g. `fr`. Inside the `index.json.js` file change line 8.
+ 
+ ````javascript
+import send from '@polka/send';
+import generate_docs from '../../../../utils/generate_docs.js';
+
+let json;
+
+export function get(req, res) {
+    if (!json || process.env.NODE_ENV !== 'production') {
+        json = JSON.stringify(generate_docs('airrohr/fr'));  // <- change the lanuage iso-code 
+    }
+
+    send(res, 200, json, {
+        'Content-Type': 'application/json'
+    });
+	
+}
+
+````
+
 
 ## Bugs and feedback
 The website is in early development, and may have the rough edge here and there. 
