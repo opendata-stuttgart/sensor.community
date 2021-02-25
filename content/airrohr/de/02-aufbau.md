@@ -37,7 +37,6 @@ SDS011 Pin 7 -> unbenutzt
 💡 Weitere [von unserer Firmware unterstützten Sensoren](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md) 
 
 
-
 ### Zusammenlöten BME280
 <img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:48%; padding-right: 0.5em" class="items-center" loading="lazy"/>
 <img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
@@ -65,11 +64,10 @@ Verwende den Kabelbinder, um die NodeMCU (ESP8266) und den SDS011-Sensor so zu v
  ##### Flexiblen Schlauch anschließen
  <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
  <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
- 
+
 * Schließe den flexiblen Schlauch an den Sensor SDS011 an.
 * Verwende den zweiten Kabelbinder, um den Temperatursensor BME280 am Schlauch zu befestigen
 * Führe das USB-Kabel durch das Rohr. Montiere den SDS011 so, dass die NodeMCU nach oben und der Lüfter nach unten zeigt.
-
  
 ##### Sensor in das Rohr einschieben
 * Schiebe die Teile in das Rohr, so dass es innen eingeklemmt wird.

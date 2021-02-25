@@ -64,11 +64,10 @@ Use a cable tie to link the NodeMCU (ESP8266) and the SDS011 sensor so that the 
  ##### Connect flexible tube
  <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
  <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
- 
+
 * connect the flexible tube to the SDS011 sensor
 * Use another cable tie to attach the BME280 temperature sensor to the tube
 * Pass the USB cable through the tube. Mount the SDS011 with the NodeMCU facing to the top and the fan facing to the bottom
-
  
  ##### Push in sensor into the pipe
 * Push the parts into the tube, so it's jammed inside

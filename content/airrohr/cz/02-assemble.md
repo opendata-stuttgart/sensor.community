@@ -63,7 +63,6 @@ Stahovací svorkou svažte NodeMCU (ESP8266) a senzor SDS011 tak, aby Wifi anté
 * Použijte další svorku pro připojení teplotního čidla BME280 k hadičce.
 * Provlečte USB kabel skrz plastové koleno. Namontujte SDS011 tak, aby NodeMCU směřovala nahoru a ventilátor senzoru směřoval dolů.
 
-
  ##### Vložte senzor do plastového kolena
 * Zasuňte součástky do kolena tak, aby se uvnitř zasekly.
 * USB kabel, ohebná trubička and senzor BME280 by měly čouhat z konce plastového kolena.

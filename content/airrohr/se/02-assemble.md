@@ -54,11 +54,10 @@ Använd en buntband för att länka NodeMCU (ESP8266) och SDS011-sensorn så att
 ##### Anslut flexibelt rör
 <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
 <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
- 
+
 * anslut det flexibla röret till SDS011-sensorn
 * Använd en annan buntband för att fästa BME280-temperatursensorn till röret
 * För USB-kabeln genom röret. Montera SDS011 med NodeMCU vänd uppåt och fläkten vänd mot botten
-
  
 ##### Skjut in sensorn i röret
 * Skjut in delarna i röret så att det fastnar inuti

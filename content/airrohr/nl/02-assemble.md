@@ -33,8 +33,6 @@ SDS011 Pin 7 -> niet aangesloten
 
 Steek de pinheader vanaf de achterkant (dekant zonder componenten) door het BME280 bord. Soldeer vanaf de kant met de componenten. De afstand tussen de pinnen is erg klein, dus wees geduldig en voorzichtig. De truuk is om de soldeerbout tegen de pin te houden, deze op te warmen en dan de soldeer toe te voegen.
 
-
-
 ### Aansluiten van de BME280
 Pinnen zijn genummerd van LINKS naar RECHTS.
 ```bash
@@ -58,11 +56,10 @@ Gebruik een kabelbinder om de NodeMCU en de SDS011-sensor aan elkaar te verbinde
 ##### Verbind de flexibele slang
 <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
 <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
- 
+
 * Steek de flexibele slang op de SDS011 sensor
 * Gebruik een kabelbinder om de BME280-temperatuursensor aan de slang te binden
 * Haal de USB-kabel door de pijp. Monteer de SDS011 met de NodeMCU naar boven wijzend en de ventilator naar beneden
-
  
  ##### Stop de sensor in de pijp
 * Duw de onderdelen in de pijp, zodat ze stevig vast zitten

@@ -63,7 +63,6 @@ Pomocou svorky spojte NodeMCU (ESP8266) a senzor prachových častíc SDS011 tak
 * Použite ďalšiu svorku na pripojenie BME280 senzora k hadičke.
 * Prevlečte USB kábel cez kolienko. Namontujte SDS011 tak, aby NodeMCU smerovala hore a ventilátor smeroval dole.
 
-
  ##### Vložte senzor do plastového kolena
 * Zasuňte súčiastky do kolena tak, aby sa zasekli vo vnútri.
 * USB kábel, ohybná hadička a senzor BME280 by mali trčať z konca plastového kolena.
