@@ -45,7 +45,7 @@ Please consider reading the documentation.
 
 ## Translation
 
-1. Create locale file
+**1. Create locale file**
 
 duplicate `locales/en.json` file and rename it to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding, for example *fr* for French.
 Translate the **values** in the locale file:
@@ -65,7 +65,7 @@ It's written in markdown. To get used to the markdown syntax, visit [www.markdow
 
 **FYI** You can leave the filename. The title will be taken from the beginning of each file, see picture above.
 
-2. Add new language to the init18n.js
+**2. Add new language to the init18n.js**
 
 Go to `src/utils/initI18n.js`. Add the new language, in this case it's French.
 First add the path to the locale file, then add it to the resources.
@@ -92,7 +92,7 @@ function initI18n(lng = 'en') {
     export async function preload(page) {...
 ```
 
-3. Add language to the navbar
+**3. Add language to the navbar**
 
 To add the language in the navbar go to `src/components/LanguageSwitcher.svelte`. Scroll down to around Line 24 and add this line with the corresponding language.
 
@@ -102,7 +102,7 @@ const langauges = [
     ]
 ```
 
-4. Add endpoints
+**4. Add endpoints**
 
  Duplicate inside `src/routes/endpoints/airrohr` or `src/routes/endpoints/dnms`  then `en` folder to the [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1), e.g. `fr`. Inside the `index.json.js` file change line 8.
  
