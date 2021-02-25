@@ -1,5 +1,5 @@
 ---
-title: Desky plošných spojů a schémata zapojení
+title: Desky plošných spojů
 ---
 
 Nejlepší způsob, jak si postavit DNMS, je použít jednu z našich desek plošných spojů (PCB).
