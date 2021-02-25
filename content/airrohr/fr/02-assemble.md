@@ -56,11 +56,11 @@ Utilisez un serre-câble pour attacher le NodeMCU et le SDS011, de manière à c
  ##### Tube flexible
  <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
  <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
- 
+
 * Connectez le tube flexible sur le capteur de particules fines SDS011.
 * Avec un serre-câble, attachez le thermomètre/hygromètre BME280 sur le tube flexible.
 * passez le câble USB dans un des coudes PVC. Placez le SDS011 de manière à ce que le NodeMCU soit vers le haut et le petit ventilateur vers le bas. Le tube flexible et le câble USB sont du même côté.
- 
+
  ##### Coudes PVC
 * Insérez l'ensemble SDS011/NodeMCU dans un des coudes PVC.
 * Le câble USB, le tube flexible et le BME280 doivent être visibles comme ci-dessous.
