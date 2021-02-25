@@ -60,7 +60,7 @@ Do połączenia NodeMCU (ESP8266) z czujnikiem SDS011 należy użyć opaski kabl
  ##### Podłączenie rury elastycznej
  <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
  <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
- 
+
 * podłącz elastyczną rurkę do czujnika SDS011
 * Użyj innej opaski kablowej do przymocowania czujnika temperatury BME280 do rurki
 * Przepuść kabel USB przez tubę. Zamontować SDS011 z modułem NodeMCU skierowanym do góry i wentylatorem skierowanym do dołu.
