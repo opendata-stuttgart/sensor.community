@@ -22,7 +22,7 @@
     }
 
     const langauges = [
-        "gb", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se"
+        "gb", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt"
     ]
 </script>
 
