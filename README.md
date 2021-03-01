@@ -58,6 +58,7 @@ Translate the **values** in the locale file:
 ```
 
 Now duplicate `content/airrohr/en` folder and rename it again to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding.
+Also duplicate `content/dnms/en`for the DNMS guide. Translate both 
 
 ![assembly guide](assembly-guide-markdown.png)
 
