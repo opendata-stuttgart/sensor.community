@@ -1,5 +1,5 @@
 <script context="module">
-    const LANGUAGES = ["en", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "nl", "es", "ua", "se"];
+    const LANGUAGES = ["en", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "nl", "es", "ua", "se", "pt"];
     const DEFAULT_LANGUAGE = "en";
 
     export async function preload(page) {
