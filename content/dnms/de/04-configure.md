@@ -33,7 +33,7 @@ title: Konfiguration
 
 > ⚠️ **Bitte beachten** Es kann einige Versuche dauern, bis die NodeMCU eine Verbindung mit deinem WLAN herstellen kann. Bitte werde nicht ungeduldig und versuche es, bis es funktioniert. Der Sensor kann auch über ein Smartphone konfiguriert werden. Wenn die Konfiguration des Sensors funktioniert hat, ist die Konfigurationsseite unter dieser IP 192.168.4.1 nicht mehr zugänglich.
 
-### Konfigurieren Sie die Station
+### Station konfigurieren
 1. Gib unter 'Konfigurieren' deine SSID (Name deines WiFi-Heimnetzwerks) und den Netzwerksicherheitsschlüssel (unter Windows) bzw. das WiFi-Passwort ein.
 
 2. Für Lärmsensoren (DNMS) sind gemäß dieser Anleitung keine weiteren Änderungen erforderlich
@@ -45,7 +45,7 @@ title: Konfiguration
 <img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
 <br>
 
-### Testen Sie die Station
+### Station testen
 Wenn außer der Eingabe der Daten des WiFi-Netzwerks keine Änderungen vorgenommen wurden, kann der Sensor nach etwa 10 Minuten auf den folgenden Seiten "getestet" werden. Auf diesen Seiten muss nach der chipID gesucht werden (im obigen Beispiel die 13597771).
 
 * [Sensordaten](https://www.madavi.de/sensor/graph.php)

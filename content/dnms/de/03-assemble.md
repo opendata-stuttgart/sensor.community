@@ -1,126 +1,124 @@
 ---
-title: Assemble
+title: Aufbau
 ---
-> ⚠️ **IMPORTANT NOTE**
-Before assembling install the firmware!
-See __firmware flasher__ section.
+> ⚠️ **WICHTIGE ANMERKUNG**
+Installiere vor dem Zusammenbau die Firmware!
+Siehe Abschnitt __Firmware-Flasher__.
 
 
-### Microphone unit
+### Mikrofoneinheit
 
-The microphone unit is based on Pesky Products breakout board with a MEMS microphone ICS-43434. You can fin such board at the [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/). 
+Die Mikrofoneinheit basiert auf einem Breakout-Board von Pesky Products mit einem MEMS-Mikrofon ICS-43434. Auf  dem [Tindie-Marktplatz] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) kann man solche Boards finden.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 
-##### Housing for the microphone unit
-The housing is made with a .500" (12.7mm) polystyrene tubing. This diameter permits to plug directly most of the calibrators on the unit.
+##### Gehäuse für die Mikrofoneinheit
+Das Gehäuse ist aus einem .500" (12,7mm) Polystyrolrohr gefertigt. Dieser Durchmesser erlaubt es, die meisten Kalibratoren direkt an das Gerät anzuschließen.
 
-The prototype was developed with the [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Der Prototyp wurde mit dem [Evergreen-Rohr Nr. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) entwickelt.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 <br>
-The breakout board has to be adapted to the diameter of the tubing with a file. Use some tape to protect the microphone inlet.
+Die Breakout-Platine muss mit einer Feile an den Durchmesser des Schlauches angepasst werden. Daher etwas Klebeband verwenden, um den Mikrofoneingang zu schützen.
 <br>
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
-Then solder the six silicone cables. Note which pin the cable is connected with!
+Die sechs Silikonkabel anlöten. Darauf achten, mit welchem Pin das Kabel verbunden ist!
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
-Cut a 115 mm long piece of tubing.
+Ein 115 mm langes Stück Schlauch abschneiden.
 <br>
-Stick the microphone board on some crossed tape. Put the cables in the tubing and fasten the board at the extremity of the tubing.
+Die Mikrofonplatine auf ein Stück gekreuztes Klebeband kleben. Kabel in den Schlauch stecken und Platine am Ende des Schlauchesbefestigen.
 <br>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
-Make the extremity of the tube tight with the tape.
+Das Ende des Rohrs mit dem Klebeband abschließen.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
-Now you can fill the tube with some resin. This step is mandatory to avoid resonance and obtain calibrated and reproductible data.
+Nun das Rohr mit etwas Harz befüllen. Dieser Schritt ist zwingend erforderlich, um Resonanzen zu vermeiden und kalibrierte und reproduzierbare Daten zu erhalten.
 
-The prototype was developed with some [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produced by Copaltec GmbH.
+Der Prototyp wurde entwickelt mit [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) der Firma Copaltec GmbH.
 
-##### Specifications:
-* Dielectric strength: 28 kV/mm
-* Specific forward resistance: 5,8.1014 ohm/cm
-* Surface resistance: 1,3.1016 ohm
-* Mixing ratio resin/hardener: 2 : 1
-* Pot time: 20 à 30 min.
-* Curing time: 16 à 30 h
-* Final hardened state: 10 à 14 days
-* Viscosity (mixed): 500 à 600 mPa.s
-* Shore hardness: D 50 to 55 (ISO 868, DIN 53505)
-* Thermal conductivity: 0,3 W/mK
-* Application temperatures: - 20 to +130 °C
+##### Spezifikationen:
+* Durchschlagsfestigkeit: 28 kV/mm
+* Spezifischer Durchlasswiderstand: 5,8.1014 Ohm/cm
+* Oberflächenwiderstand: 1,3.1016 ohm
+* Mischungsverhältnis Harz/Härter: 2 : 1
+* Topfzeit: 20 à 30 Min.
+* Aushärtezeit: 16 à 30 h
+* Endausgehärteter Zustand: 10 à 14 Tage
+* Viskosität (gemischt): 500 à 600 mPa.s
+* Shore-Härte: D 50 bis 55 (ISO 868, DIN 53505)
+* Wärmeleitfähigkeit: 0,3 W/mK
+* Anwendungstemperaturen: - 20 bis +130 °C
 
 
-The [polyurethane resin UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) made by Electrolube should work too.
+Das [Polyurethanharz UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) der Firma Electrolube sollte ebenfalls funktionieren.
 
-For each tubing 15 g of resin should be sufficient.
+Für jeden Schlauch sollten 15 g Harz ausreichen.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
-When the resin has hardened remove the tape. Your microphone unit is ready.
+Wenn das Harz ausgehärtet ist, Klebeband entfernen. Ihre Sprechstelle ist fertig.
 
 
+### DNMS-Gehäuse
 
-### DNMS Housing
+Wenn der Teensy (DNMS) und die NodeMCU (freistehend oder auf Platine) getrennt sind: DNMS und airRohr
 
-When the Teensy (DNMS) and the NodeMCU (standalone or on PCB) are separated: DNMS and airRohr
+Benötigt wird ein Stück Schlauch mit 25 mm Durchmesser (z. B. Schlauch für elektrische Anwendungen), einen Stecker, einen 90°-Bogen und eine M25 IP68-Kabelverschraubung.
 
-You need a piece of 25 mm diameter tubing (for example tubing for electrical applications), a connector, a 90° bow and a M25 IP68 cable gland.
+Der Schlauch selbst sollte 160 mm lang sein. Das DNMS sieht in platziert aus. Das Mikrofongehäuse wird durch die Kabelverschraubung gehalten.
 
-The tube itself should be 160 mm long. The DNMS looks place in. The microphone housing is maintained by the cable gland.
-
-The bow prevents water and humidity to enter the housing while letting the cable pass.
+Der Bügel verhindert das Eindringen von Wasser und Feuchtigkeit in das Gehäuse, während das Kabel durchgelassen wird.
 
 <img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
-The DNMS is connected to the second PCB by a RJ12 cable. If this cable is longer than 250 mm, you must use an I²C extension.
+Das DNMS wird über ein RJ12-Kabel mit der zweiten Platine verbunden. Wenn dieses Kabel länger als 250 mm ist, muss eine I²C-Verlängerung verwendet werden.
 
 <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
-After everything is well connected, the parts are glued together.
+Nachdem alles gut angeschlossen ist, werden die Teile zusammengeklebt.
 
-Result:
+Ergebnis:
 
 <img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
-The PCB carrying the NodeMCU can be put in any kind of electrical box.
+Die Platine mit dem NodeMCU kann in jeder Art von Schaltkasten untergebracht werden.
 
+### Wetterschutz
 
-### Weather protection
+Die Gehäuse selbst sollten wasserdicht sein. Nur der Mikrofoneingang könnte empfindlich sein. TDK, der Hersteller, hat einige Empfehlungen zur Abdichtung der InvenSense Bottom-Port-MEMS-Mikrofone gegen das Eindringen von Staub und Flüssigkeiten veröffentlicht, aber die Komponenten sind schwer zu finden und wurden nicht getestet.
 
-The housings themselves should be waterproof. Only the microphone inlet could be sensitive. TDK, the manufacturer has published some recommendations for sealing InvenSense bottom-port MEMS microphones from dust and liquid ingress but the components are difficult to find and were not tested.
-
-It is absolutely necessary to install a weather protection in the form of a foam cover. If necessary, even a household sponge is sufficient. There are several reasons for this:
-* it protects against wind noise (which can increase the decibels measurements)
-* it protects against direct water leakage on the microphone. To avoid condensation on the microphone pull back the cover a beat after installing it in order to create a small cavity.
-* it protects against solar radiation. Intense sunlight can influence the measured values and reduce the life of the microphone.
+Es ist unbedingt ein Wetterschutz in Form einer Schaumstoffabdeckung zu installieren. Notfalls reicht auch ein Haushaltsschwamm aus. Dafür gibt es mehrere Gründe:
+* er schützt vor Windgeräuschen (die die Dezibel-Messungen erhöhen können)
+* er schützt vor direktem Wasseraustritt am Mikrofon. Um Kondenswasser auf dem Mikrofon zu vermeiden, die Abdeckung nach der Montage einen Schlag zurückziehen, um einen kleinen Hohlraum zu schaffen.
+* er schützt vor Sonneneinstrahlung. Intensive Sonneneinstrahlung kann die Messwerte beeinflussen und die Lebensdauer des Mikrofons verringern.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
 
-Those foam covers are normaly sold as ‘covers for measurement microfons’. But they are expensive. You can also take a normal foam ball and cut a hole with the scissors.
+Diese Schaumstoffabdeckungen werden normalerweise als "Abdeckungen für Messmikrofone" verkauft. Sind aber teuer. Alternative einen normalen Schaumstoffball nehmen und mit der Schere ein Loch hineinschneiden.
 
-If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+Bestellt werden können diese bei [Aliexpress](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2).
 
-### Location of the microphone 
+### Standort des Mikrofons
 
-It is important to place the microphone in an area as "free" as possible, this means in a location with as less sound reflecting surfaces as possible. The distance to reflective surfaces should be as great as possible. Try not to mount the microphone directly on the wall of a house, because walls reflect sounds strongly.  The distance to the wall should ideally be more than 1 m. Of course this is not always easy to realize. 
+Es ist wichtig, das Mikrofon in einem möglichst "freien" Bereich zu platzieren, d.h. an einem Ort mit möglichst wenig schallreflektierenden Flächen. Der Abstand zu reflektierenden Flächen sollte so groß wie möglich sein. Das Mikrofon nicht direkt an einer Hauswand montieren, da Wände Schall stark reflektieren. Der Abstand zur Wand sollte idealerweise mehr als 1 m betragen. Dies ist natürlich nicht immer einfach zu realisieren.
 
-With a distance of about 50 cm from the tip of the microphone to the wall, the induced error is still reasonable. Good places are for example balconies or terrace railings, or a small mast on the roof. 
+Mit einem Abstand von etwa 50 cm von der Mikrofonspitze zur Wand ist der induzierte Fehler noch vertretbar. Gute Plätze sind z.B. Balkone oder Terrassengeländer, oder ein kleiner Mast auf dem Dach.
 
-You can also try to place the microphone directly on the corner of the house for the reflections to partially cancel each other.
+Das Mikrofon kann direkt an der Hausecke platzieren werden, damit sich die Reflexionen teilweise auslöschen.
 
-A free-standing mast of at least 1 m height could also be a solution but then you have to watch out for reflections on the ground. That depends on the floor covering, of course.
+Ein freistehender Mast von mindestens 1 m Höhe könnte auch eine Lösung sein, hier muss man auf die Reflexionen am Boden achten. Das hängt natürlich vom Bodenbelag ab.
 
-It is also important to always be aware that we measure ambient noise.  We can only make an approximation of the noise emission of sources such as roads or railways. 
+Es ist auch wichtig, sich immer bewusst zu machen, dass wir Umgebungsgeräusche messen. Wir können nur eine Annäherung an die Geräuschemission von Quellen wie Straßen oder Eisenbahnen vornehmen.
 
-However, the closer you get to the source, the more accurate the reference to the source becomes. Upgrades of the firmware should then be able to get preceise measurements for an identified type of noise.
+Je näher man jedoch an die Quelle herankommt, desto genauer wird der Bezug zur Quelle. Upgrades der Firmware sollten dann in der Lage sein, präzise Messungen für eine bestimmte Art von Lärm zu erhalten.
 
 <img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>

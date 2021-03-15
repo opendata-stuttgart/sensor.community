@@ -1,66 +1,66 @@
 ---
-title: Driver & firmware
+title: Treiber & Firmware
 ---
 
-We already prepared the firmware. You only have to install drivers and flash your NodeMCU (ESP8266) and Teensy 4.0 boards. 
+Wir haben die Firmware bereits vorbereitet. Du musst nur noch die Treiber installieren und den NodeMCU (ESP8266) und Teensy 4.0 Boards flashen.
 
-To communicate with your ESP8266 you need usb2serial drivers for your operating system. 
+Um mit Ihrem ESP8266 zu kommunizieren, benötigen Sie usb2serial-Treiber für Ihr Betriebssystem.
 
-The chipset for NocdeMCUs v3 is usually CH341, just check the back of your NodeMCU to find some technical information. Choose the link that corresponds to the operating system of your computer.
+Der Chipsatz für NocdeMCUs v3 ist in der Regel CH341, schaue einfach auf der Rückseite des NodeMCUs nach. Wählen den entsprechenden Link, der dem Betriebssystem deines Computers entspricht.
 
 ### Windows
 
-##### Drivers for model V2 (CP2102) for Windows
-* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 should be able to automatically download these
-* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit version - **not** supporting 64-bit version OS
+##### Treiber für das Modell V2 (CP2102) für Windows
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 sollte in der Lage sein, die Treiber automatisch herunterzuladen
+* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-Bit-Version - **nicht** unterstützt 64-Bit-Version OS
 
-##### Driver for model V3 (CH341) for Windows
-* [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 should be able to automatically download these
+##### Treiber für das Modell V3 (CH341) für Windows
+* [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 sollte in der Lage sein, die Treiber automatisch herunterzuladen
 
-##### Extract the downloaded file for Windows:
-* for V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
-* for V3: open the folder CH341SER and double click on the application SETUP.
+##### Entpacken der heruntergeladene Datei für Windows:
+* für V2: Entpacken Ordner CP210x und starte die Anwendung CP210xVCPInstaller_x64 (oder x86)
+* für V3: Entpacke Ordner CH341SER und starte die Anwendung SETUP.
 
 ---
 
 ### MacOS
 
-#####  MacOS Drivers
+##### MacOS-Treiber
 * [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
-#####  Extract the downloaded file for MacOS.
-* for V2: Unzip the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
-* for V3: Unzip the folder CH341SER and double click on the application SETUP.
-* Restart your Mac
+##### Entpacken der heruntergeladene Datei für MacOS.
+* für V2: Entpacke Ordner CP210x und starte die Anwendung CP210xVCPInstaller_x64 (oder x86)
+* für V3: Entpacke Ordner CH341SER und starte die Anwendung SETUP.
+* Mac neustarten
 
 ---
 
 ### Linux
-No drivers need to be installed. Chip should be supported directly (verifiable with dmesg)
+Es müssen keine Treiber installiert werden. Chip sollte direkt unterstützt werden (überprüfbar mit dmesg)
 
 ---
 ### Firmware Flasher NodeMCU
-Support for multiple Operating Systems: Windows, MacOS and Linux.
+Unterstützung für mehrere Betriebssysteme: Windows, MacOS und Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Quellcode](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
-Connect NodeMCU to your computer with a short micro-USB cable (choose one shorter than 1 Meter, otherwise the installation may fail). Select `latest_en.bin` (or another language version) and click “Upload”.
-Wait until the process is done. Now we can assemble the sensor.
+NodeMCU mit deinem Computer mit einem kurzen Micro-USB-Kabel verbinden (Ein kürzeres als 1 Meter wählen, sonst kann die Installation fehlschlagen). Wähle `latest_de.bin` (oder eine andere Sprachversion) und  auf "Upload" klicken.
+Warte bis der Vorgang abgeschlossen ist. Nun können wir den Sensor zusammenbauen.
 <br>
-A big thanks goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
+Ein großer Dank geht an [Piotr, aus Polen](https://dropbox.inf.re/), für seine Hilfe! 🙋♂️
 
 ---
 ### Firmware Flasher Teensy
-In [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Firmware) you can find two kinds of firmware: 
+Auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Firmware) gibt es zwei Arten von Firmware:
 * .ino
 * .hex
 
-#####  Teensy Loader
-You can flash the .hex file in the Teensy boards with the standalone GUI software [Teensy Loader](https://www.pjrc.com/teensy/loader.html) for Windows, Mac and Linux.
-A command line version also exist.
+##### Teensy Loader
+Die .hex-Datei kann man mit der eigenständigen GUI-Software [Teensy Loader](https://www.pjrc.com/teensy/loader.html) für Windows, Mac und Linux flashen.
+Eine Kommandozeilenversion existiert ebenfalls.
 
-#####  Teensyduino
-You can flash the .ino file in the Teensy boards with the Arduino IDE extension [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
-If needed, you can modify the firmware directly in the Arduino IDE.
+##### Teensyduino
+Die .ino-Datei kann man mit der Arduino IDE-Erweiterung [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html) flashen.
+Bei Bedarf kann man die Firmware direkt in der Arduino-IDE modifizieren.
