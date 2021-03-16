@@ -33,9 +33,9 @@ Die [ID] kann auch im Eingabefeld open links auf der Seite [https://api-rrd.mada
 ### Probleme mit der Elektronik?
 * Entferne die Sensorelektronik aus dem Gehäuse und schau sie dir genau an
 * Stromversorgung erneut prüfen/ersetzen
-    * Blinkt die NodeMCU(ESP8266) kurz nach dem Neustart?
-    * SDS011: rote LED/Lüfter leuchtet nach dem Neustart?
-    * Überprüfe/ersetze die Kabel zu den Sensoren erneut
+  * Blinkt die NodeMCU(ESP8266) kurz nach dem Neustart?
+  * SDS011: rote LED/Lüfter leuchtet nach dem Neustart?
+  * Überprüfe/ersetze die Kabel zu den Sensoren erneut
 
   <div class="max-w-screen-xl mx-auto pt-5">
       <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">

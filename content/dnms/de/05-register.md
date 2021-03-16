@@ -20,10 +20,5 @@ Startseite -> (Login) - Meine Sensoren -> Neuen Sensor registrieren
 #### NB!
 Derzeit ist es nicht möglich, sowohl den PM-Sensor, den Temp/Humidity- als auch den DNMS-Sensor zu registrieren, die an einen NodeMCU angeschlossen sind.
 Im Moment kann dies nur manuell erfolgen, einfach eine Anfrage an tech (at) sensor.community senden.
-Siehe [issue] (https://github.com/opendata-stuttgart/sensor.community/issues/117
+Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) für Details.
-
-Currently it is not possible to register using the site both PM sensor, temp/humidity and DNMS sensor connected to one NodeMCU.
-For now it can only be done manually by sending a request to tech (at) sensor.community.
-See [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
-) for details.
