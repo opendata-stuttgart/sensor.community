@@ -4,21 +4,25 @@ title: Register
 
 ### Register yourself
 
-Go to  [devices.sensor.community](https://devices.sensor.community/) to register your device and become a part of the open data network.
+Go to [devices.sensor.community](https://devices.sensor.community/) to register your device and become a part of the open data network.
 
 
-### Register your device
-After you logged in click on register new device and fill out the form.
-Home -> (Login) - Sensors -> Register sensor
+### Registriere dein Gerät
+Nachdem du dich angemeldet hast, klicke auf "Neuen Sensor registrieren" und fülle das Formular aus.
+Startseite -> (Login) - Meine Sensoren -> Neuen Sensor registrieren
 
-* your noted down ChipID of the ESP8266 (NodeMCU) 
-* your email address (will not be published)
-* your address: Street with house number, postcode and city. Click on "Lookup entered address" to get the location coordinates (will be rounded off). Check the position of the pin, change it if needed 
-* internal name makes it easier to separate if you have multiple sensors (like garden, sensor for mom,...)
-* the surroundings of the station - e.g. height above ground, side of the road, high traffic volume, free field or similar
-
+* Deine notierte ChipID des ESP8266 (NodeMCU).
+* Deine E-Mail-Adresse (wird nicht veröffentlicht).
+* Deine Adresse: Straße mit Hausnummer, Postleitzahl und Ort. Klicke auf "Eingegebene Adresse suchen", um die Standortkoordinaten zu erhalten (diese werden abgerundet). Überprüfe die Position der Stecknadel, ändere diese gegebenenfalls.
+* interner Name erleichtert die Trennung, wenn du mehrere Sensoren hast (wie Garten, Sensor für Mama,...).
+* die Umgebung der Station - z.B. Höhe über dem Boden, Straßenrand, hohes Verkehrsaufkommen, Freifeld o.ä.
 
 #### NB!
+Derzeit ist es nicht möglich, sowohl den PM-Sensor, den Temp/Humidity- als auch den DNMS-Sensor zu registrieren, die an einen NodeMCU angeschlossen sind.
+Im Moment kann dies nur manuell erfolgen, einfach eine Anfrage an tech (at) sensor.community senden.
+Siehe [issue] (https://github.com/opendata-stuttgart/sensor.community/issues/117
+) für Details.
+
 Currently it is not possible to register using the site both PM sensor, temp/humidity and DNMS sensor connected to one NodeMCU.
 For now it can only be done manually by sending a request to tech (at) sensor.community.
 See [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117

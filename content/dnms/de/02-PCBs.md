@@ -6,7 +6,7 @@ Der beste Weg, den DNMS (Digital Noise Measuring Sensor) zu bauen, ist, eine uns
 Einfach unsere Schaltpläne und/oder Gerber-Dateien herunterladen, diese auf der Website des Herstellers hochladen und Leiterplatten bestellen.
 
 <br>
-Die aktuellste Version der Leiterplatten ist hier beschrieben. Weitere Informationen und den Zugriff auf die KiCad-Dateien finden Sie auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs). 
+Die aktuellste Version der Leiterplatten ist hier beschrieben. Weitere Informationen und Zugriff auf die KiCad-Dateien gibt es auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs). 
 
 ### AIRROHR V1.4
 <img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>

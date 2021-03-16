@@ -3,10 +3,10 @@ title: Treiber & Firmware
 ---
 
 Wir haben die Firmware bereits vorbereitet. Du musst nur noch die Treiber installieren und den NodeMCU (ESP8266) und Teensy 4.0 Boards flashen.
+Um mit deinem ESP8266 zu kommunizieren, benötigst du den USB-2-Seriell-Treiber für dein Betriebssystem.
+Der Chipsatz für die NodeMCUs v3 ist normalerweise der CH341, schaue einfach auf der Rückseite deiner NodeMCU nach, um einige technische Informationen zu finden.
 
-Um mit Ihrem ESP8266 zu kommunizieren, benötigen Sie usb2serial-Treiber für Ihr Betriebssystem.
-
-Der Chipsatz für NocdeMCUs v3 ist in der Regel CH341, schaue einfach auf der Rückseite des NodeMCUs nach. Wählen den entsprechenden Link, der dem Betriebssystem deines Computers entspricht.
+Wähle den Link, der dem Betriebssystem deines Computers entspricht.
 
 ### Windows
 
@@ -46,7 +46,7 @@ Unterstützung für mehrere Betriebssysteme: Windows, MacOS und Linux.
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
 * [Quellcode](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
-NodeMCU mit deinem Computer mit einem kurzen Micro-USB-Kabel verbinden (Ein kürzeres als 1 Meter wählen, sonst kann die Installation fehlschlagen). Wähle `latest_de.bin` (oder eine andere Sprachversion) und  auf "Upload" klicken.
+NodeMCU mit deinem Computer und einem kurzen Micro-USB-Kabel verbinden. Unter 1 Meter wählen, sonst kann die Installation fehlschlagen kann. Wähle `latest_de.bin` (oder eine andere Sprachversion) und klicke auf "Upload".
 Warte bis der Vorgang abgeschlossen ist. Nun können wir den Sensor zusammenbauen.
 <br>
 Ein großer Dank geht an [Piotr, aus Polen](https://dropbox.inf.re/), für seine Hilfe! 🙋♂️
@@ -58,7 +58,7 @@ Auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Firmwar
 * .hex
 
 ##### Teensy Loader
-Die .hex-Datei kann man mit der eigenständigen GUI-Software [Teensy Loader](https://www.pjrc.com/teensy/loader.html) für Windows, Mac und Linux flashen.
+Die .hex-Datei kann man mit dem [Teensy Loader](https://www.pjrc.com/teensy/loader.html) (Windows, Mac und Linux) flashen.
 Eine Kommandozeilenversion existiert ebenfalls.
 
 ##### Teensyduino

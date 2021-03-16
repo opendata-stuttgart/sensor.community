@@ -2,41 +2,40 @@
 title: Troubleshoot
 ---
 
-### Transmitting problems?
-Enter the following in the browser with your own data:
-`https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1&var-chipID=esp8266-[ID]`
+### Problemen beim Übertragen?
+Gebe folgendes in deinem Browser mit deinen eigenen Daten ein:
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-The [ID] can also be searched for in input field in the upper left corner [https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1](https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1)
+Die [ID] kann auch im Eingabefeld open links auf der Seite [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1) gesucht werden.
 
-* Is the sensor registered via [https://devices.sensor.community/](https://devices.sensor.community/) and is the sensor visible on the map?
-    * Was the WLAN signal level weak in the past?
-        here is the signal log server-side: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
-        
+* Ist der Sensor über [https://devices.sensor.community/](https://devices.sensor.community/) registriert und ist der Sensor auf der Karte sichtbar?
+* War das WLAN-Signal in der Vergangenheit schwach?
+  Hier ist das server-seitige Signalprotokoll: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
 
+### Probleme mit dem USB-Kabel?
+* Überprüfe die Stromversorgung
+* Neustart (Stromversorgung trennen, z.B. USB-Stecker ziehen)
+* Ist die WLAN-Konfiguration okay (der Sensor verbindet sich mit dem konfigurierten WLAN). Wenn nicht:
+  * Öffnet der Sensor einen Adhoc Wifi (Access Point), in den ersten 2-7 Minuten nach einem Neustart?
+  * Suche nach dem WLAN-Netzwerk `airrohr-[ID]`. Es kann einige Minuten nach einem Neustart brauchen bis dieses sichtbar ist.
+* Prüfe an deinem eigenen Router, ob der Sensor im Netzwerk angemeldet ist, und merke dir die IP
+  * alternativ "Im Netzwerk suchen" im [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) verwenden
+  * Falls ja: Verbinde dich mit dem Sensor über einen Browser `http://[ip-deines-sensors]/`, die Konfiguration sollte erscheinen
+  * Falls nein: könnte es an einer unzureichenden Stromversorgung, Neustartschleife oder ähnlichem liegen.
+* Schließe die NodeMCU über ein USB-Kabel an einen Computer an und schau dir das Protokoll an
+  * Mit einem seriellen Terminalprogramm verfolgen (Einstellungen: Baud 9600, 8N1)
+    * Linux: Bildschirm, Minicom, cutecom
+    * Windows: Tera Term
+    * MacOS: Bildschirm, Minicom, ...
+    * evtl. sind noch geeignete USB-2-Seriell-Treiber notwendig, siehe [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
+  * Dort sollte zu sehen sein, was der Sensor gerade macht (Boot-Meldungen, WLAN-Verbindung oder Access Point, Messung - erst nach 3 Minuten)
 
-### USB cable problems?
-* Check power supply: USB cable
-* Reboot (disconnect power supply, e.g. pull USB plug)
-* Is the WLAN Config OK (the sensor connects to the configured WLAN) If not:
-    * does the sensor open an AP (in the first 2-7 minutes after a reboot)?
-    * Look for `airrohr-[ID]` WLAN network. Patience, it may take 1-2 minutes after boot.
-* Check on your own router if the sensor is logged into the network, then remember the IP 
-    * alternatively use "Discovery" in the [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
-    * If yes: connect to the sensor via IP with a browser `http://[ip-of-the-sensor]/` , the interface should appear 
-    * If no: the ESP has problems, e.g. power supply insufficient, reboot loop or similar
-* Connect USB to a computer and view the log 
-    * Track text on serial interface with serial terminal program (Settings: baud 9600, 8N1)
-        * Linux: screen, minicom, cutecom; Windows: Tera Term; MacOS: screen, minicom, ...
-        * possibly suitable usb2serial drivers are still necessary, see [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)     
-    * There you should be able to see what the sensor is doing (boot messages, WLAN connection or AP, measurement - only after 3 minutes)
-
-### Electronics problems?
-* Remove sensor electronics from the housing and observe
-* Check/replace power supply again
-    * does ESP flash shortly after reboot?
-    * Teensy: red LED flashing after reboot?
-    * check/replace the cables to the sensors again
-
+### Probleme mit der Elektronik?
+* Entferne die Sensorelektronik aus dem Gehäuse und schau sie dir genau an
+* Stromversorgung erneut prüfen/ersetzen
+    * Blinkt die NodeMCU(ESP8266) kurz nach dem Neustart?
+    * SDS011: rote LED/Lüfter leuchtet nach dem Neustart?
+    * Überprüfe/ersetze die Kabel zu den Sensoren erneut
 
   <div class="max-w-screen-xl mx-auto pt-5">
       <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
@@ -49,7 +48,7 @@ The [ID] can also be searched for in input field in the upper left corner [https
         <div class="flex flex-wrap">
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
-                Noise is in beta. Send questions to</p>
+                Noise befindet sich in der Beta-Phase. Senden deine Fragen an</p>
           <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
                   Noise@Sensor.Community</a>
           </div>

@@ -28,23 +28,15 @@ title: Einleitung
 
  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
-
-Die Originalanleitung und frühere Versionen des Lärmsensors gibt es auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
-
-<br>
-
-Dieses Repository enthält verschiedene Setups, um den Sensor mit verschiedenen Arten von Boards und Platinen zu bauen.
-
  <br>
 
-Es gibt zwei verschiedene Arten von Setups:
+Es gibt zwei verschiedene Setups:  
 
-* ein Setup, bei dem die NodeMCU mit einigen Sensoren (PM, Temperatur etc.) und das DNMS getrennt sind. Die Platinen heißen AIRROHR V1.4 und DNMS - T4 V1.4
-* eine kombinierte Version von NodeMCU und DNMS auf der gleichen Platine: DNMS - T4+NodeMCU V1.4
+* Die NodeMCU mit Sensoren (PM, Temperatur etc.) und das DNMS sind getrennt. Die Platinen heißen AIRROHR V1.4 und DNMS - T4 V1.4
+* Eine kombinierte Version auf der gleichen Platine: DNMS - T4 + NodeMCU V1.4
 
-Hier wird nur die Variante beschrieben, bei der die NODEMCU und das DNMS getrennt sind. Auf Helmuts Github gibt es die anderen Varianten!
-
-In diesem Fall kann die Verbindung zwischen dem NodeMCU und dem DNMS bis zu 10m lang sein. Dies ist wichtig, weil man die richtige Position für den DNMS finden muss, um genaue Rauschmessungen zu erhalten.
+Hier wird nur die erste Variante beschrieben. Die anderen Variante des Lärmsensors gibt es auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).   
+In der Variante kann die Verbindung zwischen dem NodeMCU und dem DNMS bis zu 10m lang sein. Dies ist wichtig, weil man die richtige Position für den DNMS finden muss, um genaue Rauschmessungen zu erhalten.
 
 ### Einkaufsliste
 
@@ -54,8 +46,9 @@ In diesem Fall kann die Verbindung zwischen dem NodeMCU und dem DNMS bis zu 10m 
 * [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * ultraflexible Silikonkabel mit einem Durchmesser von 0,15mm² (AWG 26) in 6 verschiedenen Farben
   <br>
-  Der DNMS (Digital Noise Measuring Sensor) kann mit einem airRohr PM-Sensor kombiniert werden:
 
+
+##### Einzelne KomponentenDer für die airRohr-DNMS-Kombi:
 * [SPS30 Feinstaubsensor](https://www.sparkfun.com/products/15103). Andere Anbieter: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Der [SDS011 Feinstaubsensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) kann ebenfalls verwendet werden.
 * [BME280 6-PIN Version, temperature & humidity](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Andere Anbieter®: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
 * [Kabel](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)

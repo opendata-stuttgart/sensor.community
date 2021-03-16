@@ -8,7 +8,7 @@ Siehe Abschnitt __Firmware-Flasher__.
 
 ### Mikrofoneinheit
 
-Die Mikrofoneinheit basiert auf einem Breakout-Board von Pesky Products mit einem MEMS-Mikrofon ICS-43434. Auf  dem [Tindie-Marktplatz] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) kann man solche Boards finden.
+Die Mikrofoneinheit basiert auf einem Breakout-Board von Pesky Products mit einem MEMS-Mikrofon ICS-43434. Auf dem [Tindie-Marktplatz] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) kann man solche Boards finden.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
@@ -64,7 +64,7 @@ Für jeden Schlauch sollten 15 g Harz ausreichen.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
-Wenn das Harz ausgehärtet ist, Klebeband entfernen. Ihre Sprechstelle ist fertig.
+Wenn das Harz ausgehärtet ist, Klebeband entfernen. 
 
 
 ### DNMS-Gehäuse
@@ -73,7 +73,7 @@ Wenn der Teensy (DNMS) und die NodeMCU (freistehend oder auf Platine) getrennt s
 
 Benötigt wird ein Stück Schlauch mit 25 mm Durchmesser (z. B. Schlauch für elektrische Anwendungen), einen Stecker, einen 90°-Bogen und eine M25 IP68-Kabelverschraubung.
 
-Der Schlauch selbst sollte 160 mm lang sein. Das DNMS sieht in platziert aus. Das Mikrofongehäuse wird durch die Kabelverschraubung gehalten.
+Der Schlauch sollte 160 mm lang sein. Das Mikrofongehäuse wird durch die Kabelverschraubung gehalten.
 
 Der Bügel verhindert das Eindringen von Wasser und Feuchtigkeit in das Gehäuse, während das Kabel durchgelassen wird.
 
@@ -83,21 +83,18 @@ Das DNMS wird über ein RJ12-Kabel mit der zweiten Platine verbunden. Wenn diese
 
 <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
-Nachdem alles gut angeschlossen ist, werden die Teile zusammengeklebt.
+Nachdem alles miteinander verbunden ist, werden die Teile zusammengeklebt.
 
 Ergebnis:
 
 <img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
-Die Platine mit dem NodeMCU kann in jeder Art von Schaltkasten untergebracht werden.
 
 ### Wetterschutz
 
-Die Gehäuse selbst sollten wasserdicht sein. Nur der Mikrofoneingang könnte empfindlich sein. TDK, der Hersteller, hat einige Empfehlungen zur Abdichtung der InvenSense Bottom-Port-MEMS-Mikrofone gegen das Eindringen von Staub und Flüssigkeiten veröffentlicht, aber die Komponenten sind schwer zu finden und wurden nicht getestet.
-
-Es ist unbedingt ein Wetterschutz in Form einer Schaumstoffabdeckung zu installieren. Notfalls reicht auch ein Haushaltsschwamm aus. Dafür gibt es mehrere Gründe:
+Es ist unbedingt ein Wetterschutz in Form einer Schaumstoffabdeckung anzubringen. Notfalls reicht auch ein Haushaltsschwamm aus. Dafür gibt es mehrere Gründe:
 * er schützt vor Windgeräuschen (die die Dezibel-Messungen erhöhen können)
-* er schützt vor direktem Wasseraustritt am Mikrofon. Um Kondenswasser auf dem Mikrofon zu vermeiden, die Abdeckung nach der Montage einen Schlag zurückziehen, um einen kleinen Hohlraum zu schaffen.
+* er schützt vor direktem Wasseraustritt am Mikrofon. Um Kondenswasser auf dem Mikrofon zu vermeiden, die Abdeckung nach der Montage bisschen zurückziehen, um einen kleinen Hohlraum zu schaffen.
 * er schützt vor Sonneneinstrahlung. Intensive Sonneneinstrahlung kann die Messwerte beeinflussen und die Lebensdauer des Mikrofons verringern.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
@@ -118,7 +115,7 @@ Ein freistehender Mast von mindestens 1 m Höhe könnte auch eine Lösung sein, 
 
 Es ist auch wichtig, sich immer bewusst zu machen, dass wir Umgebungsgeräusche messen. Wir können nur eine Annäherung an die Geräuschemission von Quellen wie Straßen oder Eisenbahnen vornehmen.
 
-Je näher man jedoch an die Quelle herankommt, desto genauer wird der Bezug zur Quelle. Upgrades der Firmware sollten dann in der Lage sein, präzise Messungen für eine bestimmte Art von Lärm zu erhalten.
+Je näher man jedoch an die Quelle herankommt, desto genauer wird der Bezug zur Quelle. 
 
 <img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
