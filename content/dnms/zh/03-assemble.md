@@ -67,7 +67,6 @@ Electrolube生产的[聚氨酯树脂UR5545](https://electrolube.comwp-contentupl
 当树脂硬化后，取下胶带。您的麦克风单元已经准备好了。
 
 
-
 ### DNMS住房
 
 当Teensy (DNMS)和NodeMCU(独立或PCB上)分离时。DNMS和airRohr
