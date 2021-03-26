@@ -10,7 +10,6 @@ title: PCB και κυκλωματικά διαγράμματα
 Οι τελευταίες εκδόσεις των PCB περιγράφονται εδώ. Ανατρέξτε στο [Github του Helmut Bitter](https://github.comhbitterDNMStreemasterPCBs) για περισσότερες πληροφορίες και για πρόσβαση στα αρχεία KiCad.
 
 ### AIRROHR V1.4
-### AIRROHR V1.4
 PCB για το NodeMCU ESP8266 CPUWLAN με επέκταση διαύλου I2C για τη σύνδεση του DNMS καθώς και άλλων αισθητήρων (SDS011, BME280...).
 
 
@@ -18,9 +17,7 @@ PCB για το NodeMCU ESP8266 CPUWLAN με επέκταση διαύλου I2C
 * [Κυκλωματικό διάγραμμα](..docsdnmsairrohr-PCB-circuit-diagram.pdf)
 * [αρχείο Gerber για μεταφόρτωση στον ιστότοπο του κατασκευαστή PCB](..docsdnmsairrohr-PCB-circuit-diagram-gerber.zip)
 
----
 
-### DNMS - T4 V1.4
 ### DNMS - T4 V1.4
 PCB για το DNMS Teensy 4.0 που μπορεί να συνδεθεί απευθείας σε ένα NodeMCU ESP8266 ή στο παραπάνω PCB AIRROHR.
 

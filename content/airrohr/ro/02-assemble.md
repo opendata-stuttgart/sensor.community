@@ -35,9 +35,6 @@ SDS011 Pin 7 -> nefolosit
 💡 Puteți găsi o listă de [senzori suportați de firmware-ul nostru](https://github.comopendata-stuttgartsensors-softwareblobmasterairrohr-firmwareReadme.md)
 
 
-
-### Lipiți împreună BME280
-### Lipiți împreună BME280
 ### Lipiți împreună BME280
 
 Conectați capătul de pini cu placa BME280. Lipiți-l din spate. Spațiile dintre pini sunt foarte mici, așa că aveți răbdare și atenție.
@@ -62,13 +59,10 @@ SCL -> Pin D4
 Folosiți o cravată de cablu pentru a lega NodeMCU (ESP8266) și senzorul SDS011, astfel încât antena Wifi să fie îndreptată în direcția opusă senzorului.
 
  ##### Conectați tubul flexibil
- ##### Conectați tubul flexibil
- ##### Conectați tubul flexibil
-
 * conectați tubul flexibil la senzorul SDS011
 * Folosiți o altă cravată de cablu pentru a atașa senzorul de temperatură BME280 la tub.
 * Treceți cablul USB prin tub. Montați SDS011 cu NodeMCU orientat în partea de sus și ventilatorul orientat în partea de jos.
-* Treceți cablul USB prin tub. Montați SDS011 cu NodeMCU orientat în partea de sus și ventilatorul orientat în partea de jos.
+
  ##### Împingeți senzorul în țeavă
 * Împingeți piesele în tub, astfel încât să fie blocate înăuntru.
 * Cablul USB, tubul flexibil și BME280 trebuie să iasă din capătul tubului.
@@ -79,7 +73,6 @@ Folosiți o cravată de cablu pentru a lega NodeMCU (ESP8266) și senzorul SDS01
 ##### Finisare
 * Poziționați senzorul de temperatură pe tubul flexibil, astfel încât să se afle pe marginea țevii.
 * Tăiați tubul flexibil de la capătul țevii.
-* Opțional: se pot acoperi capetele deschise ale tubului cu o plasă fină. Astfel, aerul poate circula, dar insectele rămân afară
 * Opțional: se pot acoperi capetele deschise ale tubului cu o plasă fină. Astfel, aerul poate circula, dar insectele rămân afară
 <img src="..docsairrohrposition-bme280.jpeg" loading="lazy">
 

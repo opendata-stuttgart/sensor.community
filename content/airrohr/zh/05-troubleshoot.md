@@ -13,7 +13,7 @@ title: 疑难解答
         这是服务器端的信号记录：`https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`。
         这是服务器端的信号记录：`https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`。
 
-###USB线问题？
+### USB线问题？
 * 检查电源。USB线
 * 重新启动（断开电源，如拔出USB插头）。
 * WLAN配置是否正常（传感器连接到已配置的WLAN）如果不正常，请注意。
@@ -29,7 +29,7 @@ title: 疑难解答
         * 可能还需要合适的usb2serial驱动程序，见[https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
     * 在这里，您应该能够看到传感器正在做什么（启动信息、WLAN连接或AP、测量--仅在3分钟后）。
 
-###电子问题？
+### 电子问题？
 * 从外壳上拆下传感器电子元件并观察
 * 再次检查更换电源
     * 重启后不久ESP是否会闪烁？

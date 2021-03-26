@@ -34,10 +34,6 @@ SDS011 Pin 7 -> nem használt
 
 💡 Megtalálhatja a [firmware által támogatott érzékelők listáját](https://github.comopendata-stuttgartsensors-softwareblobmasterairrohr-firmwareReadme.md)
 
-
-
-### Forraszd össze a BME280-at
-### Forraszd össze a BME280-at
 ### Forraszd össze a BME280-at
 
 Csatlakoztassa a tűs fejlécet a BME280 laphoz. Forrasztja be a hátoldalról. A csapok közötti hézagok nagyon kicsik, ezért legyen türelmes és óvatos.
@@ -62,13 +58,10 @@ SCL -> D4 csatlakozó
 Egy kábelkötegelővel kösse össze a NodeMCU-t (ESP8266) és az SDS011 érzékelőt úgy, hogy a Wifi antenna az érzékelőtől távolabb mutasson.
 
  ##### Connect hajlékony cső
- ##### Connect hajlékony cső
- ##### Connect hajlékony cső
-
 * csatlakoztassa a hajlékony csövet az SDS011 érzékelőhöz.
 * Egy másik kábelkötegelővel rögzítse a BME280 hőmérséklet-érzékelőt a csőhöz.
 * Vezesse át az USB-kábelt a csövön. Szerelje fel az SDS011-et úgy, hogy a NodeMCU felülre, a ventilátor pedig alulra nézzen.
-* Vezesse át az USB-kábelt a csövön. Szerelje fel az SDS011-et úgy, hogy a NodeMCU felülre, a ventilátor pedig alulra nézzen.
+
  ##### Tolja be az érzékelőt a csőbe
 * Nyomja az alkatrészeket a csőbe, úgy, hogy a cső belsejébe szoruljon.
 * Az USB-kábel, a hajlékony cső és a BME280 nézzen ki a cső végéből.
