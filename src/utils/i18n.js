@@ -12,6 +12,8 @@ register('bg', () => import('../../locales/bg'));
 register('pl', () => import('../../locales/pl'));
 register('nl', () => import('../../locales/nl'));
 register('es', () => import('../../locales/es'));
+register('ja', () => import('../../locales/ja'));
+register('zh', () => import('../../locales/zh'));
 
 
 init({
