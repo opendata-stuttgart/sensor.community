@@ -10,11 +10,11 @@ NocdeMCU v3のチップセットは通常CH341で、NodeMCUの背面に技術情
 
 ### Windows
 
-##### Windows用モデルV2（CP2102）のドライバーです。
+##### Windows 用モデルV2（CP2102）のドライバーです。
 * [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - Windows 10では、これらを自動的にダウンロードできるはずです。
 * [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32 ビット版 - **64 ビット版には対応していません OS
 
-##### Windows版モデルV3（CH341）用ドライバー
+##### Windows 版モデルV3（CH341）用ドライバー
 * [Windows](http://www.wch.cndownloadsfile5.html) - Windows 10では、これらを自動的にダウンロードできるはずです。
 
 ##### ダウンロードしたWindows用のファイルを解凍します。
