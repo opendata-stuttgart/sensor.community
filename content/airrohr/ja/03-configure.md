@@ -8,7 +8,7 @@ title: 設定
 
 3. パソコンまたはスマートフォンで、本機が作成したWiFiネットワークに接続します。接続が確立されるまで待ちます。<br>*Android*: 接続がすぐに切れてしまう場合は、「接続」→「WiFi」→「詳細設定」で「スマートネットワークスイッチ」というオプションを無効にする必要があるかもしれません。
 
-4. ブラウザを開き、[http://192.168.4.1](http://192.168.4.1)と入力します。
+4. ブラウザを開き、[http://192.168.4.1/](http://192.168.4.1/)と入力します。
 
 > ⚠️ **ご注意** NodeMCUが自宅のWiFiネットワークに接続するのに何度か試す必要があるかもしれません。気長に、うまくいくまで何度か手順を試してみてください。センサーの設定がうまくいった場合、駅のWiFiネットワークは利用できなくなり、設定ページはこのIP 192.168.4.1ではアクセスできなくなります。
 
@@ -21,12 +21,12 @@ title: 設定
 
 <br>
 
-<img src="...docsairrohr_config_initial.jpg" loading="lazy">。
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
 
 <br>
 
 ### ステーションが正しく設定されていることを確認する
 前のステップで、WiFiネットワークの設定以外に変更がなければ、センサーはデータの記録とアップロードを開始します。約10分後、以下のページに移動して、すべてが正しく動作していることを確認できます。これらのページでは、ChipID（上の例では13597771）を検索します。
 
- * [センサーデータ](https://www.madavi.desensorgraph.php)
- * [WiFiシグナルデータ](https://www.madavi.desensorsignal.php)
+ * [センサーデータ](https://www.madavi.de/sensor/graph.php)
+ * [WiFiシグナルデータ](https://www.madavi.de/sensor/signal.php)
