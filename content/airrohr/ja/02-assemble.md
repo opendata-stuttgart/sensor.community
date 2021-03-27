@@ -1,5 +1,5 @@
 ---
-title: 組み立て
+title: Assemble
 ---
 
 > ⚠️ **重要なお知らせ**)
@@ -18,17 +18,17 @@ firmware flasher__の項を参照。
 ##### 完成すると、こんな感じになります。
 
 
-### SDS011の配線
+### Wire the SDS011
 ピンは右から左へと番号が振られています。接続の際には、ケーブルがピンの上に乗っていることを確認してください。ほとんどのDupont社製ケーブルはピンの間にも収まります。
 
-``bash
-SDS011端子1→端子D1 / GPIO5
-SDS011端子2→端子D2 / GPIO4
-SDS011端子3→GND
-SDS011端子4→未使用
-SDS011ピン5 -> VU (NodeMCU v3) / VIN (NodeMCU v1,v2)
-SDS011端子6→未使用
-SDS011端子7→未使用
+```bash
+SDS011 Pin 1 -> Pin D1 / GPIO5
+SDS011 Pin 2 -> Pin D2 / GPIO4
+SDS011 Pin 3 -> GND
+SDS011 Pin 4 -> unused
+SDS011 Pin 5 -> VU (NodeMCU v3) / VIN (NodeMCU v1,v2)
+SDS011 Pin 6 -> unused
+SDS011 Pin 7 -> unused
 ```
 
 <br>
@@ -47,14 +47,14 @@ SDS011端子7→未使用
 コツは、ハンダゴテの先をピンに当て、少し温めてから、軽くハンダを塗ること。
 
 
-### BME280の配線
+### Wire the BME280
 ピンには左から右に番号が振られています。
 
-``bash
+```bash
 VIN -> Pin 3V3 (3.3V)
-GND->GND/G
+GND->  GND/G
 SDA -> PIN D3
-SCL -> D4端子
+SCL -> Pin D4
 ```
 
 ### Tie everything together

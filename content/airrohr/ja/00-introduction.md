@@ -1,12 +1,12 @@
 ---
-title: はじめに
+title: Introduction
 ---
 > 🚧 DIYセンサーを作って、世界的なopendata & civictechネットワークの一員になりましょう。<br> airRohrを使えば、自分で大気汚染を測定することができます。
 
 
 <img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
-### ショッピングリスト
+### Shopping list
 ##### センサーキット
 * [プリフラッシングセンサーキット](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
 
