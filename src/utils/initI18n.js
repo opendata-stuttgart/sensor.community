@@ -14,8 +14,15 @@ import ua from '../../locales/ua';
 import se from '../../locales/se';
 import pt from '../../locales/pt';
 import ja from '../../locales/ja';
+import da from '../../locales/da';
+import el from '../../locales/el';
+import et from '../../locales/et';
+import hu from '../../locales/hu';
+import lt from '../../locales/lt';
+import lv from '../../locales/lv';
+import ro from '../../locales/ro';
+import sl from '../../locales/sl';
 import zh from '../../locales/zh';
-
 
 function initI18n(lng = 'en') {
   i18next.init({
@@ -36,6 +43,14 @@ function initI18n(lng = 'en') {
       se,
       pt,
       ja,
+      da,
+      el,
+      et,
+      hu,
+      lt,
+      lv,
+      ro,
+      sl,
       zh
     },
     fallbackLng: {

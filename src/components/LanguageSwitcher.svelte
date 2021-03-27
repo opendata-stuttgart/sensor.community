@@ -22,18 +22,22 @@
     }
 
     const langauges = [
-        "gb", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt","ja","zh"
+        "gb", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt","ja","zh", "da", "el", "et", "hu", "lt" , "lv", "ro", "sl"
     ]
 </script>
 
 <div class="md:relative z-50">
     <button on:click={menuToggle} type="button"
             class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
-        <span class="text-xl font-bold">{#if flag(`${lang}`) != undefined}
-            {flag(`${lang}`)}
-        {:else}
-            {flag('gb')}
-        {/if}</span>
+        <span class="text-xl font-bold">  {#if lang == "en"}
+                {flag("gb")}
+            {:else if lang == "ja"}
+                    {flag("ja")}
+            {:else if lang == "zh"}
+                {flag("cn")}
+            {:else}
+                {flag(lang)}
+            {/if}</span>
         {#if !menu.open}
             <svg class="text-gray-600 h-5 w-5 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -55,7 +59,15 @@
             <div class="relative bg-white p-6 grid grid-cols-2">
                 {#each langauges as lang}
                     <a href="{`${lang}/${pathWithoutLang}`}" on:click={menuToggle}
-                       class="uppercase inline-block p-2 text-gray-700 font-semibold rounded hover:bg-gray-200 hover:text-gray-700">{flag(lang)} {lang}</a>
+                       class="uppercase inline-block p-2 text-gray-700 font-semibold rounded hover:bg-gray-200 hover:text-gray-700">  {#if lang == "en"}
+                        {flag("gb")}
+                    {:else if lang == "ja"}
+                        {flag("ja")}
+                    {:else if lang == "zh"}
+                        {flag("cn")}
+                    {:else}
+                        {flag(lang)}
+                    {/if} {lang}</a>
                 {/each}
             </div>
             <div class="hidden rounded-b-lg md:block p-8 bg-gray-100">

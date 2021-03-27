@@ -10,7 +10,6 @@ title: PCB和电路图
 这里描述的是PCBs的最后版本。请参考[Helmut Bitter的Github](https://github.comhbitterDNMStreemasterPCBs)以获取更多信息和KiCad文件。
 
 ###AIRROHR V1.4
-###AIRROHR V1.4
 NodeMCU ESP8266 CPUWLAN的PCB，带有I2C总线扩展，可以连接DNMS以及其他传感器（SDS011，BME280...）。
 
 
@@ -18,9 +17,7 @@ NodeMCU ESP8266 CPUWLAN的PCB，带有I2C总线扩展，可以连接DNMS以及�
 * [电路图](.docsdnmsairrohr-PCB-电路图.pdf)
 * [Gerber文件上传至PCB制造商的网站](.docsdnmsairrohr-PCB-circuit-diagram-gerber.zip)
 
----
 
-### DNMS - T4 V1.4
 ### DNMS - T4 V1.4
 DNMS Teensy 4.0的PCB，可以直接连接在NodeMCU ESP8266上，也可以连接在上面的AIRROHR PCB上。
 
