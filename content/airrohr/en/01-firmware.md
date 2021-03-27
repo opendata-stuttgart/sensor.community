@@ -28,7 +28,7 @@ Choose the link that corresponds to the operating system of your computer.
 ### MacOS
 
 #####  MacOS Drivers
-* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 
 #####  Extract the downloaded file for MacOS.

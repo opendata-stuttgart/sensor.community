@@ -4,7 +4,7 @@ title: レジスター
 
 ### Create an account
 
-[devices.sensor.community](https://devices.sensor.community)にアクセスしてアカウントを作成し、オープンデータネットワークの一員となってください。
+[devices.sensor.community](https://devices.sensor.community/)にアクセスしてアカウントを作成し、オープンデータネットワークの一員となってください。
 
 
 ### デバイスの登録
