@@ -22,20 +22,24 @@
     }
 
     const langauges = [
-        "gb", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt","ja","zh", "da", "el", "et", "hu", "lt" , "lv", "ro", "sl"
+        "gb", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt", "ja", "zh", "da", "el", "et", "hu", "lt", "lv", "ro", "sl"
     ]
 </script>
 
 <div class="md:relative z-50">
-    <button on:click={menuToggle} type="button"
-            class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150">
+    <button class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150" on:click={menuToggle}
+            type="button">
         <span class="text-xl font-bold">  {#if lang == "en"}
                 {flag("gb")}
             {:else if lang == "ja"}
-                    {flag("ja")}
-            {:else if lang == "zh"}
-                {flag("cn")}
-            {:else}
+                        {flag("jp")}
+                    {:else if lang == "da"}
+                        {flag("dk")}
+                    {:else if lang == "el"}
+                        {flag("gr")}
+                    {:else if lang == "zh"}
+                        {flag("cn")}
+                    {:else}
                 {flag(lang)}
             {/if}</span>
         {#if !menu.open}
@@ -59,20 +63,25 @@
             <div class="relative bg-white p-6 grid grid-cols-2">
                 {#each langauges as lang}
                     <a href="{`${lang}/${pathWithoutLang}`}" on:click={menuToggle}
-                       class="uppercase inline-block p-2 text-gray-700 font-semibold rounded hover:bg-gray-200 hover:text-gray-700">  {#if lang == "en"}
-                        {flag("gb")}
-                    {:else if lang == "ja"}
-                        {flag("ja")}
-                    {:else if lang == "zh"}
-                        {flag("cn")}
-                    {:else}
-                        {flag(lang)}
-                    {/if} {lang}</a>
+                       class="uppercase inline-block p-2 text-gray-700 font-semibold rounded hover:bg-gray-200 hover:text-gray-700">
+                        {#if lang == "en"}
+                            {flag("gb")}
+                        {:else if lang == "ja"}
+                            {flag("jp")}
+                        {:else if lang == "da"}
+                            {flag("dk")}
+                        {:else if lang == "el"}
+                            {flag("gr")}
+                        {:else if lang == "zh"}
+                            {flag("cn")}
+                        {:else}
+                            {flag(lang)}
+                        {/if} {lang}</a>
                 {/each}
             </div>
             <div class="hidden rounded-b-lg md:block p-8 bg-gray-100">
-                <a href="https://github.com/opendata-stuttgart/meta/wiki/Translations"
-                   class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100 transition ease-in-out duration-150">
+                <a class="-m-3 p-3 flow-root rounded-md hover:bg-gray-100 transition ease-in-out duration-150"
+                   href="https://github.com/opendata-stuttgart/meta/wiki/Translations">
                     <div class="items-center">
                         <div class="-ml-2 py-1 rounded-full text-xs font-medium leading-4 bg-teal-100 text-teal-800 mb-2 w-1/2 text-center">
                             {i18n.t('nav:langHelpWanted')}
