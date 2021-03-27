@@ -1,5 +1,5 @@
 ---
-title: レジスター
+title: Register
 ---
 
 ### Create an account
@@ -7,7 +7,7 @@ title: レジスター
 [devices.sensor.community](https://devices.sensor.community/)にアクセスしてアカウントを作成し、オープンデータネットワークの一員となってください。
 
 
-### デバイスの登録
+### Register your device
 アカウントを作成してログインすると、デバイスの登録ができるようになります。フォームに必要事項を入力して、デバイスを登録します。ホーム」→「（ログイン）」→「センサー」→「新規センサーの登録」に移動します。
 
 * センサーIDは、先ほどメモしたESP8266(NodeMCU)のChipIDです。

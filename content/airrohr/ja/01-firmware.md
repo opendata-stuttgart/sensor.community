@@ -1,5 +1,5 @@
 ---
-title: ドライバー＆ファームウェア
+title: Driver & firmware
 ---
 
 ファームウェアはすでに用意されています。あなたは、ドライバをインストールして、NodeMCU（ESP8266）をフラッシュするだけです。
@@ -42,7 +42,7 @@ NocdeMCU v3のチップセットは通常CH341で、NodeMCU（ESP8266）の背�
 ドライバをインストールする必要はありません。チップが直接サポートされている必要があります（dmesgで確認可能）。
 
 ---
-### ファームウェアフラッシャー
+### Firmware Flasher
 複数のオペレーティング・システムに対応。Windows、MacOS、Linuxに対応しています。
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
@@ -51,12 +51,12 @@ NocdeMCU v3のチップセットは通常CH341で、NodeMCU（ESP8266）の背�
 NodeMCUとコンピュータを短いマイクロUSBケーブルで接続します（1メートル以上の短いケーブルを選ぶと、インストールに失敗することがあります）。「latest_en.bin」（または他の言語バージョン）を選択し、「アップロード」をクリックします。
 処理が完了するまで待ちます。これで、センサーを組み立てることができます。
 
-#### Linux。パーミッションを実行可能に設定する
+#### Linux: Set permissions as executable
 ダウンロードした後に、パーミッションを実行可能に設定する必要があります。これは、以下のコマンドで行うことができます。chmod o+x &lt;ダウンロードファイル名&gt;`。
 &lt;br&gt;
 ポーランド出身のピョートルさん】(https://dropbox.inf.re/)に大感謝です! 🙋♂️
 
-#### MacOS: 検証されていないアプリを実行する方法
+#### MacOS: how to run a unverified app
 右クリックしてアプリケーションを何度か開き、必ず「開く」で確認してください。
 
 こちらはYoutubeのショートビデオです👉 https://youtu.be/1KZiP94TYjw

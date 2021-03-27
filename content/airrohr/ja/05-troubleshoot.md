@@ -1,8 +1,8 @@
 ---
-title: トラブルシューティング
+title: Troubleshoot
 ---
 
-### トランスミッションの問題？
+### Transmitting problems?
 以下の内容をご自身のデータでブラウザに入力してください。
 `https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
@@ -11,7 +11,7 @@ ID」は、左上の入力欄でも検索できます。 [https://api-rrd.madavi
 * [https://devices.sensor.community/](https://devices.sensor.community/) でセンサーが登録されていて、そのセンサーが地図上に表示されているか。
     * 過去にWLANの信号レベルが弱かったのか？
         以下はサーバー側のシグナルログです： `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
-       
+
 
 ### USBケーブルの問題？
 * 電源の確認 USBケーブル
