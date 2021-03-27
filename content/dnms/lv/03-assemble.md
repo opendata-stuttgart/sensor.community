@@ -122,7 +122,5 @@ Svarīgi ir arī vienmēr apzināties, ka mēs mēra apkārtējās vides troksni
 
 Tomēr, jo tuvāk avotam, jo precīzāka kļūst atsauce uz avotu. Programmatūras atjauninājumiem būtu jāspēj iegūt precīzus mērījumus identificētajam trokšņa veidam.
 
-Tomēr, jo tuvāk avotam, jo precīzāka kļūst atsauce uz avotu. Programmatūras atjauninājumiem būtu jāspēj iegūt precīzus mērījumus identificētajam trokšņa veidam.
-Tomēr, jo tuvāk avotam, jo precīzāka kļūst atsauce uz avotu. Programmatūras atjauninājumiem būtu jāspēj iegūt precīzus mērījumus identificētajam trokšņa veidam.
 <br>
 <br>

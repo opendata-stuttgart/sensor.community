@@ -6,12 +6,12 @@ title: 介紹
 
 <img src=".docsairrohrparticulate-matter-air quality-sensor-kit.jpeg" loading="lazy">。
 
-###购物清单
+### 购物清单
 ##### 传感器套件
 * [预闪式传感器套件](https://nettigo.euproductsluftdaten-org-pl-kit-sds011-bme280)
 
 ##### 单个组件
-* [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=nodemcu+v3+esp8266+ch340)
+* [NodeMCU ESP8266 CPU-WLAN](https://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=nodemcu+v3+esp8266+ch340)
 * [SDS011微尘传感器](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=sds011)
 * BME280 6针，温度、湿度和气压。
   - [via Aliexpress](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040440&amp;SearchText=bme280+-5V++3.3V)
@@ -23,7 +23,6 @@ title: 介紹
 * [电缆带](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+带子)
 * 柔性管，如果可能**不**透明，直径6毫米，长度约20厘米DIY商店。
 * [天气保护，Marley Silent HT Arc DN 75 87°](https://www.bauhaus.inforohrsystememarley-ht-bogen-p13625028)
-
 
 <br>
 

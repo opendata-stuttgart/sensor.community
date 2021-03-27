@@ -7,18 +7,18 @@ title: Uvod
     <div class="flex items-center">
           <span class="p-2 rounded-lg bg-indigo-500">
             <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5. 436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" >
-            <svg>
-          <span>
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5. 436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z">
+            </svg>
+          </span>
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
               Hrup je v beta različici. Vprašanja pošljite na<p>
         <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
-                Noise@Sensor.Community<a>
-        <div>
-    <div>
-  <div>
-<div>
+                Noise@Sensor.Community</a>
+        </div>
+    </div>
+  </div>
+</div>
 
 
 > 🚧 Sestavite svoj senzor DIY in postanite del svetovnega omrežja opendata &amp; civictech. <br> S senzorjem DNMS (digitalni senzor za merjenje hrupa) lahko sami merite onesnaženost s hrupom.

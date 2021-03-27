@@ -10,7 +10,6 @@ Lihtsalt laadige alla meie elektriskeemid ja/või Gerber-failid, laadige need ü
 Siin on kirjeldatud trükkplaatide viimaseid versioone. Lisateavet ja juurdepääsu KiCad-failidele leiate [Helmut Bitteri Githubist](https://github.comhbitterDNMStreemasterPCBs).
 
 ### AIRROHR V1.4
-### AIRROHR V1.4
 Trükkplaat NodeMCU ESP8266 CPUWLAN jaoks koos I2C bussi laiendusega, et ühendada DNMS ja teised andurid (SDS011, BME280...).
 
 
@@ -20,7 +19,6 @@ Trükkplaat NodeMCU ESP8266 CPUWLAN jaoks koos I2C bussi laiendusega, et ühenda
 
 ---
 
-### DNMS - T4 V1.4
 ### DNMS - T4 V1.4
 Trükkplaat DNMS Teensy 4.0 jaoks, mida saab ühendada otse NodeMCU ESP8266 või ülaltoodud AIRROHR trükkplaadile.
 

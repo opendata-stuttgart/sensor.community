@@ -21,7 +21,6 @@ Norint palaikyti ryšį su ESP8266, reikia usb2serial tvarkyklių jūsų operaci
 * V2: Atidarykite aplanką CP210x ir dukart spustelėkite programą CP210xVCPInstaller_x64 (arba x86)
 * V3: atidarykite aplanką CH341SER ir dukart spustelėkite programą SETUP.
 
----
 
 #### MacOS
 
@@ -34,7 +33,6 @@ Norint palaikyti ryšį su ESP8266, reikia usb2serial tvarkyklių jūsų operaci
 * V3: išpakuokite CH341SER aplanką ir dukart spustelėkite programą SETUP.
 * Iš naujo paleiskite "Mac
 
----
 
 ### Linux
 Jokių tvarkyklių diegti nereikia. Mikroschema turėtų būti palaikoma tiesiogiai (galima patikrinti naudojant dmesg)
