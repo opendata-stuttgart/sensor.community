@@ -1,1 +1,198 @@
-{"nav": {"home": "Home", "docs": "Útmutatók", "blog": "Blog", "projects": "Projektek", "forum": "Fórum", "sensor": "Útmutatók", "donate": "Adományozni", "langHelpWanted": "Segítséget keresünk", "langCallTo": "Hiányzik a nyelv?", "langDescription": "Adja meg fordítását a GitHubon keresztül"}, "error": {"errorStatus": "{status} hiba lépett fel.", "reloadPage": "Kérjük, próbálja meg újratölteni az oldalt.", "offline": "Úgy tűnik, hogy offline vagy.", "submitError": "Ha a hiba továbbra is fennáll, kérjük, látogasson el a &lt;a href=\"forum.sensor.community\"&gt;fórumunkra&lt;a&gt;, és értesítsen minket, vagy jelezzen problémát a &lt;a href=\"https:/github.comopendata-stuttgart\"&gt;GitHub&lt;a&gt; oldalon. Köszönjük!"}, "index": {"metaDescription": "Építsd meg a saját barkácsszenzorodat, és légy részese a világméretű polgári tudomány, nyílt adatok, polgári technológia hálózatának. Sok közreműködő által támogatva 💕", "metaTitle": "Sensor.Community 🌐 Építsd meg saját érzékelődet, és csatlakozz a világméretű polgári technológiai hálózathoz!", "h1-build": "Építse meg saját érzékelőjét", "h1-become": "és váljon részévé a", "h1-civic-tech": "világméretű Civic Tech hálózat 🌐", "h1-support": "Támogatja a sok", "h1-contributors": "hozzájárulók 💕", "inNumbers-title": "Sensor.Community számokban", "inNumbers-activeSensors": "Aktív érzékelők világszerte", "inNumbers-countries": "Országok", "inNumbers-dataPoints": "Adatpontok", "inNumbers-communityProjects": "Közösségi projektek", "inNumbers-communityHubs": "Közösségi laboratóriumok", "inNumbers-commits": "GitHub Commits", "inNumbers-fetching": "... adatok lekérése", "inNumbers-error": "Hiba történt!", "message-description": "A Sensor.Community egy közreműködők által irányított globális érzékelőhálózat, amely nyílt környezeti adatokat hoz létre.", "message-mission": "Küldetésünk, hogy inspiráljuk és gazdagítsuk az emberek életét azáltal, hogy platformot kínálunk a természet iránti kollektív kíváncsiságnak, amely őszinte, örömteli és pozitív.", "message-hubs": "A Sensor.Community globális központjai Stuttgartban, Sofiában és Varsóban találhatók."}, "sensor": {"metaDescription": "A Sensor.Community globális központjai Stuttgartban, Sofiában és Varsóban találhatók.", "metaTitle": "Keresse meg az érzékelőt és a DYI finompor-érzékelő építési utasításait", "h1": "Érzékelő készletek", "subtitle": "Válasszon egy összeszerelési útmutatót, és építse meg az érzékelőt.", "airSensorTitle": "Air", "noiseSensorTitle": "Zaj"}, "guide": {"editOnGithub": "szerkesztés a Githubon"}, "airrohr": {"metaTitle": "Építse meg saját részecskeérzékelőjét.", "metaDescription": "Építse meg saját részecskeérzékelőjét."}, "dnms": {"metaTitle": "Építse meg saját zajmérő érzékelőjét.", "metaDescription": "Építse meg saját zajmérő érzékelőjét."}, "forum": {"metaDescription": "", "metaTitle": "Fórum", "h1": "Fórum", "subtitle": "Hamarosan", "getNotified": "💌 Feliratkozás"}, "donate": {"metaDescription": "Nonprofit, nem vállalati és nem kompromisszumos alapon működünk. A hozzád hasonló emberek segítenek minket. Küldetésünk teljesítéséhez adományokra támaszkodunk.", "metaTitle": "Adományozz - segíts nekünk azzal, hogy megmutatod a szereteted", "h1": "Mutasd meg támogatásodat", "description": "Nonprofit, nem vállalati és nem kompromisszumos alapon működünk. A hozzád hasonló emberek segítenek minket. Küldetésünk teljesítéséhez adományokra támaszkodunk.", "section": "A támogatás módja", "campaign": "Futó kampány", "donation": "Közvetlen adományozás", "holder": "Számlatulajdonos", "iban": "IBAN", "bic": "BIC", "bank": "Bank", "intendedUse": "Rendeltetésszerű használat", "donationDescription": "A németországi Open Knowledge Foundation nonprofit szervezetként elismert."}, "blog": {"metaDescription": "Hírek", "metaTitle": "Hírek", "h1": "Legutóbbi bejegyzések", "description": " Hírek vagy egyéb érdekes információk keresése"}, "contributors": {"metaDescription": "A projekt mögött álló emberek", "metaTitle": "A Sensor.Community közreműködői", "h1": "Hello a csapattól 👋", "description": "Ismerje meg a csapatot, amely a színfalak mögött dolgozik a Sensor.Community erejének kihasználásán.", "contactBottom": "📮Kérjük, használja az oldal alján található kapcsolattartási lehetőségeket.", "meetTeam": "Ismerje meg a csapatot"}, "projects": {"metaDescription": "Találj mobil alkalmazásokat, weboldalakat,... a kedves közösségünkből 💖", "metaTitle": "Közösségi projektek", "h1": "Közösségi projektek", "description": "Találj mobil alkalmazásokat, weboldalakat,... a kedves közösségünkből 💖️", "submitIdea": "Van egy nagyszerű projekted? Oszd meg a közösséggel!", "submitProject": "Küldje el projektjét →"}, "hubs": {"metaDescription": "Találj közösségeket a világ minden tájáról 💖️", "metaTitle": "Közösségi központok", "h1": "Közösségi központok", "description": "Keresse meg a közösségeket a világ minden táján 💖️️"}, "campaigns": {"title": "Csatlakozzon egy kampányhoz"}, "campaign": {"h1": "Kampány", "subtitle": "Hamarosan", "phase1": "1. fázis:", "phase2": "2. fázis:", "phase3": "3. fázis:", "refs": "A Sensor.Community kampány célja, hogy a világ minden referenciaállomásán legyenek érzékelők.", "refs-metaTitle": "A Sensor.Community kampány célja, hogy a világ minden referenciaállomásán legyenek érzékelők.", "refs-phase1": "Az összes referenciaállomás helyének megjelenítése.", "refs-phase2": "A referenciaállomások metainformációinak megjelenítése.", "refs-phase3": "A referenciaállomások mérési értékeinek megjelenítése.", "sensor2school": "Sensor.Community kampány, hogy a világ minden iskolájában legyenek érzékelők.", "sensor2school-metaTitle": "Sensor.Community kampány, hogy a világ minden iskolájában legyenek érzékelők.", "sensor2school-phase1": "Regisztráljon és váljon nyílt környezeti adatszolgáltatóvá.", "sensor2school-phase2": "Csatlakozzon a globális Sensor.Communityhöz.", "sensor2school-phase3": "Legyen adatvezérelt polgár és támogassa helyi közösségét.", "sensor2library": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.", "sensor2library-metaTitle": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.", "zero200": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.", "zero200-metaTitle": "", "no2": "Az NO2-t diffúziós csövekkel mérjük.", "no2-metaTitle": "Az NO2-t diffúziós csövekkel mérjük.", "no2-phase1": "Indulás 2020.10.01-én - 10 európai város mérése 30 NO2 diffúziós csővel.", "no2-phase2": "Új térkép az összes NO2 diffúziós cső mérésének megjelenítésére.", "no2-phase3": "A világ összes többi NO2-diffúziós csöves kampányának felvétele a térképre.", "getNotified": "💌 Feliratkozás"}, "collaborations": {"h1": "Együttműködések", "subtitle": "Hamarosan", "getNotified": "💌 Feliratkozás"}, "location": {"h1": "Helyszín", "subtitle": "Hamarosan", "getNotified": "💌 Feliratkozás"}, "partnership": {"title": "Együttműködések"}, "contact": {"title": "Kapcsolatfelvétel", "general": "Kapcsolat", "general-subtitle": "általános kérdések?", "partnership": "Partnerség", "partnership-subtitle": "szeretne velünk együttműködni?", "press": "Sajtó", "press-subtitle": "cikkötletek?", "tech": "Tech", "tech-subtitle": "technikai kérdések?"}, "footer": {"importantLinks": "Fontos linkek", "sitemap": "Oldaltérkép", "license": "Licenc", "socialLinks": "Csatlakozás", "blog": "Blog", "donate": "Adományozni", "privacy": "Adatvédelem és feltételek", "communityProjects": "Közösségi projektek", "communityHubs": "Közösségi központok", "contributors": "Hozzájárulók", "mission": "Jobbá tesszük a világot a közösség által vezérelt, nyílt környezeti adatokkal.", "withLove": "Készült 💕 Stuttgartban, Németországban"}, "imprint": {"h1": "Impresszum és adatvédelem", "lastModified": "Utoljára módosítva:", "imprint": "Impresszum", "imprintName": "Név: Rajko Zschiegner", "imprintStreet": "Utca: Reichenbacher Str. 20", "imprintPostalCode": "Irányítószám: 07973 Greiz", "imprintCountry": "Ország: ", "imprintMail": "E-mail: rajko@sensor.community", "privacyPolicy": "Adatvédelem", "privacyPolicyContact": "Felelős", "privacyPolicyDesc": "Ezzel az adatvédelmi nyilatkozattal szeretnénk tájékoztatni Önt a személyes adatok weboldalunkon történő feldolgozásának típusáról, terjedelméről és céljáról. Személyes adatnak minősül minden olyan adat, amely személyes vonatkozással bír Önre, pl. név, cím, e-mail cím vagy felhasználói magatartás. A használt kifejezésekkel kapcsolatban, mint például \"feldolgozás\" vagy \"felelős személy\", hivatkozunk az Art. Adatvédelmi alaprendelet (DSGVO) 4. cikke szerinti meghatározásokra.", "privacyPolicyName": "Név: Rajko Zschiegner", "privacyPolicyStreet": "Utca: Reichenbacher Str. 20", "privacyPolicyPostalCode": "Irányítószám: 07973 Greiz", "privacyPolicyCountry": "Ország: ", "privacyPolicyMail": "E-mail: rajko@sensor.community", "privacyPolicyContactTitle": "Kapcsolatfelvétel e-mailben, a közösségi médiában vagy telefonon", "privacyPolicyContactDescription": "Amennyiben Ön a weboldalunkon felkínált e-mail, telefon vagy közösségi médiafelületeken fordul hozzánk, és személyes adatokat ad meg, ezeket az adatokat automatikusan tároljuk és feldolgozzuk a csapatunk által, hogy feldolgozzuk a megkeresését. Ezeket az adatokat kizárólag az Önnel való levelezés céljából dolgozzuk fel. Az e-mail címére azért van szükségünk, hogy válaszolhassunk a megkeresésére. Telefonszámára azért van szükségünk, hogy válaszolhassunk a visszahívási kérelmére. Jogalap: Az Ön adatainak fentiek szerinti felhasználásának jogalapja az Art. 6 bek. 1 lit. a DSGVO. Törlés: Az általunk gyűjtött személyes adatokat töröljük, ha már nincs rájuk szükség. A szükségességet 2 évente ellenőrizzük. Az adatfeldolgozást Ön is bármikor visszavonhatja."}}
+{
+  "nav": {
+    "home": "Home",
+    "docs": "Útmutatók",
+    "blog": "Blog",
+    "projects": "Projektek",
+    "forum": "Fórum",
+    "sensor": "Útmutatók",
+    "donate": "Adományozni",
+    "langHelpWanted": "Segítséget keresünk",
+    "langCallTo": "Hiányzik a nyelv?",
+    "langDescription": "Adja meg fordítását a GitHubon keresztül"
+  },
+  "error": {
+    "errorStatus": "{status} hiba lépett fel.",
+    "reloadPage": "Kérjük, próbálja meg újratölteni az oldalt.",
+    "offline": "Úgy tűnik, hogy offline vagy.",
+    "submitError": "Ha a hiba továbbra is fennáll, kérjük, látogasson el a &lt;a href=\"forum.sensor.community\"&gt;fórumunkra&lt;a&gt;, és értesítsen minket, vagy jelezzen problémát a &lt;a href=\"https:/github.comopendata-stuttgart\"&gt;GitHub&lt;a&gt; oldalon. Köszönjük!"
+  },
+  "index": {
+    "metaDescription": "Építsd meg a saját barkácsszenzorodat, és légy részese a világméretű polgári tudomány, nyílt adatok, polgári technológia hálózatának. Sok közreműködő által támogatva 💕",
+    "metaTitle": "Sensor.Community 🌐 Építsd meg saját érzékelődet, és csatlakozz a világméretű polgári technológiai hálózathoz!",
+    "h1-build": "Építse meg saját érzékelőjét",
+    "h1-become": "és váljon részévé a",
+    "h1-civic-tech": "világméretű Civic Tech hálózat 🌐",
+    "h1-support": "Támogatja a sok",
+    "h1-contributors": "hozzájárulók 💕",
+    "inNumbers-title": "Sensor.Community számokban",
+    "inNumbers-activeSensors": "Aktív érzékelők világszerte",
+    "inNumbers-countries": "Országok",
+    "inNumbers-dataPoints": "Adatpontok",
+    "inNumbers-communityProjects": "Közösségi projektek",
+    "inNumbers-communityHubs": "Közösségi laboratóriumok",
+    "inNumbers-commits": "GitHub Commits",
+    "inNumbers-fetching": "... adatok lekérése",
+    "inNumbers-error": "Hiba történt!",
+    "message-description": "A Sensor.Community egy közreműködők által irányított globális érzékelőhálózat, amely nyílt környezeti adatokat hoz létre.",
+    "message-mission": "Küldetésünk, hogy inspiráljuk és gazdagítsuk az emberek életét azáltal, hogy platformot kínálunk a természet iránti kollektív kíváncsiságnak, amely őszinte, örömteli és pozitív.",
+    "message-hubs": "A Sensor.Community globális központjai Stuttgartban, Sofiában és Varsóban találhatók."
+  },
+  "sensor": {
+    "metaDescription": "A Sensor.Community globális központjai Stuttgartban, Sofiában és Varsóban találhatók.",
+    "metaTitle": "Keresse meg az érzékelőt és a DYI finompor-érzékelő építési utasításait",
+    "h1": "Érzékelő készletek",
+    "subtitle": "Válasszon egy összeszerelési útmutatót, és építse meg az érzékelőt.",
+    "airSensorTitle": "Air",
+    "noiseSensorTitle": "Zaj"
+  },
+  "guide": {
+    "editOnGithub": "szerkesztés a Githubon"
+  },
+  "airrohr": {
+    "metaTitle": "Építse meg saját részecskeérzékelőjét.",
+    "metaDescription": "Építse meg saját részecskeérzékelőjét."
+  },
+  "dnms": {
+    "metaTitle": "Építse meg saját zajmérő érzékelőjét.",
+    "metaDescription": "Építse meg saját zajmérő érzékelőjét."
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Fórum",
+    "h1": "Fórum",
+    "subtitle": "Hamarosan",
+    "getNotified": "💌 Feliratkozás"
+  },
+  "donate": {
+    "metaDescription": "Nonprofit, nem vállalati és nem kompromisszumos alapon működünk. A hozzád hasonló emberek segítenek minket. Küldetésünk teljesítéséhez adományokra támaszkodunk.",
+    "metaTitle": "Adományozz - segíts nekünk azzal, hogy megmutatod a szereteted",
+    "h1": "Mutasd meg támogatásodat",
+    "description": "Nonprofit, nem vállalati és nem kompromisszumos alapon működünk. A hozzád hasonló emberek segítenek minket. Küldetésünk teljesítéséhez adományokra támaszkodunk.",
+    "section": "A támogatás módja",
+    "campaign": "Futó kampány",
+    "donation": "Közvetlen adományozás",
+    "holder": "Számlatulajdonos",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Bank",
+    "intendedUse": "Rendeltetésszerű használat",
+    "donationDescription": "A németországi Open Knowledge Foundation nonprofit szervezetként elismert."
+  },
+  "blog": {
+    "metaDescription": "Hírek",
+    "metaTitle": "Hírek",
+    "h1": "Legutóbbi bejegyzések",
+    "description": " Hírek vagy egyéb érdekes információk keresése"
+  },
+  "contributors": {
+    "metaDescription": "A projekt mögött álló emberek",
+    "metaTitle": "A Sensor.Community közreműködői",
+    "h1": "Hello a csapattól 👋",
+    "description": "Ismerje meg a csapatot, amely a színfalak mögött dolgozik a Sensor.Community erejének kihasználásán.",
+    "contactBottom": "📮Kérjük, használja az oldal alján található kapcsolattartási lehetőségeket.",
+    "meetTeam": "Ismerje meg a csapatot"
+  },
+  "projects": {
+    "metaDescription": "Találj mobil alkalmazásokat, weboldalakat,... a kedves közösségünkből 💖",
+    "metaTitle": "Közösségi projektek",
+    "h1": "Közösségi projektek",
+    "description": "Találj mobil alkalmazásokat, weboldalakat,... a kedves közösségünkből 💖️",
+    "submitIdea": "Van egy nagyszerű projekted? Oszd meg a közösséggel!",
+    "submitProject": "Küldje el projektjét →"
+  },
+  "hubs": {
+    "metaDescription": "Találj közösségeket a világ minden tájáról 💖️",
+    "metaTitle": "Közösségi központok",
+    "h1": "Közösségi központok",
+    "description": "Keresse meg a közösségeket a világ minden táján 💖️️"
+  },
+  "campaigns": {
+    "title": "Csatlakozzon egy kampányhoz"
+  },
+  "campaign": {
+    "h1": "Kampány",
+    "subtitle": "Hamarosan",
+    "phase1": "1. fázis:",
+    "phase2": "2. fázis:",
+    "phase3": "3. fázis:",
+    "refs": "A Sensor.Community kampány célja, hogy a világ minden referenciaállomásán legyenek érzékelők.",
+    "refs-metaTitle": "A Sensor.Community kampány célja, hogy a világ minden referenciaállomásán legyenek érzékelők.",
+    "refs-phase1": "Az összes referenciaállomás helyének megjelenítése.",
+    "refs-phase2": "A referenciaállomások metainformációinak megjelenítése.",
+    "refs-phase3": "A referenciaállomások mérési értékeinek megjelenítése.",
+    "sensor2school": "Sensor.Community kampány, hogy a világ minden iskolájában legyenek érzékelők.",
+    "sensor2school-metaTitle": "Sensor.Community kampány, hogy a világ minden iskolájában legyenek érzékelők.",
+    "sensor2school-phase1": "Regisztráljon és váljon nyílt környezeti adatszolgáltatóvá.",
+    "sensor2school-phase2": "Csatlakozzon a globális Sensor.Communityhöz.",
+    "sensor2school-phase3": "Legyen adatvezérelt polgár és támogassa helyi közösségét.",
+    "sensor2library": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.",
+    "sensor2library-metaTitle": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.",
+    "zero200": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.",
+    "zero200-metaTitle": "",
+    "no2": "Az NO2-t diffúziós csövekkel mérjük.",
+    "no2-metaTitle": "Az NO2-t diffúziós csövekkel mérjük.",
+    "no2-phase1": "Indulás 2020.10.01-én - 9 európai város mérése 30 NO2 diffúziós csővel.",
+    "no2-phase2": "Új térkép az összes NO2 diffúziós cső mérésének megjelenítésére.",
+    "no2-phase3": "A világ összes többi NO2-diffúziós csöves kampányának felvétele a térképre.",
+    "getNotified": "💌 Feliratkozás"
+  },
+  "collaborations": {
+    "h1": "Együttműködések",
+    "subtitle": "Hamarosan",
+    "getNotified": "💌 Feliratkozás"
+  },
+  "location": {
+    "h1": "Helyszín",
+    "subtitle": "Hamarosan",
+    "getNotified": "💌 Feliratkozás"
+  },
+  "partnership": {
+    "title": "Együttműködések"
+  },
+  "contact": {
+    "title": "Kapcsolatfelvétel",
+    "general": "Kapcsolat",
+    "general-subtitle": "általános kérdések?",
+    "partnership": "Partnerség",
+    "partnership-subtitle": "szeretne velünk együttműködni?",
+    "press": "Sajtó",
+    "press-subtitle": "cikkötletek?",
+    "tech": "Tech",
+    "tech-subtitle": "technikai kérdések?"
+  },
+  "footer": {
+    "importantLinks": "Fontos linkek",
+    "sitemap": "Oldaltérkép",
+    "license": "Licenc",
+    "socialLinks": "Csatlakozás",
+    "blog": "Blog",
+    "donate": "Adományozni",
+    "privacy": "Adatvédelem és feltételek",
+    "communityProjects": "Közösségi projektek",
+    "communityHubs": "Közösségi központok",
+    "contributors": "Hozzájárulók",
+    "mission": "Jobbá tesszük a világot a közösség által vezérelt, nyílt környezeti adatokkal.",
+    "withLove": "Készült 💕 Stuttgartban, Németországban"
+  },
+  "imprint": {
+    "h1": "Impresszum és adatvédelem",
+    "lastModified": "Utoljára módosítva:",
+    "imprint": "Impresszum",
+    "imprintName": "Név: Rajko Zschiegner",
+    "imprintStreet": "Utca: Reichenbacher Str. 20",
+    "imprintPostalCode": "Irányítószám: 07973 Greiz",
+    "imprintCountry": "Ország: ",
+    "imprintMail": "E-mail: rajko@sensor.community",
+    "privacyPolicy": "Adatvédelem",
+    "privacyPolicyContact": "Felelős",
+    "privacyPolicyDesc": "Ezzel az adatvédelmi nyilatkozattal szeretnénk tájékoztatni Önt a személyes adatok weboldalunkon történő feldolgozásának típusáról, terjedelméről és céljáról. Személyes adatnak minősül minden olyan adat, amely személyes vonatkozással bír Önre, pl. név, cím, e-mail cím vagy felhasználói magatartás. A használt kifejezésekkel kapcsolatban, mint például \"feldolgozás\" vagy \"felelős személy\", hivatkozunk az Art. Adatvédelmi alaprendelet (DSGVO) 4. cikke szerinti meghatározásokra.",
+    "privacyPolicyName": "Név: Rajko Zschiegner",
+    "privacyPolicyStreet": "Utca: Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Irányítószám: 07973 Greiz",
+    "privacyPolicyCountry": "Ország: ",
+    "privacyPolicyMail": "E-mail: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Kapcsolatfelvétel e-mailben, a közösségi médiában vagy telefonon",
+    "privacyPolicyContactDescription": "Amennyiben Ön a weboldalunkon felkínált e-mail, telefon vagy közösségi médiafelületeken fordul hozzánk, és személyes adatokat ad meg, ezeket az adatokat automatikusan tároljuk és feldolgozzuk a csapatunk által, hogy feldolgozzuk a megkeresését. Ezeket az adatokat kizárólag az Önnel való levelezés céljából dolgozzuk fel. Az e-mail címére azért van szükségünk, hogy válaszolhassunk a megkeresésére. Telefonszámára azért van szükségünk, hogy válaszolhassunk a visszahívási kérelmére. Jogalap: Az Ön adatainak fentiek szerinti felhasználásának jogalapja az Art. 6 bek. 1 lit. a DSGVO. Törlés: Az általunk gyűjtött személyes adatokat töröljük, ha már nincs rájuk szükség. A szükségességet 2 évente ellenőrizzük. Az adatfeldolgozást Ön is bármikor visszavonhatja."
+  }
+}

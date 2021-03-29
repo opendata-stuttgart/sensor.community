@@ -1,1 +1,198 @@
-{"nav": {"home": "Kodu", "docs": "Juhendid", "blog": "Blogi", "projects": "Projektid", "forum": "Foorum", "sensor": "Juhendid", "donate": "Annetada", "langHelpWanted": "Abi otsitakse", "langCallTo": "Puudub teie keel?", "langDescription": "Esitage oma tõlge GitHubi kaudu"}, "error": {"errorStatus": "Tekkis {status} viga.", "reloadPage": "Palun proovige lehte uuesti laadida.", "offline": "Paistab, et olete võrguühenduseta.", "submitError": "Kui viga püsib, palun külastage &lt;a href=\"forum.sensor.community\"&gt;Meie foorumit&lt;a&gt; ja andke meile teada või esitage probleem &lt;a href=\"https:/github.comopendata-stuttgart\"&gt;GitHub&lt;a&gt;. Täname!"}, "index": {"metaDescription": "Ehita oma DIY-sensor ja saa osa ülemaailmsest kodanikuteaduse, avatud andmete ja kodanikuühiskonna tehnoloogiavõrgustikust. Toetavad paljud toetajad 💕", "metaTitle": "Sensor.Community 🌐 Ehita oma andur ja liitu ülemaailmse kodanikuühiskonna tehnoloogiavõrgustikuga", "h1-build": "Ehita oma andur", "h1-become": "ja saada osaks", "h1-civic-tech": "ülemaailmne Civic Tech võrgustik 🌐", "h1-support": "Toetab palju", "h1-contributors": "toetajad 💕", "inNumbers-title": "Sensor.Community numbrites", "inNumbers-activeSensors": "Aktiivsed andurid kogu maailmas", "inNumbers-countries": "Riigid", "inNumbers-dataPoints": "Andmepunktid", "inNumbers-communityProjects": "Ühenduse projektid", "inNumbers-communityHubs": "Ühenduse laborid", "inNumbers-commits": "GitHub Commits", "inNumbers-fetching": "... andmete hankimine", "inNumbers-error": "Tekkis viga!", "message-description": "Sensor.Community on panustajate juhitud ülemaailmne sensorivõrgustik, mis loob avatud keskkonnaandmeid.", "message-mission": "Meie missioon on inspireerida ja rikastada inimeste elu, pakkudes platvormi kollektiivsele uudishimule looduses, mis on tõeline, rõõmus ja positiivne.", "message-hubs": "Sensor.Communityl on ülemaailmsed keskused Stuttgartis, Sofias ja Varssavis."}, "sensor": {"metaDescription": "Sensor.Communityl on ülemaailmsed keskused Stuttgartis, Sofias ja Varssavis.", "metaTitle": "Leia oma andur ja DYI peentolmuanduri ehitusjuhised", "h1": "Andurikomplektid", "subtitle": "Valige montaažijuhend ja ehitage oma andur.", "airSensorTitle": "Air", "noiseSensorTitle": "Müra"}, "guide": {"editOnGithub": "Githubi redigeerimine"}, "airrohr": {"metaTitle": "Ehitage oma tahkete osakeste andur.", "metaDescription": "Ehitage oma tahkete osakeste andur."}, "dnms": {"metaTitle": "Ehita oma müra mõõtmise andur.", "metaDescription": "Ehita oma müra mõõtmise andur."}, "forum": {"metaDescription": "", "metaTitle": "Foorum", "h1": "Foorum", "subtitle": "Tulemas peagi", "getNotified": "💌 Tellige"}, "donate": {"metaDescription": "Me oleme mittetulunduslik, mitte-korporatiivne ja mitte-kompromiteeritud. Sellised inimesed nagu sina aitavad meid. Me toetume annetustele, et täita oma missiooni.", "metaTitle": "Annetage - aidake meid, näidates oma armastust", "h1": "Näita oma toetust", "description": "Me oleme mittetulunduslik, mitte-korporatiivne ja mitte-kompromiteeritud. Sellised inimesed nagu sina aitavad meid. Me toetume annetustele, et täita oma missiooni.", "section": "Toetuse viisid", "campaign": "Käimasolev kampaania", "donation": "Otsene annetus", "holder": "Kontoomanik", "iban": "IBAN", "bic": "BIC", "bank": "Pank", "intendedUse": "Kasutusotstarve", "donationDescription": "Avatud Teadmiste Sihtasutus Saksamaal on tunnustatud mittetulundusühinguna."}, "blog": {"metaDescription": "Uudised", "metaTitle": "Uudised", "h1": "Viimased postitused", "description": " Leia uudiseid või muud huvitavat teavet"}, "contributors": {"metaDescription": "Inimesed projekti taga", "metaTitle": "Sensor.Community toetajad", "h1": "Tere meeskonnalt 👋", "description": "Tutvuge meeskonnaga, kes töötab kulisside taga Sensor.Community võimsuse ärakasutamiseks.", "contactBottom": "📮Kasutage palun lehekülje allosas olevaid kontaktivõimalusi.", "meetTeam": "Tutvuge meeskonnaga"}, "projects": {"metaDescription": "Leia mobiilirakendusi, veebilehti,... meie armsast kogukonnast 💖", "metaTitle": "Ühenduse projektid", "h1": "Ühenduse projektid", "description": "Leia mobiilirakendused, veebilehed,... meie armsast kogukonnast 💖️", "submitIdea": "Kas teil on suurepärane projekt? Jaga seda kogukonnaga!", "submitProject": "Esitage oma projekt →"}, "hubs": {"metaDescription": "Leia kogukonnad üle maailma 💖️", "metaTitle": "Ühenduse keskused", "h1": "Ühenduse keskused", "description": "Leia kogukonnad üle maailma 💖️️️"}, "campaigns": {"title": "Liitu kampaaniaga"}, "campaign": {"h1": "Kampaania", "subtitle": "Tulemas peagi", "phase1": "1. faas:", "phase2": "2. faas:", "phase3": "3. faas:", "refs": "Sensor.Community kampaania, et tuua sensorid igasse maailma tugijaama.", "refs-metaTitle": "Sensor.Community kampaania, et tuua sensorid igasse maailma tugijaama.", "refs-phase1": "Kuvatakse kõigi tugijaamade asukohad.", "refs-phase2": "Kuvatakse võrdlusjaamade metaandmed.", "refs-phase3": "Näitab võrdlusjaamade mõõtmisväärtusi.", "sensor2school": "Sensor.Community kampaania, et tuua sensorid igasse maailma kooli.", "sensor2school-metaTitle": "Sensor.Community kampaania, et tuua sensorid igasse maailma kooli.", "sensor2school-phase1": "Registreeruge ja muutuge avatud keskkonnaandmete esitajaks.", "sensor2school-phase2": "Ühendage end ülemaailmse Sensor.Communityga.", "sensor2school-phase3": "Hakka andmepõhiseks kodanikuks ja toeta oma kohalikku kogukonda.", "sensor2library": "Sensor.Community kampaania, et tuua sensorid igasse maailma raamatukokku.", "sensor2library-metaTitle": "Sensor.Community kampaania, et tuua sensorid igasse maailma raamatukokku.", "zero200": "Sensor.Community kampaania, et tuua sensorid igasse maailma raamatukokku.", "zero200-metaTitle": "", "no2": "Me mõõdame NO2 difusioonitorudega.", "no2-metaTitle": "Me mõõdame NO2 difusioonitorudega.", "no2-phase1": "Käivitamine 01.10.2020 - 10 linna Euroopas mõõdavad 30 NO2-difusioonitoru igaühes.", "no2-phase2": "Uus kaart kõigi NO2-difusioonitorude mõõtmiste kuvamiseks.", "no2-phase3": "Lisades kaardile kõik teised NO2-difusioonitorude kampaaniad kogu maailmas.", "getNotified": "💌 Tellige"}, "collaborations": {"h1": "Koostöö", "subtitle": "Tulemas peagi", "getNotified": "💌 Tellige"}, "location": {"h1": "Asukoht", "subtitle": "Tulemas peagi", "getNotified": "💌 Tellige"}, "partnership": {"title": "Koostöö"}, "contact": {"title": "Võtke meiega ühendust", "general": "Kontakt", "general-subtitle": "üldised küsimused?", "partnership": "Partnerlus", "partnership-subtitle": "soovite meiega koostööd teha?", "press": "Press", "press-subtitle": "artikli ideed?", "tech": "Tehnika", "tech-subtitle": "tehnilised küsimused?"}, "footer": {"importantLinks": "Olulised lingid", "sitemap": "Sisukaart", "license": "Litsents", "socialLinks": "Ühendage", "blog": "Blogi", "donate": "Annetada", "privacy": "Privaatsus ja tingimused", "communityProjects": "Ühenduse projektid", "communityHubs": "Ühenduse keskused", "contributors": "Toetajad", "mission": "Teeme maailma paremaks kogukonnapõhiste, avatud keskkonnaandmete abil.", "withLove": "Valmistatud 💕 Stuttgartis, Saksamaal"}, "imprint": {"h1": "Jälg &amp; privaatsus", "lastModified": "Viimati muudetud:", "imprint": "Jälg", "imprintName": "Nimi: Rajko Zschiegner", "imprintStreet": "Tänav: Reichenbacher Str. 20", "imprintPostalCode": "Postiindeks: 07973 Greiz", "imprintCountry": "Riik: Saksamaa", "imprintMail": "E-post: rajko@sensor.community", "privacyPolicy": "Privaatsus", "privacyPolicyContact": "Vastutav", "privacyPolicyDesc": "Käesoleva privaatsuspoliitikaga soovime teid teavitada isikuandmete töötlemise tüübist, ulatusest ja eesmärgist meie veebisaidil. Isikuandmed on kõik andmed, millel on isiklik viide teile, nt nimi, aadress, e-posti aadress või kasutajakäitumine. Kasutatavate mõistete, nagu \"töötlemine\" või \"vastutav isik\", puhul viitame artikli 2 lõikes 1 esitatud määratlustele. 4 isikuandmete kaitse üldmääruse (DSGVO) mõistetele.", "privacyPolicyName": "Nimi: Rajko Zschiegner", "privacyPolicyStreet": "Tänav: Reichenbacher Str. 20", "privacyPolicyPostalCode": "Postiindeks: 07973 Greiz", "privacyPolicyCountry": "Riik: Saksamaa", "privacyPolicyMail": "E-post: rajko@sensor.community", "privacyPolicyContactTitle": "Kontakt e-posti, sotsiaalmeedia või telefoni teel", "privacyPolicyContactDescription": "Kui kasutate meie veebisaidil pakutavat e-posti, telefoni või sotsiaalmeediat ja esitate meile isikuandmeid, salvestab ja töötleb meie meeskond neid andmeid automaatselt, et teie päringut töödelda. Neid andmeid töödeldakse ainult teiega peetava kirjavahetuse jaoks. Me vajame teie e-posti aadressi, et saaksime teie päringule vastata. Me vajame teie telefoninumbrit, et saaksime vastata teie tagasikutsumise taotlusele. Õiguslik alus: Eespool kirjeldatud andmete kasutamise õiguslik alus on art. 6 lõik. 1 lit. a DSGVO. Kustutamine: Meie poolt kogutud isikuandmed kustutatakse, kui neid enam ei vajata. Kontrollime vajalikkust iga 2 aasta tagant. Samuti võite igal ajal andmete töötlemise tühistada."}}
+{
+  "nav": {
+    "home": "Kodu",
+    "docs": "Juhendid",
+    "blog": "Blogi",
+    "projects": "Projektid",
+    "forum": "Foorum",
+    "sensor": "Juhendid",
+    "donate": "Annetada",
+    "langHelpWanted": "Abi otsitakse",
+    "langCallTo": "Puudub teie keel?",
+    "langDescription": "Esitage oma tõlge GitHubi kaudu"
+  },
+  "error": {
+    "errorStatus": "Tekkis {status} viga.",
+    "reloadPage": "Palun proovige lehte uuesti laadida.",
+    "offline": "Paistab, et olete võrguühenduseta.",
+    "submitError": "Kui viga püsib, palun külastage &lt;a href=\"forum.sensor.community\"&gt;Meie foorumit&lt;a&gt; ja andke meile teada või esitage probleem &lt;a href=\"https:/github.comopendata-stuttgart\"&gt;GitHub&lt;a&gt;. Täname!"
+  },
+  "index": {
+    "metaDescription": "Ehita oma DIY-sensor ja saa osa ülemaailmsest kodanikuteaduse, avatud andmete ja kodanikuühiskonna tehnoloogiavõrgustikust. Toetavad paljud toetajad 💕",
+    "metaTitle": "Sensor.Community 🌐 Ehita oma andur ja liitu ülemaailmse kodanikuühiskonna tehnoloogiavõrgustikuga",
+    "h1-build": "Ehita oma andur",
+    "h1-become": "ja saada osaks",
+    "h1-civic-tech": "ülemaailmne Civic Tech võrgustik 🌐",
+    "h1-support": "Toetab palju",
+    "h1-contributors": "toetajad 💕",
+    "inNumbers-title": "Sensor.Community numbrites",
+    "inNumbers-activeSensors": "Aktiivsed andurid kogu maailmas",
+    "inNumbers-countries": "Riigid",
+    "inNumbers-dataPoints": "Andmepunktid",
+    "inNumbers-communityProjects": "Ühenduse projektid",
+    "inNumbers-communityHubs": "Ühenduse laborid",
+    "inNumbers-commits": "GitHub Commits",
+    "inNumbers-fetching": "... andmete hankimine",
+    "inNumbers-error": "Tekkis viga!",
+    "message-description": "Sensor.Community on panustajate juhitud ülemaailmne sensorivõrgustik, mis loob avatud keskkonnaandmeid.",
+    "message-mission": "Meie missioon on inspireerida ja rikastada inimeste elu, pakkudes platvormi kollektiivsele uudishimule looduses, mis on tõeline, rõõmus ja positiivne.",
+    "message-hubs": "Sensor.Communityl on ülemaailmsed keskused Stuttgartis, Sofias ja Varssavis."
+  },
+  "sensor": {
+    "metaDescription": "Sensor.Communityl on ülemaailmsed keskused Stuttgartis, Sofias ja Varssavis.",
+    "metaTitle": "Leia oma andur ja DYI peentolmuanduri ehitusjuhised",
+    "h1": "Andurikomplektid",
+    "subtitle": "Valige montaažijuhend ja ehitage oma andur.",
+    "airSensorTitle": "Air",
+    "noiseSensorTitle": "Müra"
+  },
+  "guide": {
+    "editOnGithub": "Githubi redigeerimine"
+  },
+  "airrohr": {
+    "metaTitle": "Ehitage oma tahkete osakeste andur.",
+    "metaDescription": "Ehitage oma tahkete osakeste andur."
+  },
+  "dnms": {
+    "metaTitle": "Ehita oma müra mõõtmise andur.",
+    "metaDescription": "Ehita oma müra mõõtmise andur."
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Foorum",
+    "h1": "Foorum",
+    "subtitle": "Tulemas peagi",
+    "getNotified": "💌 Tellige"
+  },
+  "donate": {
+    "metaDescription": "Me oleme mittetulunduslik, mitte-korporatiivne ja mitte-kompromiteeritud. Sellised inimesed nagu sina aitavad meid. Me toetume annetustele, et täita oma missiooni.",
+    "metaTitle": "Annetage - aidake meid, näidates oma armastust",
+    "h1": "Näita oma toetust",
+    "description": "Me oleme mittetulunduslik, mitte-korporatiivne ja mitte-kompromiteeritud. Sellised inimesed nagu sina aitavad meid. Me toetume annetustele, et täita oma missiooni.",
+    "section": "Toetuse viisid",
+    "campaign": "Käimasolev kampaania",
+    "donation": "Otsene annetus",
+    "holder": "Kontoomanik",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Pank",
+    "intendedUse": "Kasutusotstarve",
+    "donationDescription": "Avatud Teadmiste Sihtasutus Saksamaal on tunnustatud mittetulundusühinguna."
+  },
+  "blog": {
+    "metaDescription": "Uudised",
+    "metaTitle": "Uudised",
+    "h1": "Viimased postitused",
+    "description": " Leia uudiseid või muud huvitavat teavet"
+  },
+  "contributors": {
+    "metaDescription": "Inimesed projekti taga",
+    "metaTitle": "Sensor.Community toetajad",
+    "h1": "Tere meeskonnalt 👋",
+    "description": "Tutvuge meeskonnaga, kes töötab kulisside taga Sensor.Community võimsuse ärakasutamiseks.",
+    "contactBottom": "📮Kasutage palun lehekülje allosas olevaid kontaktivõimalusi.",
+    "meetTeam": "Tutvuge meeskonnaga"
+  },
+  "projects": {
+    "metaDescription": "Leia mobiilirakendusi, veebilehti,... meie armsast kogukonnast 💖",
+    "metaTitle": "Ühenduse projektid",
+    "h1": "Ühenduse projektid",
+    "description": "Leia mobiilirakendused, veebilehed,... meie armsast kogukonnast 💖️",
+    "submitIdea": "Kas teil on suurepärane projekt? Jaga seda kogukonnaga!",
+    "submitProject": "Esitage oma projekt →"
+  },
+  "hubs": {
+    "metaDescription": "Leia kogukonnad üle maailma 💖️",
+    "metaTitle": "Ühenduse keskused",
+    "h1": "Ühenduse keskused",
+    "description": "Leia kogukonnad üle maailma 💖️️️"
+  },
+  "campaigns": {
+    "title": "Liitu kampaaniaga"
+  },
+  "campaign": {
+    "h1": "Kampaania",
+    "subtitle": "Tulemas peagi",
+    "phase1": "1. faas:",
+    "phase2": "2. faas:",
+    "phase3": "3. faas:",
+    "refs": "Sensor.Community kampaania, et tuua sensorid igasse maailma tugijaama.",
+    "refs-metaTitle": "Sensor.Community kampaania, et tuua sensorid igasse maailma tugijaama.",
+    "refs-phase1": "Kuvatakse kõigi tugijaamade asukohad.",
+    "refs-phase2": "Kuvatakse võrdlusjaamade metaandmed.",
+    "refs-phase3": "Näitab võrdlusjaamade mõõtmisväärtusi.",
+    "sensor2school": "Sensor.Community kampaania, et tuua sensorid igasse maailma kooli.",
+    "sensor2school-metaTitle": "Sensor.Community kampaania, et tuua sensorid igasse maailma kooli.",
+    "sensor2school-phase1": "Registreeruge ja muutuge avatud keskkonnaandmete esitajaks.",
+    "sensor2school-phase2": "Ühendage end ülemaailmse Sensor.Communityga.",
+    "sensor2school-phase3": "Hakka andmepõhiseks kodanikuks ja toeta oma kohalikku kogukonda.",
+    "sensor2library": "Sensor.Community kampaania, et tuua sensorid igasse maailma raamatukokku.",
+    "sensor2library-metaTitle": "Sensor.Community kampaania, et tuua sensorid igasse maailma raamatukokku.",
+    "zero200": "Sensor.Community kampaania, et tuua sensorid igasse maailma raamatukokku.",
+    "zero200-metaTitle": "",
+    "no2": "Me mõõdame NO2 difusioonitorudega.",
+    "no2-metaTitle": "Me mõõdame NO2 difusioonitorudega.",
+    "no2-phase1": "Käivitamine 01.10.2020 - 9 linna Euroopas mõõdavad 30 NO2-difusioonitoru igaühes.",
+    "no2-phase2": "Uus kaart kõigi NO2-difusioonitorude mõõtmiste kuvamiseks.",
+    "no2-phase3": "Lisades kaardile kõik teised NO2-difusioonitorude kampaaniad kogu maailmas.",
+    "getNotified": "💌 Tellige"
+  },
+  "collaborations": {
+    "h1": "Koostöö",
+    "subtitle": "Tulemas peagi",
+    "getNotified": "💌 Tellige"
+  },
+  "location": {
+    "h1": "Asukoht",
+    "subtitle": "Tulemas peagi",
+    "getNotified": "💌 Tellige"
+  },
+  "partnership": {
+    "title": "Koostöö"
+  },
+  "contact": {
+    "title": "Võtke meiega ühendust",
+    "general": "Kontakt",
+    "general-subtitle": "üldised küsimused?",
+    "partnership": "Partnerlus",
+    "partnership-subtitle": "soovite meiega koostööd teha?",
+    "press": "Press",
+    "press-subtitle": "artikli ideed?",
+    "tech": "Tehnika",
+    "tech-subtitle": "tehnilised küsimused?"
+  },
+  "footer": {
+    "importantLinks": "Olulised lingid",
+    "sitemap": "Sisukaart",
+    "license": "Litsents",
+    "socialLinks": "Ühendage",
+    "blog": "Blogi",
+    "donate": "Annetada",
+    "privacy": "Privaatsus ja tingimused",
+    "communityProjects": "Ühenduse projektid",
+    "communityHubs": "Ühenduse keskused",
+    "contributors": "Toetajad",
+    "mission": "Teeme maailma paremaks kogukonnapõhiste, avatud keskkonnaandmete abil.",
+    "withLove": "Valmistatud 💕 Stuttgartis, Saksamaal"
+  },
+  "imprint": {
+    "h1": "Jälg &amp; privaatsus",
+    "lastModified": "Viimati muudetud:",
+    "imprint": "Jälg",
+    "imprintName": "Nimi: Rajko Zschiegner",
+    "imprintStreet": "Tänav: Reichenbacher Str. 20",
+    "imprintPostalCode": "Postiindeks: 07973 Greiz",
+    "imprintCountry": "Riik: Saksamaa",
+    "imprintMail": "E-post: rajko@sensor.community",
+    "privacyPolicy": "Privaatsus",
+    "privacyPolicyContact": "Vastutav",
+    "privacyPolicyDesc": "Käesoleva privaatsuspoliitikaga soovime teid teavitada isikuandmete töötlemise tüübist, ulatusest ja eesmärgist meie veebisaidil. Isikuandmed on kõik andmed, millel on isiklik viide teile, nt nimi, aadress, e-posti aadress või kasutajakäitumine. Kasutatavate mõistete, nagu \"töötlemine\" või \"vastutav isik\", puhul viitame artikli 2 lõikes 1 esitatud määratlustele. 4 isikuandmete kaitse üldmääruse (DSGVO) mõistetele.",
+    "privacyPolicyName": "Nimi: Rajko Zschiegner",
+    "privacyPolicyStreet": "Tänav: Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Postiindeks: 07973 Greiz",
+    "privacyPolicyCountry": "Riik: Saksamaa",
+    "privacyPolicyMail": "E-post: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Kontakt e-posti, sotsiaalmeedia või telefoni teel",
+    "privacyPolicyContactDescription": "Kui kasutate meie veebisaidil pakutavat e-posti, telefoni või sotsiaalmeediat ja esitate meile isikuandmeid, salvestab ja töötleb meie meeskond neid andmeid automaatselt, et teie päringut töödelda. Neid andmeid töödeldakse ainult teiega peetava kirjavahetuse jaoks. Me vajame teie e-posti aadressi, et saaksime teie päringule vastata. Me vajame teie telefoninumbrit, et saaksime vastata teie tagasikutsumise taotlusele. Õiguslik alus: Eespool kirjeldatud andmete kasutamise õiguslik alus on art. 6 lõik. 1 lit. a DSGVO. Kustutamine: Meie poolt kogutud isikuandmed kustutatakse, kui neid enam ei vajata. Kontrollime vajalikkust iga 2 aasta tagant. Samuti võite igal ajal andmete töötlemise tühistada."
+  }
+}
