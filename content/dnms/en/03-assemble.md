@@ -19,6 +19,7 @@ The housing is made with a .500" (12.7mm) polystyrene tubing. This diameter perm
 The prototype was developed with the [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 The breakout board has to be adapted to the diameter of the tubing with a file. Use some tape to protect the microphone inlet.
 <br>

@@ -23,7 +23,7 @@ title: Introduzione
 
 > 🚧 Costruisci il tuo sensore fai da te e diventa parte della rete mondiale, opendata &amp; civictech. <br> Con DNMS (Digital Noise Measuring Sensor) puoi misurare da solo l'inquinamento acustico.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Controlla le istruzioni originali e le versioni precedenti del sensore di rumore su [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).

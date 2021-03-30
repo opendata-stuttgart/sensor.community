@@ -20,6 +20,7 @@ Le corps du microphone est réalisé avec du tube de polystyrène .500" (12.7mm)
 Le prototype a été fabriqué avec un [tube Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 La platine doit être limé au diamètre du tube. Utilisez du ruban de masquage pour protéger l'orifice du mircophone.
 <br>

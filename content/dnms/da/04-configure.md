@@ -51,7 +51,8 @@ title: Konfigurer
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 <br>
 
 #### Test stationen

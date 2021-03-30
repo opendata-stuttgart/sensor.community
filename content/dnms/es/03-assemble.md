@@ -19,6 +19,7 @@ La carcasa está hecha con un tubo de poliestireno de 12,7 mm. Este diámetro pe
 El prototipo fue desarrollado con el [tubo Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 La tabla de escape tiene que ser adaptada al diámetro del tubo con una lima. Use un poco de cinta adhesiva para proteger la entrada del micrófono.
 <br>

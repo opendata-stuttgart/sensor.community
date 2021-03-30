@@ -78,17 +78,17 @@ Caurulei jābūt 160 mm garai. DNMS izskatās vieta. Mikrofona korpuss tiek sagl
 
 Loks novērš ūdens un mitruma iekļūšanu korpusā, tajā pašā laikā ļaujot kabeli izvadīt.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS ir savienots ar otro PCB ar RJ12 kabeli. Ja šis kabelis ir garāks par 250 mm, jāizmanto I²C pagarinātājs.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Kad viss ir labi savienots, detaļas tiek salīmētas kopā.
 
 Rezultāts:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 PCB ar NodeMCU var ievietot jebkura veida elektriskā kastē.
 

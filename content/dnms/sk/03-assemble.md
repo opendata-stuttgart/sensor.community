@@ -78,17 +78,17 @@ Samotná rúrka by mala byť dlhá 160 mm. DNMS vyzerá, že miesto v. Puzdro mi
 
 Oblúk zabraňuje vnikaniu vody a vlhkosti do puzdra a zároveň prepúšťa kábel.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS je pripojený k druhej doske plošných spojov pomocou kábla RJ12. Ak je tento kábel dlhší ako 250 mm, musíte použiť predĺženie I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Keď je všetko dobre spojené, diely sa zlepia.
 
 Výsledok:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DPS s jednotkou NodeMCU možno umiestniť do ľubovoľnej elektrickej skrinky.
 

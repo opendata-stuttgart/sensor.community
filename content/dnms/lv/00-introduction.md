@@ -23,7 +23,7 @@ title: Ievads
 
 > 🚧 Izveido savu DIY sensoru un kļūsti par daļu no pasaules opendata &amp; civictech tīkla. <br> Ar DNMS (digitālo trokšņa mērīšanas sensoru) jūs varat paši izmērīt trokšņa piesārņojumu.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Sākotnējās instrukcijas un iepriekšējās trokšņu sensora versijas skatiet [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).

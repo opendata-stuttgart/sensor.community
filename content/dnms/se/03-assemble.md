@@ -17,6 +17,7 @@ Höljet är tillverkat med en 0,55 "(12,7 mm) polystyrenrör. Denna diameter gö
 Prototypen utvecklades med [Evergreen No. 236 slangar](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 Brytbrädan måste anpassas till slangens diameter med en fil. Använd lite tejp för att skydda mikrofoninloppet.
 <br>

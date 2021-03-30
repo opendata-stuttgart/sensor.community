@@ -17,6 +17,7 @@ title: Assemble
 
 样机采用[长青236号管](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing)开发。
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 突破板必须用锉刀适应管子的直径。用一些胶带保护麦克风入口。
 <br>

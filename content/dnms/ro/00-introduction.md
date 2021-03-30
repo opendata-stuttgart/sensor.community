@@ -23,7 +23,7 @@ title: Introducere
 
 > 🚧 Construiește-ți un senzor DIY și fă parte din rețeaua mondială opendata &amp; civictech. <br> Cu DNMS (Digital Noise Measuring Sensor) puteți măsura singuri poluarea fonică.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Consultați instrucțiunile originale și versiunile anterioare ale senzorului de zgomot pe [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).

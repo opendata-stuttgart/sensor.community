@@ -10,7 +10,7 @@ Basta scaricare i nostri schemi circuitali e/o i file Gerber qui sotto, caricarl
 Le ultime versioni dei PCB sono descritte qui. Fate riferimento al [Github di Helmut Bitter](https://github.com/hbitter/DNMS/tree/master/PCBs) per ulteriori informazioni e per accedere ai file KiCad.
 
 ### AIRROHR V1.4
-### AIRROHR V1.4
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 PCB per il NodeMCU ESP8266 CPUWLAN con un'estensione I2C Bus per collegare il DNMS e altri sensori (SDS011, BME280...).
 
 
@@ -20,7 +20,6 @@ PCB per il NodeMCU ESP8266 CPUWLAN con un'estensione I2C Bus per collegare il DN
 
 ---
 
-### DNMS - T4 V1.4
 ### DNMS - T4 V1.4
 PCB per il DNMS Teensy 4.0 che può essere collegato direttamente su un NodeMCU ESP8266 o sul PCB AIRROHR di cui sopra.
 

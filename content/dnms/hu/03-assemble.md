@@ -78,17 +78,17 @@ Magának a csőnek 160 mm hosszúnak kell lennie. A DNMS úgy néz ki, helyezze 
 
 Az ív megakadályozza a víz és a nedvesség bejutását a házba, miközben átengedi a kábelt.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 A DNMS egy RJ12-es kábellel kapcsolódik a második NYÁK-hoz. Ha ez a kábel 250 mm-nél hosszabb, akkor I²C hosszabbítót kell használni.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Miután mindent jól összekapcsoltunk, az alkatrészeket összeragasztjuk.
 
 Eredmény:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 A NodeMCU-t hordozó NYÁK bármilyen elektromos dobozba helyezhető.
 

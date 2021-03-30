@@ -8,11 +8,7 @@ title: Сглобяване на
 
 ### Микрофонно устройство
 
-Микрофонът е базиран на платка за пробиване на Pesky Products с MEMS микрофон ICS-43434. Можете да намерите такава платка на [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
-
-Микрофонът е базиран на платка за пробиване на Pesky Products с MEMS микрофон ICS-43434. Можете да намерите такава платка на [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
-
-
+Микрофонът е базиран на платка за пробиване на Pesky Products с MEMS микрофон ICS-43434. Можете да намерите такава платка на [Tindie marketplace](https://www.tindie.<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>Микрофонът е базиран на платка за пробиване на Pesky Products с MEMS микрофон ICS-43434. Можете да намерите такава платка на [Tindie marketplace](https://www.tindie.<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 ##### Корпус за блока на микрофона
 Корпусът е изработен от 12,7 мм (0,500") полистиренова тръба. Този диаметър позволява да се включат директно повечето калибратори към устройството.
 
@@ -78,17 +74,17 @@ title: Сглобяване на
 
 Носът предотвратява навлизането на вода и влага в корпуса, като същевременно пропуска кабела.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS е свързан с втората печатна платка с кабел RJ12. Ако този кабел е по-дълъг от 250 mm, трябва да използвате удължител I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 След като всичко е добре свързано, частите се залепват една за друга.
 
 Резултат:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Платката с NodeMCU може да бъде поставена във всякакъв вид електрическа кутия.
 

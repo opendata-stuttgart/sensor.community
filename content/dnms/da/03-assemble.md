@@ -78,17 +78,17 @@ Selve røret skal være 160 mm langt. DNMS ser ud til at være placeret i. Mikro
 
 Buen forhindrer vand og fugt i at trænge ind i huset, mens kablet kan passere.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS er forbundet til det andet PCB med et RJ12-kabel. Hvis dette kabel er længere end 250 mm, skal du bruge en I²C-forlænger.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Når alt er godt forbundet, limes delene sammen.
 
 Resultat:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 PCB'et med NodeMCU'en kan placeres i en hvilken som helst elektrisk boks.
 

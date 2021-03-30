@@ -23,7 +23,7 @@ title: Úvod
 
 > 🚧 Zostavte si svoj DIY senzor a staňte sa súčasťou celosvetovej siete opendata &amp; civictech. <br> Pomocou DNMS (digitálny senzor na meranie hluku) môžete sami merať hlukové znečistenie.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Pozrite si pôvodné pokyny a predchádzajúce verzie snímača šumu na [Github Helmuta Bittera](https://github.com/hbitter/DNMS/tree/master/Manual).

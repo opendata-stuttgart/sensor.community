@@ -10,35 +10,31 @@ Vt __firmware flasher__ jagu.
 
 Mikrofoniüksus põhineb Pesky Products Breakout-plaadil koos MEMS-mikrofoniga ICS-43434. Sellist tahvlit saab osta [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofoniüksus põhineb Pesky Products Breakout-plaadil koos MEMS-mikrofoniga ICS-43434. Sellist tahvlit saab osta [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
-
-
 ##### Mikrofoniüksuse korpus
 Korpus on valmistatud .500" (12,7 mm) polüstüreenist torudest. See läbimõõt võimaldab ühendada otse enamik kalibraatoreid seadme külge.
 
-Prototüüp töötati välja [Evergreen nr 236 torustikuga] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
-
-Prototüüp töötati välja [Evergreen nr 236 torustikuga] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototüüp töötati välja [Evergreen nr 236 torustikuga](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Väljalülitusplaat tuleb viiluga kohandada torude läbimõõdule. Mikrofoni sisselaskeava kaitsmiseks kasutage teipi.
 <br>
 
-<br>
-<br>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
 Seejärel joota kuus silikoonkaablit. Pange tähele, millise viiguga on kaabel ühendatud!
 
-Seejärel joota kuus silikoonkaablit. Pange tähele, millise viiguga on kaabel ühendatud!
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
+
 Lõika 115 mm pikkune torutükk.
 <br>
 Kleepige mikrofoniplaat ristatud teibiga. Pange kaablid torusse ja kinnitage plaat toru otsa.
 <br>
-<br>
-<br>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
 Tee toru otsad teibiga tihedalt kinni.
 
-Tee toru otsad teibiga tihedalt kinni.
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
 Nüüd võite täita toru vaiguga. See samm on kohustuslik, et vältida resonantsi ning saada kalibreeritud ja reprodutseeritavaid andmeid.
 
@@ -62,7 +58,7 @@ Electrolube'i valmistatud [polüuretaanvaik UR5545](https://electrolube.com/wp-c
 
 Igale torule peaks piisama 15 g vaigust.
 
-<img src="..docsdnmsdnms-müra-mõõtmine-mikrofoni-sisene-toru.jpg" style="display:block; margin: 2em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 Kui vaik on kõvenenud, eemaldage teip. Teie mikrofon on valmis.
 
@@ -78,17 +74,17 @@ Toru ise peaks olema 160 mm pikk. DNMS näeb välja koht. Mikrofoni korpus säil
 
 Vibu takistab vee ja niiskuse sisenemist korpusesse, lastes samal ajal kaabli läbi.
 
-<img src="..docsdnmsdnms-müra-mõõtmine-korpus.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS on ühendatud teise trükkplaadiga RJ12 kaabli abil. Kui see kaabel on pikem kui 250 mm, tuleb kasutada I²C-pikendust.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Kui kõik on hästi ühendatud, liimitakse osad kokku.
 
 Tulemus:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 NodeMCU-d sisaldava trükkplaadi võib paigutada ükskõik millisesse elektrikarpi.
 
@@ -102,7 +98,7 @@ Ilmastikukaitse paigaldamine vahtkatte kujul on hädavajalik. Vajaduse korral pi
 * see kaitseb mikrofoni otsese vee lekke eest. Mikrofoni kondenseerumise vältimiseks tõmmake kate pärast selle paigaldamist veidi tagasi, et tekiks väike õõnsus.
 * see kaitseb päikesekiirguse eest. Intensiivne päikesekiirgus võib mõjutada mõõteväärtusi ja vähendada mikrofoni eluiga.
 
-* see kaitseb päikesekiirguse eest. Intensiivne päikesekiirgus võib mõjutada mõõteväärtusi ja vähendada mikrofoni eluiga.
+<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
 
 Neid vahtkummi katteid müüakse tavaliselt kui "mõõtmismikrofonide katteid". Kuid need on kallid. Võid võtta ka tavalise vahtpalli ja lõigata kääridega augu sisse.
 
@@ -126,4 +122,8 @@ Mida lähemale te aga allikale lähete, seda täpsemaks muutub viide allikale. F
 Mida lähemale te aga allikale lähete, seda täpsemaks muutub viide allikale. Firmware uuendamine peaks siis võimaldama saada täpsed mõõtmised tuvastatud tüüpi müra jaoks.
 Mida lähemale te aga allikale lähete, seda täpsemaks muutub viide allikale. Firmware uuendamine peaks siis võimaldama saada täpsed mõõtmised tuvastatud tüüpi müra jaoks.
 <br>
+
+<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
+<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <br>
+<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;" loading="lazy"/>

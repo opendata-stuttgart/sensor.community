@@ -10,6 +10,7 @@ Vienkārši lejupielādējiet mūsu shēmas vai Gerber failus zemāk, augšupiel
 Šeit ir aprakstītas pēdējās PCB versijas. Lai iegūtu papildu informāciju un piekļūtu KiCad failiem, skatiet [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 #### AIRROHR V1.4
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 PCB NodeMCU ESP8266 CPUWLAN ar I2C kopnes paplašinājumu, lai pieslēgtu DNMS, kā arī citus sensorus (SDS011, BME280...).
 
 

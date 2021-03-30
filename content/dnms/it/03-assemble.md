@@ -8,11 +8,7 @@ Vedere la sezione __firmware flasher__.
 
 ### Unità microfonica
 
-L'unità microfono è basata sulla scheda di breakout Pesky Products con un microfono MEMS ICS-43434. Potete trovare tale scheda sul [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
-
-L'unità microfono è basata sulla scheda di breakout Pesky Products con un microfono MEMS ICS-43434. Potete trovare tale scheda sul [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
-
-
+L'unità microfono è basata sulla scheda di breakout Pesky Products con un microfono MEMS ICS-43434. Potete trovare tale scheda sul [Tindie marketplace](https://www.tindie.<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>L'unità microfono è basata sulla scheda di breakout Pesky Products con un microfono MEMS ICS-43434. Potete trovare tale scheda sul [Tindie marketplace](https://www.tindie.<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 ##### Alloggiamento per l'unità microfono
 L'alloggiamento è fatto con un tubo di polistirolo da .500" (12,7 mm). Questo diametro permette di inserire direttamente la maggior parte dei calibratori sull'unità.
 
@@ -78,17 +74,17 @@ Il tubo stesso dovrebbe essere lungo 160 mm. Il DNMS sembra posto in. L'alloggia
 
 L'arco impedisce all'acqua e all'umidità di entrare nella custodia mentre lascia passare il cavo.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Il DNMS è collegato al secondo PCB con un cavo RJ12. Se questo cavo è più lungo di 250 mm, è necessario utilizzare una prolunga I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Dopo che tutto è ben collegato, le parti vengono incollate insieme.
 
 Risultato:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Il PCB che porta il NodeMCU può essere messo in qualsiasi tipo di scatola elettrica.
 

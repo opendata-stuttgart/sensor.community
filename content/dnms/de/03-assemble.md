@@ -19,6 +19,7 @@ Das Gehäuse ist aus einem .500" (12,7mm) Polystyrolrohr gefertigt. Dieser Durch
 Der Prototyp wurde mit dem [Evergreen-Rohr Nr. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) entwickelt.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 Die Breakout-Platine muss mit einer Feile an den Durchmesser des Schlauches angepasst werden. Daher etwas Klebeband verwenden, um den Mikrofoneingang zu schützen.
 <br>

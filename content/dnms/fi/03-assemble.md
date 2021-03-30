@@ -78,17 +78,17 @@ Itse putken pituuden on oltava 160 mm. DNMS näyttää paikka. Mikrofonikotelo p
 
 Jousi estää veden ja kosteuden pääsyn koteloon ja päästää kaapelin läpi.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS on liitetty toiseen piirilevyyn RJ12-kaapelilla. Jos tämä kaapeli on yli 250 mm pitkä, on käytettävä I²C-jatkojohtoa.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Kun kaikki on liitetty hyvin yhteen, osat liimataan yhteen.
 
 Tulos:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 NodeMCU:n sisältävä piirilevy voidaan sijoittaa mihin tahansa sähkökoteloon.
 

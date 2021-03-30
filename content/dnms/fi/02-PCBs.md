@@ -10,7 +10,7 @@ Lataa piirikaaviot ja tai Gerber-tiedostot alla, lataa ne valmistajan verkkosivu
 Piirilevyjen viimeiset versiot kuvataan tässä. Katso [Helmut Bitterin Github](https://github.com/hbitter/DNMS/tree/master/PCBs) lisätietoja ja KiCad-tiedostoja.
 
 ### AIRROHR V1.4
-### AIRROHR V1.4
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 Piirilevy NodeMCU ESP8266 CPUWLAN:lle, jossa on I2C-väylän laajennus DNMS: n ja muiden antureiden (SDS011, BME280...) liittämiseksi.
 
 
@@ -20,7 +20,6 @@ Piirilevy NodeMCU ESP8266 CPUWLAN:lle, jossa on I2C-väylän laajennus DNMS: n j
 
 ---
 
-### DNMS - T4 V1.4
 ### DNMS - T4 V1.4
 Piirilevy DNMS Teensy 4.0: lle, joka voidaan liittää suoraan NodeMCU ESP8266: hen tai edellä mainittuun AIRROHR PCB: hen.
 

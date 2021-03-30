@@ -1,29 +1,31 @@
 ---
 title: Bevezetés
 ---
----
-  <div class="max-w-screen-xl mx-auto pb-5">
-    <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
-    <div class="flex items-center">
-          <span class="p-2 rounded-lg bg-indigo-500">
-            <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5. 436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" >
-            <svg>
-          <span>
-        <div class="flex-wrap flex">
-          <p class="pt-1 text-indigo-700 font-medium">
-              A zaj béta verzióban van. Kérdéseket a<p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
-                Noise@Sensor.Community<a>
-        <div>
-    <div>
-  <div>
-<div>
+  <div class="max-w-screen-xl mx-auto pt-5">
+      <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
+      <div class="flex items-center">
+            <span class="p-2 rounded-lg bg-indigo-500">
+              <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+              </svg>
+            </span>
+        <div class="flex flex-wrap">
+          <div class="flex-wrap flex">
+            <p class="pt-1 text-indigo-700 font-medium">
+                A zaj béta verzióban van. Kérdéseket a</p>
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+                  Noise@Sensor.Community</a>
+          </div>
+           </div>
+      </div>
+    </div>
+  </div>
+<br>
 
 
 > 🚧 Építsd meg barkácsérzékelődet, és légy része a világméretű opendata &amp; civictech hálózatnak. <br> A DNMS (Digitális zajmérő érzékelő) segítségével saját maga is mérheti a zajszennyezést.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Nézze meg a zajérzékelő eredeti utasításait és korábbi verzióit [Helmut Bitter Githubján](https://github.com/hbitter/DNMS/tree/master/Manual).

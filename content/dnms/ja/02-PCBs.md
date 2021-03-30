@@ -10,6 +10,7 @@ DNMSを作るには、当社のプリント基板を使うのが一番です。
 ここでは、PCBの最終バージョンについて説明します。詳細な情報やKiCadファイルへのアクセスは[Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs)を参照してください。
 
 ### airrohr v1.4
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 NodeMCU ESP8266 CPUWLAN用のPCBで、DNMSや他のセンサー（SDS011, BME280...）を接続するためのI2Cバス拡張機能を備えています。
 
 

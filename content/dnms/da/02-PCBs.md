@@ -10,6 +10,7 @@ Du skal blot downloade vores kredsløbsdiagrammer og/eller Gerber-filer nedenfor
 De sidste versioner af PCB'erne er beskrevet her. Se [Helmut Bitters Github] (https://github.com/hbitter/DNMS/tree/master/PCBs) for yderligere oplysninger og for at få adgang til KiCad-filerne.
 
 #### AIRROHR V1.4
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 PCB til NodeMCU ESP8266 CPUWLAN med en I2C-busudvidelse til tilslutning af DNMS samt andre sensorer (SDS011, BME280...).
 
 

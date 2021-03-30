@@ -78,7 +78,7 @@ Vamzdelis turi būti 160 mm ilgio. DNMS atrodo vietoje. Mikrofono korpusą palai
 
 Lankas neleidžia vandeniui ir drėgmei patekti į korpusą, o kabelį praleidžia.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS prie antrosios spausdintinės plokštės prijungtas RJ12 kabeliu. Jei šis kabelis ilgesnis nei 250 mm, reikia naudoti I²C prailgintuvą.
 
