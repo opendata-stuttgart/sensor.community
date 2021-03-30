@@ -28,5 +28,5 @@ title: Määritä
 ### Tarkista, että asema on konfiguroitu oikein.
 Jos et tehnyt edellisessä vaiheessa muita muutoksia kuin WiFi-verkon määrityksen, anturi aloittaa nyt tietojen tallentamisen ja lataamisen. Voit tarkistaa, että kaikki toimii oikein noin 10 minuutin kuluttua siirtymällä seuraaville sivuille. Etsi näiltä sivuilta ChipID (yllä olevassa esimerkissä 13597771).
 
- * [Anturitiedot](https://www.madavi.desensorgraph.php)
- * [WiFi-signaalitiedot](https://www.madavi.desensorsignal.php)
+ * [Anturitiedot](https://www.madavi.de/sensor/graph.php)
+ * [WiFi-signaalitiedot](https://www.madavi.de/sensor/signal.php)

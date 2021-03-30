@@ -11,11 +11,11 @@ NocdeMCU v3 mikroshēmu komplekts parasti ir CH341, vienkārši pārbaudiet savu
 #### Windows
 
 ##### Drivers for model V2 (CP2102) for Windows
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32 bitu versija - **neatbalsta** 64 bitu versiju OS
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bitu versija - **neatbalsta** 64 bitu versiju OS
 
 ##### Draiveris modelim V3 (CH341) operētājsistēmai Windows
-* [Windows](http://www.wch.cndownloadsfile5.html) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
+* [Windows](http://www.wch.cn/downloads/file/5.html) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
 
 ##### Izņemiet lejupielādēto failu operētājsistēmai Windows:
 * V2: Atveriet mapi CP210x un divreiz noklikšķiniet uz programmas CP210xVCPInstaller_x64 (vai x86).
@@ -26,8 +26,8 @@ NocdeMCU v3 mikroshēmu komplekts parasti ir CH341, vienkārši pārbaudiet savu
 #### MacOS
 
 ##### MacOS draiveri
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Izņemiet lejupielādēto MacOS failu.
 * V2: Atinstalējiet mapi CP210x un divreiz noklikšķiniet uz programmas CP210xVCPInstaller_x64 (vai x86).
@@ -43,8 +43,8 @@ Draiveri nav jāinstalē. Mikroshēmai jābūt tieši atbalstītai (iespējams p
 #### Firmware Flasher NodeMCU
 Vairāku operētājsistēmu atbalsts: Windows, MacOS un Linux.
 
-* [airRohr Flashing Tool](http://firmware.sensor.communityairrohrflashing-tool)
-* [Avota kods](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Avota kods](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
 Savienojiet NodeMCU ar datoru, izmantojot īsu micro-USB kabeli (izvēlieties īsāku par 1 metru, pretējā gadījumā instalācija var neizdoties). Izvēlieties `latest_en.bin` (vai citu valodas versiju) un noklikšķiniet uz "Augšupielādēt".
 Pagaidiet, līdz process ir pabeigts. Tagad varam samontēt sensoru.
@@ -53,14 +53,14 @@ Liels paldies [Piotr, no Polijas](https://dropbox.inf.re) par palīdzību! 🙋�
 
 ---
 #### Firmware Flasher Teensy
-[Helmut Bitter's Github](https://github.comhbitterDNMStreemasterFirmware) var atrast divu veidu programmaparatūru:
+[Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Firmware) var atrast divu veidu programmaparatūru:
 * .ino
 * .hex
 
 ##### Teensy ielādētājs
-Jūs varat ielādēt .hex failu Teensy platēs, izmantojot autonomo GUI programmatūru [Teensy Loader](https://www.pjrc.comteensyloader.html) operētājsistēmām Windows, Mac un Linux.
+Jūs varat ielādēt .hex failu Teensy platēs, izmantojot autonomo GUI programmatūru [Teensy Loader](https://www.pjrc.com/teensy/loader.html) operētājsistēmām Windows, Mac un Linux.
 Pastāv arī komandrindas versija.
 
 ##### Teensyduino
-.ino failu var ielādēt Teensy platēs ar Arduino IDE paplašinājumu [Teensyduino](https://www.pjrc.comteensyteensyduino.html).
+.ino failu var ielādēt Teensy platēs ar Arduino IDE paplašinājumu [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
 Ja nepieciešams, varat pārveidot programmaparatūru tieši Arduino IDE.

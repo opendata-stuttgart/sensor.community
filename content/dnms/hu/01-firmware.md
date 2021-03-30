@@ -11,11 +11,11 @@ A NocdeMCU v3 chipkészlet általában CH341, nézd meg a NodeMCU hátulját, ho
 ### Windows
 
 ##### illesztőprogramok a V2 (CP2102) modellhez Windows rendszerhez
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - A Windows 10 képesnek kell lennie arra, hogy automatikusan letöltse ezeket a fájlokat.
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32 bites verzió - **nem** támogatja a 64 bites operációs rendszert.
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - A Windows 10 képesnek kell lennie arra, hogy automatikusan letöltse ezeket a fájlokat.
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bites verzió - **nem** támogatja a 64 bites operációs rendszert.
 
 ##### illesztőprogram a V3 modellhez (CH341) a Windowshoz
-* [Windows](http://www.wch.cndownloadsfile5.html) - A Windows 10 képesnek kell lennie arra, hogy ezeket automatikusan letöltse.
+* [Windows](http://www.wch.cn/downloads/file/5.html) - A Windows 10 képesnek kell lennie arra, hogy ezeket automatikusan letöltse.
 
 ##### A letöltött fájl kicsomagolása Windows esetén:
 * a V2 esetében: Nyissa meg a CP210x mappát, és kattintson duplán a CP210xVCPInstaller_x64 (vagy x86) alkalmazásra.
@@ -26,8 +26,8 @@ A NocdeMCU v3 chipkészlet általában CH341, nézd meg a NodeMCU hátulját, ho
 ### MacOS
 
 ##### MacOS illesztőprogramok
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Csomagolja ki a letöltött fájlt MacOS esetén.
 * a V2 esetében: Csomagolja ki a CP210x mappát, és kattintson duplán a CP210xVCPInstaller_x64 (vagy x86) alkalmazásra.
@@ -43,8 +43,8 @@ Nincs szükség illesztőprogramok telepítésére. A chipnek közvetlenül tám
 ### Firmware Flasher NodeMCU
 Több operációs rendszer támogatása: Windows, MacOS és Linux.
 
-* [airRohr Flashing Tool](http://firmware.sensor.communityairrohrflashing-tool)
-* [Forráskód](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Forráskód](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
 Csatlakoztassa a NodeMCU-t a számítógépéhez egy rövid micro-USB kábellel (válasszon 1 méternél rövidebbet, különben a telepítés meghiúsulhat). Válassza ki a `latest_en.bin` (vagy egy másik nyelvi verziót), és kattintson a "Upload" gombra.
 Várjon, amíg a folyamat befejeződik. Most már összeszerelhetjük az érzékelőt.
@@ -53,14 +53,14 @@ Nagy köszönet illeti [Piotr, Lengyelországból](https://dropbox.inf.re), a se
 
 ---
 ### Firmware Flasher Teensy
-A [Helmut Bitter Githubjában](https://github.comhbitterDNMStreemasterFirmware) kétféle firmware található:
+A [Helmut Bitter Githubjában](https://github.com/hbitter/DNMS/tree/master/Firmware) kétféle firmware található:
 * .ino
 * .hex
 
 ##### Teensy Loader
-A .hex fájlt a Teensy kártyákon az önálló GUI szoftverrel [Teensy Loader](https://www.pjrc.comteensyloader.html) flashelheti a Windows, Mac és Linux operációs rendszerekhez.
+A .hex fájlt a Teensy kártyákon az önálló GUI szoftverrel [Teensy Loader](https://www.pjrc.com/teensy/loader.html) flashelheti a Windows, Mac és Linux operációs rendszerekhez.
 Létezik egy parancssoros verzió is.
 
 ##### Teensyduino
-A .ino fájlt az Arduino IDE kiterjesztéssel [Teensyduino](https://www.pjrc.comteensyteensyduino.html) rendelkező Teensy kártyákon flashelheti.
+A .ino fájlt az Arduino IDE kiterjesztéssel [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html) rendelkező Teensy kártyákon flashelheti.
 Ha szükséges, a firmware-t közvetlenül az Arduino IDE-ben is módosíthatja.

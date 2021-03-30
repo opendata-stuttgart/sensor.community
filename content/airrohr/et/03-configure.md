@@ -28,5 +28,5 @@ title: Konfigureeri
 ### Kontrollige, kas jaam on õigesti konfigureeritud.
 Kui te ei teinud eelmises etapis muid muudatusi peale WiFi võrgu seadistamise, hakkab andur nüüd andmeid salvestama ja üles laadima. Et kõik töötab õigesti, saate kontrollida umbes 10 minuti pärast, kui navigeerite järgmistele lehekülgedele. Otsige nendel lehekülgedel ChipID (ülaltoodud näites 13597771).
 
- * [Anduri andmed](https://www.madavi.desensorgraph.php)
- * [WiFi signaali andmed](https://www.madavi.desensorsignal.php)
+ * [Anduri andmed](https://www.madavi.de/sensor/graph.php)
+ * [WiFi signaali andmed](https://www.madavi.de/sensor/signal.php)

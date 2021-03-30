@@ -4,13 +4,13 @@ title: Odpravljanje težav
 
 ### Težave pri prenosu?
 V brskalnik vnesite naslednje podatke:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] lahko poiščete tudi v vnosnem polju, odprtem na levi strani strani [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+[ID] lahko poiščete tudi v vnosnem polju, odprtem na levi strani strani [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Ali je senzor registriran prek [https://devices.sensor.community](https://devices.sensor.community) in ali je senzor viden na zemljevidu?
 * Ali je bil brezžični signal v preteklosti šibek?
-  Tukaj je protokol signala na strani strežnika: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Tukaj je protokol signala na strani strežnika: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Težave s kablom USB?
 * Preverite napajanje
@@ -19,7 +19,7 @@ V brskalnik vnesite naslednje podatke:
   * Ali senzor v prvih 2-7 minutah po ponovnem zagonu odpre adhoc wifi (dostopno točko)?
   * Poiščite omrežje WLAN `airrohr-[ID]`. Po ponovnem zagonu lahko traja nekaj minut, preden je to vidno.
 * Na svojem usmerjevalniku preverite, ali je senzor registriran v omrežju, in zabeležite naslov IP.
-  * lahko uporabite tudi "Iskanje v omrežju" v orodju [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+  * lahko uporabite tudi "Iskanje v omrežju" v orodju [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
   * Če je odgovor pritrdilen: Povežite se s senzorjem prek brskalnika `http://[ip-your-sensor]`, prikazana bo konfiguracija.
   * Če ne: to je lahko posledica nezadostnega napajanja, zanke ponovnega zagona in podobno.
 * Povežite NodeMCU z računalnikom prek kabla USB in si oglejte protokol
@@ -27,7 +27,7 @@ V brskalnik vnesite naslednje podatke:
     * Linux: zaslon, minicom, cutecom
     * Operacijski sistem Windows: Tera Term
     * MacOS: zaslon, minicom, ...
-    * morda bodo potrebni ustrezni zaporedni gonilniki USB-2, glejte [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen).
+    * morda bodo potrebni ustrezni zaporedni gonilniki USB-2, glejte [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen).
   * Tam si lahko ogledate, kaj senzor počne (zagonska sporočila, povezava WLAN ali dostopna točka, meritve - šele po 3 minutah).
 
 #### Težave z elektroniko?

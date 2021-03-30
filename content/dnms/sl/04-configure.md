@@ -46,9 +46,9 @@ title: Konfiguracija spletne strani
 #### Preizkusite postajo
 Če razen vnosa podatkov o omrežju WiFi niste izvedli nobenih sprememb, lahko senzor po približno 10 minutah "preizkusite" na naslednjih straneh. Na teh straneh morate poiskati ChipID (v zgornjem primeru 13597771).
 
- * [Podatki o senzorjih](www.madavi.desensorgraph.php)
- * [Signal WLAN](www.madavi.desensorsignal.php)
- * [Signal WLAN](www.madavi.desensorsignal.php)
+ * [Podatki o senzorjih](www.madavi.de/sensor/graph.php)
+ * [Signal WLAN](www.madavi.de/sensor/signal.php)
+ * [Signal WLAN](www.madavi.de/sensor/signal.php)
 
 
 

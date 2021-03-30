@@ -3,7 +3,7 @@ title: Trükkplaadid ja elektriskeemid
 ---
 
 Parim viis DNMSi ehitamiseks on kasutada ühte meie trükkplaati.
-Praegu on üsna palju trükkplaatide tootjaid, kes saavad toota trükkplaate mõne dollari eest ilma miinimumkoguste puudumisel. Näiteks [JLCPCB](https://jlcpcb.com).
+Praegu on üsna palju trükkplaatide tootjaid, kes saavad toota trükkplaate mõne dollari eest ilma miinimumkoguste puudumisel. Näiteks [JLCPCB](https://jlcpcb.com/).
 Lihtsalt laadige alla meie elektriskeemid ja/või Gerber-failid, laadige need üles tootja veebisaidil ja tellige oma trükkplaadid.
 
 <br>
@@ -15,7 +15,7 @@ Trükkplaat NodeMCU ESP8266 CPUWLAN jaoks koos I2C bussi laiendusega, et ühenda
 
 ##### Lae alla:
 * [elektriskeem](..docsdnmsairrohr-PCB-circuit-diagram.pdf)
-* [Gerber-faili üleslaadimiseks PCB tootja veebilehel](..docsdnmsairrohr-PCB-circuit-diagram-gerber.zip)
+* [Gerber-faili üleslaadimiseks PCB tootja veebilehel](../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
 
 ---
 

@@ -8,17 +8,17 @@ Vedere la sezione __firmware flasher__.
 
 ### Unità microfonica
 
-L'unità microfono è basata sulla scheda di breakout Pesky Products con un microfono MEMS ICS-43434. Potete trovare tale scheda sul [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+L'unità microfono è basata sulla scheda di breakout Pesky Products con un microfono MEMS ICS-43434. Potete trovare tale scheda sul [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-L'unità microfono è basata sulla scheda di breakout Pesky Products con un microfono MEMS ICS-43434. Potete trovare tale scheda sul [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+L'unità microfono è basata sulla scheda di breakout Pesky Products con un microfono MEMS ICS-43434. Potete trovare tale scheda sul [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Alloggiamento per l'unità microfono
 L'alloggiamento è fatto con un tubo di polistirolo da .500" (12,7 mm). Questo diametro permette di inserire direttamente la maggior parte dei calibratori sull'unità.
 
-Il prototipo è stato sviluppato con il [tubo Evergreen No. 236](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Il prototipo è stato sviluppato con il [tubo Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Il prototipo è stato sviluppato con il [tubo Evergreen No. 236](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Il prototipo è stato sviluppato con il [tubo Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 La scheda di breakout deve essere adattata al diametro del tubo con una lima. Usate del nastro adesivo per proteggere l'ingresso del microfono.
 <br>
@@ -42,7 +42,7 @@ Stringere l'estremità del tubo con il nastro adesivo.
 
 Ora si può riempire il tubo con della resina. Questo passo è obbligatorio per evitare la risonanza e ottenere dati calibrati e riproducibili.
 
-Il prototipo è stato sviluppato con del [PURe Isolation ST 33](https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900) prodotto da Copaltec GmbH.
+Il prototipo è stato sviluppato con del [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) prodotto da Copaltec GmbH.
 
 ##### Specifiche:
 * Rigidità dielettrica: 28 kVmm
@@ -58,7 +58,7 @@ Il prototipo è stato sviluppato con del [PURe Isolation ST 33](https://www.buer
 * Temperature di applicazione: - da 20 a +130 °C
 
 
-Anche la [resina poliuretanica UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) prodotta da Electrolube dovrebbe funzionare.
+Anche la [resina poliuretanica UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) prodotta da Electrolube dovrebbe funzionare.
 
 Per ogni tubo 15 g di resina dovrebbero essere sufficienti.
 
@@ -106,7 +106,7 @@ Le custodie stesse dovrebbero essere impermeabili. Solo l'ingresso del microfono
 
 Queste coperture in schiuma sono normalmente vendute come 'coperture per microfoni di misura'. Ma sono costose. Si può anche prendere una normale palla di schiuma e fare un buco con le forbici.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
 ### Posizione del microfono
 

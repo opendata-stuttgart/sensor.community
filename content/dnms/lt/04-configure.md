@@ -46,9 +46,9 @@ title: Konfigūruoti
 #### Išbandykite stotį
 Jei nebuvo atlikta jokių pakeitimų, išskyrus "WiFi" tinklo duomenų įvedimą, maždaug po 10 minučių jutiklį galima "išbandyti" kituose puslapiuose. Šiuose puslapiuose reikia ieškoti lusto ID (pirmiau pateiktame pavyzdyje - 13597771).
 
- * [Jutiklio duomenys](www.madavi.desensorgraph.php)
- * [WLAN-signalas](www.madavi.desensorsignal.php)
- * [WLAN-signalas](www.madavi.desensorsignal.php)
+ * [Jutiklio duomenys](www.madavi.de/sensor/graph.php)
+ * [WLAN-signalas](www.madavi.de/sensor/signal.php)
+ * [WLAN-signalas](www.madavi.de/sensor/signal.php)
 
 
 

@@ -3,7 +3,7 @@ title: PCB och kretsscheman
 ---
 
 Det bästa sättet att bygga DNMS är att använda en av våra PCB.
-Det finns nu en hel del PCB-tillverkare som kan producera kretskort för några dollar utan minimikvantiteter. Till exempel [JLCPCB](https://jlcpcb.com/).
+Det finns nu en hel del PCB-tillverkare som kan producera kretskort för några dollar utan minimikvantiteter. Till exempel [JLCPCB](https://jlcpcb.com//).
 Ladda bara ner våra kretsscheman och / eller Gerber-filer nedan, ladda upp dem på tillverkarens webbplats och beställ dina kretskort.
 
 <br>

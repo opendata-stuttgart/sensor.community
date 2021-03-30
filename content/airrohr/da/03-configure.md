@@ -28,5 +28,5 @@ title: Konfigurer
 #### Kontroller, at stationen er korrekt konfigureret
 Hvis du ikke har foretaget andre ændringer i det foregående trin end konfigurationen af WiFi-netværket, begynder sensoren nu at registrere og uploade dataene. Du kan kontrollere, at alting fungerer korrekt efter ca. 10 minutter ved at navigere til de følgende sider. På disse sider skal du søge efter ChipID (i eksemplet ovenfor 13597771).
 
- * [Sensordata](https://www.madavi.desensorgraph.php)
- * [WiFi-signaldata](https://www.madavi.desensorsignal.php)
+ * [Sensordata](https://www.madavi.de/sensor/graph.php)
+ * [WiFi-signaldata](https://www.madavi.de/sensor/signal.php)

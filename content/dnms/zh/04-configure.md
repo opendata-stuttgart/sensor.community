@@ -48,9 +48,9 @@ title: 配置
 #### 测试站
 如果除了输入WiFi网络数据外，没有其他变化，那么大约10分钟后，传感器可以在以下页面上进行 "测试"。在这些页面上，您必须搜索芯片ID（在上面的例子中是13597771）。
 
- * [传感器数据](www.madavi.desensorgraph.php)
- * [无线局域网信号](www.madavi.desensorsignal.php)
- * [无线局域网信号](www.madavi.desensorsignal.php)
+ * [传感器数据](www.madavi.de/sensor/graph.php)
+ * [无线局域网信号](www.madavi.de/sensor/signal.php)
+ * [无线局域网信号](www.madavi.de/sensor/signal.php)
 
 
 

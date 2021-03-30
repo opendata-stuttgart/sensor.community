@@ -8,17 +8,17 @@ Skatiet __firmware flasher__ sadaļu.
 
 ### Mikrofonu bloks
 
-Mikrofona bloka pamatā ir Pesky Products breakout plate ar MEMS mikrofonu ICS-43434. Šādu plati var atrast [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofona bloka pamatā ir Pesky Products breakout plate ar MEMS mikrofonu ICS-43434. Šādu plati var atrast [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofona bloka pamatā ir Pesky Products breakout plate ar MEMS mikrofonu ICS-43434. Šādu plati var atrast [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofona bloka pamatā ir Pesky Products breakout plate ar MEMS mikrofonu ICS-43434. Šādu plati var atrast [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Mikrofona bloka korpuss
 Korpuss ir izgatavots no 0,500" (12,7 mm) polistirola caurules. Šis diametrs ļauj tieši pievienot lielāko daļu kalibrēšanas ierīču.
 
-Prototips tika izstrādāts, izmantojot [Evergreen Nr. 236 caurules](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototips tika izstrādāts, izmantojot [Evergreen Nr. 236 caurules](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototips tika izstrādāts, izmantojot [Evergreen Nr. 236 caurules](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototips tika izstrādāts, izmantojot [Evergreen Nr. 236 caurules](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Izvadplāksne ir jāpielāgo caurules diametram ar faila palīdzību. Izmantojiet lentu, lai aizsargātu mikrofona ieeju.
 <br>
@@ -42,7 +42,7 @@ Caurulītes galu nostipriniet ar lentu.
 
 Tagad varat piepildīt caurulīti ar sveķiem. Šis solis ir obligāts, lai izvairītos no rezonanses un iegūtu kalibrētus un reproducējamus datus.
 
-Prototips tika izstrādāts, izmantojot dažus [PURe Isolation ST 33](https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900), ko ražo Copaltec GmbH.
+Prototips tika izstrādāts, izmantojot dažus [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), ko ražo Copaltec GmbH.
 
 ##### Specifikācijas:
 * Dielektriskā izturība: 28 kVmm
@@ -58,7 +58,7 @@ Prototips tika izstrādāts, izmantojot dažus [PURe Isolation ST 33](https://ww
 * Lietošanas temperatūra: - 20 līdz +130 °C
 
 
-Vajadzētu darboties arī [poliuretāna sveķiem UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf), ko ražo Electrolube.
+Vajadzētu darboties arī [poliuretāna sveķiem UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf), ko ražo Electrolube.
 
 Katrai caurulei pietiek ar 15 g sveķu.
 
@@ -106,7 +106,7 @@ Noteikti ir jāuzstāda putuplasta pārklājums, kas aizsargā pret laikapstāk�
 
 Šos putuplasta vāciņus parasti pārdod kā "vāciņus mērīšanas mikrofoniem". Bet tie ir dārgi. Var arī paņemt parastu putuplasta bumbiņu un ar šķērēm izgriezt caurumu.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
 #### Mikrofona atrašanās vieta
 

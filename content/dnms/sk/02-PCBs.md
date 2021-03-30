@@ -3,7 +3,7 @@ title: DPS a schémy zapojenia
 ---
 
 Najlepší spôsob, ako zostaviť DNMS, je použiť jednu z našich dosiek plošných spojov.
-V súčasnosti existuje pomerne veľa výrobcov PCB, ktorí dokážu vyrobiť dosky plošných spojov za pár dolárov bez minimálneho množstva. Napríklad [JLCPCB](https://jlcpcb.com).
+V súčasnosti existuje pomerne veľa výrobcov PCB, ktorí dokážu vyrobiť dosky plošných spojov za pár dolárov bez minimálneho množstva. Napríklad [JLCPCB](https://jlcpcb.com/).
 Stačí si stiahnuť naše schémy zapojenia alebo súbory Gerber nižšie, nahrať ich na webovú stránku výrobcu a objednať si PCB.
 
 <br>
@@ -15,8 +15,8 @@ DPS pre NodeMCU ESP8266 CPUWLAN s rozšírením zbernice I2C na pripojenie DNMS,
 
 
 ##### Na stiahnutie:
-* [Schéma zapojenia](...docsdnmsairrohr-PCB-circuit-diagram.pdf)
-* [Gerber súbor na nahratie na webovú stránku výrobcu PCB](..docsdnmsairrohr-PCB-circuit-diagram-gerber.zip)
+* [Schéma zapojenia](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
+* [Gerber súbor na nahratie na webovú stránku výrobcu PCB](../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
 
 ---
 

@@ -20,8 +20,7 @@ Főoldal -> (Bejelentkezés) - Érzékelőim -> Új érzékelő regisztrálása
 #### NB!
 Jelenleg nem lehetséges a PM-érzékelő, a TempHumidity-érzékelő és a DNMS-érzékelő regisztrálása egy NodeMCU-hoz csatlakoztatva.
 Jelenleg ezt csak manuálisan lehet megtenni, csak küldj egy kérést a tech (at) sensor.community címre.
-Lásd [issue] (https://github.comopendata-stuttgartsensor.communityissues117
-) a részletekért.
+Lásd [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) a részletekért.
 
 Jelenleg nem lehetséges a helyszínen regisztrálni a PM-érzékelőt, a páratartalom- és a DNMS-érzékelőt egy NodeMCU-hoz csatlakoztatva.
 Egyelőre csak manuálisan, a tech (at) sensor.community címre küldött kéréssel lehet ezt megtenni.

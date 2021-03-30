@@ -3,7 +3,7 @@ title: PCBs and circuit diagrams
 ---
 
 La mejor manera de construir el DNMS es usar uno de nuestros PCBs.
-Ahora hay muchos fabricantes de PCB que pueden producir placas de circuito por unos pocos dólares sin cantidades mínimas. Por ejemplo, [JLCPCB](https://jlcpcb.com/).
+Ahora hay muchos fabricantes de PCB que pueden producir placas de circuito por unos pocos dólares sin cantidades mínimas. Por ejemplo, [JLCPCB](https://jlcpcb.com//).
 Sólo tienes que descargar nuestros diagramas de circuitos y/o archivos Gerber abajo, subirlos a la página web del fabricante y pedir tus PCBs. 
 
 <br>

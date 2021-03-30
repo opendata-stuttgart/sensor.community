@@ -8,17 +8,17 @@ Glejte razdelek __firmware flasher__.
 
 ### Mikrofonska enota
 
-Mikrofonska enota temelji na plošči za prekinitev Pesky Products z mikrofonom MEMS ICS-43434. Takšno ploščo lahko najdete na [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofonska enota temelji na plošči za prekinitev Pesky Products z mikrofonom MEMS ICS-43434. Takšno ploščo lahko najdete na [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofonska enota temelji na plošči za prekinitev Pesky Products z mikrofonom MEMS ICS-43434. Takšno ploščo lahko najdete na [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofonska enota temelji na plošči za prekinitev Pesky Products z mikrofonom MEMS ICS-43434. Takšno ploščo lahko najdete na [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Ohišje za mikrofonsko enoto
 Ohišje je izdelano iz 12,7-milimetrske polistirenske cevi s premerom 0,500". Ta premer omogoča neposredno priključitev večine kalibratorjev na enoto.
 
-Prototip je bil razvit s cevjo [Evergreen št. 236] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototip je bil razvit s cevjo [Evergreen št. 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototip je bil razvit s cevjo [Evergreen št. 236] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototip je bil razvit s cevjo [Evergreen št. 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Prebojno ploščo je treba s pilico prilagoditi premeru cevi. Za zaščito vhoda mikrofona uporabite trak.
 <br>
@@ -42,7 +42,7 @@ Z lepilnim trakom zategnite rob cevke.
 
 Zdaj lahko cev napolnite z nekaj smole. Ta korak je obvezen, če se želite izogniti resonanci ter pridobiti umerjene in ponovljive podatke.
 
-Prototip je bil razvit z nekaj [PURe Isolation ST 33] (https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900), ki ga je izdelalo podjetje Copaltec GmbH.
+Prototip je bil razvit z nekaj [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), ki ga je izdelalo podjetje Copaltec GmbH.
 
 ##### Specifikacije:
 * Dielektrična trdnost: 28 kVmm
@@ -58,7 +58,7 @@ Prototip je bil razvit z nekaj [PURe Isolation ST 33] (https://www.buerklin.come
 * Temperature uporabe: - 20 do +130 °C
 
 
-Tudi [poliuretanska smola UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) podjetja Electrolube bi morala delovati.
+Tudi [poliuretanska smola UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) podjetja Electrolube bi morala delovati.
 
 Za vsako cevko zadostuje 15 g smole.
 
@@ -106,7 +106,7 @@ Nujno je treba namestiti zaščito pred vremenskimi vplivi v obliki pene. Po pot
 
 Ti penasti pokrovi se običajno prodajajo kot "pokrovi za merilne mikrofone". Vendar so dragi. Lahko vzamete tudi običajno kroglico iz pene in s škarjami izrežete luknjo.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
 #### Lokacija mikrofona
 

@@ -8,17 +8,17 @@ title: 组装
 
 ∮∮ 麦克风单元
 
-麦克风单元是基于Pesky Products公司的MEMS麦克风ICS-43434突破板。你可以在[Tindie市场](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone)找到这样的电路板。
+麦克风单元是基于Pesky Products公司的MEMS麦克风ICS-43434突破板。你可以在[Tindie市场](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)找到这样的电路板。
 
-麦克风单元是基于Pesky Products公司的MEMS麦克风ICS-43434突破板。你可以在[Tindie市场](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone)找到这样的电路板。
+麦克风单元是基于Pesky Products公司的MEMS麦克风ICS-43434突破板。你可以在[Tindie市场](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)找到这样的电路板。
 
 
 ##### 麦克风单元的外壳
 外壳由0.500"（12.7mm）聚苯乙烯管制成。这个直径允许直接插入设备上的大多数校准器。
 
-样机采用[长青236号管](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing)开发。
+样机采用[长青236号管](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing)开发。
 
-样机采用[长青236号管](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing)开发。
+样机采用[长青236号管](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing)开发。
 <br>
 突破板必须用锉刀适应管子的直径。用一些胶带保护麦克风入口。
 <br>
@@ -42,7 +42,7 @@ title: 组装
 
 现在你可以用一些树脂填充管子。这一步是必须的，以避免共振，并获得校准和可重复的数据。
 
-原型是用Copaltec GmbH生产的一些[PURe Isolation ST 33](https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900)开发的。
+原型是用Copaltec GmbH生产的一些[PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900)开发的。
 
 ##### 规格。
 * 绝缘强度：28千伏毫米
@@ -58,7 +58,7 @@ title: 组装
 * 应用温度。- 20至+130℃
 
 
-Electrolube生产的[聚氨酯树脂UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf)也可以使用。
+Electrolube生产的[聚氨酯树脂UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf)也可以使用。
 
 每根管子用15克树脂就够了。
 
@@ -105,7 +105,7 @@ DNMS 通过 RJ12 电缆连接到第二个 PCB。如果该电缆长度超过250�
 
 这些泡沫覆盖物通常作为 "测量用微型传感器的覆盖物 "出售。但它们很贵。你也可以拿一个普通的泡沫球，用剪刀剪一个洞。
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
 ∮∮麦克风的位置
 

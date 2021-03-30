@@ -20,8 +20,7 @@ Home -> (Login) - Mijn sensoren -> Registreer nieuwe sensor
 #### NB!
 Momenteel is het niet mogelijk om zowel de PM sensor, TempHumidity sensor en DNMS sensor aangesloten op een NodeMCU te registreren.
 Op dit moment kan dit alleen handmatig worden gedaan, stuur gewoon een verzoek naar tech (at) sensor.community.
-Siehe [nummer] (https://github.comopendata-stuttgartsensor.communityissues117
-) voor details.
+Siehe [nummer](https://github.com/opendata-stuttgart/sensor.community/issues/117) voor details.
 
 Momenteel is het niet mogelijk om via de site zowel PM sensor, temphumidity en DNMS sensor aangesloten op één NodeMCU te registreren.
 Voorlopig kan dit alleen handmatig worden gedaan door een verzoek te sturen naar tech (at) sensor.community.

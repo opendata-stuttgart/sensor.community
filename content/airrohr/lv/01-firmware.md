@@ -13,11 +13,11 @@ Izvēlieties saiti, kas atbilst jūsu datora operētājsistēmai.
 #### Windows
 
 ##### Draiveri NodeMCU (ESP8266) V2 (CP2102) priekš Windows
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32 bitu versija - **neatbalsta** 64 bitu versiju OS
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bitu versija - **neatbalsta** 64 bitu versiju OS
 
 ##### NodeMCU (ESP8266) V3 (CH341) draiveris operētājsistēmai Windows
-* [Windows](http://www.wch.cndownloadsfile5.html) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
+* [Windows](http://www.wch.cn/downloads/file/5.html) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
 
 ##### Izņemiet lejupielādēto failu operētājsistēmai Windows:
 * NodeMCU (ESP8266) V2: Atveriet mapi CP210x un divreiz noklikšķiniet uz programmas CP210xVCPInstaller_x64 (vai x86).
@@ -28,8 +28,8 @@ Izvēlieties saiti, kas atbilst jūsu datora operētājsistēmai.
 #### MacOS
 
 ##### MacOS draiveri
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Izņemiet lejupielādēto MacOS failu.
 * V2: Atinstalējiet mapi CP210x un divreiz noklikšķiniet uz programmas CP210xVCPInstaller_x64 (vai x86).
@@ -45,8 +45,8 @@ Draiveri nav jāinstalē. Mikroshēmai jābūt tieši atbalstītai (iespējams p
 #### Firmware Flasher
 Vairāku operētājsistēmu atbalsts: Windows, MacOS un Linux.
 
-* [airRohr Flashing Tool](http://firmware.sensor.communityairrohrflashing-tool)
-* [Avota kods](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Avota kods](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
 Savienojiet NodeMCU ar datoru, izmantojot īsu micro-USB kabeli (izvēlieties īsāku par 1 metru, pretējā gadījumā instalācija var neizdoties). Izvēlieties `latest_en.bin` (vai citu valodas versiju) un noklikšķiniet uz "Augšupielādēt".
 Pagaidiet, līdz process ir pabeigts. Tagad varam samontēt sensoru.

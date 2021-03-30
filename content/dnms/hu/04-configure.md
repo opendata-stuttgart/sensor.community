@@ -48,9 +48,9 @@ title: A  konfigurálása
 ### Tesztelje az állomást
 Ha a WiFi hálózat adatainak megadásán kívül nem történt más változtatás, akkor az érzékelő a következő oldalakon körülbelül 10 perc múlva "tesztelhető". Ezeken az oldalakon meg kell keresni a ChipID-t (a fenti példában a 13597771).
 
- * [Érzékelő adatok](www.madavi.desensorgraph.php)
- * [WLAN-jel](www.madavi.desensorsignal.php)
- * [WLAN-jel](www.madavi.desensorsignal.php)
+ * [Érzékelő adatok](www.madavi.de/sensor/graph.php)
+ * [WLAN-jel](www.madavi.de/sensor/signal.php)
+ * [WLAN-jel](www.madavi.de/sensor/signal.php)
 
 
 

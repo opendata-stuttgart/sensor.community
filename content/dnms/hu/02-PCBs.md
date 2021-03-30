@@ -3,7 +3,7 @@ title: PCB-k és áramköri rajzok
 ---
 
 A DNMS építésének legjobb módja az egyik nyomtatott áramköri lapunk használata.
-Ma már elég sok NYÁK-gyártó van, aki képes áramköri lapokat gyártani néhány dollárért, minimális mennyiség nélkül. Például a [JLCPCB](https://jlcpcb.com).
+Ma már elég sok NYÁK-gyártó van, aki képes áramköri lapokat gyártani néhány dollárért, minimális mennyiség nélkül. Például a [JLCPCB](https://jlcpcb.com/).
 Csak töltse le az alábbi áramköri rajzainkat és/vagy Gerber-fájljainkat, töltse fel őket a gyártó weboldalára, és rendelje meg a NYÁK-okat.
 
 <br>
@@ -16,7 +16,7 @@ NYÁK a NodeMCU ESP8266 CPUWLAN számára, I2C busz kiterjesztéssel a DNMS és 
 
 ##### Letöltés:
 * [Áramköri diagram](..docsdnmsairrohr-PCB-circuit-diagram.pdf)
-* [Gerber fájl a nyomtatott áramkör gyártójának weboldalára való feltöltéshez](..docsdnmsairrohr-PCB-circuit-diagram-gerber.zip)
+* [Gerber fájl a nyomtatott áramkör gyártójának weboldalára való feltöltéshez](../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
 
 ---
 

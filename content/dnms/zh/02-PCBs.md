@@ -3,7 +3,7 @@ title: PCB和电路图
 ---
 
 构建DNMS的最佳方式是使用我们的PCB之一。
-现在有不少PCB厂家可以用几块钱生产电路板，而且没有最低数量。比如【JLCPCB】(https://jlcpcb.com)。
+现在有不少PCB厂家可以用几块钱生产电路板，而且没有最低数量。比如【JLCPCB】(https://jlcpcb.com/)。
 只需下载我们的电路图或下面的Gerber文件，将它们上传到制造商的网站，然后订购您的PCB。
 
 <br>

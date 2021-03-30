@@ -18,7 +18,7 @@ title: Драйвер та прошивка
 ##### Driver for NodeMCU (ESP8266) V3 (CH341) for Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 should be able to automatically download these
 
-##### Extract the downloaded file for Windows:
+##### Extract the downloaded file for Windows
 * for NodeMCU (ESP8266) V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
 * for NodeMCU (ESP8266) V3: open the folder CH341SER and double click on the application SETUP.
 
@@ -26,7 +26,7 @@ title: Драйвер та прошивка
 
 ### MacOS
 
-#####  MacOS Drivers
+##### MacOS Drivers
 * [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 

@@ -3,7 +3,7 @@ title: PCB un shēmas
 ---
 
 Labākais veids, kā izveidot DNMS, ir izmantot kādu no mūsu PCB.
-Tagad ir diezgan daudz PCB ražotāju, kas var ražot shēmas plates par dažiem dolāriem bez minimāliem daudzumiem. Piemēram, [JLCPCB](https://jlcpcb.com).
+Tagad ir diezgan daudz PCB ražotāju, kas var ražot shēmas plates par dažiem dolāriem bez minimāliem daudzumiem. Piemēram, [JLCPCB](https://jlcpcb.com/).
 Vienkārši lejupielādējiet mūsu shēmas vai Gerber failus zemāk, augšupielādējiet tos ražotāja tīmekļa vietnē un pasūtiet savas PCB.
 
 <br>
@@ -14,8 +14,8 @@ PCB NodeMCU ESP8266 CPUWLAN ar I2C kopnes paplašinājumu, lai pieslēgtu DNMS, 
 
 
 ##### Lejupielādēt:
-* [Ķēdes shēma](...docsdnmsairrohr-PCB-circuit-diagram.pdf)
-* [Gerber fails, ko augšupielādēt PCB ražotāja tīmekļa vietnē](...docsdnmsairrohr-PCB-circuit-diagram-gerber.zip)
+* [Ķēdes shēma](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
+* [Gerber fails, ko augšupielādēt PCB ražotāja tīmekļa vietnē](.../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
 
 
 #### DNMS - T4 V1.4

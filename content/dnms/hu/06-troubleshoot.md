@@ -4,13 +4,13 @@ title: Hibaelhárítás
 
 ### Problémák az átutalással?
 Írja be az alábbiakat a böngészőjébe a saját adataival:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-Az [ID] az oldal bal oldalán megnyitott [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1) beviteli mezőben is kereshető.
+Az [ID] az oldal bal oldalán megnyitott [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1) beviteli mezőben is kereshető.
 
 * Az érzékelő regisztrálva van a [https://devices.sensor.community](https://devices.sensor.community)-on keresztül, és az érzékelő látható a térképen?
 * A vezeték nélküli jel gyenge volt a múltban?
-  Íme a szerveroldali jelzési protokoll: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Íme a szerveroldali jelzési protokoll: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Problémák az USB-kábellel?
 * Ellenőrizze a tápegységet
@@ -19,7 +19,7 @@ Az [ID] az oldal bal oldalán megnyitott [https://api-rrd.madavi.degrafanadGUaL5
   * Az érzékelő az újraindítás utáni első 2-7 percben adhoc wifit (hozzáférési pontot) nyit?
   * Keresse meg a WLAN hálózatot `airrohr-[ID]`. Az újraindítás után néhány percig eltarthat, amíg ez láthatóvá válik.
 * Ellenőrizze a saját routerén, hogy az érzékelő regisztrálva van-e a hálózatban, és jegyezze fel az IP-címet.
-  * alternatívaként használhatja a [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher) "Keresés a hálózatban" opcióját.
+  * alternatívaként használhatja a [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher) "Keresés a hálózatban" opcióját.
   * Ha igen: Csatlakozzon az érzékelőhöz egy böngészőn keresztül `http://[ip-az-érzékelője]`, a konfigurációnak meg kell jelennie.
   * Ha nem: ez lehet az elégtelen tápellátás, újraindítási hurok vagy hasonló hiba.
 * Csatlakoztassa a NodeMCU-t egy USB-kábelen keresztül egy számítógéphez, és nézze meg a protokollt.
@@ -27,7 +27,7 @@ Az [ID] az oldal bal oldalán megnyitott [https://api-rrd.madavi.degrafanadGUaL5
     * Linux: képernyő, minicom, cutecom
     * Windows: Tera Term
     * macOS: képernyő, minicom, ...
-    * megfelelő USB-2 soros illesztőprogramokra lehet szükség, lásd [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * megfelelő USB-2 soros illesztőprogramokra lehet szükség, lásd [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * Itt láthatja, hogy mit csinál az érzékelő (boot üzenetek, WLAN kapcsolat vagy hozzáférési pont, mérés - csak 3 perc múlva).
 
 ### Problémák az elektronikával?
