@@ -18,6 +18,7 @@ title: Зібрати
 Прототип був розроблений за допомогою [трубки Evergreen № 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 Дошка обриву повинна бути пристосована до діаметра НКТ за допомогою напилка. Використовуйте трохи стрічки для захисту входу мікрофона.
 <br>

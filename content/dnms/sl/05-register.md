@@ -22,7 +22,3 @@ Trenutno ni mogoče registrirati senzorja PM, senzorja TempHumidity in senzorja 
 Trenutno lahko to storite le ročno, zato pošljite zahtevo na naslov tech (at) sensor.community.
 Siehe [številka](https://github.com/opendata-stuttgart/sensor.community/issues/117) za podrobnosti.
 
-Trenutno na mestu ni mogoče registrirati obeh senzorjev PM, temperature in DNMS, ki sta priključena na eno enoto NodeMCU.
-Za zdaj lahko to storite le ročno, tako da pošljete zahtevo na naslov tech (at) sensor.community.
-Glej [številka](https://github.com/opendata-stuttgart/sensor.community/issues/117
-) za podrobnosti.

@@ -10,6 +10,7 @@ title: Сборка сенсора DNMS
 Прототуп был изготовлен с использованием [трубки No. 236 от Evergreen](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 Печатную плату, возможно, придется немного подогнать напильником чтобы она вошла в отверстие трубки. Используйте при этом защитный скотч для защиты входа микрофона!
 <br>

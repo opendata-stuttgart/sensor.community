@@ -10,7 +10,7 @@ Stačí si stiahnuť naše schémy zapojenia alebo súbory Gerber nižšie, nahr
 Tu sú opísané posledné verzie dosiek plošných spojov. Ďalšie informácie a prístup k súborom KiCad nájdete na [Github Helmuta Bittera](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 ### AIRROHR V1.4
-### AIRROHR V1.4
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 DPS pre NodeMCU ESP8266 CPUWLAN s rozšírením zbernice I2C na pripojenie DNMS, ako aj iných senzorov (SDS011, BME280...).
 
 
@@ -20,7 +20,6 @@ DPS pre NodeMCU ESP8266 CPUWLAN s rozšírením zbernice I2C na pripojenie DNMS,
 
 ---
 
-### DNMS - T4 V1.4
 ### DNMS - T4 V1.4
 DPS pre DNMS Teensy 4.0, ktorý možno pripojiť priamo na NodeMCU ESP8266 alebo na vyššie uvedenú DPS AIRROHR.
 

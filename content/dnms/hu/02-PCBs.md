@@ -10,7 +10,7 @@ Csak töltse le az alábbi áramköri rajzainkat és/vagy Gerber-fájljainkat, t
 A nyomtatott áramköri lapok utolsó változatait itt ismertetjük. További információkért és a KiCad-fájlok eléréséhez lásd [Helmut Bitter Github](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 ### AIRROHR V1.4
-### AIRROHR V1.4
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 NYÁK a NodeMCU ESP8266 CPUWLAN számára, I2C busz kiterjesztéssel a DNMS és más érzékelők (SDS011, BME280...) csatlakoztatásához.
 
 
@@ -20,7 +20,6 @@ NYÁK a NodeMCU ESP8266 CPUWLAN számára, I2C busz kiterjesztéssel a DNMS és 
 
 ---
 
-### DNMS - T4 V1.4
 ### DNMS - T4 V1.4
 NYÁK a DNMS Teensy 4.0-hoz, amely közvetlenül csatlakoztatható egy NodeMCU ESP8266-ra vagy a fenti AIRROHR NYÁK-ra.
 

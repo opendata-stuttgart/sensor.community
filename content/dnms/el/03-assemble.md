@@ -78,17 +78,17 @@ title: Συναρμολόγηση
 
 Το τόξο εμποδίζει την είσοδο νερού και υγρασίας στο περίβλημα, ενώ αφήνει το καλώδιο να περάσει.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Το DNMS συνδέεται με τη δεύτερη πλακέτα PCB μέσω ενός καλωδίου RJ12. Εάν αυτό το καλώδιο είναι μεγαλύτερο από 250 mm, πρέπει να χρησιμοποιήσετε μια επέκταση I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Αφού όλα είναι καλά συνδεδεμένα, τα μέρη συγκολλούνται μεταξύ τους.
 
 Αποτέλεσμα:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Η πλακέτα PCB που φέρει το NodeMCU μπορεί να τοποθετηθεί σε οποιοδήποτε ηλεκτρικό κουτί.
 

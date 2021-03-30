@@ -21,7 +21,7 @@ title: Introducción
 </div>
 
 
-> 🚧 Construye tu sensor de bricolaje y conviértete en parte de la red mundial, opendata & civictech. <Con el DNMS (Sensor Digital de Medición de Ruido) puedes medir la contaminación acústica por ti mismo.
+> 🚧 Construye tu sensor de bricolaje y conviértete en parte de la red mundial, opendata & civictech. Con el DNMS (Sensor Digital de Medición de Ruido) puedes medir la contaminación acústica por ti mismo.
 
  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 

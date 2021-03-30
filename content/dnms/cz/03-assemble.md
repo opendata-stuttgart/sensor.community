@@ -19,6 +19,7 @@ Pouzdro je vyrobeno z polystyrenové trubice o průměru 12,7 mm. Tento průměr
 Prototyp byl vyvinut s [Evergreen No. 236 trubkou](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 Deska s mikrofonem musí být přizpůsobena průměru trubky pilníkem. K ochraně vstupu do mikrofonu použijte pásku.
 <br>

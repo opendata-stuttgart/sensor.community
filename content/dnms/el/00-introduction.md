@@ -26,7 +26,7 @@ title: Εισαγωγή
 
 > 🚧 Κατασκευάστε τον DIY αισθητήρα σας και γίνετε μέρος του παγκόσμιου δικτύου opendata &amp; civictech. <br> Με τον DNMS (Ψηφιακός αισθητήρας μέτρησης θορύβου) μπορείτε να μετρήσετε μόνοι σας τη ρύπανση από θόρυβο.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Δείτε τις αρχικές οδηγίες και προηγούμενες εκδόσεις του αισθητήρα θορύβου στο [Github του Helmut Bitter](https://github.com/hbitter/DNMS/tree/master/Manual).

@@ -19,6 +19,7 @@ O invólucro é feito com um tubo de poliestireno de 0,500" (12,7 mm). Este diâ
 O protótipo foi desenvolvido com o [tubo Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 A placa de divisão deve ser adaptada ao diâmetro da tubulação com uma lima. Use um pouco de fita para proteger a entrada do microfone.
 <br>

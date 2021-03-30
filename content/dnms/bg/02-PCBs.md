@@ -10,7 +10,7 @@ title: ПХБ и електрически схеми
 Последните версии на печатните платки са описани тук. За допълнителна информация и достъп до файловете на KiCad вижте [Github на Helmut Bitter](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 ### AIRROHR V1.4
-### AIRROHR V1.4
+<img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 Платка за NodeMCU ESP8266 CPUWLAN с разширение на шината I2C за свързване на DNMS, както и на други сензори (SDS011, BME280...).
 
 
@@ -20,7 +20,6 @@ title: ПХБ и електрически схеми
 
 ---
 
-### DNMS - T4 V1.4
 ### DNMS - T4 V1.4
 Печатна платка за DNMS Teensy 4.0, която може да бъде свързана директно към NodeMCU ESP8266 или към горната печатна платка AIRROHR.
 

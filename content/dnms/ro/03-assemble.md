@@ -78,17 +78,17 @@ Tubul în sine trebuie să aibă o lungime de 160 mm. DNMS arată locul în. Car
 
 Arcul împiedică pătrunderea apei și a umidității în carcasă, permițând în același timp trecerea cablului.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS este conectat la cel de-al doilea PCB printr-un cablu RJ12. Dacă acest cablu este mai lung de 250 mm, trebuie să folosiți o extensie I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 După ce totul este bine conectat, piesele sunt lipite împreună.
 
 Rezultat:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Placa de circuit imprimat pe care se află NodeMCU poate fi montată în orice tip de cutie electrică.
 

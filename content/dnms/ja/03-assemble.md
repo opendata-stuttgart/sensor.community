@@ -19,6 +19,7 @@ firmware flasher__の項を参照。
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
+
 <br>
 ブレイクアウトボードは、チューブの直径に合わせてヤスリで削る必要があります。マイクインレットを保護するためにテープを使用してください。
 <br>

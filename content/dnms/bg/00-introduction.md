@@ -23,7 +23,7 @@ title: Въведение
 
 > 🚧 Изградете своя сензор "Направи си сам" и станете част от световната мрежа opendata &amp; civictech. <br> С DNMS (цифров сензор за измерване на шума) можете сами да измервате шумовото замърсяване.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Вижте оригиналните инструкции и предишните версии на сензора за шум в [Github на Helmut Bitter](https://github.com/hbitter/DNMS/tree/master/Manual).

@@ -23,7 +23,7 @@ title: Johdanto
 
 > 🚧 Rakenna DIY-anturi ja tule osaksi maailmanlaajuista opendata &amp; civictech -verkostoa. <br> DNMS:n (Digital Noise Measuring Sensor) avulla voit mitata melusaastetta itse.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Tutustu alkuperäisiin ohjeisiin ja meluanturin aiempiin versioihin [Helmut Bitterin Githubissa](https://github.com/hbitter/DNMS/tree/master/Manual).

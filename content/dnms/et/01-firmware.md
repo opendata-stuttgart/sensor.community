@@ -12,7 +12,7 @@ NocdeMCU-de v3 kiibistik on tavaliselt CH341, vaadake oma NodeMCU tagaküljelt, 
 
 ##### Draiverid mudelile V2 (CP2102) Windowsile
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 peaks olema võimeline neid automaatselt alla laadima.
-* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitine versioon - **ei toeta** 64-bitise versiooni operatsioonisüsteemi
+* [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitine versioon - **ei toeta** 64-bitise versiooni operatsioonisüsteemi
 
 ##### Driver for model V3 (CH341) for Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 peaks olema võimeline neid automaatselt alla laadima.
