@@ -19,7 +19,7 @@ Kirjoita seuraavat tiedot selaimeesi omilla tiedoillasi:
   * Aukaiseeko anturi adhoc-wlan (yhteyspiste) ensimmäisten 2-7 minuutin aikana uudelleenkäynnistyksen jälkeen?
   * Etsi WLAN-verkko `airrohr-[ID]`. Uudelleenkäynnistyksen jälkeen voi kestää muutaman minuutin, ennen kuin tämä näkyy.
 * Tarkista omasta reitittimestäsi, onko anturi rekisteröity verkkoon ja merkitse IP-osoite muistiin.
-  * Vaihtoehtoisesti käytä [airRohr Flashing Tool] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher) -työkalun "Search in network" -toimintoa.
+  * Vaihtoehtoisesti käytä [airRohr Flashing Tool] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) -työkalun "Search in network" -toimintoa.
   * Jos kyllä: Yhdistä sensori selaimen kautta `http://[ip-sensorisi]`, konfiguraation pitäisi näkyä.
   * Jos ei: syynä voi olla riittämätön virransyöttö, uudelleenkäynnistyssilmukka tai vastaava.
 * Liitä NodeMCU tietokoneeseen USB-kaapelilla ja katso protokollaa.

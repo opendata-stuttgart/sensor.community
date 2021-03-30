@@ -19,7 +19,7 @@ Sisestage oma brauserisse järgmised andmed:
   * Kas andur avab adhoc wifi (juurdepääsupunkt) esimese 2-7 minuti jooksul pärast taaskäivitamist?
   * Otsi WLAN-võrku `airrohr-[ID]`. Pärast taaskäivitamist võib kuluda paar minutit, kuni see on nähtav.
 * Kontrollige oma ruuterist, kas andur on võrgus registreeritud ja märkige IP-aadress.
-  * alternatiivselt kasutage [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher) valikut "Search in network".
+  * alternatiivselt kasutage [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) valikut "Search in network".
   * Kui jah: ühendage anduriga brauseri kaudu `http://[ip-your-sensor]`, konfiguratsioon peaks ilmuma.
   * Kui ei: see võib olla tingitud ebapiisavast toiteallikast, taaskäivitusskeemist vms.
 * Ühendage NodeMCU USB-kaabli kaudu arvutiga ja vaadake protokolli.

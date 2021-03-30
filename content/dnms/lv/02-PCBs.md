@@ -7,7 +7,7 @@ Tagad ir diezgan daudz PCB ražotāju, kas var ražot shēmas plates par dažiem
 Vienkārši lejupielādējiet mūsu shēmas vai Gerber failus zemāk, augšupielādējiet tos ražotāja tīmekļa vietnē un pasūtiet savas PCB.
 
 <br>
-Šeit ir aprakstītas pēdējās PCB versijas. Lai iegūtu papildu informāciju un piekļūtu KiCad failiem, skatiet [Helmut Bitter's Github](https://github.comhbitterDNMStreemasterPCBs).
+Šeit ir aprakstītas pēdējās PCB versijas. Lai iegūtu papildu informāciju un piekļūtu KiCad failiem, skatiet [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 #### AIRROHR V1.4
 PCB NodeMCU ESP8266 CPUWLAN ar I2C kopnes paplašinājumu, lai pieslēgtu DNMS, kā arī citus sensorus (SDS011, BME280...).

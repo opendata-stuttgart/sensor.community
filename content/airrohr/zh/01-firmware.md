@@ -46,7 +46,7 @@ V2的*。解压CP210x文件夹，双击CP210xVCPInstaller_x64(或x86)应用程�
 支持多种操作系统。Windows、MacOS和Linux。
 
 * [airRohr闪光工具](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [源代码](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [源代码](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 用短的 micro-USB 纜線將 NodeMCU 連接到您的電腦 (選擇短於 1 米的纜線，否則可能會安裝失敗)。選擇`latest_en.bin`(或其他語言版本)，並按下「上傳」。
 等到这个过程完成后。现在我们可以组装传感器了。

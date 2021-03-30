@@ -20,7 +20,7 @@ Sisestage brauserisse järgmised andmed:
     * kas andur avab AP (esimese 2-7 minuti jooksul pärast taaskäivitust)?
     * Otsi `airrohr-[ID]` WLAN võrku. Kannatlikkus, see võib võtta 1-2 minutit pärast käivitamist.
 * Kontrollige oma marsruuteril, kas andur on võrku sisse logitud, siis jätke IP meelde.
-    * alternatiivselt kasuta [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher) "Discovery".
+    * alternatiivselt kasuta [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) "Discovery".
     * Kui jah: ühendage anduriga IP kaudu brauseriga `http://[ip-of-the-sensor]` , peaks ilmuma kasutajaliides.
     * Kui ei: ESP-l on probleeme, nt ebapiisav toiteallikas, taaskäivitusskeem vms.
 * Ühendage USB arvutiga ja vaadake logi

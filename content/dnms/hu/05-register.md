@@ -24,5 +24,5 @@ Lásd [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117)
 
 Jelenleg nem lehetséges a helyszínen regisztrálni a PM-érzékelőt, a páratartalom- és a DNMS-érzékelőt egy NodeMCU-hoz csatlakoztatva.
 Egyelőre csak manuálisan, a tech (at) sensor.community címre küldött kéréssel lehet ezt megtenni.
-Lásd [issue](https://github.comopendata-stuttgartsensor.communityissues117
+Lásd [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) a részletekért.

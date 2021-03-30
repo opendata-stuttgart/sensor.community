@@ -47,7 +47,7 @@ Podporuje viaceré operačné systémy: Windows, MacOS a Linux.
 V zozname, ktorý sa zobrazí po kliknutí airRohr Flashing Tool, kliknite na link zhodný s vašim operačným systémom.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Zdrojový kód (GitHub)](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Zdrojový kód (GitHub)](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Pripojte k počítaču modul ESP8266 prostredníctvom micro-USB kábla. Tento kábel by nemal byť dlhší ako jeden meter. Ak bude dlhší, môže dôjsť k zlyhaniu inštalácie.
 Pri položke Firmware verzia vyberte zo zoznamu súbor `latest_sk.bin` (alebo iný jazyk, ktorý vám vyhovuje). Stlačte tlačítko Nahrať a počkajte na dokončenie nahrávania.

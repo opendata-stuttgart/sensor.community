@@ -20,7 +20,7 @@ Do prohlížeče zadejte svoje vlastní údaje v následujícím formátu::
     * vytvoří senzor vlastní otevřenou WiFi síť (v průběhu 2-7 minut po restartu)?
     * Hledejte síť s názvem `airrohr-[ID]`. Buďte trpěliví, může to trvat 1-2 minuty po spuštění.
 * Zkontrolujte v nastavení vašeho routeru, jestli je senzor připojený k vaší síti. Poznačte si jeho IP adresu.
-    * můžete také využít možnost "Prohledat síť" v [nástroji na instalaci firmware](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+    * můžete také využít možnost "Prohledat síť" v [nástroji na instalaci firmware](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
     * Jestliže ano: připojte se k senzoru přes IP adresu pomocí prohlížeče `http://[ip-senzoru]/`, mělo by se vám zobrazit rozhraní senzoru.
     * Jestliže ne: ESP má problémy, např. je nedostatečné napájení, restartuje ve smyčce nebo podobně.
 * Připojte USB k počítači a zkontrolujte log.

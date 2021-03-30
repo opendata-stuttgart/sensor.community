@@ -19,7 +19,7 @@ V brskalnik vnesite naslednje podatke:
   * Ali senzor v prvih 2-7 minutah po ponovnem zagonu odpre adhoc wifi (dostopno točko)?
   * Poiščite omrežje WLAN `airrohr-[ID]`. Po ponovnem zagonu lahko traja nekaj minut, preden je to vidno.
 * Na svojem usmerjevalniku preverite, ali je senzor registriran v omrežju, in zabeležite naslov IP.
-  * lahko uporabite tudi "Iskanje v omrežju" v orodju [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+  * lahko uporabite tudi "Iskanje v omrežju" v orodju [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
   * Če je odgovor pritrdilen: Povežite se s senzorjem prek brskalnika `http://[ip-your-sensor]`, prikazana bo konfiguracija.
   * Če ne: to je lahko posledica nezadostnega napajanja, zanke ponovnega zagona in podobno.
 * Povežite NodeMCU z računalnikom prek kabla USB in si oglejte protokol

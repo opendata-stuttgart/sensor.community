@@ -7,7 +7,7 @@ Ma már elég sok NYÁK-gyártó van, aki képes áramköri lapokat gyártani n�
 Csak töltse le az alábbi áramköri rajzainkat és/vagy Gerber-fájljainkat, töltse fel őket a gyártó weboldalára, és rendelje meg a NYÁK-okat.
 
 <br>
-A nyomtatott áramköri lapok utolsó változatait itt ismertetjük. További információkért és a KiCad-fájlok eléréséhez lásd [Helmut Bitter Github](https://github.comhbitterDNMStreemasterPCBs).
+A nyomtatott áramköri lapok utolsó változatait itt ismertetjük. További információkért és a KiCad-fájlok eléréséhez lásd [Helmut Bitter Github](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 ### AIRROHR V1.4
 ### AIRROHR V1.4

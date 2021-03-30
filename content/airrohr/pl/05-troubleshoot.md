@@ -20,7 +20,7 @@ Wprowadź poniższe dane w przeglądarce z własnymi danymi:
     * czy czujnik otwiera AP (w ciągu pierwszych 2-7 minut po restarcie)?
     * Poszukaj `airrohr-[ID]` sieci WLAN. Cierpliwości, może to potrwać 1-2 minuty po uruchomieniu.
 * Sprawdź na własnym routerze, czy czujnik jest zalogowany do sieci, a następnie zapamiętaj IP 
-    * alternatywnie użyć "Discovery" w [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+    * alternatywnie użyć "Discovery" w [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
     * Jeśli tak: połączyć się z czujnikiem przez IP za pomocą przeglądarki `http://[ip-of-the-sensor]/` , powinien pojawić się interfejs 
     * Jeśli nie: ESP ma problemy, np. niewystarczające zasilanie, pętla restartu lub podobne.
 * Podłączyć USB do komputera i przejrzeć dziennik 

@@ -24,5 +24,5 @@ Vt [küsimus](https://github.com/opendata-stuttgart/sensor.community/issues/117)
 
 Praegu ei ole võimalik registreerida saidi abil nii PM-andurit, niiskusandurit kui ka DNMS-andurit, mis on ühendatud ühe NodeMCUga.
 Praegu saab seda teha ainult käsitsi, saates päringu aadressile tech (at) sensor.community.
-Vt [küsimus](https://github.comopendata-stuttgartsensor.communityissues117
+Vt [küsimus](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) üksikasjad.

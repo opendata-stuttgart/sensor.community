@@ -20,7 +20,7 @@ El [ID] también se puede buscar en el campo de entrada en la esquina superior i
     * ¿El sensor abre un AP (en los primeros 2-7 minutos después de un reinicio)?
     * Busca la red WLAN "airrohr-[ID]``. Paciencia, puede tardar 1-2 minutos después del arranque.
 * Comprueba en tu propio router si el sensor está conectado a la red, entonces recuerda la IP 
-    * alternativamente usa "Discovery" en la [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+    * alternativamente usa "Discovery" en la [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
     * Si es así: conéctese al sensor a través de IP con un navegador `http://[ip-de-el-sensor]/` , la interfaz debería aparecer 
     * Si no: el ESP tiene problemas, por ejemplo, suministro de energía insuficiente, bucle de reinicio o similar
 * Conecta el USB a un ordenador y mira el registro 

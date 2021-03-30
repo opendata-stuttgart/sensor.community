@@ -31,7 +31,7 @@ Choose the link that corresponds to the operating system of your computer.
 * [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 
-#####  Extract the downloaded file for MacOS.
+#####  Extract the downloaded file for MacOS
 * for V2: Unzip the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
 * for V3: Unzip the folder CH341SER and double click on the application SETUP.
 * Restart your Mac
@@ -46,7 +46,7 @@ No drivers need to be installed. Chip should be supported directly (verifiable w
 Support for multiple Operating Systems: Windows, MacOS and Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Connect NodeMCU to your computer with a short micro-USB cable (choose one shorter than 1 Meter, otherwise the installation may fail). Select `latest_en.bin` (or another language version) and click “Upload”.
 Wait until the process is done. Now we can assemble the sensor.

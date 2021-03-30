@@ -24,5 +24,5 @@ Siehe [nummer](https://github.com/opendata-stuttgart/sensor.community/issues/117
 
 Momenteel is het niet mogelijk om via de site zowel PM sensor, temphumidity en DNMS sensor aangesloten op één NodeMCU te registreren.
 Voorlopig kan dit alleen handmatig worden gedaan door een verzoek te sturen naar tech (at) sensor.community.
-Zie [probleem](https://github.comopendata-stuttgartsensor.communityissues117
+Zie [probleem](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) voor details.

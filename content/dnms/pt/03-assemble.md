@@ -106,7 +106,8 @@ As próprias caixas devem ser à prova d'água. Apenas a entrada do microfone po
 
 Essas tampas de espuma são normalmente vendidas como 'tampas para microfones de medição'. Mas elas são caros. Você também pode pegar uma bola de espuma normal e fazer um buraco com a tesoura.
 
-Se você precisar de mais, [esta fonte](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) pode ser útil.
+Se você precisar de mais, [esta fonte](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) pode ser útil.
 
 ### Localização do microfone
 

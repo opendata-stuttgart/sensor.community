@@ -20,7 +20,7 @@ Der kan også søges efter [ID] i indtastningsfeltet i øverste venstre hjørne 
     * åbner sensoren et AP (i de første 2-7 minutter efter en genstart)?
     * Søg efter `airrohr-[ID]` WLAN-netværk. Vær tålmodig, det kan tage 1-2 minutter efter opstart.
 * Kontroller på din egen router, om sensoren er logget ind på netværket, og husk derefter IP-nummeret
-    * alternativt kan du bruge "Discovery" i [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+    * alternativt kan du bruge "Discovery" i [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
     * Hvis ja: forbind til sensoren via IP med en browser `http://[ip-of-the-sensor]` , grænsefladen skal vises
     * Hvis nej: ESP'en har problemer, f.eks. utilstrækkelig strømforsyning, genstartsløjfe eller lignende
 * Tilslut USB til en computer og se loggen

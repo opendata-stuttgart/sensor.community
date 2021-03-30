@@ -44,7 +44,7 @@ Draiveri nav jāinstalē. Mikroshēmai jābūt tieši atbalstītai (iespējams p
 Vairāku operētājsistēmu atbalsts: Windows, MacOS un Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Avota kods](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Avota kods](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Savienojiet NodeMCU ar datoru, izmantojot īsu micro-USB kabeli (izvēlieties īsāku par 1 metru, pretējā gadījumā instalācija var neizdoties). Izvēlieties `latest_en.bin` (vai citu valodas versiju) un noklikšķiniet uz "Augšupielādēt".
 Pagaidiet, līdz process ir pabeigts. Tagad varam samontēt sensoru.

@@ -46,7 +46,7 @@ Juhtseadmeid ei ole vaja paigaldada. Kiip peaks olema otse toetatud (kontrollita
 Mitme operatsioonisüsteemi tugi: Windows, MacOS ja Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [lähtekood](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [lähtekood](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Ühendage NodeMCU arvutiga lühikese micro-USB-kaabli abil (valige lühike kaabel, mis on lühem kui 1 meeter, muidu võib paigaldus ebaõnnestuda). Valige `latest_en.bin` (või mõni muu keeleversioon) ja klõpsake nuppu "Upload".
 Oodake, kuni protsess on lõppenud. Nüüd saame me anduri kokku panna.

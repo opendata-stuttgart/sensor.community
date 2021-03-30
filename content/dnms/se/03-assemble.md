@@ -100,7 +100,8 @@ Det är absolut nödvändigt att installera ett väderskydd i form av ett skumsk
 
 Dessa skumskydd säljs normalt som ”lock för mätmikrofoner”. Men de är dyra. Du kan också ta en vanlig skumkula och klippa ett hål med saxen.
 
-Om du behöver fler [den här källan](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) kan vara till hjälp.
+Om du behöver fler [den här källan](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) kan vara till hjälp.
 
 ### Mikrofonens plats
 

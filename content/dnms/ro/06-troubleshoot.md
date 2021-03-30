@@ -19,7 +19,7 @@ Introduceți următoarele în browserul dvs. cu propriile date:
   * Deschide senzorul un wifi adhoc (punct de acces), în primele 2-7 minute după o repornire?
   * Căutați rețeaua WLAN `airrohr-[ID]`. Este posibil să dureze câteva minute după o repornire până când acest lucru este vizibil.
 * Verificați pe propriul router dacă senzorul este înregistrat în rețea și notați adresa IP.
-  * alternativ, utilizați "Căutare în rețea" în [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher).
+  * alternativ, utilizați "Căutare în rețea" în [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/).
   * Dacă da: Conectați-vă la senzor prin intermediul unui browser `http://[ip-your-sensor]`, ar trebui să apară configurația
   * Dacă nu: ar putea fi din cauza unei alimentări insuficiente cu energie electrică, a unei bucle de repornire sau similar.
 * Conectați NodeMCU la un computer prin intermediul unui cablu USB și uitați-vă la protocol.

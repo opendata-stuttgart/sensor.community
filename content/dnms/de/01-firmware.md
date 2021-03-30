@@ -44,7 +44,7 @@ Es müssen keine Treiber installiert werden. Chip sollte direkt unterstützt wer
 Unterstützung für mehrere Betriebssysteme: Windows, MacOS und Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Quellcode](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Quellcode](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 NodeMCU mit deinem Computer und einem kurzen Micro-USB-Kabel verbinden. Unter 1 Meter wählen, sonst kann die Installation fehlschlagen kann. Wähle `latest_de.bin` (oder eine andere Sprachversion) und klicke auf "Upload".
 Warte bis der Vorgang abgeschlossen ist. Nun können wir den Sensor zusammenbauen.

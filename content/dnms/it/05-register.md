@@ -24,5 +24,5 @@ Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117)
 
 Attualmente non è possibile registrare utilizzando il sito sia il sensore PM, sia il sensore temphumidity e DNMS collegati a un NodeMCU.
 Per ora può essere fatto solo manualmente inviando una richiesta a tech (at) sensor.community.
-Vedi [issue](https://github.comopendata-stuttgartsensor.communityissues117
+Vedi [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) per i dettagli.

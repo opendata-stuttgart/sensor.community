@@ -44,7 +44,7 @@ Er hoeven geen drivers geïnstalleerd te worden. Chip zou rechtstreeks ondersteu
 Ondersteuning voor meerdere besturingssystemen: Windows, MacOS en Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Bron Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Bron Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Verbind NodeMCU met je computer met een korte micro-USB kabel (kies er een korter dan 1 meter, anders kan de installatie mislukken). Selecteer `latest_en.bin` (of een andere taalversie) en klik op "Upload".
 Wacht tot het proces klaar is. Nu kunnen we de sensor in elkaar zetten.

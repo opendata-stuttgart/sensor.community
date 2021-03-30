@@ -19,7 +19,7 @@ Naršyklėje įveskite šiuos savo duomenis:
   * Ar jutiklis atidaro adhoc wifi (prieigos tašką) per pirmąsias 2-7 minutes po perkrovimo?
   * Ieškoti WLAN tinklo `airrohr-[ID]`. Po perkrovimo gali praeiti kelios minutės, kol tai bus matoma.
 * Savo maršrutizatoriuje patikrinkite, ar jutiklis užregistruotas tinkle, ir užsirašykite IP adresą.
-  * taip pat naudokite [airRohr Flashing Tool] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher) "Search in network" (Ieškoti tinkle).
+  * taip pat naudokite [airRohr Flashing Tool] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) "Search in network" (Ieškoti tinkle).
   * Jei taip: Prisijunkite prie jutiklio per naršyklę `http://[ip-your-sensor]`, turėtų pasirodyti konfigūracija.
   * Jei ne: tai gali būti dėl nepakankamo maitinimo šaltinio, pakartotinio paleidimo kilpos ar pan.
 * USB kabeliu prijunkite NodeMCU prie kompiuterio ir peržiūrėkite protokolą

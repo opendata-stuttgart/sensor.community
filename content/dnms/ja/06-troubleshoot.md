@@ -19,7 +19,7 @@ ID」は、ページの左側に開いている入力欄でも検索できます
   * 再起動後、最初の2～7分で、センサーがアドホック無線LAN（アクセスポイント）を開くか？
   * WLANネットワーク `airrohr-[ID]` を検索します。再起動後、表示されるまで数分かかる場合があります。
 
-  * AirRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)の「ネットワーク検索」をご利用ください。
+  * AirRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)の「ネットワーク検索」をご利用ください。
   * If yes: ブラウザでセンサーに接続する `http://[ip-your-sensor]`, the configuration should appear
   * 電源が入らない場合は、電源不足や再起動ループなどが考えられます。
 * USBケーブルでNodeMCUをコンピュータに接続し、プロトコルを見る

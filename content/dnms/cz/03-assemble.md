@@ -106,7 +106,8 @@ Je naprosto nezbytné ochránit mokrofon proti povětrnostním vlivům ve formě
 
 Tyto pěnové kryty se běžně prodávají jako „kryty pro měřicí mikrofony“. Ale jsou drahé. Můžete si také vzít normální pěnovou kouli a nůžkami otvor vystřihnout.
 
-Pokud potřebujete další [tento odkaz](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) by se mohl hodit.
+Pokud potřebujete další [tento odkaz](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) by se mohl hodit.
 
 ### Umístění mikrofonu
 

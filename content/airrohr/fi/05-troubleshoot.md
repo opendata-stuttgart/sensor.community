@@ -20,7 +20,7 @@ Kirjoita selaimeen seuraavat tiedot omilla tiedoillasi:
     * avaako tunnistin AP:n (ensimmäisten 2-7 minuutin aikana uudelleenkäynnistyksen jälkeen)?
     * Etsi `airrohr-[ID]` WLAN-verkko. Kärsivällisyyttä, se voi kestää 1-2 minuuttia käynnistyksen jälkeen.
 * Tarkista omasta reitittimestäsi, onko anturi kirjautunut verkkoon, niin muista IP-osoite
-    * Vaihtoehtoisesti käytä "Discovery" [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+    * Vaihtoehtoisesti käytä "Discovery" [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
     * Jos kyllä: muodosta yhteys anturiin IP:n kautta selaimella `http://[ip-of-the-sensor]` , käyttöliittymän pitäisi näkyä.
     * Jos ei: ESP:ssä on ongelmia, esim. virransyöttö riittämätön, uudelleenkäynnistyssilmukka tai vastaava.
 * Kytke USB tietokoneeseen ja katso loki.

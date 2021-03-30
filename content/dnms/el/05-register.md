@@ -24,5 +24,5 @@ title: Εγγραφή
 
 Επί του παρόντος, δεν είναι δυνατή η καταχώριση μέσω της τοποθεσίας και των δύο αισθητήρων PM, υγρασίας και DNMS που είναι συνδεδεμένοι σε ένα NodeMCU.
 Προς το παρόν μπορεί να γίνει μόνο χειροκίνητα, στέλνοντας ένα αίτημα στο tech (at) sensor.community.
-Βλέπε [issue](https://github.comopendata-stuttgartsensor.communityissues117
+Βλέπε [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) για λεπτομέρειες.

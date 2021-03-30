@@ -44,7 +44,7 @@ title: Драйвер та прошивка
 Підтримка декількох операційних систем: Windows, MacOS та Linux.
 
 * [Інструмент прошивки airRohr](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Вихідний код](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Вихідний код](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Підключіть NodeMCU до комп’ютера за допомогою короткого кабелю micro-USB (виберіть один коротший за 1 метр, інакше установка може не вдатися). Виберіть `latest_en.bin` (або іншу мовну версію) і натисніть" Завантажити ".
 Зачекайте, поки процес закінчиться. Тепер ми можемо зібрати датчик.

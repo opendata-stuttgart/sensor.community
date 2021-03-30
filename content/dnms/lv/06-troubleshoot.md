@@ -19,7 +19,7 @@ Ievadiet pārlūkprogrammā šādus datus ar saviem datiem:
   * Vai sensors atver adhoc wifi (piekļuves punktu) pirmajās 2-7 minūtēs pēc restartēšanas?
   * Meklējiet WLAN tīklu `airrohr-[ID]`. Var paiet dažas minūtes pēc restartēšanas, līdz tas būs redzams.
 * Pārbaudiet savā maršrutētājā, vai sensors ir reģistrēts tīklā, un atzīmējiet IP adresi.
-  * alternatīvi izmantojiet "Meklēt tīklā" [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher).
+  * alternatīvi izmantojiet "Meklēt tīklā" [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/).
   * Ja jā: Savienojieties ar sensoru, izmantojot pārlūkprogrammu `http://[ip-your-sensor]`, jāparādās konfigurācijai.
   * Ja nē: tas varētu būt saistīts ar nepietiekamu strāvas padevi, restartēšanas cilpu vai tamlīdzīgi.
 * Savienojiet NodeMCU ar datoru, izmantojot USB kabeli, un apskatiet protokolu.

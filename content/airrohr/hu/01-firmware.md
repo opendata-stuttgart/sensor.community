@@ -46,7 +46,7 @@ Nincs szükség illesztőprogramok telepítésére. A chipnek közvetlenül tám
 Több operációs rendszer támogatása: Windows, MacOS és Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Forráskód](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Forráskód](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Csatlakoztassa a NodeMCU-t a számítógépéhez egy rövid micro-USB kábellel (válasszon 1 méternél rövidebbet, különben a telepítés meghiúsulhat). Válassza ki a `latest_en.bin` (vagy egy másik nyelvi verziót), és kattintson a "Upload" gombra.
 Várjon, amíg a folyamat befejeződik. Most már összeszerelhetjük az érzékelőt.

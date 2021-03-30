@@ -7,7 +7,7 @@ Nyt on olemassa melko paljon PCB-valmistajia, jotka voivat tuottaa piirilevyjä 
 Lataa piirikaaviot ja tai Gerber-tiedostot alla, lataa ne valmistajan verkkosivustolle ja tilaa piirilevyt.
 
 <br>
-Piirilevyjen viimeiset versiot kuvataan tässä. Katso [Helmut Bitterin Github](https://github.comhbitterDNMStreemasterPCBs) lisätietoja ja KiCad-tiedostoja.
+Piirilevyjen viimeiset versiot kuvataan tässä. Katso [Helmut Bitterin Github](https://github.com/hbitter/DNMS/tree/master/PCBs) lisätietoja ja KiCad-tiedostoja.
 
 ### AIRROHR V1.4
 ### AIRROHR V1.4
