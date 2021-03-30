@@ -4,13 +4,13 @@ title: Αντιμετώπιση προβλημάτων
 
 ### Προβλήματα στη μεταφορά;
 Εισάγετε τα ακόλουθα στο πρόγραμμα περιήγησής σας με τα δικά σας δεδομένα:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-Το [ID] μπορεί επίσης να αναζητηθεί στο πεδίο εισαγωγής που είναι ανοικτό στην αριστερή πλευρά της σελίδας [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+Το [ID] μπορεί επίσης να αναζητηθεί στο πεδίο εισαγωγής που είναι ανοικτό στην αριστερή πλευρά της σελίδας [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Έχει καταχωρηθεί ο αισθητήρας μέσω [https://devices.sensor.community](https://devices.sensor.community) και είναι ο αισθητήρας ορατός στο χάρτη;
 * Το ασύρματο σήμα ήταν αδύναμο στο παρελθόν;
-  Ακολουθεί το πρωτόκολλο σήματος από την πλευρά του διακομιστή: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Ακολουθεί το πρωτόκολλο σήματος από την πλευρά του διακομιστή: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Προβλήματα με το καλώδιο USB;
 * Ελέγξτε την παροχή ρεύματος
@@ -19,7 +19,7 @@ title: Αντιμετώπιση προβλημάτων
   * Ανοίγει ο αισθητήρας ένα adhoc wifi (σημείο πρόσβασης) στα πρώτα 2-7 λεπτά μετά την επανεκκίνηση;
   * Αναζήτηση για το δίκτυο WLAN `airrohr-[ID]`. Μπορεί να χρειαστούν μερικά λεπτά μετά την επανεκκίνηση μέχρι να γίνει ορατό.
 * Ελέγξτε στο δικό σας δρομολογητή αν ο αισθητήρας είναι εγγεγραμμένος στο δίκτυο και σημειώστε τη διεύθυνση IP.
-  * εναλλακτικά χρησιμοποιήστε την "Αναζήτηση στο δίκτυο" στο [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+  * εναλλακτικά χρησιμοποιήστε την "Αναζήτηση στο δίκτυο" στο [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
   * Αν ναι: Συνδεθείτε στον αισθητήρα μέσω ενός προγράμματος περιήγησης `http://[ip-your-sensor]`, θα πρέπει να εμφανιστεί η ρύθμιση παραμέτρων.
   * Αν όχι: θα μπορούσε να οφείλεται σε ανεπαρκή παροχή ρεύματος, βρόχο επανεκκίνησης ή κάτι παρόμοιο.
 * Συνδέστε το NodeMCU σε έναν υπολογιστή μέσω ενός καλωδίου USB και δείτε το πρωτόκολλο
@@ -27,7 +27,7 @@ title: Αντιμετώπιση προβλημάτων
     * Linux: οθόνη, minicom, cutecom
     * Windows: Tera Term
     * macOS: οθόνη, minicom, ...
-    * Μπορεί να χρειαστούν κατάλληλοι σειριακοί οδηγοί USB-2, βλ. [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * Μπορεί να χρειαστούν κατάλληλοι σειριακοί οδηγοί USB-2, βλ. [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * Εκεί θα πρέπει να δείτε τι κάνει ο αισθητήρας (μηνύματα εκκίνησης, σύνδεση WLAN ή σημείο πρόσβασης, μέτρηση - μόνο μετά από 3 λεπτά)
 
 ### Προβλήματα με τα ηλεκτρονικά;

@@ -8,17 +8,17 @@ title: Συναρμολόγηση
 
 ### Μονάδα μικροφώνου
 
-Η μονάδα μικροφώνου βασίζεται στην πλακέτα διάσπασης της Pesky Products με ένα μικρόφωνο MEMS ICS-43434. Μπορείτε να βρείτε μια τέτοια πλακέτα στο [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Η μονάδα μικροφώνου βασίζεται στην πλακέτα διάσπασης της Pesky Products με ένα μικρόφωνο MEMS ICS-43434. Μπορείτε να βρείτε μια τέτοια πλακέτα στο [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Η μονάδα μικροφώνου βασίζεται στην πλακέτα διάσπασης της Pesky Products με ένα μικρόφωνο MEMS ICS-43434. Μπορείτε να βρείτε μια τέτοια πλακέτα στο [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Η μονάδα μικροφώνου βασίζεται στην πλακέτα διάσπασης της Pesky Products με ένα μικρόφωνο MEMS ICS-43434. Μπορείτε να βρείτε μια τέτοια πλακέτα στο [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Περίβλημα για τη μονάδα μικροφώνου
 Το περίβλημα είναι κατασκευασμένο από σωλήνα πολυστερίνης 0,500" (12,7 mm). Αυτή η διάμετρος επιτρέπει την απευθείας σύνδεση των περισσότερων βαθμονομητών στη μονάδα.
 
-Το πρωτότυπο αναπτύχθηκε με τη σωλήνωση [Evergreen αριθ. 236] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Το πρωτότυπο αναπτύχθηκε με τη σωλήνωση [Evergreen αριθ. 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Το πρωτότυπο αναπτύχθηκε με τη σωλήνωση [Evergreen αριθ. 236] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Το πρωτότυπο αναπτύχθηκε με τη σωλήνωση [Evergreen αριθ. 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Η πλακέτα διάσπασης πρέπει να προσαρμοστεί στη διάμετρο του σωλήνα με μια λίμα. Χρησιμοποιήστε ταινία για να προστατέψετε την είσοδο του μικροφώνου.
 <br>
@@ -42,7 +42,7 @@ title: Συναρμολόγηση
 
 Τώρα μπορείτε να γεμίσετε το σωλήνα με λίγη ρητίνη. Αυτό το βήμα είναι υποχρεωτικό για να αποφύγετε τον συντονισμό και να λάβετε βαθμονομημένα και αναπαραγώγιμα δεδομένα.
 
-Το πρωτότυπο αναπτύχθηκε με λίγο [PURe Isolation ST 33] (https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900) που παράγεται από την Copaltec GmbH.
+Το πρωτότυπο αναπτύχθηκε με λίγο [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) που παράγεται από την Copaltec GmbH.
 
 ##### Προδιαγραφές:
 * Διηλεκτρική αντοχή: 28 kVmm
@@ -58,7 +58,7 @@ title: Συναρμολόγηση
 * Θερμοκρασίες εφαρμογής: - θερμοκρασίες εφαρμογής: 20 έως +130 °C
 
 
-Η [ρητίνη πολυουρεθάνης UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) που παρασκευάζεται από την Electrolube θα πρέπει επίσης να λειτουργεί.
+Η [ρητίνη πολυουρεθάνης UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) που παρασκευάζεται από την Electrolube θα πρέπει επίσης να λειτουργεί.
 
 Για κάθε σωλήνα αρκούν 15 g ρητίνης.
 
@@ -106,7 +106,7 @@ title: Συναρμολόγηση
 
 Τα εν λόγω καλύμματα αφρού πωλούνται συνήθως ως "καλύμματα για μικροφόντα μέτρησης". Αλλά είναι ακριβά. Μπορείτε επίσης να πάρετε μια κανονική μπάλα αφρού και να ανοίξετε μια τρύπα με το ψαλίδι.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
 ### Τοποθεσία του μικροφώνου
 

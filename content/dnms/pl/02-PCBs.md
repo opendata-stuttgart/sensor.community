@@ -3,7 +3,7 @@ title: PCBs and circuit diagrams
 ---
 
 Najlepszym sposobem na zbudowanie DNMS jest użycie jednej z naszych płyt PCB.
-Obecnie jest całkiem sporo producentów PCB, którzy mogą produkować płytki za kilka dolców bez minimalnych ilości. Na przykład, [JLCPCB](https://jlcpcb.com/).
+Obecnie jest całkiem sporo producentów PCB, którzy mogą produkować płytki za kilka dolców bez minimalnych ilości. Na przykład, [JLCPCB](https://jlcpcb.com//).
 Po prostu ściągnij nasze schematy i/lub pliki Gerbera poniżej, wgraj je na stronę producenta i zamów swoje PCB. 
 
 <br>

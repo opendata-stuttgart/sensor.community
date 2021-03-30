@@ -13,11 +13,11 @@ Válassza ki a számítógép operációs rendszerének megfelelő linket.
 ### Windows
 
 ##### Illesztőprogramok a következőhöz: NodeMCU (ESP8266) V2 (CP2102) for Windows
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - A Windows 10 képesnek kell lennie arra, hogy automatikusan letöltse ezeket a fájlokat.
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32 bites verzió - **nem** támogatja a 64 bites operációs rendszert.
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - A Windows 10 képesnek kell lennie arra, hogy automatikusan letöltse ezeket a fájlokat.
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bites verzió - **nem** támogatja a 64 bites operációs rendszert.
 
 ##### Illesztőprogram NodeMCU (ESP8266) V3 (CH341) Windows rendszerhez
-* [Windows](http://www.wch.cndownloadsfile5.html) - A Windows 10 képesnek kell lennie arra, hogy ezeket automatikusan letöltse.
+* [Windows](http://www.wch.cn/downloads/file/5.html) - A Windows 10 képesnek kell lennie arra, hogy ezeket automatikusan letöltse.
 
 ##### A letöltött fájl kicsomagolása Windows esetén:
 * NodeMCU (ESP8266) V2: Nyissa meg a CP210x mappát, és kattintson duplán a CP210xVCPInstaller_x64 (vagy x86) alkalmazásra.
@@ -28,8 +28,8 @@ Válassza ki a számítógép operációs rendszerének megfelelő linket.
 ### MacOS
 
 ##### MacOS illesztőprogramok
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Csomagolja ki a letöltött fájlt MacOS esetén.
 * a V2 esetében: Csomagolja ki a CP210x mappát, és kattintson duplán a CP210xVCPInstaller_x64 (vagy x86) alkalmazásra.
@@ -45,8 +45,8 @@ Nincs szükség illesztőprogramok telepítésére. A chipnek közvetlenül tám
 ### Firmware Flasher
 Több operációs rendszer támogatása: Windows, MacOS és Linux.
 
-* [airRohr Flashing Tool](http://firmware.sensor.communityairrohrflashing-tool)
-* [Forráskód](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Forráskód](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
 Csatlakoztassa a NodeMCU-t a számítógépéhez egy rövid micro-USB kábellel (válasszon 1 méternél rövidebbet, különben a telepítés meghiúsulhat). Válassza ki a `latest_en.bin` (vagy egy másik nyelvi verziót), és kattintson a "Upload" gombra.
 Várjon, amíg a folyamat befejeződik. Most már összeszerelhetjük az érzékelőt.

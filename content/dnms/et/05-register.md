@@ -20,8 +20,7 @@ Avaleht -> (Logi sisse) - Minu andurid -> Registreeri uus andur
 #### NB!
 Praegu ei ole võimalik registreerida nii PM-andurit, TempHumidity-andurit kui ka NodeMCU-ga ühendatud DNMS-andurit.
 Hetkel saab seda teha ainult käsitsi, saatke lihtsalt taotlus aadressile tech (at) sensor.community.
-Vt [küsimus] (https://github.comopendata-stuttgartsensor.communityissues117
-) üksikasjad.
+Vt [küsimus](https://github.com/opendata-stuttgart/sensor.community/issues/117) üksikasjad.
 
 Praegu ei ole võimalik registreerida saidi abil nii PM-andurit, niiskusandurit kui ka DNMS-andurit, mis on ühendatud ühe NodeMCUga.
 Praegu saab seda teha ainult käsitsi, saates päringu aadressile tech (at) sensor.community.

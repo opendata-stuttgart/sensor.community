@@ -46,9 +46,9 @@ title: Konfigureeri
 ### Testige jaama
 Kui peale WiFi võrguandmete sisestamise ei ole muid muudatusi tehtud, saab andurit umbes 10 minuti pärast järgmistel lehekülgedel "testida". Nendel lehekülgedel tuleb otsida ChipID (ülaltoodud näites 13597771).
 
- * [Andurite andmed](www.madavi.desensorgraph.php)
- * [WLAN-signaal](www.madavi.desensorsignal.php)
- * [WLAN-signaal](www.madavi.desensorsignal.php)
+ * [Andurite andmed](www.madavi.de/sensor/graph.php)
+ * [WLAN-signaal](www.madavi.de/sensor/signal.php)
+ * [WLAN-signaal](www.madavi.de/sensor/signal.php)
 
 
 

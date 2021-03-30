@@ -59,9 +59,9 @@ title: Konfigurer
 Hvis der ikke er foretaget andre ændringer end indtastning af WiFi-netværksdata, kan sensoren "testes" på de følgende
 sider efter ca. 10 minutter. På disse sider skal du søge efter ChipID'et (i eksemplet ovenfor 13597771).
 
-* [Sensordata](www.madavi.desensorgraph.php)
-* [WLAN-Signal](www.madavi.desensorsignal.php)
-* [WLAN-Signal](www.madavi.desensorsignal.php)
+* [Sensordata](www.madavi.de/sensor/graph.php)
+* [WLAN-Signal](www.madavi.de/sensor/signal.php)
+* [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
 

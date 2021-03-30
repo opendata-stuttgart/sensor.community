@@ -28,5 +28,5 @@ title: Configurați
 ### Verifică dacă stația este configurată corect
 Dacă nu ați făcut alte modificări în etapa anterioară în afară de configurarea rețelei WiFi, senzorul va începe acum să înregistreze și să încarce datele. Puteți verifica dacă totul funcționează corect după aproximativ 10 minute, navigând pe următoarele pagini. Pe aceste pagini căutați ChipID (în exemplul de mai sus, 13597771).
 
- * [Date senzoriale](https://www.madavi.desensorgraph.php)
- * [Date semnal WiFi](https://www.madavi.desensorsignal.php)
+ * [Date senzoriale](https://www.madavi.de/sensor/graph.php)
+ * [Date semnal WiFi](https://www.madavi.de/sensor/signal.php)

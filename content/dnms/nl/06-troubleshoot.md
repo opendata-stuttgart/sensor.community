@@ -4,13 +4,13 @@ title: Problemen oplossen
 
 ### Problemen met de overdracht?
 Voer het volgende in uw browser in met uw eigen gegevens:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-De [ID] kan ook worden opgezocht in het aan de linkerkant van de pagina geopende invoerveld [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+De [ID] kan ook worden opgezocht in het aan de linkerkant van de pagina geopende invoerveld [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Is de sensor geregistreerd via [https://devices.sensor.community](https://devices.sensor.community) en is de sensor zichtbaar op de kaart?
 * Is het draadloze signaal in het verleden zwak geweest?
-  Hier is het server-side signaal protocol: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Hier is het server-side signaal protocol: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Problemen met de USB-kabel?
 * Controleer de stroomvoorziening
@@ -19,7 +19,7 @@ De [ID] kan ook worden opgezocht in het aan de linkerkant van de pagina geopende
   * Opent de sensor een adhoc wifi (toegangspunt), in de eerste 2-7 minuten na een herstart?
   * Zoek het WLAN netwerk `airrohr-[ID]`. Na een herstart kan het een paar minuten duren voordat dit zichtbaar is.
 * Controleer op uw eigen router of de sensor in het netwerk is geregistreerd en noteer het IP-adres.
-  * gebruik als alternatief "Zoeken in netwerk" in de [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+  * gebruik als alternatief "Zoeken in netwerk" in de [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
   * Zo ja: Maak verbinding met de sensor via een browser `http://[ip-your-sensor]`, de configuratie zou moeten verschijnen
   * Zo nee: dan kan het te wijten zijn aan onvoldoende stroomtoevoer, herstartlus of iets dergelijks.
 * Sluit de NodeMCU aan op een computer via een USB-kabel en kijk naar het protocol
@@ -27,7 +27,7 @@ De [ID] kan ook worden opgezocht in het aan de linkerkant van de pagina geopende
     * Linux: scherm, minicom, cutecom
     * Windows: Tera Term
     * macOS: scherm, minicom, ...
-    * geschikte USB-2 seriële stuurprogramma's kunnen nodig zijn, zie [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * geschikte USB-2 seriële stuurprogramma's kunnen nodig zijn, zie [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * Daar moet u zien wat de sensor aan het doen is (opstartberichten, WLAN-verbinding of toegangspunt, meting - pas na 3 minuten)
 
 ### Problemen met de elektronica?

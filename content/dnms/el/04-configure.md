@@ -49,9 +49,9 @@ title: Ρύθμιση παραμέτρων
 ### Δοκιμάστε το σταθμό
 Εάν δεν έχουν γίνει άλλες αλλαγές εκτός από την εισαγωγή των δεδομένων του δικτύου WiFi, ο αισθητήρας μπορεί να "δοκιμαστεί" στις επόμενες σελίδες μετά από περίπου 10 λεπτά. Σε αυτές τις σελίδες πρέπει να αναζητήσετε το ChipID (στο παραπάνω παράδειγμα το 13597771).
 
- * [Δεδομένα αισθητήρα](www.madavi.desensorgraph.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
+ * [Δεδομένα αισθητήρα](www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: はじめに
+title: Introduction
 ---
 
   <div class="max-w-screen-xl mx-auto pb-5">
@@ -25,10 +25,10 @@ title: はじめに
 
 > 🚧 DIYセンサーを作って、世界中のopendata &amp; civictechネットワークの一員になりましょう。<br> DNMS（Digital Noise Measuring Sensor）を使えば、自分で騒音を測定することができます。
 
- <img src="...docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">。
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
-Helmut Bitter氏のGithub](https://github.comhbitterDNMStreemasterManual)で、オリジナルの説明書やノイズセンサーの旧バージョンをチェックしてみてください。
+Helmut Bitter氏のGithub](https://github.com/hbitter/DNMS/tree/master/Manual)で、オリジナルの説明書やノイズセンサーの旧バージョンをチェックしてみてください。
 
 <br>
 
@@ -48,19 +48,19 @@ Helmut Bitter氏のGithub](https://github.comhbitterDNMStreemasterManual)で、�
 ### ショッピングリスト
 
 ##### シングルコンポーネント
-* [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=nodemcu+v3+esp8266+ch340)
-* [Teensy 4.0開発ボード](https://www.pjrc.comstoreteensy40.html)。その他の販売者 EXPTECH](https://www.exp-tech.deplattformenteensy9596teensy-4.0-development-board), [Antratek](https://www.antratek.deteensy-4-0), [PIMORONI](https://shop.pimoroni.comproductsteensy-4-0-development-board)
-* [Digitales Mikrofon ICS-43434](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone)
+* [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
+* [Teensy 4.0開発ボード](https://www.pjrc.com/store/teensy40.html)。その他の販売者 EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
+* [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * 直径0.15mm² (AWG 26)の超フレキシブルなシリコンケーブル（6色）。
 <br>
 DNMS（デジタルノイズ測定センサー）は、airRohr PM-Sensorと組み合わせることができます。
 
-* [SPS30 ファインダストセンサー](https://www.sparkfun.comproducts15103)。その他の販売者 TME](https://www.tme.eudedetailssps30gassensorensensirion1-101638-10?brutto=1)、[SOS electronic](https://www.soselectronic.deproductssensirionsps30-2-304234)。通常の[SDS011 PMセンサー](https://de.aliexpress.comwholesale?catId=0&amp;initiative_id=AS_20200813122806&amp;SearchText=sds011)も使用可能です。
-* [BME280 6-PIN Version, temperature &amp; humidity](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040440&amp;SearchText=bme280+-5V++3.3V)になります。その他の販売者 Nettigo](https://nettigo.euproductsmodule-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.debauelementesensoren-modulefeuchtigkeitbme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
-* [ケーブル](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+ケーブル+20cm+メス-メス)
-* [USBケーブル 例：フラット2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+USB+フラット+ケーブル+2m)
-* [Power supply USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+micro+usb+eu+power+supply)
-* [ケーブルストラップ](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+straps)
+* [SPS30 ファインダストセンサー](https://www.sparkfun.com/products/15103)。その他の販売者 TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1)、[SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234)。通常の[SDS011 PMセンサー](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011)も使用可能です。
+* [BME280 6-PIN Version, temperature &amp; humidity](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)になります。その他の販売者 Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+* [ケーブル](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
+* [USBケーブル 例：フラット2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flat+cable+2m)
+* [Power supply USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)
+* [ケーブルストラップ](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+straps)
 
 PCBと耐候性については後述します。
 

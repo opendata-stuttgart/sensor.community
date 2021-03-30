@@ -46,9 +46,9 @@ title: Konfigurēt
 #### Pārbaudiet staciju
 Ja nav veiktas nekādas izmaiņas, izņemot WiFi tīkla datu ievadīšanu, pēc aptuveni 10 minūtēm sensoru var "pārbaudīt" nākamajās lapās. Šajās lapās ir jāmeklē ChipID (iepriekš minētajā piemērā 13597771).
 
- * [Sensoru dati](www.madavi.desensorgraph.php)
- * [WLAN-signāls](www.madavi.desensorsignal.php)
- * [WLAN-signāls](www.madavi.desensorsignal.php)
+ * [Sensoru dati](www.madavi.de/sensor/graph.php)
+ * [WLAN-signāls](www.madavi.de/sensor/signal.php)
+ * [WLAN-signāls](www.madavi.de/sensor/signal.php)
 
 
 

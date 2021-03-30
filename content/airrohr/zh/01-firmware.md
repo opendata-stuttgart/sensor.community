@@ -13,11 +13,11 @@ NocdeMCU v3的芯片组通常是CH341，只要查看你的NodeMCU（ESP8266）�
 ### Windows
 
 ##### NodeMCU (ESP8266) V2 (CP2102) for Windows 的驱动程序。
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip)----Windows 10应能自动下载这些内容。
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) -- -- 32位版本 -- -- **不支持64位版本的操作系统。
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)----Windows 10应能自动下载这些内容。
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) -- -- 32位版本 -- -- **不支持64位版本的操作系统。
 
 ##### NodeMCU (ESP8266) V3 (CH341) for Windows 的驱动程序。
-* [Windows](http://www.wch.cndownloadsfile5.html)----Windows 10应能自动下载这些内容。
+* [Windows](http://www.wch.cn/downloads/file/5.html)----Windows 10应能自动下载这些内容。
 
 ##### 解压下载的Windows文件。
 NodeMCU (ESP8266) V2的*。打开CP210x文件夹，双击CP210xVCPInstaller_x64(或x86)应用程序。
@@ -29,7 +29,7 @@ NodeMCU (ESP8266) V2的*。打开CP210x文件夹，双击CP210xVCPInstaller_x64(
 
 ##### MacOS 驱动程序
 * [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip)
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### 解压下载的MacOS文件。
 V2的*。解压CP210x文件夹，双击CP210xVCPInstaller_x64(或x86)应用程序。
@@ -45,8 +45,8 @@ V2的*。解压CP210x文件夹，双击CP210xVCPInstaller_x64(或x86)应用程�
 #### 固件闪现器
 支持多种操作系统。Windows、MacOS和Linux。
 
-* [airRohr闪光工具](http://firmware.sensor.communityairrohrflashing-tool)
-* [源代码](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr闪光工具](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [源代码](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
 用短的 micro-USB 纜線將 NodeMCU 連接到您的電腦 (選擇短於 1 米的纜線，否則可能會安裝失敗)。選擇`latest_en.bin`(或其他語言版本)，並按下「上傳」。
 等到这个过程完成后。现在我们可以组装传感器了。

@@ -4,13 +4,13 @@ title: Problēmu novēršana
 
 #### Problēmas ar pārsūtīšanu?
 Ievadiet pārlūkprogrammā šādus datus ar saviem datiem:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] var meklēt arī ievades laukā, kas atvērts lapas kreisajā pusē [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+[ID] var meklēt arī ievades laukā, kas atvērts lapas kreisajā pusē [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Vai sensors ir reģistrēts, izmantojot [https://devices.sensor.community](https://devices.sensor.community), un vai sensors ir redzams kartē?
 * Vai iepriekš bezvadu signāls ir bijis vājš?
-  Šeit ir servera puses signāla protokols: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Šeit ir servera puses signāla protokols: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 #### Problēmas ar USB kabeli?
 * Pārbaudiet barošanas avotu
@@ -19,7 +19,7 @@ Ievadiet pārlūkprogrammā šādus datus ar saviem datiem:
   * Vai sensors atver adhoc wifi (piekļuves punktu) pirmajās 2-7 minūtēs pēc restartēšanas?
   * Meklējiet WLAN tīklu `airrohr-[ID]`. Var paiet dažas minūtes pēc restartēšanas, līdz tas būs redzams.
 * Pārbaudiet savā maršrutētājā, vai sensors ir reģistrēts tīklā, un atzīmējiet IP adresi.
-  * alternatīvi izmantojiet "Meklēt tīklā" [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher).
+  * alternatīvi izmantojiet "Meklēt tīklā" [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher).
   * Ja jā: Savienojieties ar sensoru, izmantojot pārlūkprogrammu `http://[ip-your-sensor]`, jāparādās konfigurācijai.
   * Ja nē: tas varētu būt saistīts ar nepietiekamu strāvas padevi, restartēšanas cilpu vai tamlīdzīgi.
 * Savienojiet NodeMCU ar datoru, izmantojot USB kabeli, un apskatiet protokolu.
@@ -27,7 +27,7 @@ Ievadiet pārlūkprogrammā šādus datus ar saviem datiem:
     * Linux: screen, minicom, cutecom
     * Windows: Tera Term
     * macOS: ekrāns, minicom, ...
-    * var būt nepieciešami piemēroti USB-2 sērijas draiveri, skatīt [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen).
+    * var būt nepieciešami piemēroti USB-2 sērijas draiveri, skatīt [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen).
   * Tur redzēsiet, ko sensors dara (palaišanas ziņojumus, WLAN savienojumu vai piekļuves punktu, mērījumus - tikai pēc 3 minūtēm).
 
 #### Problēmas ar elektroniku?

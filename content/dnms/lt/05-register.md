@@ -20,10 +20,8 @@ Pagrindinis -> (Prisijungimas) - Mano jutikliai -> Užregistruoti naują jutikl�
 #### NB!
 Šiuo metu neįmanoma užregistruoti ir PM jutiklio, ir TempHumidity jutiklio, ir DNMS jutiklio, prijungtų prie NodeMCU.
 Šiuo metu tai galima padaryti tik rankiniu būdu, tiesiog atsiųskite užklausą adresu tech (at) sensor.community.
-Siehe [issue] (https://github.comopendata-stuttgartsensor.communityissues117
-) dėl išsamesnės informacijos.
+Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) dėl išsamesnės informacijos.
 
 Šiuo metu svetainėje neįmanoma užregistruoti prie vieno NodeMCU prijungtų PM jutiklio, drėgmės ir DNMS jutiklių.
 Kol kas tai galima padaryti tik rankiniu būdu siunčiant užklausą adresu tech (at) sensor.community.
-Žr. [klausimas] (https://github.comopendata-stuttgartsensor.communityissues117
-) dėl išsamesnės informacijos.
+Žr. [klausimas](https://github.com/opendata-stuttgart/sensor.community/issues/117) dėl išsamesnės informacijos.

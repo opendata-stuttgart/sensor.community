@@ -8,17 +8,17 @@ Zie __firmware flasher__ sectie.
 
 ### Microfoon unit
 
-De microfoon unit is gebaseerd op het Pesky Products breakout board met een MEMS microfoon ICS-43434. Je kunt zo'n board vinden op de [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+De microfoon unit is gebaseerd op het Pesky Products breakout board met een MEMS microfoon ICS-43434. Je kunt zo'n board vinden op de [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-De microfoon unit is gebaseerd op het Pesky Products breakout board met een MEMS microfoon ICS-43434. Je kunt zo'n board vinden op de [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+De microfoon unit is gebaseerd op het Pesky Products breakout board met een MEMS microfoon ICS-43434. Je kunt zo'n board vinden op de [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Behuizing voor de microfoon
 De behuizing is gemaakt van een polystyreenbuis van .500" (12,7 mm). Deze diameter maakt het mogelijk de meeste kalibratoren rechtstreeks op het toestel aan te sluiten.
 
-Het prototype is ontwikkeld met de [Evergreen No. 236 tubing](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Het prototype is ontwikkeld met de [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Het prototype is ontwikkeld met de [Evergreen No. 236 tubing](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Het prototype is ontwikkeld met de [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Het breakout board moet met een vijl worden aangepast aan de diameter van de buis. Gebruik wat tape om de microfooningang te beschermen.
 <br>
@@ -42,7 +42,7 @@ Maak het uiteinde van de buis dicht met de tape.
 
 Nu kunt u de buis vullen met wat hars. Deze stap is verplicht om resonantie te vermijden en gekalibreerde en reproduceerbare gegevens te verkrijgen.
 
-Het prototype werd ontwikkeld met enkele [PURe Isolation ST 33](https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900) geproduceerd door Copaltec GmbH.
+Het prototype werd ontwikkeld met enkele [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) geproduceerd door Copaltec GmbH.
 
 ##### Specificaties:
 * Diëlektrische sterkte: 28 kVmm
@@ -58,7 +58,7 @@ Het prototype werd ontwikkeld met enkele [PURe Isolation ST 33](https://www.buer
 * Toepassingstemperaturen: - 20 tot +130 °C
 
 
-De [polyurethaanhars UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) van Electrolube zou ook moeten werken.
+De [polyurethaanhars UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) van Electrolube zou ook moeten werken.
 
 Voor elk slangetje zou 15 g hars voldoende moeten zijn.
 
@@ -106,7 +106,7 @@ Het is absoluut noodzakelijk een bescherming tegen weersinvloeden aan te brengen
 
 Die schuimstof hoezen worden normaal verkocht als 'hoezen voor meet microfoons'. Maar ze zijn duur. Je kunt ook een gewone schuimbal nemen en er met een schaar een gat in knippen.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
 ### Plaats van de microfoon
 

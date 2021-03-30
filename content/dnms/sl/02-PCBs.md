@@ -3,7 +3,7 @@ title: PCB-ji in sheme vezij
 ---
 
 Najboljši način za izdelavo DNMS je uporaba enega od naših tiskanih vezij.
-Zdaj je na voljo precej proizvajalcev PCB, ki lahko izdelujejo tiskana vezja za nekaj dolarjev brez minimalnih količin. Na primer [JLCPCB] (https://jlcpcb.com).
+Zdaj je na voljo precej proizvajalcev PCB, ki lahko izdelujejo tiskana vezja za nekaj dolarjev brez minimalnih količin. Na primer [JLCPCB] (https://jlcpcb.com/).
 Prenesite naše sheme vezij ali datoteke Gerber spodaj, jih naložite na spletno mesto proizvajalca in naročite svoja tiskana vezja.
 
 <br>
@@ -14,8 +14,8 @@ PCB za NodeMCU ESP8266 CPUWLAN z razširitvijo vodila I2C za priključitev DNMS 
 
 
 ##### Prenos:
-* [Shema vezja](...docsdnmsairrohr-PCB-circuit-diagram.pdf)
-* [Gerberjeva datoteka za prenos na spletno stran proizvajalca PCB](...docsdnmsairrohr-PCB-circuit-diagram-gerber.zip)
+* [Shema vezja](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
+* [Gerberjeva datoteka za prenos na spletno stran proizvajalca PCB](.../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
 
 ---
 

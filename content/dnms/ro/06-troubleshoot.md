@@ -4,13 +4,13 @@ title: Depanare
 
 ### Probleme de transfer?
 Introduceți următoarele în browserul dvs. cu propriile date:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID-ul] poate fi, de asemenea, căutat în câmpul de introducere deschis în partea stângă a paginii [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+[ID-ul] poate fi, de asemenea, căutat în câmpul de introducere deschis în partea stângă a paginii [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Este senzorul înregistrat prin [https://devices.sensor.community](https://devices.sensor.community) și este senzorul vizibil pe hartă?
 * A fost semnalul wireless slab în trecut?
-  Iată protocolul de semnal de pe partea serverului: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Iată protocolul de semnal de pe partea serverului: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Probleme cu cablul USB?
 * Verificați alimentarea cu energie electrică
@@ -19,7 +19,7 @@ Introduceți următoarele în browserul dvs. cu propriile date:
   * Deschide senzorul un wifi adhoc (punct de acces), în primele 2-7 minute după o repornire?
   * Căutați rețeaua WLAN `airrohr-[ID]`. Este posibil să dureze câteva minute după o repornire până când acest lucru este vizibil.
 * Verificați pe propriul router dacă senzorul este înregistrat în rețea și notați adresa IP.
-  * alternativ, utilizați "Căutare în rețea" în [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher).
+  * alternativ, utilizați "Căutare în rețea" în [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher).
   * Dacă da: Conectați-vă la senzor prin intermediul unui browser `http://[ip-your-sensor]`, ar trebui să apară configurația
   * Dacă nu: ar putea fi din cauza unei alimentări insuficiente cu energie electrică, a unei bucle de repornire sau similar.
 * Conectați NodeMCU la un computer prin intermediul unui cablu USB și uitați-vă la protocol.
@@ -27,7 +27,7 @@ Introduceți următoarele în browserul dvs. cu propriile date:
     * Linux: ecran, minicom, cutecom
     * Windows: Tera Term
     * macOS: ecran, minicom, ...
-    * pot fi necesare drivere seriale USB-2 adecvate, a se vedea [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * pot fi necesare drivere seriale USB-2 adecvate, a se vedea [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * Acolo ar trebui să vedeți ce face senzorul (mesaje de pornire, conexiune WLAN sau punct de acces, măsurători - numai după 3 minute).
 
 ### Probleme cu electronica?

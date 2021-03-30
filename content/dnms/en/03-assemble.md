@@ -44,7 +44,7 @@ Now you can fill the tube with some resin. This step is mandatory to avoid reson
 
 The prototype was developed with some [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produced by Copaltec GmbH.
 
-##### Specifications:
+##### Specifications
 * Dielectric strength: 28 kV/mm
 * Specific forward resistance: 5,8.1014 ohm/cm
 * Surface resistance: 1,3.1016 ohm

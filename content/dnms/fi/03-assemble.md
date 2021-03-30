@@ -8,17 +8,17 @@ Katso __firmware flasher__ -osio.
 
 ### Mikrofoniyksikkö
 
-Mikrofoniyksikkö perustuu Pesky Productsin irrotuslevyyn, jossa on MEMS-mikrofoni ICS-43434. Voit ostaa tällaisen levyn [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofoniyksikkö perustuu Pesky Productsin irrotuslevyyn, jossa on MEMS-mikrofoni ICS-43434. Voit ostaa tällaisen levyn [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofoniyksikkö perustuu Pesky Productsin irrotuslevyyn, jossa on MEMS-mikrofoni ICS-43434. Voit ostaa tällaisen levyn [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofoniyksikkö perustuu Pesky Productsin irrotuslevyyn, jossa on MEMS-mikrofoni ICS-43434. Voit ostaa tällaisen levyn [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Mikrofoniyksikön kotelo
 Kotelo on valmistettu .500" (12,7 mm) polystyreeniputkesta. Tämän halkaisijan ansiosta useimmat kalibraattorit voidaan liittää suoraan laitteeseen.
 
-Prototyyppi kehitettiin [Evergreen No. 236 -putkella] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototyyppi kehitettiin [Evergreen No. 236 -putkella] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototyyppi kehitettiin [Evergreen No. 236 -putkella] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototyyppi kehitettiin [Evergreen No. 236 -putkella] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Kytkentälevy on sovitettava putken halkaisijaan viilalla. Käytä teippiä mikrofonin sisääntulon suojaamiseksi.
 <br>
@@ -42,7 +42,7 @@ Tiivistä putken ääriosa teipillä.
 
 Nyt voit täyttää putken hartsilla. Tämä vaihe on pakollinen resonanssin välttämiseksi ja kalibroitujen ja toistettavien tietojen saamiseksi.
 
-Prototyyppi kehitettiin käyttäen Copaltec GmbH:n valmistamaa [PURe Isolation ST 33] (https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900).
+Prototyyppi kehitettiin käyttäen Copaltec GmbH:n valmistamaa [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
 
 ##### Tekniset tiedot:
 * Läpilyöntilujuus: 28 kVmm
@@ -58,7 +58,7 @@ Prototyyppi kehitettiin käyttäen Copaltec GmbH:n valmistamaa [PURe Isolation S
 * Sovelluslämpötilat: - lämpötilat: 20 - +130 °C
 
 
-Electroluben valmistaman [polyuretaanihartsin UR5545] (https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) pitäisi myös toimia.
+Electroluben valmistaman [polyuretaanihartsin UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) pitäisi myös toimia.
 
 Kutakin letkua kohden pitäisi riittää 15 g hartsia.
 
@@ -106,7 +106,7 @@ On ehdottoman välttämätöntä asentaa sääsuoja vaahtomuovin muodossa. Tarvi
 
 Näitä vaahtomuovisuojia myydään tavallisesti nimellä "mittausmikrofonien suojukset". Mutta ne ovat kalliita. Voit myös ottaa tavallisen vaahtomuovipallon ja leikata siihen reiän saksilla.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
 ### Mikrofonin sijainti
 

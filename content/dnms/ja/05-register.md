@@ -1,13 +1,12 @@
 ---
-title: 登録
+title: Register
 ---
 
-### 自分を登録する
-
+### Create an account
 [devices.sensor.community](https://devices.sensor.community)にアクセスして、デバイスを登録し、オープンデータネットワークの一員になってください。
 
 
-### デバイスの登録
+### Register your device
 登録後、「新規センサー登録」をクリックし、必要事項を入力してください。
 ホーム -> (Login) - My sensors -> Register new sensor
 
@@ -20,8 +19,7 @@ title: 登録
 #### NB!
 現在、1台のNodeMCUに接続されたPMセンサー、TempHumidityセンサー、DNMSセンサーの両方を登録することはできません。
 現在のところ、この作業は手動でしか行えませんので、tech (at) sensor.communityまでリクエストをお送りください。
-Siehe [issue] (https://github.comopendata-stuttgartsensor.communityissues117
-)を参照してください。
+Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117)を参照してください。
 
 現在、1台のNodeMCUにPMセンサー、温湿度センサー、DNMSセンサーの両方を接続してサイトに登録することはできません。
 今のところ、手動で tech (at) sensor.community にリクエストを送ることでのみ可能です。

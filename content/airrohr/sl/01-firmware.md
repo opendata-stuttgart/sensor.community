@@ -13,11 +13,11 @@ Izberite povezavo, ki ustreza operacijskemu sistemu vašega računalnika.
 ### Windows
 
 ##### Gonilniki za NodeMCU (ESP8266) V2 (CP2102) za Windows
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - operacijski sistem Windows 10 bi moral biti sposoben samodejno prenesti te
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32-bitna različica - **ne podpira** 64-bitne različice OS
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - operacijski sistem Windows 10 bi moral biti sposoben samodejno prenesti te
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitna različica - **ne podpira** 64-bitne različice OS
 
 ##### Gonilnik za NodeMCU (ESP8266) V3 (CH341) za Windows
-* [Windows](http://www.wch.cndownloadsfile5.html) - operacijski sistem Windows 10 bi moral biti sposoben samodejno prenesti te
+* [Windows](http://www.wch.cn/downloads/file/5.html) - operacijski sistem Windows 10 bi moral biti sposoben samodejno prenesti te
 
 ##### Izvleček prenesene datoteke za Windows:
 * za NodeMCU (ESP8266) V2: Odprite mapo CP210x in dvakrat kliknite na aplikacijo CP210xVCPInstaller_x64 (ali x86)
@@ -28,8 +28,8 @@ Izberite povezavo, ki ustreza operacijskemu sistemu vašega računalnika.
 ### MacOS
 
 ##### Gonilniki za MacOS
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Izvleček prenesene datoteke za MacOS.
 * za V2: Razpakirajte mapo CP210x in dvakrat kliknite na aplikacijo CP210xVCPInstaller_x64 (ali x86)
@@ -45,8 +45,8 @@ Gonilnikov ni treba namestiti. Čip mora biti podprt neposredno (preveri se z dm
 #### Firmware Flasher
 Podpora za več operacijskih sistemov: Windows, MacOS in Linux.
 
-* [AirRohr Flashing Tool] (http://firmware.sensor.communityairrohrflashing-tool)
-* [Izvorna koda](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [AirRohr Flashing Tool] (http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Izvorna koda](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
 
 Povežite NodeMCU z računalnikom s kratkim kablom micro-USB (izberite kabel, ki je krajši od 1 metra, sicer namestitev morda ne bo uspešna). Izberite `latest_en.bin` (ali drugo jezikovno različico) in kliknite "Upload".
 Počakajte, da se postopek konča. Zdaj lahko sestavimo senzor.

@@ -8,17 +8,17 @@ Prieš surinkdami įdiekite programinę įrangą!
 
 #### Mikrofono įrenginys
 
-Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace] (https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace] (https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Mikrofono bloko korpusas
 Korpusas pagamintas iš 0,500" (12,7 mm) polistireninio vamzdžio. Toks skersmuo leidžia tiesiogiai prijungti daugumą kalibratorių prie įrenginio.
 
-Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Išardymo plokštę reikia pritaikyti prie vamzdžio skersmens naudojant pjūklelį. Mikrofono įvadui apsaugoti naudokite lipnią juostą.
 <br>
@@ -42,7 +42,7 @@ Vamzdelio galą užklijuokite lipnia juosta.
 
 Dabar galite užpildyti vamzdelį derva. Šis žingsnis yra privalomas, kad būtų išvengta rezonanso ir gauti kalibruoti bei atkuriami duomenys.
 
-Prototipas buvo sukurtas naudojant "Copaltec GmbH" pagamintą [PURe Isolation ST 33] (https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900).
+Prototipas buvo sukurtas naudojant "Copaltec GmbH" pagamintą [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
 
 ##### Specifikacijos:
 * Dielektrinis stipris: 28 kVmm
@@ -58,7 +58,7 @@ Prototipas buvo sukurtas naudojant "Copaltec GmbH" pagamintą [PURe Isolation ST
 * Taikymo temperatūra: - Nuo 20 iki +130 °C
 
 
-Turėtų tikti ir "Electrolube" [poliuretano derva UR5545] (https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf).
+Turėtų tikti ir "Electrolube" [poliuretano derva UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf).
 
 Kiekvienam vamzdeliui turėtų pakakti 15 g dervos.
 
@@ -82,13 +82,13 @@ Lankas neleidžia vandeniui ir drėgmei patekti į korpusą, o kabelį praleidž
 
 DNMS prie antrosios spausdintinės plokštės prijungtas RJ12 kabeliu. Jei šis kabelis ilgesnis nei 250 mm, reikia naudoti I²C prailgintuvą.
 
-<img src="...docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Viską gerai sujungus, dalys suklijuojamos.
 
 Rezultatas:
 
-<img src="...docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Plokštę su "NodeMCU" galima įdėti į bet kokią elektros dėžutę.
 
@@ -106,7 +106,7 @@ Būtinai reikia įrengti apsaugą nuo oro sąlygų - putplasčio dangą. Jei rei
 
 Šie putplasčio dangteliai paprastai parduodami kaip "matavimo mikrofonų dangteliai". Tačiau jie yra brangūs. Taip pat galite paimti įprastą putplasčio rutuliuką ir žirklėmis iškirpti skylę.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
 
 #### Mikrofono vieta
 

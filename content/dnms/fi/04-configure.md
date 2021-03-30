@@ -48,9 +48,9 @@ title: Määritä
 ### Testaa asema
 Jos mitään muita muutoksia ei ole tehty kuin WiFi-verkkotietojen syöttäminen, anturi voidaan "testata" seuraavilla sivuilla noin 10 minuutin kuluttua. Näillä sivuilla on etsittävä ChipID (yllä olevassa esimerkissä 13597771).
 
- * [Anturitiedot](www.madavi.desensorgraph.php)
- * [WLAN-signaali](www.madavi.desensorsignal.php)
- * [WLAN-signaali](www.madavi.desensorsignal.php)
+ * [Anturitiedot](www.madavi.de/sensor/graph.php)
+ * [WLAN-signaali](www.madavi.de/sensor/signal.php)
+ * [WLAN-signaali](www.madavi.de/sensor/signal.php)
 
 
 

@@ -4,13 +4,13 @@ title: Trikčių šalinimas
 
 #### Problemos su perkėlimu?
 Naršyklėje įveskite šiuos savo duomenis:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] taip pat galima ieškoti įvesties lauke, atidarytame puslapio kairėje pusėje [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+[ID] taip pat galima ieškoti įvesties lauke, atidarytame puslapio kairėje pusėje [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Ar jutiklis užregistruotas per [https://devices.sensor.community](https://devices.sensor.community) ir ar jis matomas žemėlapyje?
 * Ar anksčiau belaidžio ryšio signalas buvo silpnas?
-  Čia pateikiamas serverio pusės signalo protokolas: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Čia pateikiamas serverio pusės signalo protokolas: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 #### Problemos su USB kabeliu?
 * Patikrinkite maitinimo šaltinį
@@ -19,7 +19,7 @@ Naršyklėje įveskite šiuos savo duomenis:
   * Ar jutiklis atidaro adhoc wifi (prieigos tašką) per pirmąsias 2-7 minutes po perkrovimo?
   * Ieškoti WLAN tinklo `airrohr-[ID]`. Po perkrovimo gali praeiti kelios minutės, kol tai bus matoma.
 * Savo maršrutizatoriuje patikrinkite, ar jutiklis užregistruotas tinkle, ir užsirašykite IP adresą.
-  * taip pat naudokite [airRohr Flashing Tool] (https://github.comopendata-stuttgartairrohr-firmware-flasher) "Search in network" (Ieškoti tinkle).
+  * taip pat naudokite [airRohr Flashing Tool] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher) "Search in network" (Ieškoti tinkle).
   * Jei taip: Prisijunkite prie jutiklio per naršyklę `http://[ip-your-sensor]`, turėtų pasirodyti konfigūracija.
   * Jei ne: tai gali būti dėl nepakankamo maitinimo šaltinio, pakartotinio paleidimo kilpos ar pan.
 * USB kabeliu prijunkite NodeMCU prie kompiuterio ir peržiūrėkite protokolą
@@ -27,7 +27,7 @@ Naršyklėje įveskite šiuos savo duomenis:
     * "Linux": ekranas, minicom, cutecom
     * "Windows": Tera Term
     * MacOS: ekranas, minicom, ...
-    * gali prireikti tinkamų USB-2 serijinių tvarkyklių, žr. [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen).
+    * gali prireikti tinkamų USB-2 serijinių tvarkyklių, žr. [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen).
   * Ten turėtumėte matyti, ką jutiklis veikia (įkrovos pranešimai, WLAN ryšys arba prieigos taškas, matavimas - tik po 3 minučių).
 
 #### Problemos su elektronika?

@@ -17,7 +17,7 @@ The chipset for NocdeMCUs v3 is usually CH341, just check the back of your NodeM
 ##### Driver for model V3 (CH341) for Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 should be able to automatically download these
 
-##### Extract the downloaded file for Windows:
+##### Extract the downloaded file for Windows
 * for V2: Open the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
 * for V3: open the folder CH341SER and double click on the application SETUP.
 
@@ -25,7 +25,7 @@ The chipset for NocdeMCUs v3 is usually CH341, just check the back of your NodeM
 
 ### MacOS
 
-#####  MacOS Drivers
+##### MacOS Drivers
 * [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 

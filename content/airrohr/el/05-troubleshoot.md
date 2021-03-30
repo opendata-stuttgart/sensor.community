@@ -4,14 +4,14 @@ title: Αντιμετώπιση προβλημάτων
 
 ### Προβλήματα μετάδοσης;
 Εισάγετε τα ακόλουθα στο πρόγραμμα περιήγησης με τα δικά σας δεδομένα:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-Το [ID] μπορεί επίσης να αναζητηθεί στο πεδίο εισαγωγής στην επάνω αριστερή γωνία [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1)
+Το [ID] μπορεί επίσης να αναζητηθεί στο πεδίο εισαγωγής στην επάνω αριστερή γωνία [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
 
 * Έχει καταχωρηθεί ο αισθητήρας μέσω [https://devices.sensor.community](https://devices.sensor.community) και είναι ο αισθητήρας ορατός στο χάρτη;
     * Το επίπεδο του σήματος WLAN ήταν αδύναμο στο παρελθόν;
-        Εδώ είναι το αρχείο καταγραφής σήματος από την πλευρά του διακομιστή: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`
-        Εδώ είναι το αρχείο καταγραφής σήματος από την πλευρά του διακομιστή: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`
+        Εδώ είναι το αρχείο καταγραφής σήματος από την πλευρά του διακομιστή: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
+        Εδώ είναι το αρχείο καταγραφής σήματος από την πλευρά του διακομιστή: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
 
 ### Προβλήματα με το καλώδιο USB;
 * Ελέγξτε την παροχή ρεύματος: καλώδιο USB
@@ -20,13 +20,13 @@ title: Αντιμετώπιση προβλημάτων
     * ο αισθητήρας ανοίγει ένα AP (στα πρώτα 2-7 λεπτά μετά την επανεκκίνηση);
     * Αναζητήστε το δίκτυο WLAN `airrohr-[ID]`. Υπομονή, μπορεί να χρειαστούν 1-2 λεπτά μετά την εκκίνηση.
 * Ελέγξτε στο δικό σας δρομολογητή αν ο αισθητήρας είναι συνδεδεμένος στο δίκτυο και, στη συνέχεια, θυμηθείτε την IP
-    * εναλλακτικά χρησιμοποιήστε το "Discovery" στο [flashtool](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+    * εναλλακτικά χρησιμοποιήστε το "Discovery" στο [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
     * Εάν ναι: συνδεθείτε στον αισθητήρα μέσω IP με ένα πρόγραμμα περιήγησης `http://[ip-του-αισθητήρα]` , θα πρέπει να εμφανιστεί η διεπαφή
     * Εάν όχι: το ESP έχει προβλήματα, π.χ. ανεπαρκής παροχή ρεύματος, βρόχος επανεκκίνησης ή παρόμοιο.
 * Συνδέστε το USB σε έναν υπολογιστή και δείτε το αρχείο καταγραφής
     * Παρακολούθηση κειμένου σε σειριακή διασύνδεση με σειριακό τερματικό πρόγραμμα (Ρυθμίσεις: baud 9600, 8N1)
         * Linux: screen, minicom, cutecom; Windows: MacOS: screen, minicom, ...
-        * Πιθανώς εξακολουθούν να είναι απαραίτητοι οι κατάλληλοι οδηγοί usb2serial, βλέπε [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+        * Πιθανώς εξακολουθούν να είναι απαραίτητοι οι κατάλληλοι οδηγοί usb2serial, βλέπε [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
     * Εκεί θα πρέπει να μπορείτε να δείτε τι κάνει ο αισθητήρας (μηνύματα εκκίνησης, σύνδεση WLAN ή AP, μέτρηση - μόνο μετά από 3 λεπτά)
 
 ### Ηλεκτρονικά προβλήματα;

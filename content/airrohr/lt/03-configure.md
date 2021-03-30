@@ -28,5 +28,5 @@ title: Konfigūruoti
 #### Patikrinkite, ar teisingai sukonfigūruota stotis
 Jei ankstesniame žingsnyje neatlikote jokių kitų pakeitimų, išskyrus "WiFi" tinklo konfigūraciją, jutiklis dabar pradės įrašinėti ir siųsti duomenis. Maždaug po 10 minučių galite patikrinti, ar viskas veikia teisingai, pereidami į šiuos puslapius. Šiuose puslapiuose ieškokite ChipID (pirmiau pateiktame pavyzdyje - 13597771).
 
- * [Jutiklio duomenys](https://www.madavi.desensorgraph.php)
- * [WiFi signalo duomenys](https://www.madavi.desensorsignal.php)
+ * [Jutiklio duomenys](https://www.madavi.de/sensor/graph.php)
+ * [WiFi signalo duomenys](https://www.madavi.de/sensor/signal.php)

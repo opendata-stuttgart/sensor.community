@@ -3,7 +3,7 @@ title: PCB-uri și diagrame de circuit
 ---
 
 Cel mai bun mod de a construi DNMS este de a utiliza unul dintre PCB-urile noastre.
-În prezent, există o mulțime de producători de PCB care pot produce plăci de circuite pentru câțiva dolari, fără cantități minime. De exemplu, [JLCPCB](https://jlcpcb.com).
+În prezent, există o mulțime de producători de PCB care pot produce plăci de circuite pentru câțiva dolari, fără cantități minime. De exemplu, [JLCPCB](https://jlcpcb.com/).
 Doar descărcați diagramele noastre de circuit și/sau fișierele Gerber de mai jos, încărcați-le pe site-ul web al producătorului și comandați PCB-urile.
 
 <br>
