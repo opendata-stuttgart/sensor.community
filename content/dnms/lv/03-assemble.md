@@ -106,7 +106,8 @@ Noteikti ir jāuzstāda putuplasta pārklājums, kas aizsargā pret laikapstāk�
 
 Šos putuplasta vāciņus parasti pārdod kā "vāciņus mērīšanas mikrofoniem". Bet tie ir dārgi. Var arī paņemt parastu putuplasta bumbiņu un ar šķērēm izgriezt caurumu.
 
-If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 #### Mikrofona atrašanās vieta
 

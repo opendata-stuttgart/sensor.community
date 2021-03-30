@@ -24,5 +24,5 @@ Siehe [vydanie](https://github.com/opendata-stuttgart/sensor.community/issues/11
 
 V súčasnosti nie je možné zaregistrovať pomocou stránky oba snímače PM, snímač vlhkosti a snímač DNMS pripojené k jednej jednotke NodeMCU.
 Zatiaľ sa to dá urobiť len manuálne zaslaním žiadosti na adresu tech (at) sensor.community.
-Pozri [vydanie](https://github.comopendata-stuttgartsensor.communityissues117
+Pozri [vydanie](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ), kde nájdete podrobnosti.

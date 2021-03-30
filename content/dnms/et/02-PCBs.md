@@ -7,7 +7,7 @@ Praegu on üsna palju trükkplaatide tootjaid, kes saavad toota trükkplaate mõ
 Lihtsalt laadige alla meie elektriskeemid ja/või Gerber-failid, laadige need üles tootja veebisaidil ja tellige oma trükkplaadid.
 
 <br>
-Siin on kirjeldatud trükkplaatide viimaseid versioone. Lisateavet ja juurdepääsu KiCad-failidele leiate [Helmut Bitteri Githubist](https://github.comhbitterDNMStreemasterPCBs).
+Siin on kirjeldatud trükkplaatide viimaseid versioone. Lisateavet ja juurdepääsu KiCad-failidele leiate [Helmut Bitteri Githubist](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 ### AIRROHR V1.4
 Trükkplaat NodeMCU ESP8266 CPUWLAN jaoks koos I2C bussi laiendusega, et ühendada DNMS ja teised andurid (SDS011, BME280...).

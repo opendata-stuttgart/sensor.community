@@ -19,7 +19,7 @@ Do prehliadača zadajte nasledujúce údaje:
   * Otvorí senzor adhoc wifi (prístupový bod) počas prvých 2-7 minút po reštarte?
   * Vyhľadajte sieť WLAN `airrohr-[ID]`. Po reštarte môže trvať niekoľko minút, kým sa to prejaví.
 * Na svojom routeri skontrolujte, či je snímač zaregistrovaný v sieti, a zapíšte si jeho IP adresu.
-  * prípadne použite "Search in network" v [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+  * prípadne použite "Search in network" v [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
   * Ak áno: Pripojte sa k senzoru prostredníctvom prehliadača `http://[ip-your-sensor]`, mala by sa zobraziť konfigurácia
   * Ak nie: môže to byť spôsobené nedostatočným napájaním, reštartovacou slučkou alebo podobne.
 * Pripojte NodeMCU k počítaču pomocou kábla USB a pozrite si protokol

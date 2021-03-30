@@ -19,7 +19,7 @@ Az [ID] az oldal bal oldalán megnyitott [https://api-rrd.madavi.de/grafana/d/GU
   * Az érzékelő az újraindítás utáni első 2-7 percben adhoc wifit (hozzáférési pontot) nyit?
   * Keresse meg a WLAN hálózatot `airrohr-[ID]`. Az újraindítás után néhány percig eltarthat, amíg ez láthatóvá válik.
 * Ellenőrizze a saját routerén, hogy az érzékelő regisztrálva van-e a hálózatban, és jegyezze fel az IP-címet.
-  * alternatívaként használhatja a [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher) "Keresés a hálózatban" opcióját.
+  * alternatívaként használhatja a [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) "Keresés a hálózatban" opcióját.
   * Ha igen: Csatlakozzon az érzékelőhöz egy böngészőn keresztül `http://[ip-az-érzékelője]`, a konfigurációnak meg kell jelennie.
   * Ha nem: ez lehet az elégtelen tápellátás, újraindítási hurok vagy hasonló hiba.
 * Csatlakoztassa a NodeMCU-t egy USB-kábelen keresztül egy számítógéphez, és nézze meg a protokollt.

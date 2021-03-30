@@ -24,5 +24,5 @@ Katso [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117)
 
 Tällä hetkellä ei ole mahdollista rekisteröidä sivuston avulla sekä PM-anturia, ilmankosteusanturia että DNMS-anturia, jotka on kytketty yhteen NodeMCU:hun.
 Toistaiseksi se voidaan tehdä vain manuaalisesti lähettämällä pyyntö osoitteeseen tech (at) sensor.community.
-Katso [issue](https://github.comopendata-stuttgartsensor.communityissues117
+Katso [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) lisätietoja.

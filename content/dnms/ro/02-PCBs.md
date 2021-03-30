@@ -7,7 +7,7 @@ Cel mai bun mod de a construi DNMS este de a utiliza unul dintre PCB-urile noast
 Doar descărcați diagramele noastre de circuit și/sau fișierele Gerber de mai jos, încărcați-le pe site-ul web al producătorului și comandați PCB-urile.
 
 <br>
-Ultimele versiuni ale PCB-urilor sunt descrise aici. Consultați [Helmut Bitter's Github](https://github.comhbitterDNMStreemasterPCBs) pentru informații suplimentare și pentru a accesa fișierele KiCad.
+Ultimele versiuni ale PCB-urilor sunt descrise aici. Consultați [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs) pentru informații suplimentare și pentru a accesa fișierele KiCad.
 
 ### AIRROHR V1.4
 ### AIRROHR V1.4

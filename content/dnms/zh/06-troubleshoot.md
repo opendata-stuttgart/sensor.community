@@ -1,8 +1,8 @@
 ---
-title: 疑难解答
+title: Troubleshoot
 ---
 
-### 传送问题？
+### Transmitting problems?
 在浏览器中输入以下自己的数据。
 `https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
@@ -12,14 +12,14 @@ title: 疑难解答
 * 过去的无线信号是否很弱？
   下面是服务器端信号协议：`https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`。
 
-### USB线有问题？
+### USB cable problems?
 * 检查电源
 * 重新启动（断开电源，例如拔出USB插头）。
 * WLAN配置是否正常（传感器连接到配置的WLAN）。如果没有
   * 在重启后的头2-7分钟内，传感器是否会打开adhoc wifi（接入点）？
   * 搜索无线局域网网络`airrohr-[ID]`。重启后可能需要几分钟才能看到。
 * 在自己的路由器上检查传感器是否在网络中注册，并注意IP地址。
-  * 或者使用[airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)中的 "在网络中搜索"。
+  * 或者使用[airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) 中的 "在网络中搜索"。
   * 如果是：通过浏览器`http://[ip-your-sensor]`连接到传感器，应出现配置。
   * 如果没有：可能是由于电源不足，重新启动循环或类似的原因。
 * 通过USB电缆将NodeMCU连接到电脑上，并查看协议。
@@ -30,7 +30,7 @@ title: 疑难解答
     * 可能需要合适的USB-2串行驱动程序，见[https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * 在这里你应该看到传感器正在做什么（启动信息、WLAN连接或接入点、测量--仅在3分钟后）。
 
-### 电子设备有问题？
+### Electronics problems?
 * 从外壳上拆下传感器电子元件，并仔细检查。
 * 再次检查电源
     * NodeMCU(ESP8266)是否在重启后不久就会闪烁？

@@ -7,7 +7,7 @@ Er zijn nu heel wat printplaatfabrikanten die printplaten kunnen produceren voor
 Download gewoon onze schakelschema's en/of Gerber-bestanden hieronder, upload ze naar de website van de fabrikant en bestel uw PCBs.
 
 <br>
-De laatste versies van de printplaten worden hier beschreven. Raadpleeg [Helmut Bitter's Github](https://github.comhbitterDNMStreemasterPCBs) voor verdere informatie en om toegang te krijgen tot de KiCad bestanden.
+De laatste versies van de printplaten worden hier beschreven. Raadpleeg [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs) voor verdere informatie en om toegang te krijgen tot de KiCad bestanden.
 
 ### AIRROHR V1.4
 ### AIRROHR V1.4

@@ -46,7 +46,7 @@ Aucune installation requise. La platine devrait être immédiatement reconnue (v
 Compatible avec les systèmes d'exploitation suivants : Windows, MacOS and Linux.
 
 * [Installateur airRohr](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Code source](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Code source](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Connectez la platine NodeMCU à votre ordianteur avec un câble USB court (câble charge + transfert de données, moins de 1 mètre, sinon l'installation peut échouer). Sélectionnez `latest_fr.bin` (ou une autre langue) et cliquez sur "Téléverser".
 Attendez la fin du chargement. Vous pouvez maintenant commencer le montage.

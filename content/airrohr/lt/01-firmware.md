@@ -46,7 +46,7 @@ Jokių tvarkyklių diegti nereikia. Mikroschema turėtų būti palaikoma tiesiog
 Kelių operacinių sistemų palaikymas: "Windows", "MacOS" ir "Linux".
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Šaltinio kodas](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Šaltinio kodas](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Prijunkite "NodeMCU" prie kompiuterio trumpu micro-USB kabeliu (pasirinkite trumpesnį nei 1 m, kitaip diegimas gali nepavykti). Pasirinkite `latest_en.bin` (arba kitą kalbinę versiją) ir spustelėkite "Įkelti".
 Palaukite, kol procesas bus baigtas. Dabar galime surinkti jutiklį.

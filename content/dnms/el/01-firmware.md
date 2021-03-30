@@ -44,7 +44,7 @@ title: Πρόγραμμα οδήγησης &amp; υλικολογισμικό
 Υποστήριξη πολλαπλών λειτουργικών συστημάτων: Windows, MacOS και Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Πηγαίος κώδικας](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Πηγαίος κώδικας](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Συνδέστε το NodeMCU στον υπολογιστή σας με ένα κοντό καλώδιο micro-USB (επιλέξτε ένα καλώδιο μικρότερο από 1 μέτρο, διαφορετικά η εγκατάσταση μπορεί να αποτύχει). Επιλέξτε `latest_en.bin` (ή μια άλλη γλωσσική έκδοση) και κάντε κλικ στο "Upload".
 Περιμένετε μέχρι να ολοκληρωθεί η διαδικασία. Τώρα μπορούμε να συναρμολογήσουμε τον αισθητήρα.

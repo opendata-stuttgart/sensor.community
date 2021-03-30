@@ -20,7 +20,7 @@ Introduceți următoarele în browser cu propriile date:
     * senzorul deschide un AP (în primele 2-7 minute după o repornire)?
     * Căutați rețeaua WLAN `airrohr-[ID]`. Răbdare, poate dura 1-2 minute după pornire.
 * Verificați pe propriul router dacă senzorul este conectat la rețea, apoi rețineți IP-ul.
-    * alternativ, utilizați "Discovery" în [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+    * alternativ, utilizați "Discovery" în [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
     * Dacă da: conectați-vă la senzor prin IP cu un browser `http://[ip-of-the-sensor]` , ar trebui să apară interfața
     * Dacă nu: ESP are probleme, de exemplu, alimentarea cu energie electrică insuficientă, buclă de repornire sau altele similare.
 * Conectați USB la un computer și vizualizați jurnalul

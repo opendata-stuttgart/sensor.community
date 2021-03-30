@@ -20,7 +20,7 @@ Ievadiet pārlūkprogrammā šādus datus ar saviem datiem:
     * vai sensors atver AP (pirmajās 2-7 minūtēs pēc restartēšanas)?
     * Meklējiet `airrohr-[ID]` WLAN tīklu. Pacietība, tas var aizņemt 1-2 minūtes pēc starta.
 * Pārbaudiet savā maršrutētājā, vai sensors ir pieslēgts tīklam, un tad atcerieties IP adresi.
-    * kā alternatīvu var izmantot "Discovery" [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+    * kā alternatīvu var izmantot "Discovery" [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
     * Ja jā: izveidojiet savienojumu ar sensoru, izmantojot IP, izmantojot pārlūkprogrammu `http://[ip-of-the-sensor]` , jāparādās saskarnei.
     * Ja nē: ESP ir problēmas, piemēram, nepietiekams barošanas avots, restartēšanas cilpa vai tamlīdzīgi.
 * Savienojiet USB ar datoru un skatiet žurnālu

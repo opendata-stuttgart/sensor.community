@@ -46,7 +46,7 @@ Nu este necesară instalarea niciunui driver. Cipul ar trebui să fie suportat d
 Suport pentru mai multe sisteme de operare: Windows, MacOS și Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Cod sursă](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Cod sursă](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Conectați NodeMCU la computerul dumneavoastră cu un cablu micro-USB scurt (alegeți unul mai scurt de 1 metru, altfel instalarea poate eșua). Selectați `latest_en.bin` (sau o altă versiune lingvistică) și faceți clic pe "Upload".
 Așteptați până când procesul se termină. Acum putem asambla senzorul.

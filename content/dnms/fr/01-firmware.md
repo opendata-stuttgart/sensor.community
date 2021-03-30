@@ -45,7 +45,7 @@ Aucune installation requise. La platine devrait être immédiatement reconnue (v
 ### Firmware Flasher NodeMCU
 Compatible avec les systèmes d'exploitation suivants : Windows, MacOS and Linux.
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Connectez la platine NodeMCU à votre ordianteur avec un câble USB court (câble charge + transfert de données, moins de 1 mètre, sinon l'installation peut échouer). Sélectionnez `latest_fr.bin` (ou un autre langue) ét cliquez sur "Téléverser". Attendez la fin du chargement. Vous pouvez maintenant commencer le montage.
 <br>

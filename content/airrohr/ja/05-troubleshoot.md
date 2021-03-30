@@ -20,7 +20,7 @@ ID」は、左上の入力欄でも検索できます。 [https://api-rrd.madavi
     * センサーがAPを開くのは（再起動後の最初の2～7分）？
     * Airrohr-[ID]`のWLANネットワークを探します。起動後1～2分かかることがありますのでご了承ください。
 * センサーがネットワークにログインしているかどうかを自分のルーターで確認し、IPを記憶する。
-    * 代わりに、[flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)の "Discovery "を使用してください。
+    * 代わりに、[flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)の "Discovery "を使用してください。
     * If yes: ブラウザでIP経由でセンサーに接続します `http://[ip-of-the-sensor]` , インターフェースが表示されます。
     * いいえ」の場合：電源供給不足やリブートループなど、ESPに問題が発生しています。
 * USBをパソコンに接続してログを見る

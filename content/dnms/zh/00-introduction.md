@@ -1,5 +1,5 @@
 ---
-title: 介紹
+title: Introduction
 ---
 
   <div class="max-w-screen-xl mx-auto pt-5">
@@ -27,28 +27,24 @@ title: 介紹
  <img src=".docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">。
 
 
-在[Helmut Bitter的Github](https://github.com/hbitter/DNMS/tree/master/Manual)上查看噪声传感器的原始说明和以前的版本。
+在[Helmut Bitter的Github](https://github.com/hbitter/DNMS/tree/master/Manual) 上查看噪声传感器的原始说明和以前的版本。
 
 <br>
 
 该资源库包含不同的设置，以构建不同种类的电路板和PCB的传感器。
-该资源库包含不同的设置，以构建不同种类的电路板和PCB的传感器。
  <br>
  <br>
- 有两种不同的设置。
  有两种不同的设置。
 * NodeMCU与一些传感器（PM、温度等）和DNMS分开的设置。PCB称为AIRROHR V1.4和DNMS - T4 V1.4。
 * NodeMCU和DNMS在同一PCB上的组合版本：DNMS - T4+NodeMCU V1.4。
-* NodeMCU和DNMS在同一PCB上的组合版本：DNMS - T4+NodeMCU V1.4。
- 这里只描述了NODEMCU和DNMS分离的变体。请看一下Helmut的Github，看看其他的变体。
  这里只描述了NODEMCU和DNMS分离的变体。请看一下Helmut的Github，看看其他的变体。
   在这种情况下，NodeMCU和DNMS之间的连接可以长达10米。这一点很重要，因为您需要为DNMS找到合适的位置，以获得精确的噪声测量。
 
-###购物清单
+### Shopping list
 
-##### 单个组件
+##### Single components
 * [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
-* [Teensy 4.0开发板](https://www.pjrc.com/store/teensy40.html)。其他卖家。[EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board)、[Antratek](https://www.antratek.de/teensy-4-0)、[PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)。
+* [Teensy 4.0开发板](https://www.pjrc.com/store/teensy40.html) 。其他卖家。[EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board),[Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board) 
 * [数字式麦克风ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * 直径0.15mm²(AWG 26)的超柔韧硅胶电缆，有6种不同颜色。
 <br>

@@ -21,7 +21,7 @@ Tu je stránka s log súborom signálu: `https://api-rrd.madavi.de/grafana/d/Fk6
     * vytvorí senzor vlastnú WiFi sieť (v priebehu 2-7 minút po reštarte)?
     * hľadajte sieť s názvom `airrohr-[ID]`. Buďte trpezlivý, môže to trvať 1-2 minúty po spustení.
 * Skontrolujte prostredníctvom rútra, či je senzor pripojený k vašej sieti, potom si poznačte jeho IP adresu.
-    * alebo využite možnosť "Prehľadať sieť" v [nástroji na inštaláciu firmvéru](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+    * alebo využite možnosť "Prehľadať sieť" v [nástroji na inštaláciu firmvéru](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
     * Ak áno: pripojte sa k senzoru cez IP pomocou prehliadača stránok `http://[ip-of-the-sensor]/`, malo by sa zobraziť rozhranie senzora.
     * Ak nie: ESP má problémy, napr. nedostatočné napájanie, reštartovacia slučka alebo podobné.
 * Pripojte USB k počítaču a pozrite si log.

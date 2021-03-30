@@ -44,7 +44,7 @@ No es necesario instalar ningún controlador. El chip debe ser soportado directa
 Soporte para múltiples sistemas operativos: Windows, MacOS y Linux.
 
 * [AirRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Código fuente](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Código fuente](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Conecte NodeMCU a su ordenador con un cable micro USB corto (elija uno más corto que 1 metro, de lo contrario la instalación puede fallar). Seleccione "latest_en.bin" (o la versión en otro idioma) y haga clic en "Upload".
 Espere hasta que el proceso haya terminado. Ahora podemos montar el sensor.

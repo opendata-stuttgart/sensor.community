@@ -20,7 +20,7 @@ Az [ID] a bal felső sarokban lévő beviteli mezőben is kereshető [https://ap
     * az érzékelő megnyit egy AP-t (az újraindítás utáni első 2-7 percben)?
     * Keresse meg az `airrohr-[ID]` WLAN hálózatot. Türelem, a rendszerindítás után 1-2 percig is eltarthat.
 * Ellenőrizze a saját routerén, hogy az érzékelő be van-e jelentkezve a hálózatba, majd emlékezzen az IP címre.
-    * alternatívaként használhatja a "Felfedezés" opciót a [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+    * alternatívaként használhatja a "Felfedezés" opciót a [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
     * Ha igen: csatlakozzon az érzékelőhöz IP-n keresztül egy böngészővel `http://[ip-of-the-sensor]` , a felületnek meg kell jelennie.
     * Ha nem: az ESP-nek problémái vannak, pl. elégtelen tápellátás, újraindítási hurok vagy hasonló.
 * Csatlakoztassa az USB-t a számítógéphez és nézze meg a naplót.

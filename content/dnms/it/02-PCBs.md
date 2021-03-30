@@ -7,7 +7,7 @@ Ci sono ora un bel po' di produttori di PCB che possono produrre circuiti stampa
 Basta scaricare i nostri schemi circuitali e/o i file Gerber qui sotto, caricarli sul sito del produttore e ordinare i vostri PCB.
 
 <br>
-Le ultime versioni dei PCB sono descritte qui. Fate riferimento al [Github di Helmut Bitter](https://github.comhbitterDNMStreemasterPCBs) per ulteriori informazioni e per accedere ai file KiCad.
+Le ultime versioni dei PCB sono descritte qui. Fate riferimento al [Github di Helmut Bitter](https://github.com/hbitter/DNMS/tree/master/PCBs) per ulteriori informazioni e per accedere ai file KiCad.
 
 ### AIRROHR V1.4
 ### AIRROHR V1.4

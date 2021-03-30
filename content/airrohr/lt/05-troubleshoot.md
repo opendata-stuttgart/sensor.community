@@ -20,7 +20,7 @@ Naršyklėje įveskite šiuos savo duomenis:
     * ar jutiklis atidaro AP (per pirmąsias 2-7 minutes po perkrovimo)?
     * Ieškokite `airrohr-[ID]` WLAN tinklo. Turėkite kantrybės, tai gali užtrukti 1-2 minutes po įkrovos.
 * Savo maršrutizatoriuje patikrinkite, ar jutiklis yra prisijungęs prie tinklo, tada įsiminkite IP adresą
-    * alternatyviai naudokite "Discovery" [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+    * alternatyviai naudokite "Discovery" [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
     * Jei taip: prisijunkite prie jutiklio per IP per naršyklę `http://[jutiklio ip]` , turėtų pasirodyti sąsaja
     * Jei ne: ESP turi problemų, pvz., nepakankamas maitinimo šaltinis, perkrovimo kilpa ar pan.
 * Prijunkite USB prie kompiuterio ir peržiūrėkite žurnalą

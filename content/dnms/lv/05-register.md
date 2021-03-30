@@ -24,5 +24,5 @@ Siehe [izdevums](https://github.com/opendata-stuttgart/sensor.community/issues/1
 
 Pašlaik nav iespējams reģistrēt, izmantojot vietni, gan PM sensoru, gan gaisa mitruma, gan DNMS sensoru, kas savienots ar vienu NodeMCU.
 Pagaidām to var izdarīt tikai manuāli, nosūtot pieprasījumu uz tech (at) sensor.community.
-Skatīt [jautājums](https://github.comopendata-stuttgartsensor.communityissues117
+Skatīt [jautājums](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ), lai iegūtu sīkāku informāciju.

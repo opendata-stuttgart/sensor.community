@@ -106,7 +106,8 @@ Ilmastikukaitse paigaldamine vahtkatte kujul on hädavajalik. Vajaduse korral pi
 
 Neid vahtkummi katteid müüakse tavaliselt kui "mõõtmismikrofonide katteid". Kuid need on kallid. Võid võtta ka tavalise vahtpalli ja lõigata kääridega augu sisse.
 
-If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### Mikrofoni asukoht
 

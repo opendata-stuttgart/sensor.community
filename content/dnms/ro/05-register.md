@@ -24,5 +24,5 @@ Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117)
 
 În prezent, nu este posibil să se înregistreze folosind site-ul atât senzorul PM, cât și senzorul de temperatură și DNMS conectat la un singur NodeMCU.
 Deocamdată, acest lucru se poate face doar manual, trimițând o cerere la tech (at) sensor.community.
-A se vedea [issue](https://github.comopendata-stuttgartsensor.communityissues117
+A se vedea [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) pentru detalii.

@@ -106,7 +106,8 @@ Het is absoluut noodzakelijk een bescherming tegen weersinvloeden aan te brengen
 
 Die schuimstof hoezen worden normaal verkocht als 'hoezen voor meet microfoons'. Maar ze zijn duur. Je kunt ook een gewone schuimbal nemen en er met een schaar een gat in knippen.
 
-If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### Plaats van de microfoon
 

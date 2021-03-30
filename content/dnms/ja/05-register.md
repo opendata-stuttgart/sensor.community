@@ -23,5 +23,5 @@ Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117)
 
 現在、1台のNodeMCUにPMセンサー、温湿度センサー、DNMSセンサーの両方を接続してサイトに登録することはできません。
 今のところ、手動で tech (at) sensor.community にリクエストを送ることでのみ可能です。
-問題](https://github.comopendata-stuttgartsensor.communityissues117)をご覧ください。
+問題](https://github.com/opendata-stuttgart/sensor.community/issues/117)をご覧ください。
 )を参照してください。

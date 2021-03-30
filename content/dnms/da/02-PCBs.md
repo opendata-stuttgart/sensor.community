@@ -7,7 +7,7 @@ Der findes nu en hel del PCB-producenter, som kan fremstille printplader for få
 Du skal blot downloade vores kredsløbsdiagrammer og/eller Gerber-filer nedenfor, uploade dem på producentens websted og bestille dine PCB'er.
 
 <br>
-De sidste versioner af PCB'erne er beskrevet her. Se [Helmut Bitters Github] (https://github.comhbitterDNMStreemasterPCBs) for yderligere oplysninger og for at få adgang til KiCad-filerne.
+De sidste versioner af PCB'erne er beskrevet her. Se [Helmut Bitters Github] (https://github.com/hbitter/DNMS/tree/master/PCBs) for yderligere oplysninger og for at få adgang til KiCad-filerne.
 
 #### AIRROHR V1.4
 PCB til NodeMCU ESP8266 CPUWLAN med en I2C-busudvidelse til tilslutning af DNMS samt andre sensorer (SDS011, BME280...).

@@ -20,7 +20,7 @@ Bekijk de data van je station op [sensor.community](https://devices.sensor.commu
 
 ### Station werkt niet (meer)?
 * Controleer op je eigen router/modem of het station is aangemeld op het netwerk
-  * Je kan ook "Discovery" in de [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) gebruiken. Dubbelklik als je daar je sensor ziet om naar de webpagina van hetstation te gaan.
+  * Je kan ook "Discovery" in de [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//) gebruiken. Dubbelklik als je daar je sensor ziet om naar de webpagina van hetstation te gaan.
 * Start je browser en verbind naar het IP-adres van het station `http://[ip-van-de-sensor]/`, de webpagina van het station zou moeten verschijnen
   * Zo niet: de ESP heeft problemen, bijvoorbeeld de voeding is niet toereikend, reboot-loop of iets dergelijks. Zie verderop bij "Problemen met de elektronica".
 * Controleer of het station metingen ontvangt van de sensoren door te klikken op "Huidige data".

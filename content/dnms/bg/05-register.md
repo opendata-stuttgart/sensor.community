@@ -24,5 +24,5 @@ Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117)
 
 Понастоящем не е възможно да се регистрират чрез сайта двата сензора за PM, температурата и DNMS, свързани към един NodeMCU.
 Засега това може да се направи само ръчно чрез изпращане на заявка до tech (at) sensor.community.
-Вижте [брой](https://github.comopendata-stuttgartsensor.communityissues117
+Вижте [брой](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) за подробности.

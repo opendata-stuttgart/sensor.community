@@ -7,7 +7,7 @@ V súčasnosti existuje pomerne veľa výrobcov PCB, ktorí dokážu vyrobiť do
 Stačí si stiahnuť naše schémy zapojenia alebo súbory Gerber nižšie, nahrať ich na webovú stránku výrobcu a objednať si PCB.
 
 <br>
-Tu sú opísané posledné verzie dosiek plošných spojov. Ďalšie informácie a prístup k súborom KiCad nájdete na [Github Helmuta Bittera](https://github.comhbitterDNMStreemasterPCBs).
+Tu sú opísané posledné verzie dosiek plošných spojov. Ďalšie informácie a prístup k súborom KiCad nájdete na [Github Helmuta Bittera](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
 ### AIRROHR V1.4
 ### AIRROHR V1.4

@@ -20,7 +20,7 @@ V brskalnik vnesite naslednje podatke:
     * senzor odpre AP (v prvih 2-7 minutah po ponovnem zagonu)?
     * Poiščite `airrohr-[ID]` omrežje WLAN. Po zagonu lahko traja 1-2 minuti.
 * Na svojem usmerjevalniku preverite, ali je senzor prijavljen v omrežje, in si zapomnite naslov IP.
-    * alternativno uporabite "Discovery" v [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+    * alternativno uporabite "Discovery" v [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
     * Če je odgovor pritrdilen: povežite se s senzorjem prek IP z brskalnikom `http://[ip-senzorja]` , prikazati se mora vmesnik
     * Če ne: ESP ima težave, npr. nezadostno napajanje, zanka ponovnega zagona in podobno.
 * Povežite USB z računalnikom in si oglejte dnevnik

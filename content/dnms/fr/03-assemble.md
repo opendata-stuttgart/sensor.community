@@ -105,7 +105,8 @@ Par contre, il est nécessaire d'installer une bonnette en mousse. Un morceau d'
 
 Les bonnettes pour microphones de mesure sont chères mais vous pouvez facilement découper des bonnettes rondes.
 
-Consultez [ce site](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2).
+Consultez [ce site](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+).
 
 ### Position du microphone 
 

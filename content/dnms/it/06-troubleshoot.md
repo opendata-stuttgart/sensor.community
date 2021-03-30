@@ -19,7 +19,7 @@ L'[ID] può anche essere cercato nel campo di input aperto sul lato sinistro del
   * Il sensore apre un wifi adhoc (access point) nei primi 2-7 minuti dopo un riavvio?
   * Cerca la rete WLAN `airrohr-[ID]`. Potrebbero essere necessari alcuni minuti dopo un riavvio prima che questo sia visibile.
 
-  * in alternativa usare "Cerca nella rete" in [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+  * in alternativa usare "Cerca nella rete" in [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
   * Se sì: connettersi al sensore tramite un browser `http://[ip-your-sensor]`, la configurazione dovrebbe apparire
   * Se no: potrebbe essere dovuto a un'alimentazione insufficiente, un loop di riavvio o simili.
 * Collegare il NodeMCU a un computer tramite un cavo USB e guardare il protocollo

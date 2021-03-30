@@ -44,7 +44,7 @@ title: Драйвер и фърмуер
 Поддръжка на множество операционни системи: Windows, MacOS и Linux.
 
 * [AirRohr Flashing Tool] (http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Изходен код](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Изходен код](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Свържете NodeMCU към компютъра си с къс микро USB кабел (изберете по-къс от 1 метър, в противен случай инсталацията може да се провали). Изберете `latest_en.bin` (или друга езикова версия) и щракнете върху "Upload".
 Изчакайте, докато процесът приключи. Сега можем да сглобим сензора.
