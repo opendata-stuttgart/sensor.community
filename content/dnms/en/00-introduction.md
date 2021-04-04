@@ -32,7 +32,7 @@ Check out the original instructions and former versions of the noise sensor on [
 
 That repository contains different setups to build the sensor with different kinds of board and PCBs.
  
- <br>
+<br>
  
  There are two different kinds of setups:
  

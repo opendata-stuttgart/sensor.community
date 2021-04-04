@@ -1,8 +1,8 @@
 ---
-title: 疑难解答
+title: Troubleshoot
 ---
 
-### 传送问题？
+### Transmitting problems?
 在浏览器中输入以下自己的数据。
 `https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
@@ -13,7 +13,7 @@ title: 疑难解答
         这是服务器端的信号记录：`https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`。
         这是服务器端的信号记录：`https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`。
 
-### USB线问题？
+### USB cable problems?
 * 检查电源。USB线
 * 重新启动（断开电源，如拔出USB插头）。
 * WLAN配置是否正常（传感器连接到已配置的WLAN）如果不正常，请注意。
@@ -29,7 +29,7 @@ title: 疑难解答
         * 可能还需要合适的usb2serial驱动程序，见[https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
     * 在这里，您应该能够看到传感器正在做什么（启动信息、WLAN连接或AP、测量--仅在3分钟后）。
 
-### 电子问题？
+### Electronics problems?
 * 从外壳上拆下传感器电子元件并观察
 * 再次检查更换电源
     * 重启后不久ESP是否会闪烁？

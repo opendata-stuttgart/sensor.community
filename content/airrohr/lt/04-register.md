@@ -8,7 +8,7 @@ Eikite į [devices.sensor.community](https://devices.sensor.community), kad susi
 
 
 #### Užregistruokite savo prietaisą
-Sukūrę paskyrą ir prisijungę galėsite užregistruoti savo prietaisą. Užpildykite formą ir užregistruokite savo prietaisą. Eikite į Pradžia -&gt; (Prisijungimas) - Jutikliai -&gt; Registruoti naują jutiklį
+Sukūrę paskyrą ir prisijungę galėsite užregistruoti savo prietaisą. Užpildykite formą ir užregistruokite savo prietaisą. Eikite į Pradžia -> (Prisijungimas) - Jutikliai -> Registruoti naują jutiklį
 
 * jutiklio ID yra ESP8266 (NodeMCU) lusto ID, kurį užsirašėte anksčiau
 * jūsų el. pašto adresas (nebus skelbiamas)

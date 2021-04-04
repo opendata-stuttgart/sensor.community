@@ -8,7 +8,7 @@ Mine [devices.sensor.community](https://devices.sensor.community), et luua konto
 
 
 ### Registreeri oma seade
-Kui olete konto loonud ja sisse loginud, saate oma seadme registreerida. Täitke oma seadme registreerimiseks vorm. Navigeerige jaotisele Avaleht -&gt; (Sisene) - Andurid -&gt; Registreeri uus andur.
+Kui olete konto loonud ja sisse loginud, saate oma seadme registreerida. Täitke oma seadme registreerimiseks vorm. Navigeerige jaotisele Avaleht -> (Sisene) - Andurid -> Registreeri uus andur.
 
 * sensori ID on ESP8266 (NodeMCU) ChipID, mille te eelnevalt märkisite.
 * Teie e-posti aadress (ei avaldata)

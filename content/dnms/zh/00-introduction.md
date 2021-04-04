@@ -2,29 +2,29 @@
 title: Introduction
 ---
 
-  <div class="max-w-screen-xl mx-auto pt-5">
-      <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
-      <div class="flex items-center">
-            <span class="p-2 rounded-lg bg-indigo-500">
-              <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
-              </svg>
-            </span>
-        <div class="flex flex-wrap">
-          <div class="flex-wrap flex">
-            <p class="pt-1 text-indigo-700 font-medium">
-                 噪声正在测试中。发送问题到</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
-                  Noise@Sensor.Community</a>
+ <div class="max-w-screen-xl mx-auto pt-5">
+     <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
+     <div class="flex items-center">
+           <span class="p-2 rounded-lg bg-indigo-500">
+             <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+             </svg>
+           </span>
+       <div class="flex flex-wrap">
+         <div class="flex-wrap flex">
+           <p class="pt-1 text-indigo-700 font-medium">
+                噪声正在测试中。发送问题到</p>
+         <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+                 Noise@Sensor.Community</a>
+         </div>
           </div>
-           </div>
-      </div>
-    </div>
-  </div>
+     </div>
+   </div>
+ </div>
 
 > 🚧 建立您的DIY传感器，并成为全球的一部分，opendata和civictech网络。<br> 有了DNMS（数字噪声测量传感器），您可以自己测量噪声污染。
 
- <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 在[Helmut Bitter的Github](https://github.com/hbitter/DNMS/tree/master/Manual) 上查看噪声传感器的原始说明和以前的版本。
@@ -33,15 +33,13 @@ title: Introduction
 
 该资源库包含不同的设置，以构建不同种类的电路板和PCB的传感器。
  <br>
- <br>
  有两种不同的设置。
 * NodeMCU与一些传感器（PM、温度等）和DNMS分开的设置。PCB称为AIRROHR V1.4和DNMS - T4 V1.4。
 * NodeMCU和DNMS在同一PCB上的组合版本：DNMS - T4+NodeMCU V1.4。
  这里只描述了NODEMCU和DNMS分离的变体。请看一下Helmut的Github，看看其他的变体。
   在这种情况下，NodeMCU和DNMS之间的连接可以长达10米。这一点很重要，因为您需要为DNMS找到合适的位置，以获得精确的噪声测量。
 
-### Shopping list
-
+### Shoppinglist
 ##### Single components
 * [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
 * [Teensy 4.0开发板](https://www.pjrc.com/store/teensy40.html) 。其他卖家。[EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board),[Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board) 

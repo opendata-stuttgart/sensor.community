@@ -8,7 +8,7 @@ Mene osoitteeseen [devices.sensor.community](https://devices.sensor.community) l
 
 
 ### Rekisteröi laitteesi
-Kun olet luonut tilin ja kirjautunut sisään, voit rekisteröidä laitteesi. Täytä lomake laitteesi rekisteröimiseksi. Siirry kohtaan Home -&gt; (Kirjaudu sisään) - Sensors -&gt; Register new sensor (Rekisteröi uusi sensori).
+Kun olet luonut tilin ja kirjautunut sisään, voit rekisteröidä laitteesi. Täytä lomake laitteesi rekisteröimiseksi. Siirry kohtaan Home -> (Kirjaudu sisään) - Sensors -> Register new sensor (Rekisteröi uusi sensori).
 
 * anturin ID on ESP8266:n (NodeMCU) ChipID, jonka olet merkinnyt muistiin aiemmin.
 * sähköpostiosoitteesi (ei julkaista)

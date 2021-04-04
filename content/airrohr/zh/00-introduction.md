@@ -1,13 +1,13 @@
 ---
-title: 介紹
+title: Introduction
 ---
 > 🚧 建立您的DIY传感器，并成为全球的一部分，opendata＆civictech网络。<br> 随着airRohr你可以测量空气污染自己。
 
 
-<img src=".docsairrohrparticulate-matter-air quality-sensor-kit.jpeg" loading="lazy">。
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
-### 购物清单
-##### 传感器套件
+### Shopping list
+##### Sensor kit
 * [预闪式传感器套件](https://nettigo.euproductsluftdaten-org-pl-kit-sds011-bme280)
 
 ##### 单个组件

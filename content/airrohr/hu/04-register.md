@@ -8,7 +8,7 @@ A [devices.sensor.community](https://devices.sensor.community) oldalon hozhat l�
 
 
 ### Regisztrálja a készülékét
-Miután létrehozott egy fiókot és bejelentkezett, regisztrálhatja készülékét. Töltse ki az űrlapot a készülék regisztrálásához. Navigáljon a Kezdőlap -&gt; (Bejelentkezés) - Érzékelők -&gt; Új érzékelő regisztrálása menüpontra.
+Miután létrehozott egy fiókot és bejelentkezett, regisztrálhatja készülékét. Töltse ki az űrlapot a készülék regisztrálásához. Navigáljon a Kezdőlap -> (Bejelentkezés) - Érzékelők -> Új érzékelő regisztrálása menüpontra.
 
 * Az érzékelő ID az ESP8266 (NodeMCU) chipID-je, amelyet korábban feljegyeztél.
 * az Ön e-mail címe (nem kerül nyilvánosságra)

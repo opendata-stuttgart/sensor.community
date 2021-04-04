@@ -53,7 +53,7 @@ NodeMCUとコンピュータを短いマイクロUSBケーブルで接続しま�
 
 #### Linux: Set permissions as executable
 ダウンロードした後に、パーミッションを実行可能に設定する必要があります。これは、以下のコマンドで行うことができます。chmod o+x &lt;ダウンロードファイル名&gt;`。
-&lt;br&gt;
+<br>
 ポーランド出身のピョートルさん】(https://dropbox.inf.re/)に大感謝です! 🙋♂️
 
 #### MacOS: how to run a unverified app
