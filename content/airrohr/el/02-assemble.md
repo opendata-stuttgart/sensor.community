@@ -9,11 +9,12 @@ title: Συναρμολόγηση
 ### NodeMCU v3
 Σημείωση: Οι οδηγίες μας αναφέρονται στην έκδοση 3 του NodeMCU. Αυτό μπορεί να αναγνωριστεί από τις συνδέσεις VU και G (βλέπε σχέδιο).
 
-Σημείωση: Οι οδηγίες μας αναφέρονται στην έκδοση 3 του NodeMCU. Αυτό μπορεί να αναγνωριστεί από τις συνδέσεις VU και G (βλέπε σχέδιο).
-<small>Copyright: roman-minyaylov, MIT License<small>
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em" loading="lazy"/>
+
+<small>Copyright: roman-minyaylov, MIT License</small>
 
 
-<img src="..docsairrohrnodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy">
+<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>
 
 ##### Όταν τελειώσετε, θα πρέπει να μοιάζει κάπως έτσι
 
@@ -33,9 +34,11 @@ SDS011 Ακίδα 7 -> αχρησιμοποίητη
 
 <br>
 
-💡 Μπορείτε να βρείτε μια λίστα με [αισθητήρες που υποστηρίζονται από το υλικολογισμικό μας](https://github.comopendata-stuttgartsensors-softwareblobmasterairrohr-firmwareReadme.md)
+💡 Μπορείτε να βρείτε μια λίστα με [αισθητήρες που υποστηρίζονται από το υλικολογισμικό μας](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)
 
 ### Συγκολλήστε μαζί το BME280
+<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>
+<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
 
 Συνδέστε την κεφαλίδα ακροδεκτών με την πλακέτα BME280. Συγκολλήστε την από την πίσω πλευρά. Τα κενά μεταξύ των ακροδεκτών είναι πολύ μικρά, γι' αυτό να είστε υπομονετικοί και προσεκτικοί.
 
@@ -55,7 +58,7 @@ SCL -> Ακίδα D4
 ### Δέσε τα πάντα μαζί
 
  ##### Συνδέστε το NodeMCU και το SDS011 μαζί
-<img src="..docsairrohrtie-air-quality-sensor-together.jpeg" loading="lazy">
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 Συνδέστε το NodeMCU (ESP8266) και τον αισθητήρα SDS011 με ένα δεματικό καλώδιο έτσι ώστε η κεραία Wifi να δείχνει μακριά από τον αισθητήρα.
 
  ##### Σύνδεση εύκαμπτου σωλήνα
@@ -70,14 +73,15 @@ SCL -> Ακίδα D4
 * Το καλώδιο USB, ο εύκαμπτος σωλήνας και το BME280 θα πρέπει να εξέχουν από το άκρο του σωλήνα.
 * Σπρώξτε τον άλλο σωλήνα πάνω στον πρώτο.
 
-<img src="..docsairrohrsds011-jammed-into-tube.jpeg" loading="lazy">
+<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
 ##### Φινίρισμα
 * Τοποθετήστε τον αισθητήρα θερμοκρασίας στον εύκαμπτο σωλήνα, έτσι ώστε να βρίσκεται στην άκρη του σωλήνα.
 * Κόψτε τον εύκαμπτο σωλήνα στο άκρο του σωλήνα
 * Προαιρετικά: μπορείτε να καλύψετε τα ανοιχτά άκρα του σωλήνα με ένα λεπτό πλέγμα. Έτσι ο αέρας μπορεί να κυκλοφορεί αλλά τα έντομα μένουν έξω.
 * Προαιρετικά: μπορείτε να καλύψετε τα ανοιχτά άκρα του σωλήνα με ένα λεπτό πλέγμα. Έτσι ο αέρας μπορεί να κυκλοφορεί αλλά τα έντομα μένουν έξω.
-<img src="..docsairrohrposition-bme280.jpeg" loading="lazy">
+<img src="../docs/airrohr/position-bme280.jpeg" loading="lazy"/>
+
 
 ### Τοποθέτηση
 Το ιδανικό μέρος θα ήταν 1,5 έως 3,5 μέτρα πάνω από το δρόμο και καλά αεριζόμενο. Ωστόσο, αυτό δεν μπορεί να γίνει για όλους τους ανθρώπους, διότι, ως εκ τούτου, κατά την εγγραφή ζητούνται πληροφορίες όπως το ύψος πάνω από το έδαφος και η θέση προς το δρόμο.

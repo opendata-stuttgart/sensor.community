@@ -8,17 +8,17 @@ Prieš surinkdami įdiekite programinę įrangą!
 
 #### Mikrofono įrenginys
 
-Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
+Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
+Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Mikrofono bloko korpusas
 Korpusas pagamintas iš 0,500" (12,7 mm) polistireninio vamzdžio. Toks skersmuo leidžia tiesiogiai prijungti daugumą kalibratorių prie įrenginio.
 
-Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Išardymo plokštę reikia pritaikyti prie vamzdžio skersmens naudojant pjūklelį. Mikrofono įvadui apsaugoti naudokite lipnią juostą.
 <br>
@@ -42,7 +42,7 @@ Vamzdelio galą užklijuokite lipnia juosta.
 
 Dabar galite užpildyti vamzdelį derva. Šis žingsnis yra privalomas, kad būtų išvengta rezonanso ir gauti kalibruoti bei atkuriami duomenys.
 
-Prototipas buvo sukurtas naudojant "Copaltec GmbH" pagamintą [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
+Prototipas buvo sukurtas naudojant "Copaltec GmbH" pagamintą [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
 
 ##### Specifikacijos:
 * Dielektrinis stipris: 28 kVmm
@@ -58,7 +58,7 @@ Prototipas buvo sukurtas naudojant "Copaltec GmbH" pagamintą [PURe Isolation ST
 * Taikymo temperatūra: - Nuo 20 iki +130 °C
 
 
-Turėtų tikti ir "Electrolube" [poliuretano derva UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf).
+Turėtų tikti ir "Electrolube" [poliuretano derva UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf).
 
 Kiekvienam vamzdeliui turėtų pakakti 15 g dervos.
 

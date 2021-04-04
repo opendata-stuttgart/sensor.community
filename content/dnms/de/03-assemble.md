@@ -8,7 +8,7 @@ Siehe Abschnitt __Firmware-Flasher__.
 
 ### Mikrofoneinheit
 
-Die Mikrofoneinheit basiert auf einem Breakout-Board von Pesky Products mit einem MEMS-Mikrofon ICS-43434. Auf dem [Tindie-Marktplatz] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) kann man solche Boards finden.
+Die Mikrofoneinheit basiert auf einem Breakout-Board von Pesky Products mit einem MEMS-Mikrofon ICS-43434. Auf dem [Tindie-Marktplatz](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) kann man solche Boards finden.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
@@ -59,7 +59,7 @@ Der Prototyp wurde entwickelt mit [PURe Isolation ST 33](https://www.buerklin.co
 * Anwendungstemperaturen: - 20 bis +130 °C
 
 
-Das [Polyurethanharz UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) der Firma Electrolube sollte ebenfalls funktionieren.
+Das [Polyurethanharz UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) der Firma Electrolube sollte ebenfalls funktionieren.
 
 Für jeden Schlauch sollten 15 g Harz ausreichen.
 

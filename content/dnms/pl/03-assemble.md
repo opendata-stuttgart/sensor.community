@@ -16,7 +16,7 @@ Moduł mikrofonowy oparty jest na płycie Pesky Products breakoutboard z mikrofo
 ##### Obudowa modułu mikrofonu
 Obudowa wykonana jest z rurki styropianowej .500" (12,7 mm). Średnica ta pozwala na bezpośrednie podłączenie większości kalibratorów do urządzenia.
 
-Prototyp został opracowany przy użyciu [Evergreen nr 236 rurki] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototyp został opracowany przy użyciu [Evergreen nr 236 rurki](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; marginale: 3em 0" loading="lazy"/>
 <br>

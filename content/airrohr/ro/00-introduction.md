@@ -4,7 +4,7 @@ title: Introducere
 > 🚧 Construiește-ți un senzor DIY și fă parte din rețeaua mondială opendata &amp; civictech. <br> Cu airRohr puteți măsura singuri poluarea aerului.
 
 
-<img src="..docsairrohrparticulate-materiale-particulate-materie-aer-calitate-senzor-kit.jpeg" loading="lazy">
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
 ### Lista de cumpărături
 ##### Kit senzor
@@ -17,12 +17,12 @@ title: Introducere
   - [via Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)
   - [via Nettgio](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280)
   - [via Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
-* [Cablu](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+cablu+20cm+femelă-femelă)
-* [Cablu USB, de exemplu: plat 2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+usb+bucată+cablu+2m)
+* [Cablu](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+cable+20cm+female-female)
+* [Cablu USB, de exemplu: plat 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flat+cable+2m)
 * [Sursă de alimentare USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)
-* [Curele de cablu](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+curele)
+* [Curele de cablu](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+straps)
 * Țeavă flexibilă, dacă este posibil **nu** transparentă, diametru 6 mm, lungime aprox. 20 cm Magazin de bricolaj
-* [Protecție împotriva intemperiilor, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.inforohrsystememarley-ht-bogen-p13625028)
+* [Protecție împotriva intemperiilor, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 
 <br>

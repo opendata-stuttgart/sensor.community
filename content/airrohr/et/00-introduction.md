@@ -4,7 +4,8 @@ title: Sissejuhatus
 > 🚧 Ehita oma DIY-sensor ja saa osa ülemaailmsest opendata &amp; civictech võrgustikust. <br> AirRohriga saate õhusaastet ise mõõta.
 
 
-<img src="..docsairrohrparticulate-matter-air-quality-sensor-kit.jpeg" loading="lazy">
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
+
 
 ### Ostunimekiri
 ##### Anduri komplekt
@@ -22,7 +23,7 @@ title: Sissejuhatus
 * [toiteallikas USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+mikro+usb+eu+toiteallikas+toiteallikas)
 * [kaablipaelad](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+paelad)
 * Paindlik toru, võimaluse korral **ei** läbipaistev, läbimõõt 6 mm, pikkus u. 20cm DIY poes
-* [Ilmastikukaitse, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.inforohrsystememarley-ht-bogen-p13625028)
+* [Ilmastikukaitse, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 
 <br>

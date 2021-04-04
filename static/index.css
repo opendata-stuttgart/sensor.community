@@ -114,6 +114,17 @@ small {
  * all browsers.
  */
 
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
 /* Embedded content
    ========================================================================== */
 
@@ -285,6 +296,7 @@ details {
  */
 
 blockquote,
+dl,
 h1,
 h2,
 h3,

@@ -3,7 +3,7 @@ title: Registierung
 ---
 ### Sensor registrieren 
 
-Gehe auf [devices.sensor.community] (https://devices.sensor.community/), um dein Gerät zu registrieren und Teil des offenen Datennetzwerks zu werden.
+Gehe auf [devices.sensor.community](https://devices.sensor.community/), um dein Gerät zu registrieren und Teil des offenen Datennetzwerks zu werden.
 
 ### Registriere dein Gerät
 Nachdem du dich angemeldet hast, klicke auf "Neuen Sensor registrieren" und fülle das Formular aus.

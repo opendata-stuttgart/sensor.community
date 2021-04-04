@@ -29,7 +29,8 @@
 <div class="md:relative z-50">
     <button class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150" on:click={menuToggle}
             type="button">
-        <span class="text-xl font-bold">  {#if lang == "en"}
+        <span class="text-xl font-bold">
+            {#if lang == "en"}
                 {flag("gb")}
             {:else if lang == "ja"}
                         {flag("jp")}

@@ -45,8 +45,8 @@ Inga drivrutiner behöver installeras. Chip bör stödjas direkt (kan verifieras
 ### Firmware Flasher 
 Stöd för flera operativsystem: Windows, MacOS och Linux.
 
-* [airRohr Flashing Tool] (http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Källkod] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Källkod](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Anslut NodeMCU till din dator med en kort mikro-USB-kabel (välj en kortare än 1 meter, annars kan installationen misslyckas). Välj `latest_en.bin` (eller en annan språkversion) och klicka på" Upload ".
 Vänta tills processen är klar. Nu kan vi montera sensorn.
@@ -54,5 +54,5 @@ Vänta tills processen är klar. Nu kan vi montera sensorn.
 #### Linux: Ange behörigheter som körbara
 Efter nedladdningen kan du behöva ställa in behörigheten till körbar. Detta kan göras med kommandot: `chmod o + x <nedladdnings filnamn>`
 <br>
-Ett stort tack till [Piotr, från Polen] (https://dropbox.inf.re/), för hans hjälp! 🙋‍♂️
+Ett stort tack till [Piotr, från Polen](https://dropbox.inf.re/), för hans hjälp! 🙋‍♂️
 

@@ -7,7 +7,7 @@ Det finns nu en hel del PCB-tillverkare som kan producera kretskort för några 
 Ladda bara ner våra kretsscheman och / eller Gerber-filer nedan, ladda upp dem på tillverkarens webbplats och beställ dina kretskort.
 
 <br>
-De senaste versionerna av PCB beskrivs här. Se [Helmut Bitter's Github] (https://github.com/hbitter/DNMS/tree/master/PCBs) för ytterligare information och för att komma åt KiCad-filerna.
+De senaste versionerna av PCB beskrivs här. Se [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs) för ytterligare information och för att komma åt KiCad-filerna.
 
 ### AIRROHR V1.4
 <img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>

@@ -16,9 +16,9 @@ Mikrofoniyksikkö perustuu Pesky Productsin irrotuslevyyn, jossa on MEMS-mikrofo
 ##### Mikrofoniyksikön kotelo
 Kotelo on valmistettu .500" (12,7 mm) polystyreeniputkesta. Tämän halkaisijan ansiosta useimmat kalibraattorit voidaan liittää suoraan laitteeseen.
 
-Prototyyppi kehitettiin [Evergreen No. 236 -putkella] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototyyppi kehitettiin [Evergreen No. 236 -putkella](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototyyppi kehitettiin [Evergreen No. 236 -putkella] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototyyppi kehitettiin [Evergreen No. 236 -putkella](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Kytkentälevy on sovitettava putken halkaisijaan viilalla. Käytä teippiä mikrofonin sisääntulon suojaamiseksi.
 <br>
@@ -42,7 +42,7 @@ Tiivistä putken ääriosa teipillä.
 
 Nyt voit täyttää putken hartsilla. Tämä vaihe on pakollinen resonanssin välttämiseksi ja kalibroitujen ja toistettavien tietojen saamiseksi.
 
-Prototyyppi kehitettiin käyttäen Copaltec GmbH:n valmistamaa [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
+Prototyyppi kehitettiin käyttäen Copaltec GmbH:n valmistamaa [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
 
 ##### Tekniset tiedot:
 * Läpilyöntilujuus: 28 kVmm
@@ -58,7 +58,7 @@ Prototyyppi kehitettiin käyttäen Copaltec GmbH:n valmistamaa [PURe Isolation S
 * Sovelluslämpötilat: - lämpötilat: 20 - +130 °C
 
 
-Electroluben valmistaman [polyuretaanihartsin UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) pitäisi myös toimia.
+Electroluben valmistaman [polyuretaanihartsin UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) pitäisi myös toimia.
 
 Kutakin letkua kohden pitäisi riittää 15 g hartsia.
 

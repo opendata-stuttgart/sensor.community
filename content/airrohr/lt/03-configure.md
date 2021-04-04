@@ -8,7 +8,7 @@ title: Konfigūruoti
 
 3. Kompiuteryje arba išmaniajame telefone prisijunkite prie stoties sukurto "WiFi" tinklo. Palaukite, kol bus užmegztas ryšys.<br>*Android*: Jei ryšys iš karto nutrūksta, gali tekti išjungti parinktį "Smart network switch" (išmanusis tinklo perjungimas), esančią skiltyje "Connections -> WiFi -> Advanced" (Ryšiai -> "WiFi" -> "Advanced").
 
-4. Atidarykite naršyklę ir įveskite [http://192.168.4.1] (http://192.168.4.1).
+4. Atidarykite naršyklę ir įveskite [http://192.168.4.1](http://192.168.4.1).
 
 > ⚠️ **Atkreipkite dėmesį** Gali prireikti kelių bandymų, kol NodeMCU prisijungs prie namų "WiFi" tinklo. Būkite kantrūs ir bandykite atlikti veiksmus kelis kartus, kol pavyks prisijungti. Jei jutiklio konfigūracija pavyko, stoties "WiFi" tinklas bus nepasiekiamas ir konfigūracijos puslapis nebebus pasiekiamas pagal šį IP 192.168.4.1
 

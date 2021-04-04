@@ -22,7 +22,7 @@ title: 介紹
 * [电源USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)
 * [电缆带](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+带子)
 * 柔性管，如果可能**不**透明，直径6毫米，长度约20厘米DIY商店。
-* [天气保护，Marley Silent HT Arc DN 75 87°](https://www.bauhaus.inforohrsystememarley-ht-bogen-p13625028)
+* [天气保护，Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 <br>
 

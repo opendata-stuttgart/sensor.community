@@ -16,9 +16,9 @@ Mikrofonenheden er baseret på Pesky Products breakout board med en MEMS-mikrofo
 ##### Hus til mikrofonenheden
 Huset er fremstillet af 12,7 mm (.500") polystyrenrør. Denne diameter gør det muligt at tilslutte de fleste kalibratorer direkte til enheden.
 
-Prototypen blev udviklet med [Evergreen No. 236 slange] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototypen blev udviklet med [Evergreen No. 236 slange](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototypen blev udviklet med [Evergreen No. 236 slange] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototypen blev udviklet med [Evergreen No. 236 slange](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Breakoutkortet skal tilpasses til slangens diameter med en fil. Brug noget tape til at beskytte mikrofonindgangen.
 <br>
@@ -42,7 +42,7 @@ Sørg for, at rørets yderste del er tæt med tape.
 
 Nu kan du fylde røret med noget harpiks. Dette trin er obligatorisk for at undgå resonans og opnå kalibrerede og reproducerbare data.
 
-Prototypen blev udviklet med [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produceret af Copaltec GmbH.
+Prototypen blev udviklet med [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produceret af Copaltec GmbH.
 
 ##### Specifikationer:
 * Dielektrisk styrke: 28 kVmm
@@ -58,7 +58,7 @@ Prototypen blev udviklet med [PURe Isolation ST 33] (https://www.buerklin.com/en
 * Anvendelsestemperaturer: - 20 til +130 °C
 
 
-[polyurethanharpiks UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) fra Electrolube burde også fungere.
+[polyurethanharpiks UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) fra Electrolube burde også fungere.
 
 For hver slange bør 15 g harpiks være tilstrækkeligt til hver slange.
 
