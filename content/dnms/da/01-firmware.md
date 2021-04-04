@@ -43,8 +43,8 @@ Der skal ikke installeres nogen drivere. Chip bør understøttes direkte (kan ko
 #### Firmware-flasher NodeMCU
 Understøttelse af flere operativsystemer: Windows, MacOS og Linux.
 
-* [airRohr Flashing Tool] (http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Source Code] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Tilslut NodeMCU til din computer med et kort mikro-USB-kabel (vælg et kortere end 1 meter, ellers kan installationen mislykkes). Vælg `latest_en.bin` (eller en anden sprogversion), og klik på "Upload".
 Vent, indtil processen er afsluttet. Nu kan vi montere sensoren.
@@ -58,9 +58,9 @@ I [Helmut Bitters Github](https://github.com/hbitter/DNMS/tree/master/Firmware) 
 * .hex
 
 ##### Teensy Loader
-Du kan flashe .hex-filen i Teensy-kortene med den selvstændige GUI-software [Teensy Loader] (https://www.pjrc.com/teensy/loader.html) til Windows, Mac og Linux.
+Du kan flashe .hex-filen i Teensy-kortene med den selvstændige GUI-software [Teensy Loader](https://www.pjrc.com/teensy/loader.html) til Windows, Mac og Linux.
 Der findes også en version til kommandolinjen.
 
 ##### Teensyduino
-Du kan flashe .ino-filen i Teensy-boardet med Arduino IDE-udvidelsen [Teensyduino] (https://www.pjrc.com/teensy/teensyduino.html).
+Du kan flashe .ino-filen i Teensy-boardet med Arduino IDE-udvidelsen [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
 Hvis det er nødvendigt, kan du ændre firmwaren direkte i Arduino IDE.

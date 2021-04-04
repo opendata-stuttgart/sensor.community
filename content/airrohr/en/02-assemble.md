@@ -35,7 +35,6 @@ SDS011 Pin 7 -> unused
 💡 You can find a list of [sensors supported by our firmware](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)
 
 
-
 ### Solder together BME280
 <img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>
 <img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
@@ -43,7 +42,6 @@ SDS011 Pin 7 -> unused
 Connect the pin header with the BME280 board. Solder it from the backside. The gaps between the pins are very small so be patient and careful.  
 
 The trick is to put the soldering iron tip to the pin, warm it up a little, and then lightly apply the solder.  
-
 
 
 ### Wire the BME280
@@ -57,19 +55,19 @@ SCL -> Pin D4
 
 ### Tie everything together
 
- ##### Tie NodeMCU and SDS011 together
+##### Tie NodeMCU and SDS011 together
 <img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 Use a cable tie to link the NodeMCU (ESP8266) and the SDS011 sensor so that the Wifi antenna points away from the sensor
 
- ##### Connect flexible tube
- <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
- <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
+##### Connect flexible tube
+<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
+<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
 
 * connect the flexible tube to the SDS011 sensor
 * Use another cable tie to attach the BME280 temperature sensor to the tube
 * Pass the USB cable through the tube. Mount the SDS011 with the NodeMCU facing to the top and the fan facing to the bottom
  
- ##### Push in sensor into the pipe
+##### Push in sensor into the pipe
 * Push the parts into the tube, so it's jammed inside
 * USB cable, flexible tube and BME280 should look out of the tube's end
 * Push the other pipe onto the first one.

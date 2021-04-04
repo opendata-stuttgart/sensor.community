@@ -10,10 +10,10 @@ Katso __firmware flasher__ -osio.
 Huomautus: Ohjeemme viittaavat NodeMCU:n versioon 3. Tämän tunnistaa liitännöistä VU ja G (ks. piirros).
 
 Huomautus: Ohjeemme viittaavat NodeMCU:n versioon 3. Tämän tunnistaa liitännöistä VU ja G (ks. piirros).
-<small>Copyright: roman-minyaylov, MIT License<small>
+<small>Copyright: roman-minyaylov, MIT License</small>
 
 
-<img src="..docsairrohrnodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy">
+<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>
 
 ##### Kun olet valmis, sen pitäisi näyttää tältä.
 
@@ -32,7 +32,7 @@ SDS011 Nasta 7 -> ei käytössä
 
 <br>
 
-💡 Löydät luettelon [firmware-ohjelmistomme tukemista antureista](https://github.comopendata-stuttgartsensors-softwareblobmasterairrohr-firmwareReadme.md).
+💡 Löydät luettelon [firmware-ohjelmistomme tukemista antureista](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md).
 
 
 
@@ -58,7 +58,7 @@ SCL -> Nasta D4
 ### Sido kaikki yhteen
 
  ##### Sido NodeMCU ja SDS011 yhteen.
-<img src="..docsairrohrtie-air-quality-sensor-together.jpeg" loading="lazy">
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 Yhdistä NodeMCU (ESP8266) ja SDS011-anturi kaapelisidoksella siten, että Wlan-antenni osoittaa poispäin anturista.
 
  ##### Connect joustava putki
@@ -74,14 +74,15 @@ Yhdistä NodeMCU (ESP8266) ja SDS011-anturi kaapelisidoksella siten, että Wlan-
 * USB-kaapelin, taipuisan putken ja BME280:n pitäisi näkyä ulos putken päästä
 * Työnnä toinen putki ensimmäisen putken päälle.
 
-<img src="..docsairrohrsds011-jammed-into-tube.jpeg" loading="lazy">
+<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
 ##### Viimeistely
 * Aseta lämpötila-anturi joustavaan putkeen niin, että se on putken reunalla.
 * Katkaise joustava putki putken päästä.
 * Valinnainen: voit peittää putken avoimet päät hienolla verkolla. Näin ilma pääsee kiertämään, mutta hyönteiset pysyvät ulkopuolella.
 * Valinnainen: voit peittää putken avoimet päät hienolla verkolla. Näin ilma pääsee kiertämään, mutta hyönteiset pysyvät ulkopuolella.
-<img src="..docsairrohrposition-bme280.jpeg" loading="lazy">
+<img src="../docs/airrohr/position-bme280.jpeg" loading="lazy"/>
+
 
 ### Sijoitus
 Ihanteellinen paikka olisi 1,5-3,5 metriä kadun yläpuolella ja hyvin tuuletettu. Tätä ei kuitenkaan voida tehdä kaikkien ihmisten kohdalla, joten rekisteröinnin yhteydessä pyydetään tietoja, kuten korkeus maanpinnasta ja sijainti kadulle päin.

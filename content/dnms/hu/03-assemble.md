@@ -16,9 +16,9 @@ A mikrofon egység a Pesky Products ICS-43434 MEMS mikrofonnal ellátott breakou
 ##### A mikrofonegység háza
 A ház 12,7 mm-es (500") polisztirol csőből készült. Ez az átmérő lehetővé teszi a legtöbb kalibrátor közvetlen csatlakoztatását a készülékhez.
 
-A prototípust a [236-os számú Evergreen csővel] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) fejlesztették ki.
+A prototípust a [236-os számú Evergreen csővel](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) fejlesztették ki.
 
-A prototípust a [236-os számú Evergreen csővel] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) fejlesztették ki.
+A prototípust a [236-os számú Evergreen csővel](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) fejlesztették ki.
 <br>
 A kibontó lapot egy reszelővel kell a cső átmérőjéhez igazítani. Használjon némi ragasztószalagot a mikrofon bemenetének védelmére.
 <br>
@@ -42,7 +42,7 @@ A cső végét szorítsa meg a szalaggal.
 
 Most már meg lehet tölteni a csövet egy kis gyantával. Ez a lépés kötelező a rezonancia elkerülése és a kalibrált és reprodukálható adatok elérése érdekében.
 
-A prototípust a Copaltec GmbH által gyártott [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) felhasználásával fejlesztették ki.
+A prototípust a Copaltec GmbH által gyártott [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) felhasználásával fejlesztették ki.
 
 ##### Specifikációk:
 * Dielektromos szilárdság: 28 kVmm

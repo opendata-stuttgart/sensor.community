@@ -56,11 +56,11 @@ Originalias instrukcijas ir ankstesnes triukšmo jutiklio versijas rasite [Helmu
 <br>
 DNMS (skaitmeninis triukšmo matavimo jutiklis) gali būti derinamas su "airRohr" PM jutikliu:
 
-* SPS30 smulkių dulkių jutiklis] (https://www.sparkfun.com/products/15103). Kiti pardavėjai: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Galima naudoti ir įprastą [SDS011 kietųjų dalelių jutiklį](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
-* [BME280 6-PIN versija, temperatūra ir drėgmė] (https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Kiti pardavėjai: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
-* [Kabelis] (http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+kabelys+20cm+vyriškas-vyriškas)
-* [USB laidas, pvz.: plokščias 2 m Micro-USB] (https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+USB+plokščias+laidas+2m)
-* [USB maitinimo šaltinis] (https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+mikro+usb+eu+power+supply)
+* SPS30 smulkių dulkių jutiklis](https://www.sparkfun.com/products/15103). Kiti pardavėjai: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Galima naudoti ir įprastą [SDS011 kietųjų dalelių jutiklį](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
+* [BME280 6-PIN versija, temperatūra ir drėgmė](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Kiti pardavėjai: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+* [Kabelis](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+kabelys+20cm+vyriškas-vyriškas)
+* [USB laidas, pvz.: plokščias 2 m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+USB+plokščias+laidas+2m)
+* [USB maitinimo šaltinis](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+mikro+usb+eu+power+supply)
 * [Trosų diržai](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+diržai)
 
 PCB ir apsauga nuo atmosferos poveikio bus aprašyti toliau.

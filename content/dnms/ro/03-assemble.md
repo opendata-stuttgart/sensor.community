@@ -16,9 +16,9 @@ Unitatea de microfon se bazează pe o placă de descompunere Pesky Products cu u
 ##### Carcasă pentru unitatea de microfon
 Carcasa este fabricată cu un tub de polistiren de 12,7 mm (0,500"). Acest diametru permite conectarea directă a majorității calibratoarelor la unitate.
 
-Prototipul a fost dezvoltat cu [tubulatura Evergreen nr. 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipul a fost dezvoltat cu [tubulatura Evergreen nr. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototipul a fost dezvoltat cu [tubulatura Evergreen nr. 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipul a fost dezvoltat cu [tubulatura Evergreen nr. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Placa de conectare trebuie adaptată la diametrul tubului cu ajutorul unui fișier. Folosiți niște bandă adezivă pentru a proteja intrarea microfonului.
 <br>

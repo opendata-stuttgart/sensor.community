@@ -3,7 +3,7 @@ title: PCB ir grandynų schemos
 ---
 
 Geriausias būdas sukurti DNMS - naudoti vieną iš mūsų spausdintinių plokščių.
-Šiuo metu yra nemažai PCB gamintojų, kurie gali gaminti spausdintines plokštes už kelis dolerius be jokio minimalaus kiekio. Pavyzdžiui, [JLCPCB] (https://jlcpcb.com/).
+Šiuo metu yra nemažai PCB gamintojų, kurie gali gaminti spausdintines plokštes už kelis dolerius be jokio minimalaus kiekio. Pavyzdžiui, [JLCPCB](https://jlcpcb.com/).
 Tiesiog atsisiųskite mūsų schemas arba "Gerber" failus, įkelkite juos į gamintojo svetainę ir užsisakykite PCB.
 
 <br>

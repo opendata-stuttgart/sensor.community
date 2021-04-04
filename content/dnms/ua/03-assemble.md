@@ -15,7 +15,7 @@ title: Зібрати
 ##### Корпус для мікрофонного блоку
 Корпус виконаний з полістиролової трубки .500 "(12,7 мм). Цей діаметр дозволяє безпосередньо підключити більшість калібраторів на пристрої.
 
-Прототип був розроблений за допомогою [трубки Evergreen № 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Прототип був розроблений за допомогою [трубки Evergreen № 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
@@ -59,7 +59,7 @@ title: Зібрати
 * Теплопровідність: 0,3 Вт / мК
 * Температура застосування: - від 20 до +130 ° C
 
-[Поліуретанова смола UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf), виготовлена ​​Electrolube, також повинна працювати.
+[Поліуретанова смола UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf), виготовлена ​​Electrolube, також повинна працювати.
 
 Для кожної трубки повинно бути достатньо 15 г смоли.
 

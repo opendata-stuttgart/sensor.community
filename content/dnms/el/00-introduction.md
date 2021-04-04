@@ -57,8 +57,8 @@ title: Εισαγωγή
 Ο αισθητήρας DNMS (ψηφιακός αισθητήρας μέτρησης θορύβου) μπορεί να συνδυαστεί με έναν αισθητήρα PM της airRohr:
 
 * Αισθητήρας λεπτής σκόνης SPS30](https://www.sparkfun.com/products/15103). Άλλοι πωλητές: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Μπορεί επίσης να χρησιμοποιηθεί ο συνήθης αισθητήρας [SDS011 PM sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
-* [Έκδοση BME280 6-PIN, θερμοκρασία και υγρασία] (https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Άλλοι πωλητές: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
-* [Καλώδιο] (http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+καλώδιο+20cm+θηλυκό-θηλυκό)
+* [Έκδοση BME280 6-PIN, θερμοκρασία και υγρασία](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Άλλοι πωλητές: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+* [Καλώδιο](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+καλώδιο+20cm+θηλυκό-θηλυκό)
 * [Καλώδιο USB π.χ.: επίπεδο 2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+usb+επίπεδο+καλώδιο+2m)
 * [Τροφοδοτικό USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)
 * [ιμάντες καλωδίων](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+ ιμάντες)

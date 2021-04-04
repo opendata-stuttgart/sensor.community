@@ -4,7 +4,8 @@ title: Bevezetés
 > 🚧 Építsd meg barkácsérzékelődet, és légy része a világméretű opendata &amp; civictech hálózatnak. <br> Az airRohr segítségével maga is mérheti a légszennyezettséget.
 
 
-<img src="..docsairrohrparticulate-matter-air-quality-sensor-kit.jpeg" loading="lazy">
+<img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
+
 
 ### Bevásárlólista
 ##### Érzékelő készlet
@@ -17,12 +18,12 @@ title: Bevezetés
   - [via Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)
   - [via Nettgio](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280)
   - [via Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
-* [Kábel] (http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+kábel+20cm+női-női)
+* [Kábel](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+kábel+20cm+női-női)
 * [USB kábel pl.: lapos 2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+usb+lapos+kábel+2m)
 * [Tápegység USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+mikro+usb+eu+táp+tápegység)
 * [kábelhevederek](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+hevederek)
 * Rugalmas cső, lehetőleg **nem** átlátszó, átmérője 6 mm, hossza kb. 20 cm Barkácsáruházban kapható
-* [Időjárásvédelem, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.inforohrsystememarley-ht-bogen-p13625028)
+* [Időjárásvédelem, Marley Silent HT Arc DN 75 87°](https://www.bauhaus.info/rohrsysteme/marley-ht-bogen-/p/13625028)
 
 
 <br>

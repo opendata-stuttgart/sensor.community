@@ -16,9 +16,9 @@ title: Συναρμολόγηση
 ##### Περίβλημα για τη μονάδα μικροφώνου
 Το περίβλημα είναι κατασκευασμένο από σωλήνα πολυστερίνης 0,500" (12,7 mm). Αυτή η διάμετρος επιτρέπει την απευθείας σύνδεση των περισσότερων βαθμονομητών στη μονάδα.
 
-Το πρωτότυπο αναπτύχθηκε με τη σωλήνωση [Evergreen αριθ. 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Το πρωτότυπο αναπτύχθηκε με τη σωλήνωση [Evergreen αριθ. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Το πρωτότυπο αναπτύχθηκε με τη σωλήνωση [Evergreen αριθ. 236] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Το πρωτότυπο αναπτύχθηκε με τη σωλήνωση [Evergreen αριθ. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Η πλακέτα διάσπασης πρέπει να προσαρμοστεί στη διάμετρο του σωλήνα με μια λίμα. Χρησιμοποιήστε ταινία για να προστατέψετε την είσοδο του μικροφώνου.
 <br>
@@ -42,7 +42,7 @@ title: Συναρμολόγηση
 
 Τώρα μπορείτε να γεμίσετε το σωλήνα με λίγη ρητίνη. Αυτό το βήμα είναι υποχρεωτικό για να αποφύγετε τον συντονισμό και να λάβετε βαθμονομημένα και αναπαραγώγιμα δεδομένα.
 
-Το πρωτότυπο αναπτύχθηκε με λίγο [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) που παράγεται από την Copaltec GmbH.
+Το πρωτότυπο αναπτύχθηκε με λίγο [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) που παράγεται από την Copaltec GmbH.
 
 ##### Προδιαγραφές:
 * Διηλεκτρική αντοχή: 28 kVmm

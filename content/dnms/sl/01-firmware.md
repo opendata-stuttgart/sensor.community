@@ -43,7 +43,7 @@ Gonilnikov ni treba namestiti. Čip mora biti podprt neposredno (preveri se z dm
 #### Firmware Flasher NodeMCU
 Podpora za več operacijskih sistemov: Windows, MacOS in Linux.
 
-* [AirRohr Flashing Tool] (http://firmware.sensor.community/airrohr/flashing-tool/)
+* [AirRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
 * [Izvorna koda](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Povežite NodeMCU z računalnikom s kratkim kablom micro-USB (izberite kabel, ki je krajši od 1 metra, sicer namestitev morda ne bo uspešna). Izberite `latest_en.bin` (ali drugo jezikovno različico) in kliknite "Upload".

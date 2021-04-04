@@ -26,7 +26,7 @@ title: Introduction
  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
-Sprawdź oryginalne instrukcje i poprzednie wersje czujnika hałasu na [Helmut Bitter's Github] (https://github.com/hbitter/DNMS/tree/master/Manual).
+Sprawdź oryginalne instrukcje i poprzednie wersje czujnika hałasu na [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
 
 <br>
 
