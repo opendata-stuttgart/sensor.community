@@ -10,10 +10,14 @@ Vt __firmware flasher__ jagu.
 
 Mikrofoniüksus põhineb Pesky Products Breakout-plaadil koos MEMS-mikrofoniga ICS-43434. Sellist tahvlit saab osta [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
+<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 ##### Mikrofoniüksuse korpus
 Korpus on valmistatud .500" (12,7 mm) polüstüreenist torudest. See läbimõõt võimaldab ühendada otse enamik kalibraatoreid seadme külge.
 
 Prototüüp töötati välja [Evergreen nr 236 torustikuga](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 <br>
 Väljalülitusplaat tuleb viiluga kohandada torude läbimõõdule. Mikrofoni sisselaskeava kaitsmiseks kasutage teipi.
 <br>
@@ -29,6 +33,7 @@ Lõika 115 mm pikkune torutükk.
 <br>
 Kleepige mikrofoniplaat ristatud teibiga. Pange kaablid torusse ja kinnitage plaat toru otsa.
 <br>
+
 <img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
@@ -118,10 +123,6 @@ Vabalt seisev, vähemalt 1 m kõrgune mast võiks samuti olla lahendus, kuid sii
 Samuti on oluline olla alati teadlik sellest, et me mõõdame ümbritsevat müra.  Me saame ainult ligikaudselt hinnata selliste müraallikate nagu maantee või raudtee müra.
 
 Mida lähemale te aga allikale lähete, seda täpsemaks muutub viide allikale. Firmware uuendamine peaks siis võimaldama saada täpsed mõõtmised tuvastatud tüüpi müra jaoks.
-
-Mida lähemale te aga allikale lähete, seda täpsemaks muutub viide allikale. Firmware uuendamine peaks siis võimaldama saada täpsed mõõtmised tuvastatud tüüpi müra jaoks.
-Mida lähemale te aga allikale lähete, seda täpsemaks muutub viide allikale. Firmware uuendamine peaks siis võimaldama saada täpsed mõõtmised tuvastatud tüüpi müra jaoks.
-<br>
 
 <img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
