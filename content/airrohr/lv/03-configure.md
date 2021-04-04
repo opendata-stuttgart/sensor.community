@@ -21,12 +21,13 @@ title: Konfigurēt
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 
 <br>
 
 #### Pārbaudiet, vai stacija ir pareizi konfigurēta
 Ja iepriekšējā solī neveicat citas izmaiņas, izņemot WiFi tīkla konfigurāciju, sensors tagad sāks ierakstīt un augšupielādēt datus. Aptuveni pēc 10 minūtēm varat pārbaudīt, vai viss darbojas pareizi, pārejot uz turpmākajām lapām. Šajās lapās meklējiet ChipID (iepriekš minētajā piemērā - 13597771).
 
- * [Sensoru dati](https://www.madavi.desensorgraph.php)
- * [WiFi signāla dati](https://www.madavi.desensorsignal.php)
+ * [Sensoru dati](https://www.madavi.de/sensor/graph.php)
+ * [WiFi signāla dati](https://www.madavi.de/sensor/signal.php)

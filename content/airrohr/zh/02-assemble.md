@@ -32,7 +32,7 @@ SDS011 引脚7 -&gt; 未使用
 
 &lt;br&gt;
 
-💡 您可以找到[我们固件支持的传感器](https://github.comopendata-stuttgartsensors-softwareblobmasterairrohr-firmwareReadme.md)的列表。
+💡 您可以找到[我们固件支持的传感器](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)的列表。
 
 ### 焊接在一起BME280
 将引脚头与BME280板连接。从背面焊接。引脚之间的缝隙非常小，所以要耐心和小心。

@@ -8,17 +8,17 @@ Pozri časť __firmware flasher__.
 
 ### Mikrofónová jednotka
 
-Mikrofónová jednotka je založená na rozbočovacej doske Pesky Products s mikrofónom MEMS ICS-43434. Takúto dosku môžete nájsť na [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofónová jednotka je založená na rozbočovacej doske Pesky Products s mikrofónom MEMS ICS-43434. Takúto dosku môžete nájsť na [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofónová jednotka je založená na rozbočovacej doske Pesky Products s mikrofónom MEMS ICS-43434. Takúto dosku môžete nájsť na [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofónová jednotka je založená na rozbočovacej doske Pesky Products s mikrofónom MEMS ICS-43434. Takúto dosku môžete nájsť na [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Puzdro pre jednotku mikrofónu
 Kryt je vyrobený z polystyrénovej rúrky s priemerom 12,7 mm (0,500"). Tento priemer umožňuje priamo pripojiť väčšinu kalibrátorov na jednotku.
 
-Prototyp bol vyvinutý s rúrkou [Evergreen No. 236](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototyp bol vyvinutý s rúrkou [Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototyp bol vyvinutý s rúrkou [Evergreen No. 236](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototyp bol vyvinutý s rúrkou [Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Rozbočovaciu dosku je potrebné prispôsobiť priemeru rúrky pomocou pilníka. Na ochranu vstupu mikrofónu použite pásku.
 <br>
@@ -42,7 +42,7 @@ Koniec rúrky utiahnite páskou.
 
 Teraz môžete rúrku naplniť živicou. Tento krok je povinný, aby sa zabránilo rezonancii a získali sa kalibrované a reprodukovateľné údaje.
 
-Prototyp bol vyvinutý s niektorými [PURe Isolation ST 33](https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900) vyrobenými spoločnosťou Copaltec GmbH.
+Prototyp bol vyvinutý s niektorými [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) vyrobenými spoločnosťou Copaltec GmbH.
 
 ##### Špecifikácie:
 * Dielektrická pevnosť: 28 kVmm
@@ -58,7 +58,7 @@ Prototyp bol vyvinutý s niektorými [PURe Isolation ST 33](https://www.buerklin
 * Teploty aplikácie: - 20 až +130 °C
 
 
-Mala by fungovať aj [polyuretánová živica UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) od spoločnosti Electrolube.
+Mala by fungovať aj [polyuretánová živica UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) od spoločnosti Electrolube.
 
 Na každú hadičku by malo stačiť 15 g živice.
 
@@ -78,17 +78,17 @@ Samotná rúrka by mala byť dlhá 160 mm. DNMS vyzerá, že miesto v. Puzdro mi
 
 Oblúk zabraňuje vnikaniu vody a vlhkosti do puzdra a zároveň prepúšťa kábel.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS je pripojený k druhej doske plošných spojov pomocou kábla RJ12. Ak je tento kábel dlhší ako 250 mm, musíte použiť predĺženie I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Keď je všetko dobre spojené, diely sa zlepia.
 
 Výsledok:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DPS s jednotkou NodeMCU možno umiestniť do ľubovoľnej elektrickej skrinky.
 
@@ -106,7 +106,8 @@ Je bezpodmienečne nutné nainštalovať ochranu proti poveternostným vplyvom v
 
 Tieto penové kryty sa bežne predávajú ako "kryty na meracie mikrofóny". Sú však drahé. Môžete tiež vziať normálnu penovú guľôčku a vystrihnúť do nej otvor nožnicami.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### Umiestnenie mikrofónu
 

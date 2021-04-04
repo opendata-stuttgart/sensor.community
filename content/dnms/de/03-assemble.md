@@ -8,7 +8,7 @@ Siehe Abschnitt __Firmware-Flasher__.
 
 ### Mikrofoneinheit
 
-Die Mikrofoneinheit basiert auf einem Breakout-Board von Pesky Products mit einem MEMS-Mikrofon ICS-43434. Auf dem [Tindie-Marktplatz] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) kann man solche Boards finden.
+Die Mikrofoneinheit basiert auf einem Breakout-Board von Pesky Products mit einem MEMS-Mikrofon ICS-43434. Auf dem [Tindie-Marktplatz](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) kann man solche Boards finden.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
@@ -19,6 +19,7 @@ Das Gehäuse ist aus einem .500" (12,7mm) Polystyrolrohr gefertigt. Dieser Durch
 Der Prototyp wurde mit dem [Evergreen-Rohr Nr. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) entwickelt.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 Die Breakout-Platine muss mit einer Feile an den Durchmesser des Schlauches angepasst werden. Daher etwas Klebeband verwenden, um den Mikrofoneingang zu schützen.
 <br>
@@ -58,7 +59,7 @@ Der Prototyp wurde entwickelt mit [PURe Isolation ST 33](https://www.buerklin.co
 * Anwendungstemperaturen: - 20 bis +130 °C
 
 
-Das [Polyurethanharz UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) der Firma Electrolube sollte ebenfalls funktionieren.
+Das [Polyurethanharz UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) der Firma Electrolube sollte ebenfalls funktionieren.
 
 Für jeden Schlauch sollten 15 g Harz ausreichen.
 
@@ -101,7 +102,8 @@ Es ist unbedingt ein Wetterschutz in Form einer Schaumstoffabdeckung anzubringen
 
 Diese Schaumstoffabdeckungen werden normalerweise als "Abdeckungen für Messmikrofone" verkauft. Sind aber teuer. Alternative einen normalen Schaumstoffball nehmen und mit der Schere ein Loch hineinschneiden.
 
-Bestellt werden können diese bei [Aliexpress](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2).
+Bestellt werden können diese bei [Aliexpress](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+).
 
 ### Standort des Mikrofons
 

@@ -16,7 +16,7 @@ Moduł mikrofonowy oparty jest na płycie Pesky Products breakoutboard z mikrofo
 ##### Obudowa modułu mikrofonu
 Obudowa wykonana jest z rurki styropianowej .500" (12,7 mm). Średnica ta pozwala na bezpośrednie podłączenie większości kalibratorów do urządzenia.
 
-Prototyp został opracowany przy użyciu [Evergreen nr 236 rurki] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototyp został opracowany przy użyciu [Evergreen nr 236 rurki](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; marginale: 3em 0" loading="lazy"/>
 <br>
@@ -105,7 +105,8 @@ Bezwzględnie konieczne jest zainstalowanie zabezpieczenia pogodowego w postaci 
 
 Te piankowe osłony są zwykle sprzedawane jako "osłony do mikrofonów pomiarowych". Ale są one drogie. Można też wziąć normalną piankową kulkę i wyciąć w niej otwór nożyczkami.
 
-If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### Location of the microphone 
 

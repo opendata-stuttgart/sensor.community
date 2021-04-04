@@ -20,7 +20,7 @@ Ingrese lo siguiente en el navegador con sus propios datos:
     * Busca la red WLAN “airrohr-[ID]”. Paciencia, puede tardar 1-2 minutos antes del reinicio.
 * Verifique en su propio rooter si el sensor está conectado a la red, luego recuerde la IP
 * Comprueba en tu propio router si el sensor está conectado a la red, entonces recuerda la IP 
-    * De forma alternativa, usa “Discovery” en el [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+    * De forma alternativa, usa “Discovery” en el [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
     * Si es así: conéctalo al sensor mediante la IP con un navegador “http://[ip-of-the-sensor]/” , la interfaz debería aparecer
     * Si no es así: el ESP tiene problemas. Puede ser un problema, por ejemplo de insuficiencia en el suministrador de energía. Reinicia.
 * Conecta el USB a un ordenador y comprueba el registro 

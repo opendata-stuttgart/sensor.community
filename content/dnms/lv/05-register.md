@@ -20,10 +20,9 @@ Sākums -> (Pieslēgties) - Mani sensori -> Reģistrēt jaunu sensoru
 #### NB!
 Pašlaik nav iespējams reģistrēt gan PM sensoru, gan TempHumidity sensoru, gan DNMS sensoru, kas savienots ar NodeMCU.
 Pašlaik to var izdarīt tikai manuāli, vienkārši nosūtiet pieprasījumu uz tech (at) sensor.community.
-Siehe [izdevums] (https://github.comopendata-stuttgartsensor.communityissues117
-), lai iegūtu sīkāku informāciju.
+Siehe [izdevums](https://github.com/opendata-stuttgart/sensor.community/issues/117), lai iegūtu sīkāku informāciju.
 
 Pašlaik nav iespējams reģistrēt, izmantojot vietni, gan PM sensoru, gan gaisa mitruma, gan DNMS sensoru, kas savienots ar vienu NodeMCU.
 Pagaidām to var izdarīt tikai manuāli, nosūtot pieprasījumu uz tech (at) sensor.community.
-Skatīt [jautājums](https://github.comopendata-stuttgartsensor.communityissues117
+Skatīt [jautājums](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ), lai iegūtu sīkāku informāciju.

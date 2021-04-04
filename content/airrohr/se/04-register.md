@@ -4,7 +4,7 @@ title: Registrera
 
 ### Skapa ett konto
 
-Gå till [devices.sensor.community] (https://devices.sensor.community/) för att skapa ett konto och bli en del av det öppna datanätverket.
+Gå till [devices.sensor.community](https://devices.sensor.community/) för att skapa ett konto och bli en del av det öppna datanätverket.
 
 
 ### Registrera din enhet

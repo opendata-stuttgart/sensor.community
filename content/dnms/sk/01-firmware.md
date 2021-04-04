@@ -11,11 +11,11 @@ Na komunikáciu so zariadením ESP8266 potrebujete ovládače usb2serial pre svo
 ### Windows
 
 ##### Ovládače pre model V2 (CP2102) pre Windows
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - systém Windows 10 by mal byť schopný ich automaticky stiahnuť
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32-bitová verzia - **nepodporuje** 64-bitovú verziu OS
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - systém Windows 10 by mal byť schopný ich automaticky stiahnuť
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitová verzia - **nepodporuje** 64-bitovú verziu OS
 
 ##### Ovládač pre model V3 (CH341) pre Windows
-* [Windows](http://www.wch.cndownloadsfile5.html) - systém Windows 10 by mal byť schopný ich automaticky stiahnuť
+* [Windows](http://www.wch.cn/downloads/file/5.html) - systém Windows 10 by mal byť schopný ich automaticky stiahnuť
 
 ##### Rozbaľte stiahnutý súbor pre systém Windows:
 * pre V2: Otvorte priečinok CP210x a dvakrát kliknite na aplikáciu CP210xVCPInstaller_x64 (alebo x86)
@@ -26,8 +26,8 @@ Na komunikáciu so zariadením ESP8266 potrebujete ovládače usb2serial pre svo
 ### MacOS
 
 ##### Ovládače systému MacOS
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Rozbaľte stiahnutý súbor pre systém MacOS.
 * pre V2: Rozbaľte priečinok CP210x a dvakrát kliknite na aplikáciu CP210xVCPInstaller_x64 (alebo x86)
@@ -43,8 +43,8 @@ Nie je potrebné inštalovať žiadne ovládače. Čip by mal byť podporovaný 
 ### Firmware Flasher NodeMCU
 Podpora viacerých operačných systémov: Windows, MacOS a Linux.
 
-* [airRohr Flashing Tool](http://firmware.sensor.communityairrohrflashing-tool)
-* [Zdrojový kód](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Zdrojový kód](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Pripojte NodeMCU k počítaču pomocou krátkeho kábla micro-USB (vyberte kratší ako 1 meter, inak môže inštalácia zlyhať). Vyberte súbor `latest_en.bin` (alebo inú jazykovú verziu) a kliknite na tlačidlo "Upload".
 Počkajte, kým sa proces ukončí. Teraz môžeme senzor zostaviť.
@@ -53,14 +53,14 @@ Veľká vďaka patrí [Piotrovi, z Poľska](https://dropbox.inf.re), za jeho pom
 
 ---
 ### Firmware Flasher Teensy
-V [Githube Helmuta Bittera](https://github.comhbitterDNMStreemasterFirmware) nájdete dva druhy firmvéru:
+V [Githube Helmuta Bittera](https://github.com/hbitter/DNMS/tree/master/Firmware) nájdete dva druhy firmvéru:
 * .ino
 * .hex
 
 ##### Teensy Loader
-Súbor .hex môžete flashovať na doskách Teensy pomocou samostatného grafického softvéru [Teensy Loader](https://www.pjrc.comteensyloader.html) pre Windows, Mac a Linux.
+Súbor .hex môžete flashovať na doskách Teensy pomocou samostatného grafického softvéru [Teensy Loader](https://www.pjrc.com/teensy/loader.html) pre Windows, Mac a Linux.
 Existuje aj verzia pre príkazový riadok.
 
 ##### Teensyduino
-Súbor .ino môžete flashovať v doskách Teensy s príponou Arduino IDE [Teensyduino](https://www.pjrc.comteensyteensyduino.html).
+Súbor .ino môžete flashovať v doskách Teensy s príponou Arduino IDE [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
 V prípade potreby môžete firmvér upraviť priamo v prostredí Arduino IDE.

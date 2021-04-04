@@ -8,17 +8,17 @@ Se afsnittet __firmware flasher__.
 
 #### Mikrofonenhed
 
-Mikrofonenheden er baseret på Pesky Products breakout board med en MEMS-mikrofon ICS-43434. Du kan finde et sådant board på [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofonenheden er baseret på Pesky Products breakout board med en MEMS-mikrofon ICS-43434. Du kan finde et sådant board på [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofonenheden er baseret på Pesky Products breakout board med en MEMS-mikrofon ICS-43434. Du kan finde et sådant board på [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofonenheden er baseret på Pesky Products breakout board med en MEMS-mikrofon ICS-43434. Du kan finde et sådant board på [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Hus til mikrofonenheden
 Huset er fremstillet af 12,7 mm (.500") polystyrenrør. Denne diameter gør det muligt at tilslutte de fleste kalibratorer direkte til enheden.
 
-Prototypen blev udviklet med [Evergreen No. 236 slange] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototypen blev udviklet med [Evergreen No. 236 slange](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototypen blev udviklet med [Evergreen No. 236 slange] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototypen blev udviklet med [Evergreen No. 236 slange](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Breakoutkortet skal tilpasses til slangens diameter med en fil. Brug noget tape til at beskytte mikrofonindgangen.
 <br>
@@ -42,7 +42,7 @@ Sørg for, at rørets yderste del er tæt med tape.
 
 Nu kan du fylde røret med noget harpiks. Dette trin er obligatorisk for at undgå resonans og opnå kalibrerede og reproducerbare data.
 
-Prototypen blev udviklet med [PURe Isolation ST 33] (https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900) produceret af Copaltec GmbH.
+Prototypen blev udviklet med [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produceret af Copaltec GmbH.
 
 ##### Specifikationer:
 * Dielektrisk styrke: 28 kVmm
@@ -58,7 +58,7 @@ Prototypen blev udviklet med [PURe Isolation ST 33] (https://www.buerklin.comenP
 * Anvendelsestemperaturer: - 20 til +130 °C
 
 
-[polyurethanharpiks UR5545] (https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) fra Electrolube burde også fungere.
+[polyurethanharpiks UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) fra Electrolube burde også fungere.
 
 For hver slange bør 15 g harpiks være tilstrækkeligt til hver slange.
 
@@ -78,17 +78,17 @@ Selve røret skal være 160 mm langt. DNMS ser ud til at være placeret i. Mikro
 
 Buen forhindrer vand og fugt i at trænge ind i huset, mens kablet kan passere.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS er forbundet til det andet PCB med et RJ12-kabel. Hvis dette kabel er længere end 250 mm, skal du bruge en I²C-forlænger.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Når alt er godt forbundet, limes delene sammen.
 
 Resultat:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 PCB'et med NodeMCU'en kan placeres i en hvilken som helst elektrisk boks.
 
@@ -106,7 +106,8 @@ Det er absolut nødvendigt at installere en vejrbeskyttelse i form af et skumdæ
 
 Disse skumdæksler sælges normalt som "dæksler til målemikrofoner". Men de er dyre. Du kan også tage en normal skumkugle og klippe et hul med en saks.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### Mikrofonens placering
 

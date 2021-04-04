@@ -26,10 +26,10 @@ title: Εισαγωγή
 
 > 🚧 Κατασκευάστε τον DIY αισθητήρα σας και γίνετε μέρος του παγκόσμιου δικτύου opendata &amp; civictech. <br> Με τον DNMS (Ψηφιακός αισθητήρας μέτρησης θορύβου) μπορείτε να μετρήσετε μόνοι σας τη ρύπανση από θόρυβο.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
-Δείτε τις αρχικές οδηγίες και προηγούμενες εκδόσεις του αισθητήρα θορύβου στο [Github του Helmut Bitter](https://github.comhbitterDNMStreemasterManual).
+Δείτε τις αρχικές οδηγίες και προηγούμενες εκδόσεις του αισθητήρα θορύβου στο [Github του Helmut Bitter](https://github.com/hbitter/DNMS/tree/master/Manual).
 
 <br>
 
@@ -49,18 +49,18 @@ title: Εισαγωγή
 ### Λίστα αγορών
 
 ##### Ενιαία εξαρτήματα
-* [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=nodemcu+v3+esp8266+ch340)
-* [Teensy 4.0 development board](https://www.pjrc.comstoreteensy40.html). Άλλοι πωλητές: [EXPTECH](https://www.exp-tech.deplattformenteensy9596teensy-4.0-development-board), [Antratek](https://www.antratek.deteensy-4-0), [PIMORONI](https://shop.pimoroni.comproductsteensy-4-0-development-board)
-* [Digitales Mikrofon ICS-43434](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone)
+* [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
+* [Teensy 4.0 development board](https://www.pjrc.com/store/teensy40.html). Άλλοι πωλητές: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
+* [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * εξαιρετικά εύκαμπτα καλώδια σιλικόνης με διάμετρο 0,15mm² (AWG 26) σε 6 διαφορετικά χρώματα
 <br>
 Ο αισθητήρας DNMS (ψηφιακός αισθητήρας μέτρησης θορύβου) μπορεί να συνδυαστεί με έναν αισθητήρα PM της airRohr:
 
-* Αισθητήρας λεπτής σκόνης SPS30](https://www.sparkfun.comproducts15103). Άλλοι πωλητές: [TME](https://www.tme.eudedetailssps30gassensorensensirion1-101638-10?brutto=1), [SOS electronic](https://www.soselectronic.deproductssensirionsps30-2-304234). Μπορεί επίσης να χρησιμοποιηθεί ο συνήθης αισθητήρας [SDS011 PM sensor](https://de.aliexpress.comwholesale?catId=0&amp;initiative_id=AS_20200813122806&amp;SearchText=sds011).
-* [Έκδοση BME280 6-PIN, θερμοκρασία και υγρασία] (https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040440&amp;SearchText=bme280+-5V++3.3V). Άλλοι πωλητές: [Nettigo](https://nettigo.euproductsmodule-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.debauelementesensoren-modulefeuchtigkeitbme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
-* [Καλώδιο] (http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+καλώδιο+20cm+θηλυκό-θηλυκό)
+* Αισθητήρας λεπτής σκόνης SPS30](https://www.sparkfun.com/products/15103). Άλλοι πωλητές: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Μπορεί επίσης να χρησιμοποιηθεί ο συνήθης αισθητήρας [SDS011 PM sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
+* [Έκδοση BME280 6-PIN, θερμοκρασία και υγρασία](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Άλλοι πωλητές: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+* [Καλώδιο](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+καλώδιο+20cm+θηλυκό-θηλυκό)
 * [Καλώδιο USB π.χ.: επίπεδο 2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+usb+επίπεδο+καλώδιο+2m)
-* [Τροφοδοτικό USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+micro+usb+eu+power+supply)
+* [Τροφοδοτικό USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)
 * [ιμάντες καλωδίων](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+ ιμάντες)
 
 Τα PCB και η προστασία από τις καιρικές συνθήκες θα περιγραφούν παρακάτω.

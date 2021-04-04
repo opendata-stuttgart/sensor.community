@@ -2,22 +2,24 @@
 title: Konfigūruoti
 ---
 
-  <div class="max-w-screen-xl mx-auto pb-5">
-    <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
-    <div class="flex items-center">
-          <span class="p-2 rounded-lg bg-indigo-500">
-            <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5. 436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" >
-            </svg>
-          </span>
-        <div class="flex-wrap flex">
-          <p class="pt-1 text-indigo-700 font-medium">
-              Triukšmas yra beta versijoje. Klausimus siųskite adresu<p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
-                Noise@Sensor.Community</a>
-        </div>
-    </div>
+<div class="max-w-screen-xl mx-auto pt-5">
+  <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
+  <div class="flex items-center">
+        <span class="p-2 rounded-lg bg-indigo-500">
+          <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+          </svg>
+        </span>
+    <div class="flex flex-wrap">
+      <div class="flex-wrap flex">
+        <p class="pt-1 text-indigo-700 font-medium">
+            Triukšmas yra beta versijoje. Klausimus siųskite adresu</p>
+      <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+              Noise@Sensor.Community</a>
+      </div>
+       </div>
   </div>
+</div>
 </div>
 
 #### Gaukite ID
@@ -27,7 +29,7 @@ title: Konfigūruoti
 
 3. Prisijunkite prie sukurto prieigos taško. Palaukite, kol bus užmegztas ryšys.<br>*Android*: Jei ryšys iš karto nutrūksta, gali tekti išjungti parinktį "Smart network switch" (išmanusis tinklo perjungimas), esančią skiltyje "Connections -> WiFi -> Advanced" (Ryšiai -> "WiFi" -> "Advanced").
 
-4. Atidarykite naršyklę ir įveskite [http://192.168.4.1] (http://192.168.4.1).
+4. Atidarykite naršyklę ir įveskite [http://192.168.4.1](http://192.168.4.1).
 
 > ⚠️ **Atkreipkite dėmesį** Gali prireikti kelių bandymų, kol NodeMCU prisijungs prie namų "WiFi" tinklo. Nebūkite nekantrūs ir bandykite, kol pavyks prisijungti. Jutiklį taip pat galima konfigūruoti per išmanųjį telefoną. Jei jutiklio konfigūravimas pavyko, konfigūravimo puslapis nebėra pasiekiamas šiuo IP 192.168.4.1
 
@@ -40,15 +42,16 @@ title: Konfigūruoti
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 <br>
 
 #### Išbandykite stotį
 Jei nebuvo atlikta jokių pakeitimų, išskyrus "WiFi" tinklo duomenų įvedimą, maždaug po 10 minučių jutiklį galima "išbandyti" kituose puslapiuose. Šiuose puslapiuose reikia ieškoti lusto ID (pirmiau pateiktame pavyzdyje - 13597771).
 
- * [Jutiklio duomenys](www.madavi.desensorgraph.php)
- * [WLAN-signalas](www.madavi.desensorsignal.php)
- * [WLAN-signalas](www.madavi.desensorsignal.php)
+ * [Jutiklio duomenys](www.madavi.de/sensor/graph.php)
+ * [WLAN-signalas](www.madavi.de/sensor/signal.php)
+ * [WLAN-signalas](www.madavi.de/sensor/signal.php)
 
 
 

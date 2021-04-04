@@ -19,6 +19,7 @@ The housing is made with a .500" (12.7mm) polystyrene tubing. This diameter perm
 The prototype was developed with the [Evergreen No. 236 tubing](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 The breakout board has to be adapted to the diameter of the tubing with a file. Use some tape to protect the microphone inlet.
 <br>
@@ -44,7 +45,7 @@ Now you can fill the tube with some resin. This step is mandatory to avoid reson
 
 The prototype was developed with some [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produced by Copaltec GmbH.
 
-##### Specifications:
+##### Specifications
 * Dielectric strength: 28 kV/mm
 * Specific forward resistance: 5,8.1014 ohm/cm
 * Surface resistance: 1,3.1016 ohm
@@ -106,7 +107,8 @@ It is absolutely necessary to install a weather protection in the form of a foam
 
 Those foam covers are normaly sold as ‘covers for measurement microfons’. But they are expensive. You can also take a normal foam ball and cut a hole with the scissors.
 
-If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### Location of the microphone 
 

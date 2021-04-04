@@ -1,5 +1,5 @@
 ---
-title: 設定
+title: Configure
 ---
 
   <div class="max-w-screen-xl mx-auto pb-5">
@@ -33,7 +33,7 @@ title: 設定
 
 > ⚠️ **ご注意** NodeMCUがホームWiFiネットワークに接続するのに何度か試行錯誤することがあります。焦らず、うまくいくまで試してみてください。センサーの設定は、スマートフォンからも行うことができます。センサーの設定がうまくいった場合、このIP 192.168.4.1では設定ページにアクセスできなくなります。
 
-### ステーションの設定
+### Configure the station
 1. 設定」で、SSID（ご自宅のWiFiネットワークの名前）、ネットワークセキュリティキー（Windowsの場合）またはWiFiパスワードを入力します。
 
 2. 本マニュアルに従ったノイズセンサー（DNMS）の場合、これ以上の変更は必要ありません。
@@ -42,14 +42,13 @@ title: 設定
 
 <br>
 
-<img src="...docsairrohr_config_initial.jpg" loading="lazy">。
-<br>
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/><br>
 
-### ステーションのテスト
+### Test the station
 WiFi ネットワークデータの入力以外に変更がない場合は、約 10 分後に次のページでセンサーを「テスト」することができます。これらのページでは、ChipIDを検索する必要があります（上の例では13597771）。
 
- * [センサーデータ](www.madavi.desensorgraph.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
+ * [センサーデータ](www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
 

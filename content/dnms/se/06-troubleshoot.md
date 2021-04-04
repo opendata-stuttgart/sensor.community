@@ -19,7 +19,7 @@ Ange följande i webbläsaren med dina egna data:
     * öppnar sensorn en AP (under de första 2-7 minuterna efter en omstart)?
     * Leta efter ʻairrohr- [ID] `WLAN-nätverk. Tålamod, det kan ta 1-2 minuter efter start.
 * Kontrollera på din egen router om sensorn är inloggad i nätverket, kom ihåg IP-adressen
-    * använd alternativt "Discovery" i [flashverktyget](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+    * använd alternativt "Discovery" i [flashverktyget](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
     * Om ja: anslut till sensorn via IP med en webbläsare `http://[ip-of-the-sensor]/`, bör gränssnittet visas
     * Om nej: ESP har problem, t.ex. strömförsörjning otillräcklig, omstartslinga eller liknande
 * Anslut USB till en dator och visa loggen

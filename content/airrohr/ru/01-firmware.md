@@ -35,7 +35,7 @@ title: Драйвер и прошивка
 ### Прошивка устройства
 
 * Скачайте и запустите программу для прошивки процессора Flashing Tool:
-  https://github.com/opendata-stuttgart/airrohr-firmware-flasher/releases
+  https://github.com/opendata-stuttgart/airrohr-firmware-flasher//releases
   выберите версию для вашей ОС в разделе Assets внизу страницы:
 
 ** Linux: после загрузки файла выдайте ему разрешение на исполнение командой: `chmod o+x <download filename>`

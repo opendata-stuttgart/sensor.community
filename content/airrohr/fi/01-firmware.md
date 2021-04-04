@@ -13,11 +13,11 @@ Valitse tietokoneen käyttöjärjestelmää vastaava linkki.
 ### Windows
 
 ##### Ohjaimet NodeMCU (ESP8266) V2 (CP2102) - Windowsille
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - Windows 10:n pitäisi pystyä lataamaan nämä automaattisesti.
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32-bittinen versio - **ei** tukee 64-bittistä versiota käyttöjärjestelmästä.
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10:n pitäisi pystyä lataamaan nämä automaattisesti.
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bittinen versio - **ei** tukee 64-bittistä versiota käyttöjärjestelmästä.
 
 ##### Ajuri NodeMCU:lle (ESP8266) V3 (CH341) Windows-käyttöjärjestelmälle
-* [Windows](http://www.wch.cndownloadsfile5.html) - Windows 10:n pitäisi pystyä lataamaan nämä automaattisesti.
+* [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10:n pitäisi pystyä lataamaan nämä automaattisesti.
 
 ##### Pura ladattu tiedosto Windowsille:
 * NodeMCU:lle (ESP8266) V2: Avaa kansio CP210x ja kaksoisnapsauta sovellusta CP210xVCPInstaller_x64 (tai x86).
@@ -28,8 +28,8 @@ Valitse tietokoneen käyttöjärjestelmää vastaava linkki.
 ### MacOS
 
 ##### MacOS -ajurit
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Pura ladattu tiedosto MacOS:lle.
 * V2:lle: Pura kansio CP210x ja kaksoisnapsauta sovellusta CP210xVCPInstaller_x64 (tai x86).
@@ -45,8 +45,8 @@ Ajureita ei tarvitse asentaa. Piirin pitäisi olla suoraan tuettu (todennettavis
 ### Firmware Flasher
 Tuki useille käyttöjärjestelmille: Windows, MacOS ja Linux.
 
-* [airRohr Flashing Tool](http://firmware.sensor.communityairrohrflashing-tool)
-* [Lähdekoodi](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Lähdekoodi](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Liitä NodeMCU tietokoneeseen lyhyellä mikro-USB-kaapelilla (valitse alle 1 metrin pituinen kaapeli, muuten asennus voi epäonnistua). Valitse `latest_en.bin` (tai jokin muu kieliversio) ja napsauta "Upload".
 Odota, kunnes prosessi on valmis. Nyt voimme koota anturin.

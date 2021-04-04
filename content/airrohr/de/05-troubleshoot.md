@@ -19,7 +19,7 @@ Hier ist das server-seitige Signalprotokoll: `https://api-rrd.madavi.de/grafana/
     * Öffnet der Sensor einen Adhoc Wifi (Access Point), in den ersten 2-7 Minuten nach einem Neustart?
     * Suche nach dem WLAN-Netzwerk `airrohr-[ID]`. Es kann einige Minuten nach einem Neustart brauchen bis dieses sichtbar ist.
 * Prüfe an deinem eigenen Router, ob der Sensor im Netzwerk angemeldet ist, und merke dir die IP 
-    * alternativ "Im Netzwerk suchen" im [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) verwenden
+    * alternativ "Im Netzwerk suchen" im [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//) verwenden
     * Falls ja: Verbinde dich mit dem Sensor über einen Browser `http://[ip-deines-sensors]/`, die Konfiguration sollte erscheinen 
     * Falls nein: könnte es an einer unzureichenden Stromversorgung, Neustartschleife oder ähnlichem liegen.
 * Schließe die NodeMCU über ein USB-Kabel an einen Computer an und schau dir das Protokoll an 

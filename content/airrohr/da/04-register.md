@@ -4,7 +4,7 @@ title: Registrer
 
 #### Opret en konto
 
-Gå til [devices.sensor.community] (https://devices.sensor.community) for at oprette en konto og blive en del af det åbne datanetværk.
+Gå til [devices.sensor.community](https://devices.sensor.community) for at oprette en konto og blive en del af det åbne datanetværk.
 
 
 #### Registrer din enhed

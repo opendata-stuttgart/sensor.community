@@ -4,9 +4,9 @@ title: Отстраняване на неизправности
 
 ### Проблеми с прехвърлянето?
 Въведете следното в браузъра си със собствените си данни:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] може да се търси и в полето за въвеждане, отворено в лявата част на страницата [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+[ID] може да се търси и в полето за въвеждане, отворено в лявата част на страницата [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Регистриран ли е сензорът чрез [https://devices.sensor.community](https://devices.sensor.community) и видим ли е сензорът на картата?
 * Слаб ли е бил безжичният сигнал в миналото?
@@ -19,7 +19,7 @@ title: Отстраняване на неизправности
   * Отваря ли сензорът adhoc wifi (точка за достъп) през първите 2-7 минути след рестартиране?
   * Търсене на WLAN мрежата `airrohr-[ID]`. Може да отнеме няколко минути след рестартиране на компютъра, докато това се види.
 * Проверете на собствения си маршрутизатор дали сензорът е регистриран в мрежата и запишете IP адреса.
-  * алтернативно използвайте "Търсене в мрежата" в [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+  * алтернативно използвайте "Търсене в мрежата" в [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
   * Ако отговорът е "да": Свържете се със сензора чрез браузър `http://[ip-your-sensor]`, конфигурацията трябва да се появи
   * Ако не: това може да се дължи на недостатъчно захранване, цикъл на рестартиране или други подобни.
 * Свържете NodeMCU към компютър чрез USB кабел и разгледайте протокола
@@ -27,7 +27,7 @@ title: Отстраняване на неизправности
     * Linux: screen, minicom, cutecom
     * Windows: Tera Term
 
-    * Може да са необходими подходящи серийни драйвери за USB-2, вижте [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * Може да са необходими подходящи серийни драйвери за USB-2, вижте [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * Там трябва да видите какво прави сензорът (съобщения за зареждане, връзка с WLAN или точка за достъп, измерване - само след 3 минути)
 
 ### Проблеми с електрониката?

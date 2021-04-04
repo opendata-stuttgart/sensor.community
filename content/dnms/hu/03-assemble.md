@@ -8,17 +8,17 @@ Lásd a __firmware flasher__ szakaszt.
 
 ### Mikrofon egység
 
-A mikrofon egység a Pesky Products ICS-43434 MEMS mikrofonnal ellátott breakout lapján alapul. Ilyen deszkát a [Tindie piactéren](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone) találsz.
+A mikrofon egység a Pesky Products ICS-43434 MEMS mikrofonnal ellátott breakout lapján alapul. Ilyen deszkát a [Tindie piactéren](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) találsz.
 
-A mikrofon egység a Pesky Products ICS-43434 MEMS mikrofonnal ellátott breakout lapján alapul. Ilyen deszkát a [Tindie piactéren](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone) találsz.
+A mikrofon egység a Pesky Products ICS-43434 MEMS mikrofonnal ellátott breakout lapján alapul. Ilyen deszkát a [Tindie piactéren](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) találsz.
 
 
 ##### A mikrofonegység háza
 A ház 12,7 mm-es (500") polisztirol csőből készült. Ez az átmérő lehetővé teszi a legtöbb kalibrátor közvetlen csatlakoztatását a készülékhez.
 
-A prototípust a [236-os számú Evergreen csővel] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing) fejlesztették ki.
+A prototípust a [236-os számú Evergreen csővel](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) fejlesztették ki.
 
-A prototípust a [236-os számú Evergreen csővel] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing) fejlesztették ki.
+A prototípust a [236-os számú Evergreen csővel](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing) fejlesztették ki.
 <br>
 A kibontó lapot egy reszelővel kell a cső átmérőjéhez igazítani. Használjon némi ragasztószalagot a mikrofon bemenetének védelmére.
 <br>
@@ -42,7 +42,7 @@ A cső végét szorítsa meg a szalaggal.
 
 Most már meg lehet tölteni a csövet egy kis gyantával. Ez a lépés kötelező a rezonancia elkerülése és a kalibrált és reprodukálható adatok elérése érdekében.
 
-A prototípust a Copaltec GmbH által gyártott [PURe Isolation ST 33] (https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900) felhasználásával fejlesztették ki.
+A prototípust a Copaltec GmbH által gyártott [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) felhasználásával fejlesztették ki.
 
 ##### Specifikációk:
 * Dielektromos szilárdság: 28 kVmm
@@ -58,7 +58,7 @@ A prototípust a Copaltec GmbH által gyártott [PURe Isolation ST 33] (https://
 * Alkalmazási hőmérséklet: - hőmérséklet: 20 és +130 °C között
 
 
-Az Electrolube által gyártott [UR5545 poliuretángyanta](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) is működhet.
+Az Electrolube által gyártott [UR5545 poliuretángyanta](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) is működhet.
 
 Minden egyes csőhöz 15 g gyanta elegendő kell, hogy legyen.
 
@@ -78,17 +78,17 @@ Magának a csőnek 160 mm hosszúnak kell lennie. A DNMS úgy néz ki, helyezze 
 
 Az ív megakadályozza a víz és a nedvesség bejutását a házba, miközben átengedi a kábelt.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 A DNMS egy RJ12-es kábellel kapcsolódik a második NYÁK-hoz. Ha ez a kábel 250 mm-nél hosszabb, akkor I²C hosszabbítót kell használni.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Miután mindent jól összekapcsoltunk, az alkatrészeket összeragasztjuk.
 
 Eredmény:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 A NodeMCU-t hordozó NYÁK bármilyen elektromos dobozba helyezhető.
 
@@ -106,7 +106,8 @@ Feltétlenül szükséges az időjárás elleni védelem telepítése habszivacs
 
 Ezeket a habszivacs borításokat általában "mérési mikrofonok borításaként" árulják. De ezek drágák. Egy normál habgolyót is vehetsz, és ollóval vághatsz egy lyukat.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### A mikrofon helye
 

@@ -28,5 +28,5 @@ title: 配置
 ### 验证台站的配置是否正确。
 如果您在上一步中除了WiFi网络配置外没有做其他更改，传感器现在将开始记录和上传数据。您可以通过导航到以下页面来验证每项工作是否正常，大约10分钟后。在这些页面上搜索芯片ID（在上面的例子中是13597771）。
 
- * [传感器数据](https://www.madavi.desensorgraph.php)
- * [WiFi信号数据](https://www.madavi.desensorsignal.php)
+ * [传感器数据](https://www.madavi.de/sensor/graph.php)
+ * [WiFi信号数据](https://www.madavi.de/sensor/signal.php)

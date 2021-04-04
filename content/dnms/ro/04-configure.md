@@ -42,15 +42,16 @@ title: Configurați
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 <br>
 
 ### Testează stația
 Dacă nu au fost efectuate alte modificări decât introducerea datelor rețelei WiFi, senzorul poate fi "testat" pe paginile următoare după aproximativ 10 minute. Pe aceste pagini trebuie să căutați ChipID (în exemplul de mai sus, 13597771).
 
- * [Date senzoriale](www.madavi.desensorgraph.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
+ * [Date senzoriale](www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
 

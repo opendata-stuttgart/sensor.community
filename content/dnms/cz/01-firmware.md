@@ -44,7 +44,7 @@ Nemusíte instalovat žádné ovladače. Chip by měl být podporovaný přímo.
 Podporuje vícero operačních systémů: Windows, MacOS and Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Zdrojový kód](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Zdrojový kód](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Připojte k počítači modul NodeMCU pomocí krátkého micro-USB kabelu (kabel by měl být kratší než 1 metr, jinak může instalace selhat). Vyberte `latest_en.bin`  (nebo jiný jazyk) a klikněte na “Nahrát”. Počkejte na dokončení procesu nahrávání. Teď můžete pokračovat k samotnému složení senzoru.
 <br>

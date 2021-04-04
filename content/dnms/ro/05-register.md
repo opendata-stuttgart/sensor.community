@@ -20,10 +20,9 @@ Acasă -> (Autentificare) - Senzorii mei -> Înregistrare senzor nou
 #### NB!
 În prezent, nu este posibil să se înregistreze atât senzorul PM, cât și senzorul TempHumidity și senzorul DNMS conectate la un NodeMCU.
 În acest moment, acest lucru se poate face doar manual, trebuie doar să trimiteți o cerere la tech (at) sensor.community.
-Siehe [issue] (https://github.comopendata-stuttgartsensor.communityissues117
-) pentru detalii.
+Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) pentru detalii.
 
 În prezent, nu este posibil să se înregistreze folosind site-ul atât senzorul PM, cât și senzorul de temperatură și DNMS conectat la un singur NodeMCU.
 Deocamdată, acest lucru se poate face doar manual, trimițând o cerere la tech (at) sensor.community.
-A se vedea [issue](https://github.comopendata-stuttgartsensor.communityissues117
+A se vedea [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) pentru detalii.

@@ -19,6 +19,7 @@ O invólucro é feito com um tubo de poliestireno de 0,500" (12,7 mm). Este diâ
 O protótipo foi desenvolvido com o [tubo Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 A placa de divisão deve ser adaptada ao diâmetro da tubulação com uma lima. Use um pouco de fita para proteger a entrada do microfone.
 <br>
@@ -106,7 +107,8 @@ As próprias caixas devem ser à prova d'água. Apenas a entrada do microfone po
 
 Essas tampas de espuma são normalmente vendidas como 'tampas para microfones de medição'. Mas elas são caros. Você também pode pegar uma bola de espuma normal e fazer um buraco com a tesoura.
 
-Se você precisar de mais, [esta fonte](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2) pode ser útil.
+Se você precisar de mais, [esta fonte](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) pode ser útil.
 
 ### Localização do microfone
 

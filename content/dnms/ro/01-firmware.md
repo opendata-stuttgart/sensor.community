@@ -11,11 +11,11 @@ Chipset-ul pentru NocdeMCU v3 este de obicei CH341, verificați partea din spate
 ### Windows
 
 ##### Drivere pentru modelul V2 (CP2102) pentru Windows
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - Windows 10 ar trebui să fie capabil să descarce automat acestea
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - versiune pe 32 de biți - **nu** suportă versiunea pe 64 de biți OS
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 ar trebui să fie capabil să descarce automat acestea
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - versiune pe 32 de biți - **nu** suportă versiunea pe 64 de biți OS
 
 ##### Driver pentru modelul V3 (CH341) pentru Windows
-* [Windows](http://www.wch.cndownloadsfile5.html) - Windows 10 ar trebui să fie capabil să le descarce automat.
+* [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 ar trebui să fie capabil să le descarce automat.
 
 ##### Extrageți fișierul descărcat pentru Windows:
 * pentru V2: Deschideți folderul CP210x și faceți dublu clic pe aplicația CP210xVCPInstaller_x64 (sau x86).
@@ -26,8 +26,8 @@ Chipset-ul pentru NocdeMCU v3 este de obicei CH341, verificați partea din spate
 ### MacOS
 
 ##### Drivere MacOS
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Extrageți fișierul descărcat pentru MacOS.
 * pentru V2: Descompuneți folderul CP210x și faceți dublu clic pe aplicația CP210xVCPInstaller_x64 (sau x86).
@@ -43,8 +43,8 @@ Nu este necesară instalarea niciunui driver. Cipul ar trebui să fie suportat d
 ### Firmware Flasher NodeMCU
 Suport pentru mai multe sisteme de operare: Windows, MacOS și Linux.
 
-* [airRohr Flashing Tool](http://firmware.sensor.communityairrohrflashing-tool)
-* [Cod sursă](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Cod sursă](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Conectați NodeMCU la computerul dumneavoastră cu un cablu micro-USB scurt (alegeți unul mai scurt de 1 metru, altfel instalarea poate eșua). Selectați `latest_en.bin` (sau o altă versiune lingvistică) și faceți clic pe "Upload".
 Așteptați până când procesul se termină. Acum putem asambla senzorul.
@@ -53,14 +53,14 @@ Așteptați până când procesul se termină. Acum putem asambla senzorul.
 
 ---
 ### Firmware Flasher Flasher Teensy
-În [Helmut Bitter's Github](https://github.comhbitterDNMStreemasterFirmware) puteți găsi două tipuri de firmware:
+În [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Firmware) puteți găsi două tipuri de firmware:
 * .ino
 * .hex
 
 ##### Teensy Loader
-Puteți să introduceți fișierul .hex în plăcile Teensy cu ajutorul software-ului independent GUI [Teensy Loader](https://www.pjrc.comteensyloader.html) pentru Windows, Mac și Linux.
+Puteți să introduceți fișierul .hex în plăcile Teensy cu ajutorul software-ului independent GUI [Teensy Loader](https://www.pjrc.com/teensy/loader.html) pentru Windows, Mac și Linux.
 Există și o versiune în linie de comandă.
 
 ##### Teensyduino
-Puteți să afișați fișierul .ino în plăcile Teensy cu extensia Arduino IDE [Teensyduino](https://www.pjrc.comteensyteensyduino.html).
+Puteți să afișați fișierul .ino în plăcile Teensy cu extensia Arduino IDE [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
 Dacă este necesar, puteți modifica firmware-ul direct în Arduino IDE.

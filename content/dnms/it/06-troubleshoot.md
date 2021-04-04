@@ -4,13 +4,13 @@ title: Risoluzione dei problemi
 
 ### Problemi di trasferimento?
 Inserisci il seguente nel tuo browser con i tuoi dati:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-L'[ID] può anche essere cercato nel campo di input aperto sul lato sinistro della pagina [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+L'[ID] può anche essere cercato nel campo di input aperto sul lato sinistro della pagina [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Il sensore è registrato tramite [https://devices.sensor.community](https://devices.sensor.community) ed è visibile sulla mappa?
 * Il segnale wireless è stato debole in passato?
-  Ecco il protocollo di segnalazione lato server: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Ecco il protocollo di segnalazione lato server: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Problemi con il cavo USB?
 * Controllare l'alimentazione
@@ -19,7 +19,7 @@ L'[ID] può anche essere cercato nel campo di input aperto sul lato sinistro del
   * Il sensore apre un wifi adhoc (access point) nei primi 2-7 minuti dopo un riavvio?
   * Cerca la rete WLAN `airrohr-[ID]`. Potrebbero essere necessari alcuni minuti dopo un riavvio prima che questo sia visibile.
 
-  * in alternativa usare "Cerca nella rete" in [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+  * in alternativa usare "Cerca nella rete" in [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
   * Se sì: connettersi al sensore tramite un browser `http://[ip-your-sensor]`, la configurazione dovrebbe apparire
   * Se no: potrebbe essere dovuto a un'alimentazione insufficiente, un loop di riavvio o simili.
 * Collegare il NodeMCU a un computer tramite un cavo USB e guardare il protocollo
@@ -27,7 +27,7 @@ L'[ID] può anche essere cercato nel campo di input aperto sul lato sinistro del
     * Linux: schermo, minicom, cutecom
     * Windows: Tera Term
     * macOS: schermo, minicom, ...
-    * possono essere necessari dei driver seriali USB-2 adatti, vedere [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * possono essere necessari dei driver seriali USB-2 adatti, vedere [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * Lì dovresti vedere cosa sta facendo il sensore (messaggi di avvio, connessione WLAN o punto di accesso, misurazione - solo dopo 3 minuti)
 
 ### Problemi con l'elettronica?

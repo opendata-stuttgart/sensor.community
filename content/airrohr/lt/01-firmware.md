@@ -13,11 +13,11 @@ Pasirinkite nuorodą, atitinkančią jūsų kompiuterio operacinę sistemą.
 #### Windows
 
 ##### NodeMCU (ESP8266) V2 (CP2102) tvarkyklės Windows
-* [Windows 10](https://www.silabs.comdocumentspublicsoftwareCP210x_Universal_Windows_Driver.zip) - "Windows 10" turėtų galėti automatiškai atsisiųsti šiuos
-* [Windows 788.1](https://www.silabs.comdocumentspublicsoftwareCP210x_Windows_Drivers.zip) - 32 bitų versija - **nepalaiko** 64 bitų versijos OS
+* [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - "Windows 10" turėtų galėti automatiškai atsisiųsti šiuos
+* [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bitų versija - **nepalaiko** 64 bitų versijos OS
 
 ##### NodeMCU (ESP8266) V3 (CH341) tvarkyklė "Windows
-* [Windows](http://www.wch.cndownloadsfile5.html) - "Windows 10" turėtų galėti automatiškai atsisiųsti šiuos
+* [Windows](http://www.wch.cn/downloads/file/5.html) - "Windows 10" turėtų galėti automatiškai atsisiųsti šiuos
 
 ##### Ištraukite atsisiųstą "Windows" failą:
 * NodeMCU (ESP8266) V2: Atidarykite aplanką CP210x ir dukart spustelėkite programą CP210xVCPInstaller_x64 (arba x86)
@@ -28,8 +28,8 @@ Pasirinkite nuorodą, atitinkančią jūsų kompiuterio operacinę sistemą.
 #### MacOS
 
 ##### MacOS tvarkyklės
-* [NodeMCU V2](https://www.silabs.comdocumentspublicsoftwareMac_OSX_VCP_Driver.zip )
-* [NodeMCU V3](http://www.wch.cndownloadsfile178.html)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Ištraukite atsisiųstą "MacOS" failą.
 * V2: Išpakuokite aplanką CP210x ir dukart spustelėkite programą CP210xVCPInstaller_x64 (arba x86)
@@ -45,8 +45,8 @@ Jokių tvarkyklių diegti nereikia. Mikroschema turėtų būti palaikoma tiesiog
 #### Firmware Flasher
 Kelių operacinių sistemų palaikymas: "Windows", "MacOS" ir "Linux".
 
-* [airRohr Flashing Tool](http://firmware.sensor.communityairrohrflashing-tool)
-* [Šaltinio kodas](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
+* [Šaltinio kodas](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Prijunkite "NodeMCU" prie kompiuterio trumpu micro-USB kabeliu (pasirinkite trumpesnį nei 1 m, kitaip diegimas gali nepavykti). Pasirinkite `latest_en.bin` (arba kitą kalbinę versiją) ir spustelėkite "Įkelti".
 Palaukite, kol procesas bus baigtas. Dabar galime surinkti jutiklį.

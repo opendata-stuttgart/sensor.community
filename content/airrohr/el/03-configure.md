@@ -21,12 +21,13 @@ title: Ρύθμιση παραμέτρων
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 
 <br>
 
 ### Επαληθεύστε ότι ο σταθμός έχει ρυθμιστεί σωστά
 Αν δεν κάνατε άλλες αλλαγές στο προηγούμενο βήμα εκτός από τη διαμόρφωση του δικτύου WiFi, ο αισθητήρας θα αρχίσει τώρα να καταγράφει και να μεταφορτώνει τα δεδομένα. Μπορείτε να επαληθεύσετε ότι όλα λειτουργούν σωστά μετά από περίπου 10 λεπτά, μεταβαίνοντας στις ακόλουθες σελίδες. Σε αυτές τις σελίδες αναζητήστε το ChipID (στο παραπάνω παράδειγμα το 13597771).
 
- * [Δεδομένα αισθητήρα](https://www.madavi.desensorgraph.php)
- * [δεδομένα σήματος WiFi](https://www.madavi.desensorsignal.php)
+ * [Δεδομένα αισθητήρα](https://www.madavi.de/sensor/graph.php)
+ * [δεδομένα σήματος WiFi](https://www.madavi.de/sensor/signal.php)

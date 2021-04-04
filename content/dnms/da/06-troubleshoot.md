@@ -4,13 +4,13 @@ title: Fejlfinding
 
 #### Problemer med at overføre?
 Indtast følgende i din browser med dine egne data:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-Der kan også søges efter [ID] i det indtastningsfelt, der er åbnet i venstre side af siden [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+Der kan også søges efter [ID] i det indtastningsfelt, der er åbnet i venstre side af siden [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Er sensoren registreret via [https://devices.sensor.community](https://devices.sensor.community), og er sensoren synlig på kortet?
 * Har det trådløse signal tidligere været svagt?
-  Her er signalprotokollen på serversiden: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Her er signalprotokollen på serversiden: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 #### Problemer med USB-kablet?
 * Kontroller strømforsyningen
@@ -19,7 +19,7 @@ Der kan også søges efter [ID] i det indtastningsfelt, der er åbnet i venstre 
   * Åbner sensoren et adhoc wifi (adgangspunkt) i de første 2-7 minutter efter en genstart?
   * Søg efter WLAN-netværket `airrohr-[ID]`. Det kan tage et par minutter efter en genstart, før dette er synligt.
 * Kontroller på din egen router, om sensoren er registreret i netværket, og noter IP-adressen.
-  * Alternativt kan du bruge "Søg i netværk" i [airRohr Flashing Tool] (https://github.comopendata-stuttgartairrohr-firmware-flasher)
+  * Alternativt kan du bruge "Søg i netværk" i [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
   * Hvis ja: Opret forbindelse til sensoren via en browser `http://[ip-your-sensor]`, og konfigurationen bør vises
   * Hvis nej: Det kan skyldes utilstrækkelig strømforsyning, genstartsløjfe eller lignende.
 * Tilslut NodeMCU'en til en computer via et USB-kabel og se på protokollen
@@ -27,7 +27,7 @@ Der kan også søges efter [ID] i det indtastningsfelt, der er åbnet i venstre 
     * Linux: skærm, minicom, cutecom
     * Windows: Tera Term
     * macOS: skærm, minicom, ...
-    * Det kan være nødvendigt med passende USB-2 serielle drivere, se [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * Det kan være nødvendigt med passende USB-2 serielle drivere, se [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * Der skal du se, hvad sensoren gør (opstartmeddelelser, WLAN-forbindelse eller adgangspunkt, måling - først efter 3 minutter)
 
 #### Problemer med elektronikken?

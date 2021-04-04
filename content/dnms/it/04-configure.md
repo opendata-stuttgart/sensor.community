@@ -42,15 +42,16 @@ title: Configurare
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 <br>
 
 ### Prova la stazione
 Se non sono state fatte altre modifiche oltre all'inserimento dei dati della rete WiFi, il sensore può essere 'testato' nelle pagine seguenti dopo circa 10 minuti. Su queste pagine si deve cercare il ChipID (nell'esempio sopra il 13597771).
 
- * [Dati del sensore](www.madavi.desensorgraph.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
+ * [Dati del sensore](www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
 

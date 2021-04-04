@@ -27,7 +27,7 @@ Remplacez `ID` par l'identifiant de la station (ID de la platine NodeMCU).
 * Vérifiez sur votre box que la station est connectée au réseau Wifi (cf. la liste des appareils connectés) et notez l'adresse IP `192.168.1.<nombre>` (peut varier selon les fournisseurs d'accès).
     * Si oui: connectez-vous au détecteur avec l'IP `192.168.1.<nombre>` à l'aide d'un navigateur. Vous devez accéder à l'interface de configuration.
     * Si non: l'ESP a un problème, par exemple, une alimentation insuffisante, une boucle de redémarrage...
-    * Vous pouvez aussi utilisez le bouton "Rechercher" de l'[installateur Airrohr](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/), les détecteurs connectés au réseau local vont s'afficher. Double-cliquez sur une station pour atteindre la page de configuration.
+    * Vous pouvez aussi utilisez le bouton "Rechercher" de l'[installateur Airrohr](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//), les détecteurs connectés au réseau local vont s'afficher. Double-cliquez sur une station pour atteindre la page de configuration.
 * Connectez la prise USB à un ordinateur pour lire les sorties de la console de deboguage. 
     * Consultez les textes s'affichant sur le terminal du port série de la station (Configuration : 9600 bauds, 8N1).
         * Linux: screen, minicom, cutecom; Windows: Tera Term; MacOS: ls, screen, minicom...

@@ -8,41 +8,41 @@ Glejte razdelek __firmware flasher__.
 
 ### Mikrofonska enota
 
-Mikrofonska enota temelji na plošči za prekinitev Pesky Products z mikrofonom MEMS ICS-43434. Takšno ploščo lahko najdete na [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Mikrofonska enota temelji na plošči za prekinitev Pesky Products z mikrofonom MEMS ICS-43434. Takšno ploščo lahko najdete na [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Mikrofonska enota temelji na plošči za prekinitev Pesky Products z mikrofonom MEMS ICS-43434. Takšno ploščo lahko najdete na [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
-
+<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 ##### Ohišje za mikrofonsko enoto
 Ohišje je izdelano iz 12,7-milimetrske polistirenske cevi s premerom 0,500". Ta premer omogoča neposredno priključitev večine kalibratorjev na enoto.
 
-Prototip je bil razvit s cevjo [Evergreen št. 236] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototip je bil razvit s cevjo [Evergreen št. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototip je bil razvit s cevjo [Evergreen št. 236] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+<img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
+
 <br>
 Prebojno ploščo je treba s pilico prilagoditi premeru cevi. Za zaščito vhoda mikrofona uporabite trak.
 <br>
 
-<br>
-<br>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
 Nato spajkajte šest silikonskih kablov. Upoštevajte, s katerim nožičkom je kabel povezan!
+<img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
 
-Nato spajkajte šest silikonskih kablov. Upoštevajte, s katerim nožičkom je kabel povezan!
 Odrežite 115 mm dolg kos cevi.
 <br>
 Ploščo mikrofona nalepite na prekrižan trak. Kable vstavite v cev in ploščo pritrdite na koncu cevi.
 <br>
-<br>
-<br>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
 
 Z lepilnim trakom zategnite rob cevke.
 
-Z lepilnim trakom zategnite rob cevke.
+<img src="../docs/dnms/dnms-noise-measuring-microphone-tube.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 
 Zdaj lahko cev napolnite z nekaj smole. Ta korak je obvezen, če se želite izogniti resonanci ter pridobiti umerjene in ponovljive podatke.
 
-Prototip je bil razvit z nekaj [PURe Isolation ST 33] (https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900), ki ga je izdelalo podjetje Copaltec GmbH.
+Prototip je bil razvit z nekaj [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), ki ga je izdelalo podjetje Copaltec GmbH.
 
 ##### Specifikacije:
 * Dielektrična trdnost: 28 kVmm
@@ -58,14 +58,13 @@ Prototip je bil razvit z nekaj [PURe Isolation ST 33] (https://www.buerklin.come
 * Temperature uporabe: - 20 do +130 °C
 
 
-Tudi [poliuretanska smola UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) podjetja Electrolube bi morala delovati.
+Tudi [poliuretanska smola UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) podjetja Electrolube bi morala delovati.
 
 Za vsako cevko zadostuje 15 g smole.
 
-<img src="..docsdnmsdnms-merjenje hrupa-mikrofon-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 Ko se smola strdi, odstranite trak. Mikrofonska enota je pripravljena.
-
 
 
 #### Ohišje DNMS
@@ -78,17 +77,17 @@ Cev mora biti dolga 160 mm. DNMS je videti v. Ohišje mikrofona je ohranjeno s k
 
 Lok preprečuje vdor vode in vlage v ohišje, hkrati pa prepušča kabel.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS je z drugim tiskanim vezjem povezan s kablom RJ12. Če je ta kabel daljši od 250 mm, morate uporabiti podaljšek I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Ko je vse dobro povezano, dele zlepite skupaj.
 
 Rezultat:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Tiskano vezje z NodeMCU lahko vstavite v katero koli električno škatlo.
 
@@ -102,11 +101,12 @@ Nujno je treba namestiti zaščito pred vremenskimi vplivi v obliki pene. Po pot
 * ščiti pred neposrednim uhajanjem vode na mikrofon. Da bi se izognili kondenzaciji na mikrofonu, po namestitvi pokrov potegnite nazaj, da ustvarite majhno votlino.
 * ščiti pred sončnim sevanjem. Intenzivna sončna svetloba lahko vpliva na izmerjene vrednosti in skrajša življenjsko dobo mikrofona.
 
-* ščiti pred sončnim sevanjem. Intenzivna sončna svetloba lahko vpliva na izmerjene vrednosti in skrajša življenjsko dobo mikrofona.
+<img src="../docs/dnms/dnms-noise-measuring-microphone-bonette.jpg" style="width:45%; margin: 3em 0" loading="lazy"/>
 
 Ti penasti pokrovi se običajno prodajajo kot "pokrovi za merilne mikrofone". Vendar so dragi. Lahko vzamete tudi običajno kroglico iz pene in s škarjami izrežete luknjo.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 #### Lokacija mikrofona
 
@@ -122,7 +122,8 @@ Prav tako se je treba vedno zavedati, da merimo hrup iz okolice.  Emisijo hrupa 
 
 Bolj ko se približujete viru, bolj natančno je sklicevanje na vir. Z nadgradnjami vdelane programske opreme bi bilo mogoče pridobiti natančne meritve za določeno vrsto hrupa.
 
-Bolj ko se približujete viru, bolj natančno je sklicevanje na vir. Z nadgradnjami vdelane programske opreme bi bilo mogoče pridobiti natančne meritve za določeno vrsto hrupa.
-Bolj ko se približujete viru, bolj natančno je sklicevanje na vir. Z nadgradnjami vdelane programske opreme bi bilo mogoče pridobiti natančne meritve za določeno vrsto hrupa.
+
+<img src="../docs/dnms/measuring-sensor-on-balcony.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
+<img src="../docs/dnms/measuring-sensor-on-terasse.jpg" style="width:49%; margin: 1em 0;" loading="lazy"/>
 <br>
-<br>
+<img src="../docs/dnms/measuring-sensor-on-wall.jpg" style="width:99%; margin-bottom: 2em;" loading="lazy"/>

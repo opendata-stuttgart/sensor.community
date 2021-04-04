@@ -21,12 +21,13 @@ title: A  konfigurálása
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 
 <br>
 
 ### Ellenőrizze az állomás helyes konfigurálását
 Ha az előző lépésben a WiFi hálózat konfigurálásán kívül más változtatást nem végzett, az érzékelő most megkezdi az adatok rögzítését és feltöltését. Körülbelül 10 perc elteltével ellenőrizheti, hogy minden megfelelően működik-e, ha a következő oldalakra navigál. Ezeken az oldalakon keresse meg a ChipID-t (a fenti példában a 13597771).
 
- * [Érzékelő adatok](https://www.madavi.desensorgraph.php)
- * [WiFi jeladatok](https://www.madavi.desensorsignal.php)
+ * [Érzékelő adatok](https://www.madavi.de/sensor/graph.php)
+ * [WiFi jeladatok](https://www.madavi.de/sensor/signal.php)

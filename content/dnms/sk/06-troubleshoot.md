@@ -4,13 +4,13 @@ title: Riešenie problémov
 
 ### Problémy s prenosom?
 Do prehliadača zadajte nasledujúce údaje:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] môžete vyhľadať aj vo vstupnom poli otvorenom na ľavej strane stránky [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1).
+[ID] môžete vyhľadať aj vo vstupnom poli otvorenom na ľavej strane stránky [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
 
 * Je senzor zaregistrovaný prostredníctvom [https://devices.sensor.community](https://devices.sensor.community) a je senzor viditeľný na mape?
 * Bol v minulosti bezdrôtový signál slabý?
-  Tu je protokol signálu na strane servera: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Tu je protokol signálu na strane servera: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Problémy s káblom USB?
 * Skontrolujte napájanie
@@ -19,7 +19,7 @@ Do prehliadača zadajte nasledujúce údaje:
   * Otvorí senzor adhoc wifi (prístupový bod) počas prvých 2-7 minút po reštarte?
   * Vyhľadajte sieť WLAN `airrohr-[ID]`. Po reštarte môže trvať niekoľko minút, kým sa to prejaví.
 * Na svojom routeri skontrolujte, či je snímač zaregistrovaný v sieti, a zapíšte si jeho IP adresu.
-  * prípadne použite "Search in network" v [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher)
+  * prípadne použite "Search in network" v [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
   * Ak áno: Pripojte sa k senzoru prostredníctvom prehliadača `http://[ip-your-sensor]`, mala by sa zobraziť konfigurácia
   * Ak nie: môže to byť spôsobené nedostatočným napájaním, reštartovacou slučkou alebo podobne.
 * Pripojte NodeMCU k počítaču pomocou kábla USB a pozrite si protokol
@@ -27,7 +27,7 @@ Do prehliadača zadajte nasledujúce údaje:
     * Linux: screen, minicom, cutecom
     * Windows: Tera Term
     * macOS: obrazovka, minicom,...
-    * môžu byť potrebné vhodné sériové ovládače USB-2, pozri [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * môžu byť potrebné vhodné sériové ovládače USB-2, pozri [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
 
 
 ### Problémy s elektronikou?

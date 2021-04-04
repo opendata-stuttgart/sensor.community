@@ -23,10 +23,10 @@ title: Sissejuhatus
 
 > 🚧 Ehita oma DIY-sensor ja saa osa ülemaailmsest opendata &amp; civictech võrgustikust. <br> DNMS (Digital Noise Measuring Sensor) abil saate ise mõõta mürasaastet.
 
- <img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy">
+  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
-Vaadake müraanduri originaaljuhiseid ja varasemaid versioone [Helmut Bitteri Githubis](https://github.comhbitterDNMStreemasterManual).
+Vaadake müraanduri originaaljuhiseid ja varasemaid versioone [Helmut Bitteri Githubis](https://github.com/hbitter/DNMS/tree/master/Manual).
 
 <br>
 
@@ -46,15 +46,15 @@ See repositoorium sisaldab erinevaid seadistusi anduri ehitamiseks erinevate pla
 ### Ostunimekiri
 
 ##### Üksikud komponendid
-* [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=nodemcu+v3+esp8266+ch340)
-* [Teensy 4.0 arendusplaat](https://www.pjrc.comstoreteensy40.html). Muud müüjad: [EXPTECH](https://www.exp-tech.deplattformenteensy9596teensy-4.0-development-board), [Antratek](https://www.antratek.deteensy-4-0), [PIMORONI](https://shop.pimoroni.comproductsteensy-4-0-development-board)
-* [Digitales Mikrofon ICS-43434](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone)
+* [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
+* [Teensy 4.0 arendusplaat](https://www.pjrc.com/store/teensy40.html). Muud müüjad: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
+* [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * ülipaindlikud silikoonkaablid läbimõõduga 0,15mm² (AWG 26) 6 erinevas värvitoonis.
 <br>
 DNMS (digitaalne müramõõtmisandur) on kombineeritav airRohr PM-anduriga:
 
-* SPS30 peentolmuandur](https://www.sparkfun.comproducts15103). Muud müüjad: [TME](https://www.tme.eudedetailssps30gassensorensensirion1-101638-10?brutto=1), [SOS electronic](https://www.soselectronic.deproductssensirionsps30-2-304234). Võib kasutada ka tavalist [SDS011 PM-andurit](https://de.aliexpress.comwholesale?catId=0&amp;initiative_id=AS_20200813122806&amp;SearchText=sds011).
-* [BME280 6-PIN versioon, temperatuur ja niiskus] (https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040440&amp;SearchText=bme280+-5V++3.3V). Muud müüjad: [Nettigo](https://nettigo.euproductsmodule-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.debauelementesensoren-modulefeuchtigkeitbme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+* SPS30 peentolmuandur](https://www.sparkfun.com/products/15103). Muud müüjad: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Võib kasutada ka tavalist [SDS011 PM-andurit](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
+* [BME280 6-PIN versioon, temperatuur ja niiskus](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Muud müüjad: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
 * [Kaabel](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+kaabel+20cm+naine-naine)
 * [USB-kaabel nt: lame 2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+usb+lame+kaabel+2m)
 * [toiteallikas USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+mikro+usb+eu+toiteallikas+toiteallikas)

@@ -21,7 +21,7 @@ title: Risoluzione dei problemi
   configurazione collegandoti al suo IP
 * Se non conosci l'IP, cerca il dispositivo nella tua rete con la
   funzionalità "Discovery" di
-  [airrohr-firmware-flasher](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+  [airrohr-firmware-flasher](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
 * Se il dispositivo non è raggiungibile nella tua rete wireless, cerca
   la rete `airrohr-XXYYZZ` dopo 2/3 minuti dal riavvio e ripeti la
   configurazione

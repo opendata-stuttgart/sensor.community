@@ -1,25 +1,25 @@
 ---
-title: トラブルシューティング
+title: Troubleshoot
 ---
 
-### 転送の問題？
+### Transmitting problems?
 以下をご自身のデータでブラウザに入力してください。
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-ID」は、ページの左側に開いている入力欄でも検索できます。[https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1)
+ID」は、ページの左側に開いている入力欄でも検索できます。[https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
 
 * [https://devices.sensor.community](https://devices.sensor.community)でセンサーが登録されていて、そのセンサーが地図上に表示されているか。
 * 過去に無線LANの電波が弱かったことはありますか？
-  ここでは、サーバー側のシグナルプロトコルとして、`https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]` を紹介します。
+  ここでは、サーバー側のシグナルプロトコルとして、`https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]` を紹介します。
 
-### USBケーブルに問題がある？
+### USB cable problems?
 * 電源の確認
 * 再起動（USBプラグを抜くなどして、電源を切る
 * WLANの設定はOKか（センサーは設定されたWLANに接続している）。そうでなければ
   * 再起動後、最初の2～7分で、センサーがアドホック無線LAN（アクセスポイント）を開くか？
   * WLANネットワーク `airrohr-[ID]` を検索します。再起動後、表示されるまで数分かかる場合があります。
 
-  * AirRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher)の「ネットワーク検索」をご利用ください。
+  * AirRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)の「ネットワーク検索」をご利用ください。
   * If yes: ブラウザでセンサーに接続する `http://[ip-your-sensor]`, the configuration should appear
   * 電源が入らない場合は、電源不足や再起動ループなどが考えられます。
 * USBケーブルでNodeMCUをコンピュータに接続し、プロトコルを見る
@@ -27,10 +27,10 @@ ID」は、ページの左側に開いている入力欄でも検索できます
     * Linux: screen, minicom, cutecom
     * Windowsです。Tera Term
     * macOS: screen, minicom, ...
-    * 適切なUSB-2シリアルドライバーが必要な場合があります。[https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)を参照してください。
+    * 適切なUSB-2シリアルドライバーが必要な場合があります。[https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)を参照してください。
   * そこでは、センサーが何をしているか（ブートメッセージ、WLAN接続またはアクセスポイント、測定 - 3分後のみ）を確認する必要があります。
 
-### 電子機器の問題？
+### Electronics problems?
 * センサーの電子部品をハウジングから取り出して、よく見てみましょう。
 * 電源の再確認
     * 再起動後すぐにNodeMCU(ESP8266)が点滅する？

@@ -21,12 +21,13 @@ title: Konfiguracija spletne strani
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 
 <br>
 
 #### Preverite, ali je postaja pravilno konfigurirana
 Če v prejšnjem koraku niste izvedli drugih sprememb razen konfiguracije omrežja WiFi, bo senzor zdaj začel snemati in prenašati podatke. Po približno 10 minutah lahko preverite, ali vse deluje pravilno, tako da se pomaknete na naslednje strani. Na teh straneh poiščite ChipID (v zgornjem primeru 13597771).
 
- * [Podatki senzorja](https://www.madavi.desensorgraph.php)
- * [Podatki o signalu WiFi](https://www.madavi.desensorsignal.php)
+ * [Podatki senzorja](https://www.madavi.de/sensor/graph.php)
+ * [Podatki o signalu WiFi](https://www.madavi.de/sensor/signal.php)

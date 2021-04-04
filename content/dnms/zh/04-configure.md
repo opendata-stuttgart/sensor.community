@@ -1,5 +1,5 @@
 ---
-title: 配置
+title: Configure
 ---
 
   <div class="max-w-screen-xl mx-auto pt-5">
@@ -22,7 +22,7 @@ title: 配置
     </div>
   </div>
 
-### 获取ID
+### Get the ID
 1. 用USB线连接管理平台，为传感器供电。
 
 2. 监测站尝试连接到配置的WiFi接入点。如果不成功，传感器将打开一个名为 "颗粒物ID"、"Feinstaubsensor-ID "或 "airRohr-ID "的接入点。这个ID就是**芯片ID**（例如13597771）。**请记下这个数字，因为您需要它来进行登记**。
@@ -33,7 +33,7 @@ title: 配置
 
 >⚠️ **请注意**NodeMCU可能需要尝试几次才能连接到家庭WiFi网络。请不要不耐烦，尝试直到成功为止。也可以通过智能手机对传感器进行配置。如果传感器的配置已经成功，那么在这个IP 192.168.4.1下，配置页面已经无法访问了。
 
-### 配置台站
+### Configure the station
 1. 在 "配置 "下输入SSID（家庭WiFi网络名称）、网络安全密钥（Windows下）或WiFi密码。
 
 2. 根据本手册，对于噪声传感器(DNMS)，不需要进一步更改。
@@ -45,12 +45,11 @@ title: 配置
 <img src=".docsairrohr_config_initial.jpg" loading="lazy">。
 <br>
 
-#### 测试站
+### Test the station
 如果除了输入WiFi网络数据外，没有其他变化，那么大约10分钟后，传感器可以在以下页面上进行 "测试"。在这些页面上，您必须搜索芯片ID（在上面的例子中是13597771）。
 
- * [传感器数据](www.madavi.desensorgraph.php)
- * [无线局域网信号](www.madavi.desensorsignal.php)
- * [无线局域网信号](www.madavi.desensorsignal.php)
+ * [传感器数据](www.madavi.de/sensor/graph.php)
+ * [无线局域网信号](www.madavi.de/sensor/signal.php)
 
 
 

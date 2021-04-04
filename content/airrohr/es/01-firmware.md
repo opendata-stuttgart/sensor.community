@@ -27,7 +27,7 @@ Elige la url correspondiente al sistema operativo de tu ordenador.
 
 ### MacOS
 
-#####  MacOS Drivers
+##### MacOS Drivers
 * [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html) 
 
@@ -46,7 +46,7 @@ No es necesario instalar los drivers. El chip debe estar instalado (puedes verif
 Soporte para múltiples sistemas operativos: Windows, MacOS and Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Conecta el NodeMCU a tu ordenador con un cable micro-USB  (elige un cable que no sea más largo de 1 metro, si no, la instalación podría fallar). Selecciona latest_en.bin (o el lenguaje que prefieras) y haz click en “Upload”.
 Espera hasta que finalice el proceso. Ahora puedes conectar el sensor.

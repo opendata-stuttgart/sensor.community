@@ -3,7 +3,7 @@ title: Desky plošných spojů
 ---
 
 Nejlepší způsob, jak si postavit DNMS, je použít jednu z našich desek plošných spojů (PCB).
-Dnes již existuje spousta výrobců desek plošných spojů, kteří je vyrábějí za pár korun bez omezení minimálního množství. Například, [JLCPCB](https://jlcpcb.com/).
+Dnes již existuje spousta výrobců desek plošných spojů, kteří je vyrábějí za pár korun bez omezení minimálního množství. Například, [JLCPCB](https://jlcpcb.com//).
 Stačí si stáhnout níže uvedená schémata zapojení a/nebo soubory Gerber, nahrát je na webové stránky výrobce a objednat si PCB.
 
 <br>

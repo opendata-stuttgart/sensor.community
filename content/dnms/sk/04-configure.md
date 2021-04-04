@@ -42,15 +42,16 @@ title: Konfigurácia stránky
 
 <br>
 
-<img src="..docsairrohr_config_initial.jpg" loading="lazy">
+<img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
+<br>
 <br>
 
 ### Otestujte stanicu
 Ak neboli vykonané žiadne iné zmeny okrem zadania údajov siete WiFi, snímač sa môže "otestovať" na nasledujúcich stránkach približne po 10 minútach. Na týchto stránkach musíte vyhľadať ChipID (v uvedenom príklade 13597771).
 
- * [Údaje zo snímača](www.madavi.desensorgraph.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
- * [WLAN-Signal](www.madavi.desensorsignal.php)
+ * [Údaje zo snímača](www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
 

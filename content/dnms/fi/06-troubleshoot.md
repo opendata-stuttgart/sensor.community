@@ -4,13 +4,13 @@ title: Vianmääritys
 
 ### Ongelmia siirrossa?
 Kirjoita seuraavat tiedot selaimeesi omilla tiedoillasi:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] voidaan hakea myös sivun [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1) vasemmassa reunassa avoinna olevasta syöttökentästä.
+[ID] voidaan hakea myös sivun [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1) vasemmassa reunassa avoinna olevasta syöttökentästä.
 
 * Onko anturi rekisteröity [https://devices.sensor.community](https://devices.sensor.community) kautta ja näkyykö anturi kartalla?
 * Onko langaton signaali ollut aiemmin heikko?
-  Tässä on palvelinpuolen signaaliprotokolla: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Tässä on palvelinpuolen signaaliprotokolla: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Ongelmia USB-kaapelin kanssa?
 * Tarkista virtalähde
@@ -19,7 +19,7 @@ Kirjoita seuraavat tiedot selaimeesi omilla tiedoillasi:
   * Aukaiseeko anturi adhoc-wlan (yhteyspiste) ensimmäisten 2-7 minuutin aikana uudelleenkäynnistyksen jälkeen?
   * Etsi WLAN-verkko `airrohr-[ID]`. Uudelleenkäynnistyksen jälkeen voi kestää muutaman minuutin, ennen kuin tämä näkyy.
 * Tarkista omasta reitittimestäsi, onko anturi rekisteröity verkkoon ja merkitse IP-osoite muistiin.
-  * Vaihtoehtoisesti käytä [airRohr Flashing Tool] (https://github.comopendata-stuttgartairrohr-firmware-flasher) -työkalun "Search in network" -toimintoa.
+  * Vaihtoehtoisesti käytä [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) -työkalun "Search in network" -toimintoa.
   * Jos kyllä: Yhdistä sensori selaimen kautta `http://[ip-sensorisi]`, konfiguraation pitäisi näkyä.
   * Jos ei: syynä voi olla riittämätön virransyöttö, uudelleenkäynnistyssilmukka tai vastaava.
 * Liitä NodeMCU tietokoneeseen USB-kaapelilla ja katso protokollaa.
@@ -27,7 +27,7 @@ Kirjoita seuraavat tiedot selaimeesi omilla tiedoillasi:
     * Linux: näyttö, minicom, cutecom
     * Windows: Tera Term
     * macOS: näyttö, minicom, ...
-    * sopivia USB-2-sarjaohjaimia saatetaan tarvita, katso [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen).
+    * sopivia USB-2-sarjaohjaimia saatetaan tarvita, katso [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen).
   * Siellä sinun pitäisi nähdä, mitä anturi tekee (käynnistysviestit, WLAN-yhteys tai tukiasema, mittaus - vasta 3 minuutin kuluttua).
 
 ### Ongelmia elektroniikan kanssa?

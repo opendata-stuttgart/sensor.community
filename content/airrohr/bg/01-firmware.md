@@ -46,7 +46,7 @@ title: Драйвери и фърмуер
 Поддържа различни операционни системи: Windows, MacOS и Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Изходен текст](https://github.com/opendata-stuttgart/airrohr-firmware-flasher)
+* [Изходен текст](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Свържете NodeMCU към компютъра с къс микро USB кабел (кабелът не трябва да е по-дълъг от 1 м, в противен случай инсталацията може да се провали). Изберете `latest_bg.bin` (или друга езикова версия)и кликнете върху „Upload“.
 Изчакайте, докато процесът приключи. Сега остава да сглобите станцията.

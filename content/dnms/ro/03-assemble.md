@@ -8,17 +8,17 @@ A se vedea secțiunea __firmware flasher__.
 
 ### Unitatea de microfon
 
-Unitatea de microfon se bazează pe o placă de descompunere Pesky Products cu un microfon MEMS ICS-43434. Puteți găsi o astfel de placă pe [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Unitatea de microfon se bazează pe o placă de descompunere Pesky Products cu un microfon MEMS ICS-43434. Puteți găsi o astfel de placă pe [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
-Unitatea de microfon se bazează pe o placă de descompunere Pesky Products cu un microfon MEMS ICS-43434. Puteți găsi o astfel de placă pe [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
+Unitatea de microfon se bazează pe o placă de descompunere Pesky Products cu un microfon MEMS ICS-43434. Puteți găsi o astfel de placă pe [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
 ##### Carcasă pentru unitatea de microfon
 Carcasa este fabricată cu un tub de polistiren de 12,7 mm (0,500"). Acest diametru permite conectarea directă a majorității calibratoarelor la unitate.
 
-Prototipul a fost dezvoltat cu [tubulatura Evergreen nr. 236] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipul a fost dezvoltat cu [tubulatura Evergreen nr. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Prototipul a fost dezvoltat cu [tubulatura Evergreen nr. 236] (https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipul a fost dezvoltat cu [tubulatura Evergreen nr. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Placa de conectare trebuie adaptată la diametrul tubului cu ajutorul unui fișier. Folosiți niște bandă adezivă pentru a proteja intrarea microfonului.
 <br>
@@ -42,7 +42,7 @@ Strângeți extremitatea tubului cu bandă adezivă.
 
 Acum puteți umple tubul cu puțină rășină. Acest pas este obligatoriu pentru a evita rezonanța și a obține date calibrate și reproductibile.
 
-Prototipul a fost dezvoltat cu niște [PURe Isolation ST 33](https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900) produs de Copaltec GmbH.
+Prototipul a fost dezvoltat cu niște [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900) produs de Copaltec GmbH.
 
 ##### Specificații:
 * Rezistența dielectrică: 28 kVmm
@@ -58,7 +58,7 @@ Prototipul a fost dezvoltat cu niște [PURe Isolation ST 33](https://www.buerkli
 * Temperaturi de aplicare: - 20 până la +130 °C
 
 
-Ar trebui să funcționeze și [rășina poliuretanică UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf) produsă de Electrolube.
+Ar trebui să funcționeze și [rășina poliuretanică UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) produsă de Electrolube.
 
 Pentru fiecare tubulatură ar trebui să fie suficiente 15 g de rășină.
 
@@ -78,17 +78,17 @@ Tubul în sine trebuie să aibă o lungime de 160 mm. DNMS arată locul în. Car
 
 Arcul împiedică pătrunderea apei și a umidității în carcasă, permițând în același timp trecerea cablului.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS este conectat la cel de-al doilea PCB printr-un cablu RJ12. Dacă acest cablu este mai lung de 250 mm, trebuie să folosiți o extensie I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 După ce totul este bine conectat, piesele sunt lipite împreună.
 
 Rezultat:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Placa de circuit imprimat pe care se află NodeMCU poate fi montată în orice tip de cutie electrică.
 
@@ -106,7 +106,8 @@ Este absolut necesar să se instaleze o protecție împotriva intemperiilor sub 
 
 Aceste huse din spumă sunt vândute în mod normal ca "huse pentru microfon de măsurare". Dar sunt scumpe. De asemenea, puteți lua o minge de spumă normală și să faceți o gaură cu foarfeca.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### Locul de amplasare a microfonului
 

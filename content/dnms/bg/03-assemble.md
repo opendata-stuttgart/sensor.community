@@ -8,17 +8,13 @@ title: Сглобяване на
 
 ### Микрофонно устройство
 
-Микрофонът е базиран на платка за пробиване на Pesky Products с MEMS микрофон ICS-43434. Можете да намерите такава платка на [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
-
-Микрофонът е базиран на платка за пробиване на Pesky Products с MEMS микрофон ICS-43434. Можете да намерите такава платка на [Tindie marketplace](https://www.tindie.comproductsonehorseics43434-i2s-digital-microphone).
-
-
+Микрофонът е базиран на платка за пробиване на Pesky Products с MEMS микрофон ICS-43434. Можете да намерите такава платка на [Tindie marketplace](https://www.tindie.<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>Микрофонът е базиран на платка за пробиване на Pesky Products с MEMS микрофон ICS-43434. Можете да намерите такава платка на [Tindie marketplace](https://www.tindie.<img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 ##### Корпус за блока на микрофона
 Корпусът е изработен от 12,7 мм (0,500") полистиренова тръба. Този диаметър позволява да се включат директно повечето калибратори към устройството.
 
-Прототипът е разработен с тръбата [Evergreen No. 236](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Прототипът е разработен с тръбата [Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
-Прототипът е разработен с тръбата [Evergreen No. 236](https://evergreenscalemodels.comproducts236-500-12-7mm-od-white-polystyrene-tubing).
+Прототипът е разработен с тръбата [Evergreen No. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 <br>
 Прекъсващата платка трябва да се адаптира към диаметъра на тръбата с помощта на пила. Използвайте тиксо, за да защитите входа на микрофона.
 <br>
@@ -42,7 +38,7 @@ title: Сглобяване на
 
 Сега можете да напълните тръбата с малко смола. Тази стъпка е задължителна, за да се избегне резонансът и да се получат калибрирани и възпроизводими данни.
 
-Прототипът е разработен с част от [PURe Isolation ST 33](https://www.buerklin.comenPolyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33p12L5900), произведена от Copaltec GmbH.
+Прототипът е разработен с част от [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), произведена от Copaltec GmbH.
 
 ##### Спецификации:
 * Диелектрична якост: 28 kVmm
@@ -58,7 +54,7 @@ title: Сглобяване на
 * Температури на приложение: - 20 до +130 °C
 
 
-Би трябвало да работи и [полиуретановата смола UR5545](https://electrolube.comwp-contentuploads201911044-UR5545A-SDS1525.pdf), произведена от Electrolube.
+Би трябвало да работи и [полиуретановата смола UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf), произведена от Electrolube.
 
 За всяка тръба трябва да са достатъчни 15 g смола.
 
@@ -78,17 +74,17 @@ title: Сглобяване на
 
 Носът предотвратява навлизането на вода и влага в корпуса, като същевременно пропуска кабела.
 
-<img src="..docsdnmsdnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-housing.jpg" style="margin: 1em 0" loading="lazy"/>
 
 DNMS е свързан с втората печатна платка с кабел RJ12. Ако този кабел е по-дълъг от 250 mm, трябва да използвате удължител I²C.
 
-<img src="..docsdnmsdnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="margin: 1em 0" loading="lazy"/>
 
 След като всичко е добре свързано, частите се залепват една за друга.
 
 Резултат:
 
-<img src="..docsdnmsdnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy">
+<img src="../docs/dnms/dnms-noise-measuring-dn40-result.jpg" style="margin: 1em 0" loading="lazy"/>
 
 Платката с NodeMCU може да бъде поставена във всякакъв вид електрическа кутия.
 
@@ -106,7 +102,8 @@ DNMS е свързан с втората печатна платка с кабе
 
 Тези капаци от пяна обикновено се продават като "капаци за измервателни микрофони". Но те са скъпи. Можете също така да вземете обикновена топка от пяна и да изрежете дупка с ножица.
 
-If you need more ones [this source](https://de.aliexpress.comitem32357483926.html?gps-id=pcStoreJustForYou&amp;scm=1007.23125.137358.0&amp;scm_id=1007.23125.137358.0&amp;scm-url=1007.23125.137358.0&amp;pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&amp;spm=a2g0o.store_home.smartJustForYou_148437547.2) can be helpful.
+If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
+) can be helpful.
 
 ### Местоположение на микрофона
 

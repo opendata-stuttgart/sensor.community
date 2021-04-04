@@ -4,13 +4,13 @@ title: Tõrkeotsing
 
 ### Probleemid ülekandmisel?
 Sisestage oma brauserisse järgmised andmed:
-`https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1&amp;var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] saab otsida ka lehekülje [https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1](https://api-rrd.madavi.degrafanadGUaL5aZMzpm-sensors?orgId=1) vasakul pool avatud sisendväljal.
+[ID] saab otsida ka lehekülje [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1) vasakul pool avatud sisendväljal.
 
 * Kas andur on registreeritud [https://devices.sensor.community](https://devices.sensor.community) kaudu ja kas andur on kaardil nähtav?
 * Kas traadita signaal on varem olnud nõrk?
-  Siin on serveripoolne signaaliprotokoll: `https://api-rrd.madavi.degrafanadFk6mw1WGzwifi-signal?orgId=1&amp;var-chipID=esp8266-[ID]`.
+  Siin on serveripoolne signaaliprotokoll: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
 ### Probleemid USB-kaabliga?
 * Kontrollige toiteallikat
@@ -19,7 +19,7 @@ Sisestage oma brauserisse järgmised andmed:
   * Kas andur avab adhoc wifi (juurdepääsupunkt) esimese 2-7 minuti jooksul pärast taaskäivitamist?
   * Otsi WLAN-võrku `airrohr-[ID]`. Pärast taaskäivitamist võib kuluda paar minutit, kuni see on nähtav.
 * Kontrollige oma ruuterist, kas andur on võrgus registreeritud ja märkige IP-aadress.
-  * alternatiivselt kasutage [airRohr Flashing Tool](https://github.comopendata-stuttgartairrohr-firmware-flasher) valikut "Search in network".
+  * alternatiivselt kasutage [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) valikut "Search in network".
   * Kui jah: ühendage anduriga brauseri kaudu `http://[ip-your-sensor]`, konfiguratsioon peaks ilmuma.
   * Kui ei: see võib olla tingitud ebapiisavast toiteallikast, taaskäivitusskeemist vms.
 * Ühendage NodeMCU USB-kaabli kaudu arvutiga ja vaadake protokolli.
@@ -27,7 +27,7 @@ Sisestage oma brauserisse järgmised andmed:
     * Linux: ekraan, minicom, cutecom
     * Windows: Tera Term
     * macOS: ekraan, minicom, ...
-    * Vajalikud võivad olla sobivad USB-2 jadaprogrammid, vt [https://github.comopendata-stuttgartmetawikiFirmware-einspielen](https://github.comopendata-stuttgartmetawikiFirmware-einspielen)
+    * Vajalikud võivad olla sobivad USB-2 jadaprogrammid, vt [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
   * Seal peaksite nägema, mida andur teeb (käivitussõnumid, WLAN-ühendus või juurdepääsupunkt, mõõtmine - alles 3 minuti pärast).
 
 ### Probleemid elektroonikaga?

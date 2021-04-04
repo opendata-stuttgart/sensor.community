@@ -20,10 +20,9 @@ Home -> (Login) - I miei sensori -> Registra un nuovo sensore
 #### NB!
 
 Al momento questo può essere fatto solo manualmente, basta inviare una richiesta a tech (at) sensor.community.
-Siehe [issue] (https://github.comopendata-stuttgartsensor.communityissues117
-) per i dettagli.
+Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) per i dettagli.
 
 Attualmente non è possibile registrare utilizzando il sito sia il sensore PM, sia il sensore temphumidity e DNMS collegati a un NodeMCU.
 Per ora può essere fatto solo manualmente inviando una richiesta a tech (at) sensor.community.
-Vedi [issue](https://github.comopendata-stuttgartsensor.communityissues117
+Vedi [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
 ) per i dettagli.
