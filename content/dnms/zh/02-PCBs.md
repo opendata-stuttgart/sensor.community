@@ -9,7 +9,7 @@ title: PCBs and circuit diagrams
 <br>
 这里描述的是PCBs的最后版本。请参考[Helmut Bitter的Github](https://github.com/hbitter/DNMS/tree/master/PCBs) 以获取更多信息和KiCad文件。
 
-###AIRROHR V1.4
+### AIRROHR V1.4
 <img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 NodeMCU ESP8266 CPUWLAN的PCB，带有I2C总线扩展，可以连接DNMS以及其他传感器（SDS011，BME280...）。
 

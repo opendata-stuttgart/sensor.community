@@ -1,5 +1,5 @@
 ---
-title: 驱动程序和固件
+title: Driver & firmware
 ---
 
 我们已经准备好了固件，您只需要安装驱动程序和闪现您的NodeMCU（ESP8266）。您只需要安装驱动程序并更新您的NodeMCU（ESP8266）。
@@ -51,12 +51,12 @@ V2的*。解压CP210x文件夹，双击CP210xVCPInstaller_x64(或x86)应用程�
 用短的 micro-USB 纜線將 NodeMCU 連接到您的電腦 (選擇短於 1 米的纜線，否則可能會安裝失敗)。選擇`latest_en.bin`(或其他語言版本)，並按下「上傳」。
 等到这个过程完成后。现在我们可以组装传感器了。
 
-#### Linux。设置权限为可执行文件
+#### Linux: Set permissions as executable
 下载后，你可能需要将权限设置为可执行。这可以通过命令来完成。`chmod o+x &lt;下载文件名&gt;`。
-&lt;br&gt;
+<br>
 非常感谢[波兰的Piotr](https://dropbox.inf.re)的帮助。🙋♂️
 
-#### MacOS：如何运行一个未经验证的应用？
+#### MacOS: how to run a unverified app
 右键单击并多次打开应用程序，并始终以 "打开 "确认。
 
 下面是Youtube上的一个简短视频👉 https://youtu.be1KZiP94TYjw。

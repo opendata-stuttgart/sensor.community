@@ -8,7 +8,7 @@ Accesați [devices.sensor.community](https://devices.sensor.community) pentru a 
 
 
 ### Înregistrează-ți dispozitivul
-După ce vă creați un cont și vă conectați, veți putea să vă înregistrați dispozitivul. Completați formularul pentru a vă înregistra dispozitivul. Navigați la Home -&gt; (Autentificare) - Sensors -&gt; Register new sensor (Înregistrare senzor nou)
+După ce vă creați un cont și vă conectați, veți putea să vă înregistrați dispozitivul. Completați formularul pentru a vă înregistra dispozitivul. Navigați la Home -> (Autentificare) - Sensors -> Register new sensor (Înregistrare senzor nou)
 
 * ID-ul senzorului este ChipID-ul ESP8266 (NodeMCU) pe care l-ați notat mai înainte.
 * adresa ta de e-mail (nu va fi publicată)

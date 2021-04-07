@@ -18,7 +18,7 @@ Home -> (Login) - Sensors -> Register sensor
 * the surroundings of the station - e.g. height above ground, side of the road, high traffic volume, free field or similar
 
 
-#### NB!
+#### By the way!
 Currently it is not possible to register using the site both PM sensor, temp/humidity and DNMS sensor connected to one NodeMCU.
 For now it can only be done manually by sending a request to tech (at) sensor.community.
 See [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117

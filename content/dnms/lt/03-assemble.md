@@ -6,14 +6,14 @@ Prieš surinkdami įdiekite programinę įrangą!
 Žr. __firmware flasher__ skyrių.
 
 
-#### Mikrofono įrenginys
+### Mikrofono įrenginys
 
 Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 Mikrofono blokas yra pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 
-##### Mikrofono bloko korpusas
+### Mikrofono bloko korpusas
 Korpusas pagamintas iš 0,500" (12,7 mm) polistireninio vamzdžio. Toks skersmuo leidžia tiesiogiai prijungti daugumą kalibratorių prie įrenginio.
 
 Prototipas buvo sukurtas naudojant [Evergreen Nr. 236 vamzdį](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
@@ -44,7 +44,7 @@ Dabar galite užpildyti vamzdelį derva. Šis žingsnis yra privalomas, kad būt
 
 Prototipas buvo sukurtas naudojant "Copaltec GmbH" pagamintą [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
 
-##### Specifikacijos:
+### Specifikacijos:
 * Dielektrinis stipris: 28 kVmm
 * Specifinis pasipriešinimas pirmyn: 5,8.1014 omcm
 * Paviršiaus varža: 1,3.1016 omų
@@ -68,7 +68,7 @@ Kai derva sukietės, nuimkite juostą. Mikrofono įrenginys paruoštas.
 
 
 
-#### DNMS korpusas
+### DNMS korpusas
 
 Kai "Teensy" (DNMS) ir "NodeMCU" (atskiras arba PCB) yra atskirti: DNMS ir airRohr
 
@@ -93,7 +93,7 @@ Rezultatas:
 Plokštę su "NodeMCU" galima įdėti į bet kokią elektros dėžutę.
 
 
-#### Apsauga nuo oro sąlygų
+### Apsauga nuo oro sąlygų
 
 Patys korpusai turėtų būti atsparūs vandeniui. Jautrus galėtų būti tik mikrofono įvadas. Gamintojas TDK paskelbė keletą rekomendacijų, kaip "InvenSense" apatinio prievado MEMS mikrofonus sandarinti nuo dulkių ir skysčių patekimo, tačiau komponentų sunku rasti ir jie nebuvo išbandyti.
 
@@ -109,7 +109,7 @@ Būtinai reikia įrengti apsaugą nuo oro sąlygų - putplasčio dangą. Jei rei
 If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
 ) can be helpful.
 
-#### Mikrofono vieta
+### Mikrofono vieta
 
 Svarbu, kad mikrofonas būtų kuo laisvesnėje vietoje, t. y. tokioje, kurioje yra kuo mažiau garsą atspindinčių paviršių. Atstumas iki garsą atspindinčių paviršių turėtų būti kuo didesnis. Stenkitės nemontuoti mikrofono tiesiai ant namo sienos, nes sienos stipriai atspindi garsus.  Idealiu atveju atstumas iki sienos turėtų būti didesnis nei 1 m. Žinoma, tai ne visada lengva įgyvendinti.
 

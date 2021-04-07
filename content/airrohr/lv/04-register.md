@@ -8,7 +8,7 @@ Dodieties uz [devices.sensor.community](https://devices.sensor.community), lai i
 
 
 #### Reģistrējiet savu ierīci
-Kad izveidosiet kontu un pierakstīsieties, varēsiet reģistrēt ierīci. Aizpildiet veidlapu, lai reģistrētu ierīci. Virzieties uz Sākums -&gt; (Pieteikšanās) - Sensori -&gt; Reģistrēt jaunu sensoru.
+Kad izveidosiet kontu un pierakstīsieties, varēsiet reģistrēt ierīci. Aizpildiet veidlapu, lai reģistrētu ierīci. Virzieties uz Sākums -> (Pieteikšanās) - Sensori -> Reģistrēt jaunu sensoru.
 
 * sensora ID ir ESP8266 (NodeMCU) mikroshēmas identifikators, ko esat pierakstījis iepriekš.
 * jūsu e-pasta adrese (netiks publicēta)

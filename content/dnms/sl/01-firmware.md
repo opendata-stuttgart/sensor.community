@@ -1,5 +1,5 @@
 ---
-title: Gonilnik in vdelana programska oprema
+title: Gonilnik, vdelana programska oprema
 ---
 
 Vdelano programsko opremo smo že pripravili. Namestiti morate le gonilnike in flashati plošči NodeMCU (ESP8266) in Teensy 4.0.
@@ -40,7 +40,7 @@ Za komunikacijo z ESP8266 potrebujete usb2serialne gonilnike za svoj operacijski
 Gonilnikov ni treba namestiti. Čip mora biti podprt neposredno (preveri se z dmesg)
 
 ---
-#### Firmware Flasher NodeMCU
+### Firmware Flasher NodeMCU
 Podpora za več operacijskih sistemov: Windows, MacOS in Linux.
 
 * [AirRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
@@ -57,10 +57,10 @@ V [Githubu Helmuta Bitterja](https://github.com/hbitter/DNMS/tree/master/Firmwar
 * .ino
 * .hex
 
-##### Teensy Loader
+### Teensy Loader
 Datoteko .hex lahko vstavite v plošče Teensy s samostojno grafično programsko opremo [Teensy Loader](https://www.pjrc.com/teensy/loader.html) za operacijske sisteme Windows, Mac in Linux.
 Obstaja tudi različica ukazne vrstice.
 
-##### Teensyduino
+### Teensyduino
 Datoteko .ino lahko v ploščah Teensy s končnico Arduino IDE [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
 Po potrebi lahko vdelano programsko opremo spremenite neposredno v Arduino IDE.

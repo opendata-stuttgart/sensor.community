@@ -6,13 +6,13 @@ Pred sestavljanjem namestite vdelano programsko opremo!
 Glejte razdelek __firmware flasher__.
 
 
-### Mikrofonska enota
+## Mikrofonska enota
 
 Mikrofonska enota temelji na plošči za prekinitev Pesky Products z mikrofonom MEMS ICS-43434. Takšno ploščo lahko najdete na [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
-##### Ohišje za mikrofonsko enoto
+#### Ohišje za mikrofonsko enoto
 Ohišje je izdelano iz 12,7-milimetrske polistirenske cevi s premerom 0,500". Ta premer omogoča neposredno priključitev večine kalibratorjev na enoto.
 
 Prototip je bil razvit s cevjo [Evergreen št. 236](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
@@ -44,7 +44,7 @@ Zdaj lahko cev napolnite z nekaj smole. Ta korak je obvezen, če se želite izog
 
 Prototip je bil razvit z nekaj [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), ki ga je izdelalo podjetje Copaltec GmbH.
 
-##### Specifikacije:
+#### Specifikacije:
 * Dielektrična trdnost: 28 kVmm
 * Specifični upor naprej: 5,8.1014 ohmcm
 * Površinska upornost: 1,3.1016 ohma
@@ -67,7 +67,7 @@ Za vsako cevko zadostuje 15 g smole.
 Ko se smola strdi, odstranite trak. Mikrofonska enota je pripravljena.
 
 
-#### Ohišje DNMS
+### Ohišje DNMS
 
 Ko sta Teensy (DNMS) in NodeMCU (samostojno ali na tiskanem vezju) ločena: DNMS in airRohr
 
@@ -92,7 +92,7 @@ Rezultat:
 Tiskano vezje z NodeMCU lahko vstavite v katero koli električno škatlo.
 
 
-#### Vremenska zaščita
+### Vremenska zaščita
 
 Sama ohišja morajo biti vodotesna. Občutljiv je lahko le vhod za mikrofon. Proizvajalec TDK je objavil nekaj priporočil za tesnjenje mikrofonov InvenSense MEMS s spodnjimi vrati pred vdorom prahu in tekočin, vendar je komponente težko najti in jih nismo preizkusili.
 
@@ -108,7 +108,7 @@ Ti penasti pokrovi se običajno prodajajo kot "pokrovi za merilne mikrofone". Ve
 If you need more ones [this source](https://de.aliexpress.com/item/32357483926.html?gps-id=pcStoreJustForYou&scm=1007.23125.137358.0&scm_id=1007.23125.137358.0&scm-url=1007.23125.137358.0&pvid=6cc8dfcd-974e-4fde-9dc9-6444c37a9069&spm=a2g0o.store_home.smartJustForYou_148437547.2
 ) can be helpful.
 
-#### Lokacija mikrofona
+### Lokacija mikrofona
 
 Pomembno je, da mikrofon postavite na čim bolj prosto mesto, kar pomeni na mesto s čim manj površinami, ki odbijajo zvok. Razdalja do odbojnih površin mora biti čim večja. Poskusite mikrofona ne namestiti neposredno na steno hiše, saj stene močno odbijajo zvoke.  V idealnem primeru naj bo razdalja do stene večja od 1 m. Seveda tega ni vedno lahko uresničiti.
 

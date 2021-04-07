@@ -8,7 +8,7 @@ Pojdite na [devices.sensor.community](https://devices.sensor.community), da ustv
 
 
 #### Registrirajte svojo napravo
-Ko ustvarite račun in se prijavite, lahko registrirate svojo napravo. Izpolnite obrazec za registracijo naprave. Pojdite na Domov -&gt; (Prijava) - Senzorji -&gt; Registracija novega senzorja
+Ko ustvarite račun in se prijavite, lahko registrirate svojo napravo. Izpolnite obrazec za registracijo naprave. Pojdite na Domov -> (Prijava) - Senzorji -> Registracija novega senzorja
 
 * ID senzorja je ChipID ESP8266 (NodeMCU), ki ste si ga zapisali prej
 * vaš e-poštni naslov (ne bo objavljen)

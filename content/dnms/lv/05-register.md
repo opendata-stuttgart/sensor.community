@@ -2,27 +2,23 @@
 title: Reģistrēties
 ---
 
-#### Reģistrējieties
+### Reģistrējieties
 
-Dodieties uz [devices.sensor.community](https://devices.sensor.community), lai reģistrētu savu ierīci un kļūtu par atvērtā datu tīkla daļu.
+Dodieties uz [devices.sensor.community](https://devices.sensor.community/), lai reģistrētu savu ierīci un kļūtu par atvērtā datu tīkla daļu.
 
 
-#### Reģistrējiet savu ierīci
-Kad esat reģistrējies, noklikšķiniet uz "Reģistrēt jaunu sensoru" un aizpildiet veidlapu.
-Sākums -> (Pieslēgties) - Mani sensori -> Reģistrēt jaunu sensoru
+### Reģistrējiet savu ierīci
+Pēc tam, kad esat pieteicies, noklikšķiniet uz reģistrēt jaunu ierīci un aizpildiet veidlapu.
+Sākumlapa -> (Pieteikšanās) - Sensors -> Reģistrēt sensoru
 
-* Jūsu norādītais ESP8266 mikroshēmas identifikators (NodeMCU).
-* Jūsu e-pasta adrese (netiks publicēta).
-* Jūsu adrese: Iela ar mājas numuru, pasta indeksu un pilsētu. Noklikšķiniet uz "Meklēt ievadīto adresi", lai iegūtu atrašanās vietas koordinātas (tās ir noapaļotas uz leju). Pārbaudiet tapas pozīciju, ja nepieciešams, nomainiet to.
+* Jūsu pierakstītais ESP8266 (NodeMCU) mikroshēmas identifikators (ChipID).
+* Jūsu e-pasta adrese (netiks publicēta)
+* jūsu adrese: ielu ar mājas numuru, pasta indeksu un pilsētu. Noklikšķiniet uz "Lookup entered address" (meklēt ievadīto adresi), lai iegūtu atrašanās vietas koordinātas (tiks noapaļotas). Pārbaudiet adatas atrašanās vietu, ja nepieciešams, mainiet to.
 * iekšējais nosaukums atvieglo nodalīšanu, ja jums ir vairāki sensori (piemēram, dārza, mammas sensors,...).
-* stacijas vide - piemēram, augstums virs zemes, ceļa malā, intensīva satiksme, atklāta telpa vai tamlīdzīgi.
+* stacijas apkārtne - piemēram, augstums virs zemes, ceļa puse, intensīva satiksme, brīvs lauks vai tamlīdzīgi.
 
-#### NB!
-Pašlaik nav iespējams reģistrēt gan PM sensoru, gan TempHumidity sensoru, gan DNMS sensoru, kas savienots ar NodeMCU.
-Pašlaik to var izdarīt tikai manuāli, vienkārši nosūtiet pieprasījumu uz tech (at) sensor.community.
-Siehe [izdevums](https://github.com/opendata-stuttgart/sensor.community/issues/117), lai iegūtu sīkāku informāciju.
 
-Pašlaik nav iespējams reģistrēt, izmantojot vietni, gan PM sensoru, gan gaisa mitruma, gan DNMS sensoru, kas savienots ar vienu NodeMCU.
+### Starp citu!
+Pašlaik nav iespējams reģistrēt, izmantojot vietni, gan PM sensoru, gan temperatūras/mitruma, gan DNMS sensoru, kas pieslēgts vienam NodeMCU.
 Pagaidām to var izdarīt tikai manuāli, nosūtot pieprasījumu uz tech (at) sensor.community.
-Skatīt [jautājums](https://github.com/opendata-stuttgart/sensor.community/issues/117
-), lai iegūtu sīkāku informāciju.
+Skatīt [jautājums](https://github.com/opendata-stuttgart/sensor.community/issues/117 ), lai iegūtu sīkāku informāciju.

@@ -9,7 +9,7 @@ Tiesiog atsisiųskite mūsų schemas arba "Gerber" failus, įkelkite juos į gam
 <br>
 Čia aprašomos paskutinės PCB versijos. Daugiau informacijos ir prieigą prie "KiCad" failų rasite [Helmuto Bitterio "Github"](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
-#### AIRROHR V1.4
+### AIRROHR V1.4
 <img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
 Plokštelė, skirta NodeMCU ESP8266 CPUWLAN su I2C magistralės išplėtimu DNMS ir kitiems jutikliams (SDS011, BME280...) prijungti.
 

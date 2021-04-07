@@ -2,12 +2,12 @@
 title: Registruotis
 ---
 
-#### Užsiregistruokite
+### Užsiregistruokite
 
 Eikite į [devices.sensor.community](https://devices.sensor.community), kad užregistruotumėte savo prietaisą ir taptumėte atviro duomenų tinklo dalimi.
 
 
-#### Užregistruokite savo prietaisą
+### Užregistruokite savo prietaisą
 Užsiregistravę spustelėkite "Registruoti naują jutiklį" ir užpildykite formą.
 Pagrindinis -> (Prisijungimas) - Mano jutikliai -> Užregistruoti naują jutiklį
 
@@ -17,7 +17,7 @@ Pagrindinis -> (Prisijungimas) - Mano jutikliai -> Užregistruoti naują jutikl�
 * vidinis pavadinimas palengvina atskyrimą, jei turite kelis jutiklius (pvz., sodo, mamos jutiklis,...).
 * stoties aplinka - pvz., aukštis virš žemės paviršiaus, kelio pakraštys, intensyvus eismas, atvira erdvė ar pan.
 
-#### NB!
+### Beje!
 Šiuo metu neįmanoma užregistruoti ir PM jutiklio, ir TempHumidity jutiklio, ir DNMS jutiklio, prijungtų prie NodeMCU.
 Šiuo metu tai galima padaryti tik rankiniu būdu, tiesiog atsiųskite užklausą adresu tech (at) sensor.community.
 Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) dėl išsamesnės informacijos.

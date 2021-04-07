@@ -46,7 +46,7 @@ Originalias instrukcijas ir ankstesnes triukšmo jutiklio versijas rasite [Helmu
  Čia aprašomas tik tas variantas, kai NODEMCU ir DNMS yra atskirti. Kitų variantų ieškokite Helmuto "Github" svetainėje!
   Šiuo atveju ryšys tarp NodeMCU ir DNMS gali būti ne ilgesnis kaip 10 m. Tai svarbu, nes norint gauti tikslius triukšmo matavimus, reikia rasti tinkamą DNMS padėtį.
 
-#### Pirkinių sąrašas
+### Pirkinių sąrašas
 
 ##### Pavieniai komponentai
 * [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)

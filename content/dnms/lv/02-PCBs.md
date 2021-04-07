@@ -3,26 +3,29 @@ title: PCB un shēmas
 ---
 
 Labākais veids, kā izveidot DNMS, ir izmantot kādu no mūsu PCB.
-Tagad ir diezgan daudz PCB ražotāju, kas var ražot shēmas plates par dažiem dolāriem bez minimāliem daudzumiem. Piemēram, [JLCPCB](https://jlcpcb.com/).
-Vienkārši lejupielādējiet mūsu shēmas vai Gerber failus zemāk, augšupielādējiet tos ražotāja tīmekļa vietnē un pasūtiet savas PCB.
+Tagad ir diezgan daudz PCB ražotāju, kas var izgatavot shēmas plates par dažiem dolāriem bez minimālā daudzuma. Piemēram, [JLCPCB](https://jlcpcb.com//).
+Vienkārši lejuplādējiet mūsu shēmas un/vai Gerber failus, augšupielādējiet tos ražotāja tīmekļa vietnē un pasūtiet PCB.
 
 <br>
-Šeit ir aprakstītas pēdējās PCB versijas. Lai iegūtu papildu informāciju un piekļūtu KiCad failiem, skatiet [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs).
+Pēdējās PCB versijas ir aprakstītas šeit. Lai iegūtu papildu informāciju un piekļūtu KiCad failiem, skatiet [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/PCBs). 
 
-#### AIRROHR V1.4
+### AIRROHR V1.4
 <img src="../docs/dnms/airrohr-PCB.jpg" style="display: block; width:40%;margin: 1em 0" loading="lazy"/>
-PCB NodeMCU ESP8266 CPUWLAN ar I2C kopnes paplašinājumu, lai pieslēgtu DNMS, kā arī citus sensorus (SDS011, BME280...).
+PCB NodeMCU ESP8266 CPU/WLAN ar I2C kopnes paplašinājumu, lai pieslēgtu DNMS, kā arī citus sensorus (SDS011, BME280...).
 
 
-##### Lejupielādēt:
-* [Ķēdes shēma](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
-* [Gerber fails, ko augšupielādēt PCB ražotāja tīmekļa vietnē](.../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
+##### Lejupielādēt
+* [Shēma](../docs/dnms/airrohr-PCB-circuit-diagram.pdf)
+* [Gerber fails augšupielādei PCB ražotāja tīmekļa vietnē](../docs/dnms/airrohr-PCB-circuit-diagram-gerber.zip)
+
+---
+
+### DNMS - T4 V1.4
+<img src="../docs/dnms/dnms-noise-measuring-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0" loading="lazy"/>
+DNMS Teensy 4.0 PCB, ko var pievienot tieši NodeMCU ESP8266 vai AIRROHR PCB iepriekš.
 
 
-#### DNMS - T4 V1.4
-DNMS Teensy 4.0 PCB, ko var pievienot tieši NodeMCU ESP8266 vai AIRROHR PCB.
-
-##### Lejupielādēt:
-* [Shēma](...docsdnmsdnms-noise-measuring-teensy-40-circuit-diagram.pdf)
-* [Gerber fails, ko augšupielādēt PCB ražotāja tīmekļa vietnē](...docsdnmsdnms-noise-measuring-teensy-40-circuit-gerber.zip)
+##### Lejupielādēt
+* [Shēma](../docs/dnms/dnms-noise-measuring-teensy-40-circuit-diagram.pdf)
+* [Gerber fails augšupielādei PCB ražotāja tīmekļa vietnē](../docs/dnms/dnms/nms-noise-measuring-teensy-40-circuit-gerber.zip)
 
