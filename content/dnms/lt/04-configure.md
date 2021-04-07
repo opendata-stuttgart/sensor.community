@@ -22,7 +22,7 @@ title: Konfigūruoti
 </div>
 </div>
 
-#### Gaukite ID
+### Gaukite ID
 1. Prijunkite stotį USB kabeliu, kad įjungtumėte jutiklį.
 
 2. Stotis bando prisijungti prie sukonfigūruoto "WiFi" prieigos taško. Jei tai nepavyksta, jutiklis atidaro prieigos tašką su pavadinimu `Particulate Matter ID` , `Feinstaubsensor-ID` arba `airRohr-ID`. ID yra **ChipID** (pavyzdžiui, 13597771). **Prašome užsirašyti šį numerį, nes jis reikalingas registracijai**.
@@ -33,7 +33,7 @@ title: Konfigūruoti
 
 > ⚠️ **Atkreipkite dėmesį** Gali prireikti kelių bandymų, kol NodeMCU prisijungs prie namų "WiFi" tinklo. Nebūkite nekantrūs ir bandykite, kol pavyks prisijungti. Jutiklį taip pat galima konfigūruoti per išmanųjį telefoną. Jei jutiklio konfigūravimas pavyko, konfigūravimo puslapis nebėra pasiekiamas šiuo IP 192.168.4.1
 
-#### Konfigūruoti stotį
+### Konfigūruoti stotį
 1. Skiltyje "Konfigūruoti" įveskite SSID (namų "WiFi" tinklo pavadinimą), tinklo saugumo raktą (Windows sistemoje) arba "WiFi" slaptažodį.
 
 2. Triukšmo jutikliams (DNMS) pagal šį vadovą jokių papildomų pakeitimų atlikti nereikia
@@ -46,11 +46,10 @@ title: Konfigūruoti
 <br>
 <br>
 
-#### Išbandykite stotį
+### Išbandykite stotį
 Jei nebuvo atlikta jokių pakeitimų, išskyrus "WiFi" tinklo duomenų įvedimą, maždaug po 10 minučių jutiklį galima "išbandyti" kituose puslapiuose. Šiuose puslapiuose reikia ieškoti lusto ID (pirmiau pateiktame pavyzdyje - 13597771).
 
  * [Jutiklio duomenys](www.madavi.de/sensor/graph.php)
- * [WLAN-signalas](www.madavi.de/sensor/signal.php)
  * [WLAN-signalas](www.madavi.de/sensor/signal.php)
 
 

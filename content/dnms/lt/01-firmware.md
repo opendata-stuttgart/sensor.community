@@ -8,7 +8,7 @@ Norint palaikyti ryšį su ESP8266, reikia usb2serial tvarkyklių jūsų operaci
 
 "NocdeMCU v3" mikroschemų rinkinys paprastai yra CH341, tiesiog patikrinkite savo "NodeMCU" nugarėlę, kad sužinotumėte techninę informaciją. Pasirinkite nuorodą, atitinkančią jūsų kompiuterio operacinę sistemą.
 
-#### Windows
+### Windows
 
 ##### V2 (CP2102) modelio tvarkyklės Windows
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - "Windows 10" turėtų galėti automatiškai atsisiųsti šiuos
@@ -22,7 +22,7 @@ Norint palaikyti ryšį su ESP8266, reikia usb2serial tvarkyklių jūsų operaci
 * V3: atidarykite aplanką CH341SER ir dukart spustelėkite programą SETUP.
 
 
-#### MacOS
+### MacOS
 
 ##### MacOS tvarkyklės
 * [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
@@ -50,15 +50,15 @@ Palaukite, kol procesas bus baigtas. Dabar galime surinkti jutiklį.
 Didelė padėka [Piotrui iš Lenkijos](https://dropbox.inf.re) už pagalbą! 🙋♂️
 
 ---
-#### Firmware Flasher Teensy
+### Firmware Flasher Teensy
 [Helmuto Bitterio "Github"](https://github.com/hbitter/DNMS/tree/master/Firmware) galite rasti dviejų rūšių programinę įrangą:
 * .ino
 * .hex
 
-##### "Teensy" įkroviklis
+#### "Teensy" įkroviklis
 .hex failą galite įkelti į "Teensy" plokštes naudodami atskirą "Windows", "Mac" ir "Linux" skirtą GUI programinę įrangą [Teensy Loader](https://www.pjrc.com/teensy/loader.html).
 Taip pat yra komandinės eilutės versija.
 
-##### Teensyduino
+#### Teensyduino
 .ino failą galite įkelti į "Teensy" plokštes su "Arduino IDE" plėtiniu [Teensyduino](https://www.pjrc.com/teensy/teensyduino.html).
 Jei reikia, galite keisti programinę įrangą tiesiogiai "Arduino IDE" aplinkoje.

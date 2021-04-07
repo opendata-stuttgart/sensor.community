@@ -2,7 +2,7 @@
 title: Trikčių šalinimas
 ---
 
-#### Problemos su perkėlimu?
+### Problemos su perkėlimu?
 Naršyklėje įveskite šiuos savo duomenis:
 `https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
@@ -12,7 +12,7 @@ Naršyklėje įveskite šiuos savo duomenis:
 * Ar anksčiau belaidžio ryšio signalas buvo silpnas?
   Čia pateikiamas serverio pusės signalo protokolas: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
-#### Problemos su USB kabeliu?
+### Problemos su USB kabeliu?
 * Patikrinkite maitinimo šaltinį
 * Paleiskite iš naujo (atjunkite maitinimą, pvz., ištraukite USB kištuką)
 * Ar WLAN konfigūracija yra tinkama (jutiklis prisijungia prie sukonfigūruoto WLAN). Jei ne:
@@ -30,7 +30,7 @@ Naršyklėje įveskite šiuos savo duomenis:
     * gali prireikti tinkamų USB-2 serijinių tvarkyklių, žr. [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen).
   * Ten turėtumėte matyti, ką jutiklis veikia (įkrovos pranešimai, WLAN ryšys arba prieigos taškas, matavimas - tik po 3 minučių).
 
-#### Problemos su elektronika?
+### Problemos su elektronika?
 * Išimkite jutiklio elektroniką iš korpuso ir atidžiai ją apžiūrėkite.
 * Dar kartą patikrinkite maitinimo šaltinį
     * Ar NodeMCU (ESP8266) mirksi netrukus po perkrovimo?
