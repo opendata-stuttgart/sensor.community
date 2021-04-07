@@ -2,12 +2,12 @@
 title: Register
 ---
 
-### Registrirajte se
+## Registrirajte se
 
 Obiščite spletno mesto [devices.sensor.community](https://devices.sensor.community), da registrirate svojo napravo in postanete del odprtega podatkovnega omrežja.
 
 
-#### Registrirajte svojo napravo
+### Registrirajte svojo napravo
 Ko ste se registrirali, kliknite "Registracija novega senzorja" in izpolnite obrazec.
 Domov -> (prijava) - Moji senzorji -> Registracija novega senzorja
 
@@ -17,7 +17,7 @@ Domov -> (prijava) - Moji senzorji -> Registracija novega senzorja
 * notranje ime olajša ločevanje, če imate več senzorjev (na primer vrt, senzor za mamo,...).
 * okolje postaje - npr. višina nad tlemi, ob cesti, velika gostota prometa, odprt prostor ali podobno.
 
-#### NB!
+### Mimogrede!
 Trenutno ni mogoče registrirati senzorja PM, senzorja TempHumidity in senzorja DNMS, priključenega na enoto NodeMCU.
 Trenutno lahko to storite le ročno, zato pošljite zahtevo na naslov tech (at) sensor.community.
 Siehe [številka](https://github.com/opendata-stuttgart/sensor.community/issues/117) za podrobnosti.

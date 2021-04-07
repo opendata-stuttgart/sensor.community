@@ -9,7 +9,7 @@ Prenesite naše sheme vezij ali datoteke Gerber spodaj, jih naložite na spletno
 <br>
 Tu so opisane zadnje različice tiskanih vezij. Za dodatne informacije in dostop do datotek KiCad si oglejte [Github Helmuta Bitterja](https://github.com/hbitter/DNMS/tree/master/PCBs).
 
-#### AIRROHR V1.4
+### AIRROHR V1.4
 PCB za NodeMCU ESP8266 CPUWLAN z razširitvijo vodila I2C za priključitev DNMS in drugih senzorjev (SDS011, BME280...).
 
 

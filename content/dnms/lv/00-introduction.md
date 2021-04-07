@@ -1,7 +1,7 @@
 ---
 title: Ievads
 ---
----
+
   <div class="max-w-screen-xl mx-auto pb-5">
     <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
     <div class="flex items-center">
@@ -23,25 +23,21 @@ title: Ievads
 
 > 🚧 Izveido savu DIY sensoru un kļūsti par daļu no pasaules opendata &amp; civictech tīkla. <br> Ar DNMS (digitālo trokšņa mērīšanas sensoru) jūs varat paši izmērīt trokšņa piesārņojumu.
 
-  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
-
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 Sākotnējās instrukcijas un iepriekšējās trokšņu sensora versijas skatiet [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
 
 <br>
 
 Šajā repozitorijā ir dažādi iestatījumi sensora izveidei, izmantojot dažāda veida plates un PCB.
-Šajā repozitorijā ir dažādi iestatījumi sensora izveidei, izmantojot dažāda veida plates un PCB.
- <br>
- <br>
- Ir divu veidu iestatījumi:
- Ir divu veidu iestatījumi:
+
+Ir divu veidu iestatījumi:
 * konfigurācija, kurā NodeMCU ar dažiem sensoriem (PM, temperatūra u. c.) un DNMS ir atdalīti. PCB sauc AIRROHR V1.4 un DNMS - T4 V1.4.
 * kombinētā NodeMCU un DNMS versija uz vienas PCB: DNMS - T4+NodeMCU V1.4.
-* kombinētā NodeMCU un DNMS versija uz vienas PCB: DNMS - T4+NodeMCU V1.4.
- Šeit ir aprakstīts tikai variants, kurā NODEMCU un DNMS ir atdalīti. Pārējos variantus apskatiet Helmuta Github vietnē!
- Šeit ir aprakstīts tikai variants, kurā NODEMCU un DNMS ir atdalīti. Pārējos variantus apskatiet Helmuta Github vietnē!
-  Šādā gadījumā savienojums starp mezgla mezgluMCU un DNMS var būt līdz pat 10 m garš. Tas ir svarīgi, jo ir jāatrod DNMS pareizā atrašanās vieta, lai iegūtu precīzus trokšņa mērījumus.
+
+Šeit ir aprakstīts tikai variants, kurā NODEMCU un DNMS ir atdalīti. Pārējos variantus apskatiet Helmuta Github vietnē!
+
+Šādā gadījumā savienojums starp mezgla mezgluMCU un DNMS var būt līdz pat 10 m garš. Tas ir svarīgi, jo ir jāatrod DNMS pareizā atrašanās vieta, lai iegūtu precīzus trokšņa mērījumus.
 
 ### Iepirkumu saraksts
 
@@ -50,8 +46,8 @@ Sākotnējās instrukcijas un iepriekšējās trokšņu sensora versijas skatiet
 * [Teensy 4.0 izstrādes plate](https://www.pjrc.com/store/teensy40.html). Citi pārdevēji: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board).
 * [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * īpaši elastīgi silikona kabeļi ar diametru 0,15 mm² (AWG 26) 6 dažādās krāsās.
-<br>
-DNMS (digitālo trokšņa mērīšanas sensoru) var kombinēt ar airRohr PM sensoru:
+  <br>
+  DNMS (digitālo trokšņa mērīšanas sensoru) var kombinēt ar airRohr PM sensoru:
 
 * SPS30 smalko putekļu sensors](https://www.sparkfun.com/products/15103). Citi pārdevēji: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Var izmantot arī parasto [SDS011 PM sensoru](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
 * [BME280 6-PIN versija, temperatūra un mitrums](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Citi pārdevēji: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t).
@@ -61,9 +57,11 @@ DNMS (digitālo trokšņa mērīšanas sensoru) var kombinēt ar airRohr PM sens
 * [Kabeļu siksnas](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+straps)
 
 
+PCB un aizsardzība pret laikapstākļiem tiks aprakstīta turpmāk.
 
+<br>
 
-
-
-
+🙌 Lieliski, jūs nolēmāt iegādāties detaļas tiešsaistē!
+Diemžēl piegāde var aizņemt no dažām dienām līdz pat trim nedēļām.
+Līdz tam baudiet savu dzīvi️.
 

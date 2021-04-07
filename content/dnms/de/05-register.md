@@ -17,7 +17,7 @@ Startseite -> (Login) - Meine Sensoren -> Neuen Sensor registrieren
 * interner Name erleichtert die Trennung, wenn du mehrere Sensoren hast (wie Garten, Sensor für Mama,...).
 * die Umgebung der Station - z.B. Höhe über dem Boden, Straßenrand, hohes Verkehrsaufkommen, Freifeld o.ä.
 
-#### NB!
+#### Übrigens!
 Derzeit ist es nicht möglich, sowohl den PM-Sensor, den Temp/Humidity- als auch den DNMS-Sensor zu registrieren, die an einen NodeMCU angeschlossen sind.
 Im Moment kann dies nur manuell erfolgen, einfach eine Anfrage an tech (at) sensor.community senden.
 Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117

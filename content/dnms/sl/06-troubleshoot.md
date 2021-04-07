@@ -2,7 +2,7 @@
 title: Odpravljanje težav
 ---
 
-### Težave pri prenosu?
+## Težave pri prenosu?
 V brskalnik vnesite naslednje podatke:
 `https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
@@ -12,7 +12,7 @@ V brskalnik vnesite naslednje podatke:
 * Ali je bil brezžični signal v preteklosti šibek?
   Tukaj je protokol signala na strani strežnika: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
 
-### Težave s kablom USB?
+## Težave s kablom USB?
 * Preverite napajanje
 * Ponovni zagon (odklopite napajanje, npr. izvlecite vtič USB)
 * Ali je konfiguracija omrežja WLAN v redu (senzor se poveže z nastavljenim omrežjem WLAN). Če ne:
@@ -30,7 +30,7 @@ V brskalnik vnesite naslednje podatke:
     * morda bodo potrebni ustrezni zaporedni gonilniki USB-2, glejte [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen).
   * Tam si lahko ogledate, kaj senzor počne (zagonska sporočila, povezava WLAN ali dostopna točka, meritve - šele po 3 minutah).
 
-#### Težave z elektroniko?
+### Težave z elektroniko?
 * Odstranite elektroniko senzorja iz ohišja in si jo natančno oglejte.
 * Ponovno preverite napajanje
     * Ali NodeMCU (ESP8266) utripa kmalu po ponovnem zagonu?

@@ -38,12 +38,10 @@ Ta shramba vsebuje različne nastavitve za izdelavo senzorja z različnimi vrsta
  Obstajata dve različni vrsti nastavitev:
 * nastavitev, kjer sta NodeMCU z nekaterimi senzorji (PM, temperatura itd.) in DNMS ločena. PCB se imenujeta AIRROHR V1.4 in DNMS - T4 V1.4
 * kombinirana različica NodeMCU in DNMS na istem tiskanem vezju: DNMS - T4+NodeMCU V1.4
-* kombinirana različica NodeMCU in DNMS na istem tiskanem vezju: DNMS - T4+NodeMCU V1.4
- Tu je opisana samo različica, pri kateri sta NODEMCU in DNMS ločena. Za druge različice si oglejte Helmutov Github!
  Tu je opisana samo različica, pri kateri sta NODEMCU in DNMS ločena. Za druge različice si oglejte Helmutov Github!
   V tem primeru je lahko povezava med NodeMCU in DNMS dolga do 10 m. To je pomembno, ker morate najti pravi položaj za DNMS, da dobite natančne meritve hrupa.
 
-### Nakupovalni seznam
+## Nakupovalni seznam
 
 ##### Posamezni sestavni deli
 * [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
