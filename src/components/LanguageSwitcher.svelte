@@ -22,15 +22,16 @@
     }
 
     const langauges = [
-        "en", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt", "ja", "zh", "da", "el", "et", "hu", "lt", "lv", "ro", "sl"
+        "en", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt", "ja", "zh", "da", "el", "et", "hu", "lt", "ro", "sl"
     ]
 </script>
 
 <div class="md:relative z-50">
-    <button class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150" on:click={menuToggle}
+    <button class="text-gray-500 inline-flex items-center text-base leading-6 font-medium hover:text-gray-900 transition ease-in-out duration-150"
+            on:click={menuToggle}
             type="button">
         <span class="text-xl font-bold">
-            {#if lang == "en"}
+           {#if lang == "en"}
                 {flag("gb")}
             {:else if lang == "ja"}
                         {flag("jp")}
@@ -40,6 +41,10 @@
                         {flag("gr")}
                     {:else if lang == "zh"}
                         {flag("cn")}
+                    {:else if lang == "et"}
+                        {flag("ee")}
+                    {:else if lang == "sl"}
+                        {flag("si")}
                     {:else}
                 {flag(lang)}
             {/if}</span>
@@ -75,6 +80,10 @@
                             {flag("gr")}
                         {:else if lang == "zh"}
                             {flag("cn")}
+                        {:else if lang == "et"}
+                            {flag("ee")}
+                        {:else if lang == "sl"}
+                            {flag("si")}
                         {:else}
                             {flag(lang)}
                         {/if} {lang}</a>
