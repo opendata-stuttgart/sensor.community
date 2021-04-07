@@ -2,36 +2,36 @@
 title: Troubleshoot
 ---
 
-### 送信時の問題？
-自分のデータを使ってブラウザに以下のように入力してください。
+### Transmitting problems?
+Enter the following in the browser with your own data:
 `https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-ID]は、左上の入力欄でも検索できます [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
+The [ID] can also be searched for in input field in the upper left corner [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)
 
-* [https://devices.sensor.community/](https://devices.sensor.community/)でセンサーが登録されていて、そのセンサーが地図上に表示されていますか？
-    * 過去に WLAN の信号レベルが弱くなかったか？
-      サーバ側の信号ログは以下の通りです： `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]` ### USB ケーブルの問題？
+* Is the sensor registered via [https://devices.sensor.community/](https://devices.sensor.community/) and is the sensor visible on the map?
+    * Was the WLAN signal level weak in the past?
+      here is the signal log server-side: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
 
 
-### USB ケーブルに問題はありませんか？
-* 電源を確認してください。USBケーブル
-* Reboot (USBプラグを抜くなどして、電源を切断)
-* Is the WLAN Config OK (センサーが設定された WLAN に接続している) そうでない場合。
-    * センサーは AP を開いていますか（再起動後の最初の 2～7 分間）？
-    * `airrohr-[ID]` WLAN ネットワークを探します。起動後1～2分かかることがありますのでご了承ください。
-* センサーがネットワークにログインしているかどうかを自分のルーターで確認し、IPを記憶します。
-    * 代わりに、[flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)の "Discovery "を使用してください。
-    * If yes: ブラウザで IP 経由でセンサーに接続 `http://[ip-of-the-sensor]/` , インターフェースが表示されるはずです。
-    * If no: ESPに問題がある。例：電源不足、再起動ループなど。
-* USB をコンピュータに接続して、ログを表示します。
-    * シリアルターミナルプログラムを使用して、シリアルインターフェースのテキストを追跡する（設定：ボー9600、8N1）。
+### USB cable problems?
+* Check power supply: USB cable
+* Reboot (disconnect power supply, e.g. pull USB plug)
+* Is the WLAN Config OK (the sensor connects to the configured WLAN) If not:
+    * does the sensor open an AP (in the first 2-7 minutes after a reboot)?
+    * Look for `airrohr-[ID]` WLAN network. Patience, it may take 1-2 minutes after boot.
+* Check on your own router if the sensor is logged into the network, then remember the IP
+    * alternatively use "Discovery" in the [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
+    * If yes: connect to the sensor via IP with a browser `http://[ip-of-the-sensor]/` , the interface should appear
+    * If no: the ESP has problems, e.g. power supply insufficient, reboot loop or similar
+* Connect USB to a computer and view the log
+    * Track text on serial interface with serial terminal program (Settings: baud 9600, 8N1)
         * Linux: screen, minicom, cutecom; Windows: Tera Term; MacOS: screen, minicom, ...
-        * おそらく適切な usb2serial ドライバが必要ですが、[https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen) を参照してください。
-    * そこでは、センサーの動作を確認できるはずです（ブートメッセージ、WLAN接続やAP、測定 - 3分後のみ）。
+        * possibly suitable usb2serial drivers are still necessary, see [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
+    * There you should be able to see what the sensor is doing (boot messages, WLAN connection or AP, measurement - only after 3 minutes)
 
 ### Electronics problems?
-* センサーの電子機器を筐体から外して観察します。
-* 電源を再度確認/交換する
+* Remove sensor electronics from the housing and observe
+* Check/replace power supply again
     * does ESP flash shortly after reboot?
-    * SDS011: 再起動後に赤色LED/ファンが点灯しますか？
-    * センサーへのケーブルを再度チェック/交換する
+    * SDS011: red LED/fan on after reboot?
+    * check/replace the cables to the sensors again

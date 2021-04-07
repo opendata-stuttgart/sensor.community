@@ -45,7 +45,7 @@ NodeMCU (ESP8266) V2用 *。フォルダCP210xを開き、アプリケーショ�
 ### Firmware Flasher
 複数のオペレーティングシステムに対応しています。Windows、MacOS、Linux に対応しています。
 
-* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/) をご利用ください。
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)をご利用ください。
 * [ソースコード](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 NodeMCUとコンピュータを短いマイクロUSBケーブルで接続します（1メートル以上の短いケーブルを選ぶとインストールに失敗することがあります）。「latest_en.bin」（または他の言語バージョン）を選択し、「Upload」をクリックします。
