@@ -3,39 +3,40 @@ title: Troubleshoot
 ---
 
 ### Transmitting problems?
-在浏览器中输入以下自己的数据。
-`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 
-也可以在页面左侧打开的输入栏中搜索[ID][https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1)。
+请在浏览器中输入以下内容，并输入自己的数据。
+`https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1&var-chipID=esp8266-[ID]`
 
-* 传感器是否通过[https://devices.sensor.community](https://devices.sensor.community)注册，传感器在地图上是否可见？
-* 过去的无线信号是否很弱？
-  下面是服务器端信号协议：`https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`。
+也可以在左上角的输入栏中搜索[ID][https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1](https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1)
+
+* 传感器是否通过[https://devices.sensor.community/](https://devices.sensor.community/)注册，传感器在地图上是否可见？
+  * 过去的WLAN信号是否很弱？
+    这里是服务器端的信号记录：`https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`。
 
 ### USB cable problems?
-* 检查电源
-* 重新启动（断开电源，例如拔出USB插头）。
-* WLAN配置是否正常（传感器连接到配置的WLAN）。如果没有
-  * 在重启后的头2-7分钟内，传感器是否会打开adhoc wifi（接入点）？
-  * 搜索无线局域网网络`airrohr-[ID]`。重启后可能需要几分钟才能看到。
-* 在自己的路由器上检查传感器是否在网络中注册，并注意IP地址。
-  * 或者使用[airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) 中的 "在网络中搜索"。
-  * 如果是：通过浏览器`http://[ip-your-sensor]`连接到传感器，应出现配置。
-  * 如果没有：可能是由于电源不足，重新启动循环或类似的原因。
-* 通过USB电缆将NodeMCU连接到电脑上，并查看协议。
-  * 用串行终端程序进行跟踪（设置：波特9600，8N1）。
-    * Linux：screen、minicom、cutecom。
-    * 视窗。Tera术语
-    * macOS：屏幕、迷你电脑、......。
-    * 可能需要合适的USB-2串行驱动程序，见[https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
-  * 在这里你应该看到传感器正在做什么（启动信息、WLAN连接或接入点、测量--仅在3分钟后）。
+
+* 检查电源。USB线
+* 重新启动（断开电源，如拔出USB插头）。 WLAN配置是否正常（传感器连接到配置的WLAN）如果不正常，*传感器是否打开了一个AP（在重启后的前2-7分钟）？
+  * 传感器是否打开了一个AP（在重启后的前2-7分钟）？
+  * 寻找`airrohr-[ID]`WLAN网络。耐心点，重启后可能需要1-2分钟。
+* 在自己的路由器上查看传感器是否登录了网络，然后记住IP。
+  * 或者使用[flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)中的 "发现"。
+  * 如果是：用浏览器通过IP连接到传感器`http://[ip-of-the-sensor]/`，应出现界面。
+  * 如果没有：ESP有问题，如电源不足，重启循环或类似情况。
+* 将USB连接到电脑上，查看日志。
+  * 用串行终端程序在串行接口上跟踪文本（设置：波特9600，8N1）。
+    * Linux：屏幕、迷你电脑、cutecom；Windows：Tera Term；MacOS：屏幕、迷你电脑、......。Tera Term; MacOS: screen, minicom, ...
+    *
+    可能还需要合适的usb2serial驱动程序，见[https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
+  * 在这里你应该能够看到传感器正在做什么（启动信息、WLAN连接或AP、测量--仅在3分钟后）。
 
 ### Electronics problems?
-* 从外壳上拆下传感器电子元件，并仔细检查。
-* 再次检查电源
-    * NodeMCU(ESP8266)是否在重启后不久就会闪烁？
-    * SDS011：重启后红色LEDFan亮起？
-    * 重新检查传感器的电缆。
+
+* 从外壳上拆下传感器电子元件并观察
+* 再次检查/更换电源
+  * 重启后不久ESP会闪烁吗？
+  * Teensy：重启后红色LED灯闪烁？
+  * 再次检查/更换传感器的电缆。
 
   <div class="max-w-screen-xl mx-auto pt-5">
       <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
@@ -48,7 +49,7 @@ title: Troubleshoot
         <div class="flex flex-wrap">
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
-                 噪声正在测试中。发送问题到</p>
+                噪声还在测试阶段。发送问题到</p>
           <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
                   Noise@Sensor.Community</a>
           </div>
@@ -56,6 +57,4 @@ title: Troubleshoot
       </div>
     </div>
   </div>
-
-
 
