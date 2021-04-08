@@ -27,7 +27,7 @@ title: Sissejuhatus
 
 > 🚧 Ehita oma DIY-sensor ja saa osa ülemaailmsest, opendata & civictech võrgustikust. <br> DNMS (Digital Noise Measuring Sensor) abil saate ise mõõta mürasaastet.
 
-<img src="../docs/dnms/dnms-müra-mõõtmise-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 
 Vaadake müraanduri originaaljuhiseid ja varasemaid versioone [Helmut Bitteri Githubis](https://github.com/hbitter/DNMS/tree/master/Manual).
