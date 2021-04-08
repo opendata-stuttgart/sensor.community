@@ -20,52 +20,47 @@ title: Bevezetés
       </div>
     </div>
   </div>
-<br>
 
+> 🚧 Építse meg barkács érzékelőjét, és váljon a világméretű, opendata & civictech hálózat részévé. <br> A DNMS (Digitális zajmérő érzékelő) segítségével saját maga is mérheti a zajszennyezést.
 
-> 🚧 Építsd meg barkácsérzékelődet, és légy része a világméretű opendata &amp; civictech hálózatnak. <br> A DNMS (Digitális zajmérő érzékelő) segítségével saját maga is mérheti a zajszennyezést.
-
-  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
-
+<img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
 Nézze meg a zajérzékelő eredeti utasításait és korábbi verzióit [Helmut Bitter Githubján](https://github.com/hbitter/DNMS/tree/master/Manual).
 
 <br>
+Ez az adattár különböző beállításokat tartalmaz az érzékelő építéséhez különböző típusú táblákkal és NYÁK-okkal.
+<br>
 
-Ez az adattár különböző beállításokat tartalmaz az érzékelő építéséhez különböző típusú lapokkal és NYÁK-okkal.
-Ez az adattár különböző beállításokat tartalmaz az érzékelő építéséhez különböző típusú lapokkal és NYÁK-okkal.
- <br>
- <br>
- Kétféle beállítás létezik:
- Kétféle beállítás létezik:
-* egy olyan beállítás, ahol a NodeMCU néhány érzékelővel (PM, hőmérséklet stb.) és a DNMS külön van választva. A NYÁK neve AIRROHR V1.4 és DNMS - T4 V1.4.
-* a NodeMCU és a DNMS kombinált változata ugyanazon a NYÁK-on: DNMS - T4+NodeMCU V1.4
-* a NodeMCU és a DNMS kombinált változata ugyanazon a NYÁK-on: DNMS - T4+NodeMCU V1.4
- Itt csak azt a változatot ismertetjük, ahol a NODEMCU és a DNMS külön van választva. A többi változatért nézd meg Helmut Githubját!
- Itt csak azt a változatot ismertetjük, ahol a NODEMCU és a DNMS külön van választva. A többi változatért nézd meg Helmut Githubját!
-  Ebben az esetben a NodeMCU és a DNMS közötti kapcsolat akár 10 m hosszú is lehet. Ez azért fontos, mert a pontos zajmérésekhez meg kell találni a DNMS megfelelő pozícióját.
+Kétféle beállítás létezik:
 
-### Bevásárlólista
+* egy olyan beállítás, ahol a NodeMCU néhány érzékelővel (PM, hőmérséklet stb.) és a DNMS elkülönül. A nyomtatott áramköri lapok neve AIRROHR V1.4 és DNMS - T4 V1.4.
+* a NodeMCU és a DNMS kombinált változata ugyanazon a NYÁK-on: DNMS - T4+NodeMCU V1.4.
+
+Itt csak azt a változatot ismertetjük, ahol a NODEMCU és a DNMS külön van. A többi változatért nézze meg Helmut Githubját!
+
+Ebben az esetben a NodeMCU és a DNMS közötti kapcsolat akár 10 m hosszú is lehet. Ez azért fontos, mert a pontos zajmérésekhez meg kell találni a DNMS megfelelő pozícióját.
+
+### Vásárlási lista
 
 ##### Egyedi alkatrészek
-* [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
+* [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
 * [Teensy 4.0 fejlesztői kártya](https://www.pjrc.com/store/teensy40.html). Egyéb eladók: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
 * [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
-* ultra rugalmas szilikon kábelek 0,15 mm² átmérővel (AWG 26), 6 különböző színben.
-<br>
-A DNMS (digitális zajmérő érzékelő) kombinálható airRohr PM-érzékelővel:
+* ultra rugalmas szilikon kábelek 0,15 mm² átmérővel (AWG 26) 6 különböző színben.
+  <br>
+  A DNMS (digitális zajmérő érzékelő) kombinálható airRohr PM-érzékelővel:
 
-* SPS30 finom porérzékelő](https://www.sparkfun.com/products/15103). Egyéb eladók: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). A szokásos [SDS011 PM érzékelő](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) is használható.
+* SPS30 finom porérzékelő](https://www.sparkfun.com/products/15103). Egyéb eladók: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). A szokásos [SDS011 PM-érzékelő](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) is használható.
 * [BME280 6-PIN verzió, hőmérséklet és páratartalom](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Egyéb eladók: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
-* [Kábel](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+kábel+20cm+női-női)
-* [USB kábel pl.: lapos 2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+usb+lapos+kábel+2m)
-* [Tápegység USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+mikro+usb+eu+táp+tápegység)
-* [kábelhevederek](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040852&amp;SearchText=cable+hevederek)
+* [Kábel](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+kábel+20cm+női-női)
+* [USB kábel pl.: lapos 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+lapos+kábel+2m)
+* [Tápegység USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+mikro+usb+eu+tápegység+tápegység](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+mikro+usb+eu+tápegység)
+* [Kábelpántok](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040852&SearchText=cable+pántok)
 
-A PCB-ket és az időjárásvédelmet az alábbiakban ismertetjük.
+A nyomtatott áramköri lapok és az időjárás elleni védelem az alábbiakban kerül ismertetésre.
 
 <br>
 
-🙌 Nagyszerű, úgy döntöttél, hogy online vásárolod meg az alkatrészeket!
+🙌 Remek, úgy döntöttél, hogy online vásárolod meg az alkatrészeket!
 Sajnos a szállítás napoktól akár három hétig is eltarthat.
-Addig is élvezd az életed.
+Addig is élvezd az életed️.

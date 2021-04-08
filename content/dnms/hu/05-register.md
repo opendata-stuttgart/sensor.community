@@ -4,25 +4,21 @@ title: Regisztráció
 
 ### Regisztráld magad
 
-A [devices.sensor.community](https://devices.sensor.community) oldalon regisztrálhatja készülékét, és válhat a nyílt adathálózat részévé.
+Menjen a [devices.sensor.community](https://devices.sensor.community/) oldalra, hogy regisztrálja készülékét, és a nyílt adathálózat részévé váljon.
 
 
-### Regisztrálja a készülékét
-Miután regisztrált, kattintson az "Új érzékelő regisztrálása" gombra, és töltse ki az űrlapot.
-Főoldal -> (Bejelentkezés) - Érzékelőim -> Új érzékelő regisztrálása
+### Regisztrálja az eszközét
+Miután bejelentkezett, kattintson az új eszköz regisztrálása gombra, és töltse ki az űrlapot.
+Főoldal -> (Bejelentkezés) - Érzékelők -> Érzékelő regisztrálása
 
-* Az ESP8266 (NodeMCU) megjegyzett chipID-je.
-* Az Ön e-mail címe (nem kerül nyilvánosságra).
-* Az Ön címe: Utca házszámmal, irányítószámmal és várossal. Kattintson a "Megadott cím keresése" gombra, hogy megkapja a hely koordinátáit (ezek lefelé vannak kerekítve). Ellenőrizze a csap helyzetét, szükség esetén változtassa meg.
-* a belső név megkönnyíti a szétválasztást, ha több érzékelője van (pl. kert, anya érzékelője,...).
-* az állomás környezete - pl. a talaj feletti magasság, út menti terület, nagy forgalmú terület, nyílt tér vagy hasonló.
+* az ESP8266 feljegyzett chipID-je (NodeMCU)
+* az Ön e-mail címe (nem kerül nyilvánosságra)
+* az Ön címe: Utca a házszámmal, irányítószámmal és várossal. Kattintson a "Megadott cím keresése" gombra, hogy megkapja a hely koordinátáit (le lesz kerekítve). Ellenőrizze a tű pozícióját, szükség esetén módosítsa azt.
+* belső név megkönnyíti a szétválasztást, ha több érzékelője van (például kert, anya érzékelője,...).
+* az állomás környezete - pl. magasság a föld felett, út menti oldal, nagy forgalom, szabad mező vagy hasonló.
 
-#### NB!
-Jelenleg nem lehetséges a PM-érzékelő, a TempHumidity-érzékelő és a DNMS-érzékelő regisztrálása egy NodeMCU-hoz csatlakoztatva.
-Jelenleg ezt csak manuálisan lehet megtenni, csak küldj egy kérést a tech (at) sensor.community címre.
-Lásd [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) a részletekért.
 
-Jelenleg nem lehetséges a helyszínen regisztrálni a PM-érzékelőt, a páratartalom- és a DNMS-érzékelőt egy NodeMCU-hoz csatlakoztatva.
-Egyelőre csak manuálisan, a tech (at) sensor.community címre küldött kéréssel lehet ezt megtenni.
-Lásd [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
-) a részletekért.
+#### Egyébként!
+Jelenleg nem lehetséges az oldal használatával regisztrálni mind a PM érzékelőt, mind a hőmérséklet/páratartalom és a DNMS érzékelőt egy NodeMCU-hoz csatlakoztatva.
+Ez egyelőre csak manuálisan, a tech (at) sensor.community címre küldött kéréssel lehetséges.
+A részleteket lásd [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117).
