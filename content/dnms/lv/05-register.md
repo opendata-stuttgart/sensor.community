@@ -14,11 +14,11 @@ Sākumlapa -> (Pieteikšanās) - Sensors -> Reģistrēt sensoru
 * Jūsu pierakstītais ESP8266 (NodeMCU) mikroshēmas identifikators (ChipID).
 * Jūsu e-pasta adrese (netiks publicēta)
 * jūsu adrese: ielu ar mājas numuru, pasta indeksu un pilsētu. Noklikšķiniet uz "Lookup entered address" (meklēt ievadīto adresi), lai iegūtu atrašanās vietas koordinātas (tiks noapaļotas). Pārbaudiet adatas atrašanās vietu, ja nepieciešams, mainiet to.
-* iekšējais nosaukums atvieglo nodalīšanu, ja jums ir vairāki sensori (piemēram, dārza, mammas sensors,...).
+* iekšējais nosaukums atvieglo nodalīšanu, ja jums ir vairāki sensori (piemēram, dārza, mammas sensors...).
 * stacijas apkārtne - piemēram, augstums virs zemes, ceļa puse, intensīva satiksme, brīvs lauks vai tamlīdzīgi.
 
 
 ### Starp citu!
 Pašlaik nav iespējams reģistrēt, izmantojot vietni, gan PM sensoru, gan temperatūras/mitruma, gan DNMS sensoru, kas pieslēgts vienam NodeMCU.
 Pagaidām to var izdarīt tikai manuāli, nosūtot pieprasījumu uz tech (at) sensor.community.
-Skatīt [jautājums](https://github.com/opendata-stuttgart/sensor.community/issues/117 ), lai iegūtu sīkāku informāciju.
+Sīkāku informāciju skatīt [jautājums](https://github.com/opendata-stuttgart/sensor.community/issues/117).

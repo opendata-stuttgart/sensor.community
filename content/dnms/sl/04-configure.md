@@ -20,19 +20,19 @@ title: Konfiguracija spletne strani
   </div>
 </div>
 
-## Pridobite ID
-1. Postajo povežite s kablom USB, da se senzor napaja.
+### Pridobite ID
+1. Postajo povežite s kablom USB, da napolnite senzor.
 
 2. Postaja se poskuša povezati z nastavljeno dostopno točko WiFi. Če to ne uspe, senzor odpre dostopno točko z imenom `Particulate Matter ID` , `Feinstaubsensor-ID` ali `airRohr-ID`. ID je **ChipID** (na primer 13597771). **To številko si zapišite, saj jo potrebujete za registracijo**.
 
 3. Povežite se z ustvarjeno dostopno točko. Počakajte, da se vzpostavi povezava.<br>*Android*: Če se povezava takoj prekine, boste morda morali deaktivirati možnost "Smart network switch" v razdelku "Connections -> WiFi -> Advanced".
 
-4. Odprite brskalnik in vtipkajte [http://192.168.4.1](http://192.168.4.1)
+4. Odprite brskalnik in vnesite [http://192.168.4.1/](http://192.168.4.1/)
 
-> ⚠️ **Pozorilo** Morda bo potrebno nekaj poskusov, da se NodeMCU poveže z domačim omrežjem WiFi. Ne bodite nestrpni in poskušajte, dokler ne bo delovalo. Senzor lahko konfigurirate tudi prek pametnega telefona. Če je konfiguracija senzorja delovala, stran za konfiguracijo ni več dostopna pod tem IP 192.168.4.1
+> ⚠️ **Upoštevajte** Morda bo potrebnih nekaj poskusov, da se bo naprava NodeMCU povezala z domačim omrežjem WiFi. Ne bodite nestrpni in poskušajte, dokler ne bo delovalo. Senzor lahko konfigurirate tudi prek pametnega telefona. Če je konfiguracija senzorja delovala, stran za konfiguracijo ni več dostopna pod tem IP 192.168.4.1
 
-### Konfiguracija postaje
-1. Pod "Configure" vnesite SSID (ime domačega omrežja WiFi), varnostni ključ omrežja (v sistemu Windows) ali geslo WiFi.
+#### Konfiguracija postaje
+1. Pod "Configure" (Konfiguriranje) vnesite SSID (ime domačega omrežja WiFi), varnostni ključ omrežja (v sistemu Windows) ali geslo WiFi.
 
 2. Za senzorje hrupa (DNMS) v skladu s tem priročnikom nadaljnje spremembe niso potrebne.
 
@@ -42,14 +42,12 @@ title: Konfiguracija spletne strani
 
 <img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
 <br>
-<br>
 
-### Preizkusite postajo
-Če razen vnosa podatkov o omrežju WiFi niste izvedli nobenih sprememb, lahko senzor po približno 10 minutah "preizkusite" na naslednjih straneh. Na teh straneh morate poiskati ChipID (v zgornjem primeru 13597771).
+#### Preizkusite postajo
+Če razen vnosa podatkov o omrežju WiFi niste izvedli nobenih drugih sprememb, lahko senzor po približno 10 minutah "preizkusite" na naslednjih straneh. Na teh straneh morate poiskati ChipID (v zgornjem primeru 13597771).
 
- * [Podatki o senzorjih](www.madavi.de/sensor/graph.php)
- * [Signal WLAN](www.madavi.de/sensor/signal.php)
- * [Signal WLAN](www.madavi.de/sensor/signal.php)
+* [Sensordaten](www.madavi.de/sensor/graph.php)
+* [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
 
