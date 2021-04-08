@@ -2,26 +2,23 @@
 title: Registrer
 ---
 
-#### Registrer dig selv
+### Registrer dig selv
 
-Gå til [devices.sensor.community](https://devices.sensor.community) for at registrere din enhed og blive en del af det åbne datanetværk.
+Gå til [devices.sensor.community] (https://devices.sensor.community/) for at registrere din enhed og blive en del af det åbne datanetværk.
 
 
 #### Registrer din enhed
-Når du har registreret dig, skal du klikke på "Registrer ny sensor" og udfylde formularen.
-Hjem -> (Login) - Mine sensorer -> Registrer ny sensor
+Når du er logget ind, skal du klikke på "Registrer ny enhed" og udfylde formularen.
+Hjem -> (Log ind) - Sensorer -> Registrer sensor
 
-* ESP8266's ChipID (NodeMCU).
-* Din e-mailadresse (vil ikke blive offentliggjort).
-* Din adresse: Gade med husnummer, postnummer og by. Klik på "Søg indtastet adresse" for at få oplyst stedets koordinater (disse er afrundet nedad). Kontroller stiftens position, og ændre den om nødvendigt.
-* internt navn gør det lettere at adskille, hvis du har flere sensorer (f.eks. have, sensor til mor,...).
-* stationens omgivelser - f.eks. højde over jorden, vejkant, høj trafikmængde, åbent område eller lignende.
+* dit noterede ChipID for ESP8266 (NodeMCU)
+* din e-mail-adresse (vil ikke blive offentliggjort)
+* din adresse: Gade med husnummer, postnummer og by. Klik på "Lookup entered address" for at få placeringskoordinaterne (vil blive afrundet). Kontroller positionen af pin'en, og ændr den om nødvendigt
+* internt navn gør det lettere at adskille, hvis du har flere sensorer (f.eks. have, sensor til mor,...)
+* stationens omgivelser - f.eks. højde over jorden, side af vejen, høj trafikmængde, fri mark eller lignende
 
-#### NB!
-I øjeblikket er det ikke muligt at registrere både PM-sensoren, TempHumidity-sensoren og DNMS-sensoren, der er forbundet til en NodeMCU.
-I øjeblikket kan dette kun gøres manuelt, du skal blot sende en anmodning til tech (at) sensor.community.
-Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) for nærmere oplysninger.
 
-I øjeblikket er det ikke muligt at registrere både PM-sensor, temphumiditetssensor og DNMS-sensor forbundet til én NodeMCU ved hjælp af webstedet.
+#### Forresten!
+I øjeblikket er det ikke muligt at registrere ved hjælp af webstedet både PM-sensor, temp/fugt og DNMS-sensor tilsluttet til en NodeMCU.
 Indtil videre kan det kun gøres manuelt ved at sende en anmodning til tech (at) sensor.community.
-Se [emne](https://github.com/opendata-stuttgart/sensor.community/issues/117) for nærmere oplysninger.
+Se [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) for nærmere oplysninger.

@@ -2,24 +2,24 @@
 title: Assemble
 ---
 
-> ⚠️ **重要なお知らせ**)
-組み立て前にファームウェアをインストールしてください
-firmware flasher__の項を参照。
+> ⚠️ 重要なお知らせ**)
+組み立ての前に、ファームウェアをインストールしてください。
+firmware flasher__の項を参照してください。
 
 ### NodeMCU v3
-注：ここでの説明は、NodeMCUのバージョン3を参照しています。これは、VUとGの接続によって認識できます（図参照）。
+注：本説明書はNodeMCUのバージョン3を参照しています。これは、VUとGの接続によって認識することができます（図参照）。
 
-<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top: 3em" loading="lazy"/>
-<small>Copyright: roman-minyaylov, MIT License</small>
+<img src="../docs/airrohr/airrohr-wiring-sds011-bme280.jpg" style="width:40%; margin-top:3em" loading="lazy"/>。
+<small>Copyright: oman-minyaylov, MIT License</small>
 
 
-<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>
+<img src="../docs/airrohr/nodemcu-v3-bme280.jpeg" style="margin-top: 1em" loading="lazy"/>。
 
 ##### 完成すると、こんな感じになります。
 
 
 ### Wire the SDS011
-ピンは右から左へと番号が振られています。接続の際には、ケーブルがピンの上に乗っていることを確認してください。ほとんどのDupont社製ケーブルはピンの間にも収まります。
+ピンには右から左へと番号が振られています。接続する際には、ケーブルがピンに収まっていることを確認してください。ほとんどのDupont社製ケーブルはピンの間に収まっています。
 
 ```bash
 SDS011 Pin 1 -> Pin D1 / GPIO5
@@ -33,61 +33,56 @@ SDS011 Pin 7 -> unused
 
 <br>
 
-💡 「ファームウェアが対応しているセンサー」の一覧を見ることができます(https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)
+💡 [Sensors supported by our firmware](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)のリストを見ることができます。
 
 
-### 半田付け BME280
+### Solder together BME280
+<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>。
+<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>。
 
-<img src="../docs/airrohr/solder-a-bme-280.jpeg" style="width:49%; padding-right: 0.5em" class="items-center" loading="lazy"/>
-<img src="../docs/airrohr/solder-bme-280.jpeg" style="width:49%;" loading="lazy"/>
+ピンヘッダをBME280基板に接続します。裏側からハンダ付けします。ピンとピンの間の隙間は非常に小さいので、我慢して慎重に作業してください。 
 
-
-ピンヘッダをBME280基板に接続します。裏側からハンダ付けしてください。ピンとピンの間の隙間は非常に小さいので、根気よく注意してください。
-
-コツは、ハンダゴテの先をピンに当て、少し温めてから、軽くハンダを塗ること。
+はんだごての先をピンに当て、少し温めてから、軽くはんだを塗るのがコツです。 
 
 
 ### Wire the BME280
-ピンには左から右に番号が振られています。
+ピンには左から右へと番号が振られています。
 
 ```bash
-VIN -> Pin 3V3 (3.3V)
-GND->  GND/G
-SDA -> PIN D3
-SCL -> Pin D4
+VIN→ピン3V3(3.3V)
+GND→GND/G
+SDA -> D3ピン
+SCL -> D4ピン
 ```
 
 ### Tie everything together
 
- ##### NodeMCU と SDS011 を結びつける
-<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
-NodeMCU（ESP8266）とSDS011センサーをケーブルタイでつなぎ、Wifiアンテナがセンサーから離れるようにする。
+##### Tie NodeMCU and SDS011 together
+<img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>。
+NodeMCU(ESP8266)とSDS011センサーをケーブルタイで繋ぎ、Wifiアンテナがセンサーから離れるようにする
 
- ##### フレキシブルチューブの接続
- <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
- <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
+##### Connect flexible tube
+<img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>。
+<img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>。
 
-
-* SDS011センサーにフレキシブルチューブを接続する。
-* BME280温度センサーを別のケーブルタイでチューブに取り付ける
+* SDS011センサーにフレキシブルチューブを接続します。
+* 別のケーブルタイを使用して、BME280温度センサーをチューブに取り付ける
 * USBケーブルをチューブに通します。SDS011を、NodeMCUが上向き、ファンが下向きになるように取り付ける
 
-##### センサーをパイプに押し込む
-* チューブの中にパーツを押し込み、中に詰まった状態にする
-* USBケーブル、フレキシブルチューブ、BME280がチューブの先端から出ていること。
-* もう一方のパイプを1本目のパイプに押し付ける。
+##### Push in sensor into the pipe
+* センサーをパイプに押し込む
+* USBケーブル、フレキシブルチューブ、BME280はチューブの端から見えるようにしてください。
+* もう一方のパイプを最初のパイプの上に押し込みます。
 
-<img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
+<img src=".../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>。
 
-##### フィニッシング
-* 温度センサーをフレキシブルチューブの端に位置させる。
-* パイプの先端のフレキシブルチューブを切り離す。
-* オプションで、チューブの両端を細かいメッシュで覆うことができます。そうすれば、空気は循環するが、虫は外に出ない。
-
-* オプションで、チューブの両端を細かいメッシュで覆うことができます。そうすれば、空気は循環するが、虫は外に出ない。
-<img src="../docs/airrohr/position-bme280.jpeg" loading="lazy"/>
-
+##### Finishing
+* 温度センサーがパイプの端にくるように、フレキシブルチューブに配置します。
+* パイプの端にあるフレキシブルチューブを切り取ります。
+* オプション：チューブのオープンエンドを細かいメッシュで覆うことができます。これで、空気は循環し、虫は外に出られなくなります。
+ 
+<img src=".../docs/airrohr/position-bme280.jpeg" loading="lazy"/>。
 
 ### Placement
-理想的な場所は、道路から1.5～3.5メートルの高さにあり、風通しの良い場所です。しかし、すべての人がこれを実現できるわけではないので、登録の際には地上からの高さや道路との位置関係などの情報を求めています。
+理想的な場所は、道路から1.5～3.5メートルの高さで、風通しの良い場所です。しかし、すべての人がこのようにできるわけではないので、登録時に地上からの高さや道路との位置関係などの情報を求めています。
 

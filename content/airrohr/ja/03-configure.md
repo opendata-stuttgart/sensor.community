@@ -2,22 +2,22 @@
 title: Configure
 ---
 ### Get the unique station ID
-1. ステーションとUSBケーブルを接続し、センサーの電源を入れます。
+1. Connect the station to a USB cable to power up the sensor.
 
-2. 本機は設定されたWiFiネットワークへの接続を試みます。新規に設定した場合は接続に失敗し、「粒子状物質ID」、「Feinstaubsensor-ID」、「airRohr-ID」という名前のWiFiネットワークが作成されます。IDは**ChipID**（例：13597771）です。**登録の際に必要となりますので、この番号をメモしておいてください**。
+2. The station will attempt to connect to the configured WiFi network. For a new set up, the connection will fail and the station will create a WiFi network with the name `Particulate Matter ID` , `Feinstaubsensor-ID` or `airRohr-ID`. The ID is the **ChipID** (for example 13597771). **Please note this number down, as you will need it for the registration**
 
-3. パソコンまたはスマートフォンで、本機が作成したWiFiネットワークに接続します。接続が確立されるまで待ちます。<br>*Android*: 接続がすぐに切れてしまう場合は、「接続」→「WiFi」→「詳細設定」で「スマートネットワークスイッチ」というオプションを無効にする必要があるかもしれません。
+3. Connect to the WiFi network created by the station on your computer or smartphone. Wait until the connection is established.<br>*Android*: If the connection disconnects immediately, you may have to deactivate the option 'Smart network switch' under 'Connections -> WiFi -> Advanced'.
 
-4. ブラウザを開き、[http://192.168.4.1/](http://192.168.4.1/)と入力します。
+4. Open your browser and type in [http://192.168.4.1/](http://192.168.4.1/).
 
-> ⚠️ **ご注意** NodeMCUが自宅のWiFiネットワークに接続するのに何度か試す必要があるかもしれません。気長に、うまくいくまで何度か手順を試してみてください。センサーの設定がうまくいった場合、駅のWiFiネットワークは利用できなくなり、設定ページはこのIP 192.168.4.1ではアクセスできなくなります。
+> ⚠️ **Please note**  It may take a few tries for the NodeMCU to connect to the home WiFi network. Please be patient and try the steps several times until it works. If the configuration of the sensor has worked, the station WiFi network will not available and the configuration page will no longer accessible under this IP 192.168.4.1
 
 ### Configure the station
-1. 設定」ページで、SSID（ご自宅のWiFiネットワークの名前）、ネットワークセキュリティキー（Windowsの場合）またはWiFiパスワードを入力します。
+1. In the 'Configuration' page enter your SSID (name of your home WiFi network), the network security key (under Windows) or WiFi password.
 
-2. 推奨のファインダストセンサー（SDS011）をお使いの場合は、これ以上の設定変更は必要ありません。
+2. If you are using the recommended fine dust sensor (SDS011), no further configuration changes are necessary.
 
-3. Save configuration and restart」ボタンをクリックします。ステーションが再起動し、自宅のWiFiネットワークに接続しても、この方法ではアクセスできなくなります。
+3. Click 'Save configuration and restart' button. The station will restart and will no longer be accessible in this way when it connects to your home WiFi network.
 
 <br>
 
@@ -26,7 +26,7 @@ title: Configure
 <br>
 
 ### Verify the station is correctly configured
-前のステップで、WiFiネットワークの設定以外に変更がなければ、センサーはデータの記録とアップロードを開始します。約10分後、以下のページに移動して、すべてが正しく動作していることを確認できます。これらのページでは、ChipID（上の例では13597771）を検索します。
+If you made no other changes in the previous step other than WiFi network configuration, the sensor will now start recording and uploading the data. You can verify that everyting is working correctly after about 10 minutes by navigating to the following pages. On these pages search for the ChipID (in the example above the 13597771).
 
- * [センサーデータ](https://www.madavi.de/sensor/graph.php)
- * [WiFiシグナルデータ](https://www.madavi.de/sensor/signal.php)
+* [Sensor data](https://www.madavi.de/sensor/graph.php)
+* [WiFi signal data](https://www.madavi.de/sensor/signal.php)

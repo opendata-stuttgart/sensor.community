@@ -20,7 +20,7 @@ title: Troubleshoot
     * 传感器是否打开了一个AP（在重启后的头2-7分钟内）？
     * 寻找`airrohr-[ID]`WLAN网络。耐心点，启动后可能需要1-2分钟。
 * 在自己的路由器上检查传感器是否已登录到网络中，然后记住 IP
-    * 或者使用[flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)中的 "发现"。
+    * 或者使用[flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) 中的 "发现"。
     * 如果是：用浏览器通过IP连接到传感器`http://[ip-of-the-sensor]`，应出现界面。
     * 如果没有：ESP有问题，如电源不足，重启循环或类似情况。
 * 将USB连接到电脑上，查看日志。

@@ -2,40 +2,40 @@
 title: Trikčių šalinimas
 ---
 
-### Problemos su perkėlimu?
+### Perdavimo problemos?
 Naršyklėje įveskite šiuos savo duomenis:
-`https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
+`https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1&var-chipID=esp8266-[ID]`
 
-[ID] taip pat galima ieškoti įvesties lauke, atidarytame puslapio kairėje pusėje [https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1).
+[ID] taip pat galima ieškoti viršutiniame kairiajame kampe esančiame įvesties lauke [https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1](https://api-rrd.madavi.de/grafana/d/BYsfp-xGz/dnms?orgId=1).
 
-* Ar jutiklis užregistruotas per [https://devices.sensor.community](https://devices.sensor.community) ir ar jis matomas žemėlapyje?
-* Ar anksčiau belaidžio ryšio signalas buvo silpnas?
-  Čia pateikiamas serverio pusės signalo protokolas: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`.
+* Ar jutiklis užregistruotas per [https://devices.sensor.community/](https://devices.sensor.community/) ir ar jis matomas žemėlapyje?
+  * Ar anksčiau WLAN signalo lygis buvo silpnas?
+    čia pateikiamas serverio pusėje esantis signalo žurnalas: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
 
-### Problemos su USB kabeliu?
-* Patikrinkite maitinimo šaltinį
-* Paleiskite iš naujo (atjunkite maitinimą, pvz., ištraukite USB kištuką)
-* Ar WLAN konfigūracija yra tinkama (jutiklis prisijungia prie sukonfigūruoto WLAN). Jei ne:
-  * Ar jutiklis atidaro adhoc wifi (prieigos tašką) per pirmąsias 2-7 minutes po perkrovimo?
-  * Ieškoti WLAN tinklo `airrohr-[ID]`. Po perkrovimo gali praeiti kelios minutės, kol tai bus matoma.
-* Savo maršrutizatoriuje patikrinkite, ar jutiklis užregistruotas tinkle, ir užsirašykite IP adresą.
-  * taip pat naudokite [airRohr Flashing Tool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/) "Search in network" (Ieškoti tinkle).
-  * Jei taip: Prisijunkite prie jutiklio per naršyklę `http://[ip-your-sensor]`, turėtų pasirodyti konfigūracija.
-  * Jei ne: tai gali būti dėl nepakankamo maitinimo šaltinio, pakartotinio paleidimo kilpos ar pan.
-* USB kabeliu prijunkite NodeMCU prie kompiuterio ir peržiūrėkite protokolą
-  * Sekite nuosekliojo terminalo programa (nustatymai: Baud 9600, 8N1)
-    * "Linux": ekranas, minicom, cutecom
-    * "Windows": Tera Term
-    * MacOS: ekranas, minicom, ...
-    * gali prireikti tinkamų USB-2 serijinių tvarkyklių, žr. [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen).
-  * Ten turėtumėte matyti, ką jutiklis veikia (įkrovos pranešimai, WLAN ryšys arba prieigos taškas, matavimas - tik po 3 minučių).
 
-### Problemos su elektronika?
-* Išimkite jutiklio elektroniką iš korpuso ir atidžiai ją apžiūrėkite.
-* Dar kartą patikrinkite maitinimo šaltinį
-    * Ar NodeMCU (ESP8266) mirksi netrukus po perkrovimo?
-    * SDS011: raudonas LEDFan užsidega po perkrovimo?
-    * Dar kartą patikrinkite jutiklių kabelius.
+
+### USB kabelio problemos?
+* Patikrinkite maitinimo šaltinį: USB kabelį
+* Iš naujo paleiskite kompiuterį (atjunkite maitinimą, pvz., ištraukite USB kištuką)
+* Ar WLAN konfigūracija tinkama (jutiklis jungiasi prie sukonfigūruoto WLAN) Jei ne:
+  * Ar jutiklis atidaro prieigos tašką (per pirmąsias 2-7 minutes po perkrovimo)?
+  * Ieškokite `airrohr-[ID]` WLAN tinklo. Kantrybės, tai gali užtrukti 1-2 minutes po įkrovos.
+* Patikrinkite savo maršrutizatoriuje, ar jutiklis yra prisijungęs prie tinklo, tada prisiminkite IP
+  * alternatyviai naudokite [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//) esančią funkciją "Discovery" (Atradimas).
+  * Jei taip: prie jutiklio per IP prisijunkite naršykle `http://[jutiklio ip]/` , turėtų pasirodyti sąsaja.
+  * Jei ne: ESP turi problemų, pvz., nepakankamas maitinimas, perkrovimo kilpa ar pan.
+* Prijunkite USB jungtį prie kompiuterio ir peržiūrėkite žurnalą
+  * Sekite tekstą nuosekliojoje sąsajoje naudodami nuosekliojo terminalo programą (nustatymai: 9600 baudų, 8N1)
+    * Linux: screen, minicom, cutecom; Windows: MacOS: screen, minicom, ...
+    * galbūt dar reikia tinkamų usb2serial tvarkyklių, žr. [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
+  * Ten turėtų būti galima matyti, ką jutiklis daro (įkrovos pranešimai, WLAN ryšys arba prieigos taškas, matavimas - tik po 3 minučių).
+
+### Elektronikos problemos?
+* Išimkite jutiklio elektroniką iš korpuso ir stebėkite
+* Dar kartą patikrinkite ir (arba) pakeiskite maitinimo šaltinį
+  * Ar ESP mirksi netrukus po perkrovimo?
+  * Teensy: po perkrovimo mirksi raudonas šviesos diodas?
+  * dar kartą patikrinkite ir (arba) pakeiskite jutiklių kabelius
 
   <div class="max-w-screen-xl mx-auto pt-5">
       <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">

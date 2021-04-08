@@ -2,23 +2,25 @@
 title: Register
 ---
 
-## Registrirajte se
+### Registrirajte se
 
-Obiščite spletno mesto [devices.sensor.community](https://devices.sensor.community), da registrirate svojo napravo in postanete del odprtega podatkovnega omrežja.
+Pojdite na [devices.sensor.community](https://devices.sensor.community/), da registrirate svojo napravo in postanete del odprtega podatkovnega omrežja.
 
 
-### Registrirajte svojo napravo
-Ko ste se registrirali, kliknite "Registracija novega senzorja" in izpolnite obrazec.
-Domov -> (prijava) - Moji senzorji -> Registracija novega senzorja
+#### Registrirajte svojo napravo
+Ko ste se prijavili, kliknite na register new device (Registriraj novo napravo) in izpolnite obrazec.
+Domov -> (prijava) - Senzorji -> Registrirajte senzor
 
-* Vaš zapisani ChipID ESP8266 (NodeMCU).
-* Vaš e-poštni naslov (ne bo objavljen).
-* Vaš naslov: Ulica s hišno številko, poštno številko in mestom. Kliknite "Iskanje vnesenega naslova", da dobite koordinate lokacije (te so zaokrožene navzdol). Preverite položaj zatiča in ga po potrebi zamenjajte.
-* notranje ime olajša ločevanje, če imate več senzorjev (na primer vrt, senzor za mamo,...).
-* okolje postaje - npr. višina nad tlemi, ob cesti, velika gostota prometa, odprt prostor ali podobno.
+* zabeležen ChipID naprave ESP8266 (NodeMCU)
+* vaš e-poštni naslov (ne bo objavljen)
+* vaš naslov: Ulica s hišno številko, poštno številko in mestom. Kliknite "Lookup entered address" (Poišči vneseni naslov), da dobite koordinate lokacije (bodo zaokrožene). Preverite položaj zatiča in ga po potrebi spremenite
+* notranje ime omogoča lažje ločevanje, če imate več senzorjev (na primer vrt, senzor za mamo, ...)
+* okolica postaje - npr. višina nad tlemi, stran ceste, gost promet, prosto polje ali podobno
 
-### Mimogrede!
-Trenutno ni mogoče registrirati senzorja PM, senzorja TempHumidity in senzorja DNMS, priključenega na enoto NodeMCU.
-Trenutno lahko to storite le ročno, zato pošljite zahtevo na naslov tech (at) sensor.community.
-Siehe [številka](https://github.com/opendata-stuttgart/sensor.community/issues/117) za podrobnosti.
+
+#### Mimogrede!
+Trenutno s pomočjo spletnega mesta ni mogoče registrirati obeh senzorjev PM, temperature/vlage in DNMS, ki sta priključena na eno vozlišče NodeMCU.
+Za zdaj je to mogoče storiti le ročno s pošiljanjem zahtevka na naslov tech (at) sensor.community.
+Glejte [vprašanje](https://github.com/opendata-stuttgart/sensor.community/issues/117 ) za podrobnosti.
+
 

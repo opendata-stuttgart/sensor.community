@@ -6,14 +6,13 @@ Pirms montāžas instalējiet programmaparatūru!
 Skatiet __firmware flasher__ sadaļu.
 
 
-## Mikrofonu bloks
+### Mikrofonu bloks
 
 Mikrofona bloka pamatā ir Pesky Products atdalīšanas plate ar MEMS mikrofonu ICS-43434. Šādu plati var atrast [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
-#### Housing for the microphone unit
-#### Mikrofona bloka korpuss
+##### Mikrofona bloka korpuss
 Korpuss ir izgatavots no 0,500" (12,7 mm) polistirola caurules. Šāds diametrs ļauj tieši pieslēgt lielāko daļu kalibrēšanas ierīci.
 
 Prototips tika izstrādāts ar [Evergreen Nr. 236 caurulīti] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
@@ -21,21 +20,24 @@ Prototips tika izstrādāts ar [Evergreen Nr. 236 caurulīti] (https://evergreen
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 <br>
-Izvadplāksne ir jāpielāgo caurules diametram ar faila palīdzību. Izmantojiet lentu, lai aizsargātu mikrofona ieeju.
+Izvadplate ir jāpielāgo caurules diametram, izmantojot failu. Izmantojiet kādu lentu, lai aizsargātu mikrofona ieeju.
 <br>
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-protection.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-protection-front.jpg" style="width:41%; margin: 2em 0" loading="lazy"/>
 
-Pēc tam pielodējiet sešus silikona kabeļus. Ievērojiet, ar kuru kontakttīkla tapu kabelis ir savienots!
+Tad pielodējiet sešus silikona kabeļus. Pievērsiet uzmanību, ar kuru kontaktspraudni kabelis ir savienots!
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-with-cable.jpg" style="display: block; width:40%; margin: 2em 0" loading="lazy"/>
+
 Nogrieziet 115 mm garu caurules gabalu.
 <br>
-Uzlīmējiet mikrofonu plati uz šķērsgrieztas lentes. Ievietojiet kabeļus caurulītē un piestipriniet plati caurules galā.
+Uzlīmējiet mikrofona plati uz šķērsgrieztas lentes. Ievietojiet kabeļus caurulītē un piestipriniet plati caurules galā.
 <br>
+
 <img src="../docs/dnms/dnms-noise-measuring-microphone-preparing-housing.jpg" style="width:40%; margin: 2em 0" loading="lazy"/>
 <img src="../docs/dnms/dnms-noise-measuring-microphone-housing.jpg" style="width:42%; margin: 2em 0" loading="lazy"/>
+
 
 Caurulītes galu nostipriniet ar lentu.
 
@@ -43,9 +45,9 @@ Caurulītes galu nostipriniet ar lentu.
 
 Tagad varat piepildīt caurulīti ar sveķiem. Šis solis ir obligāts, lai izvairītos no rezonanses un iegūtu kalibrētus un reproducējamus datus.
 
-Prototips tika izstrādāts, izmantojot Copaltec GmbH ražoto [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900).
+Prototips tika izstrādāts, izmantojot dažus [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), ko ražo Copaltec GmbH.
 
-#### Specifikācijas
+##### Specifikācijas
 * Dielektriskā izturība: 28 kV/mm
 * Īpatnējā tiešā pretestība: 5,8.1014 omu/cm.
 * Virsmas pretestība: 1,3.1016 omu
@@ -58,13 +60,15 @@ Prototips tika izstrādāts, izmantojot Copaltec GmbH ražoto [PURe Isolation ST
 * Siltumvadītspēja: 0,3 W/mK
 * Lietošanas temperatūra: * Ūdensnecaurlaidība: - 20 līdz +130 °C
 
-Vajadzētu darboties arī [poliuretāna sveķiem UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf), ko ražo Electrolube.
 
-Katrai caurulītei vajadzētu pietikt ar 15 g sveķu.
+Derētu izmantot arī [poliuretāna sveķus UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf), ko ražo Electrolube.
+
+Katrai caurulei pietiek ar 15 g sveķu.
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-inside-tube.jpg" style="display:block; margin: 2em 0" loading="lazy"/>
 
 Kad sveķi ir sacietējuši, noņemiet lenti. Jūsu mikrofona ierīce ir gatava.
+
 
 
 ### DNMS korpuss
@@ -73,7 +77,7 @@ Kad Teensy (DNMS) un NodeMCU (atsevišķs vai uz PCB) ir atdalīti: DNMS un airR
 
 Jums ir nepieciešams 25 mm diametra caurules gabals (piemēram, elektrotehnikas lietojumiem paredzēta caurule), savienotājs, 90° līkums un M25 IP68 kabeļa ieliktnis.
 
-Caurulei jābūt 160 mm garai. DNMS izskatās vietā. Mikrofona korpusu uztur kabeļa ieliktnis.
+Caurulei jābūt 160 mm garai. DNMS izskatās vietā. Mikrofona korpusu uztur kabeļa blīvslēgs.
 
 Loks novērš ūdens un mitruma iekļūšanu korpusā, vienlaikus ļaujot kabeli caur to iet.
 
@@ -91,10 +95,9 @@ Rezultāts:
 
 PCB ar NodeMCU var ievietot jebkura veida elektriskā kastē.
 
+### Laika apstākļu aizsardzība
 
-### Aizsardzība pret laikapstākļiem
-
-Pašiem korpusiem jābūt ūdensnecaurlaidīgiem. Jutīgs varētu būt tikai mikrofona ieplūdes savienojums. Ražotājs TDK ir publicējis dažus ieteikumus InvenSense MEMS mikrofonu ar apakšējiem portiņiem blīvēšanai pret putekļu un šķidrumu iekļūšanu, taču sastāvdaļas ir grūti atrast, un tās netika pārbaudītas.
+Pašiem korpusiem jābūt ūdensnecaurlaidīgiem. Jutīgs varētu būt tikai mikrofona ieplūdes savienojums. Ražotājs TDK ir publicējis dažus ieteikumus InvenSense MEMS mikrofonu ar apakšējo portu blīvēšanai pret putekļu un šķidrumu iekļūšanu, taču sastāvdaļas ir grūti atrast, un tās netika pārbaudītas.
 
 Noteikti ir jāuzstāda aizsardzība pret laikapstākļiem putuplasta apvalka veidā. Nepieciešamības gadījumā pietiek pat ar sadzīves sūkli. Tam ir vairāki iemesli:
 * tas pasargā no vēja radītā trokšņa (kas var palielināt decibelu mērījumus).
