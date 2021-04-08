@@ -3,7 +3,7 @@ title: Odpravljanje težav
 ---
 
 
-#### Težave z oddajanjem?
+### Težave z oddajanjem?
 V brskalnik vnesite naslednje podatke:
 `https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&var-chipID=esp8266-[ID]`
 

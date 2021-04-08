@@ -13,7 +13,7 @@ title: Konfiguracija spletne strani
 
 > ⚠️ **Upoštevajte** Morda bo potrebnih nekaj poskusov, da se bo naprava NodeMCU povezala z domačim omrežjem WiFi. Bodite potrpežljivi in večkrat poskusite z navedenimi koraki, dokler ne bo delovalo. Če je konfiguracija senzorja delovala, omrežje WiFi postaje ne bo na voljo in stran za konfiguracijo ne bo več dostopna pod tem IP 192.168.4.1
 
-#### Konfiguracija postaje
+### Konfiguracija postaje
 1. Na strani "Konfiguracija" vnesite SSID (ime domačega omrežja WiFi), varnostni ključ omrežja (v sistemu Windows) ali geslo WiFi.
 
 2. Če uporabljate priporočeni senzor za fini prah (SDS011), nadaljnje spremembe konfiguracije niso potrebne.

@@ -27,11 +27,11 @@ Izberite povezavo, ki ustreza operacijskemu sistemu vašega računalnika.
 
 ### MacOS
 
-##### Gonilniki za MacOS
+#### Gonilniki za MacOS
 * [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
-##### Izvleček prenesene datoteke za MacOS
+#### Izvleček prenesene datoteke za MacOS
 * za V2: Razpakirajte mapo CP210x in dvakrat kliknite na aplikacijo CP210xVCPInstaller_x64 (ali x86)
 * za V3: Razpakirajte mapo CH341SER in dvakrat kliknite na aplikacijo SETUP.
 * Ponovno zaženite računalnik Mac
@@ -42,7 +42,7 @@ Izberite povezavo, ki ustreza operacijskemu sistemu vašega računalnika.
 Gonilnikov ni treba namestiti. Čip mora biti podprt neposredno (preverite z dmesg)
 
 ---
-#### Flasher strojne programske opreme
+### Flasher strojne programske opreme
 Podpora za več operacijskih sistemov: Windows, MacOS in Linux.
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)

@@ -56,11 +56,11 @@ SCL -> pin D4
 
 ### Povezati vse skupaj
 
-##### Povežite NodeMCU in SDS011 skupaj
+#### Povežite NodeMCU in SDS011 skupaj
 <img src="../docs/airrohr/tie-air-quality-sensor-together.jpeg" loading="lazy"/>
 S kabelsko vezavo povežite enoto NodeMCU (ESP8266) in senzor SDS011 tako, da antena Wifi kaže stran od senzorja
 
-##### Povežite upogljivo cev
+#### Povežite upogljivo cev
 <img src="../docs/airrohr/sds011-with-tube.jpeg" style="width:49%; padding-right: 0.5em" loading="lazy"/>
 <img src="../docs/airrohr/bme280-tied-to-tube.jpeg" style="width:49%;" loading="lazy"/>
 
@@ -68,14 +68,14 @@ S kabelsko vezavo povežite enoto NodeMCU (ESP8266) in senzor SDS011 tako, da an
 * z drugo kabelsko vezalko pritrdite temperaturni senzor BME280 na cev
 * Kabel USB speljite skozi cev. Namestite senzor SDS011 tako, da je enota NodeMCU obrnjena navzgor, ventilator pa navzdol.
  
-##### Senzor potisnite v cev
+#### Senzor potisnite v cev
 * Dele potisnite v cev, tako da so zataknjeni v notranjosti
 * Kabel USB, gibljiva cev in BME280 morajo gledati iz konca cevi
 * Drugo cev potisnite na prvo.
 
 <img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
 
-##### Zaključna dela
+#### Zaključna dela
 * Temperaturni senzor namestite na gibljivo cev, tako da bo na robu cevi.
 * Odrežite gibljivo cev na koncu cevi
 * Po želji: odprte konce cevi lahko prekrijete z drobno mrežo. Tako lahko zrak kroži, žuželke pa ostanejo zunaj.

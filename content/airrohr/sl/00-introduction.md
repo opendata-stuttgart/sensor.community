@@ -7,10 +7,10 @@ title: Uvod
 <img src="../docs/airrohr/particulate-matter-air-quality-sensor-kit.jpeg" loading="lazy"/>
 
 ### Nakupovalni seznam
-##### Komplet senzorjev
+#### Komplet senzorjev
 * [Komplet senzorjev s prednapetostjo](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
 
-##### Posamezni sestavni deli
+#### Posamezni sestavni deli
 * [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
 * [SDS011 Senzor finega prahu](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=sds011)
 * BME280 6-PIN, temperatura in vlažnost ter zračni tlak
