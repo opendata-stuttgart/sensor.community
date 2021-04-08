@@ -51,12 +51,12 @@ Kelių operacinių sistemų palaikymas: "Windows", "MacOS" ir "Linux".
 Prijunkite "NodeMCU" prie kompiuterio trumpu micro-USB kabeliu (pasirinkite trumpesnį nei 1 m, kitaip diegimas gali nepavykti). Pasirinkite `latest_en.bin` (arba kitą kalbinę versiją) ir spustelėkite "Upload" (įkelti).
 Palaukite, kol procesas bus baigtas. Dabar galime surinkti jutiklį.
 
-### Linux: Nustatykite leidimus kaip vykdytiną
+#### Linux: Nustatykite leidimus kaip vykdytiną
 Po atsisiuntimo gali tekti nustatyti leidimą kaip vykdomąjį. Tai galima padaryti komanda: Atsisiųsti failą: `chmod o+x <atsisiunčiamo failo pavadinimas>``.
 <br>
 Didelis ačiū [Piotr, iš Lenkijos](https://dropbox.inf.re/), už pagalbą! 🙋♂️
 
-### MacOS: kaip paleisti nepatikrintą programą
+#### MacOS: kaip paleisti nepatikrintą programą
 Dešiniuoju pelės mygtuku spustelėkite ir kelis kartus atidarykite programą ir visada patvirtinkite "Open".
 
 Štai trumpas vaizdo įrašas "Youtube" 👉 https://youtu.be/1KZiP94TYjw
