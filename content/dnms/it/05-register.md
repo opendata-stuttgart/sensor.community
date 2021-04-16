@@ -1,28 +1,24 @@
 ---
-title: Registra
+title: Registro
 ---
 
 ### Registrati
 
-Vai a [devices.sensor.community](https://devices.sensor.community) per registrare il tuo dispositivo e diventare parte della rete di dati aperti.
+Vai a [devices.sensor.community](https://devices.sensor.community/) per registrare il tuo dispositivo e diventare parte della rete di dati aperti.
 
 
 ### Registra il tuo dispositivo
-Dopo esserti registrato, clicca su "Registra un nuovo sensore" e compila il modulo.
-Home -> (Login) - I miei sensori -> Registra un nuovo sensore
+Dopo aver effettuato il login clicca su registra un nuovo dispositivo e compila il modulo.
+Home -> (Login) - Sensori -> Registra sensore
 
-* Il tuo ChipID noto dell'ESP8266 (NodeMCU).
-* Il tuo indirizzo e-mail (non sarà pubblicato).
-* Il tuo indirizzo: Via con numero civico, codice postale e città. Clicca su "Cerca indirizzo inserito" per ottenere le coordinate del luogo (queste sono arrotondate per difetto). Controllare la posizione del perno, cambiarlo se necessario.
-* il nome interno facilita la separazione se avete diversi sensori (come il giardino, il sensore per la mamma,...).
-* l'ambiente della stazione - per esempio altezza dal suolo, bordo della strada, alto volume di traffico, spazio aperto o simile.
+* il tuo ChipID annotato dell'ESP8266 (NodeMCU)
+* il tuo indirizzo email (non sarà pubblicato)
+* il tuo indirizzo: Via con numero civico, codice postale e città. Clicca su "Lookup entered address" per ottenere le coordinate della posizione (saranno arrotondate). Controlla la posizione del pin, cambialo se necessario
+* il nome interno rende più facile separare se hai più sensori (come giardino, sensore per la mamma,...)
+* i dintorni della stazione - ad esempio altezza dal suolo, lato della strada, alto volume di traffico, campo libero o simili
 
-#### NB!
 
-Al momento questo può essere fatto solo manualmente, basta inviare una richiesta a tech (at) sensor.community.
-Siehe [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) per i dettagli.
-
-Attualmente non è possibile registrare utilizzando il sito sia il sensore PM, sia il sensore temphumidity e DNMS collegati a un NodeMCU.
+#### A proposito!
+Attualmente non è possibile registrare tramite il sito sia il sensore PM, sia il sensore temp/humidity e DNMS collegati ad un NodeMCU.
 Per ora può essere fatto solo manualmente inviando una richiesta a tech (at) sensor.community.
-Vedi [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117
-) per i dettagli.
+Vedi [issue](https://github.com/opendata-stuttgart/sensor.community/issues/117) per i dettagli.
