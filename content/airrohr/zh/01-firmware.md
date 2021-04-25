@@ -16,7 +16,7 @@ NocdeMCU v3 的芯片组通常是CH341，只要检查你的NodeMCU (ESP8266)的�
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10应能自动下载这些内容。
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32位版本- 不支持64位版本操作系统。
 
-##### NodeMCU (ESP8266) V3 (CH341) for Windows 的驱动程序。
+##### NodeMCU (ESP8266) V3 (CH340/CH341) for Windows 的驱动程序。
 * [Windows](http://www.wch.cn/downloads/file/5.html)--Windows 10应能自动下载这些内容。
 
 ##### 解压下载的Windows文件

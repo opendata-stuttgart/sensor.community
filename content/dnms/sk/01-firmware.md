@@ -14,7 +14,7 @@ Na komunikáciu so zariadením ESP8266 potrebujete ovládače usb2serial pre svo
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - systém Windows 10 by mal byť schopný ich automaticky stiahnuť
 * [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitová verzia - **nepodporuje** 64-bitovú verziu OS
 
-##### Ovládač pre model V3 (CH341) pre Windows
+##### Ovládač pre model V3 (CH340/CH341) pre Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - systém Windows 10 by mal byť schopný ich automaticky stiahnuť
 
 ##### Rozbaľte stiahnutý súbor pre systém Windows:

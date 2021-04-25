@@ -14,7 +14,7 @@ A NocdeMCU v3 chipkészlet általában CH341, csak ellenőrizze a NodeMCU hátol
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - A Windows 10 képesnek kell lennie arra, hogy automatikusan letöltse ezeket.
 * [Windows 7/8/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bites verzió - **nem** támogatja a 64 bites verziójú operációs rendszert.
 
-##### illesztőprogram a V3 modellhez (CH341) Windowshoz
+##### illesztőprogram a V3 modellhez (CH340/CH341) Windowshoz
 * [Windows](http://www.wch.cn/downloads/file/5.html) - A Windows 10 képesnek kell lennie arra, hogy automatikusan letöltse ezeket.
 
 ##### A letöltött fájl kicsomagolása Windows számára

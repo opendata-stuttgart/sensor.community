@@ -43,7 +43,7 @@ title: Сглобяване на
 
 Сега можете да напълните тръбата с малко смола. Тази стъпка е задължителна, за да се избегне резонансът и да се получат калибрирани и възпроизводими данни.
 
-Прототипът е разработен с известно количество [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), произведено от Copaltec GmbH.
+Прототипът е разработен с известно количество [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), произведено от Copaltec GmbH.
 
 ##### Спецификации
 * Диелектрична якост: 28 kV/mm

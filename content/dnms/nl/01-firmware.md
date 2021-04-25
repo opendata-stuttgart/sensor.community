@@ -14,7 +14,7 @@ De chipset voor NocdeMCUs v3 is meestal CH341, kijk maar eens op de achterkant v
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 zou in staat moeten zijn om deze automatisch te downloaden
 * [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bits versie - **niet** ondersteuning voor 64-bits versie OS
 
-##### Stuurprogramma voor model V3 (CH341) voor Windows
+##### Stuurprogramma voor model V3 (CH340/CH341) voor Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 zou in staat moeten zijn om deze automatisch te downloaden
 
 ##### Pak het gedownloade bestand voor Windows uit:

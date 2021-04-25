@@ -50,7 +50,7 @@ Ebben az esetben a NodeMCU és a DNMS közötti kapcsolat akár 10 m hosszú is 
   <br>
   A DNMS (digitális zajmérő érzékelő) kombinálható airRohr PM-érzékelővel:
 
-* SPS30 finom porérzékelő](https://www.sparkfun.com/products/15103). Egyéb eladók: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). A szokásos [SDS011 PM-érzékelő](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) is használható.
+* [SPS30 finom porérzékelő](https://www.sparkfun.com/products/15103). Egyéb eladók: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). A szokásos [SDS011 PM-érzékelő](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) is használható.
 * [BME280 6-PIN verzió, hőmérséklet és páratartalom](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Egyéb eladók: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
 * [Kábel](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+kábel+20cm+női-női)
 * [USB kábel pl.: lapos 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+lapos+kábel+2m)

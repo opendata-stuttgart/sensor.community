@@ -16,7 +16,7 @@ Valitse tietokoneen käyttöjärjestelmää vastaava linkki.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10:n pitäisi pystyä lataamaan nämä automaattisesti.
 * [Windows 788.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bittinen versio - **ei** tukee 64-bittistä versiota käyttöjärjestelmästä.
 
-##### Ajuri NodeMCU:lle (ESP8266) V3 (CH341) Windows-käyttöjärjestelmälle
+##### Ajuri NodeMCU:lle (ESP8266) V3 (CH340/CH341) Windows-käyttöjärjestelmälle
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10:n pitäisi pystyä lataamaan nämä automaattisesti.
 
 ##### Pura ladattu tiedosto Windowsille:

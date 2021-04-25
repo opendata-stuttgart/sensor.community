@@ -32,7 +32,7 @@ SDS011 Pin 7 -> nenaudojamas
 
 <br>
 
-💡 Galite rasti [jutiklių, kuriuos palaiko mūsų programinė įranga, sąrašą] (https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)
+💡 Galite rasti [jutiklių, kuriuos palaiko mūsų programinė įranga, sąrašą](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)
 
 
 ### Prilituokite BME280

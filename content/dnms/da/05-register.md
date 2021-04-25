@@ -4,7 +4,7 @@ title: Registrer
 
 ### Registrer dig selv
 
-Gå til [devices.sensor.community] (https://devices.sensor.community/) for at registrere din enhed og blive en del af det åbne datanetværk.
+Gå til [devices.sensor.community](https://devices.sensor.community/) for at registrere din enhed og blive en del af det åbne datanetværk.
 
 
 #### Registrer din enhed

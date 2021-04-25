@@ -21,7 +21,7 @@ PCB NodeMCU ESP8266 CPU/WLAN jaoks koos I2C Bus laiendiga, et ühendada DNMS-i j
 ---
 
 ### DNMS - T4 V1.4
-<img src="../docs/dnms/dnms-müra-mõõtmine-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0" loading="lazy"/>
+<img src="../docs/dnms/dnms-noise-measuring-teensy-4.jpg" style="display: block;width:40%; margin: 1em 0" loading="lazy"/>
 PCB DNMS Teensy 4.0 jaoks, mida saab ühendada otse NodeMCU ESP8266 või ülaltoodud AIRROHR PCB-le.
 
 

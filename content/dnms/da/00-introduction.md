@@ -48,13 +48,13 @@ I dette tilfælde kan forbindelsen mellem NodeMCU og DNMS være op til 10 m lang
 
 #### Enkeltkomponenter
 * [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
-* [Teensy 4.0 udviklingskort](https://www.pjrc.com/store/teensy40.html). Andre sælgere: EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
+* [Teensy 4.0 udviklingskort](https://www.pjrc.com/store/teensy40.html). Andre sælgere: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
 * [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
 * ultrafleksible silikonekabler med en diameter på 0,15 mm² (AWG 26) i 6 forskellige farver
   <br>
   DNMS (Digital Noise Measuring Sensor) kan kombineres med en airRohr PM-sensor:
 
-* SPS30-fjernstøvsensor] (https://www.sparkfun.com/products/15103). Andre sælgere: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Den sædvanlige [SDS011 PM-sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) kan også anvendes.
+* [SPS30-fjernstøvsensor](https://www.sparkfun.com/products/15103). Andre sælgere: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Den sædvanlige [SDS011 PM-sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) kan også anvendes.
 * [BME280 6-PIN Version, temperatur og luftfugtighed](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3,3V). Andre sælgere: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
 * [Kabel](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+kablet+20cm+female-female)
 * [USB-kabel f.eks.: flad 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flad+kabel+2m)

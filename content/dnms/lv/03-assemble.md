@@ -15,7 +15,7 @@ Mikrofona bloka pamatā ir Pesky Products atdalīšanas plate ar MEMS mikrofonu 
 ##### Mikrofona bloka korpuss
 Korpuss ir izgatavots no 0,500" (12,7 mm) polistirola caurules. Šāds diametrs ļauj tieši pieslēgt lielāko daļu kalibrēšanas ierīci.
 
-Prototips tika izstrādāts ar [Evergreen Nr. 236 caurulīti] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototips tika izstrādāts ar [Evergreen Nr. 236 caurulīti](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
@@ -45,7 +45,7 @@ Caurulītes galu nostipriniet ar lentu.
 
 Tagad varat piepildīt caurulīti ar sveķiem. Šis solis ir obligāts, lai izvairītos no rezonanses un iegūtu kalibrētus un reproducējamus datus.
 
-Prototips tika izstrādāts, izmantojot dažus [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), ko ražo Copaltec GmbH.
+Prototips tika izstrādāts, izmantojot dažus [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), ko ražo Copaltec GmbH.
 
 ##### Specifikācijas
 * Dielektriskā izturība: 28 kV/mm

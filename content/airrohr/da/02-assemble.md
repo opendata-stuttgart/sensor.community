@@ -32,7 +32,7 @@ SDS011 Pin 7 -> ubrugt
 
 <br>
 
-💡 Du kan finde en liste over [sensorer, der understøttes af vores firmware] (https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)
+💡 Du kan finde en liste over [sensorer, der understøttes af vores firmware](https://github.com/opendata-stuttgart/sensors-software/blob/master/airrohr-firmware/Readme.md)
 
 
 ### Lodder sammen BME280

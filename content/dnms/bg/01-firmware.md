@@ -13,7 +13,7 @@ title: Драйвер и фърмуер
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 би трябвало да може да ги изтегли автоматично
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-битова версия - **не се поддържа** 64-битова версия на операционната система
 
-##### Драйвер за модел V3 (CH341) за Windows
+##### Драйвер за модел V3 (CH340/CH341) за Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 би трябвало да може да ги изтегли автоматично
 
 ##### Извличане на изтегления файл за Windows
@@ -25,7 +25,7 @@ title: Драйвер и фърмуер
 ### MacOS
 
 ##### MacOS драйвери
-* [NodeMCU V2] (https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Извличане на изтегления файл за MacOS

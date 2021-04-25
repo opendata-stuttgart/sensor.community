@@ -8,7 +8,7 @@ Prieš surinkdami įdiekite programinę įrangą!
 
 ### Mikrofono blokas
 
-Mikrofono blokas pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
+Mikrofono blokas pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrofonu ICS-43434. Tokią plokštę galite rasti [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
@@ -16,7 +16,7 @@ Mikrofono blokas pagrįstas "Pesky Products" pertraukimo plokšte su MEMS mikrof
 #### Mikrofono bloko korpusas
 Korpusas pagamintas iš 0,500" (12,7 mm) polistireninio vamzdžio. Toks skersmuo leidžia prie įrenginio tiesiogiai prijungti daugumą kalibratorių.
 
-Prototipas sukurtas naudojant [Evergreen Nr. 236 vamzdelį] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototipas sukurtas naudojant [Evergreen Nr. 236 vamzdelį](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
@@ -43,7 +43,7 @@ Vamzdelio galą sutvirtinkite lipnia juosta.
 
 Dabar galite užpildyti vamzdelį derva. Šis žingsnis yra privalomas, kad būtų išvengta rezonanso ir gauti kalibruoti bei atkuriami duomenys.
 
-Prototipas buvo sukurtas naudojant tam tikrą [PURe Isolation ST 33] (https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), kurią pagamino "Copaltec GmbH".
+Prototipas buvo sukurtas naudojant tam tikrą [PURe Isolation ST 33](https://www.buerklin.com/en/Polyurethane-cast-resin-black-Copaltec-PURe-Isolation-ST-33/p/12L5900), kurią pagamino "Copaltec GmbH".
 
 #### Specifikacijos
 * Dielektrinis stipris: 28 kV/mm

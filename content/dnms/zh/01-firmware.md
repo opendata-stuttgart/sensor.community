@@ -14,7 +14,7 @@ NocdeMCU v3的芯片组通常是CH341，只要检查你的NodeMCU的背面就可
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)----Windows 10应能自动下载这些内容。
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip)----32位版本----**不支持64位版本操作系统。
 
-##### V3型号(CH341)的驱动程序，适用于Windows。
+##### V3型号(CH340/CH341)的驱动程序，适用于Windows。
 * [Windows](http://www.wch.cn/downloads/file/5.html)--Windows 10应能自动下载这些内容。
 
 ##### 解压下载的Windows文件

@@ -8,14 +8,14 @@ Se afsnittet __firmware flasher__.
 
 ### Mikrofonenhed
 
-Mikrofonenheden er baseret på Pesky Products breakout board med en MEMS-mikrofon ICS-43434. Du kan finde et sådant board på [Tindie marketplace] (https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
+Mikrofonenheden er baseret på Pesky Products breakout board med en MEMS-mikrofon ICS-43434. Du kan finde et sådant board på [Tindie marketplace](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
 #### Hus til mikrofonenheden
 Huset er fremstillet med en .500" (12,7 mm) polystyrenrør. Denne diameter gør det muligt at tilslutte de fleste kalibratorer direkte til enheden.
 
-Prototypen blev udviklet med [Evergreen No. 236-slange] (https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
+Prototypen blev udviklet med [Evergreen No. 236-slange](https://evergreenscalemodels.com/products/236-500-12-7mm-od-white-polystyrene-tubing).
 
 <img src="../docs/dnms/dnms-noise-measuring-microphone-anschluesse.jpg" style="width:40%; margin: 3em 0" loading="lazy"/>
 
@@ -57,7 +57,7 @@ Prototypen blev udviklet med noget [PURe Isolation ST 33](https://www.buerklin.c
 * Varmeledningsevne: 0,3 W/mK
 * Anvendelsestemperaturer: - 20 til +130 °C
 
-[polyurethanharpiks UR5545] (https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) fra Electrolube burde også fungere.
+[polyurethanharpiks UR5545](https://electrolube.com/wp-content/uploads/2019/11/044-UR5545A-SDS1525.pdf) fra Electrolube burde også fungere.
 
 For hver slange er 15 g harpiks nok til hver slange.
 

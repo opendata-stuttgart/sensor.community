@@ -16,7 +16,7 @@ Izberite povezavo, ki ustreza operacijskemu sistemu vašega računalnika.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - sistem Windows 10 bi moral biti sposoben samodejno prenesti te
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitna različica - **ne podpirajo** 64-bitne različice OS
 
-##### Gonilnik za NodeMCU (ESP8266) V3 (CH341) za Windows
+##### Gonilnik za NodeMCU (ESP8266) V3 (CH340/CH341) za Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - operacijski sistem Windows 10 bi moral biti sposoben samodejno prenesti te
 
 ##### Izvleček prenesene datoteke za Windows

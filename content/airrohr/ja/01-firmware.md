@@ -16,7 +16,7 @@ NocdeMCU v3のチップセットは通常CH341で、NodeMCU (ESP8266)の背面�
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 では自動的にダウンロードできるはずです。
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32ビット版 - **64ビット版OSには対応していません。
 
-##### Windows版 NodeMCU (ESP8266) V3 (CH341)用ドライバ
+##### Windows版 NodeMCU (ESP8266) V3 (CH340/CH341)用ドライバ
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 では自動的にダウンロードできるはずです。
 
 ##### ダウンロードしたファイルを解凍する for Windows

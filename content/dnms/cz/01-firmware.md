@@ -14,7 +14,7 @@ NodeMCU v3 chipset je obvykle CH341, zkontrolujte zadní stranu Vašeho NodeMCU 
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 by měly být schopny tyto drivery automaticky stáhnout.
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitová verze - **nepodporuje** 64-bitovou verzi Windows.
 
-##### Ovladač modelu V3 (CH341) pro Windows
+##### Ovladač modelu V3 (CH340/CH341) pro Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 by měly být schopny tyto drivery automaticky stáhnout.
 
 ##### Rozbalte stažený soubor pro Windows:

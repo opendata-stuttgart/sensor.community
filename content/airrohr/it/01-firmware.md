@@ -46,7 +46,7 @@ Apri la directory CP210x e clicca due volte sull'applicazione CP210xVCPInstaller
 
 [comment]: # (Total insanity: duplicate section titles lead to a crash)
 
-#### Driver NodeMCU V3 (CH341)
+#### Driver NodeMCU V3 (CH340/CH341)
 
 * Scarica [NodeMCU V3](http://www.wch.cn/downloads/file/178.html).
 * Scompatta CH341SER e clicca due volte sul setup dell'applicazione.

@@ -14,7 +14,7 @@ title: Πρόγραμμα οδήγησης &amp; υλικολογισμικό
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Τα Windows 10 θα πρέπει να μπορούν να τα κατεβάσουν αυτόματα.
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - Έκδοση 32-bit - **δεν υποστηρίζει** έκδοση 64-bit του λειτουργικού συστήματος
 
-##### Πρόγραμμα οδήγησης για το μοντέλο V3 (CH341) για Windows
+##### Πρόγραμμα οδήγησης για το μοντέλο V3 (CH340/CH341) για Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Τα Windows 10 θα πρέπει να μπορούν να τα κατεβάσουν αυτόματα
 
 ##### Αποσυμπιέστε το αρχείο που κατεβάσατε για τα Windows

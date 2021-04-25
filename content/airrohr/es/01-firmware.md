@@ -16,7 +16,7 @@ Elige la url correspondiente al sistema operativo de tu ordenador.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 - Windows 10 debería descargarlo automáticamente
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit version - **no** soporta la versión 64-bit OS
 
-##### Driver for NodeMCU (ESP8266) V3 (CH341) for Windows
+##### Driver for NodeMCU (ESP8266) V3 (CH340/CH341) for Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 debería descargarlo automáticamente
 
 ##### Extraer el archivo descargado para Windows:

@@ -14,7 +14,7 @@ Wähle den Link, der dem Betriebssystem deines Computers entspricht.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 sollte in der Lage sein, die Treiber automatisch herunterzuladen
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-Bit-Version - **nicht** unterstützt 64-Bit-Version OS
 
-##### Treiber für das Modell V3 (CH341) für Windows
+##### Treiber für das Modell V3 (CH340/CH341) für Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 sollte in der Lage sein, die Treiber automatisch herunterzuladen
 
 ##### Entpacken der heruntergeladene Datei für Windows:

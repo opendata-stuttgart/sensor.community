@@ -16,7 +16,7 @@ title: Драйвери и фърмуер
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 трябва да може да ги изтегля автоматично
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit версия за тези ОС, които не поддържат 64-bit версии
 
-##### Драйвери за модел V3 (CH341) за Windows
+##### Драйвери за модел V3 (CH340/CH341) за Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 трябва да може да ги изтегля автоматично
 
 ##### Разархивирайте изтегления файл. Разархивирайте това:

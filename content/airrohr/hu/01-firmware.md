@@ -16,7 +16,7 @@ Válassza ki a számítógép operációs rendszerének megfelelő linket.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - A Windows 10 képesnek kell lennie arra, hogy automatikusan letöltse ezeket.
 * [Windows 7/8/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bites verzió - **nem** támogatja a 64 bites verziójú operációs rendszert.
 
-##### Illesztőprogram NodeMCU (ESP8266) V3 (CH341) Windows számára
+##### Illesztőprogram NodeMCU (ESP8266) V3 (CH340/CH341) Windows számára
 * [Windows](http://www.wch.cn/downloads/file/5.html) - A Windows 10 képesnek kell lennie arra, hogy automatikusan letöltse ezeket.
 
 ##### A letöltött fájl kicsomagolása Windows számára

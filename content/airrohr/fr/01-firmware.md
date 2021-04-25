@@ -16,7 +16,7 @@ Choisissez le lien correspondsant à votre ordinateur.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 devrait pouvoir charger automatiquement ce pilote.
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - Version 32-bit - Incompatible avec la version 64-bit du système d'exploitation.
 
-##### Pilotes Windows pour le modèle V3 (CH341)
+##### Pilotes Windows pour le modèle V3 (CH340/CH341)
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 devrait pouvoir charger automatiquement ce pilote.
 
 ##### Installer le fichier téléchargé pour Windows :

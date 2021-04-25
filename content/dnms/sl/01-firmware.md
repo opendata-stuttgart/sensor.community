@@ -14,7 +14,7 @@ Za komunikacijo s svojim ESP8266 potrebujete gonilnike usb2serial za svoj operac
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - operacijski sistem Windows 10 bi moral biti sposoben samodejno prenesti te
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitna različica - **ne podpirajo** 64-bitne različice OS
 
-##### Gonilnik za model V3 (CH341) za Windows
+##### Gonilnik za model V3 (CH340/CH341) za Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - sistem Windows 10 bi jih moral biti sposoben samodejno prenesti
 
 ##### Izvleček prenesene datoteke za Windows
@@ -26,7 +26,7 @@ Za komunikacijo s svojim ESP8266 potrebujete gonilnike usb2serial za svoj operac
 ### MacOS
 
 ##### Gonilniki za MacOS
-* [NodeMCU V2] (https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 ##### Izvleček prenesene datoteke za MacOS

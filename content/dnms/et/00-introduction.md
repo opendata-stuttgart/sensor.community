@@ -57,7 +57,7 @@ Sellisel juhul võib NodeMCU ja DNMS vaheline ühendus olla kuni 10 m pikk. See 
   <br>
   DNMS (digitaalne müra mõõtmise andur) on kombineeritav airRohr PM-anduriga:
 
-* SPS30 peentolmuanduriga](https://www.sparkfun.com/products/15103). Muud müüjad: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Võib kasutada ka tavalist [SDS011 PM-andurit](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
+* [SPS30 peentolmuanduriga](https://www.sparkfun.com/products/15103). Muud müüjad: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Võib kasutada ka tavalist [SDS011 PM-andurit](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
 * [BME280 6-PIN versioon, temperatuur ja niiskus](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Muud müüjad: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
 * [Kaabel](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+kaabel+20cm+naine-naine)
 * [USB-kaabel nt: lame 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+lame+kaabel+2m)

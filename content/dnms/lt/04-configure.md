@@ -26,7 +26,7 @@ title: Konfigūruoti
 1. Prijunkite stotį USB kabeliu, kad įjungtumėte jutiklį.
 2. Stotis bando prisijungti prie sukonfigūruoto "WiFi" prieigos taško. Jei tai nepavyksta, jutiklis atidaro prieigos tašką su pavadinimu `Particulate Matter ID` , `Feinstaubsensor-ID` arba `airRohr-ID`. ID yra **ChipID** (pavyzdžiui, 13597771). **Prašome užsirašyti šį numerį, nes jis reikalingas registracijai**.
 3. Prisijunkite prie sukurto prieigos taško. Palaukite, kol bus užmegztas ryšys.<br>*Android*: Jei ryšys iš karto nutrūksta, gali tekti išjungti parinktį "Smart network switch" (išmanusis tinklo perjungimas), esančią "Connections -> WiFi -> Advanced" (Ryšiai -> "WiFi" -> "Advanced").
-4. Atidarykite naršyklę ir įveskite [http://192.168.4.1/] (http://192.168.4.1/).
+4. Atidarykite naršyklę ir įveskite [http://192.168.4.1/](http://192.168.4.1/).
 
 > ⚠️ **Atkreipkite dėmesį** Gali prireikti kelių bandymų, kad "NodeMCU" prisijungtų prie namų "WiFi" tinklo. Nebūkite nekantrūs ir bandykite, kol pavyks prisijungti. Jutiklį taip pat galima konfigūruoti per išmanųjį telefoną. Jei jutiklio konfigūravimas pavyko, konfigūravimo puslapis nebėra pasiekiamas šiuo IP 192.168.4.1
 

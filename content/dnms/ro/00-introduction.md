@@ -53,7 +53,7 @@ Acest depozit conține diferite configurații pentru a construi senzorul cu dife
 <br>
 Senzorul DNMS (Digital Noise Measuring Sensor) poate fi combinat cu un senzor PM de la airRohr:
 
-* Senzor de praf fin SPS30](https://www.sparkfun.com/products/15103). Alți vânzători: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Se poate utiliza și senzorul obișnuit [SDS011 PM sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
+* [Senzor de praf fin SPS30](https://www.sparkfun.com/products/15103). Alți vânzători: [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1), [SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234). Se poate utiliza și senzorul obișnuit [SDS011 PM sensor](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011).
 * [Versiunea BME280 6-PIN, temperatură și umiditate](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). Alți vânzători: [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
 * [Cablu](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+cablu+20cm+femelă-femelă)
 * [Cablu USB, de exemplu: plat 2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+usb+bucată+cablu+2m)

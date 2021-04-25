@@ -16,7 +16,7 @@ Potom vyberte príslušný odkaz, ktorý zodpovedá operačnému systému vášh
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Systém Windows 10 by mal byť schopný tieto súbory stiahnuť automaticky.
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bitová verzia - **nepodporuje** 64-bitovú verziu Windowsu.
 
-##### Ovládač modelu V3 (CH341) pre Windows
+##### Ovládač modelu V3 (CH340/CH341) pre Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Systém Windows 10 by mal byť schopný tieto súbory stiahnuť automaticky.
 
 ##### Rozbaľte súbory stiahnuté pre Windows:

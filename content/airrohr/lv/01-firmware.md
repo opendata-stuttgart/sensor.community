@@ -17,7 +17,7 @@ Izvēlieties saiti, kas atbilst jūsu datora operētājsistēmai.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
 * [Windows 7/8/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bitu versija - **neatbalsta** 64 bitu versijas OS.
 
-#### NodeMCU (ESP8266) V3 (CH341) draiveris operētājsistēmai Windows
+#### NodeMCU (ESP8266) V3 (CH340/CH341) draiveris operētājsistēmai Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - operētājsistēmai Windows 10 vajadzētu spēt automātiski lejupielādēt šos dokumentus.
 
 #### Lejupielādēt lejupielādēto failu operētājsistēmai Windows

@@ -14,7 +14,7 @@ NodeMCU v3 mikroschemų rinkinys paprastai yra CH341, tiesiog patikrinkite savo 
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - "Windows 10" turėtų galėti juos atsisiųsti automatiškai
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bitų versija - **nepalaiko** 64 bitų versijos OS
 
-#### V3 modelio (CH341) tvarkyklė "Windows
+#### V3 modelio (CH340/CH341) tvarkyklė "Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - "Windows 10" turėtų būti galima automatiškai atsisiųsti
 
 #### Ištraukite atsisiųstą "Windows" failą
@@ -26,7 +26,7 @@ NodeMCU v3 mikroschemų rinkinys paprastai yra CH341, tiesiog patikrinkite savo 
 ### MacOS
 
 ##### MacOS tvarkyklės
-* [NodeMCU V2] (https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip )
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 #### Ištraukite atsisiųstą MacOS failą

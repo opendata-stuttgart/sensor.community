@@ -16,7 +16,7 @@ Pasirinkite nuorodą, atitinkančią jūsų kompiuterio operacinę sistemą.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - "Windows 10" turėtų galėti automatiškai atsisiųsti šiuos
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32 bitų versija - **nepalaiko** 64 bitų versijos OS
 
-#### "NodeMCU" (ESP8266) V3 (CH341) tvarkyklė, skirta "Windows
+#### "NodeMCU" (ESP8266) V3 (CH340/CH341) tvarkyklė, skirta "Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - "Windows 10" turėtų būti galima automatiškai atsisiųsti šiuos
 
 #### Išskleiskite atsisiųstą "Windows" failą
@@ -46,7 +46,7 @@ Jokių tvarkyklių diegti nereikia. Mikroschema turėtų būti palaikoma tiesiog
 Kelių operacinių sistemų palaikymas: "Windows", "MacOS" ir "Linux".
 
 * [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
-* [Šaltinio kodas] (https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
+* [Šaltinio kodas](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Prijunkite "NodeMCU" prie kompiuterio trumpu micro-USB kabeliu (pasirinkite trumpesnį nei 1 m, kitaip diegimas gali nepavykti). Pasirinkite `latest_en.bin` (arba kitą kalbinę versiją) ir spustelėkite "Upload" (įkelti).
 Palaukite, kol procesas bus baigtas. Dabar galime surinkti jutiklį.

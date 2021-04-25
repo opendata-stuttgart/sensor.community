@@ -14,7 +14,7 @@ title: Драйвер та прошивка
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 повинна мати можливість їх автоматичного завантаження
 * [Windows 7/8 / 8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-розрядна версія - ** не ** підтримує 64-розрядну версію ОС
 
-##### Драйвер для моделі V3 (CH341) для Windows
+##### Драйвер для моделі V3 (CH340/CH341) для Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 повинна мати можливість автоматично завантажувати їх
 
 ##### Витягніть завантажений файл для Windows:

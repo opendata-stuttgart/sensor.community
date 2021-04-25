@@ -48,5 +48,5 @@ title: Конфигуриране на
 Ако не са правени други промени освен въвеждането на данните за WiFi мрежата, след около 10 минути сензорът може да бъде "тестван" на следващите страници. На тези страници трябва да потърсите ChipID (в примера по-горе 13597771).
 
 * [Sensordaten](www.madavi.de/sensor/graph.php)
-* [WLAN-Signal] (www.madavi.de/sensor/signal.php)
+* [WLAN-Signal](www.madavi.de/sensor/signal.php)
 

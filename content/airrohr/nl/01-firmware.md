@@ -17,7 +17,7 @@ Kies hieronder de link die overeenkomt met het operating systeem van je computer
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 zou deze automatisch moeten kunnen downloaden
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit versie - ondersteunt **niet** 64-bit
 
-##### Driver voor NodeMCU V3 (CH341) voor Windows
+##### Driver voor NodeMCU V3 (CH340/CH341) voor Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 zou deze automatisch moeten kunnen downloaden
 
 ##### Uitpakken van de gedownloade file voor Windows:

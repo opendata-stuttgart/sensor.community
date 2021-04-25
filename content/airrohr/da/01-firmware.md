@@ -16,7 +16,7 @@ Vælg det link, der svarer til operativsystemet på din computer.
 * [Windows 10](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) - Windows 10 skulle automatisk kunne downloade disse
 * [Windows 7/8/8.1](https://www.silabs.com/documents/public/software/CP210x_Windows_Drivers.zip) - 32-bit version - **understøtter **ikke** 64-bit version OS
 
-#### Driver til NodeMCU (ESP8266) V3 (CH341) til Windows
+#### Driver til NodeMCU (ESP8266) V3 (CH340/CH341) til Windows
 * [Windows](http://www.wch.cn/downloads/file/5.html) - Windows 10 skulle automatisk kunne downloade disse
 
 #### Udpak den downloadede fil til Windows
@@ -28,7 +28,7 @@ Vælg det link, der svarer til operativsystemet på din computer.
 ### MacOS
 
 #### MacOS-drivere
-* [NodeMCU V2] (https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
+* [NodeMCU V2](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)
 * [NodeMCU V3](http://www.wch.cn/downloads/file/178.html)
 
 #### Udpak den downloadede fil til MacOS
@@ -45,7 +45,7 @@ Der skal ikke installeres nogen drivere. Chip bør understøttes direkte (kan ko
 #### Firmware-flasher
 Understøttelse af flere operativsystemer: Windows, MacOS og Linux.
 
-* [airRohr Flashing Tool] (http://firmware.sensor.community/airrohr/flashing-tool/)
+* [airRohr Flashing Tool](http://firmware.sensor.community/airrohr/flashing-tool/)
 * [Source Code](https://github.com/opendata-stuttgart/airrohr-firmware-flasher/)
 
 Tilslut NodeMCU til computeren med et kort mikro-USB-kabel (vælg et kortere end 1 meter, ellers kan installationen mislykkes). Vælg `latest_en.bin` (eller en anden sprogversion), og klik på "Upload".
