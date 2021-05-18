@@ -40,6 +40,16 @@
         </div>
 
         <div class="relative z-20 md:block mx-auto md:bg-white md:shadow-lg z-10 mb-10">
+            <div class="relative bg-teal-500 hover:bg-teal-700">
+                <a href="https://no2.maps.sensor.communityhttps://no2.maps.sensor.community" target="_blank">
+                    <div class="max-w-6xl mx-auto py-3">
+                        <div class="pr-16 text-center sm:px-16">
+                            <div class="text-white hover:text-white"> {i18n.t('campaign:map')} <span aria-hidden="true">&rarr;</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
             <div class="flex" style="height: 40em;">
                 <iframe scrolling="no" class="z-10" id="map-frame" onLoad="{delayMap()}"
                         src=""
