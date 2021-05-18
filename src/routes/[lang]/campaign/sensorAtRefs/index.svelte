@@ -7,14 +7,21 @@
     $: lang = $page.params.lang;
     $: i18n = initI18n(lang);
 
+    function delayMap() {
+        if (process.browser) {
+            setTimeout(function () {
+                document.getElementById('map-frame').src = 'https://sensors2ref.maps.sensor.community/#13/51.5072/-0.1275';
+            }, 900);
+        }
+    }
 </script>
 
 <svelte:head>
     <title>{i18n.t('campaign:refs-metaTitle')}</title>
-    <meta property="og:title" content="{i18n.t('campaign:refs-metaTitle')}"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content=""/>
-    <meta property="og:image" content=""/>
+    <meta content="{i18n.t('campaign:refs-metaTitle')}" property="og:title"/>
+    <meta content="website" property="og:type"/>
+    <meta content="" property="og:url"/>
+    <meta content="" property="og:image"/>
 </svelte:head>
 
 <div class="bg-white">
@@ -26,19 +33,33 @@
                 <p class="text-gray-700 text-2xl mt-6">{i18n.t('campaign:refs')}</p>
             </div>
             <div class="text-gray-700 text-xl p-8">
-                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase1')} </span>{i18n.t('campaign:refs-phase1')}</p>
-                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase2')} </span>{i18n.t('campaign:refs-phase2')}</p>
-                <p class="pb-4"><span class="font-bold">{i18n.t('campaign:phase3')} </span>{i18n.t('campaign:refs-phase3')}</p>
+                <p class="pb-4"><span
+                        class="font-bold">{i18n.t('campaign:phase1')} </span>{i18n.t('campaign:refs-phase1')} ✔</p>
+                <p class="pb-4"><span
+                        class="font-bold">{i18n.t('campaign:phase2')} </span>{i18n.t('campaign:refs-phase2')} ✔</p>
+                <p class="pb-4"><span
+                        class="font-bold">{i18n.t('campaign:phase3')} </span>{i18n.t('campaign:refs-phase3')} ✔</p>
             </div>
         </div>
 
+        <div class="relative bg-teal-500 hover:bg-teal-700">
+            <a href="https://sensors2ref.maps.sensor.community/#13/51.5072/-0.1275" target="_blank">
+                <div class="max-w-6xl mx-auto py-3">
+                    <div class="pr-16 text-center sm:px-16">
+                        <div class="text-white hover:text-white"> {i18n.t('campaign:map')} <span aria-hidden="true">&rarr;</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
 
-        <div class="container mx-auto mb-48">
-            <div class="container mx-auto text-center">
-                <a href="mailto:Campaign03@Sensor.Community"
-                   class="bg-teal-500 text-center hover:bg-teal-700 hover:text-white mx-auto rounded-lg inline-block shadow px-8 py-6 text-white text-xl">
-                    <div>{i18n.t('campaign:getNotified')}</div>
-                </a></div>
+        <div class="relative z-20 md:block mx-auto md:bg-white md:shadow-lg z-10 mb-10">
+            <div class="flex" style="height: 40em;">
+                <iframe class="z-10" id="map-frame" onLoad="{delayMap()}" scrolling="no"
+                        src=""
+                        style="width: 97%; height: 95%; margin: auto; "
+                        title="sensor.community particulate matter map"></iframe>
+            </div>
         </div>
     </section>
 </div>
