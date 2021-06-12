@@ -118,7 +118,7 @@
     "phase3": "Phase 3:",
     "refs": "Sensor.Community campaign to bring sensors at every reference station in this world.\n",
     "refs-metaTitle": "Sensor.Community campaign to bring sensors at every reference station in this world.\n",
-    "refs-phase1": "Display locations of all reference stations.\n",
+    "refs-phase1": "Display locations of reference stations.\n",
     "refs-phase2": "Display meta information of reference stations.\n",
     "refs-phase3": "Display measurement values of reference stations.\n",
     "sensor2school": "Sensor.Community campaign to bring sensors at every school in this world.\n",
@@ -135,7 +135,8 @@
     "no2-phase1": "Launching on 01.10.2020 - 9 cities in Europe measure with 30 NO2 diffusion tubes each.\n",
     "no2-phase2": "New Map to display all NO2 diffusion tubes measurements.\n",
     "no2-phase3": "Adding all other NO2 diffusion tube campaigns worldwide to the Map.\n",
-    "getNotified": "\uD83D\uDC8C Subscribe"
+    "getNotified": "\uD83D\uDC8C Subscribe",
+    "map": "Open the map in a separate tab"
   },
   "collaborations": {
     "h1": "Collaborations",

@@ -1169,6 +1169,10 @@ h1 {
   max-width: 36rem;
 }
 
+.max-w-6xl {
+  max-width: 72rem;
+}
+
 .max-w-screen-xl {
   max-width: 1280px;
 }
@@ -1366,6 +1370,10 @@ h1 {
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
 }
 
 .pt-20 {
@@ -1993,6 +2001,11 @@ pre[class*="language-"].language-css > code, pre[class*="language-"].language-sa
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sm\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .sm\:gap-x-6 {
