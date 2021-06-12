@@ -23,7 +23,7 @@
 
     const langauges = [
         "en", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt", "ja", "zh", "da", "el", "et", "hu", "lt", "lv", "ro", "sl"
-    ]
+    ].sort()
 </script>
 
 <div class="md:relative z-50">
