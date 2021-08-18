@@ -17,7 +17,7 @@ title: Johdanto
 * BME280 6-PIN, lämpötila, kosteus ja ilmanpaine.
   - [via Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)
   - [Nettgion kautta](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280)
-  - [via Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+  - [via Berrybase](https://www.berrybase.de/sensoren-module/feuchtigkeit/gy-bme280-breakout-board-3in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-und-luftdruck?c=92)
 * [Kaapeli](http://www.aliexpress.comwholesale?groupsort=1&amp;SortType=price_asc&amp;SearchText=Dupont+kaapeli+20cm+naaras-naaras)
 * [USB-kaapeli esim.: litteä 2m Micro-USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040708&amp;SearchText=micro+usb+litteä+kaapeli+2m)
 * [Virtalähde USB](https://www.aliexpress.comwholesale?catId=0&amp;initiative_id=SB_20200308040834&amp;SearchText=single+micro+usb+eu+virtalähde)

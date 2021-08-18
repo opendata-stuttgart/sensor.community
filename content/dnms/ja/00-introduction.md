@@ -52,7 +52,7 @@ title: Introduction
   DNMS（デジタルノイズ測定センサー）は、airRohr PM-Sensorと組み合わせることができます。
 
 * [SPS30 ファインダストセンサー](https://www.sparkfun.com/products/15103)。その他の販売者 [TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1)、[SOS electronic](https://www.soselectronic.de/products/sensirion/sps30-2-304234) 。通常の [SDS011 PMセンサー](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011) も使用可能です。
-* [BME280 6-PIN Version, temperature & humidity](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). その他の販売者 [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+* [BME280 6-PIN Version, temperature & humidity](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V). その他の販売者 [Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/sensoren-module/feuchtigkeit/gy-bme280-breakout-board-3in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-und-luftdruck?c=92)
 * [ケーブル](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+ケーブル+20cm+メス-メス)
 * [USB ケーブル 例：フラット 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+フラット+ケーブル+2m)
 * [パワーサプライUSB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)

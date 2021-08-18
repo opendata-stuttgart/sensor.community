@@ -16,7 +16,7 @@ title: Bevezetés
 * BME280 6-PIN, hőmérséklet & páratartalom & légnyomás
   - [via Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)
   - [Nettgio-n keresztül](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280)
-  - [Berrybase-en keresztül](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+  - [Berrybase-en keresztül](https://www.berrybase.de/sensoren-module/feuchtigkeit/gy-bme280-breakout-board-3in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-und-luftdruck?c=92)
 * [Kábel](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+kábel+20cm+női-női)
 * [USB kábel pl.: lapos 2m Micro-USB kábel](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+lapos+kábel+2m)
 * [Tápegység USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+mikro+usb+eu+tápegység+tápegység](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+mikro+usb+eu+tápegység)

@@ -54,7 +54,7 @@ title: Introduction
   DNMS（数字式噪声测量传感器）可与airRohr PM传感器组合使用。
 
 * [SPS30微尘传感器](https://www.sparkfun.com/products/15103)。其他销售商。[TME](https://www.tme.eu/de/details/sps30/gassensoren/sensirion/1-101638-10/?brutto=1) ，[SOS电子](https://www.soselectronic.de/products/sensirion/sps30-2-304234)。一般的[SDS011 PM传感器](https://de.aliexpress.com/wholesale?catId=0&initiative_id=AS_20200813122806&SearchText=sds011)也可以使用。
-* [BME280 6-PIN版，温湿度](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)。其他销售商。[Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+* [BME280 6-PIN版，温湿度](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)。其他销售商。[Nettigo](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280), [Berrybase](https://www.berrybase.de/sensoren-module/feuchtigkeit/gy-bme280-breakout-board-3in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-und-luftdruck?c=92)
 * [电缆](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+电缆+20厘米+雌性-雌性)
 * [USB电缆，例如：扁平的2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flat+cable+2m)
 * [电源USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+power+supply)

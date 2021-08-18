@@ -16,7 +16,7 @@ title: Einleitung
 * BME280 6-PIN, Temperatur & Feuchtigkeit & Luftdruck
   - [über Aliexpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040440&SearchText=bme280+-5V+%2B3.3V)
   - [über Nettgio](https://nettigo.eu/products/module-pressure-humidity-and-temperature-sensor-bosch-bme280)
-  - [über Berrybase](https://www.berrybase.de/bauelemente/sensoren-module/feuchtigkeit/bme680-breakout-board-4in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-luftdruck-und-luftg-252-t)
+  - [über Berrybase](https://www.berrybase.de/sensoren-module/feuchtigkeit/gy-bme280-breakout-board-3in1-sensor-f-252-r-temperatur-luftfeuchtigkeit-und-luftdruck?c=92)
 * [Kabel](http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+Kabel+20cm+Buchse-Buchse)(http://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=Dupont+Kabel+20cm+Buchse-Buchse)
 * [USB-Kabel z.B.: flach 2m Micro-USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040708&SearchText=micro+usb+flach+Kabel+2m)
 * [Stromversorgung USB](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200308040834&SearchText=single+micro+usb+eu+Stromversorgung+Netzteil)
