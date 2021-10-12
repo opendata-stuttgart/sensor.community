@@ -9,19 +9,19 @@
     "donate": "Unterstützen"
   },
   "error": {
-    "errorStatus": "Encountered a {status} error.",
-    "reloadPage": "Please try reloading the page.",
-    "offline": "It looks like you're offline.",
-    "submitError": "If the error persists, please drop by <a href=\"forum.sensor.community\">Discourse forum</a> and let us know, or raise an issue on <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Thanks!"
+    "errorStatus": "Es gab einen {status} Fehler.",
+    "reloadPage": "Bitte versuche, die Seite zu aktualisieren.",
+    "offline": "Sieht so aus, als wärst Du offline.",
+    "submitError": "Falls dieser Fehler bestehen bleibt, schau im <a href=\"forum.sensor.community\">forum</a> vorbei uns mache uns drauf aufmerksam, oder lege ein issue auf <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a> an. Danke!"
   },
   "index": {
-    "metaDescription": "Bauen deinen eigenen DIY-Sensor und werden ein Teil des weltweiten civic tech, open data, open source Netzwerks. Unterstützt von vielen Mitwirkenden \uD83D\uDC95",
-    "metaTitle": "Sensor.Community \uD83C\uDF10 Baue deinen eigenen Sensor und treten dem open source Netzwerk bei.",
-    "h1-build": "Bauen deinen eigenen Sensor",
-    "h1-become": "und werden ein Teil des ",
+    "metaDescription": "Baue Deinen eigenen DIY-Sensor und werde ein Teil des weltweiten civic tech, open data, open source Netzwerks. Unterstützt von vielen Mitwirkenden \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Baue Deinen eigenen Sensor und trete dem open source Netzwerk bei.",
+    "h1-build": "Baue Deinen eigenen Sensor",
+    "h1-become": "und werde ein Teil des ",
     "h1-civic-tech": "weltweiten Civic-Tech-Netzwerk \uD83C\uDF10",
     "h1-support": "Unterstützt von einer Menge",
-    "h1-contributors": "Mitwirkende \uD83D\uDC95",
+    "h1-contributors": "Mitwirkender \uD83D\uDC95",
     "inNumbers-title": "Sensor.Community in Zahlen",
     "inNumbers-activeSensors": "Aktive Sensoren weltweit",
     "inNumbers-countries": "Länder",
@@ -30,21 +30,21 @@
     "inNumbers-communityHubs": "Community Labs",
     "inNumbers-fetching": "... Daten werden abrufen",
     "inNumbers-error": "Ein Fehler ist aufgetreten!",
-    "message-description": "Sensor.community ist ein von Mitwirkenden betriebenes globales Sensornetzwerk, das open data Umweltdaten generiert.",
+    "message-description": "Sensor.community ist ein von vielen Mitwirkenden betriebenes, globales Sensornetzwerk, das open data Umweltdaten generiert.",
     "message-mission": "Unsere Mission ist es, das Leben der Menschen zu inspirieren und zu bereichern, indem wir eine Plattform bieten.",
     "message-hubs": "Sensor.community hat globale Hubs in Stuttgart, Sofia und Warschau."
   },
   "sensor": {
     "metaDescription": "",
-    "metaTitle": "Find your sensor and building instructions for your DYI fine dust sensor",
+    "metaTitle": "Finde Bauanleitungen für Deinen eigenen DYI Feinstaubsensor",
     "h1": "Sensor Kits",
-    "subtitle": "wählen eine Anleitung und bauen deinen Sensor."
+    "subtitle": "wähle eine Anleitung und baue Deinen Sensor."
   },
   "guide": {
-    "editOnGithub": "edit on Github"
+    "editOnGithub": "auf Github bearbeiten"
   },
   "airrohr": {
-    "metaTitle": "Baue deinen eigenen Feinstaubsensor.",
+    "metaTitle": "Baue Deinen eigenen Feinstaubsensor.",
     "metaDescription": ""
   },
   "forum": {
@@ -52,13 +52,13 @@
     "metaTitle": "Forum",
     "h1": "Forum",
     "subtitle": "Demnächst.",
-    "getNotified": "\uD83D\uDC8C Abbonieren"
+    "getNotified": "\uD83D\uDC8C Abonnieren"
   },
   "donate": {
-    "metaDescription": "Wir sind gemeinnützig, nicht korporativ und nicht kompromittiert. Menschen wie Sie helfen uns. Wir sind auf Spenden angewiesen, um unsere Mission zu erfüllen.",
-    "metaTitle": "Spenden Sie - helfen Sie uns, indem Sie Ihre Liebe zeigen",
-    "h1": "Zeigen deine Unterstützung",
-    "description": "Wir sind gemeinnützig, nicht korporativ und nicht kompromittiert. Menschen wie Sie helfen uns. Wir sind auf Spenden angewiesen, um unsere Mission zu erfüllen.",
+    "metaDescription": "Wir sind gemeinnützig, nicht korporativ und nicht kompromittiert. Menschen wie Du helfen uns. Wir sind auf Spenden angewiesen, um unsere Mission zu erfüllen.",
+    "metaTitle": "Spenden Sie - hilf uns, indem Du Deine Liebe zeigst",
+    "h1": "Zeige Deine Unterstützung",
+    "description": "Wir sind gemeinnützig, nicht korporativ und nicht kompromittiert. Menschen wie Du helfen uns. Wir sind auf Spenden angewiesen, um unsere Mission zu erfüllen.",
     "section": "Wege zur Förderung von Sensor.Community",
     "campaign": "Laufende Kampagne",
     "donate": "direkte Spende",
@@ -79,26 +79,26 @@
     "metaDescription": "Die Menschen hinter dem Projekt",
     "metaTitle": "Mitwirkende von  Sensor.Community",
     "h1": "Hallo vom Team \uD83D\uDC4B",
-    "description": "Meet the team who is working behind the scenes to harness the power of Sensor.Community.",
-    "contactBottom": "\uD83D\uDCEE Bitte nutzen die Kontaktmöglichkeiten am Ende der Seite.",
-    "meetTeam": "Lernen das Team kennen"
+    "description": "Lerne das Team kennen, welches hinter den Kulissen arbeitet, um das volle Potential von Sensor.Community zu entfalten.",
+    "contactBottom": "\uD83D\uDCEE Bitte nutze die Kontaktmöglichkeiten am Ende der Seite.",
+    "meetTeam": "Lerne das Team kennen"
   },
   "projects": {
-    "metaDescription": "Finden Sie mobile Apps, Websites,... aus unserer wunderbaren Gemeinschaft\uD83D\uDC96",
+    "metaDescription": "Finde mobile Apps, Websites,... aus unserer wunderbaren Gemeinschaft\uD83D\uDC96",
     "metaTitle": "Community Projects",
     "h1": "Community Projects",
-    "description": "Finden Sie mobile Apps, Websites,... aus unserer wunderbaren Gemeinschaft \uD83D\uDC96️",
-    "submitIdea": "Hast du ein großartiges Projekt? Teilen mit der Gemeinschaft!",
+    "description": "Finde mobile Apps, Websites,... aus unserer wunderbaren Gemeinschaft \uD83D\uDC96️",
+    "submitIdea": "Hast Du ein großartiges Projekt? Teile es mit der Gemeinschaft!",
     "submitProject": "Reiche ein Projekt ein →"
   },
   "hubs": {
-    "metaDescription": "Finden eine Community auf der ganzen Welt \uD83D\uDC96️",
+    "metaDescription": "Finde eine Community auf der ganzen Welt \uD83D\uDC96️",
     "metaTitle": "Community Hubs",
     "h1": "Community Hubs",
-    "description": "Finden eine Community auf der ganzen Welt \uD83D\uDC96️️"
+    "description": "Finde eine Community auf der ganzen Welt \uD83D\uDC96️️"
   },
   "campaigns": {
-    "title": "Nehme an einer Kampagne teil"
+    "title": "Nimm an einer Kampagne teil"
   },
   "campaign": {
     "h1": "Kampagne",
@@ -107,32 +107,32 @@
     "refs-metaTitle": "Sensor.Community-Kampagne, um Sensoren an jede Referenzstation dieser Welt zu bringen",
     "refs-phase1": "Anzeige der Standorte Referenzstationen auf Maps.Sensor.Community.\n",
     "refs-phase2": "Messwerte & Informationen aller Referenzstationen anzeigen.\n",
-    "refs-phase3": "Mehr Informationen im Jahr 2021 .\n",
+    "refs-phase3": "Mehr Informationen im Jahr 2021.\n",
     "sensor2school": "Sensor.Community-Kampagne, um Sensoren an jede Schule dieser Welt zu bringen. \n",
     "sensor2school-metaTitle": "Sensor.Community-Kampagne, um Sensoren an jede Schule dieser Welt zu bringen",
-    "sensor2school-phase1": "Registrieren Sie sich und werden Sie ein offener Beitragender für Umweltdaten.\n",
-    "sensor2school-phase2": "Mit der globalen Sensor.Gemeinschaft.\n verbinden",
-    "sensor2school-phase3": "Werden Sie ein datengesteuerter Bürger und unterstützen Sie Ihre örtliche Gemeinschaft.\n",
+    "sensor2school-phase1": "Registriere Dich und werde ein Beitragender für offene Umweltdaten.\n",
+    "sensor2school-phase2": "Vernetze Dich mit der globalen sensor.community.\n",
+    "sensor2school-phase3": "Werde ein daten-orientierter Bürger und unterstütze Deine lokale Community.\n",
     "sensor2library": "Sensor.Community-Kampagne, um Sensoren in jede Bibliothek dieser Welt zu bringen. \n",
     "sensor2library-metaTitle": "Sensor.Community-Kampagne, um Sensoren in jede Bibliothek dieser Welt zu bringen. \n",
-    "zero200": "Die #zero200-Kampagne unterstützt Sie bei der Gründung Ihrer lokalen Sensor.Community group.\n",
-    "zero200-metaTitle": "Die #zero200-Kampagne unterstützt Sie bei der Gründung Ihrer lokalen Sensor.Community group.\n",
+    "zero200": "Die #zero200-Kampagne unterstützt Sie bei der Gründung Ihrer lokalen Sensor.Community Gruppe.\n",
+    "zero200-metaTitle": "Die #zero200-Kampagne unterstützt Sie bei der Gründung Ihrer lokalen Sensor.Community Gruppe.\n",
     "no2": "Wir messen NO2 mit Diffusionsrohren.\n",
     "no2-metaTitle": "Wir messen NO2 mit Diffusionsrohren.\n",
     "no2-phase1": "Start am 01.10.2020 - 9 Städte in Europa messen mit je 30 NO2-Diffusionsrohren.\n",
     "no2-phase2": "Neue Karte zur Anzeige aller Messungen von NO2-Diffusionsrohren.\n",
     "no2-phase3": "Hinzufügen aller anderen NO2-Diffusionsrohrkampagnen weltweit zur Karte.\n",
-    "getNotified": "\uD83D\uDC8C Abbonieren"
+    "getNotified": "\uD83D\uDC8C Abonnieren"
   },
   "collaborations": {
     "h1": "Kollaborationen",
     "subtitle": "Demnächst.",
-    "getNotified": "\uD83D\uDC8C Abbonieren"
+    "getNotified": "\uD83D\uDC8C Abonnieren"
   },
   "location": {
     "h1": "Standort",
     "subtitle": "Demnächst.",
-    "getNotified": "\uD83D\uDC8C Abbonieren"
+    "getNotified": "\uD83D\uDC8C Abonnieren"
   },
   "partnership": {
     "title": "Kollaborationen"
@@ -142,7 +142,7 @@
     "general": "Kontakt",
     "general-subtitle": "Allgemeine Frage?",
     "partnership": "Zusammenarbeit",
-    "partnership-subtitle": "Sie möchten mit uns zusammenarbeiten?",
+    "partnership-subtitle": "Möchtest Du mit uns zusammenarbeiten?",
     "press": "Presse",
     "press-subtitle": "Ideen für Artikel?",
     "tech": "Technik",
