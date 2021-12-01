@@ -34,7 +34,7 @@ Choose the link that corresponds to the operating system of your computer.
 #####  Extract the downloaded file for MacOS
 * for V2: Unzip the folder CP210x and double click on the application CP210xVCPInstaller_x64 (or x86)
 * for V3: Unzip the folder CH341SER and double click on the application SETUP.
-* Restart your Mac
+* in case "No boards found": restart your Mac
 
 ---
 
