@@ -13,7 +13,7 @@ title: Einleitung
         <div class="flex flex-wrap">
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
-                Noise befindet sich in der Beta-Phase. Senden deine Fragen an</p>
+                Sende deine Fragen an</p>
           <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
                   Noise@Sensor.Community</a>
           </div>
@@ -24,27 +24,30 @@ title: Einleitung
 
 <br>
 
-> 🚧 Bauen deinen DIY-Sensor und werden ein Teil des weltweiten, opendata & civictech Netzwerks. <br> Mit dem DNMS (Digital Noise Measuring Sensor) kannst du die Lärmbelastung selbst messen.
+> 🚧 Baue deinen eigenen DIY-Sensor und werden ein Teil des weltweiten, opendata & civictech Netzwerks. <br> Mit dem DNMS (Digital Noise Measuring Sensor) kannst du die Lärmbelastung (als Schallpegel LAeq, LAmin, Lamax) selbst messen.
 
  <img src="../docs/dnms/dnms-noise-measuring-sensor-kit.jpg" style="display: block; margin: 1em 0" loading="lazy"/>
 
  <br>
 
 Es gibt zwei verschiedene Setups:  
+Die Schallmessung ist mit dem WiFi-Komunnikation getrennt oder zusammen auf einer Platine montiert. 
+* Die NodeMCU mit Sensoren (PM, Temperatur etc.) und das DNMS sind getrennt. Die Platinen heißen DNMS-T4.0-V1.x und AIRROHR-V1.x
+* Eine kombinierte Version auf der gleichen Platine: DNMS-T4.0+NodeMCU-V1.x
 
-* Die NodeMCU mit Sensoren (PM, Temperatur etc.) und das DNMS sind getrennt. Die Platinen heißen AIRROHR V1.4 und DNMS - T4 V1.4
-* Eine kombinierte Version auf der gleichen Platine: DNMS - T4 + NodeMCU V1.4
-
-Hier wird nur die erste Variante beschrieben. Die anderen Variante des Lärmsensors gibt es auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).   
-In der Variante kann die Verbindung zwischen dem NodeMCU und dem DNMS bis zu 10m lang sein. Dies ist wichtig, weil man die richtige Position für den DNMS finden muss, um genaue Rauschmessungen zu erhalten.
+Hier wird nur die erste, getrennte, Variante beschrieben. Die anderen Variante des Lärmsensors gibt es auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).   
+In der geteilten Variante kann die Verbindung zwischen dem NodeMCU und dem DNMS bis zu 10m lang sein. Dies ist voteilhaft, weil man dadurch eine schalltechnisch bessere Position für das DNMS erreichen kann, um genaue Schallmessungen zu bekommen.
 
 ### Einkaufsliste
 
 ##### Einzelne Komponenten
 * [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
 * [Teensy 4.0 Entwicklungsboard](https://www.pjrc.com/store/teensy40.html). Andere Anbieter: [EXPTECH](https://www.exp-tech.de/plattformen/teensy/9596/teensy-4.0-development-board), [Antratek](https://www.antratek.de/teensy-4-0), [PIMORONI](https://shop.pimoroni.com/products/teensy-4-0-development-board)
-* [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/)
+* [Digitales Mikrofon ICS-43434](https://www.tindie.com/products/onehorse/ics43434-i2s-digital-microphone/) ggf. bei [Franz Hoefle](mailto:franz.hoefle@buergerforum-gladbeck.de) verfügbar
+* DNMS und Airrohr Platinen ggf. bei [Franz Hoefle](mailto:franz.hoefle@buergerforum-gladbeck.de) verfügbar
+
 * ultraflexible Silikonkabel mit einem Durchmesser von 0,15mm² (AWG 26) in 6 verschiedenen Farben
+  (alternativ Mikro mit 20cm Steckverbinder SH1.0)
   <br>
 
 
