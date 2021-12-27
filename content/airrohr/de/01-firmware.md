@@ -53,7 +53,6 @@ Warte, bis der Vorgang abgeschlossen ist. Jetzt können wir den Sensor zusammenb
 
 #### Linux: Berechtigungen als ausführbare Datei setzen
 Nach dem Download muss die Datei eventuell noch ausführbar gemacht werden. Dies lässt sich mit dem Befehl: `chmod o+x <download filename>` 
-
 <br>
 Ein grosser Dank geht an [Piotr aus Polen](https://dropbox.inf.re) für seine Hilfe! 🙋‍♂️
 
