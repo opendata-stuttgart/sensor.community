@@ -5,6 +5,7 @@
   import Partnership from "../../components/Partnership.svelte";
   import Contact from "../../components/Contact.svelte";
   import { onMount } from "svelte";
+  import fetch from 'cross-fetch';
 
   const {page} = stores();
   $: lang = $page.params.lang;
