@@ -1,29 +1,29 @@
 {
   "nav": {
-    "home": "Home",
+    "home": "Kezdőlap",
     "docs": "Útmutatók",
     "blog": "Blog",
     "projects": "Projektek",
     "forum": "Fórum",
     "sensor": "Útmutatók",
-    "donate": "Adományozni",
-    "langHelpWanted": "Segítséget keresünk",
+    "donate": "Adományozz",
+    "langHelpWanted": "Segíts a fordításban",
     "langCallTo": "Hiányzik a nyelv?",
-    "langDescription": "Adja meg fordítását a GitHubon keresztül"
+    "langDescription": "Fordítsd le a GitHubon"
   },
   "error": {
     "errorStatus": "{status} hiba lépett fel.",
-    "reloadPage": "Kérjük, próbálja meg újratölteni az oldalt.",
+    "reloadPage": "Kérlek, próbáld meg újratölteni az oldalt.",
     "offline": "Úgy tűnik, hogy offline vagy.",
-    "submitError": "Ha a hiba továbbra is fennáll, kérjük, látogasson el a &lt;a href=\"forum.sensor.community\"&gt;fórumunkra&lt;a&gt;, és értesítsen minket, vagy jelezzen problémát a &lt;a href=\"https:/github.comopendata-stuttgart\"&gt;GitHub&lt;a&gt; oldalon. Köszönjük!"
+    "submitError": "Ha a hiba továbbra is fennáll, kérlek, látogass el a &lt;a href=\"forum.sensor.community\"&gt;fórumunkra&lt;a&gt;, és értesíts minket, vagy jelezd a problémát a &lt;a href=\"https:/github.comopendata-stuttgart\"&gt;GitHub&lt;a&gt; oldalon. Köszönjük!"
   },
   "index": {
-    "metaDescription": "Építsd meg a saját barkácsszenzorodat, és légy részese a világméretű polgári tudomány, nyílt adatok, polgári technológia hálózatának. Sok közreműködő által támogatva 💕",
+    "metaDescription": "Építsd meg a saját barkácsszenzorodat, és légy részese a világméretű polgári tudomány, nyílt adatok, polgári technológia hálózatának. Sok közreműködő támogatja 💕",
     "metaTitle": "Sensor.Community 🌐 Építsd meg saját érzékelődet, és csatlakozz a világméretű polgári technológiai hálózathoz!",
-    "h1-build": "Építse meg saját érzékelőjét",
-    "h1-become": "és váljon részévé a",
-    "h1-civic-tech": "világméretű Civic Tech hálózat 🌐",
-    "h1-support": "Támogatja a sok",
+    "h1-build": "Építd meg saját érzékelődet",
+    "h1-become": "és válj részévé a",
+    "h1-civic-tech": "világméretű Civic Tech hálózatnak 🌐",
+    "h1-support": "Támogass",
     "h1-contributors": "hozzájárulók 💕",
     "inNumbers-title": "Sensor.Community számokban",
     "inNumbers-activeSensors": "Aktív érzékelők világszerte",
@@ -31,31 +31,31 @@
     "inNumbers-dataPoints": "Adatpontok",
     "inNumbers-communityProjects": "Közösségi projektek",
     "inNumbers-communityHubs": "Közösségi laboratóriumok",
-    "inNumbers-commits": "GitHub Commits",
+    "inNumbers-commits": "GitHub módosítások",
     "inNumbers-fetching": "... adatok lekérése",
     "inNumbers-error": "Hiba történt!",
-    "message-description": "A Sensor.Community egy közreműködők által irányított globális érzékelőhálózat, amely nyílt környezeti adatokat hoz létre.",
-    "message-mission": "Küldetésünk, hogy inspiráljuk és gazdagítsuk az emberek életét azáltal, hogy platformot kínálunk a természet iránti kollektív kíváncsiságnak, amely őszinte, örömteli és pozitív.",
-    "message-hubs": "A Sensor.Community globális központjai Stuttgartban, Sofiában és Varsóban találhatók."
+    "message-description": "A Sensor.Community egy közreműködők által irányított globális érzékelőhálózat, ami szabad hozzáférésű környezeti adatokat tesz közzé.",
+    "message-mission": "Küldetésünk, hogy inspiráljuk és gazdagítsuk az emberek életét azáltal, hogy őszinte, örömteli és pozitív platformot kínálunk a természet iránti kollektív kíváncsiságnak.",
+    "message-hubs": "A Sensor.Community globális központjai Stuttgartban, Szófiában és Varsóban találhatók."
   },
   "sensor": {
-    "metaDescription": "A Sensor.Community globális központjai Stuttgartban, Sofiában és Varsóban találhatók.",
-    "metaTitle": "Keresse meg az érzékelőt és a DYI finompor-érzékelő építési utasításait",
+    "metaDescription": "A Sensor.Community globális központjai Stuttgartban, Szófiában és Varsóban találhatók.",
+    "metaTitle": "Keresd meg az érzékelőt és a DYI szállópor-érzékelő építési utasításait",
     "h1": "Érzékelő készletek",
-    "subtitle": "Válasszon egy összeszerelési útmutatót, és építse meg az érzékelőt.",
-    "airSensorTitle": "Air",
+    "subtitle": "Válassz egy összeszerelési útmutatót, és építse meg az érzékelőt.",
+    "airSensorTitle": "Levegő",
     "noiseSensorTitle": "Zaj"
   },
   "guide": {
     "editOnGithub": "szerkesztés a Githubon"
   },
   "airrohr": {
-    "metaTitle": "Építse meg saját részecskeérzékelőjét.",
-    "metaDescription": "Építse meg saját részecskeérzékelőjét."
+    "metaTitle": "Építsd meg saját szállópor-érzékelődet.",
+    "metaDescription": "Építd meg saját szállópor-érzékelődet."
   },
   "dnms": {
-    "metaTitle": "Építse meg saját zajmérő érzékelőjét.",
-    "metaDescription": "Építse meg saját zajmérő érzékelőjét."
+    "metaTitle": "Építsd meg saját zajmérő érzékelőde.",
+    "metaDescription": "Építse meg saját zajmérő érzékelődet."
   },
   "forum": {
     "metaDescription": "",
@@ -89,26 +89,26 @@
     "metaDescription": "A projekt mögött álló emberek",
     "metaTitle": "A Sensor.Community közreműködői",
     "h1": "Hello a csapattól 👋",
-    "description": "Ismerje meg a csapatot, amely a színfalak mögött dolgozik a Sensor.Community erejének kihasználásán.",
-    "contactBottom": "📮Kérjük, használja az oldal alján található kapcsolattartási lehetőségeket.",
-    "meetTeam": "Ismerje meg a csapatot"
+    "description": "Ismerd meg a csapatot, amely a színfalak mögött dolgozik a Sensor.Community erejének kihasználásán.",
+    "contactBottom": "📮Kérlek, használd az oldal alján található kapcsolattartási lehetőségeket.",
+    "meetTeam": "Ismerd meg a csapatot"
   },
   "projects": {
-    "metaDescription": "Találj mobil alkalmazásokat, weboldalakat,... a kedves közösségünkből 💖",
+    "metaDescription": "Találj mobil alkalmazásokat, weboldalakat,... a csodálatos közösségünkből 💖",
     "metaTitle": "Közösségi projektek",
     "h1": "Közösségi projektek",
-    "description": "Találj mobil alkalmazásokat, weboldalakat,... a kedves közösségünkből 💖️",
+    "description": "Találj mobil alkalmazásokat, weboldalakat,... a csodálatos közösségünkből 💖️",
     "submitIdea": "Van egy nagyszerű projekted? Oszd meg a közösséggel!",
-    "submitProject": "Küldje el projektjét →"
+    "submitProject": "Küldd el projekted →"
   },
   "hubs": {
     "metaDescription": "Találj közösségeket a világ minden tájáról 💖️",
     "metaTitle": "Közösségi központok",
     "h1": "Közösségi központok",
-    "description": "Keresse meg a közösségeket a világ minden táján 💖️️"
+    "description": "Keresd meg a közösségeket a világ minden táján 💖️️"
   },
   "campaigns": {
-    "title": "Csatlakozzon egy kampányhoz"
+    "title": "Csatlakozz egy kampányhoz"
   },
   "campaign": {
     "h1": "Kampány",
@@ -123,9 +123,9 @@
     "refs-phase3": "A referenciaállomások mérési értékeinek megjelenítése.",
     "sensor2school": "Sensor.Community kampány, hogy a világ minden iskolájában legyenek érzékelők.",
     "sensor2school-metaTitle": "Sensor.Community kampány, hogy a világ minden iskolájában legyenek érzékelők.",
-    "sensor2school-phase1": "Regisztráljon és váljon nyílt környezeti adatszolgáltatóvá.",
-    "sensor2school-phase2": "Csatlakozzon a globális Sensor.Communityhöz.",
-    "sensor2school-phase3": "Legyen adatvezérelt polgár és támogassa helyi közösségét.",
+    "sensor2school-phase1": "Regisztrálj és válj nyílt környezeti adatszolgáltatóvá.",
+    "sensor2school-phase2": "Csatlakozz a globális Sensor.Community-hez.",
+    "sensor2school-phase3": "Légy adatvezérelt polgár és támogasd helyi közösségedet.",
     "sensor2library": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.",
     "sensor2library-metaTitle": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.",
     "zero200": "Sensor.Community kampány, hogy a világ minden könyvtárában legyenek érzékelők.",
@@ -155,7 +155,7 @@
     "general": "Kapcsolat",
     "general-subtitle": "általános kérdések?",
     "partnership": "Partnerség",
-    "partnership-subtitle": "szeretne velünk együttműködni?",
+    "partnership-subtitle": "szeretnél velünk együttműködni?",
     "press": "Sajtó",
     "press-subtitle": "cikkötletek?",
     "tech": "Tech",
@@ -167,13 +167,13 @@
     "license": "Licenc",
     "socialLinks": "Csatlakozás",
     "blog": "Blog",
-    "donate": "Adományozni",
+    "donate": "Adományozzz",
     "privacy": "Adatvédelem és feltételek",
     "communityProjects": "Közösségi projektek",
     "communityHubs": "Közösségi központok",
     "contributors": "Hozzájárulók",
     "mission": "Jobbá tesszük a világot a közösség által vezérelt, nyílt környezeti adatokkal.",
-    "withLove": "Készült 💕 Stuttgartban, Németországban"
+    "withLove": "Szívvel-lélekkel készült 💕 Stuttgartban, Németországban"
   },
   "imprint": {
     "h1": "Impresszum és adatvédelem",
