@@ -54,6 +54,8 @@ Wait until the process is done. Now we can assemble the sensor.
 #### Linux: Set permissions as executable
 After the download you may have to set the permission to executable. This can be done with the command: `chmod o+x <download filename>` 
 <br>
+If you see the error message *"unable to connect to port /ttyUSB0"*, you need to add yourself to the *dialout* group: `sudo usermod -a -G dialout $USER` then logout and login again. 
+<br>
 A big thanks goes to [Piotr, from Poland](https://dropbox.inf.re/), for his help! 🙋‍♂️ 
 
 #### MacOS: how to run a unverified app
