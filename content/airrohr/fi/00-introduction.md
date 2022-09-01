@@ -9,7 +9,7 @@ title: Johdanto
 
 ### Ostoslista
 ##### Anturisarja
-* [esilämmitetty anturipaketti](https://nettigo.euproductsluftdaten-org-pl-kit-sds011-bme280)
+* [esilämmitetty anturipaketti](https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition)
 
 ##### Yksittäiset komponentit
 * [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)
