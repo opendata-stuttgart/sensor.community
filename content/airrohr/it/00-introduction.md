@@ -44,7 +44,7 @@ Per il funzionamento quotidiano sono necessari:
 Il kit completo è venduto in Europa solo da un e-commerce polacco:
 
 * [Kit pre configurato in
-  inglese](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
+  inglese](https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition)
 
 #### Componenti singoli
 
