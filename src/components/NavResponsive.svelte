@@ -124,7 +124,7 @@
                             {i18n.t('nav:sensor')}
                         </div>
                     </a>
-                    <a href="{lang}/forum/" on:click={menuToggle}
+                    <a href="https://forum.sensor.community/" on:click={menuToggle}
                        class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-300 transition ease-in-out duration-150 hover:text-teal-500">
                         <svg class="flex-shrink-0 h-6 w-6 text-teal-600" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 24 24" stroke="currentColor">
