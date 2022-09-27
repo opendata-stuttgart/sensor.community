@@ -23,7 +23,7 @@
     "gray-matter": "^4.0.3",
     "highlight.js": "^11.4.0",
     "i18next": "^21.6.12",
-    "marked": "^3.0.8",
+    "marked": "^4.0.10",
     "polka": "1.0.0-next.22",
     "postcss": "^8.4.7",
     "postcss-cli": "^8.3.1",
