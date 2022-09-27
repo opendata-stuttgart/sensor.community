@@ -8,7 +8,7 @@ title: Introduction
 
 ### Shopping list
 ##### センサーキット
-* [プリフラッシングセンサーキット](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
+* [プリフラッシングセンサーキット](https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition)
 
 ##### シングルコンポーネント
 * [NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)

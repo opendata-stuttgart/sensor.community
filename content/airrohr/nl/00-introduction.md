@@ -8,7 +8,7 @@ title: Inleiding
 
 ### Boodschappenlijst
 ##### Complete sets (rond de € 50)
-* [Voorgeprogrammeerde sensorkit](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
+* [Voorgeprogrammeerde sensorkit](https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition)
 * [Sensorkit met DHT22 en mini display, behuizing zelf nog toevoegen](https://www.tinytronics.nl/shop/nl/luchtwachters-delft-maak-zelf-een-fijnstofmeter-workshop-kit)
 
 ##### Losse onderdelen

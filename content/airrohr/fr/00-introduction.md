@@ -8,7 +8,7 @@ title: Introduction
 
 ### Liste des composants
 ##### Détecteur en kit
-* [Kit avec micrologiciel préinstallé](https://nettigo.eu/products/luftdaten-org-pl-kit-sds011-bme280)
+* [Kit avec micrologiciel préinstallé](https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition)
 
 ##### Composants individuels
 * [Platine NodeMCU ESP8266 CPU/WLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)

@@ -8,7 +8,7 @@ title: Introducere
 
 ### Lista de cumpărături
 ##### Kit senzor
-* [Kit de senzori pre-flashed](https://nettigo.euproductsluftdaten-org-pl-kit-sds011-bme280)
+* [Kit de senzori pre-flashed](https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition)
 
 ##### Componente unice
 * [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)

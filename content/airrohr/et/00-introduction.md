@@ -9,7 +9,7 @@ title: Sissejuhatus
 
 ### Ostunimekiri
 ##### Anduri komplekt
-* [Eelvälgustatud andurikomplekt](https://nettigo.euproductsluftdaten-org-pl-kit-sds011-bme280)
+* [Eelvälgustatud andurikomplekt](https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition)
 
 ##### Üksikud komponendid
 * [NodeMCU ESP8266 CPUWLAN](https://www.aliexpress.com/wholesale?groupsort=1&SortType=price_asc&SearchText=nodemcu+v3+esp8266+ch340)

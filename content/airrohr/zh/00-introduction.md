@@ -8,7 +8,7 @@ title: Introduction
 
 ### Shopping list
 ##### Sensor kit
-* [预闪式传感器套件](https://nettigo.euproductsluftdaten-org-pl-kit-sds011-bme280)
+* [预闪式传感器套件](https://nettigo.eu/products/sensor-community-kit-sds011-bme280-english-language-harness-cable-edition)
 
 
 ##### 单个组件
