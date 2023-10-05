@@ -30,7 +30,7 @@
     "i18next": "^21.6.12",
     "marked": "^3.0.8",
     "polka": "1.0.0-next.22",
-    "postcss": "^8.4.7",
+    "postcss": "^8.4.31",
     "postcss-cli": "^8.3.1",
     "prismjs": "^1.27.0",
     "rollup": "^2.74.1",
