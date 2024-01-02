@@ -13,7 +13,7 @@ title: Konfigurēt
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Trokšņi ir beta versijā. Sūtiet jautājumus uz</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -49,9 +49,9 @@ title: Konfigurēt
 ### Pārbaudiet staciju
 Ja nav veiktas nekādas izmaiņas, izņemot WiFi tīkla datu ievadīšanu, pēc aptuveni 10 minūtēm sensoru var "testēt" nākamajās lapās. Šajās lapās ir jāmeklē ChipID (iepriekš minētajā piemērā 13597771).
 
- * [Sensordaten](www.madavi.de/sensor/graph.php) 
- * [WLAN-Signal](www.madavi.de/sensor/signal.php) 
-        
+ * [Sensordaten](www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
- 
+
+

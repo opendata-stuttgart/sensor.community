@@ -1,7 +1,7 @@
 ---
 title: Introducción
 ---
- 
+
   <div class="max-w-screen-xl mx-auto pb-5">
     <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
     <div class="flex items-center">
@@ -13,7 +13,7 @@ title: Introducción
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
               Noise is in beta. Send questions to</p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                 Noise@Sensor.Community</a>
         </div>
     </div>
@@ -31,18 +31,18 @@ Echa un vistazo a las instrucciones originales y a las versiones anteriores del 
 <br>
 
 Ese depósito contiene diferentes configuraciones para construir el sensor con diferentes tipos de placas y PCBs.
- 
+
  <br>
- 
+
  Hay dos tipos diferentes de configuraciones:
-  
+
  * una configuración en la que el NodeMCU con algunos sensores (PM, temperatura, etc.) y el DNMS están separados. Los PCBs se llaman AIRROHR V1.4 y DNMS - T4 V1.4
  * Una versión combinada del NodeMCU y el DNMS en el mismo PCB: DNMS - T4+NodeMCU V1.4
-   
+
   Sólo se describe aquí la variante en la que el NODEMCU y el DNMS están separados. Echa un vistazo al Github de Helmut para ver las otras variantes!
-  
+
    En este caso, la conexión entre el NodeMCU y el DNMS puede ser tan larga como 10m. Esto es importante porque es necesario encontrar la posición correcta de la DNMS para obtener mediciones de ruido precisas.
- 
+
 
 ### Lista de compras
 
@@ -65,5 +65,5 @@ Los PCB y la protección climática se describirán a continuación.
 
 <br>
 
-🙌 ¡Genial, has decidido comprar las piezas en línea! 
-Desafortunadamente la entrega puede tardar desde días hasta tres semanas. 
+🙌 ¡Genial, has decidido comprar las piezas en línea!
+Desafortunadamente la entrega puede tardar desde días hasta tres semanas.

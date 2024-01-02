@@ -140,7 +140,7 @@
     <h1 class="font-bold text-gray-700 text-5xl leading-tight">
       <a class="bg-teal-500 text-white px-2 hover:text-teal-800"
          href="{lang}/sensors/">{i18n.t('index:h1-build')}</a> {i18n.t('index:h1-become')}<br>
-      <a class="bg-yellow-500 text-white px-2 hover:text-yellow-700"
+      <a class="bg-amber-500 text-white px-2 hover:text-amber-700"
          href="{lang}/hubs/">{i18n.t('index:h1-civic-tech')}</a>
     </h1>
     <h2 class="font-bold text-gray-700 text-5xl leading-tight mb-6">{i18n.t('index:h1-support')} <a

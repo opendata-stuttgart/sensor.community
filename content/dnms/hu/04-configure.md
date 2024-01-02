@@ -14,7 +14,7 @@ title: A  konfigurálása
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 A zaj béta verzióban van. Kérdéseket a</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -49,11 +49,11 @@ title: A  konfigurálása
 Ha a WiFi hálózat adatainak megadásán kívül nem történt más változtatás, akkor az érzékelőt a következő oldalakon kb. 10 perc elteltével "tesztelheti". Ezeken az oldalakon meg kell keresni a ChipID-t (a fenti példában a 13597771-et).
 
 * [Sensordaten](www.madavi.de/sensor/graph.php)
-* [WLAN-jel](www.madavi.de/sensor/signal.php) 
-        
+* [WLAN-jel](www.madavi.de/sensor/signal.php)
 
 
- 
+
+
 
 
 

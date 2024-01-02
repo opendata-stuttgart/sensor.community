@@ -1,7 +1,7 @@
 ---
 title: Introduktion
 ---
- 
+
   <div class="max-w-screen-xl mx-auto pb-5">
     <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
     <div class="flex items-center">
@@ -13,7 +13,7 @@ title: Introduktion
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
               Buller är i beta. Skicka frågor till</p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                 Noise@Sensor.Community</a>
         </div>
     </div>
@@ -32,14 +32,14 @@ Kolla in originalinstruktionerna och tidigare versioner av brusgivaren på [Helm
 Förvaret innehåller olika inställningar för att bygga sensorn med olika typer av kort och kretskort.
 
  <br>
- 
+
  Det finns två olika typer av inställningar:
-  
+
  * en installation där NodeMCU med vissa sensorer (PM, temperatur etc.) och DNMS är separerade. PCB: erna kallas AIRROHR V1.4 och DNMS - T4 V1.4
  * en kombinerad version av NodeMCU och DNMS på samma PCB: DNMS - T4 + NodeMCU V1.4
-   
+
   Endast varianten där NODEMCU och DNMS separeras beskrivs här. Ta en titt på Helmuts Github för de andra varianterna!
-  
+
    I det här fallet kan anslutningen mellan NodeMCU och DNMS vara så lång som 10m. Detta är viktigt eftersom du måste hitta rätt position för DNMS för att få exakta brusmätningar.
 
 ### Inköpslista

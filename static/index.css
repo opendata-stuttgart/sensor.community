@@ -455,14 +455,14 @@ code {
  *    CSS Remedy, with `svg` added as well.
  *
  *    https://github.com/mozdevs/cssremedy/issues/14
- * 
+ *
  * 2. Add `vertical-align: middle` to align replaced elements more
  *    sensibly by default when overriding `display` by adding a
  *    utility like `inline`.
  *
  *    This can trigger a poorly considered linting error in some
  *    tools but is included by design.
- * 
+ *
  *    https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210
  */
 
@@ -1141,17 +1141,17 @@ h1 {
   background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
 }
 
-.bg-yellow-500 {
+.bg-amber-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(245, 158, 11, var(--tw-bg-opacity));
 }
 
-.bg-green-300 {
+.bg-emerald-300 {
   --tw-bg-opacity: 1;
   background-color: rgba(110, 231, 183, var(--tw-bg-opacity));
 }
 
-.bg-green-500 {
+.bg-emerald-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
 }
@@ -1563,12 +1563,12 @@ h1 {
   color: rgba(17, 24, 39, var(--tw-text-opacity));
 }
 
-.hover\:text-yellow-600:hover {
+.hover\:text-amber-600:hover {
   --tw-text-opacity: 1;
   color: rgba(217, 119, 6, var(--tw-text-opacity));
 }
 
-.hover\:text-yellow-700:hover {
+.hover\:text-amber-700:hover {
   --tw-text-opacity: 1;
   color: rgba(180, 83, 9, var(--tw-text-opacity));
 }

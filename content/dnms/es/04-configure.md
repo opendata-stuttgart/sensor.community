@@ -14,14 +14,14 @@ title: Configurar
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 El ruido está en beta. Envíe las preguntas a </p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
       </div>
     </div>
   </div>
-    
+
 ### Get the ID
 1. Conectar la estación con un cable USB para encender el sensor
 
@@ -48,6 +48,6 @@ title: Configurar
 ### Test the station
 Si no se han hecho más cambios que introducir los datos de la red WiFi, el sensor puede ser "probado" en las siguientes páginas después de unos 10 minutos. En estas páginas hay que buscar el ChipID (en el ejemplo anterior el 13597771).
 
- * [Sensordaten](www.madavi.de/sensor/graph.php) 
- * [Señal WLAN](www.madavi.de/sensor/signal.php) 
-         
+ * [Sensordaten](www.madavi.de/sensor/graph.php)
+ * [Señal WLAN](www.madavi.de/sensor/signal.php)
+

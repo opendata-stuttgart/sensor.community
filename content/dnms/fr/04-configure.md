@@ -13,7 +13,7 @@ title: Configuration
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Le sonomètre est en version béta. Envoyez vos questions à</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -39,7 +39,7 @@ title: Configuration
 
 3. Pour les sonomètres (DNMS) décrits dans les présentes instructions, aucune autre configuration n'est nécessaire.
 
-3. Cliquez sur le bouton 'Enregistrer', la station va redémmarer et se connecter à votre réseau. Elle ne sera plus directement accessible. Vous devriez toutefois pouvoir utiliser une adresse de la forme `airRohr-<ID>.local` (cf. ci dessus) ou bien passer par une adresse IP locale de la forme `192.168.1.<nombre>` (peut varier selon les fournisseurs d'accès) à récuperer dans la liste des appareils connectés à votre box internet. Le firmware flasher permet également de se connecter aux capteurs présents sur le réseau local (Onglet "Rechercher" puis double-clique). 
+3. Cliquez sur le bouton 'Enregistrer', la station va redémmarer et se connecter à votre réseau. Elle ne sera plus directement accessible. Vous devriez toutefois pouvoir utiliser une adresse de la forme `airRohr-<ID>.local` (cf. ci dessus) ou bien passer par une adresse IP locale de la forme `192.168.1.<nombre>` (peut varier selon les fournisseurs d'accès) à récuperer dans la liste des appareils connectés à votre box internet. Le firmware flasher permet également de se connecter aux capteurs présents sur le réseau local (Onglet "Rechercher" puis double-clique).
 <br>
 
 <img src="../docs/airrohr_config_initial.jpg" loading="lazy"/>
@@ -48,10 +48,10 @@ title: Configuration
 ### Tester la station
 Si aucun changement particulier n'a été effectué (autre que la saisie du réseau Wifi) lors de la configuration, vous devriez pouvoir consulter les pages test suivantes après environ 10 minutes. Recherchez simplement l'ID de votre station (par exemple 13597771).
 
- * [Sensordaten](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&theme=light&var-chipID=) 
- * [WLAN-Signal](https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=) 
-        
+ * [Sensordaten](https://api-rrd.madavi.de/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&theme=light&var-chipID=)
+ * [WLAN-Signal](https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=)
+
 
 Ajoutez l'ID de votre station à l'extrémité de l'adresse URL ou bien cherchez là dans laliste déroulante.
 
- 
+

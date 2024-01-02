@@ -14,7 +14,7 @@ title: Konfiguration
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Noise befindet sich in der Beta-Phase. Sende Fragen an</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -49,8 +49,8 @@ title: Konfiguration
 Wenn außer der Eingabe der Daten des WiFi-Netzwerks keine Änderungen vorgenommen wurden, kann der Sensor nach etwa 10 Minuten auf den folgenden Seiten "getestet" werden. Auf diesen Seiten muss nach der chipID gesucht werden (im obigen Beispiel die 13597771).
 
 * [Sensordaten](https://www.madavi.de/sensor/graph.php)
-* [WLAN-Signal](https://www.madavi.de/sensor/signal.php) 
-        
+* [WLAN-Signal](https://www.madavi.de/sensor/signal.php)
 
 
- 
+
+

@@ -14,7 +14,7 @@ title: Configure
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                  噪声正在测试中。发送问题到</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -50,7 +50,7 @@ title: Configure
 如果除了输入WiFi网络数据外，没有其他变化，那么大约10分钟后，传感器可以在以下页面上进行 "测试"。在这些页面上，你必须搜索芯片ID（在上面的例子中是13597771）。
 
 * [Sensordaten](www.madavi.de/sensor/graph.php)
-* [无线局域网信号](www.madavi.de/sensor/signal.php) 
+* [无线局域网信号](www.madavi.de/sensor/signal.php)
 
 
 

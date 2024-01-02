@@ -1,7 +1,7 @@
 ---
 title: Introduction
 ---
- 
+
   <div class="max-w-screen-xl mx-auto pb-5">
     <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
     <div class="flex items-center">
@@ -13,7 +13,7 @@ title: Introduction
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
               Noise is in beta. Send questions to</p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                 Noise@Sensor.Community</a>
         </div>
     </div>
@@ -31,16 +31,16 @@ Check out the original instructions and former versions of the noise sensor on [
 <br>
 
 That repository contains different setups to build the sensor with different kinds of board and PCBs.
- 
+
 <br>
- 
+
  There are two different kinds of setups:
- 
+
 * a setup where the NodeMCU with some sensors (PM, temperature etc.) and the DNMS are separated. The PCBs are called AIRROHR V1.4 and DNMS - T4 V1.4
 * a combined version of the NodeMCU and DNMS on the same PCB: DNMS - T4+NodeMCU V1.4
-  
+
  Only the variant where the NODEMCU and DNMS are separated is described here. Have a look at Helmut's Github for the other variants!
- 
+
   In this case, the connection between the NodeMCU and the DNMS can be as long as 10m. This is important because you need to find the right position for the DNMS to obtain accurate noise measurements.
 
 ### Shopping list
@@ -64,6 +64,6 @@ The PCBs and the weather protection will be described below.
 
 <br>
 
-🙌 Great, you decided to buy the parts online! 
-Unfortunately the delivery can take from days up to three weeks. 
+🙌 Great, you decided to buy the parts online!
+Unfortunately the delivery can take from days up to three weeks.
 Until then enjoy your life️.
