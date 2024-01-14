@@ -13,7 +13,7 @@ title: Introduction
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
               Le sonomètre est en version béta. Envoyez vos questions à</p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                 Noise@Sensor.Community</a>
         </div>
     </div>
@@ -33,18 +33,18 @@ Consultez les instructions originales et les anciennes versions sur le [GitHub d
  Le compte GitHub présente différents montages avec différentes platines et différents microcontrôleurs.
 
  <br>
- 
+
  Il existe deux grands types de montage :
- 
+
 * un montage où le microcontrôleur NodeMCU (portant le détecteur de particules fines, le thermomètre...) et le sonomètre DNMS sont séparés. Les platines sont appelées AIRROHR V1.4 and DNMS - T4 V1.4
 * un montage avec le microcontrôleur NodeMCU et le sonomètre DNMS sur une même platine : DNMS - T4+NodeMCU V1.4
 
 <br>
 
 Seule la variante où le NodeMCU et le DNMS sont séparés est présentée ici. Pour les autres solutions, consultez le GitHub de Helmut Bitter !
- 
-La variante présentée sur cette page permet de séparer le détecteurs de particules fines et le sonomètre avec un câble mesurant jusqu'à 10 mètres. 
-  
+
+La variante présentée sur cette page permet de séparer le détecteurs de particules fines et le sonomètre avec un câble mesurant jusqu'à 10 mètres.
+
 Ceci est particulièrement utile pour pouvoir placer le sonomètre au mieux et obtenir les mesures acoustiques les plus précises.
 
 ### Liste des composants
@@ -68,6 +68,6 @@ Les platines et le boitier sont décrits ci-dessous.
 
 <br>
 
-🙌 Vous avez décidé d'acheter les pièces en ligne, très bien ! 
-La livraison va cependant prendre quelques semaines. 
+🙌 Vous avez décidé d'acheter les pièces en ligne, très bien !
+La livraison va cependant prendre quelques semaines.
 En attendant, profitez de la vie.

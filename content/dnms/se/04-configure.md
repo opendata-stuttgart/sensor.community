@@ -14,14 +14,14 @@ title: Konfigurera
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Buller är i beta. Skicka frågor till</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
       </div>
     </div>
   </div>
-    
+
 ### Få ID
 1. Anslut stationen med en USB-kabel för att slå på sensorn
 
@@ -48,9 +48,9 @@ title: Konfigurera
 ### Testa stationen
 Om inga ändringar har gjorts förutom att ange WiFi-nätverksdata, kan sensorn testas på följande sidor efter cirka 10 minuter. På dessa sidor måste du söka efter ChipID (i exemplet ovanför 13597771).
 
- * [Sensordaten](www.madavi.de/sensor/graph.php) 
- * [WLAN-Signal](www.madavi.de/sensor/signal.php) 
-        
+ * [Sensordaten](www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
- 
+
+

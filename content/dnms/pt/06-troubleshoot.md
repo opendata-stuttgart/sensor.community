@@ -11,7 +11,7 @@ O [ID] também pode ser pesquisado no campo de entrada no canto superior esquerd
 * O sensor está registrado via [https://devices.sensor.community/](https://devices.sensor.community/) e está visível no mapa?
     * O nível do sinal WLAN era fraco no passado?
         aqui está o log do sinal do lado do servidor: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
-        
+
 
 
 ### Problemas com o cabo USB?
@@ -20,14 +20,14 @@ O [ID] também pode ser pesquisado no campo de entrada no canto superior esquerd
 * A configuração de WLAN está LIGADA (o sensor conectado à WLAN configurada)? Se não:
     * o sensor abre um AP (nos primeiros 2-7 minutos após uma reinicialização)?
     * Procure por rede WLAN `airrohr- [ID]`. Paciência, pode demorar 1-2 minutos após a inicialização.
-* Verifique em seu próprio roteador se o sensor está conectado à rede e lembre-se do IP 
+* Verifique em seu próprio roteador se o sensor está conectado à rede e lembre-se do IP
     * como alternativa, use "Discovery" no [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
     * Se sim: conecte ao sensor via IP com um navegador `http://[ip-do-sensor]/`, a interface deve aparecer
     * Se não: o ESP tem problemas, por exemplo fonte de alimentação insuficiente, loop de reinicialização ou similar
 * Conecte o USB a um computador e veja o registro
     * Rastreie o texto na interface serial com o programa do terminal serial (Configurações: baud 9600, 8N1)
         * Linux: tela, minicom, cutecom; Windows: Tera Term; MacOS: tela, minicom, ...
-        * drivers usb2serial adequados possivelmente ainda são necessários, consulte [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)     
+        * drivers usb2serial adequados possivelmente ainda são necessários, consulte [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
     * Lá você poderá ver o que o sensor está fazendo (mensagens de inicialização, conexão WLAN ou AP, medição - somente após 3 minutos)
 
 ### Problemas eletrônicos?
@@ -50,7 +50,7 @@ O [ID] também pode ser pesquisado no campo de entrada no canto superior esquerd
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 O Noise está na versão beta. Envie perguntas para</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>

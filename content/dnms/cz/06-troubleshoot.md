@@ -26,7 +26,7 @@ Do prohlížeče zadejte svoje vlastní údaje v následujícím formátu::
 * Připojte USB k počítači a zkontrolujte log.
     * Sledujte text na sériovém rozhraní pomocí programu sériový terminál (Nastavení: baud 9600, 8N1).
         * Linux: screen, minicom, cutecom; Windows: Tera Term; MacOS: screen, minicom, ...
-        * pro správnou funkci jsou potřeba vhodné ovladače usb2serial [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)     
+        * pro správnou funkci jsou potřeba vhodné ovladače usb2serial [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
     * Zde byste měli vidět co senzor dělá (bootovací zprávy, připojení k WiFi, měření - až po 3 minutách).
 
 ### Problémy s elektronikou?
@@ -49,7 +49,7 @@ Do prohlížeče zadejte svoje vlastní údaje v následujícím formátu::
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Noise is in beta. Send questions to</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>

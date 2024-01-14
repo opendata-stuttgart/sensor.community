@@ -1,7 +1,7 @@
 ---
 title: Introduction
 ---
- 
+
   <div class="max-w-screen-xl mx-auto pb-5">
     <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
     <div class="flex items-center">
@@ -13,7 +13,7 @@ title: Introduction
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
               Hałas jest w fazie beta. Wyślij pytania do</p></p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                 Noise@Sensor.Community</a>
         </div>
     </div>
@@ -31,16 +31,16 @@ Sprawdź oryginalne instrukcje i poprzednie wersje czujnika hałasu na [Helmut B
 <br>
 
 To repozytorium zawiera różne konfiguracje do budowy czujnika z różnych rodzajów płytek i płytek drukowanych.
- 
+
  <br>
- 
+
  Istnieją dwa różne rodzaje ustawień:
- 
+
 * konfiguracja, w której NodeMCU z niektórymi czujnikami (PM, temperatura itp.) i DNMS są rozdzielone. Płytki drukowane nazywają się AIRROHR V1.4 a DNMS - T4 V1.4.
 * połączona wersja NodeMCU i DNMS na tej samej płytce PCB: DNMS - T4+NodeMCU V1.4
-  
+
  Opisany jest tu tylko wariant, w którym NODEMCU i DNMS są rozdzielone. Spójrz na Helmut's Github dla pozostałych wariantów!
- 
+
   W tym przypadku połączenie pomiędzy NodeMCU i DNMS może mieć długość nawet 10 m. Jest to ważne, ponieważ należy znaleźć odpowiednie położenie DNMS, aby uzyskać dokładne pomiary hałasu.
 
 ### Lista zakupów
@@ -64,6 +64,6 @@ Poniżej opisane zostaną płytki drukowane i ochrona przed warunkami atmosferyc
 
 <br>
 
-🙌 Świetnie, zdecydowałeś się na zakup części online! 
-Niestety dostawa może trwać od dni do trzech tygodni. 
+🙌 Świetnie, zdecydowałeś się na zakup części online!
+Niestety dostawa może trwać od dni do trzech tygodni.
 Do tego czasu można korzystać z witryny life️.

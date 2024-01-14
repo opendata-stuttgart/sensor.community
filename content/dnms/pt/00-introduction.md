@@ -1,7 +1,7 @@
 ---
 title: Introdução
 ---
- 
+
   <div class="max-w-screen-xl mx-auto pb-5">
     <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
     <div class="flex items-center">
@@ -13,7 +13,7 @@ title: Introdução
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
               O Noise está na versão beta. Envie perguntas para</p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                 Noise@Sensor.Community</a>
         </div>
     </div>
@@ -31,16 +31,16 @@ Confira as instruções originais e versões anteriores do sensor de ruído no [
 <br>
 
 Esse repositório contém configurações diferentes para construir o sensor com diferentes tipos de placa e PCBs.
- 
+
  <br>
- 
+
  Existem dois tipos diferentes de configurações:
- 
+
 * uma configuração onde o NodeMCU fica com alguns sensores (PM, temperatura etc.) e o DNMS são separados. Os PCBs são chamados de AIRROHR V1.4 e DNMS - T4 V1.4
 * uma versão combinada do NodeMCU e DNMS no mesmo PCB: DNMS - T4 + NodeMCU V1.4
-  
+
  Apenas a variante em que o NODEMCU e o DNMS são separados é descrita aqui. Dê uma olhada no Github do Helmut para as outras variantes!
- 
+
   Neste caso, a conexão entre o NodeMCU e o DNMS pode ser de até 10m. Isso é importante porque você precisa encontrar a posição certa para o DNMS para obter medições de ruído precisas.
 
 ### Lista de compras

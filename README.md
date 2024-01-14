@@ -6,7 +6,6 @@
 ### Prerequisites
 
 * [Node.js (v11+)](https://nodejs.org/)
-* [Yarn (optional)](yarnpkg.com)
 
 ## Get started
 
@@ -16,25 +15,13 @@ inside the folder install the dependencies...
 npm install
 ```
 
-or with yarn
-
-```bash
-yarn install
-```
-
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
 npm run dev or sapper dev
 ```
 
-alternative use yarn
-```bash
-yarn install
-yarn dev or sapper dev
-```
-
-Navigate to [localhost:3000](http://localhost:3000). 
+Navigate to [localhost:3000](http://localhost:3000).
 You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
@@ -58,7 +45,7 @@ Translate the **values** in the locale file:
 ```
 
 Now duplicate `content/airrohr/en` folder and rename it again to language by [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1) coding.
-Also duplicate `content/dnms/en`for the DNMS guide. Translate both 
+Also duplicate `content/dnms/en`for the DNMS guide. Translate both
 
 ![assembly guide](assembly-guide-markdown.png)
 
@@ -106,7 +93,7 @@ const langauges = [
 **4. Add endpoints**
 
  Duplicate inside `src/routes/endpoints/airrohr` or `src/routes/endpoints/dnms`  then `en` folder to the [iso-3166-alpha2](https://en.wikipedia.org/wiki/ISO_3166-1), e.g. `fr`. Inside the `index.json.js` file change line 8.
- 
+
  ````javascript
 import send from '@polka/send';
 import generate_docs from '../../../../utils/generate_docs.js';
@@ -115,24 +102,24 @@ let json;
 
 export function get(req, res) {
     if (!json || process.env.NODE_ENV !== 'production') {
-        json = JSON.stringify(generate_docs('airrohr/fr'));  // <- change the lanuage iso-code 
+        json = JSON.stringify(generate_docs('airrohr/fr'));  // <- change the lanuage iso-code
     }
 
     send(res, 200, json, {
         'Content-Type': 'application/json'
     });
-	
+
 }
 
 ````
 
 
 ## Bugs and feedback
-The website is in early development, and may have the rough edge here and there. 
+The website is in early development, and may have the rough edge here and there.
 
 ## Deployment
 ```bash
-yarn export or sapper export
+npm run export or sapper export
 ```
 
 copy content of `__sapper__/export` to a ftp server

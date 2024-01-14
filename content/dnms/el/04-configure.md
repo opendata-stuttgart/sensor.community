@@ -14,7 +14,7 @@ title: Ρύθμιση παραμέτρων
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                Ο θόρυβος είναι σε beta. Στείλτε ερωτήσεις στο</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -50,6 +50,6 @@ title: Ρύθμιση παραμέτρων
 Εάν δεν έχουν γίνει άλλες αλλαγές εκτός από την εισαγωγή των δεδομένων του δικτύου WiFi, ο αισθητήρας μπορεί να "δοκιμαστεί" στις επόμενες σελίδες μετά από περίπου 10 λεπτά. Σε αυτές τις σελίδες πρέπει να αναζητήσετε το ChipID (στο παραπάνω παράδειγμα το 13597771).
 
 * [Sensordaten](www.madavi.de/sensor/graph.php)
-* [WLAN-Signal](www.madavi.de/sensor/signal.php) 
-        
+* [WLAN-Signal](www.madavi.de/sensor/signal.php)
+
 

@@ -60,13 +60,13 @@
                     </div>
                 </div>
 
-                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-green-500 rounded-lg max-w-xs shadow-lg">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-emerald-500 rounded-lg max-w-xs shadow-lg">
                     <div class="relative p-20 px-20 flex items-center justify-center text-white">
                         #00835C
                     </div>
                 </div>
 
-                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-green-300 rounded-lg max-w-xs shadow-lg">
+                <div class="flex-shrink-0 m-6 relative overflow-hidden bg-emerald-300 rounded-lg max-w-xs shadow-lg">
                     <div class="relative p-20 px-20 flex items-center justify-center text-white">
                         #0d2538
                     </div>

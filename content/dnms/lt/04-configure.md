@@ -14,7 +14,7 @@ title: Konfigūruoti
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Triukšmas yra beta versijoje. Klausimus siųskite adresu</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -44,8 +44,8 @@ title: Konfigūruoti
 Jei nebuvo atlikta jokių pakeitimų, išskyrus "WiFi" tinklo duomenų įvedimą, maždaug po 10 minučių jutiklį galima "išbandyti" tolesniuose puslapiuose. Šiuose puslapiuose reikia ieškoti ChipID (aukščiau pateiktame pavyzdyje 13597771).
 
 * [Sensordaten](www.madavi.de/sensor/graph.php)
-* [WLAN-signalas](www.madavi.de/sensor/signal.php) 
-        
+* [WLAN-signalas](www.madavi.de/sensor/signal.php)
+
 
 
 

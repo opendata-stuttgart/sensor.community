@@ -11,7 +11,7 @@ El [ID] también se puede buscar en el campo de entrada en la esquina superior i
 * ¿Se registra el sensor a través de [https://devices.sensor.community/](https://devices.sensor.community/) y es el sensor visible en el mapa?
     * ¿Fue el nivel de la señal WLAN débil en el pasado?
         Aquí está el registro de la señal del lado del servidor: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
-        
+
 
 ### ¿Problemas con el cable USB?
 ### Check power supply: Cable USB
@@ -19,14 +19,14 @@ El [ID] también se puede buscar en el campo de entrada en la esquina superior i
 * ¿Está la configuración de la WLAN bien (el sensor se conecta a la WLAN configurada) Si no:
     * ¿El sensor abre un AP (en los primeros 2-7 minutos después de un reinicio)?
     * Busca la red WLAN "airrohr-[ID]``. Paciencia, puede tardar 1-2 minutos después del arranque.
-* Comprueba en tu propio router si el sensor está conectado a la red, entonces recuerda la IP 
+* Comprueba en tu propio router si el sensor está conectado a la red, entonces recuerda la IP
     * alternativamente usa "Discovery" en la [flashtool](https://github.com/opendata-stuttgart/airrohr-firmware-flasher//)
-    * Si es así: conéctese al sensor a través de IP con un navegador `http://[ip-de-el-sensor]/` , la interfaz debería aparecer 
+    * Si es así: conéctese al sensor a través de IP con un navegador `http://[ip-de-el-sensor]/` , la interfaz debería aparecer
     * Si no: el ESP tiene problemas, por ejemplo, suministro de energía insuficiente, bucle de reinicio o similar
-* Conecta el USB a un ordenador y mira el registro 
+* Conecta el USB a un ordenador y mira el registro
     * Pista de texto en la interfaz en serie con el programa de terminal en serie (Ajustes: baud 9600, 8N1)
         * Linux: pantalla, minicom, cutecom; Windows: Tera Term; MacOS: screen, minicom, ...
-        * Posiblemente los drivers usb2seriales adecuados todavía son necesarios, ver [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)     
+        * Posiblemente los drivers usb2seriales adecuados todavía son necesarios, ver [https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen](https://github.com/opendata-stuttgart/meta/wiki/Firmware-einspielen)
     * Allí deberías ser capaz de ver lo que el sensor está haciendo (mensajes de arranque, conexión WLAN o AP, medición - sólo después de 3 minutos)
 
 ### ¿Problemas electrónicos?
@@ -49,7 +49,7 @@ El [ID] también se puede buscar en el campo de entrada en la esquina superior i
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 El ruido está en beta. Envíe las preguntas a </p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>

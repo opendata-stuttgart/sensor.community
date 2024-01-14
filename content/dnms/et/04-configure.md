@@ -15,7 +15,7 @@ title: Konfigureeri
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Müra on beeta-versioonis. Saada küsimused aadressile</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -51,10 +51,10 @@ title: Konfigureeri
 Kui peale WiFi võrguandmete sisestamise muid muudatusi ei ole tehtud, saab andurit umbes 10 minuti pärast järgmistel lehekülgedel "testida". Nendel lehekülgedel tuleb otsida ChipID (ülaltoodud näites 13597771).
 
 * [Sensordaten](www.madavi.de/sensor/graph.php)
-* [WLAN-signaal](www.madavi.de/sensor/signal.php) 
-        
+* [WLAN-signaal](www.madavi.de/sensor/signal.php)
 
 
- 
+
+
 
 

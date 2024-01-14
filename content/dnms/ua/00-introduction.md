@@ -1,7 +1,7 @@
 ---
 title: Вступ
 ---
- 
+
   <div class="max-w-screen-xl mx-auto pb-5">
     <div class="p-2 rounded-lg bg-indigo-100 shadow-lg sm:p-3">
     <div class="flex items-center">
@@ -13,7 +13,7 @@ title: Вступ
         <div class="flex-wrap flex">
           <p class="pt-1 text-indigo-700 font-medium">
               Шум знаходиться в бета-версії. Надішліть запитання</p>
-        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+        <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                 Noise@Sensor.Community</a>
         </div>
     </div>
@@ -31,16 +31,16 @@ title: Вступ
 <br>
 
 Це сховище містить різні установки для побудови датчика з різними видами плати та друкованих плат.
- 
+
  <br>
- 
+
  Існує два різні типи установок:
-  
+
 * налаштування, де NodeMCU з деякими датчиками (PM, температура тощо) та DNMS розділені. Друковані плати називаються AIRROHR V1.4, а DNMS - T4 V1.4
 * комбінована версія NodeMCU і DNMS на одній друкованій платі: DNMS - T4 + NodeMCU V1.4
-  
+
 Тут описаний лише варіант, де NODEMCU та DNMS розділені. Погляньте на інші варіанти Github Гельмута!
- 
+
   У цьому випадку зв’язок між NodeMCU та DNMS може становити до 10 м. Це важливо, оскільки вам потрібно знайти правильне положення для DNMS, щоб отримати точні вимірювання шуму.
 
 ### Список покупок

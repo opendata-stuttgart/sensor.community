@@ -14,7 +14,7 @@ title: Einleitung
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Sende deine Fragen an</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
@@ -30,12 +30,12 @@ title: Einleitung
 
  <br>
 
-Es gibt zwei verschiedene Setups:  
-Die Schallmessung ist mit dem WiFi-Komunnikation getrennt oder zusammen auf einer Platine montiert. 
+Es gibt zwei verschiedene Setups:
+Die Schallmessung ist mit dem WiFi-Komunnikation getrennt oder zusammen auf einer Platine montiert.
 * Die NodeMCU mit Sensoren (PM, Temperatur etc.) und das DNMS sind getrennt. Die Platinen heißen DNMS-T4.0-V1.x und AIRROHR-V1.x
 * Eine kombinierte Version auf der gleichen Platine: DNMS-T4.0+NodeMCU-V1.x
 
-Hier wird nur die erste, getrennte, Variante beschrieben. Die anderen Variante des Lärmsensors gibt es auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).   
+Hier wird nur die erste, getrennte, Variante beschrieben. Die anderen Variante des Lärmsensors gibt es auf [Helmut Bitter's Github](https://github.com/hbitter/DNMS/tree/master/Manual).
 In der geteilten Variante kann die Verbindung zwischen dem NodeMCU und dem DNMS bis zu 10m lang sein. Dies ist voteilhaft, weil man dadurch eine schalltechnisch bessere Position für das DNMS erreichen kann, um genaue Schallmessungen zu bekommen.
 
 ### Einkaufsliste

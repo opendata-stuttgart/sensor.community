@@ -11,7 +11,7 @@ title: Виправлення неполадок
 * Чи зареєстрований датчик через [https://devices.sensor.community/](https://devices.sensor.community/) і чи датчик видно на карті?
     * Чи був рівень сигналу WLAN слабким у минулому?
         ось сигнал журналу сигналів на стороні сервера: `https://api-rrd.madavi.de/grafana/d/Fk6mw1WGz/wifi-signal?orgId=1&var-chipID=esp8266-[ID]`
-        
+
 
 ### Проблеми з кабелем USB?
 * Перевірте джерело живлення: USB-кабель
@@ -49,7 +49,7 @@ title: Виправлення неполадок
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Шум знаходиться в бета-версії. Надішліть запитання </p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>

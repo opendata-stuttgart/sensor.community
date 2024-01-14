@@ -14,14 +14,14 @@ title: Configure
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Noise is in beta. Send questions to</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
       </div>
     </div>
   </div>
-    
+
 ### Get the ID
 1. Connect the station with an USB cable to power up the sensor
 
@@ -48,9 +48,9 @@ title: Configure
 ### Test the station
 If no changes have been made other than entering the WiFi network data, the sensor can be 'tested' on the following pages after about 10 minutes. On these pages you have to search for the ChipID (in the example above the 13597771).
 
- * [Sensordaten](www.madavi.de/sensor/graph.php) 
- * [WLAN-Signal](www.madavi.de/sensor/signal.php) 
-        
+ * [Sensordaten](www.madavi.de/sensor/graph.php)
+ * [WLAN-Signal](www.madavi.de/sensor/signal.php)
 
 
- 
+
+

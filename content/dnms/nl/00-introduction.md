@@ -13,7 +13,7 @@ title: Inleiding
           <div class="flex-wrap flex">
             <p class="pt-1 text-indigo-700 font-medium">
                 Ruis is in beta. Vragen kunt u sturen naa</p>
-          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-yellow-600">
+          <a href="mailto:Noise@Sensor.Community" class="ml-1 font-medium underline text-white hover:text-amber-600">
                   Noise@Sensor.Community</a>
           </div>
            </div>
