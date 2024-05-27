@@ -6,7 +6,7 @@ title: Configure
 
 2. The station will attempt to connect to the configured WiFi network. For a new set up, the connection will fail and the station will create a WiFi network with the name `Particulate Matter ID` , `Feinstaubsensor-ID` or `airRohr-ID`. The ID is the **ChipID** (for example 13597771). **Please note this number down, as you will need it for the registration**
 
-3. Connect to the WiFi network created by the station on your computer or smartphone. Wait until the connection is established.<br>*Android*: If the connection disconnects immediately, you may have to deactivate the option 'Smart network switch' under 'Connections -> WiFi -> Advanced'.
+3. Connect to the WiFi network created by the station on your computer or smartphone. If prompted for a password use `airrohrcfg`. Wait until the connection is established.<br>*Android*: If the connection disconnects immediately, you may have to deactivate the option 'Smart network switch' under 'Connections -> WiFi -> Advanced'.
 
 4. Open your browser and type in [http://192.168.4.1/](http://192.168.4.1/).
 
