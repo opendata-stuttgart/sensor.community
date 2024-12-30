@@ -1,0 +1,199 @@
+{
+  "nav": {
+    "home": "Početna stranica",
+    "docs": "Uputstva",
+    "blog": "Blog",
+    "projects": "Projekti",
+    "forum": "Forum",
+    "sensor": "Upute",
+    "donate": "Donacije",
+    "langHelpWanted": "Potrebna pomoć",
+    "langCallTo": "Promjena jezika?",
+    "langDescription": "Omogućite prijevod putem GitHub-a"
+  },
+  "error": {
+    "errorStatus": "Došlo je do {status} pogreške.",
+    "reloadPage": "Pokušajte ponovo učitati stranicu.",
+    "offline": "Čini se da niste umreženi.",
+    "submitError": "Ako se pogreška nastavi pojavljivati, navratite na <a href=\"forum.sensor.community\">our forum</a> i javite nam ili dostavite problem na <a href=\"https://github.com/opendata-stuttgart/\">GitHub</a>. Hvala!"
+  },
+  "index": {
+    "metaDescription": "Izgradite svoj uradi sam senzor i postanite dio svjetske mreže građanske znanosti, otvorenih podataka i građanske tehnologije. Podržano od strane mnogih suradnika \uD83D\uDC95",
+    "metaTitle": "Sensor.Community \uD83C\uDF10 Izgradite vlastiti senzor i pridružite se svjetskoj mreži građanskih tehnologija",
+    "h1-build": "Izgradite vlastiti senzor",
+    "h1-become": "i postanite dio ",
+    "h1-civic-tech": "svjetske Civic Tech mreže \uD83C\uDF10",
+    "h1-support": "Podržano od strane mnogih  ",
+    "h1-contributors": "suradnika \uD83D\uDC95",
+    "inNumbers-title": "Sensor.Community u brojkama",
+    "inNumbers-activeSensors": "Aktivnih senzora na svijetu",
+    "inNumbers-countries": "Države",
+    "inNumbers-dataPoints": "Podatkovne točke",
+    "inNumbers-communityProjects": "Projekti zajednice",
+    "inNumbers-communityHubs": "Laboratoriji",
+    "inNumbers-commits": "GitHub Prilozi",
+    "inNumbers-fetching": "... dohvat podataka",
+    "inNumbers-error": "Nastala je pogreška!",
+    "message-description": "Sensor.Community je globalna senzorska mreža vodjena suradnicima koja stvara otvorene podatke o okolišu.",
+    "message-mission": "Naša misija je nadahnuti i obogatiti živote ljudi nudeći platformu za kolektivnu znatiželju koja je u prirodi istinska, radosna i pozitivna.",
+    "message-hubs": "Sensor.Community ima globalna središta u Stuttgartu, Sofiji i Varšavi."
+  },
+  "sensor": {
+    "metaDescription": "",
+    "metaTitle": "Pronađite svoj senzor i upute za izradu svog uradi-sam senzora fine prašine",
+    "h1": "Setovi za samogradnju",
+    "subtitle": "Odaberi uputstvo i sagradi svoj senzor.",
+    "airSensorTitle": "Zrak",
+    "noiseSensorTitle": "Buka"
+  },
+  "guide": {
+    "editOnGithub": "izmijeni na Github"
+  },
+  "airrohr": {
+    "metaTitle": "Izgradite svoj senzor kvalitete zraka.",
+    "metaDescription": ""
+  },
+  "dnms": {
+    "metaTitle": "Izgradite vlastiti senzor za mjerenje buke.",
+    "metaDescription": ""
+  },
+  "forum": {
+    "metaDescription": "",
+    "metaTitle": "Forum",
+    "h1": "Forum",
+    "subtitle": "Uskoro",
+    "getNotified": "\uD83D\uDC8C Pretplatite se"
+  },
+  "donate": {
+    "metaDescription": "We are non-profit, non-corporate and non-compromised. People like you help us. We rely on donations to carry out our mission.",
+    "metaTitle": "Donirajte - pomozite nam pokazujući svoju ljubav",
+    "h1": "Pokažite svoju podršku",
+    "description": "Mi smo neprofitni, nekompromitirani i nekorporativni. Ljudi poput vas nam pomažu. Oslanjamo se na donacije u izvršavanju naše misije.",
+    "section": "Načini podrške",
+    "campaign": "Provođenje kampanje",
+    "donation": "Direktne donacije",
+    "holder": "Vlasnik računa",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bank": "Banka",
+    "intendedUse": "Opis namjene",
+    "donationDescription": "Änderwerk gemeinnützige GmbH priznata je kao neprofitna organizacija."
+  },
+  "blog": {
+    "metaDescription": "Novosti",
+    "metaTitle": "Novosti",
+    "h1": "Nedavni prilozi",
+    "description": " Pronađi novosti ili druge zanimljive informacije"
+  },
+  "contributors": {
+    "metaDescription": "Ljudi koji stoje iza projekta",
+    "metaTitle": "Sensor.Community suradnici",
+    "h1": "Pozdrav od ekipe \uD83D\uDC4B",
+    "description": "Upoznajte tim koji radi iza kulisa kako bi ojačali Sensor.Community.",
+    "contactBottom": "\uD83D\uDCEEKoristite opcije za kontakt na dnu stranice.",
+    "meetTeam": "Upoznajte tim"
+  },
+  "projects": {
+    "metaDescription": "Pronađite mobilne aplikacije, web-stranice,... naše drage zajednice \uD83D\uDC96",
+    "metaTitle": "Projekti zajednice",
+    "h1": "Community Projects",
+    "description": "Find mobile apps, websites,... from our lovely community \uD83D\uDC96️",
+    "submitIdea": "Have a great project? Share it with the community!",
+    "submitProject": "Submit your project →"
+  },
+  "hubs": {
+    "metaDescription": "Find communities around the world \uD83D\uDC96️",
+    "metaTitle": "Community Hubs",
+    "h1": "Community Hubs",
+    "description": "Find communities around the world \uD83D\uDC96️️"
+  },
+  "campaigns": {
+    "title": "Pridružite se kampanji"
+  },
+  "campaign": {
+    "h1": "Kampanja",
+    "subtitle": "Coming soon",
+    "phase1": "Phase 1:",
+    "phase2": "Phase 2:",
+    "phase3": "Phase 3:",
+    "refs": "Sensor.Community campaign to bring sensors at every reference station in this world.\n",
+    "refs-metaTitle": "Sensor.Community campaign to bring sensors at every reference station in this world.\n",
+    "refs-phase1": "Display locations of reference stations.\n",
+    "refs-phase2": "Display meta information of reference stations.\n",
+    "refs-phase3": "Display measurement values of reference stations.\n",
+    "sensor2school": "Sensor.Community campaign to bring sensors at every school in this world.\n",
+    "sensor2school-metaTitle": "Sensor.Community campaign to bring sensors at every school in this world.\n",
+    "sensor2school-phase1": "Register and become an open environmental data contributor.\n",
+    "sensor2school-phase2": "Connect with the global Sensor.Community.\n",
+    "sensor2school-phase3": "Become data driven citizen and support your local community.\n",
+    "sensor2library": "Sensor.Community campaign to bring sensors at every library in this world.\n",
+    "sensor2library-metaTitle": "Sensor.Community campaign to bring sensors at every library in this world.\n",
+    "zero200": "#zero200 campaign supports you in launching your local Sensor.Community group.\n",
+    "zero200-metaTitle": "#zero200 campaign supports you in launching your local Sensor.Community group.\n",
+    "no2": "We measure NO2 with diffusion tubes.\n",
+    "no2-metaTitle": "We measure NO2 with diffusion tubes.\n",
+    "no2-phase1": "Launching on 01.10.2020 - 9 cities in Europe measure with 30 NO2 diffusion tubes each.\n",
+    "no2-phase2": "New Map to display all NO2 diffusion tubes measurements.\n",
+    "no2-phase3": "Adding all other NO2 diffusion tube campaigns worldwide to the Map.\n",
+    "getNotified": "\uD83D\uDC8C Subscribe",
+    "map": "Open the map in a separate tab"
+  },
+  "collaborations": {
+    "h1": "Collaborations",
+    "subtitle": "Coming soon",
+    "getNotified": "\uD83D\uDC8C Subscribe"
+  },
+  "location": {
+    "h1": "Location",
+    "subtitle": "Coming soon",
+    "getNotified": "\uD83D\uDC8C Subscribe"
+  },
+  "partnership": {
+    "title": "Collaborations"
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "general": "Kontakt",
+    "general-subtitle": "opća pitanja?",
+    "partnership": "Partnerstvo",
+    "partnership-subtitle": "želite surađivati ​​s nama?",
+    "press": "Mediji",
+    "press-subtitle": "ideje za članke?",
+    "tech": "Tech",
+    "tech-subtitle": "tehnička pitanja?"
+  },
+  "footer": {
+    "importantLinks": "važne poveznice",
+    "sitemap": "Sitemap",
+    "license": "License",
+    "socialLinks": "Connect",
+    "blog": "Blog",
+    "donate": "Donate",
+    "privacy" : "Privacy & Terms",
+    "communityProjects": "Community Projects",
+    "communityHubs": "Community Hubs",
+    "contributors": "Contributors",
+    "mission" : "Making the world a better place through community driven, open environmental data.",
+    "withLove": "Made with \uD83D\uDC95 in Stuttgart, Germany"
+  },
+  "imprint": {
+    "h1": "Imprint & Privacy",
+    "lastModified": "Last Modified: ",
+    "imprint": "Imprint",
+    "imprintName": "Name: Rajko Zschiegner",
+    "imprintStreet": "Street:  Reichenbacher Str. 20",
+    "imprintPostalCode": "Zip Code: 07973 Greiz",
+    "imprintCountry": "Country: Germany",
+    "imprintMail": "Email: rajko@sensor.community",
+    "privacyPolicy": "Privacy",
+    "privacyPolicyContact": "Responsible",
+    "privacyPolicyDesc": "With this privacy policy we would like to inform you about the type, scope and purpose of the processing of personal data on our website. Personal data are all data that have a personal reference to you, e.g. name, address, e-mail address or user behaviour. With regard to the terms used, such as \"processing\" or \"responsible person\", we refer to the definitions in Art. 4 of the Basic Data Protection Regulation (DSGVO)",
+    "privacyPolicyName": "Name: Rajko Zschiegner",
+    "privacyPolicyStreet": "Street:  Reichenbacher Str. 20",
+    "privacyPolicyPostalCode": "Zip code: 07973 Greiz",
+    "privacyPolicyCountry": "Country: Germany",
+    "privacyPolicyMail": "Email: rajko@sensor.community",
+    "privacyPolicyContactTitle": "Contact via e-mail, social media or telephone",
+    "privacyPolicyContactDescription": "As far as you address the e-mail, telephone or social media offered on our website and provide us with personal data, these data will be automatically stored and processed by our team to process your inquiry. These data are only processed for correspondence with you. We need your e-mail address to be able to answer your inquiry. We need your telephone number in order to be able to answer your callback request. Legal basis: The legal basis for the use of your data as described above is Art. 6 para. 1 lit. a DSGVO. Deletion: The personal data collected by us will be deleted if they are no longer required. We check the necessity every 2 years. You can also revoke the data processing at any time."
+  }
+}

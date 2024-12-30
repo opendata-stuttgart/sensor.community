@@ -22,7 +22,7 @@
     }
 
     const langauges = [
-        "en", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt", "ja", "zh", "da", "el", "et", "hu", "lt", "lv", "ro", "sl"
+        "en", "de", "fr", "it", "sk", "ru", "cz", "bg", "pl", "es", "nl", "ua", "se", "pt", "ja", "zh", "da", "el", "et", "hu", "lt", "lv", "ro", "sl", "hr"
     ].sort()
 </script>
 
@@ -45,6 +45,8 @@
                         {flag("ee")}
                     {:else if lang == "sl"}
                         {flag("si")}
+                    {:else if lang == "hr"}
+                        {flag("hr")}
                     {:else}
                 {flag(lang)}
             {/if}</span>
@@ -84,6 +86,8 @@
                             {flag("ee")}
                         {:else if lang == "sl"}
                             {flag("si")}
+                        {:else if lang == "hr"}
+                            {flag("hr")}
                         {:else}
                             {flag(lang)}
                         {/if} {lang}</a>

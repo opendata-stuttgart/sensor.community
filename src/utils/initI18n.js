@@ -23,6 +23,7 @@ import lv from '../../locales/lv';
 import ro from '../../locales/ro';
 import sl from '../../locales/sl';
 import zh from '../../locales/zh';
+import hr from '../../locales/hr';
 
 function initI18n(lng = 'en') {
   i18next.init({
@@ -51,7 +52,8 @@ function initI18n(lng = 'en') {
       lv,
       ro,
       sl,
-      zh
+      zh,
+      hr
     },
     fallbackLng: {
       'de-CH': ['de'],
