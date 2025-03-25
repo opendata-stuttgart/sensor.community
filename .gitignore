@@ -156,3 +156,4 @@ typings/
 /__sapper__/
 
 .DS_Store
+/.vs/
