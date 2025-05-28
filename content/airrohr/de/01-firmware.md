@@ -2,7 +2,7 @@
 title: Treiber & Firmware
 ---
 
-Wir haben die Firmware bereits vorbereitet. Du muss nur noch Treiber installieren und die NodeMCU (ESP8266) flashen. 
+Wir haben die Firmware bereits vorbereitet. Du musst nur noch Treiber installieren und die NodeMCU (ESP8266) flashen.
 
 Um mit deinem ESP8266 zu kommunizieren, benötigst du den USB-2-Seriell-Treiber für dein Betriebssystem. 
 

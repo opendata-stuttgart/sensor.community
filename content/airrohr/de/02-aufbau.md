@@ -70,8 +70,8 @@ Verwende den Kabelbinder, um die NodeMCU (ESP8266) und den SDS011-Sensor so zu v
 * Führe das USB-Kabel durch das Rohr. Montiere den SDS011 so, dass die NodeMCU nach oben und der Lüfter nach unten zeigt.
  
 ##### Sensor in das Rohr einschieben
-* Schiebe die Teile in das Rohr, so dass es innen eingeklemmt wird.
-* USB-Kabel, flexibler Schlauch und BME280 sollten aus dem Ende des Schlauchs herausschauen.
+* Schiebe die Teile in das Rohr, sodass es innen eingeklemmt wird.
+* USB-Kabel, flexibler Schlauch und BME280 sollten aus dem Ende des Rohrs herausschauen.
 * Schiebe das andere Rohr drauf.
 
 <img src="../docs/airrohr/sds011-jammed-into-tube.jpeg" loading="lazy"/>
